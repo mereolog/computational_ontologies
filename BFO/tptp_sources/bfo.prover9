@@ -1,0 +1,1262 @@
+% This is the merged version of BFO 2020 Axiomatization, generated 2021/11/12
+% The sources were authored by: Alan Ruttenberg - alanruttenberg@gmail.com
+% The most recent version of this file will always be in the GitHub repository https://github.com/bfo-ontology/bfo-2020
+% This work is licensed under a Creative Commons "Attribution 4.0 International" license: https://creativecommons.org/licenses/by/4.0/
+
+% Section: Universal Declaration
+
+set(prolog_style_variables).
+assign(max_megs, 16000). 
+
+
+formulas(assumptions).
+
+% role is a universal
+universal(role) # label("role-is-a-universal") .
+
+% site is a universal
+universal(site) # label("site-is-a-universal") .
+
+% object is a universal
+universal(object) # label("object-is-a-universal") .
+
+% history is a universal
+universal(history) # label("history-is-a-universal") .
+
+% process is a universal
+universal(process) # label("process-is-a-universal") .
+
+% quality is a universal
+universal(quality) # label("quality-is-a-universal") .
+
+% function is a universal
+universal(function) # label("function-is-a-universal") .
+
+% fiat-line is a universal
+universal(fiatLine) # label("fiat-line-is-a-universal") .
+
+% occurrent is a universal
+universal(occurrent) # label("occurrent-is-a-universal") .
+
+% continuant is a universal
+universal(continuant) # label("continuant-is-a-universal") .
+
+% fiat-point is a universal
+universal(fiatPoint) # label("fiat-point-is-a-universal") .
+
+% disposition is a universal
+universal(disposition) # label("disposition-is-a-universal") .
+
+% fiat-surface is a universal
+universal(fiatSurface) # label("fiat-surface-is-a-universal") .
+
+% spatial-region is a universal
+universal(spatialRegion) # label("spatial-region-is-a-universal") .
+
+% material-entity is a universal
+universal(materialEntity) # label("material-entity-is-a-universal") .
+
+% temporal-region is a universal
+universal(temporalRegion) # label("temporal-region-is-a-universal") .
+
+% fiat-object-part is a universal
+universal(fiatObjectPart) # label("fiat-object-part-is-a-universal") .
+
+% object-aggregate is a universal
+universal(objectAggregate) # label("object-aggregate-is-a-universal") .
+
+% process-boundary is a universal
+universal(processBoundary) # label("process-boundary-is-a-universal") .
+
+% temporal-instant is a universal
+universal(temporalInstant) # label("temporal-instant-is-a-universal") .
+
+% immaterial-entity is a universal
+universal(immaterialEntity) # label("immaterial-entity-is-a-universal") .
+
+% realizable-entity is a universal
+universal(realizableEntity) # label("realizable-entity-is-a-universal") .
+
+% temporal-interval is a universal
+universal(temporalInterval) # label("temporal-interval-is-a-universal") .
+
+% relational-quality is a universal
+universal(relationalQuality) # label("relational-quality-is-a-universal") .
+
+% spatiotemporal-region is a universal
+universal(spatiotemporalRegion) # label("spatiotemporal-region-is-a-universal") .
+
+% independent-continuant is a universal
+universal(independentContinuant) # label("independent-continuant-is-a-universal") .
+
+% continuant-fiat-boundary is a universal
+universal(continuantFiatBoundary) # label("continuant-fiat-boundary-is-a-universal") .
+
+% one-dimensional-spatial-region is a universal
+universal(oneDimensionalSpatialRegion) # label("one-dimensional-spatial-region-is-a-universal") .
+
+% two-dimensional-spatial-region is a universal
+universal(twoDimensionalSpatialRegion) # label("two-dimensional-spatial-region-is-a-universal") .
+
+% one-dimensional-temporal-region is a universal
+universal(oneDimensionalTemporalRegion) # label("one-dimensional-temporal-region-is-a-universal") .
+
+% zero-dimensional-spatial-region is a universal
+universal(zeroDimensionalSpatialRegion) # label("zero-dimensional-spatial-region-is-a-universal") .
+
+% generically-dependent-continuant is a universal
+universal(genericallyDependentContinuant) # label("generically-dependent-continuant-is-a-universal") .
+
+% three-dimensional-spatial-region is a universal
+universal(threeDimensionalSpatialRegion) # label("three-dimensional-spatial-region-is-a-universal") .
+
+% zero-dimensional-temporal-region is a universal
+universal(zeroDimensionalTemporalRegion) # label("zero-dimensional-temporal-region-is-a-universal") .
+
+% specifically-dependent-continuant is a universal
+universal(specificallyDependentContinuant) # label("specifically-dependent-continuant-is-a-universal") .
+
+% universals are not particulars
+-(exists x  (((universal(x)) & (particular(x))))) # label("universals-particulars-disjoint") .
+
+% history is subclass of process
+all t all x  ((instanceOf(x,history,t)) -> (instanceOf(x,process,t))) # label("history-isa-process") .
+
+% process is subclass of occurrent
+all t all x  ((instanceOf(x,process,t)) -> (instanceOf(x,occurrent,t))) # label("process-isa-occurrent") .
+
+% function is subclass of disposition
+all t all x  ((instanceOf(x,function,t)) -> (instanceOf(x,disposition,t))) # label("function-isa-disposition") .
+
+% object is subclass of material-entity
+all t all x  ((instanceOf(x,object,t)) -> (instanceOf(x,materialEntity,t))) # label("object-isa-material-entity") .
+
+% role is subclass of realizable-entity
+all t all x  ((instanceOf(x,role,t)) -> (instanceOf(x,realizableEntity,t))) # label("role-isa-realizable-entity") .
+
+% site is subclass of immaterial-entity
+all t all x  ((instanceOf(x,site,t)) -> (instanceOf(x,immaterialEntity,t))) # label("site-isa-immaterial-entity") .
+
+% If something is an instance of temporal region at t, then t is part of that temporal region
+all ti all t  ((instanceOf(ti,temporalRegion,t)) -> (temporalPartOf(t,ti))) # label("time-once") .
+
+% temporal-region is subclass of occurrent
+all t all x  ((instanceOf(x,temporalRegion,t)) -> (instanceOf(x,occurrent,t))) # label("temporal-region-isa-occurrent") .
+
+% disposition, role are mutually disjoint
+((-(exists x exists t  (((instanceOf(x,disposition,t)) & (instanceOf(x,role,t))))))) # label("disposition+role-are-mutually-disjoint") .
+
+% process-boundary is subclass of occurrent
+all t all x  ((instanceOf(x,processBoundary,t)) -> (instanceOf(x,occurrent,t))) # label("process-boundary-isa-occurrent") .
+
+% relational-quality is subclass of quality
+all t all x  ((instanceOf(x,relationalQuality,t)) -> (instanceOf(x,quality,t))) # label("relational-quality-isa-quality") .
+
+% disposition is subclass of realizable-entity
+all t all x  ((instanceOf(x,disposition,t)) -> (instanceOf(x,realizableEntity,t))) # label("disposition-isa-realizable-entity") .
+
+% continuant, occurrent are mutually disjoint
+((-(exists x exists t  (((instanceOf(x,continuant,t)) & (instanceOf(x,occurrent,t))))))) # label("continuant+occurrent-are-mutually-disjoint") .
+
+% spatiotemporal-region is subclass of occurrent
+all t all x  ((instanceOf(x,spatiotemporalRegion,t)) -> (instanceOf(x,occurrent,t))) # label("spatiotemporal-region-isa-occurrent") .
+
+% fiat-object-part is subclass of material-entity
+all t all x  ((instanceOf(x,fiatObjectPart,t)) -> (instanceOf(x,materialEntity,t))) # label("fiat-object-part-isa-material-entity") .
+
+% object-aggregate is subclass of material-entity
+all t all x  ((instanceOf(x,objectAggregate,t)) -> (instanceOf(x,materialEntity,t))) # label("object-aggregate-isa-material-entity") .
+
+% spatial-region is subclass of immaterial-entity
+all t all x  ((instanceOf(x,spatialRegion,t)) -> (instanceOf(x,immaterialEntity,t))) # label("spatial-region-isa-immaterial-entity") .
+
+% independent-continuant is subclass of continuant
+all t all x  ((instanceOf(x,independentContinuant,t)) -> (instanceOf(x,continuant,t))) # label("independent-continuant-isa-continuant") .
+
+% fiat-line is subclass of continuant-fiat-boundary
+all t all x  ((instanceOf(x,fiatLine,t)) -> (instanceOf(x,continuantFiatBoundary,t))) # label("fiat-line-isa-continuant-fiat-boundary") .
+
+% quality, realizable-entity are mutually disjoint
+((-(exists x exists t  (((instanceOf(x,quality,t)) & (instanceOf(x,realizableEntity,t))))))) # label("quality+realizable-entity-are-mutually-disjoint") .
+
+% fiat-point is subclass of continuant-fiat-boundary
+all t all x  ((instanceOf(x,fiatPoint,t)) -> (instanceOf(x,continuantFiatBoundary,t))) # label("fiat-point-isa-continuant-fiat-boundary") .
+
+% fiat-surface is subclass of continuant-fiat-boundary
+all t all x  ((instanceOf(x,fiatSurface,t)) -> (instanceOf(x,continuantFiatBoundary,t))) # label("fiat-surface-isa-continuant-fiat-boundary") .
+
+% material-entity is subclass of independent-continuant
+all t all x  ((instanceOf(x,materialEntity,t)) -> (instanceOf(x,independentContinuant,t))) # label("material-entity-isa-independent-continuant") .
+
+% immaterial-entity is subclass of independent-continuant
+all t all x  ((instanceOf(x,immaterialEntity,t)) -> (instanceOf(x,independentContinuant,t))) # label("immaterial-entity-isa-independent-continuant") .
+
+% quality is subclass of specifically-dependent-continuant
+all t all x  ((instanceOf(x,quality,t)) -> (instanceOf(x,specificallyDependentContinuant,t))) # label("quality-isa-specifically-dependent-continuant") .
+
+% continuant-fiat-boundary is subclass of immaterial-entity
+all t all x  ((instanceOf(x,continuantFiatBoundary,t)) -> (instanceOf(x,immaterialEntity,t))) # label("continuant-fiat-boundary-isa-immaterial-entity") .
+
+% material-entity, immaterial-entity are mutually disjoint
+((-(exists x exists t  (((instanceOf(x,materialEntity,t)) & (instanceOf(x,immaterialEntity,t))))))) # label("material-entity+immaterial-entity-are-mutually-disjoint") .
+
+% generically-dependent-continuant is subclass of continuant
+all t all x  ((instanceOf(x,genericallyDependentContinuant,t)) -> (instanceOf(x,continuant,t))) # label("generically-dependent-continuant-isa-continuant") .
+
+% specifically-dependent-continuant is subclass of continuant
+all t all x  ((instanceOf(x,specificallyDependentContinuant,t)) -> (instanceOf(x,continuant,t))) # label("specifically-dependent-continuant-isa-continuant") .
+
+% one-dimensional-spatial-region is subclass of spatial-region
+all t all x  ((instanceOf(x,oneDimensionalSpatialRegion,t)) -> (instanceOf(x,spatialRegion,t))) # label("one-dimensional-spatial-region-isa-spatial-region") .
+
+% two-dimensional-spatial-region is subclass of spatial-region
+all t all x  ((instanceOf(x,twoDimensionalSpatialRegion,t)) -> (instanceOf(x,spatialRegion,t))) # label("two-dimensional-spatial-region-isa-spatial-region") .
+
+% zero-dimensional-spatial-region is subclass of spatial-region
+all t all x  ((instanceOf(x,zeroDimensionalSpatialRegion,t)) -> (instanceOf(x,spatialRegion,t))) # label("zero-dimensional-spatial-region-isa-spatial-region") .
+
+% one-dimensional-temporal-region is subclass of temporal-region
+all t all x  ((instanceOf(x,oneDimensionalTemporalRegion,t)) -> (instanceOf(x,temporalRegion,t))) # label("one-dimensional-temporal-region-isa-temporal-region") .
+
+% three-dimensional-spatial-region is subclass of spatial-region
+all t all x  ((instanceOf(x,threeDimensionalSpatialRegion,t)) -> (instanceOf(x,spatialRegion,t))) # label("three-dimensional-spatial-region-isa-spatial-region") .
+
+% zero-dimensional-temporal-region is subclass of temporal-region
+all t all x  ((instanceOf(x,zeroDimensionalTemporalRegion,t)) -> (instanceOf(x,temporalRegion,t))) # label("zero-dimensional-temporal-region-isa-temporal-region") .
+
+% temporal-instant is subclass of zero-dimensional-temporal-region
+all t all x  ((instanceOf(x,temporalInstant,t)) -> (instanceOf(x,zeroDimensionalTemporalRegion,t))) # label("temporal-instant-isa-zero-dimensional-temporal-region") .
+
+% temporal-interval is subclass of one-dimensional-temporal-region
+all t all x  ((instanceOf(x,temporalInterval,t)) -> (instanceOf(x,oneDimensionalTemporalRegion,t))) # label("temporal-interval-isa-one-dimensional-temporal-region") .
+
+% Entity is either universal or particular, so not all are instantiated. Instead make a predicate 'entity' analogous to particular universal
+all x  ((exists t  (((instanceOf(x,continuant,t)) | (instanceOf(x,occurrent,t))))) -> (entity(x))) # label("entity-predicate") .
+
+% realizable-entity is subclass of specifically-dependent-continuant
+all t all x  ((instanceOf(x,realizableEntity,t)) -> (instanceOf(x,specificallyDependentContinuant,t))) # label("realizable-entity-isa-specifically-dependent-continuant") .
+
+% If something is a role at any time then as long as it exists it is a role.
+all x  ((exists t  (instanceOf(x,role,t))) -> (all t  ((existsAt(x,t)) -> (instanceOf(x,role,t))))) # label("role-is-rigid") .
+
+% If something is a site at any time then as long as it exists it is a site.
+all x  ((exists t  (instanceOf(x,site,t))) -> (all t  ((existsAt(x,t)) -> (instanceOf(x,site,t))))) # label("site-is-rigid") .
+
+% If something is a quality at any time then as long as it exists it is a quality.
+all x  ((exists t  (instanceOf(x,quality,t))) -> (all t  ((existsAt(x,t)) -> (instanceOf(x,quality,t))))) # label("quality-is-rigid") .
+
+% If something is a function at any time then as long as it exists it is a function.
+all x  ((exists t  (instanceOf(x,function,t))) -> (all t  ((existsAt(x,t)) -> (instanceOf(x,function,t))))) # label("function-is-rigid") .
+
+% one-dimensional-temporal-region, zero-dimensional-temporal-region are mutually disjoint
+((-(exists x exists t  (((instanceOf(x,oneDimensionalTemporalRegion,t)) & (instanceOf(x,zeroDimensionalTemporalRegion,t))))))) # label("one-dimensional-temporal-region+zero-dimensional-temporal-region-are-mutually-disjoint") .
+
+% If something is a fiat-line at any time then as long as it exists it is a fiat-line.
+all x  ((exists t  (instanceOf(x,fiatLine,t))) -> (all t  ((existsAt(x,t)) -> (instanceOf(x,fiatLine,t))))) # label("fiat-line-is-rigid") .
+
+% If something is a continuant at any time then as long as it exists it is a continuant.
+all x  ((exists t  (instanceOf(x,continuant,t))) -> (all t  ((existsAt(x,t)) -> (instanceOf(x,continuant,t))))) # label("continuant-is-rigid") .
+
+% If something is a fiat-point at any time then as long as it exists it is a fiat-point.
+all x  ((exists t  (instanceOf(x,fiatPoint,t))) -> (all t  ((existsAt(x,t)) -> (instanceOf(x,fiatPoint,t))))) # label("fiat-point-is-rigid") .
+
+% If something is a disposition at any time then as long as it exists it is a disposition.
+all x  ((exists t  (instanceOf(x,disposition,t))) -> (all t  ((existsAt(x,t)) -> (instanceOf(x,disposition,t))))) # label("disposition-is-rigid") .
+
+% If something is a fiat-surface at any time then as long as it exists it is a fiat-surface.
+all x  ((exists t  (instanceOf(x,fiatSurface,t))) -> (all t  ((existsAt(x,t)) -> (instanceOf(x,fiatSurface,t))))) # label("fiat-surface-is-rigid") .
+
+% If something is a spatial-region at any time then as long as it exists it is a spatial-region.
+all x  ((exists t  (instanceOf(x,spatialRegion,t))) -> (all t  ((existsAt(x,t)) -> (instanceOf(x,spatialRegion,t))))) # label("spatial-region-is-rigid") .
+
+% If something is a material-entity at any time then as long as it exists it is a material-entity.
+all x  ((exists t  (instanceOf(x,materialEntity,t))) -> (all t  ((existsAt(x,t)) -> (instanceOf(x,materialEntity,t))))) # label("material-entity-is-rigid") .
+
+% If something is a immaterial-entity at any time then as long as it exists it is a immaterial-entity.
+all x  ((exists t  (instanceOf(x,immaterialEntity,t))) -> (all t  ((existsAt(x,t)) -> (instanceOf(x,immaterialEntity,t))))) # label("immaterial-entity-is-rigid") .
+
+% If something is a realizable-entity at any time then as long as it exists it is a realizable-entity.
+all x  ((exists t  (instanceOf(x,realizableEntity,t))) -> (all t  ((existsAt(x,t)) -> (instanceOf(x,realizableEntity,t))))) # label("realizable-entity-is-rigid") .
+
+% If something is a relational-quality at any time then as long as it exists it is a relational-quality.
+all x  ((exists t  (instanceOf(x,relationalQuality,t))) -> (all t  ((existsAt(x,t)) -> (instanceOf(x,relationalQuality,t))))) # label("relational-quality-is-rigid") .
+
+% If something is a independent-continuant at any time then as long as it exists it is a independent-continuant.
+all x  ((exists t  (instanceOf(x,independentContinuant,t))) -> (all t  ((existsAt(x,t)) -> (instanceOf(x,independentContinuant,t))))) # label("independent-continuant-is-rigid") .
+
+% If something is a continuant-fiat-boundary at any time then as long as it exists it is a continuant-fiat-boundary.
+all x  ((exists t  (instanceOf(x,continuantFiatBoundary,t))) -> (all t  ((existsAt(x,t)) -> (instanceOf(x,continuantFiatBoundary,t))))) # label("continuant-fiat-boundary-is-rigid") .
+
+% If something is a one-dimensional-spatial-region at any time then as long as it exists it is a one-dimensional-spatial-region.
+all x  ((exists t  (instanceOf(x,oneDimensionalSpatialRegion,t))) -> (all t  ((existsAt(x,t)) -> (instanceOf(x,oneDimensionalSpatialRegion,t))))) # label("one-dimensional-spatial-region-is-rigid") .
+
+% If something is a two-dimensional-spatial-region at any time then as long as it exists it is a two-dimensional-spatial-region.
+all x  ((exists t  (instanceOf(x,twoDimensionalSpatialRegion,t))) -> (all t  ((existsAt(x,t)) -> (instanceOf(x,twoDimensionalSpatialRegion,t))))) # label("two-dimensional-spatial-region-is-rigid") .
+
+% If something is a zero-dimensional-spatial-region at any time then as long as it exists it is a zero-dimensional-spatial-region.
+all x  ((exists t  (instanceOf(x,zeroDimensionalSpatialRegion,t))) -> (all t  ((existsAt(x,t)) -> (instanceOf(x,zeroDimensionalSpatialRegion,t))))) # label("zero-dimensional-spatial-region-is-rigid") .
+
+% If something is a generically-dependent-continuant at any time then as long as it exists it is a generically-dependent-continuant.
+all x  ((exists t  (instanceOf(x,genericallyDependentContinuant,t))) -> (all t  ((existsAt(x,t)) -> (instanceOf(x,genericallyDependentContinuant,t))))) # label("generically-dependent-continuant-is-rigid") .
+
+% If something is a three-dimensional-spatial-region at any time then as long as it exists it is a three-dimensional-spatial-region.
+all x  ((exists t  (instanceOf(x,threeDimensionalSpatialRegion,t))) -> (all t  ((existsAt(x,t)) -> (instanceOf(x,threeDimensionalSpatialRegion,t))))) # label("three-dimensional-spatial-region-is-rigid") .
+
+% If something is a specifically-dependent-continuant at any time then as long as it exists it is a specifically-dependent-continuant.
+all x  ((exists t  (instanceOf(x,specificallyDependentContinuant,t))) -> (all t  ((existsAt(x,t)) -> (instanceOf(x,specificallyDependentContinuant,t))))) # label("specifically-dependent-continuant-is-rigid") .
+
+% No occurrent changes type during its existence
+all o  ((exists t  (instanceOf(o,occurrent,t))) -> (all u  ((exists t  (instanceOf(o,u,t))) -> (all t  ((instanceOf(o,occurrent,t)) <-> (instanceOf(o,u,t))))))) # label("all-occurrent-types-are-rigid") .
+
+% fiat-surface, fiat-line, fiat-point are mutually disjoint
+((-(exists x exists t  (((instanceOf(x,fiatSurface,t)) & (instanceOf(x,fiatLine,t)))))) & (-(exists x exists t  (((instanceOf(x,fiatSurface,t)) & (instanceOf(x,fiatPoint,t)))))) & (-(exists x exists t  (((instanceOf(x,fiatLine,t)) & (instanceOf(x,fiatPoint,t))))))) # label("fiat-surface+fiat-line+fiat-point-are-mutually-disjoint") .
+
+% site, spatial-region, continuant-fiat-boundary are mutually disjoint
+((-(exists x exists t  (((instanceOf(x,site,t)) & (instanceOf(x,spatialRegion,t)))))) & (-(exists x exists t  (((instanceOf(x,site,t)) & (instanceOf(x,continuantFiatBoundary,t)))))) & (-(exists x exists t  (((instanceOf(x,spatialRegion,t)) & (instanceOf(x,continuantFiatBoundary,t))))))) # label("site+spatial-region+continuant-fiat-boundary-are-mutually-disjoint") .
+
+% specifically-dependent-continuant, independent-continuant, generically-dependent-continuant are mutually disjoint
+((-(exists x exists t  (((instanceOf(x,specificallyDependentContinuant,t)) & (instanceOf(x,independentContinuant,t)))))) & (-(exists x exists t  (((instanceOf(x,specificallyDependentContinuant,t)) & (instanceOf(x,genericallyDependentContinuant,t)))))) & (-(exists x exists t  (((instanceOf(x,independentContinuant,t)) & (instanceOf(x,genericallyDependentContinuant,t))))))) # label("specifically-dependent-continuant+independent-continuant+generically-dependent-continuant-are-mutually-disjoint") .
+
+% process, spatiotemporal-region, process-boundary, temporal-region are mutually disjoint
+((-(exists x exists t  (((instanceOf(x,process,t)) & (instanceOf(x,spatiotemporalRegion,t)))))) & (-(exists x exists t  (((instanceOf(x,process,t)) & (instanceOf(x,processBoundary,t)))))) & (-(exists x exists t  (((instanceOf(x,process,t)) & (instanceOf(x,temporalRegion,t)))))) & (-(exists x exists t  (((instanceOf(x,spatiotemporalRegion,t)) & (instanceOf(x,processBoundary,t)))))) & (-(exists x exists t  (((instanceOf(x,spatiotemporalRegion,t)) & (instanceOf(x,temporalRegion,t)))))) & (-(exists x exists t  (((instanceOf(x,processBoundary,t)) & (instanceOf(x,temporalRegion,t))))))) # label("process+spatiotemporal-region+process-boundary+temporal-region-are-mutually-disjoint") .
+
+% continuant, material-entity, object, fiat-object-part, object-aggregate, site, immaterial-entity, continuant-fiat-boundary, fiat-surface, fiat-line, fiat-point, spatial-region, three-dimensional-spatial-region, two-dimensional-spatial-region, one-dimensional-spatial-region, zero-dimensional-spatial-region, independent-continuant, generically-dependent-continuant, specifically-dependent-continuant, quality, relational-quality, function, disposition, realizable-entity, role, occurrent, process, process-boundary, temporal-region, zero-dimensional-temporal-region, temporal-instant, one-dimensional-temporal-region, temporal-interval, history, spatiotemporal-region are all different
+((-((continuant) = (materialEntity))) & (-((continuant) = (object))) & (-((continuant) = (fiatObjectPart))) & (-((continuant) = (objectAggregate))) & (-((continuant) = (site))) & (-((continuant) = (immaterialEntity))) & (-((continuant) = (continuantFiatBoundary))) & (-((continuant) = (fiatSurface))) & (-((continuant) = (fiatLine))) & (-((continuant) = (fiatPoint))) & (-((continuant) = (spatialRegion))) & (-((continuant) = (threeDimensionalSpatialRegion))) & (-((continuant) = (twoDimensionalSpatialRegion))) & (-((continuant) = (oneDimensionalSpatialRegion))) & (-((continuant) = (zeroDimensionalSpatialRegion))) & (-((continuant) = (independentContinuant))) & (-((continuant) = (genericallyDependentContinuant))) & (-((continuant) = (specificallyDependentContinuant))) & (-((continuant) = (quality))) & (-((continuant) = (relationalQuality))) & (-((continuant) = (function))) & (-((continuant) = (disposition))) & (-((continuant) = (realizableEntity))) & (-((continuant) = (role))) & (-((continuant) = (occurrent))) & (-((continuant) = (process))) & (-((continuant) = (processBoundary))) & (-((continuant) = (temporalRegion))) & (-((continuant) = (zeroDimensionalTemporalRegion))) & (-((continuant) = (temporalInstant))) & (-((continuant) = (oneDimensionalTemporalRegion))) & (-((continuant) = (temporalInterval))) & (-((continuant) = (history))) & (-((continuant) = (spatiotemporalRegion))) & (-((materialEntity) = (object))) & (-((materialEntity) = (fiatObjectPart))) & (-((materialEntity) = (objectAggregate))) & (-((materialEntity) = (site))) & (-((materialEntity) = (immaterialEntity))) & (-((materialEntity) = (continuantFiatBoundary))) & (-((materialEntity) = (fiatSurface))) & (-((materialEntity) = (fiatLine))) & (-((materialEntity) = (fiatPoint))) & (-((materialEntity) = (spatialRegion))) & (-((materialEntity) = (threeDimensionalSpatialRegion))) & (-((materialEntity) = (twoDimensionalSpatialRegion))) & (-((materialEntity) = (oneDimensionalSpatialRegion))) & (-((materialEntity) = (zeroDimensionalSpatialRegion))) & (-((materialEntity) = (independentContinuant))) & (-((materialEntity) = (genericallyDependentContinuant))) & (-((materialEntity) = (specificallyDependentContinuant))) & (-((materialEntity) = (quality))) & (-((materialEntity) = (relationalQuality))) & (-((materialEntity) = (function))) & (-((materialEntity) = (disposition))) & (-((materialEntity) = (realizableEntity))) & (-((materialEntity) = (role))) & (-((materialEntity) = (occurrent))) & (-((materialEntity) = (process))) & (-((materialEntity) = (processBoundary))) & (-((materialEntity) = (temporalRegion))) & (-((materialEntity) = (zeroDimensionalTemporalRegion))) & (-((materialEntity) = (temporalInstant))) & (-((materialEntity) = (oneDimensionalTemporalRegion))) & (-((materialEntity) = (temporalInterval))) & (-((materialEntity) = (history))) & (-((materialEntity) = (spatiotemporalRegion))) & (-((object) = (fiatObjectPart))) & (-((object) = (objectAggregate))) & (-((object) = (site))) & (-((object) = (immaterialEntity))) & (-((object) = (continuantFiatBoundary))) & (-((object) = (fiatSurface))) & (-((object) = (fiatLine))) & (-((object) = (fiatPoint))) & (-((object) = (spatialRegion))) & (-((object) = (threeDimensionalSpatialRegion))) & (-((object) = (twoDimensionalSpatialRegion))) & (-((object) = (oneDimensionalSpatialRegion))) & (-((object) = (zeroDimensionalSpatialRegion))) & (-((object) = (independentContinuant))) & (-((object) = (genericallyDependentContinuant))) & (-((object) = (specificallyDependentContinuant))) & (-((object) = (quality))) & (-((object) = (relationalQuality))) & (-((object) = (function))) & (-((object) = (disposition))) & (-((object) = (realizableEntity))) & (-((object) = (role))) & (-((object) = (occurrent))) & (-((object) = (process))) & (-((object) = (processBoundary))) & (-((object) = (temporalRegion))) & (-((object) = (zeroDimensionalTemporalRegion))) & (-((object) = (temporalInstant))) & (-((object) = (oneDimensionalTemporalRegion))) & (-((object) = (temporalInterval))) & (-((object) = (history))) & (-((object) = (spatiotemporalRegion))) & (-((fiatObjectPart) = (objectAggregate))) & (-((fiatObjectPart) = (site))) & (-((fiatObjectPart) = (immaterialEntity))) & (-((fiatObjectPart) = (continuantFiatBoundary))) & (-((fiatObjectPart) = (fiatSurface))) & (-((fiatObjectPart) = (fiatLine))) & (-((fiatObjectPart) = (fiatPoint))) & (-((fiatObjectPart) = (spatialRegion))) & (-((fiatObjectPart) = (threeDimensionalSpatialRegion))) & (-((fiatObjectPart) = (twoDimensionalSpatialRegion))) & (-((fiatObjectPart) = (oneDimensionalSpatialRegion))) & (-((fiatObjectPart) = (zeroDimensionalSpatialRegion))) & (-((fiatObjectPart) = (independentContinuant))) & (-((fiatObjectPart) = (genericallyDependentContinuant))) & (-((fiatObjectPart) = (specificallyDependentContinuant))) & (-((fiatObjectPart) = (quality))) & (-((fiatObjectPart) = (relationalQuality))) & (-((fiatObjectPart) = (function))) & (-((fiatObjectPart) = (disposition))) & (-((fiatObjectPart) = (realizableEntity))) & (-((fiatObjectPart) = (role))) & (-((fiatObjectPart) = (occurrent))) & (-((fiatObjectPart) = (process))) & (-((fiatObjectPart) = (processBoundary))) & (-((fiatObjectPart) = (temporalRegion))) & (-((fiatObjectPart) = (zeroDimensionalTemporalRegion))) & (-((fiatObjectPart) = (temporalInstant))) & (-((fiatObjectPart) = (oneDimensionalTemporalRegion))) & (-((fiatObjectPart) = (temporalInterval))) & (-((fiatObjectPart) = (history))) & (-((fiatObjectPart) = (spatiotemporalRegion))) & (-((objectAggregate) = (site))) & (-((objectAggregate) = (immaterialEntity))) & (-((objectAggregate) = (continuantFiatBoundary))) & (-((objectAggregate) = (fiatSurface))) & (-((objectAggregate) = (fiatLine))) & (-((objectAggregate) = (fiatPoint))) & (-((objectAggregate) = (spatialRegion))) & (-((objectAggregate) = (threeDimensionalSpatialRegion))) & (-((objectAggregate) = (twoDimensionalSpatialRegion))) & (-((objectAggregate) = (oneDimensionalSpatialRegion))) & (-((objectAggregate) = (zeroDimensionalSpatialRegion))) & (-((objectAggregate) = (independentContinuant))) & (-((objectAggregate) = (genericallyDependentContinuant))) & (-((objectAggregate) = (specificallyDependentContinuant))) & (-((objectAggregate) = (quality))) & (-((objectAggregate) = (relationalQuality))) & (-((objectAggregate) = (function))) & (-((objectAggregate) = (disposition))) & (-((objectAggregate) = (realizableEntity))) & (-((objectAggregate) = (role))) & (-((objectAggregate) = (occurrent))) & (-((objectAggregate) = (process))) & (-((objectAggregate) = (processBoundary))) & (-((objectAggregate) = (temporalRegion))) & (-((objectAggregate) = (zeroDimensionalTemporalRegion))) & (-((objectAggregate) = (temporalInstant))) & (-((objectAggregate) = (oneDimensionalTemporalRegion))) & (-((objectAggregate) = (temporalInterval))) & (-((objectAggregate) = (history))) & (-((objectAggregate) = (spatiotemporalRegion))) & (-((site) = (immaterialEntity))) & (-((site) = (continuantFiatBoundary))) & (-((site) = (fiatSurface))) & (-((site) = (fiatLine))) & (-((site) = (fiatPoint))) & (-((site) = (spatialRegion))) & (-((site) = (threeDimensionalSpatialRegion))) & (-((site) = (twoDimensionalSpatialRegion))) & (-((site) = (oneDimensionalSpatialRegion))) & (-((site) = (zeroDimensionalSpatialRegion))) & (-((site) = (independentContinuant))) & (-((site) = (genericallyDependentContinuant))) & (-((site) = (specificallyDependentContinuant))) & (-((site) = (quality))) & (-((site) = (relationalQuality))) & (-((site) = (function))) & (-((site) = (disposition))) & (-((site) = (realizableEntity))) & (-((site) = (role))) & (-((site) = (occurrent))) & (-((site) = (process))) & (-((site) = (processBoundary))) & (-((site) = (temporalRegion))) & (-((site) = (zeroDimensionalTemporalRegion))) & (-((site) = (temporalInstant))) & (-((site) = (oneDimensionalTemporalRegion))) & (-((site) = (temporalInterval))) & (-((site) = (history))) & (-((site) = (spatiotemporalRegion))) & (-((immaterialEntity) = (continuantFiatBoundary))) & (-((immaterialEntity) = (fiatSurface))) & (-((immaterialEntity) = (fiatLine))) & (-((immaterialEntity) = (fiatPoint))) & (-((immaterialEntity) = (spatialRegion))) & (-((immaterialEntity) = (threeDimensionalSpatialRegion))) & (-((immaterialEntity) = (twoDimensionalSpatialRegion))) & (-((immaterialEntity) = (oneDimensionalSpatialRegion))) & (-((immaterialEntity) = (zeroDimensionalSpatialRegion))) & (-((immaterialEntity) = (independentContinuant))) & (-((immaterialEntity) = (genericallyDependentContinuant))) & (-((immaterialEntity) = (specificallyDependentContinuant))) & (-((immaterialEntity) = (quality))) & (-((immaterialEntity) = (relationalQuality))) & (-((immaterialEntity) = (function))) & (-((immaterialEntity) = (disposition))) & (-((immaterialEntity) = (realizableEntity))) & (-((immaterialEntity) = (role))) & (-((immaterialEntity) = (occurrent))) & (-((immaterialEntity) = (process))) & (-((immaterialEntity) = (processBoundary))) & (-((immaterialEntity) = (temporalRegion))) & (-((immaterialEntity) = (zeroDimensionalTemporalRegion))) & (-((immaterialEntity) = (temporalInstant))) & (-((immaterialEntity) = (oneDimensionalTemporalRegion))) & (-((immaterialEntity) = (temporalInterval))) & (-((immaterialEntity) = (history))) & (-((immaterialEntity) = (spatiotemporalRegion))) & (-((continuantFiatBoundary) = (fiatSurface))) & (-((continuantFiatBoundary) = (fiatLine))) & (-((continuantFiatBoundary) = (fiatPoint))) & (-((continuantFiatBoundary) = (spatialRegion))) & (-((continuantFiatBoundary) = (threeDimensionalSpatialRegion))) & (-((continuantFiatBoundary) = (twoDimensionalSpatialRegion))) & (-((continuantFiatBoundary) = (oneDimensionalSpatialRegion))) & (-((continuantFiatBoundary) = (zeroDimensionalSpatialRegion))) & (-((continuantFiatBoundary) = (independentContinuant))) & (-((continuantFiatBoundary) = (genericallyDependentContinuant))) & (-((continuantFiatBoundary) = (specificallyDependentContinuant))) & (-((continuantFiatBoundary) = (quality))) & (-((continuantFiatBoundary) = (relationalQuality))) & (-((continuantFiatBoundary) = (function))) & (-((continuantFiatBoundary) = (disposition))) & (-((continuantFiatBoundary) = (realizableEntity))) & (-((continuantFiatBoundary) = (role))) & (-((continuantFiatBoundary) = (occurrent))) & (-((continuantFiatBoundary) = (process))) & (-((continuantFiatBoundary) = (processBoundary))) & (-((continuantFiatBoundary) = (temporalRegion))) & (-((continuantFiatBoundary) = (zeroDimensionalTemporalRegion))) & (-((continuantFiatBoundary) = (temporalInstant))) & (-((continuantFiatBoundary) = (oneDimensionalTemporalRegion))) & (-((continuantFiatBoundary) = (temporalInterval))) & (-((continuantFiatBoundary) = (history))) & (-((continuantFiatBoundary) = (spatiotemporalRegion))) & (-((fiatSurface) = (fiatLine))) & (-((fiatSurface) = (fiatPoint))) & (-((fiatSurface) = (spatialRegion))) & (-((fiatSurface) = (threeDimensionalSpatialRegion))) & (-((fiatSurface) = (twoDimensionalSpatialRegion))) & (-((fiatSurface) = (oneDimensionalSpatialRegion))) & (-((fiatSurface) = (zeroDimensionalSpatialRegion))) & (-((fiatSurface) = (independentContinuant))) & (-((fiatSurface) = (genericallyDependentContinuant))) & (-((fiatSurface) = (specificallyDependentContinuant))) & (-((fiatSurface) = (quality))) & (-((fiatSurface) = (relationalQuality))) & (-((fiatSurface) = (function))) & (-((fiatSurface) = (disposition))) & (-((fiatSurface) = (realizableEntity))) & (-((fiatSurface) = (role))) & (-((fiatSurface) = (occurrent))) & (-((fiatSurface) = (process))) & (-((fiatSurface) = (processBoundary))) & (-((fiatSurface) = (temporalRegion))) & (-((fiatSurface) = (zeroDimensionalTemporalRegion))) & (-((fiatSurface) = (temporalInstant))) & (-((fiatSurface) = (oneDimensionalTemporalRegion))) & (-((fiatSurface) = (temporalInterval))) & (-((fiatSurface) = (history))) & (-((fiatSurface) = (spatiotemporalRegion))) & (-((fiatLine) = (fiatPoint))) & (-((fiatLine) = (spatialRegion))) & (-((fiatLine) = (threeDimensionalSpatialRegion))) & (-((fiatLine) = (twoDimensionalSpatialRegion))) & (-((fiatLine) = (oneDimensionalSpatialRegion))) & (-((fiatLine) = (zeroDimensionalSpatialRegion))) & (-((fiatLine) = (independentContinuant))) & (-((fiatLine) = (genericallyDependentContinuant))) & (-((fiatLine) = (specificallyDependentContinuant))) & (-((fiatLine) = (quality))) & (-((fiatLine) = (relationalQuality))) & (-((fiatLine) = (function))) & (-((fiatLine) = (disposition))) & (-((fiatLine) = (realizableEntity))) & (-((fiatLine) = (role))) & (-((fiatLine) = (occurrent))) & (-((fiatLine) = (process))) & (-((fiatLine) = (processBoundary))) & (-((fiatLine) = (temporalRegion))) & (-((fiatLine) = (zeroDimensionalTemporalRegion))) & (-((fiatLine) = (temporalInstant))) & (-((fiatLine) = (oneDimensionalTemporalRegion))) & (-((fiatLine) = (temporalInterval))) & (-((fiatLine) = (history))) & (-((fiatLine) = (spatiotemporalRegion))) & (-((fiatPoint) = (spatialRegion))) & (-((fiatPoint) = (threeDimensionalSpatialRegion))) & (-((fiatPoint) = (twoDimensionalSpatialRegion))) & (-((fiatPoint) = (oneDimensionalSpatialRegion))) & (-((fiatPoint) = (zeroDimensionalSpatialRegion))) & (-((fiatPoint) = (independentContinuant))) & (-((fiatPoint) = (genericallyDependentContinuant))) & (-((fiatPoint) = (specificallyDependentContinuant))) & (-((fiatPoint) = (quality))) & (-((fiatPoint) = (relationalQuality))) & (-((fiatPoint) = (function))) & (-((fiatPoint) = (disposition))) & (-((fiatPoint) = (realizableEntity))) & (-((fiatPoint) = (role))) & (-((fiatPoint) = (occurrent))) & (-((fiatPoint) = (process))) & (-((fiatPoint) = (processBoundary))) & (-((fiatPoint) = (temporalRegion))) & (-((fiatPoint) = (zeroDimensionalTemporalRegion))) & (-((fiatPoint) = (temporalInstant))) & (-((fiatPoint) = (oneDimensionalTemporalRegion))) & (-((fiatPoint) = (temporalInterval))) & (-((fiatPoint) = (history))) & (-((fiatPoint) = (spatiotemporalRegion))) & (-((spatialRegion) = (threeDimensionalSpatialRegion))) & (-((spatialRegion) = (twoDimensionalSpatialRegion))) & (-((spatialRegion) = (oneDimensionalSpatialRegion))) & (-((spatialRegion) = (zeroDimensionalSpatialRegion))) & (-((spatialRegion) = (independentContinuant))) & (-((spatialRegion) = (genericallyDependentContinuant))) & (-((spatialRegion) = (specificallyDependentContinuant))) & (-((spatialRegion) = (quality))) & (-((spatialRegion) = (relationalQuality))) & (-((spatialRegion) = (function))) & (-((spatialRegion) = (disposition))) & (-((spatialRegion) = (realizableEntity))) & (-((spatialRegion) = (role))) & (-((spatialRegion) = (occurrent))) & (-((spatialRegion) = (process))) & (-((spatialRegion) = (processBoundary))) & (-((spatialRegion) = (temporalRegion))) & (-((spatialRegion) = (zeroDimensionalTemporalRegion))) & (-((spatialRegion) = (temporalInstant))) & (-((spatialRegion) = (oneDimensionalTemporalRegion))) & (-((spatialRegion) = (temporalInterval))) & (-((spatialRegion) = (history))) & (-((spatialRegion) = (spatiotemporalRegion))) & (-((threeDimensionalSpatialRegion) = (twoDimensionalSpatialRegion))) & (-((threeDimensionalSpatialRegion) = (oneDimensionalSpatialRegion))) & (-((threeDimensionalSpatialRegion) = (zeroDimensionalSpatialRegion))) & (-((threeDimensionalSpatialRegion) = (independentContinuant))) & (-((threeDimensionalSpatialRegion) = (genericallyDependentContinuant))) & (-((threeDimensionalSpatialRegion) = (specificallyDependentContinuant))) & (-((threeDimensionalSpatialRegion) = (quality))) & (-((threeDimensionalSpatialRegion) = (relationalQuality))) & (-((threeDimensionalSpatialRegion) = (function))) & (-((threeDimensionalSpatialRegion) = (disposition))) & (-((threeDimensionalSpatialRegion) = (realizableEntity))) & (-((threeDimensionalSpatialRegion) = (role))) & (-((threeDimensionalSpatialRegion) = (occurrent))) & (-((threeDimensionalSpatialRegion) = (process))) & (-((threeDimensionalSpatialRegion) = (processBoundary))) & (-((threeDimensionalSpatialRegion) = (temporalRegion))) & (-((threeDimensionalSpatialRegion) = (zeroDimensionalTemporalRegion))) & (-((threeDimensionalSpatialRegion) = (temporalInstant))) & (-((threeDimensionalSpatialRegion) = (oneDimensionalTemporalRegion))) & (-((threeDimensionalSpatialRegion) = (temporalInterval))) & (-((threeDimensionalSpatialRegion) = (history))) & (-((threeDimensionalSpatialRegion) = (spatiotemporalRegion))) & (-((twoDimensionalSpatialRegion) = (oneDimensionalSpatialRegion))) & (-((twoDimensionalSpatialRegion) = (zeroDimensionalSpatialRegion))) & (-((twoDimensionalSpatialRegion) = (independentContinuant))) & (-((twoDimensionalSpatialRegion) = (genericallyDependentContinuant))) & (-((twoDimensionalSpatialRegion) = (specificallyDependentContinuant))) & (-((twoDimensionalSpatialRegion) = (quality))) & (-((twoDimensionalSpatialRegion) = (relationalQuality))) & (-((twoDimensionalSpatialRegion) = (function))) & (-((twoDimensionalSpatialRegion) = (disposition))) & (-((twoDimensionalSpatialRegion) = (realizableEntity))) & (-((twoDimensionalSpatialRegion) = (role))) & (-((twoDimensionalSpatialRegion) = (occurrent))) & (-((twoDimensionalSpatialRegion) = (process))) & (-((twoDimensionalSpatialRegion) = (processBoundary))) & (-((twoDimensionalSpatialRegion) = (temporalRegion))) & (-((twoDimensionalSpatialRegion) = (zeroDimensionalTemporalRegion))) & (-((twoDimensionalSpatialRegion) = (temporalInstant))) & (-((twoDimensionalSpatialRegion) = (oneDimensionalTemporalRegion))) & (-((twoDimensionalSpatialRegion) = (temporalInterval))) & (-((twoDimensionalSpatialRegion) = (history))) & (-((twoDimensionalSpatialRegion) = (spatiotemporalRegion))) & (-((oneDimensionalSpatialRegion) = (zeroDimensionalSpatialRegion))) & (-((oneDimensionalSpatialRegion) = (independentContinuant))) & (-((oneDimensionalSpatialRegion) = (genericallyDependentContinuant))) & (-((oneDimensionalSpatialRegion) = (specificallyDependentContinuant))) & (-((oneDimensionalSpatialRegion) = (quality))) & (-((oneDimensionalSpatialRegion) = (relationalQuality))) & (-((oneDimensionalSpatialRegion) = (function))) & (-((oneDimensionalSpatialRegion) = (disposition))) & (-((oneDimensionalSpatialRegion) = (realizableEntity))) & (-((oneDimensionalSpatialRegion) = (role))) & (-((oneDimensionalSpatialRegion) = (occurrent))) & (-((oneDimensionalSpatialRegion) = (process))) & (-((oneDimensionalSpatialRegion) = (processBoundary))) & (-((oneDimensionalSpatialRegion) = (temporalRegion))) & (-((oneDimensionalSpatialRegion) = (zeroDimensionalTemporalRegion))) & (-((oneDimensionalSpatialRegion) = (temporalInstant))) & (-((oneDimensionalSpatialRegion) = (oneDimensionalTemporalRegion))) & (-((oneDimensionalSpatialRegion) = (temporalInterval))) & (-((oneDimensionalSpatialRegion) = (history))) & (-((oneDimensionalSpatialRegion) = (spatiotemporalRegion))) & (-((zeroDimensionalSpatialRegion) = (independentContinuant))) & (-((zeroDimensionalSpatialRegion) = (genericallyDependentContinuant))) & (-((zeroDimensionalSpatialRegion) = (specificallyDependentContinuant))) & (-((zeroDimensionalSpatialRegion) = (quality))) & (-((zeroDimensionalSpatialRegion) = (relationalQuality))) & (-((zeroDimensionalSpatialRegion) = (function))) & (-((zeroDimensionalSpatialRegion) = (disposition))) & (-((zeroDimensionalSpatialRegion) = (realizableEntity))) & (-((zeroDimensionalSpatialRegion) = (role))) & (-((zeroDimensionalSpatialRegion) = (occurrent))) & (-((zeroDimensionalSpatialRegion) = (process))) & (-((zeroDimensionalSpatialRegion) = (processBoundary))) & (-((zeroDimensionalSpatialRegion) = (temporalRegion))) & (-((zeroDimensionalSpatialRegion) = (zeroDimensionalTemporalRegion))) & (-((zeroDimensionalSpatialRegion) = (temporalInstant))) & (-((zeroDimensionalSpatialRegion) = (oneDimensionalTemporalRegion))) & (-((zeroDimensionalSpatialRegion) = (temporalInterval))) & (-((zeroDimensionalSpatialRegion) = (history))) & (-((zeroDimensionalSpatialRegion) = (spatiotemporalRegion))) & (-((independentContinuant) = (genericallyDependentContinuant))) & (-((independentContinuant) = (specificallyDependentContinuant))) & (-((independentContinuant) = (quality))) & (-((independentContinuant) = (relationalQuality))) & (-((independentContinuant) = (function))) & (-((independentContinuant) = (disposition))) & (-((independentContinuant) = (realizableEntity))) & (-((independentContinuant) = (role))) & (-((independentContinuant) = (occurrent))) & (-((independentContinuant) = (process))) & (-((independentContinuant) = (processBoundary))) & (-((independentContinuant) = (temporalRegion))) & (-((independentContinuant) = (zeroDimensionalTemporalRegion))) & (-((independentContinuant) = (temporalInstant))) & (-((independentContinuant) = (oneDimensionalTemporalRegion))) & (-((independentContinuant) = (temporalInterval))) & (-((independentContinuant) = (history))) & (-((independentContinuant) = (spatiotemporalRegion))) & (-((genericallyDependentContinuant) = (specificallyDependentContinuant))) & (-((genericallyDependentContinuant) = (quality))) & (-((genericallyDependentContinuant) = (relationalQuality))) & (-((genericallyDependentContinuant) = (function))) & (-((genericallyDependentContinuant) = (disposition))) & (-((genericallyDependentContinuant) = (realizableEntity))) & (-((genericallyDependentContinuant) = (role))) & (-((genericallyDependentContinuant) = (occurrent))) & (-((genericallyDependentContinuant) = (process))) & (-((genericallyDependentContinuant) = (processBoundary))) & (-((genericallyDependentContinuant) = (temporalRegion))) & (-((genericallyDependentContinuant) = (zeroDimensionalTemporalRegion))) & (-((genericallyDependentContinuant) = (temporalInstant))) & (-((genericallyDependentContinuant) = (oneDimensionalTemporalRegion))) & (-((genericallyDependentContinuant) = (temporalInterval))) & (-((genericallyDependentContinuant) = (history))) & (-((genericallyDependentContinuant) = (spatiotemporalRegion))) & (-((specificallyDependentContinuant) = (quality))) & (-((specificallyDependentContinuant) = (relationalQuality))) & (-((specificallyDependentContinuant) = (function))) & (-((specificallyDependentContinuant) = (disposition))) & (-((specificallyDependentContinuant) = (realizableEntity))) & (-((specificallyDependentContinuant) = (role))) & (-((specificallyDependentContinuant) = (occurrent))) & (-((specificallyDependentContinuant) = (process))) & (-((specificallyDependentContinuant) = (processBoundary))) & (-((specificallyDependentContinuant) = (temporalRegion))) & (-((specificallyDependentContinuant) = (zeroDimensionalTemporalRegion))) & (-((specificallyDependentContinuant) = (temporalInstant))) & (-((specificallyDependentContinuant) = (oneDimensionalTemporalRegion))) & (-((specificallyDependentContinuant) = (temporalInterval))) & (-((specificallyDependentContinuant) = (history))) & (-((specificallyDependentContinuant) = (spatiotemporalRegion))) & (-((quality) = (relationalQuality))) & (-((quality) = (function))) & (-((quality) = (disposition))) & (-((quality) = (realizableEntity))) & (-((quality) = (role))) & (-((quality) = (occurrent))) & (-((quality) = (process))) & (-((quality) = (processBoundary))) & (-((quality) = (temporalRegion))) & (-((quality) = (zeroDimensionalTemporalRegion))) & (-((quality) = (temporalInstant))) & (-((quality) = (oneDimensionalTemporalRegion))) & (-((quality) = (temporalInterval))) & (-((quality) = (history))) & (-((quality) = (spatiotemporalRegion))) & (-((relationalQuality) = (function))) & (-((relationalQuality) = (disposition))) & (-((relationalQuality) = (realizableEntity))) & (-((relationalQuality) = (role))) & (-((relationalQuality) = (occurrent))) & (-((relationalQuality) = (process))) & (-((relationalQuality) = (processBoundary))) & (-((relationalQuality) = (temporalRegion))) & (-((relationalQuality) = (zeroDimensionalTemporalRegion))) & (-((relationalQuality) = (temporalInstant))) & (-((relationalQuality) = (oneDimensionalTemporalRegion))) & (-((relationalQuality) = (temporalInterval))) & (-((relationalQuality) = (history))) & (-((relationalQuality) = (spatiotemporalRegion))) & (-((function) = (disposition))) & (-((function) = (realizableEntity))) & (-((function) = (role))) & (-((function) = (occurrent))) & (-((function) = (process))) & (-((function) = (processBoundary))) & (-((function) = (temporalRegion))) & (-((function) = (zeroDimensionalTemporalRegion))) & (-((function) = (temporalInstant))) & (-((function) = (oneDimensionalTemporalRegion))) & (-((function) = (temporalInterval))) & (-((function) = (history))) & (-((function) = (spatiotemporalRegion))) & (-((disposition) = (realizableEntity))) & (-((disposition) = (role))) & (-((disposition) = (occurrent))) & (-((disposition) = (process))) & (-((disposition) = (processBoundary))) & (-((disposition) = (temporalRegion))) & (-((disposition) = (zeroDimensionalTemporalRegion))) & (-((disposition) = (temporalInstant))) & (-((disposition) = (oneDimensionalTemporalRegion))) & (-((disposition) = (temporalInterval))) & (-((disposition) = (history))) & (-((disposition) = (spatiotemporalRegion))) & (-((realizableEntity) = (role))) & (-((realizableEntity) = (occurrent))) & (-((realizableEntity) = (process))) & (-((realizableEntity) = (processBoundary))) & (-((realizableEntity) = (temporalRegion))) & (-((realizableEntity) = (zeroDimensionalTemporalRegion))) & (-((realizableEntity) = (temporalInstant))) & (-((realizableEntity) = (oneDimensionalTemporalRegion))) & (-((realizableEntity) = (temporalInterval))) & (-((realizableEntity) = (history))) & (-((realizableEntity) = (spatiotemporalRegion))) & (-((role) = (occurrent))) & (-((role) = (process))) & (-((role) = (processBoundary))) & (-((role) = (temporalRegion))) & (-((role) = (zeroDimensionalTemporalRegion))) & (-((role) = (temporalInstant))) & (-((role) = (oneDimensionalTemporalRegion))) & (-((role) = (temporalInterval))) & (-((role) = (history))) & (-((role) = (spatiotemporalRegion))) & (-((occurrent) = (process))) & (-((occurrent) = (processBoundary))) & (-((occurrent) = (temporalRegion))) & (-((occurrent) = (zeroDimensionalTemporalRegion))) & (-((occurrent) = (temporalInstant))) & (-((occurrent) = (oneDimensionalTemporalRegion))) & (-((occurrent) = (temporalInterval))) & (-((occurrent) = (history))) & (-((occurrent) = (spatiotemporalRegion))) & (-((process) = (processBoundary))) & (-((process) = (temporalRegion))) & (-((process) = (zeroDimensionalTemporalRegion))) & (-((process) = (temporalInstant))) & (-((process) = (oneDimensionalTemporalRegion))) & (-((process) = (temporalInterval))) & (-((process) = (history))) & (-((process) = (spatiotemporalRegion))) & (-((processBoundary) = (temporalRegion))) & (-((processBoundary) = (zeroDimensionalTemporalRegion))) & (-((processBoundary) = (temporalInstant))) & (-((processBoundary) = (oneDimensionalTemporalRegion))) & (-((processBoundary) = (temporalInterval))) & (-((processBoundary) = (history))) & (-((processBoundary) = (spatiotemporalRegion))) & (-((temporalRegion) = (zeroDimensionalTemporalRegion))) & (-((temporalRegion) = (temporalInstant))) & (-((temporalRegion) = (oneDimensionalTemporalRegion))) & (-((temporalRegion) = (temporalInterval))) & (-((temporalRegion) = (history))) & (-((temporalRegion) = (spatiotemporalRegion))) & (-((zeroDimensionalTemporalRegion) = (temporalInstant))) & (-((zeroDimensionalTemporalRegion) = (oneDimensionalTemporalRegion))) & (-((zeroDimensionalTemporalRegion) = (temporalInterval))) & (-((zeroDimensionalTemporalRegion) = (history))) & (-((zeroDimensionalTemporalRegion) = (spatiotemporalRegion))) & (-((temporalInstant) = (oneDimensionalTemporalRegion))) & (-((temporalInstant) = (temporalInterval))) & (-((temporalInstant) = (history))) & (-((temporalInstant) = (spatiotemporalRegion))) & (-((oneDimensionalTemporalRegion) = (temporalInterval))) & (-((oneDimensionalTemporalRegion) = (history))) & (-((oneDimensionalTemporalRegion) = (spatiotemporalRegion))) & (-((temporalInterval) = (history))) & (-((temporalInterval) = (spatiotemporalRegion))) & (-((history) = (spatiotemporalRegion)))) # label("universals-all-different") .
+
+% zero-dimensional-spatial-region, one-dimensional-spatial-region, two-dimensional-spatial-region, three-dimensional-spatial-region are mutually disjoint
+((-(exists x exists t  (((instanceOf(x,zeroDimensionalSpatialRegion,t)) & (instanceOf(x,oneDimensionalSpatialRegion,t)))))) & (-(exists x exists t  (((instanceOf(x,zeroDimensionalSpatialRegion,t)) & (instanceOf(x,twoDimensionalSpatialRegion,t)))))) & (-(exists x exists t  (((instanceOf(x,zeroDimensionalSpatialRegion,t)) & (instanceOf(x,threeDimensionalSpatialRegion,t)))))) & (-(exists x exists t  (((instanceOf(x,oneDimensionalSpatialRegion,t)) & (instanceOf(x,twoDimensionalSpatialRegion,t)))))) & (-(exists x exists t  (((instanceOf(x,oneDimensionalSpatialRegion,t)) & (instanceOf(x,threeDimensionalSpatialRegion,t)))))) & (-(exists x exists t  (((instanceOf(x,twoDimensionalSpatialRegion,t)) & (instanceOf(x,threeDimensionalSpatialRegion,t))))))) # label("zero-dimensional-spatial-region+one-dimensional-spatial-region+two-dimensional-spatial-region+three-dimensional-spatial-region-are-mutually-disjoint") .
+
+
+
+% BFO 2020 Axiomatization of temporalized relations, generated 2021/11/12
+% Author: Alan Ruttenberg - alanruttenberg@gmail.com
+% The most recent version of this file will always be in the GitHub repository https://github.com/bfo-ontology/bfo-2020
+% This work is licensed under a Creative Commons "Attribution 4.0 International" license: https://creativecommons.org/licenses/by/4.0/
+
+% located-in at some time
+all p all q  ((locatedInAtSomeTime(p,q)) <-> (exists t  (((existsAt(p,t)) & (existsAt(q,t)) & (locatedIn(p,q,t)))))) # label("located-in-at-some-time") .
+
+% concretizes at some time
+all p all q  ((concretizesAtSomeTime(p,q)) <-> (exists t  (((existsAt(p,t)) & (existsAt(q,t)) & (concretizes(p,q,t)))))) # label("concretizes-at-some-time") .
+
+% location-of at some time
+all p all q  ((locationOfAtSomeTime(p,q)) <-> (exists t  (((existsAt(p,t)) & (existsAt(q,t)) & (locationOf(p,q,t)))))) # label("location-of-at-some-time") .
+
+% is-carrier-of at some time
+all p all q  ((isCarrierOfAtSomeTime(p,q)) <-> (exists t  (((existsAt(p,t)) & (existsAt(q,t)) & (isCarrierOf(p,q,t)))))) # label("is-carrier-of-at-some-time") .
+
+% member-part-of at some time
+all p all q  ((memberPartOfAtSomeTime(p,q)) <-> (exists t  (((existsAt(p,t)) & (existsAt(q,t)) & (memberPartOf(p,q,t)))))) # label("member-part-of-at-some-time") .
+
+% has-member-part at some time
+all p all q  ((hasMemberPartAtSomeTime(p,q)) <-> (exists t  (((existsAt(p,t)) & (existsAt(q,t)) & (hasMemberPart(p,q,t)))))) # label("has-member-part-at-some-time") .
+
+% has-participant at some time
+all p all q  ((hasParticipantAtSomeTime(p,q)) <-> (exists t  (((existsAt(p,t)) & (existsAt(q,t)) & (hasParticipant(p,q,t)))))) # label("has-participant-at-some-time") .
+
+% participates-in at some time
+all p all q  ((participatesInAtSomeTime(p,q)) <-> (exists t  (((existsAt(p,t)) & (existsAt(q,t)) & (participatesIn(p,q,t)))))) # label("participates-in-at-some-time") .
+
+% rdf:type is interpreted as meaning an instance is a given type whenever it exists, and that the instance exists at some point.
+all c all i  ((rdfType(c,i)) <-> (((all t  ((existsAt(i,t)) -> (instanceOf(i,c,t)))) & (exists t  (existsAt(i,t)))))) # label("rdf-type-interpretation") .
+
+% is-concretized-by at some time
+all p all q  ((isConcretizedByAtSomeTime(p,q)) <-> (exists t  (((existsAt(p,t)) & (existsAt(q,t)) & (isConcretizedBy(p,q,t)))))) # label("is-concretized-by-at-some-time") .
+
+% material-basis-of at some time
+all p all q  ((materialBasisOfAtSomeTime(p,q)) <-> (exists t  (((existsAt(p,t)) & (existsAt(q,t)) & (materialBasisOf(p,q,t)))))) # label("material-basis-of-at-some-time") .
+
+% continuant-part-of at some time
+all p all q  ((continuantPartOfAtSomeTime(p,q)) <-> (exists t  (((existsAt(p,t)) & (existsAt(q,t)) & (continuantPartOf(p,q,t)))))) # label("continuant-part-of-at-some-time") .
+
+% has-material-basis at some time
+all p all q  ((hasMaterialBasisAtSomeTime(p,q)) <-> (exists t  (((existsAt(p,t)) & (existsAt(q,t)) & (hasMaterialBasis(p,q,t)))))) # label("has-material-basis-at-some-time") .
+
+% has-continuant-part at some time
+all p all q  ((hasContinuantPartAtSomeTime(p,q)) <-> (exists t  (((existsAt(p,t)) & (existsAt(q,t)) & (hasContinuantPart(p,q,t)))))) # label("has-continuant-part-at-some-time") .
+
+% generically-depends-on at some time
+all p all q  ((genericallyDependsOnAtSomeTime(p,q)) <-> (exists t  (((existsAt(p,t)) & (existsAt(q,t)) & (genericallyDependsOn(p,q,t)))))) # label("generically-depends-on-at-some-time") .
+
+% occupies-spatial-region at some time
+all p all q  ((occupiesSpatialRegionAtSomeTime(p,q)) <-> (exists t  (((existsAt(p,t)) & (existsAt(q,t)) & (occupiesSpatialRegion(p,q,t)))))) # label("occupies-spatial-region-at-some-time") .
+
+% spatially-projects-onto at some time
+all p all q  ((spatiallyProjectsOntoAtSomeTime(p,q)) <-> (exists t  (((existsAt(p,t)) & (existsAt(q,t)) & (spatiallyProjectsOnto(p,q,t)))))) # label("spatially-projects-onto-at-some-time") .
+
+% proper-continuant-part-of at some time
+all p all q  ((properContinuantPartOfAtSomeTime(p,q)) <-> (exists t  (((existsAt(p,t)) & (existsAt(q,t)) & (properContinuantPartOf(p,q,t)))))) # label("proper-continuant-part-of-at-some-time") .
+
+% has-proper-continuant-part at some time
+all p all q  ((hasProperContinuantPartAtSomeTime(p,q)) <-> (exists t  (((existsAt(p,t)) & (existsAt(q,t)) & (hasProperContinuantPart(p,q,t)))))) # label("has-proper-continuant-part-at-some-time") .
+
+% located-in at all times
+all p all q  ((locatedInAtAllTimes(p,q)) <-> (((exists t  (((locatedIn(p,q,t)) & (existsAt(p,t))))) & (all t  ((existsAt(p,t)) -> (locatedIn(p,q,t))))))) # label("located-in-at-all-times") .
+
+% concretizes at all times
+all p all q  ((concretizesAtAllTimes(p,q)) <-> (((exists t  (((concretizes(p,q,t)) & (existsAt(p,t))))) & (all t  ((existsAt(p,t)) -> (concretizes(p,q,t))))))) # label("concretizes-at-all-times") .
+
+% location-of at all times
+all p all q  ((locationOfAtAllTimes(p,q)) <-> (((exists t  (((locationOf(p,q,t)) & (existsAt(p,t))))) & (all t  ((existsAt(p,t)) -> (locationOf(p,q,t))))))) # label("location-of-at-all-times") .
+
+% is-carrier-of at all times
+all p all q  ((isCarrierOfAtAllTimes(p,q)) <-> (((exists t  (((isCarrierOf(p,q,t)) & (existsAt(p,t))))) & (all t  ((existsAt(p,t)) -> (isCarrierOf(p,q,t))))))) # label("is-carrier-of-at-all-times") .
+
+% member-part-of at all times
+all p all q  ((memberPartOfAtAllTimes(p,q)) <-> (((exists t  (((memberPartOf(p,q,t)) & (existsAt(p,t))))) & (all t  ((existsAt(p,t)) -> (memberPartOf(p,q,t))))))) # label("member-part-of-at-all-times") .
+
+% has-member-part at all times
+all p all q  ((hasMemberPartAtAllTimes(p,q)) <-> (((exists t  (((hasMemberPart(p,q,t)) & (existsAt(p,t))))) & (all t  ((existsAt(p,t)) -> (hasMemberPart(p,q,t))))))) # label("has-member-part-at-all-times") .
+
+% has-participant at all times
+all p all q  ((hasParticipantAtAllTimes(p,q)) <-> (((exists t  (((hasParticipant(p,q,t)) & (existsAt(p,t))))) & (all t  ((existsAt(p,t)) -> (hasParticipant(p,q,t))))))) # label("has-participant-at-all-times") .
+
+% participates-in at all times
+all p all q  ((participatesInAtAllTimes(p,q)) <-> (((exists t  (((participatesIn(p,q,t)) & (existsAt(p,t))))) & (all t  ((existsAt(p,t)) -> (participatesIn(p,q,t))))))) # label("participates-in-at-all-times") .
+
+% is-concretized-by at all times
+all p all q  ((isConcretizedByAtAllTimes(p,q)) <-> (((exists t  (((isConcretizedBy(p,q,t)) & (existsAt(p,t))))) & (all t  ((existsAt(p,t)) -> (isConcretizedBy(p,q,t))))))) # label("is-concretized-by-at-all-times") .
+
+% material-basis-of at all times
+all p all q  ((materialBasisOfAtAllTimes(p,q)) <-> (((exists t  (((materialBasisOf(p,q,t)) & (existsAt(p,t))))) & (all t  ((existsAt(p,t)) -> (materialBasisOf(p,q,t))))))) # label("material-basis-of-at-all-times") .
+
+% continuant-part-of at all times
+all p all q  ((continuantPartOfAtAllTimes(p,q)) <-> (((exists t  (((continuantPartOf(p,q,t)) & (existsAt(p,t))))) & (all t  ((existsAt(p,t)) -> (continuantPartOf(p,q,t))))))) # label("continuant-part-of-at-all-times") .
+
+% has-material-basis at all times
+all p all q  ((hasMaterialBasisAtAllTimes(p,q)) <-> (((exists t  (((hasMaterialBasis(p,q,t)) & (existsAt(p,t))))) & (all t  ((existsAt(p,t)) -> (hasMaterialBasis(p,q,t))))))) # label("has-material-basis-at-all-times") .
+
+% has-continuant-part at all times
+all p all q  ((hasContinuantPartAtAllTimes(p,q)) <-> (((exists t  (((hasContinuantPart(p,q,t)) & (existsAt(p,t))))) & (all t  ((existsAt(p,t)) -> (hasContinuantPart(p,q,t))))))) # label("has-continuant-part-at-all-times") .
+
+% generically-depends-on at all times
+all p all q  ((genericallyDependsOnAtAllTimes(p,q)) <-> (((exists t  (((genericallyDependsOn(p,q,t)) & (existsAt(p,t))))) & (all t  ((existsAt(p,t)) -> (genericallyDependsOn(p,q,t))))))) # label("generically-depends-on-at-all-times") .
+
+% occupies-spatial-region at all times
+all p all q  ((occupiesSpatialRegionAtAllTimes(p,q)) <-> (((exists t  (((occupiesSpatialRegion(p,q,t)) & (existsAt(p,t))))) & (all t  ((existsAt(p,t)) -> (occupiesSpatialRegion(p,q,t))))))) # label("occupies-spatial-region-at-all-times") .
+
+% spatially-projects-onto at all times
+all p all q  ((spatiallyProjectsOntoAtAllTimes(p,q)) <-> (((exists t  (((spatiallyProjectsOnto(p,q,t)) & (existsAt(p,t))))) & (all t  ((existsAt(p,t)) -> (spatiallyProjectsOnto(p,q,t))))))) # label("spatially-projects-onto-at-all-times") .
+
+% proper-continuant-part-of at all times
+all p all q  ((properContinuantPartOfAtAllTimes(p,q)) <-> (((exists t  (((properContinuantPartOf(p,q,t)) & (existsAt(p,t))))) & (all t  ((existsAt(p,t)) -> (properContinuantPartOf(p,q,t))))))) # label("proper-continuant-part-of-at-all-times") .
+
+% has-proper-continuant-part at all times
+all p all q  ((hasProperContinuantPartAtAllTimes(p,q)) <-> (((exists t  (((hasProperContinuantPart(p,q,t)) & (existsAt(p,t))))) & (all t  ((existsAt(p,t)) -> (hasProperContinuantPart(p,q,t))))))) # label("has-proper-continuant-part-at-all-times") .
+
+% BFO 2020 Axiomatization, generated 2021/11/12
+% Author: Alan Ruttenberg - alanruttenberg@gmail.com
+% The most recent version of this file will always be in the GitHub repository https://github.com/bfo-ontology/bfo-2020
+% This work is licensed under a Creative Commons "Attribution 4.0 International" license: https://creativecommons.org/licenses/by/4.0/
+
+% Section: Temporal Region
+
+
+
+% has-last-instant and last-instant-of are inverse relations
+all a all b  ((hasLastInstant(a,b)) <-> (lastInstantOf(b,a))) # label("has-last-instant-inverse-of-last-instant-of") .
+
+% has-first-instant and first-instant-of are inverse relations
+all a all b  ((hasFirstInstant(a,b)) <-> (firstInstantOf(b,a))) # label("has-first-instant-inverse-of-first-instant-of") .
+
+% temporal-part-of and has-temporal-part are inverse relations
+all a all b  ((temporalPartOf(a,b)) <-> (hasTemporalPart(b,a))) # label("temporal-part-of-inverse-of-has-temporal-part") .
+
+% temporal-part-of for occurrents implies occurrent-part-of
+all a all b  ((temporalPartOf(a,b)) -> (occurrentPartOf(a,b))) # label("temporal-part-of-subproperty-of-occurrent-part-of") .
+
+% proper-temporal-part-of and has-proper-temporal-part are inverse relations
+all a all b  ((properTemporalPartOf(a,b)) <-> (hasProperTemporalPart(b,a))) # label("proper-temporal-part-of-inverse-of-has-proper-temporal-part") .
+
+% If something is an instance of temporal region at t, then t is part of that temporal region
+all ti all t  ((instanceOf(ti,temporalRegion,t)) -> (temporalPartOf(t,ti))) # label("time-once") .
+
+% temporal-part-of is reflexive
+all a  ((exists t  (instanceOf(a,occurrent,t))) -> (temporalPartOf(a,a))) # label("temporal-part-of-is-reflexive-on-occurrent") .
+
+% temporal-part-of is antisymmetric
+all a all b  ((((temporalPartOf(a,b)) & (temporalPartOf(b,a)))) -> ((a) = (b))) # label("temporal-part-of-is-antisymmetric") .
+
+% proper-temporal-part-of is asymmetric
+all a all b  ((properTemporalPartOf(a,b)) -> (-(properTemporalPartOf(b,a)))) # label("proper-temporal-part-of-is-asymmetric") .
+
+% has-last-instant is functional on second argument
+all p all q all r  ((((hasLastInstant(p,q)) & (hasLastInstant(p,r)))) -> ((q) = (r))) # label("has-last-instant-functional-on-second-argument") .
+
+% temporal-part-of is reflexive
+all a  ((exists t  (instanceOf(a,temporalRegion,t))) -> (temporalPartOf(a,a))) # label("temporal-part-of-is-reflexive-on-temporal-region") .
+
+% has-first-instant is functional on second argument
+all p all q all r  ((((hasFirstInstant(p,q)) & (hasFirstInstant(p,r)))) -> ((q) = (r))) # label("has-first-instant-functional-on-second-argument") .
+
+% a proper temporal part of b means a is a temporal part of b and b a is not the same as b
+all x all y  ((properTemporalPartOf(x,y)) <-> (((temporalPartOf(x,y)) & (-((x) = (y)))))) # label("definition-of-proper-temporal-part-of") .
+
+% instance-of is dissective on third argument, a temporal region
+all p all q all r all s  ((((instanceOf(p,q,r)) & (temporalPartOf(s,r)))) -> (instanceOf(p,q,s))) # label("instance-of-dissective-on-third-argument-temporal") .
+
+% temporal-part-of is transitive
+all a all b all c  ((((temporalPartOf(a,b)) & (temporalPartOf(b,c)))) -> (temporalPartOf(a,c))) # label("temporal-part-of-transitive") .
+
+% The first and last time points for an instant are the instant itself
+all i  ((instanceOf(i,temporalInstant,i)) <-> (((hasFirstInstant(i,i)) & (hasLastInstant(i,i))))) # label("instant-first-and-last-instant-are-itself") .
+
+% The only part of a temporal instant is itself
+all p all q  ((((exists t  (instanceOf(p,temporalInstant,t))) & (hasTemporalPart(p,q)))) -> ((p) = (q))) # label("temporal-instant-only-has-self-as-part") .
+
+% temporal regions are instances at themselves
+all a all u  ((exists t  (((instanceOf(a,temporalRegion,t)) & (instanceOf(a,u,t))))) -> (instanceOf(a,u,a))) # label("temporal-regions-instance-of-at-self") .
+
+% proper-temporal-part-of is transitive
+all a all b all c  ((((properTemporalPartOf(a,b)) & (properTemporalPartOf(b,c)))) -> (properTemporalPartOf(a,c))) # label("proper-temporal-part-of-transitive") .
+
+% If the last instant of a temporal region precedes the first instant of another, then the first region precedes the second
+all i1 all i2 all l1 all f2  ((((hasLastInstant(i1,l1)) & (hasFirstInstant(i2,f2)) & (precedes(l1,f2)))) -> (precedes(i1,i2))) # label("regions-precede-if-last-first-before-first-second") .
+
+% any temporal region has a first and last instant
+all i  ((instanceOf(i,temporalRegion,i)) -> (exists t1 exists t2  (((hasFirstInstant(i,t1)) & (hasLastInstant(i,t2)))))) # label("region-has-first-and-last-time-point") .
+
+% All temporal regions are part of a temporal interval
+all t  ((instanceOf(t,temporalRegion,t)) -> (exists i  (((instanceOf(i,temporalInterval,i)) & (temporalPartOf(t,i)))))) # label("temporal-regions-are-part-of-interval") .
+
+% temporal-part-of has domain occurrent and range occurrent
+all a all b  ((temporalPartOf(a,b)) -> (((exists t  (instanceOf(a,occurrent,t))) & (exists t  (instanceOf(b,occurrent,t)))))) # label("temporal-part-of-domain-range") .
+
+% First instant of a temporal region that is not an instant precedes last instant
+all t all ft all lt  ((((-(instanceOf(t,temporalInstant,t))) & (hasFirstInstant(t,ft)) & (hasLastInstant(t,lt)))) -> (precedes(ft,lt))) # label("first-time-point-precedes-last-time-point-except-for-instants") .
+
+% If one temporal region precedes another then the first last time point precedes the second first time point
+all t1 all t2 all l1 all f2  ((((precedes(t1,t2)) & (hasLastInstant(t1,l1)) & (hasFirstInstant(t2,f2)) & (-((l1) = (f2))))) -> (precedes(l1,f2))) # label("regions-precede-mean-endpoints-precede-unless-they-coincide") .
+
+% If a temporal-part-of b then if a is an instance of temporal-region then b is an instance of temporal-region, and vice-versa
+all p all q  ((temporalPartOf(p,q)) -> ((exists t  (instanceOf(p,temporalRegion,t))) <-> (exists t  (instanceOf(q,temporalRegion,t))))) # label("temporal-part-of.temporal-region<->temporal-region") .
+
+% has-last-instant has domain temporal-region and range temporal-instant
+all a all b  ((hasLastInstant(a,b)) -> (((exists t  (instanceOf(a,temporalRegion,t))) & (exists t  (instanceOf(b,temporalInstant,t)))))) # label("has-last-instant-domain-range") .
+
+% has-first-instant has domain temporal-region and range temporal-instant
+all a all b  ((hasFirstInstant(a,b)) -> (((exists t  (instanceOf(a,temporalRegion,t))) & (exists t  (instanceOf(b,temporalInstant,t)))))) # label("has-first-instant-domain-range") .
+
+% A one-dimensional temporal region has at least one interval as part
+all t  ((((instanceOf(t,oneDimensionalTemporalRegion,t)))) -> (exists p  (((temporalPartOf(p,t)) & (instanceOf(p,temporalInterval,p)))))) # label("one-dimensional-temporal-has-at-least-one-interval-part") .
+
+% temporal instants are totally ordered
+all t1 all t2  ((((instanceOf(t1,temporalInstant,t1)) & (instanceOf(t2,temporalInstant,t2)))) -> (((precedes(t1,t2)) | (precedes(t2,t1)) | ((t1) = (t2))))) # label("temporal-instants-connex-related") .
+
+% temporal-region is the union of zero-dimensional-temporal-region and one-dimensional-temporal-region 
+all i all t  ((instanceOf(i,temporalRegion,t)) -> (((instanceOf(i,zeroDimensionalTemporalRegion,t)) | (instanceOf(i,oneDimensionalTemporalRegion,t))))) # label("temporal-region-cover") .
+
+% If a temporal-part-of b then if a is an instance of one-dimensional-temporal-region then b is an instance of one-dimensional-temporal-region
+all p all q  ((temporalPartOf(p,q)) -> ((exists t  (instanceOf(p,oneDimensionalTemporalRegion,t))) -> (exists t  (instanceOf(q,oneDimensionalTemporalRegion,t))))) # label("temporal-part-of.one-dimensional-temporal-region->one-dimensional-temporal-region") .
+
+% If a has-temporal-part b then if a is an instance of zero-dimensional-temporal-region then b is an instance of zero-dimensional-temporal-region
+all p all q  ((hasTemporalPart(p,q)) -> ((exists t  (instanceOf(p,zeroDimensionalTemporalRegion,t))) -> (exists t  (instanceOf(q,zeroDimensionalTemporalRegion,t))))) # label("has-temporal-part.zero-dimensional-temporal-region->zero-dimensional-temporal-region") .
+
+% If the last instant of a temporal region is the first instant of another, the first region precedes the second
+all i1 all i2 all l1 all f2  ((((-(instanceOf(i1,temporalInstant,i1))) & (-(instanceOf(i2,temporalInstant,i2))) & (hasLastInstant(i1,l1)) & (hasFirstInstant(i2,f2)) & ((l1) = (f2)))) -> (precedes(i1,i2))) # label("regions-precede-if-they-meet") .
+
+% A first instant is either part of an extended region or precedes it
+all l all i  ((((instanceOf(l,temporalInstant,l)) & (instanceOf(i,temporalRegion,i)) & (-(instanceOf(i,temporalInstant,i))) & (hasLastInstant(i,l)))) -> ((-(temporalPartOf(l,i))) <-> (precedes(i,l)))) # label("either-last-instant-part-or-preceded-by") .
+
+% A first instant is either part of an extended region or precedes it
+all f all i  ((((instanceOf(f,temporalInstant,f)) & (instanceOf(i,temporalRegion,i)) & (-(instanceOf(i,temporalInstant,i))) & (hasFirstInstant(i,f)))) -> ((-(temporalPartOf(f,i))) <-> (precedes(f,i)))) # label("either-first-instant-part-or-precedes") .
+
+% If two temporal intervals do not overlap then one of them precedes the other
+all t1 all t2  ((((instanceOf(t1,temporalInterval,t1)) & (instanceOf(t2,temporalInterval,t2)) & (-(exists part  (((temporalPartOf(part,t1)) & (temporalPartOf(part,t2)))))))) -> (((precedes(t1,t2)) | (precedes(t2,t1))))) # label("temporal-intervals-dont-overlap-implies-one-precedes-the-other") .
+
+% If a has-temporal-part b then if a is an instance of one-dimensional-temporal-region then b is an instance of one-dimensional-temporal-region or zero-dimensional-temporal-region 
+all p all q  ((hasTemporalPart(p,q)) -> ((exists t  (instanceOf(p,oneDimensionalTemporalRegion,t))) -> (exists t  (((instanceOf(q,oneDimensionalTemporalRegion,t)) | (instanceOf(q,zeroDimensionalTemporalRegion,t))))))) # label("has-temporal-part.one-dimensional-temporal-region->or-one-dimensional-temporal-region-zero-dimensional-temporal-region") .
+
+% The first temporal instant is such that it precedes every part of the interval that doesn't have the first instant as part
+all fi all i  ((((instanceOf(fi,temporalInstant,fi)) & (instanceOf(i,temporalRegion,i)) & (-(instanceOf(i,temporalInstant,i))))) -> ((hasFirstInstant(i,fi)) -> (all ip  ((((temporalPartOf(ip,i)) & (-(temporalPartOf(fi,ip))))) -> (precedes(fi,ip)))))) # label("first-instant-for-temporal-regions-precedes-all-parts-of-region-other-than-self") .
+
+% The last temporal instant is such that every part of the interval that doesn't have the last instant as part precedes it
+all li all i  ((((instanceOf(li,temporalInstant,li)) & (instanceOf(i,temporalRegion,i)) & (-(instanceOf(i,temporalInstant,i))))) -> ((hasLastInstant(i,li)) -> (((all ip  ((((temporalPartOf(ip,i)) & (-(temporalPartOf(li,ip))))) -> (precedes(ip,li)))))))) # label("last-instant-for-temporal-regions-preceded-by-all-parts-of-region-other-than-self") .
+
+% intervals have no internal gaps
+all i all start all end  ((((instanceOf(i,temporalInterval,i)) & (hasFirstInstant(i,start)) & (hasLastInstant(i,end)))) -> (-(exists gap exists gapStart exists gapEnd  (((hasFirstInstant(gap,gapStart)) & (hasLastInstant(gap,gapEnd)) & (precedes(gapEnd,end)) & (precedes(start,gapStart)) & (-(temporalPartOf(gap,i)))))))) # label("no-internal-gaps-in-interval") .
+
+% temporal-part-of has weak-supplementation
+all x all y  ((((instanceOf(x,temporalRegion,x)) & (instanceOf(y,temporalRegion,y)))) -> ((properTemporalPartOf(x,y)) -> (exists z  (((properTemporalPartOf(z,y)) & (-(exists overlap  (((instanceOf(overlap,temporalRegion,overlap)) & (temporalPartOf(overlap,x)) & (temporalPartOf(overlap,z))))))))))) # label("temporal-part-of-has-weak-supplementation") .
+
+% any temporal instant that precedes the last instant of an interval and which is preceded by the first instant is part of the interval
+all t all r  ((((instanceOf(t,temporalInstant,t)) & (instanceOf(r,temporalInterval,r)))) -> (((hasFirstInstant(r,t)) | (hasLastInstant(r,t)) | ((exists f exists l  (((instanceOf(r,temporalInterval,r)) & (hasFirstInstant(r,f)) & (hasLastInstant(r,l)) & (precedes(t,l)) & (precedes(f,t))))) <-> (properTemporalPartOf(t,r)))))) # label("temporal-instants-between-first-and-last-instant-of-interval-part-of-that-interval") .
+
+% two intervals are identical if their first and last instants are the same and if an instant is part of one of the intervals it is also part of the other
+all i1 all i2  ((((instanceOf(i1,temporalInterval,i1)) & (instanceOf(i2,temporalInterval,i2)))) -> ((exists f exists l  (((hasFirstInstant(i1,f)) & (hasFirstInstant(i2,f)) & (hasLastInstant(i1,l)) & (hasLastInstant(i2,l)) & ((temporalPartOf(l,i1)) <-> (temporalPartOf(l,i2))) & ((temporalPartOf(f,i1)) <-> (temporalPartOf(f,i2)))))) -> ((i1) = (i2)))) # label("interval-identity") .
+
+% temporal-part-of has unique-product
+all x all y  ((((instanceOf(x,temporalRegion,x)) & (instanceOf(y,temporalRegion,y)))) -> ((exists o  (((temporalPartOf(o,x)) & (temporalPartOf(o,y))))) -> (exists z  (((instanceOf(z,temporalRegion,z)) & (all w  ((((instanceOf(w,temporalRegion,w)) & (instanceOf(z,temporalRegion,z)))) -> ((temporalPartOf(w,z)) <-> (((temporalPartOf(w,x)) & (temporalPartOf(w,y)))))))))))) # label("temporal-part-of-has-a-unique-product") .
+
+% An interval has no gaps
+all i all start all end  ((((instanceOf(i,temporalInterval,i)) & (hasFirstInstant(i,start)) & (hasLastInstant(i,end)))) -> (-(exists gap exists gapStart exists gapEnd  (((-(instanceOf(gap,temporalInstant,gap))) & (hasFirstInstant(gap,gapStart)) & (hasLastInstant(gap,gapEnd)) & (((precedes(gapEnd,end)) | (((temporalPartOf(end,i)) & ((gapEnd) = (end)))))) & (((precedes(start,gapStart)) | (((temporalPartOf(start,i)) & ((gapStart) = (start)))))) & (-(temporalPartOf(gap,i)))))))) # label("no-extended-temporal-region-gaps-in-interval") .
+
+% intervals have no gaps - strong version - every two instants without another in between bound an interval
+all i all start all end  ((((instanceOf(i,temporalInterval,i)) & (hasFirstInstant(i,start)) & (hasLastInstant(i,end)))) -> (all t1 all t2  ((((temporalPartOf(t1,i)) & (temporalPartOf(t2,i)) & (instanceOf(t1,temporalInstant,t1)) & (instanceOf(t2,temporalInstant,t2)) & (precedes(t1,t2)) & (-(exists t3  (((instanceOf(t3,temporalInstant,t3)) & (precedes(t1,t3)) & (precedes(t3,t2)))))))) -> (exists fill  (((instanceOf(fill,temporalInterval,fill)) & (hasFirstInstant(fill,t1)) & (hasLastInstant(fill,t2)) & (temporalPartOf(fill,i)))))))) # label("interval-covered-by-interval-parts") .
+
+
+
+% BFO 2020 Axiomatization, generated 2021/11/12
+% Author: Alan Ruttenberg - alanruttenberg@gmail.com
+% The most recent version of this file will always be in the GitHub repository https://github.com/bfo-ontology/bfo-2020
+% This work is licensed under a Creative Commons "Attribution 4.0 International" license: https://creativecommons.org/licenses/by/4.0/
+
+% Section: Specific Dependency
+
+
+
+% inheres-in and bearer-of are inverse relations
+all a all b  ((inheresIn(a,b)) <-> (bearerOf(b,a))) # label("inheres-in-inverse-of-bearer-of") .
+
+% realizes and has-realization are inverse relations
+all a all b  ((realizes(a,b)) <-> (hasRealization(b,a))) # label("realizes-inverse-of-has-realization") .
+
+% has-material-basis and material-basis-of are inverse relations
+all t all a all b  ((hasMaterialBasis(a,b,t)) <-> (materialBasisOf(b,a,t))) # label("has-material-basis-inverse-of-material-basis-of") .
+
+% specifically-depends-on and specifically-depended-on-by are inverse relations
+all a all b  ((specificallyDependsOn(a,b)) <-> (specificallyDependedOnBy(b,a))) # label("specifically-depends-on-inverse-of-specifically-depended-on-by") .
+
+% When a role is realized the bearer of the role participates in the realization process
+all r all p all b  ((((realizes(p,r)) & (inheresIn(r,b)))) -> (exists t  (participatesIn(b,p,t)))) # label("realizable-bearer-participates-in-realization") .
+
+% has-material-basis is dissective on third argument, a temporal region
+all p all q all r all s  ((((hasMaterialBasis(p,q,r)) & (temporalPartOf(s,r)))) -> (hasMaterialBasis(p,q,s))) # label("has-material-basis-dissective-on-third-argument-temporal") .
+
+% realizes has domain process and range realizable-entity
+all a all b  ((realizes(a,b)) -> (((exists t  (instanceOf(a,process,t))) & (exists t  (instanceOf(b,realizableEntity,t)))))) # label("realizes-domain-range") .
+
+% specifically-depends-on is transitive
+all a all b all c  ((((specificallyDependsOn(a,b)) & (specificallyDependsOn(b,c)) & (-((a) = (c))))) -> (specificallyDependsOn(a,c))) # label("specifically-depends-on-transitive") .
+
+% if s s-depends_on c then s and c never share common parts (s,c continuants)
+all s all c  ((specificallyDependsOn(s,c)) -> (-(exists w exists t  (((continuantPartOf(w,s,t)) & (continuantPartOf(w,c,t))))))) # label("specific-dependents-dont-share-parts-with-bearer-continuants") .
+
+% A realizable entity exists at least at the beginning of the realization process
+all r all p  ((realizes(p,r)) -> (exists proct exists first  (((occupiesTemporalRegion(p,proct)) & (hasFirstInstant(proct,first)) & (existsAt(r,first)))))) # label("realizable-exists-at-least-at-beginning-of-realization") .
+
+% has-material-basis is time indexed and has domain: disposition and range: material-entity
+all a all b all t  ((hasMaterialBasis(a,b,t)) -> (((instanceOf(a,disposition,t)) & (instanceOf(b,materialEntity,t)) & (instanceOf(t,temporalRegion,t))))) # label("has-material-basis-domain-range") .
+
+% If x s-depends-on y then there's at least one time when they both exist
+all s all c  ((specificallyDependsOn(s,c)) -> (((exists t  (((existsAt(s,t)) & (existsAt(c,t))))) & (all t  ((existsAt(s,t)) -> (existsAt(c,t))))))) # label("s-depends-means-bearer-exists-when-dependent-exists") .
+
+% DEFINITION: b is a relational quality = Def. b is a quality and there exists distinct c and d such that at all times t, b inheres in c if and only b specifically-depends-on.
+all b  ((exists t  (instanceOf(b,relationalQuality,t))) <-> (((exists c exists d  (((-((c) = (d))) & (inheresIn(b,c)) & (specificallyDependsOn(b,d))))) & (exists t  (instanceOf(b,quality,t)))))) # label("relational-quality-definition") .
+
+% inheres-in has domain specifically-dependent-continuant and range independent-continuant but not spatial-region
+all a all b  ((inheresIn(a,b)) -> (((exists t  (instanceOf(a,specificallyDependentContinuant,t))) & (exists t  (((instanceOf(b,independentContinuant,t)) & (-(instanceOf(b,spatialRegion,t))))))))) # label("inheres-in-domain-range") .
+
+% a inheres_in b =Def. a is a specifically dependent continuant and b is an independent continuant that is not a spatial region and a s-depends_on b.
+all a all b  ((inheresIn(a,b)) <-> (((specificallyDependsOn(a,b)) & (exists t  (((instanceOf(a,specificallyDependentContinuant,t)) & (instanceOf(b,independentContinuant,t)) & (-(instanceOf(b,spatialRegion,t))))))))) # label("inheres-in-definition") .
+
+% Definition of specifically dependent continuant.
+all s  ((exists t  (instanceOf(s,specificallyDependentContinuant,t))) <-> (exists c exists t  (((instanceOf(s,continuant,t)) & (instanceOf(c,independentContinuant,t)) & (-(instanceOf(c,spatialRegion,t))) & (specificallyDependsOn(s,c)))))) # label("definition-of-specifically-dependent-continuant") .
+
+% The material basis of a disposition is part of the bearer of the disposition
+all m all d all b  ((((exists t  (instanceOf(m,materialEntity,t))) & (exists t  (instanceOf(d,disposition,t))) & (exists t  (instanceOf(b,materialEntity,t))) & (inheresIn(d,b)))) -> (all t  ((hasMaterialBasis(d,m,t)) -> (continuantPartOf(m,b,t))))) # label("material-basis-part-of-disposition-bearer") .
+
+% specifically-depends-on has domain specifically-dependent-continuant and range specifically-dependent-continuant or independent-continuant but not spatial-region 
+all a all b  ((specificallyDependsOn(a,b)) -> (((exists t  (instanceOf(a,specificallyDependentContinuant,t))) & (exists t  (((instanceOf(b,specificallyDependentContinuant,t)) | (((instanceOf(b,independentContinuant,t)) & (-(instanceOf(b,spatialRegion,t))))))))))) # label("specifically-depends-on-domain-range") .
+
+% At every time a specific dependent s participates in a process p there's a part of that time, during which there's an independent-continuant that s s-depends on, and that participates in p at that time
+all sdc all p all t  ((((instanceOf(sdc,specificallyDependentContinuant,t)) & (participatesIn(sdc,p,t)))) -> (exists tp exists ic  (((instanceOf(tp,temporalRegion,tp)) & (temporalPartOf(tp,t)) & (instanceOf(ic,independentContinuant,tp)) & (-(instanceOf(ic,spatialRegion,tp))) & (specificallyDependsOn(sdc,ic)) & (participatesIn(ic,p,tp)))))) # label("participation-of-specific-dependent-continuant") .
+
+
+
+% BFO 2020 Axiomatization, generated 2021/11/12
+% Author: Alan Ruttenberg - alanruttenberg@gmail.com
+% The most recent version of this file will always be in the GitHub repository https://github.com/bfo-ontology/bfo-2020
+% This work is licensed under a Creative Commons "Attribution 4.0 International" license: https://creativecommons.org/licenses/by/4.0/
+
+% Section: Spatiotemporal
+
+
+
+% If something occupies a temporal region, then it exists at that region
+all a all t  ((occupiesTemporalRegion(a,t)) -> (existsAt(a,t))) # label("occupies-temporal-region-existence") .
+
+% exists-at is a lower bound on first argument
+all p all q all r  ((((existsAt(p,q)) & (temporalPartOf(p,r)))) -> (existsAt(r,q))) # label("exists-at-is-a-lower-bound-on-first-argument-temporal") .
+
+% occupies-temporal-region is functional on second argument
+all p all q all r  ((((occupiesTemporalRegion(p,q)) & (occupiesTemporalRegion(p,r)))) -> ((q) = (r))) # label("occupies-temporal-region-functional-on-second-argument") .
+
+% temporally-projects-onto is functional on second argument
+all p all q all r  ((((temporallyProjectsOnto(p,q)) & (temporallyProjectsOnto(p,r)))) -> ((q) = (r))) # label("temporally-projects-onto-functional-on-second-argument") .
+
+% spatially-projects-onto is functional on second argument
+all p all q all r all s  ((((spatiallyProjectsOnto(p,q,r)) & (spatiallyProjectsOnto(p,s,r)))) -> ((q) = (s))) # label("spatially-projects-onto-functional-on-second-argument") .
+
+% occupies-spatiotemporal-region is functional on second argument
+all p all q all r  ((((occupiesSpatiotemporalRegion(p,q)) & (occupiesSpatiotemporalRegion(p,r)))) -> ((q) = (r))) # label("occupies-spatiotemporal-region-functional-on-second-argument") .
+
+% occurs-in is a lower bound on second argument
+all p all c1 all c2  ((((occursIn(p,c1)) & (all t  ((existsAt(p,t)) <-> (locatedIn(c1,c2,t)))))) -> (occursIn(p,c2))) # label("occurs-in-is-a-lower-bound-on-second-argument-continuant") .
+
+% If a occupies-spatial-region b then if a is an instance of site then b is an instance of three-dimensional-spatial-region
+all p all q all t  ((((occupiesSpatialRegion(p,q,t)) & (instanceOf(p,site,t)))) -> (instanceOf(q,threeDimensionalSpatialRegion,t))) # label("occupies-spatial-region.site->three-dimensional-spatial-region") .
+
+% The temporal region during which a process occurs is the same as that which the spatiotemporal region the process occupies temporally projects onto
+all p all t  ((occupiesTemporalRegion(p,t)) <-> (exists st  (((occupiesSpatiotemporalRegion(p,st)) & (temporallyProjectsOnto(st,t)))))) # label("process-occupies-temporal-region-same-as-st-region-occupies") .
+
+% A process boundary occupies a spatiotemporal instant
+all pb all tr  ((((exists t  (instanceOf(pb,processBoundary,t))) & (occupiesTemporalRegion(pb,tr)))) -> (instanceOf(tr,temporalInstant,tr))) # label("process-boundary-occupies-temporal-instant") .
+
+% for every process there's a corresponding spatiotemporal-region
+all p  ((exists t  (((instanceOf(p,process,t)) | (instanceOf(p,processBoundary,t))))) -> (exists s  (occupiesSpatiotemporalRegion(p,s)))) # label("processes-occupy-spatiotemporal-regions") .
+
+% temporally-projects-onto has domain spatiotemporal-region and range temporal-region
+all a all b  ((temporallyProjectsOnto(a,b)) -> (((exists t  (instanceOf(a,spatiotemporalRegion,t))) & (exists t  (instanceOf(b,temporalRegion,t)))))) # label("temporally-projects-onto-domain-range") .
+
+% Spatiotemporal regions always project on to some temporal region
+all st  ((exists t  (instanceOf(st,spatiotemporalRegion,t))) -> (exists t  (((instanceOf(t,temporalRegion,t)) & (temporallyProjectsOnto(st,t)))))) # label("every-spatiotemporal-region-projects-onto-temporal-region") .
+
+% spatially-projects-onto is time indexed and has domain: spatiotemporal-region and range: spatial-region
+all a all b all t  ((spatiallyProjectsOnto(a,b,t)) -> (((instanceOf(a,spatiotemporalRegion,t)) & (instanceOf(b,spatialRegion,t)) & (instanceOf(t,temporalRegion,t))))) # label("spatially-projects-onto-domain-range") .
+
+% Every temporal region is a projection from a spatiotemporal region
+all tr  ((exists t  (instanceOf(tr,temporalRegion,t))) -> (exists st  (((exists t  (instanceOf(st,spatiotemporalRegion,t))) & (temporallyProjectsOnto(st,tr)))))) # label("every-temporal-region-is-projection-from-spatiotemporal-region") .
+
+% Spatiotemporal regions always project on to some spatial region at any time
+all st all t  ((instanceOf(st,spatiotemporalRegion,t)) -> (exists s exists tp  (((temporalPartOf(tp,t)) & (instanceOf(s,spatialRegion,tp)) & (spatiallyProjectsOnto(st,s,tp)))))) # label("every-spatiotemporal-region-projects-onto-spatial-region") .
+
+% occupies-temporal-region has domain process or process-boundary  and range temporal-region
+all a all b  ((occupiesTemporalRegion(a,b)) -> (((exists t  (((instanceOf(a,process,t)) | (instanceOf(a,processBoundary,t))))) & (exists t  (instanceOf(b,temporalRegion,t)))))) # label("occupies-temporal-region-domain-range") .
+
+% Every spatial region is a projection from a spatiotemporal region
+all sr  ((exists t  (instanceOf(sr,spatialRegion,t))) -> (exists st  (((exists t  (instanceOf(st,spatiotemporalRegion,t))) & (exists t  (spatiallyProjectsOnto(st,sr,t))))))) # label("every-spatial-region-is-projection-from-spatiotemporal-region") .
+
+% occupies-spatiotemporal-region has domain process or process-boundary  and range spatiotemporal-region
+all a all b  ((occupiesSpatiotemporalRegion(a,b)) -> (((exists t  (((instanceOf(a,process,t)) | (instanceOf(a,processBoundary,t))))) & (exists t  (instanceOf(b,spatiotemporalRegion,t)))))) # label("occupies-spatiotemporal-region-domain-range") .
+
+% A process occupies at least a temporal interval
+all proc all tr  ((((exists t  (instanceOf(proc,process,t))) & (occupiesTemporalRegion(proc,tr)))) -> (exists interval  (((instanceOf(interval,temporalInterval,interval)) & (temporalPartOf(interval,tr)))))) # label("process-occupies-at-least-an-interval") .
+
+% If one occurrent is part of another, then the temporal region of the first is part of the temporal region of the second
+all o1 all o2 all t1 all t2  ((((exists t  (((instanceOf(o1,process,t)) | (instanceOf(o1,processBoundary,t))))) & (exists t  (instanceOf(o2,process,t))) & (occurrentPartOf(o1,o2)) & (occupiesTemporalRegion(o1,t1)) & (occupiesTemporalRegion(o2,t2)))) -> (temporalPartOf(t1,t2))) # label("parts-of-processes-imply-temporal-regions-part") .
+
+% If one process or process boundary is part of another, then their corresponding temporal regions are also in a parthood relation
+all o1 all o2 all st1 all st2  ((((exists t  (((instanceOf(o1,process,t)) | (instanceOf(o1,processBoundary,t))))) & (exists t  (((instanceOf(o2,process,t)) | (instanceOf(o2,processBoundary,t))))) & (occurrentPartOf(o1,o2)) & (occupiesSpatiotemporalRegion(o1,st1)) & (occupiesSpatiotemporalRegion(o2,st2)))) -> (occurrentPartOf(st1,st2))) # label("parts-of-processes-imply-spatiotemporal-regions-part") .
+
+% If a process or process boundary is part of another, their spatiotemporal regions are part too
+all p1 all p2  ((((((exists t  (instanceOf(p1,process,t))) | (exists t  (instanceOf(p1,processBoundary,t))))) & (((exists t  (instanceOf(p2,process,t))) | (exists t  (instanceOf(p2,processBoundary,t))))))) -> ((occurrentPartOf(p1,p2)) <-> (exists st1 exists st2  (((occupiesSpatiotemporalRegion(p1,st1)) & (occupiesSpatiotemporalRegion(p2,st2)) & (occurrentPartOf(st1,st2))))))) # label("process-occurrent-part-of-implication") .
+
+% process or process-boundary p occupies-temporal-region t iff every part of p temporally occupies a part of t, and there isn't a smaller part of t that p occupies.
+all o all t  ((((((exists t1  (instanceOf(o,process,t1))) | (exists t1  (instanceOf(o,processBoundary,t1))))) & (instanceOf(t,temporalRegion,t)))) -> ((occupiesTemporalRegion(o,t)) <-> (((all op  ((occurrentPartOf(op,o)) -> (all tp  ((occupiesTemporalRegion(op,tp)) -> (occurrentPartOf(tp,t)))))) & (-(exists tprime  (((-((tprime) = (t))) & (occurrentPartOf(tprime,t)) & (occupiesTemporalRegion(o,tprime)))))))))) # label("occupies-temporal-region-exact") .
+
+% process p (or boundary) occupies-spatiotemporal-region st iff every part of p  occupies-spatiotemporal-region a part of st, and there isn't a smaller part of st that p occupies.
+all o all st  ((((((exists t1  (instanceOf(o,process,t1))) | (exists t1  (instanceOf(o,processBoundary,t1))))) & (exists t1  (instanceOf(st,spatiotemporalRegion,t1))))) -> ((occupiesSpatiotemporalRegion(o,st)) <-> (((all op  ((occurrentPartOf(op,o)) -> (all stp  ((occupiesSpatiotemporalRegion(op,stp)) -> (occurrentPartOf(stp,st)))))) & (-(exists stprime  (((-((stprime) = (st))) & (occurrentPartOf(stprime,st)) & (occupiesSpatiotemporalRegion(o,stprime)))))))))) # label("occupies-spatiotemporal-region-exact") .
+
+
+
+% BFO 2020 Axiomatization, generated 2021/11/12
+% Author: Alan Ruttenberg - alanruttenberg@gmail.com
+% The most recent version of this file will always be in the GitHub repository https://github.com/bfo-ontology/bfo-2020
+% This work is licensed under a Creative Commons "Attribution 4.0 International" license: https://creativecommons.org/licenses/by/4.0/
+
+% Section: Spatial
+
+
+
+% occurs-in and environs are inverse relations
+all a all b  ((occursIn(a,b)) <-> (environs(b,a))) # label("occurs-in-inverse-of-environs") .
+
+% located-in and location-of are inverse relations
+all t all a all b  ((locatedIn(a,b,t)) <-> (locationOf(b,a,t))) # label("located-in-inverse-of-location-of") .
+
+% occurs-in is dissective on first argumentwhen it is an occurrent
+all p all q all r  ((((occursIn(p,q)) & (occurrentPartOf(r,p)))) -> (occursIn(r,q))) # label("occurs-in-dissective-on-first-argument-occurrent") .
+
+% If a process (or process-boundary) occurs in a continuant, that continuant exists at least as long as the process does
+all p all c  ((occursIn(p,c)) -> (all t  ((existsAt(p,t)) -> (existsAt(c,t))))) # label("occurs-in-site-exists-as-long-as-process-does") .
+
+% located-in is dissective on third argument, a temporal region
+all p all q all r all s  ((((locatedIn(p,q,r)) & (temporalPartOf(s,r)))) -> (locatedIn(p,q,s))) # label("located-in-dissective-on-third-argument-temporal") .
+
+% located-in is a lower bound on second argument
+all p all q all r all s  ((((locatedIn(p,q,r)) & (continuantPartOf(q,s,r)))) -> (locatedIn(p,s,r))) # label("located-in-is-a-lower-bound-on-second-argument-continuant") .
+
+% located-in is dissective on first argumentwhen it is a continuant
+all p all q all r all s  ((((locatedIn(p,q,r)) & (continuantPartOf(s,p,r)))) -> (locatedIn(s,q,r))) # label("located-in-dissective-on-first-argument-continuant") .
+
+% occupies-spatial-region is functional on second argument
+all p all q all r all s  ((((occupiesSpatialRegion(p,q,r)) & (occupiesSpatialRegion(p,s,r)))) -> ((q) = (s))) # label("occupies-spatial-region-functional-on-second-argument") .
+
+% occupies-spatial-region is dissective on third argument, a temporal region
+all p all q all r all s  ((((occupiesSpatialRegion(p,q,r)) & (temporalPartOf(s,r)))) -> (occupiesSpatialRegion(p,q,s))) # label("occupies-spatial-region-dissective-on-third-argument-temporal") .
+
+% spatially-projects-onto is dissective on third argument, a temporal region
+all p all q all r all s  ((((spatiallyProjectsOnto(p,q,r)) & (temporalPartOf(s,r)))) -> (spatiallyProjectsOnto(p,q,s))) # label("spatially-projects-onto-dissective-on-third-argument-temporal") .
+
+% located-in is transitive at a time
+all a all b all c all t all t2  ((((locatedIn(a,b,t)) & (locatedIn(b,c,t2)) & (temporalPartOf(t,t2)))) -> (locatedIn(a,c,t))) # label("located-in-transitive-at-a-time") .
+
+% If a location-of b then if a is an instance of continuant-fiat-boundary then b is an instance of continuant-fiat-boundary
+all p all q all t  ((((locationOf(p,q,t)) & (instanceOf(p,continuantFiatBoundary,t)))) -> (instanceOf(q,continuantFiatBoundary,t))) # label("location-of.continuant-fiat-boundary->continuant-fiat-boundary") .
+
+% All spatial regions are part of a 3-dimensional spatial region
+all s all t  ((instanceOf(s,spatialRegion,t)) -> (exists s3  (((instanceOf(s3,threeDimensionalSpatialRegion,t)) & (continuantPartOf(s,s3,t)))))) # label("spatial-regions-are-part-of-3d-space") .
+
+% occurs-in is lower bound location
+all p all c1 all c2  ((((occursIn(p,c1)) & (all t  ((existsAt(p,t)) <-> (((existsAt(c2,t)) & (continuantPartOf(c1,c2,t)))))))) -> (occursIn(p,c2))) # label("occurs-in-lower-bound-on-process") .
+
+% If something is located in something else then the region of the first is part of the region of the second
+all a all b all t  ((locatedIn(a,b,t)) -> (exists r1 exists r2 exists t2  (((temporalPartOf(t2,t)) & (occupiesSpatialRegion(a,r1,t2)) & (occupiesSpatialRegion(b,r2,t2)) & (continuantPartOf(r1,r2,t2)))))) # label("when-located-regions-part-of") .
+
+% occurs-in has domain process or process-boundary  and range material-entity or site 
+all a all b  ((occursIn(a,b)) -> (((exists t  (((instanceOf(a,process,t)) | (instanceOf(a,processBoundary,t))))) & (exists t  (((instanceOf(b,materialEntity,t)) | (instanceOf(b,site,t)))))))) # label("occurs-in-domain-range") .
+
+% spatial regions don't change what they are part of.
+all s all sp  ((exists t  (((instanceOf(s,spatialRegion,t)) & (continuantPartOf(sp,s,t))))) -> (all t  ((exists sPrime  (continuantPartOf(sPrime,s,t))) -> (continuantPartOf(sp,s,t))))) # label("spatial-region-part-of-another-forever") .
+
+% occupies-spatial-region is time indexed and has domain: independent-continuant but not spatial-region and range: spatial-region
+all a all b all t  ((occupiesSpatialRegion(a,b,t)) -> (((((instanceOf(a,independentContinuant,t)) & (-(instanceOf(a,spatialRegion,t))))) & (instanceOf(b,spatialRegion,t)) & (instanceOf(t,temporalRegion,t))))) # label("occupies-spatial-region-domain-range") .
+
+% If there are two independent continuants that are not spatial regions, and one is part of the other, then it is located in the other
+all a all b all t  ((((continuantPartOf(a,b,t)) & (instanceOf(a,independentContinuant,t)) & (-(instanceOf(a,spatialRegion,t))) & (instanceOf(b,independentContinuant,t)) & (-(instanceOf(b,spatialRegion,t))))) -> (locatedIn(a,b,t))) # label("part-of-non-spatial-region-implies-located-in") .
+
+% spatial-region is the union of zero-dimensional-spatial-region, one-dimensional-spatial-region, two-dimensional-spatial-region, and three-dimensional-spatial-region 
+all i all t  ((instanceOf(i,spatialRegion,t)) -> (((instanceOf(i,zeroDimensionalSpatialRegion,t)) | (instanceOf(i,oneDimensionalSpatialRegion,t)) | (instanceOf(i,twoDimensionalSpatialRegion,t)) | (instanceOf(i,threeDimensionalSpatialRegion,t))))) # label("spatial-region-cover") .
+
+% No two material entities occupy the same space unless they coincide
+all m1 all m2 all s all t  ((((instanceOf(m1,materialEntity,t)) & (occupiesSpatialRegion(m1,s,t)) & (instanceOf(m2,materialEntity,t)) & (occupiesSpatialRegion(m2,s,t)))) -> (((((continuantPartOf(m2,m1,t)) & (continuantPartOf(m1,m2,t)))) | ((m1) = (m2))))) # label("same-space-same-or-coincident-material-entity") .
+
+% located-in is time indexed and has domain: independent-continuant but not spatial-region and range: independent-continuant but not spatial-region
+all a all b all t  ((locatedIn(a,b,t)) -> (((((instanceOf(a,independentContinuant,t)) & (-(instanceOf(a,spatialRegion,t))))) & (((instanceOf(b,independentContinuant,t)) & (-(instanceOf(b,spatialRegion,t))))) & (instanceOf(t,temporalRegion,t))))) # label("located-in-domain-range") .
+
+% at all times t, there's a part of t when c occupies-spatial-region r iff every part of c occupies a part of r, and there isn't a smaller part of r that c occupies.
+all c all r all t  ((((instanceOf(c,independentContinuant,t)) & (-(instanceOf(c,spatialRegion,t))) & (instanceOf(r,spatialRegion,t)))) -> (exists t2  (((temporalPartOf(t2,t)) & ((occupiesSpatialRegion(c,r,t2)) <-> (((all cp  ((continuantPartOf(cp,c,t2)) -> (all rp  ((occupiesSpatialRegion(cp,rp,t2)) -> (continuantPartOf(rp,r,t2)))))) & (-(exists rprime  (((-((rprime) = (r))) & (continuantPartOf(rprime,r,t2)) & (occupiesSpatialRegion(c,rprime,t2))))))))))))) # label("occupies-spatial-region-exact") .
+
+
+
+% BFO 2020 Axiomatization, generated 2021/11/12
+% Author: Alan Ruttenberg - alanruttenberg@gmail.com
+% The most recent version of this file will always be in the GitHub repository https://github.com/bfo-ontology/bfo-2020
+% This work is licensed under a Creative Commons "Attribution 4.0 International" license: https://creativecommons.org/licenses/by/4.0/
+
+% Section: Participation
+
+
+
+% participates-in and has-participant are inverse relations
+all t all a all b  ((participatesIn(a,b,t)) <-> (hasParticipant(b,a,t))) # label("participates-in-inverse-of-has-participant") .
+
+% At every time a process exists it has a participant
+all p all t  ((instanceOf(p,process,t)) -> (exists c  (participatesIn(c,p,t)))) # label("process-always-has-participant") .
+
+% participates-in is dissective on third argument, a temporal region
+all p all q all r all s  ((((participatesIn(p,q,r)) & (temporalPartOf(s,r)))) -> (participatesIn(p,q,s))) # label("participates-in-dissective-on-third-argument-temporal") .
+
+% participates-in is time indexed and has domain: independent-continuant but not spatial-region or specifically-dependent-continuant or generically-dependent-continuant  and range: process
+all a all b all t  ((participatesIn(a,b,t)) -> (((((((instanceOf(a,independentContinuant,t)) & (-(instanceOf(a,spatialRegion,t))))) | (instanceOf(a,specificallyDependentContinuant,t)) | (instanceOf(a,genericallyDependentContinuant,t)))) & (instanceOf(b,process,t)) & (instanceOf(t,temporalRegion,t))))) # label("participates-in-domain-range") .
+
+% At every time a specific dependent s participates in a process p there's a part of that time, during which there's an independent-continuant that s s-depends on, and that participates in p at that time
+all sdc all p all t  ((((instanceOf(sdc,specificallyDependentContinuant,t)) & (participatesIn(sdc,p,t)))) -> (exists tp exists ic  (((instanceOf(tp,temporalRegion,tp)) & (temporalPartOf(tp,t)) & (instanceOf(ic,independentContinuant,tp)) & (-(instanceOf(ic,spatialRegion,tp))) & (specificallyDependsOn(sdc,ic)) & (participatesIn(ic,p,tp)))))) # label("participation-of-specific-dependent-continuant") .
+
+% If a generically dependent continuant participates in a process p then, if it is concretized as a process, that process is part of p, fand if concretized as an sdc then the bearer of that sdc participates in the process
+all gdc all p all t  ((((instanceOf(gdc,genericallyDependentContinuant,t)) & (participatesIn(gdc,p,t)))) -> (exists tp exists b  (((temporalPartOf(tp,t)) & (concretizes(b,gdc,tp)) & (((((instanceOf(b,specificallyDependentContinuant,tp)) & (exists ic  (((specificallyDependsOn(b,ic)) & (participatesIn(ic,p,tp))))))) | (((occurrentPartOf(b,p)) & (existsAt(b,tp)))))))))) # label("participation-of-generically-dependent-continuant") .
+
+
+
+% BFO 2020 Axiomatization, generated 2021/11/12
+% Author: Alan Ruttenberg - alanruttenberg@gmail.com
+% The most recent version of this file will always be in the GitHub repository https://github.com/bfo-ontology/bfo-2020
+% This work is licensed under a Creative Commons "Attribution 4.0 International" license: https://creativecommons.org/licenses/by/4.0/
+
+% Section: Order
+
+
+
+% precedes and preceded-by are inverse relations
+all a all b  ((precedes(a,b)) <-> (precededBy(b,a))) # label("precedes-inverse-of-preceded-by") .
+
+% precedes is antisymmetric
+all a all b  ((precedes(a,b)) -> (-(precedes(b,a)))) # label("precedes-antisymmetric") .
+
+% precedes is transitive
+all a all b all c  ((((precedes(a,b)) & (precedes(b,c)))) -> (precedes(a,c))) # label("precedes-transitive") .
+
+% If the last instant of a temporal region precedes the first instant of another, then the first region precedes the second
+all i1 all i2 all l1 all f2  ((((hasLastInstant(i1,l1)) & (hasFirstInstant(i2,f2)) & (precedes(l1,f2)))) -> (precedes(i1,i2))) # label("regions-precede-if-last-first-before-first-second") .
+
+% precedes has domain occurrent and range occurrent
+all a all b  ((precedes(a,b)) -> (((exists t  (instanceOf(a,occurrent,t))) & (exists t  (instanceOf(b,occurrent,t)))))) # label("precedes-domain-range") .
+
+% If you are part of something that precedes something else, you also precede it
+all o1 all o2 all o1p all o2p  ((((occurrentPartOf(o1p,o1)) & (occurrentPartOf(o2p,o2)) & (precedes(o1,o2)))) -> (precedes(o1p,o2p))) # label("part-of-something-that-precedes-precedes") .
+
+% First instant of a temporal region that is not an instant precedes last instant
+all t all ft all lt  ((((-(instanceOf(t,temporalInstant,t))) & (hasFirstInstant(t,ft)) & (hasLastInstant(t,lt)))) -> (precedes(ft,lt))) # label("first-time-point-precedes-last-time-point-except-for-instants") .
+
+% If one temporal region precedes another then the first last time point precedes the second first time point
+all t1 all t2 all l1 all f2  ((((precedes(t1,t2)) & (hasLastInstant(t1,l1)) & (hasFirstInstant(t2,f2)) & (-((l1) = (f2))))) -> (precedes(l1,f2))) # label("regions-precede-mean-endpoints-precede-unless-they-coincide") .
+
+% if one occurrent precedes another then they do not overlap temporally
+all p all q  ((((precedes(p,q)) | (precedes(q,p)))) -> (-(exists overlap  (((temporalPartOf(overlap,p)) & (temporalPartOf(overlap,q))))))) # label("precedes-doesnt-overlap") .
+
+% temporal instants are totally ordered
+all t1 all t2  ((((instanceOf(t1,temporalInstant,t1)) & (instanceOf(t2,temporalInstant,t2)))) -> (((precedes(t1,t2)) | (precedes(t2,t1)) | ((t1) = (t2))))) # label("temporal-instants-connex-related") .
+
+% If the last instant of a temporal region is the first instant of another, the first region precedes the second
+all i1 all i2 all l1 all f2  ((((-(instanceOf(i1,temporalInstant,i1))) & (-(instanceOf(i2,temporalInstant,i2))) & (hasLastInstant(i1,l1)) & (hasFirstInstant(i2,f2)) & ((l1) = (f2)))) -> (precedes(i1,i2))) # label("regions-precede-if-they-meet") .
+
+% A first instant is either part of an extended region or precedes it
+all l all i  ((((instanceOf(l,temporalInstant,l)) & (instanceOf(i,temporalRegion,i)) & (-(instanceOf(i,temporalInstant,i))) & (hasLastInstant(i,l)))) -> ((-(temporalPartOf(l,i))) <-> (precedes(i,l)))) # label("either-last-instant-part-or-preceded-by") .
+
+% A first instant is either part of an extended region or precedes it
+all f all i  ((((instanceOf(f,temporalInstant,f)) & (instanceOf(i,temporalRegion,i)) & (-(instanceOf(i,temporalInstant,i))) & (hasFirstInstant(i,f)))) -> ((-(temporalPartOf(f,i))) <-> (precedes(f,i)))) # label("either-first-instant-part-or-precedes") .
+
+% If two temporal intervals do not overlap then one of them precedes the other
+all t1 all t2  ((((instanceOf(t1,temporalInterval,t1)) & (instanceOf(t2,temporalInterval,t2)) & (-(exists part  (((temporalPartOf(part,t1)) & (temporalPartOf(part,t2)))))))) -> (((precedes(t1,t2)) | (precedes(t2,t1))))) # label("temporal-intervals-dont-overlap-implies-one-precedes-the-other") .
+
+% If you temporally occupy part of something that precedes something else, you also precede it
+all o1 all o2  ((exists t1 exists t2  (((((occupiesTemporalRegion(o1,t1)) | (temporallyProjectsOnto(o1,t1)) | ((t1) = (o1)))) & (((occupiesTemporalRegion(o2,t2)) | (temporallyProjectsOnto(o2,t2)) | ((t2) = (o2)))) & (precedes(t1,t2))))) <-> (precedes(o1,o2))) # label("occurrents-precedes-iff-temporal-precedes") .
+
+% If two processes that occupy temporal intervals do not overlap, one of them precedes the other
+all o1 all o2 all t1 all t2  ((((occupiesTemporalRegion(o1,t1)) & (occupiesTemporalRegion(o2,t2)) & (instanceOf(t1,temporalInterval,t1)) & (instanceOf(t2,temporalInterval,t2)) & (-(exists part  (((temporalPartOf(part,t1)) & (temporalPartOf(part,t2)))))))) -> (((precedes(o1,o2)) | (precedes(o2,o1))))) # label("process-temporal-regions-on-temporal-intervals-dont-overlap-implies-one-precedes-the-other") .
+
+
+
+% BFO 2020 Axiomatization, generated 2021/11/12
+% Author: Alan Ruttenberg - alanruttenberg@gmail.com
+% The most recent version of this file will always be in the GitHub repository https://github.com/bfo-ontology/bfo-2020
+% This work is licensed under a Creative Commons "Attribution 4.0 International" license: https://creativecommons.org/licenses/by/4.0/
+
+% Section: Occurrent Mereology
+
+
+
+% occurrent-part-of and has-occurrent-part are inverse relations
+all a all b  ((occurrentPartOf(a,b)) <-> (hasOccurrentPart(b,a))) # label("occurrent-part-of-inverse-of-has-occurrent-part") .
+
+% proper-occurrent-part-of and has-proper-occurrent-part are inverse relations
+all a all b  ((properOccurrentPartOf(a,b)) <-> (hasProperOccurrentPart(b,a))) # label("proper-occurrent-part-of-inverse-of-has-proper-occurrent-part") .
+
+% occurrent-part-of is reflexive
+all a  ((exists t  (instanceOf(a,occurrent,t))) -> (occurrentPartOf(a,a))) # label("occurrent-part-of-is-reflexive-on-occurrent") .
+
+% occurrent-part-of is antisymmetric
+all a all b  ((((occurrentPartOf(a,b)) & (occurrentPartOf(b,a)))) -> ((a) = (b))) # label("occurrent-part-of-is-antisymmetric") .
+
+% A proper occurrent part of b means a is an occurrent part of b and a is not the same as b
+all x all y  ((properOccurrentPartOf(x,y)) <-> (((occurrentPartOf(x,y)) & (-((x) = (y)))))) # label("definition-of-proper-occurrent-part-of") .
+
+% occurrent-part-of is transitive
+all a all b all c  ((((occurrentPartOf(a,b)) & (occurrentPartOf(b,c)))) -> (occurrentPartOf(a,c))) # label("occurrent-part-of-transitive") .
+
+% If one occurrent is part of another, then the temporal region on which the former projects is a part of the temporal region on which the latter projects
+all o1 all o2  ((occurrentPartOf(o1,o2)) -> (all t  ((existsAt(o1,t)) -> (existsAt(o2,t))))) # label("occurrent-part-of-whole-lasts-longer") .
+
+% occurrent-part-of has domain occurrent and range occurrent
+all a all b  ((occurrentPartOf(a,b)) -> (((exists t  (instanceOf(a,occurrent,t))) & (exists t  (instanceOf(b,occurrent,t)))))) # label("occurrent-part-of-domain-range") .
+
+% If a occurrent-part-of b then if a is an instance of process then b is an instance of process
+all p all q  ((occurrentPartOf(p,q)) -> ((exists t  (instanceOf(p,process,t))) -> (exists t  (instanceOf(q,process,t))))) # label("occurrent-part-of.process->process") .
+
+% proper-temporal-part-of has domain occurrent and range occurrent
+all a all b  ((properTemporalPartOf(a,b)) -> (((exists t  (instanceOf(a,occurrent,t))) & (exists t  (instanceOf(b,occurrent,t)))))) # label("proper-temporal-part-of-domain-range") .
+
+% proper-occurrent-part-of has domain occurrent and range occurrent
+all a all b  ((properOccurrentPartOf(a,b)) -> (((exists t  (instanceOf(a,occurrent,t))) & (exists t  (instanceOf(b,occurrent,t)))))) # label("proper-occurrent-part-of-domain-range") .
+
+% every process has a process boundary
+all p  ((exists t  (instanceOf(p,process,t))) -> (exists pb exists t  (((instanceOf(pb,processBoundary,t)) & (occurrentPartOf(pb,p)))))) # label("every-process-has-a-process-boundary") .
+
+% If a occurrent-part-of b then if a is an instance of temporal-region then b is an instance of temporal-region, and vice-versa
+all p all q  ((occurrentPartOf(p,q)) -> ((exists t  (instanceOf(p,temporalRegion,t))) <-> (exists t  (instanceOf(q,temporalRegion,t))))) # label("occurrent-part-of.temporal-region<->temporal-region") .
+
+% If a has-occurrent-part b then if a is an instance of process-boundary then b is an instance of process-boundary
+all p all q  ((hasOccurrentPart(p,q)) -> ((exists t  (instanceOf(p,processBoundary,t))) -> (exists t  (instanceOf(q,processBoundary,t))))) # label("has-occurrent-part.process-boundary->process-boundary") .
+
+% If a occurrent-part-of b then if a is an instance of spatiotemporal-region then b is an instance of spatiotemporal-region, and vice-versa
+all p all q  ((occurrentPartOf(p,q)) -> ((exists t  (instanceOf(p,spatiotemporalRegion,t))) <-> (exists t  (instanceOf(q,spatiotemporalRegion,t))))) # label("occurrent-part-of.spatiotemporal-region<->spatiotemporal-region") .
+
+% definition of temporal part for temporal regions
+all b all c  ((((exists t  (instanceOf(b,temporalRegion,t))) & (exists t  (instanceOf(c,temporalRegion,t))))) -> ((temporalPartOf(b,c)) <-> (occurrentPartOf(b,c)))) # label("definition-of-temporal-part-for-temporal-regions") .
+
+% If a has-occurrent-part b then if a is an instance of process then b is an instance of process or process-boundary 
+all p all q  ((hasOccurrentPart(p,q)) -> ((exists t  (instanceOf(p,process,t))) -> (exists t  (((instanceOf(q,process,t)) | (instanceOf(q,processBoundary,t))))))) # label("has-occurrent-part.process->or-process-process-boundary") .
+
+% If a occurrent-part-of b then if a is an instance of process-boundary then b is an instance of process or process-boundary 
+all p all q  ((occurrentPartOf(p,q)) -> ((exists t  (instanceOf(p,processBoundary,t))) -> (exists t  (((instanceOf(q,process,t)) | (instanceOf(q,processBoundary,t))))))) # label("occurrent-part-of.process-boundary->or-process-process-boundary") .
+
+% a process boundary is any temporal part of a process that has no proper temporal parts.
+all pb  ((exists t  (instanceOf(pb,processBoundary,t))) <-> (((exists p  (((temporalPartOf(pb,p)) & (exists t  (instanceOf(p,process,t)))))) & (exists t  (((occupiesTemporalRegion(pb,t)) & (instanceOf(t,temporalInstant,t)))))))) # label("process-boundary-definition") .
+
+% occurrent-part-of has a unique product
+all x all y  ((exists t  (((instanceOf(x,occurrent,t)) & (instanceOf(y,occurrent,t)) & (instanceOf(t,temporalRegion,t))))) -> ((exists w  (((occurrentPartOf(w,x)) & (occurrentPartOf(w,y))))) -> (exists z  (all w  ((occurrentPartOf(w,z)) <-> (((occurrentPartOf(w,x)) & (occurrentPartOf(w,y))))))))) # label("occurrent-part-of-has-a-unique-product") .
+
+% At least one process boundary needs to be at the first or last instant of the process it bounds
+all p  ((exists tp  (instanceOf(p,process,tp))) -> (exists pb exists tb exists tp  (((occupiesTemporalRegion(p,tp)) & (occurrentPartOf(pb,p)) & (occupiesTemporalRegion(pb,tb)) & (instanceOf(pb,processBoundary,tb)) & (exists ltp exists ftp  (((hasFirstInstant(tp,ftp)) & (hasLastInstant(tp,ltp)) & ((((tb) = (ftp)) | ((tb) = (ltp))))))))))) # label("process-bounds-at-first-or-last-instant") .
+
+% b temporal part c (both spatiotemporal regions) iff b temporal projection is part of c's temporal projection, and for all parts of b's existence, if it spatially-projects-onto s at that time, then so does c
+all b all c  ((((exists t  (instanceOf(b,spatiotemporalRegion,t))) & (exists t  (instanceOf(c,spatiotemporalRegion,t))))) -> ((temporalPartOf(b,c)) <-> (exists tb exists tc  (((temporallyProjectsOnto(b,tb)) & (temporallyProjectsOnto(c,tc)) & (((occurrentPartOf(tb,tc)) & (all tp  ((((occurrentPartOf(tp,tb)) & (exists s  (spatiallyProjectsOnto(b,s,tp))))) -> (exists s  (((spatiallyProjectsOnto(b,s,tp)) & (spatiallyProjectsOnto(c,s,tp)))))))))))))) # label("definition-of-temporal-part-spatiotemporal-regions") .
+
+% Two spatiotemporal regions are parts when they are temporal parts and their spatial projects are always parts
+all st1 all st2  ((((exists t  (instanceOf(st1,spatiotemporalRegion,t))) & (exists t  (instanceOf(st2,spatiotemporalRegion,t))))) -> ((occurrentPartOf(st1,st2)) <-> (((exists t1 exists t2  (((temporallyProjectsOnto(st1,t1)) & (temporallyProjectsOnto(st2,t2)) & (temporalPartOf(t1,t2))))) & (all t  ((existsAt(st1,t)) -> (exists s1 exists s2 exists tp  (((temporalPartOf(tp,t)) & (spatiallyProjectsOnto(st1,s1,tp)) & (spatiallyProjectsOnto(st2,s2,tp)) & (continuantPartOf(s1,s2,tp))))))))))) # label("spatiotemporal-occurrent-part-of-definition") .
+
+
+
+% BFO 2020 Axiomatization, generated 2021/11/12
+% Author: Alan Ruttenberg - alanruttenberg@gmail.com
+% The most recent version of this file will always be in the GitHub repository https://github.com/bfo-ontology/bfo-2020
+% This work is licensed under a Creative Commons "Attribution 4.0 International" license: https://creativecommons.org/licenses/by/4.0/
+
+% Section: Material Entity
+
+
+
+% member-part-of and has-member-part are inverse relations
+all t all a all b  ((memberPartOf(a,b,t)) <-> (hasMemberPart(b,a,t))) # label("member-part-of-inverse-of-has-member-part") .
+
+% member-part-of is dissective on third argument, a temporal region
+all p all q all r all s  ((((memberPartOf(p,q,r)) & (temporalPartOf(s,r)))) -> (memberPartOf(p,q,s))) # label("member-part-of-dissective-on-third-argument-temporal") .
+
+% An object aggregate always has at least one member
+all ag all t  ((instanceOf(ag,objectAggregate,t)) -> (exists o1  (((instanceOf(o1,object,t)) & (memberPartOf(o1,ag,t)))))) # label("an-object-aggregate-always-has-members") .
+
+% member-part-of is time indexed and has domain: object and range: object-aggregate
+all a all b all t  ((memberPartOf(a,b,t)) -> (((instanceOf(a,object,t)) & (instanceOf(b,objectAggregate,t)) & (instanceOf(t,temporalRegion,t))))) # label("member-part-of-domain-range") .
+
+% A fiat object part =def a proper part of an object
+all f all t  ((instanceOf(f,fiatObjectPart,t)) <-> (exists o  (((instanceOf(o,object,t)) & (properContinuantPartOf(f,o,t)) & (-(instanceOf(f,immaterialEntity,t))))))) # label("fiat-object-part-part-of-object") .
+
+% i is an immaterial entity = Def. i is an independent continuant that has no material entities as parts.
+all i all t  ((instanceOf(i,immaterialEntity,t)) <-> (((instanceOf(i,independentContinuant,t)) & (-(exists m  (((instanceOf(m,materialEntity,t)) & (continuantPartOf(m,i,t))))))))) # label("immaterial-entity-definition") .
+
+% Any continuant that doesn't s-depend or g-depend on something is an independant continuant
+all c1  ((exists t  (instanceOf(c1,independentContinuant,t))) <-> (((exists t  (instanceOf(c1,continuant,t))) & (-(exists c2 exists t  (((specificallyDependsOn(c1,c2)) | (genericallyDependsOn(c1,c2,t))))))))) # label("definition-of-independent-continuant") .
+
+% An object aggregate has more than one member at at least one time
+all ag  ((exists t  (instanceOf(ag,objectAggregate,t))) -> (exists o1 exists o2 exists t  (((-((o1) = (o2))) & (instanceOf(o1,object,t)) & (memberPartOf(o1,ag,t)) & (instanceOf(o2,object,t)) & (memberPartOf(o2,ag,t)))))) # label("an-object-aggregate-has-at-least-2-members-at-some-time") .
+
+% all parts of an aggregate overlap some member
+all t all b all x  ((((properContinuantPartOf(x,b,t)) & (instanceOf(b,objectAggregate,t)))) -> (exists o  (((memberPartOf(o,b,t)) & (exists z  (((continuantPartOf(z,x,t)) & (continuantPartOf(z,o,t))))))))) # label("all-parts-of-an-aggregate-overlap-some-member") .
+
+% If a material entity has a proper part, then at least one of its proper parts is not an immaterial entity
+all m all t  ((((instanceOf(m,materialEntity,t)) & (exists mp  (((continuantPartOf(mp,m,t)) & (-((mp) = (m)))))))) -> (exists mp  (((-((mp) = (m))) & (continuantPartOf(mp,m,t)) & (-(instanceOf(mp,immaterialEntity,t))))))) # label("material-entity-has-at-least-one-non-immaterial-entity-as-proper-part") .
+
+% An object aggregate has member parts only disjoint objects
+all b all c all t  ((memberPartOf(b,c,t)) <-> (((instanceOf(b,object,t)) & (instanceOf(c,objectAggregate,t)) & (properContinuantPartOf(b,c,t)) & (all d  ((memberPartOf(d,c,t)) -> ((((b) = (d)) | (-(exists z  (((continuantPartOf(z,b,t)) & (continuantPartOf(z,d,t))))))))))))) # label("any-member-of-aggregate-is-disjoint-from-the-rest") .
+
+
+
+% BFO 2020 Axiomatization, generated 2021/11/12
+% Author: Alan Ruttenberg - alanruttenberg@gmail.com
+% The most recent version of this file will always be in the GitHub repository https://github.com/bfo-ontology/bfo-2020
+% This work is licensed under a Creative Commons "Attribution 4.0 International" license: https://creativecommons.org/licenses/by/4.0/
+
+% Section: History
+
+
+
+% history-of and has-history are inverse relations
+all a all b  ((historyOf(a,b)) <-> (hasHistory(b,a))) # label("history-of-inverse-of-has-history") .
+
+% history-of is functional on second argument
+all p all q all r  ((((historyOf(p,q)) & (historyOf(p,r)))) -> ((q) = (r))) # label("history-of-functional-on-second-argument") .
+
+% history-of is functional on first argument
+all p all q all r  ((((historyOf(p,q)) & (historyOf(r,q)))) -> ((p) = (r))) # label("history-of-functional-on-first-argument") .
+
+% every history is of a material entity
+all h  ((exists t  (instanceOf(h,history,t))) -> (exists m  (historyOf(h,m)))) # label("history-is-of-material-entity") .
+
+% every material-entity has a history
+all m  ((exists t  (instanceOf(m,materialEntity,t))) -> (exists h  (historyOf(h,m)))) # label("history-of-material-entity-exists") .
+
+% a material entity participates in its history
+all h all m  ((historyOf(h,m)) -> (all t  ((existsAt(m,t)) -> (participatesIn(m,h,t))))) # label("history-of-participates-in-history") .
+
+% material entity and its history exist at exactly the same times
+all m all h  ((historyOf(h,m)) -> (all t  ((instanceOf(m,materialEntity,t)) <-> (instanceOf(h,history,t))))) # label("history-contemporaneous-with-material-entity") .
+
+% history-of has domain history and range material-entity
+all a all b  ((historyOf(a,b)) -> (((exists t  (instanceOf(a,history,t))) & (exists t  (instanceOf(b,materialEntity,t)))))) # label("history-of-domain-range") .
+
+
+
+% BFO 2020 Axiomatization, generated 2021/11/12
+% Author: Alan Ruttenberg - alanruttenberg@gmail.com
+% The most recent version of this file will always be in the GitHub repository https://github.com/bfo-ontology/bfo-2020
+% This work is licensed under a Creative Commons "Attribution 4.0 International" license: https://creativecommons.org/licenses/by/4.0/
+
+% Section: Generic Dependence
+
+
+
+% concretizes and is-concretized-by are inverse relations
+all t all a all b  ((concretizes(a,b,t)) <-> (isConcretizedBy(b,a,t))) # label("concretizes-inverse-of-is-concretized-by") .
+
+% generically-depends-on and is-carrier-of are inverse relations
+all t all a all b  ((genericallyDependsOn(a,b,t)) <-> (isCarrierOf(b,a,t))) # label("generically-depends-on-inverse-of-is-carrier-of") .
+
+% concretizes is dissective on third argument, a temporal region
+all p all q all r all s  ((((concretizes(p,q,r)) & (temporalPartOf(s,r)))) -> (concretizes(p,q,s))) # label("concretizes-dissective-on-third-argument-temporal") .
+
+% A generically dependent continuant is at all times at which it exists concretized by something
+all t all g  ((instanceOf(g,genericallyDependentContinuant,t)) -> (exists s exists tp  (((temporalPartOf(tp,t)) & (concretizes(s,g,tp)))))) # label("g-depends-concretized-at-least-once") .
+
+% a g-dependent continuant b g-depends on an independent continuant c at t means: there inheres in c at t an s-dependent continuant which concretizes b at t
+all g all c all t  ((genericallyDependsOn(g,c,t)) -> (exists s exists tp  (((temporalPartOf(tp,t)) & (inheresIn(s,c)) & (concretizes(s,g,tp)))))) # label("g-depends-on-means-theres-a-sdc-that-concretizes-it") .
+
+% concretizes is time indexed and has domain: specifically-dependent-continuant or process  and range: generically-dependent-continuant
+all a all b all t  ((concretizes(a,b,t)) -> (((((instanceOf(a,specificallyDependentContinuant,t)) | (instanceOf(a,process,t)))) & (instanceOf(b,genericallyDependentContinuant,t)) & (instanceOf(t,temporalRegion,t))))) # label("concretizes-domain-range") .
+
+% generically-depends-on is time indexed and has domain: generically-dependent-continuant and range: independent-continuant but not spatial-region
+all a all b all t  ((genericallyDependsOn(a,b,t)) -> (((instanceOf(a,genericallyDependentContinuant,t)) & (((instanceOf(b,independentContinuant,t)) & (-(instanceOf(b,spatialRegion,t))))) & (instanceOf(t,temporalRegion,t))))) # label("generically-depends-on-domain-range") .
+
+% If a specifically-dependent-continuant concretizes a gdc then the gdc generically-depends-on the bearer of the sdc
+all g all b all sdc  ((((exists t  (instanceOf(g,genericallyDependentContinuant,t))) & (exists t  (instanceOf(sdc,specificallyDependentContinuant,t))) & (exists t  (instanceOf(b,independentContinuant,t))))) -> (all t  ((((concretizes(sdc,g,t)) & (inheresIn(sdc,b)))) -> (genericallyDependsOn(g,b,t))))) # label("sdc-concretizes-means-bearer-generically-depends") .
+
+% If a generically dependent continuant participates in a process p then, if it is concretized as a process, that process is part of p, fand if concretized as an sdc then the bearer of that sdc participates in the process
+all gdc all p all t  ((((instanceOf(gdc,genericallyDependentContinuant,t)) & (participatesIn(gdc,p,t)))) -> (exists tp exists b  (((temporalPartOf(tp,t)) & (concretizes(b,gdc,tp)) & (((((instanceOf(b,specificallyDependentContinuant,tp)) & (exists ic  (((specificallyDependsOn(b,ic)) & (participatesIn(ic,p,tp))))))) | (((occurrentPartOf(b,p)) & (existsAt(b,tp)))))))))) # label("participation-of-generically-dependent-continuant") .
+
+
+
+% BFO 2020 Axiomatization, generated 2021/11/12
+% Author: Alan Ruttenberg - alanruttenberg@gmail.com
+% The most recent version of this file will always be in the GitHub repository https://github.com/bfo-ontology/bfo-2020
+% This work is licensed under a Creative Commons "Attribution 4.0 International" license: https://creativecommons.org/licenses/by/4.0/
+
+% Section: Existence Instantiation
+
+
+
+% Particulars exist at some time
+all p  ((particular(p)) -> (exists t  (existsAt(p,t)))) # label("if-you-are-a-particular-you-exist-at-some-time") .
+
+% Every universal is instantiated at least once
+all u  ((universal(u)) -> (exists p exists t  (instanceOf(p,u,t)))) # label("every-universal-is-instantiated-at-some-time") .
+
+% exists-at is dissective on first argumentwhen it is a continuant
+all p all q all r  ((((existsAt(p,q)) & (continuantPartOf(r,p,q)))) -> (existsAt(r,q))) # label("exists-at-dissective-on-first-argument-continuant") .
+
+% instance-of is dissective on third argument, a temporal region
+all p all q all r all s  ((((instanceOf(p,q,r)) & (temporalPartOf(s,r)))) -> (instanceOf(p,q,s))) # label("instance-of-dissective-on-third-argument-temporal") .
+
+% Relata of exists-at are particulars.
+all i all t  ((existsAt(i,t)) -> (((particular(i)) & (particular(t)) & (instanceOf(t,temporalRegion,t))))) # label("exists-at-domain-range") .
+
+% Relata of instance-of are particular, universal, temporal-region.
+all i all u all t  ((instanceOf(i,u,t)) -> (((particular(i)) & (universal(u)) & (instanceOf(t,temporalRegion,t))))) # label("instance-of-domain-range") .
+
+% There is always something that exists
+all t  ((instanceOf(t,temporalRegion,t)) -> (exists u exists i  (((-((i) = (t))) & (universal(u)) & (particular(i)) & (instanceOf(i,u,t)))))) # label("something-always-exists") .
+
+% if m is a material entity, then there is some one-dimensional temporal region during which m exists
+all m  ((exists t  (instanceOf(m,materialEntity,t))) -> (exists t  (((instanceOf(t,oneDimensionalTemporalRegion,t)) & (existsAt(m,t)))))) # label("material-entities-exist-at-one-dimensional-temporal-regions") .
+
+% If you exist you instatiate a universal and vice-versa
+all a all t  ((exists u  (((universal(u)) & (instanceOf(a,u,t)) & (instanceOf(t,temporalRegion,t))))) <-> (((particular(a)) & (instanceOf(t,temporalRegion,t)) & (existsAt(a,t))))) # label("instantiation-existence") .
+
+
+
+% BFO 2020 Axiomatization, generated 2021/11/12
+% Author: Alan Ruttenberg - alanruttenberg@gmail.com
+% The most recent version of this file will always be in the GitHub repository https://github.com/bfo-ontology/bfo-2020
+% This work is licensed under a Creative Commons "Attribution 4.0 International" license: https://creativecommons.org/licenses/by/4.0/
+
+% Section: Continuant Mereology
+
+
+
+% continuant-part-of and has-continuant-part are inverse relations
+all t all a all b  ((continuantPartOf(a,b,t)) <-> (hasContinuantPart(b,a,t))) # label("continuant-part-of-inverse-of-has-continuant-part") .
+
+% continuant-part-of is reflexive at a time
+all a all t  ((instanceOf(a,independentContinuant,t)) -> (continuantPartOf(a,a,t))) # label("continuant-part-of-is-reflexive-on-independent-continuant-at-a-time") .
+
+% proper-continuant-part-of and has-proper-continuant-part are inverse relations
+all t all a all b  ((properContinuantPartOf(a,b,t)) <-> (hasProperContinuantPart(b,a,t))) # label("proper-continuant-part-of-inverse-of-has-proper-continuant-part") .
+
+% exists-at is dissective on first argumentwhen it is a continuant
+all p all q all r  ((((existsAt(p,q)) & (continuantPartOf(r,p,q)))) -> (existsAt(r,q))) # label("exists-at-dissective-on-first-argument-continuant") .
+
+% A fiat point has no parts other than itself
+all fp all t all p  ((((instanceOf(fp,fiatPoint,t)) & (continuantPartOf(p,fp,t)))) -> ((p) = (fp))) # label("fiat-point-is-an-atom") .
+
+% continuant-part-of is dissective on third argument, a temporal region
+all p all q all r all s  ((((continuantPartOf(p,q,r)) & (temporalPartOf(s,r)))) -> (continuantPartOf(p,q,s))) # label("continuant-part-of-dissective-on-third-argument-temporal") .
+
+% If a has-continuant-part b then if a is an instance of fiat-point then b is an instance of fiat-point
+all p all q all t  ((((hasContinuantPart(p,q,t)) & (instanceOf(p,fiatPoint,t)))) -> (instanceOf(q,fiatPoint,t))) # label("has-continuant-part.fiat-point->fiat-point") .
+
+% x proper continuant part of y means x is a continuant part of y but y is not continuant part of x
+all x all y all t  ((properContinuantPartOf(x,y,t)) <-> (((continuantPartOf(x,y,t)) & (-(continuantPartOf(y,x,t)))))) # label("definition-of-proper-continuant-part-of") .
+
+% proper-continuant-part-of is dissective on third argument, a temporal region
+all p all q all r all s  ((((properContinuantPartOf(p,q,r)) & (temporalPartOf(s,r)))) -> (properContinuantPartOf(p,q,s))) # label("proper-continuant-part-of-dissective-on-third-argument-temporal") .
+
+% If a continuant-part-of b then if a is an instance of material-entity then b is an instance of material-entity
+all p all q all t  ((((continuantPartOf(p,q,t)) & (instanceOf(p,materialEntity,t)))) -> (instanceOf(q,materialEntity,t))) # label("continuant-part-of.material-entity->material-entity") .
+
+% If a continuant-part-of b then if a is an instance of spatial-region then b is an instance of spatial-region, and vice-versa
+all p all q all t  ((continuantPartOf(p,q,t)) -> ((instanceOf(p,spatialRegion,t)) <-> (((instanceOf(q,spatialRegion,t)))))) # label("continuant-part-of.spatial-region<->spatial-region") .
+
+% If a has-continuant-part b then if a is an instance of fiat-surface then b is an instance of continuant-fiat-boundary
+all p all q all t  ((((hasContinuantPart(p,q,t)) & (instanceOf(p,fiatSurface,t)))) -> (instanceOf(q,continuantFiatBoundary,t))) # label("has-continuant-part.fiat-surface->continuant-fiat-boundary") .
+
+% If a has-continuant-part b then if a is an instance of three-dimensional-spatial-region then b is an instance of spatial-region
+all p all q all t  ((((hasContinuantPart(p,q,t)) & (instanceOf(p,threeDimensionalSpatialRegion,t)))) -> (instanceOf(q,spatialRegion,t))) # label("has-continuant-part.three-dimensional-spatial-region->spatial-region") .
+
+% If a has-continuant-part b then if a is an instance of continuant-fiat-boundary then b is an instance of continuant-fiat-boundary
+all p all q all t  ((((hasContinuantPart(p,q,t)) & (instanceOf(p,continuantFiatBoundary,t)))) -> (instanceOf(q,continuantFiatBoundary,t))) # label("has-continuant-part.continuant-fiat-boundary->continuant-fiat-boundary") .
+
+% If a continuant-part-of b then if a is an instance of site then b is an instance of site or material-entity 
+all p all q all t  ((((continuantPartOf(p,q,t)) & (instanceOf(p,site,t)))) -> (((instanceOf(q,site,t)) | (instanceOf(q,materialEntity,t))))) # label("continuant-part-of.site->or-site-material-entity") .
+
+% If a continuant-part-of b then if a is an instance of independent-continuant then b is an instance of independent-continuant, and vice-versa
+all p all q all t  ((continuantPartOf(p,q,t)) -> ((instanceOf(p,independentContinuant,t)) <-> (((instanceOf(q,independentContinuant,t)))))) # label("continuant-part-of.independent-continuant<->independent-continuant") .
+
+% continuant-part-of is transitive at a time
+all a all b all c all t all t2  ((((continuantPartOf(a,b,t)) & (continuantPartOf(b,c,t2)) & (temporalPartOf(t,t2)))) -> (continuantPartOf(a,c,t))) # label("continuant-part-of-transitive-at-a-time") .
+
+% continuant-part-of is time indexed and has domain: continuant and range: continuant
+all a all b all t  ((continuantPartOf(a,b,t)) -> (((instanceOf(a,continuant,t)) & (instanceOf(b,continuant,t)) & (instanceOf(t,temporalRegion,t))))) # label("continuant-part-of-domain-range") .
+
+% If a has-continuant-part b then if a is an instance of fiat-line then b is an instance of fiat-line or fiat-point 
+all p all q all t  ((((hasContinuantPart(p,q,t)) & (instanceOf(p,fiatLine,t)))) -> (((instanceOf(q,fiatLine,t)) | (instanceOf(q,fiatPoint,t))))) # label("has-continuant-part.fiat-line->or-fiat-line-fiat-point") .
+
+% If a has-continuant-part b then if a is an instance of site then b is an instance of site or continuant-fiat-boundary 
+all p all q all t  ((((hasContinuantPart(p,q,t)) & (instanceOf(p,site,t)))) -> (((instanceOf(q,site,t)) | (instanceOf(q,continuantFiatBoundary,t))))) # label("has-continuant-part.site->or-site-continuant-fiat-boundary") .
+
+% proper-continuant-part-of is time indexed and has domain: continuant and range: continuant
+all a all b all t  ((properContinuantPartOf(a,b,t)) -> (((instanceOf(a,continuant,t)) & (instanceOf(b,continuant,t)) & (instanceOf(t,temporalRegion,t))))) # label("proper-continuant-part-of-domain-range") .
+
+% If a has-continuant-part b then if a is an instance of zero-dimensional-spatial-region then b is an instance of zero-dimensional-spatial-region
+all p all q all t  ((((hasContinuantPart(p,q,t)) & (instanceOf(p,zeroDimensionalSpatialRegion,t)))) -> (instanceOf(q,zeroDimensionalSpatialRegion,t))) # label("has-continuant-part.zero-dimensional-spatial-region->zero-dimensional-spatial-region") .
+
+% proper-continuant-part-of is transitive at a time
+all a all b all c all t all t2  ((((properContinuantPartOf(a,b,t)) & (properContinuantPartOf(b,c,t2)) & (temporalPartOf(t,t2)))) -> (properContinuantPartOf(a,c,t))) # label("proper-continuant-part-of-transitive-at-a-time") .
+
+% If a has-continuant-part b then if a is an instance of material-entity then b is an instance of site or continuant-fiat-boundary or material-entity 
+all p all q all t  ((((hasContinuantPart(p,q,t)) & (instanceOf(p,materialEntity,t)))) -> (((instanceOf(q,site,t)) | (instanceOf(q,continuantFiatBoundary,t)) | (instanceOf(q,materialEntity,t))))) # label("has-continuant-part.material-entity->or-site-continuant-fiat-boundary-material-entity") .
+
+% If a has-continuant-part b then if a is an instance of one-dimensional-spatial-region then b is an instance of one-dimensional-spatial-region or zero-dimensional-spatial-region 
+all p all q all t  ((((hasContinuantPart(p,q,t)) & (instanceOf(p,oneDimensionalSpatialRegion,t)))) -> (((instanceOf(q,oneDimensionalSpatialRegion,t)) | (instanceOf(q,zeroDimensionalSpatialRegion,t))))) # label("has-continuant-part.one-dimensional-spatial-region->or-one-dimensional-spatial-region-zero-dimensional-spatial-region") .
+
+% If at all times that two object-aggreates exist each is part of the other, then they are identical
+all a all b  ((((exists t  (((instanceOf(a,objectAggregate,t)) & (continuantPartOf(a,b,t)) & (continuantPartOf(b,a,t))))) & (all t  ((continuantPartOf(a,b,t)) <-> (continuantPartOf(b,a,t)))))) -> ((a) = (b))) # label("continuant-part-of-is-extent-antisymmetric-for-object-aggregates") .
+
+% If a material entity has a proper part, then at least one of its proper parts is not an immaterial entity
+all m all t  ((((instanceOf(m,materialEntity,t)) & (exists mp  (((continuantPartOf(mp,m,t)) & (-((mp) = (m)))))))) -> (exists mp  (((-((mp) = (m))) & (continuantPartOf(mp,m,t)) & (-(instanceOf(mp,immaterialEntity,t))))))) # label("material-entity-has-at-least-one-non-immaterial-entity-as-proper-part") .
+
+% If a has-continuant-part b then if a is an instance of two-dimensional-spatial-region then b is an instance of two-dimensional-spatial-region or one-dimensional-spatial-region or zero-dimensional-spatial-region 
+all p all q all t  ((((hasContinuantPart(p,q,t)) & (instanceOf(p,twoDimensionalSpatialRegion,t)))) -> (((instanceOf(q,twoDimensionalSpatialRegion,t)) | (instanceOf(q,oneDimensionalSpatialRegion,t)) | (instanceOf(q,zeroDimensionalSpatialRegion,t))))) # label("has-continuant-part.two-dimensional-spatial-region->or-two-dimensional-spatial-region-one-dimensional-spatial-region-zero-dimensional-spatial-region") .
+
+% If at any time that two non-object aggreates exist each is part of the other, then they are identical
+all a all b  ((exists t  (((instanceOf(a,independentContinuant,t)) & (-(instanceOf(a,objectAggregate,t))) & (instanceOf(b,independentContinuant,t)) & (-(instanceOf(b,objectAggregate,t))) & (continuantPartOf(a,b,t)) & (continuantPartOf(b,a,t))))) -> ((a) = (b))) # label("continuant-part-of-is-antisymmetric-except-for-object-aggregates") .
+
+% continuant-part-of has weak supplementation
+all t all x all y  ((((instanceOf(x,continuant,t)) & (instanceOf(y,continuant,t)) & (instanceOf(t,temporalRegion,t)))) -> ((((continuantPartOf(x,y,t)) & (-((x) = (y))))) -> (exists z  (((instanceOf(z,continuant,t)) & (continuantPartOf(z,y,t)) & (-((z) = (y))) & (-(exists overlap  (((instanceOf(overlap,continuant,t)) & (continuantPartOf(overlap,x,t)) & (continuantPartOf(overlap,z,t))))))))))) # label("continuant-part-of-has-weak-supplementation-at-a-time") .
+
+% continuant-part-of has a unique product at a time
+all x all y all t  ((((instanceOf(x,continuant,t)) & (instanceOf(y,continuant,t)) & (instanceOf(t,temporalRegion,t)))) -> ((exists overlap  (((instanceOf(overlap,continuant,t)) & (continuantPartOf(overlap,x,t)) & (continuantPartOf(overlap,y,t))))) -> (exists overlap  (((instanceOf(overlap,continuant,t)) & (all w  ((instanceOf(w,continuant,t)) -> ((continuantPartOf(w,overlap,t)) <-> (((continuantPartOf(w,x,t)) & (continuantPartOf(w,y,t)))))))))))) # label("continuant-part-of-has-a-unique-product-at-a-time") .
+
+
+end_of_list.
+
+
+
