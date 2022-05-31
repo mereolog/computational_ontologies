@@ -1,0 +1,18 @@
+% Running in auto input_syntax mode. Trying TPTP
+% ott+11_3_aac=none:afr=on:afp=4000:afq=1.4:amm=off:anc=all:bs=unit_only:bsr=on:bce=on:fde=unused:irw=on:nm=64:newcnf=on:nwc=1:nicw=on:sac=on:sp=reverse_arity:uhcvi=on_31 on 545bdd0f717fd90661302b0c6cd247ad
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 109251
+% Time elapsed: 4.200 s
+% ------------------------------
+% ------------------------------
+WARNING Broken Constraint: if symbol_precedence(reverse_arity) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if literal_maximality_aftercheck(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if unit_resulting_resolution(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if nongoal_weight_coefficient(3) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% fmb+10_1_av=off:fmbsr=1.6:lma=on:nm=64:nwc=3:sp=reverse_arity:urr=on_258 on 545bdd0f717fd90661302b0c6cd247ad
