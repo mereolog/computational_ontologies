@@ -1,0 +1,3740 @@
+% Running in auto input_syntax mode. Trying TPTP
+% ott+11_3_aac=none:afr=on:afp=4000:afq=1.4:amm=off:anc=all:bs=unit_only:bsr=on:bce=on:fde=unused:irw=on:nm=64:newcnf=on:nwc=1:nicw=on:sac=on:sp=reverse_arity:uhcvi=on_31 on 70eb4f4ad57c832a484346a04a81c4fd
+% SZS status Satisfiable for 70eb4f4ad57c832a484346a04a81c4fd
+% # SZS output start Saturation.
+cnf(u2658,axiom,
+    universal(role)).
+
+cnf(u2662,axiom,
+    universal(continuant)).
+
+cnf(u2666,axiom,
+    universal(fiatPoint)).
+
+cnf(u2670,axiom,
+    universal(disposition)).
+
+cnf(u2674,axiom,
+    universal(fiatSurface)).
+
+cnf(u2678,axiom,
+    universal(spatialRegion)).
+
+cnf(u2682,axiom,
+    universal(materialEntity)).
+
+cnf(u2686,axiom,
+    universal(temporalRegion)).
+
+cnf(u2690,axiom,
+    universal(fiatObjectPart)).
+
+cnf(u2694,axiom,
+    universal(objectAggregate)).
+
+cnf(u2698,axiom,
+    universal(processBoundary)).
+
+cnf(u2702,axiom,
+    universal(site)).
+
+cnf(u2706,axiom,
+    universal(temporalInstant)).
+
+cnf(u2710,axiom,
+    universal(immaterialEntity)).
+
+cnf(u2714,axiom,
+    universal(realizableEntity)).
+
+cnf(u2718,axiom,
+    universal(temporalInterval)).
+
+cnf(u2722,axiom,
+    universal(relationalQuality)).
+
+cnf(u2726,axiom,
+    universal(spatiotemporalRegion)).
+
+cnf(u2730,axiom,
+    universal(independentContinuant)).
+
+cnf(u2734,axiom,
+    universal(continuantFiatBoundary)).
+
+cnf(u2738,axiom,
+    universal(oneDimensionalSpatialRegion)).
+
+cnf(u2742,axiom,
+    universal(twoDimensionalSpatialRegion)).
+
+cnf(u2746,axiom,
+    universal(object)).
+
+cnf(u2750,axiom,
+    universal(oneDimensionalTemporalRegion)).
+
+cnf(u2754,axiom,
+    universal(zeroDimensionalSpatialRegion)).
+
+cnf(u2758,axiom,
+    universal(genericallyDependentContinuant)).
+
+cnf(u2762,axiom,
+    universal(threeDimensionalSpatialRegion)).
+
+cnf(u2766,axiom,
+    universal(zeroDimensionalTemporalRegion)).
+
+cnf(u2770,axiom,
+    universal(specificallyDependentContinuant)).
+
+cnf(u2774,axiom,
+    universal(history)).
+
+cnf(u2778,axiom,
+    universal(process)).
+
+cnf(u2782,axiom,
+    universal(quality)).
+
+cnf(u2786,axiom,
+    universal(function)).
+
+cnf(u2790,axiom,
+    universal(fiatLine)).
+
+cnf(u2794,axiom,
+    universal(occurrent)).
+
+cnf(u2798,axiom,
+    continuant != materialEntity).
+
+cnf(u2802,axiom,
+    continuant != object).
+
+cnf(u2806,axiom,
+    continuant != fiatObjectPart).
+
+cnf(u2810,axiom,
+    continuant != objectAggregate).
+
+cnf(u2814,axiom,
+    continuant != site).
+
+cnf(u2818,axiom,
+    continuant != immaterialEntity).
+
+cnf(u2822,axiom,
+    continuant != continuantFiatBoundary).
+
+cnf(u2826,axiom,
+    continuant != fiatSurface).
+
+cnf(u2830,axiom,
+    continuant != fiatLine).
+
+cnf(u2834,axiom,
+    continuant != fiatPoint).
+
+cnf(u2838,axiom,
+    continuant != spatialRegion).
+
+cnf(u2842,axiom,
+    continuant != threeDimensionalSpatialRegion).
+
+cnf(u2846,axiom,
+    continuant != twoDimensionalSpatialRegion).
+
+cnf(u2850,axiom,
+    continuant != oneDimensionalSpatialRegion).
+
+cnf(u2854,axiom,
+    continuant != zeroDimensionalSpatialRegion).
+
+cnf(u2858,axiom,
+    continuant != independentContinuant).
+
+cnf(u2862,axiom,
+    continuant != genericallyDependentContinuant).
+
+cnf(u2866,axiom,
+    continuant != specificallyDependentContinuant).
+
+cnf(u2870,axiom,
+    continuant != quality).
+
+cnf(u2874,axiom,
+    continuant != relationalQuality).
+
+cnf(u2878,axiom,
+    continuant != function).
+
+cnf(u2882,axiom,
+    continuant != disposition).
+
+cnf(u2886,axiom,
+    continuant != realizableEntity).
+
+cnf(u2890,axiom,
+    role != continuant).
+
+cnf(u2894,axiom,
+    continuant != occurrent).
+
+cnf(u2898,axiom,
+    continuant != process).
+
+cnf(u2902,axiom,
+    continuant != processBoundary).
+
+cnf(u2906,axiom,
+    continuant != temporalRegion).
+
+cnf(u2910,axiom,
+    continuant != zeroDimensionalTemporalRegion).
+
+cnf(u2914,axiom,
+    continuant != temporalInstant).
+
+cnf(u2918,axiom,
+    continuant != oneDimensionalTemporalRegion).
+
+cnf(u2922,axiom,
+    continuant != temporalInterval).
+
+cnf(u2926,axiom,
+    continuant != history).
+
+cnf(u2930,axiom,
+    continuant != spatiotemporalRegion).
+
+cnf(u2934,axiom,
+    materialEntity != object).
+
+cnf(u2938,axiom,
+    materialEntity != fiatObjectPart).
+
+cnf(u2942,axiom,
+    materialEntity != objectAggregate).
+
+cnf(u2946,axiom,
+    materialEntity != site).
+
+cnf(u2950,axiom,
+    materialEntity != immaterialEntity).
+
+cnf(u2954,axiom,
+    materialEntity != continuantFiatBoundary).
+
+cnf(u2958,axiom,
+    fiatSurface != materialEntity).
+
+cnf(u2962,axiom,
+    materialEntity != fiatLine).
+
+cnf(u2966,axiom,
+    fiatPoint != materialEntity).
+
+cnf(u2970,axiom,
+    spatialRegion != materialEntity).
+
+cnf(u2974,axiom,
+    materialEntity != threeDimensionalSpatialRegion).
+
+cnf(u2978,axiom,
+    materialEntity != twoDimensionalSpatialRegion).
+
+cnf(u2982,axiom,
+    materialEntity != oneDimensionalSpatialRegion).
+
+cnf(u2986,axiom,
+    materialEntity != zeroDimensionalSpatialRegion).
+
+cnf(u2990,axiom,
+    materialEntity != independentContinuant).
+
+cnf(u2994,axiom,
+    materialEntity != genericallyDependentContinuant).
+
+cnf(u2998,axiom,
+    materialEntity != specificallyDependentContinuant).
+
+cnf(u3002,axiom,
+    materialEntity != quality).
+
+cnf(u3006,axiom,
+    materialEntity != relationalQuality).
+
+cnf(u3010,axiom,
+    materialEntity != function).
+
+cnf(u3014,axiom,
+    disposition != materialEntity).
+
+cnf(u3018,axiom,
+    materialEntity != realizableEntity).
+
+cnf(u3022,axiom,
+    role != materialEntity).
+
+cnf(u3026,axiom,
+    materialEntity != occurrent).
+
+cnf(u3030,axiom,
+    materialEntity != process).
+
+cnf(u3034,axiom,
+    materialEntity != processBoundary).
+
+cnf(u3038,axiom,
+    materialEntity != temporalRegion).
+
+cnf(u3042,axiom,
+    materialEntity != zeroDimensionalTemporalRegion).
+
+cnf(u3046,axiom,
+    materialEntity != temporalInstant).
+
+cnf(u3050,axiom,
+    materialEntity != oneDimensionalTemporalRegion).
+
+cnf(u3054,axiom,
+    materialEntity != temporalInterval).
+
+cnf(u3058,axiom,
+    materialEntity != history).
+
+cnf(u3062,axiom,
+    materialEntity != spatiotemporalRegion).
+
+cnf(u3066,axiom,
+    fiatObjectPart != object).
+
+cnf(u3070,axiom,
+    objectAggregate != object).
+
+cnf(u3074,axiom,
+    site != object).
+
+cnf(u3078,axiom,
+    immaterialEntity != object).
+
+cnf(u3082,axiom,
+    continuantFiatBoundary != object).
+
+cnf(u3086,axiom,
+    fiatSurface != object).
+
+cnf(u3090,axiom,
+    object != fiatLine).
+
+cnf(u3094,axiom,
+    fiatPoint != object).
+
+cnf(u3098,axiom,
+    spatialRegion != object).
+
+cnf(u3102,axiom,
+    object != threeDimensionalSpatialRegion).
+
+cnf(u3106,axiom,
+    twoDimensionalSpatialRegion != object).
+
+cnf(u3110,axiom,
+    oneDimensionalSpatialRegion != object).
+
+cnf(u3114,axiom,
+    object != zeroDimensionalSpatialRegion).
+
+cnf(u3118,axiom,
+    independentContinuant != object).
+
+cnf(u3122,axiom,
+    object != genericallyDependentContinuant).
+
+cnf(u3126,axiom,
+    object != specificallyDependentContinuant).
+
+cnf(u3130,axiom,
+    object != quality).
+
+cnf(u3134,axiom,
+    relationalQuality != object).
+
+cnf(u3138,axiom,
+    object != function).
+
+cnf(u3142,axiom,
+    disposition != object).
+
+cnf(u3146,axiom,
+    realizableEntity != object).
+
+cnf(u3150,axiom,
+    role != object).
+
+cnf(u3154,axiom,
+    object != occurrent).
+
+cnf(u3158,axiom,
+    object != process).
+
+cnf(u3162,axiom,
+    processBoundary != object).
+
+cnf(u3166,axiom,
+    temporalRegion != object).
+
+cnf(u3170,axiom,
+    object != zeroDimensionalTemporalRegion).
+
+cnf(u3174,axiom,
+    temporalInstant != object).
+
+cnf(u3178,axiom,
+    object != oneDimensionalTemporalRegion).
+
+cnf(u3182,axiom,
+    temporalInterval != object).
+
+cnf(u3186,axiom,
+    object != history).
+
+cnf(u3190,axiom,
+    spatiotemporalRegion != object).
+
+cnf(u3194,axiom,
+    fiatObjectPart != objectAggregate).
+
+cnf(u3198,axiom,
+    fiatObjectPart != site).
+
+cnf(u3202,axiom,
+    fiatObjectPart != immaterialEntity).
+
+cnf(u3206,axiom,
+    fiatObjectPart != continuantFiatBoundary).
+
+cnf(u3210,axiom,
+    fiatSurface != fiatObjectPart).
+
+cnf(u3214,axiom,
+    fiatObjectPart != fiatLine).
+
+cnf(u3218,axiom,
+    fiatPoint != fiatObjectPart).
+
+cnf(u3222,axiom,
+    spatialRegion != fiatObjectPart).
+
+cnf(u3226,axiom,
+    fiatObjectPart != threeDimensionalSpatialRegion).
+
+cnf(u3230,axiom,
+    fiatObjectPart != twoDimensionalSpatialRegion).
+
+cnf(u3234,axiom,
+    fiatObjectPart != oneDimensionalSpatialRegion).
+
+cnf(u3238,axiom,
+    fiatObjectPart != zeroDimensionalSpatialRegion).
+
+cnf(u3242,axiom,
+    fiatObjectPart != independentContinuant).
+
+cnf(u3246,axiom,
+    fiatObjectPart != genericallyDependentContinuant).
+
+cnf(u3250,axiom,
+    fiatObjectPart != specificallyDependentContinuant).
+
+cnf(u3254,axiom,
+    fiatObjectPart != quality).
+
+cnf(u3258,axiom,
+    fiatObjectPart != relationalQuality).
+
+cnf(u3262,axiom,
+    fiatObjectPart != function).
+
+cnf(u3266,axiom,
+    disposition != fiatObjectPart).
+
+cnf(u3270,axiom,
+    fiatObjectPart != realizableEntity).
+
+cnf(u3274,axiom,
+    role != fiatObjectPart).
+
+cnf(u3278,axiom,
+    fiatObjectPart != occurrent).
+
+cnf(u3282,axiom,
+    fiatObjectPart != process).
+
+cnf(u3286,axiom,
+    fiatObjectPart != processBoundary).
+
+cnf(u3290,axiom,
+    temporalRegion != fiatObjectPart).
+
+cnf(u3294,axiom,
+    fiatObjectPart != zeroDimensionalTemporalRegion).
+
+cnf(u3298,axiom,
+    fiatObjectPart != temporalInstant).
+
+cnf(u3302,axiom,
+    fiatObjectPart != oneDimensionalTemporalRegion).
+
+cnf(u3306,axiom,
+    fiatObjectPart != temporalInterval).
+
+cnf(u3310,axiom,
+    fiatObjectPart != history).
+
+cnf(u3314,axiom,
+    fiatObjectPart != spatiotemporalRegion).
+
+cnf(u3318,axiom,
+    objectAggregate != site).
+
+cnf(u3322,axiom,
+    objectAggregate != immaterialEntity).
+
+cnf(u3326,axiom,
+    objectAggregate != continuantFiatBoundary).
+
+cnf(u3330,axiom,
+    fiatSurface != objectAggregate).
+
+cnf(u3334,axiom,
+    objectAggregate != fiatLine).
+
+cnf(u3338,axiom,
+    fiatPoint != objectAggregate).
+
+cnf(u3342,axiom,
+    spatialRegion != objectAggregate).
+
+cnf(u3346,axiom,
+    objectAggregate != threeDimensionalSpatialRegion).
+
+cnf(u3350,axiom,
+    objectAggregate != twoDimensionalSpatialRegion).
+
+cnf(u3354,axiom,
+    objectAggregate != oneDimensionalSpatialRegion).
+
+cnf(u3358,axiom,
+    objectAggregate != zeroDimensionalSpatialRegion).
+
+cnf(u3362,axiom,
+    objectAggregate != independentContinuant).
+
+cnf(u3366,axiom,
+    objectAggregate != genericallyDependentContinuant).
+
+cnf(u3370,axiom,
+    objectAggregate != specificallyDependentContinuant).
+
+cnf(u3374,axiom,
+    objectAggregate != quality).
+
+cnf(u3378,axiom,
+    objectAggregate != relationalQuality).
+
+cnf(u3382,axiom,
+    objectAggregate != function).
+
+cnf(u3386,axiom,
+    disposition != objectAggregate).
+
+cnf(u3390,axiom,
+    objectAggregate != realizableEntity).
+
+cnf(u3394,axiom,
+    role != objectAggregate).
+
+cnf(u3398,axiom,
+    objectAggregate != occurrent).
+
+cnf(u3402,axiom,
+    objectAggregate != process).
+
+cnf(u3406,axiom,
+    objectAggregate != processBoundary).
+
+cnf(u3410,axiom,
+    temporalRegion != objectAggregate).
+
+cnf(u3414,axiom,
+    objectAggregate != zeroDimensionalTemporalRegion).
+
+cnf(u3418,axiom,
+    objectAggregate != temporalInstant).
+
+cnf(u3422,axiom,
+    objectAggregate != oneDimensionalTemporalRegion).
+
+cnf(u3426,axiom,
+    objectAggregate != temporalInterval).
+
+cnf(u3430,axiom,
+    objectAggregate != history).
+
+cnf(u3434,axiom,
+    objectAggregate != spatiotemporalRegion).
+
+cnf(u3438,axiom,
+    site != immaterialEntity).
+
+cnf(u3442,axiom,
+    site != continuantFiatBoundary).
+
+cnf(u3446,axiom,
+    fiatSurface != site).
+
+cnf(u3450,axiom,
+    site != fiatLine).
+
+cnf(u3454,axiom,
+    fiatPoint != site).
+
+cnf(u3458,axiom,
+    spatialRegion != site).
+
+cnf(u3462,axiom,
+    site != threeDimensionalSpatialRegion).
+
+cnf(u3466,axiom,
+    site != twoDimensionalSpatialRegion).
+
+cnf(u3470,axiom,
+    site != oneDimensionalSpatialRegion).
+
+cnf(u3474,axiom,
+    site != zeroDimensionalSpatialRegion).
+
+cnf(u3478,axiom,
+    site != independentContinuant).
+
+cnf(u3482,axiom,
+    site != genericallyDependentContinuant).
+
+cnf(u3486,axiom,
+    site != specificallyDependentContinuant).
+
+cnf(u3490,axiom,
+    site != quality).
+
+cnf(u3494,axiom,
+    site != relationalQuality).
+
+cnf(u3498,axiom,
+    site != function).
+
+cnf(u3502,axiom,
+    disposition != site).
+
+cnf(u3506,axiom,
+    site != realizableEntity).
+
+cnf(u3510,axiom,
+    role != site).
+
+cnf(u3514,axiom,
+    site != occurrent).
+
+cnf(u3518,axiom,
+    site != process).
+
+cnf(u3522,axiom,
+    processBoundary != site).
+
+cnf(u3526,axiom,
+    temporalRegion != site).
+
+cnf(u3530,axiom,
+    site != zeroDimensionalTemporalRegion).
+
+cnf(u3534,axiom,
+    site != temporalInstant).
+
+cnf(u3538,axiom,
+    site != oneDimensionalTemporalRegion).
+
+cnf(u3542,axiom,
+    site != temporalInterval).
+
+cnf(u3546,axiom,
+    site != history).
+
+cnf(u3550,axiom,
+    site != spatiotemporalRegion).
+
+cnf(u3554,axiom,
+    immaterialEntity != continuantFiatBoundary).
+
+cnf(u3558,axiom,
+    fiatSurface != immaterialEntity).
+
+cnf(u3562,axiom,
+    immaterialEntity != fiatLine).
+
+cnf(u3566,axiom,
+    fiatPoint != immaterialEntity).
+
+cnf(u3570,axiom,
+    spatialRegion != immaterialEntity).
+
+cnf(u3574,axiom,
+    immaterialEntity != threeDimensionalSpatialRegion).
+
+cnf(u3578,axiom,
+    immaterialEntity != twoDimensionalSpatialRegion).
+
+cnf(u3582,axiom,
+    immaterialEntity != oneDimensionalSpatialRegion).
+
+cnf(u3586,axiom,
+    immaterialEntity != zeroDimensionalSpatialRegion).
+
+cnf(u3590,axiom,
+    immaterialEntity != independentContinuant).
+
+cnf(u3594,axiom,
+    immaterialEntity != genericallyDependentContinuant).
+
+cnf(u3598,axiom,
+    immaterialEntity != specificallyDependentContinuant).
+
+cnf(u3602,axiom,
+    immaterialEntity != quality).
+
+cnf(u3606,axiom,
+    immaterialEntity != relationalQuality).
+
+cnf(u3610,axiom,
+    immaterialEntity != function).
+
+cnf(u3614,axiom,
+    disposition != immaterialEntity).
+
+cnf(u3618,axiom,
+    immaterialEntity != realizableEntity).
+
+cnf(u3622,axiom,
+    role != immaterialEntity).
+
+cnf(u3626,axiom,
+    immaterialEntity != occurrent).
+
+cnf(u3630,axiom,
+    immaterialEntity != process).
+
+cnf(u3634,axiom,
+    processBoundary != immaterialEntity).
+
+cnf(u3638,axiom,
+    temporalRegion != immaterialEntity).
+
+cnf(u3642,axiom,
+    immaterialEntity != zeroDimensionalTemporalRegion).
+
+cnf(u3646,axiom,
+    temporalInstant != immaterialEntity).
+
+cnf(u3650,axiom,
+    immaterialEntity != oneDimensionalTemporalRegion).
+
+cnf(u3654,axiom,
+    immaterialEntity != temporalInterval).
+
+cnf(u3658,axiom,
+    immaterialEntity != history).
+
+cnf(u3662,axiom,
+    immaterialEntity != spatiotemporalRegion).
+
+cnf(u3666,axiom,
+    fiatSurface != continuantFiatBoundary).
+
+cnf(u3670,axiom,
+    continuantFiatBoundary != fiatLine).
+
+cnf(u3674,axiom,
+    fiatPoint != continuantFiatBoundary).
+
+cnf(u3678,axiom,
+    spatialRegion != continuantFiatBoundary).
+
+cnf(u3682,axiom,
+    continuantFiatBoundary != threeDimensionalSpatialRegion).
+
+cnf(u3686,axiom,
+    continuantFiatBoundary != twoDimensionalSpatialRegion).
+
+cnf(u3690,axiom,
+    continuantFiatBoundary != oneDimensionalSpatialRegion).
+
+cnf(u3694,axiom,
+    continuantFiatBoundary != zeroDimensionalSpatialRegion).
+
+cnf(u3698,axiom,
+    independentContinuant != continuantFiatBoundary).
+
+cnf(u3702,axiom,
+    continuantFiatBoundary != genericallyDependentContinuant).
+
+cnf(u3706,axiom,
+    continuantFiatBoundary != specificallyDependentContinuant).
+
+cnf(u3710,axiom,
+    continuantFiatBoundary != quality).
+
+cnf(u3714,axiom,
+    relationalQuality != continuantFiatBoundary).
+
+cnf(u3718,axiom,
+    continuantFiatBoundary != function).
+
+cnf(u3722,axiom,
+    disposition != continuantFiatBoundary).
+
+cnf(u3726,axiom,
+    realizableEntity != continuantFiatBoundary).
+
+cnf(u3730,axiom,
+    role != continuantFiatBoundary).
+
+cnf(u3734,axiom,
+    continuantFiatBoundary != occurrent).
+
+cnf(u3738,axiom,
+    continuantFiatBoundary != process).
+
+cnf(u3742,axiom,
+    processBoundary != continuantFiatBoundary).
+
+cnf(u3746,axiom,
+    temporalRegion != continuantFiatBoundary).
+
+cnf(u3750,axiom,
+    continuantFiatBoundary != zeroDimensionalTemporalRegion).
+
+cnf(u3754,axiom,
+    temporalInstant != continuantFiatBoundary).
+
+cnf(u3758,axiom,
+    continuantFiatBoundary != oneDimensionalTemporalRegion).
+
+cnf(u3762,axiom,
+    temporalInterval != continuantFiatBoundary).
+
+cnf(u3766,axiom,
+    continuantFiatBoundary != history).
+
+cnf(u3770,axiom,
+    spatiotemporalRegion != continuantFiatBoundary).
+
+cnf(u3774,axiom,
+    fiatSurface != fiatLine).
+
+cnf(u3778,axiom,
+    fiatPoint != fiatSurface).
+
+cnf(u3782,axiom,
+    fiatSurface != spatialRegion).
+
+cnf(u3786,axiom,
+    fiatSurface != threeDimensionalSpatialRegion).
+
+cnf(u3790,axiom,
+    fiatSurface != twoDimensionalSpatialRegion).
+
+cnf(u3794,axiom,
+    fiatSurface != oneDimensionalSpatialRegion).
+
+cnf(u3798,axiom,
+    fiatSurface != zeroDimensionalSpatialRegion).
+
+cnf(u3802,axiom,
+    fiatSurface != independentContinuant).
+
+cnf(u3806,axiom,
+    fiatSurface != genericallyDependentContinuant).
+
+cnf(u3810,axiom,
+    fiatSurface != specificallyDependentContinuant).
+
+cnf(u3814,axiom,
+    fiatSurface != quality).
+
+cnf(u3818,axiom,
+    fiatSurface != relationalQuality).
+
+cnf(u3822,axiom,
+    fiatSurface != function).
+
+cnf(u3826,axiom,
+    disposition != fiatSurface).
+
+cnf(u3830,axiom,
+    fiatSurface != realizableEntity).
+
+cnf(u3834,axiom,
+    role != fiatSurface).
+
+cnf(u3838,axiom,
+    fiatSurface != occurrent).
+
+cnf(u3842,axiom,
+    fiatSurface != process).
+
+cnf(u3846,axiom,
+    fiatSurface != processBoundary).
+
+cnf(u3850,axiom,
+    fiatSurface != temporalRegion).
+
+cnf(u3854,axiom,
+    fiatSurface != zeroDimensionalTemporalRegion).
+
+cnf(u3858,axiom,
+    fiatSurface != temporalInstant).
+
+cnf(u3862,axiom,
+    fiatSurface != oneDimensionalTemporalRegion).
+
+cnf(u3866,axiom,
+    fiatSurface != temporalInterval).
+
+cnf(u3870,axiom,
+    fiatSurface != history).
+
+cnf(u3874,axiom,
+    fiatSurface != spatiotemporalRegion).
+
+cnf(u3878,axiom,
+    fiatPoint != fiatLine).
+
+cnf(u3882,axiom,
+    spatialRegion != fiatLine).
+
+cnf(u3886,axiom,
+    threeDimensionalSpatialRegion != fiatLine).
+
+cnf(u3890,axiom,
+    twoDimensionalSpatialRegion != fiatLine).
+
+cnf(u3894,axiom,
+    oneDimensionalSpatialRegion != fiatLine).
+
+cnf(u3898,axiom,
+    zeroDimensionalSpatialRegion != fiatLine).
+
+cnf(u3902,axiom,
+    independentContinuant != fiatLine).
+
+cnf(u3906,axiom,
+    genericallyDependentContinuant != fiatLine).
+
+cnf(u3910,axiom,
+    specificallyDependentContinuant != fiatLine).
+
+cnf(u3914,axiom,
+    quality != fiatLine).
+
+cnf(u3918,axiom,
+    relationalQuality != fiatLine).
+
+cnf(u3922,axiom,
+    function != fiatLine).
+
+cnf(u3926,axiom,
+    disposition != fiatLine).
+
+cnf(u3930,axiom,
+    realizableEntity != fiatLine).
+
+cnf(u3934,axiom,
+    role != fiatLine).
+
+cnf(u3938,axiom,
+    fiatLine != occurrent).
+
+cnf(u3942,axiom,
+    process != fiatLine).
+
+cnf(u3946,axiom,
+    processBoundary != fiatLine).
+
+cnf(u3950,axiom,
+    temporalRegion != fiatLine).
+
+cnf(u3954,axiom,
+    zeroDimensionalTemporalRegion != fiatLine).
+
+cnf(u3958,axiom,
+    temporalInstant != fiatLine).
+
+cnf(u3962,axiom,
+    oneDimensionalTemporalRegion != fiatLine).
+
+cnf(u3966,axiom,
+    temporalInterval != fiatLine).
+
+cnf(u3970,axiom,
+    history != fiatLine).
+
+cnf(u3974,axiom,
+    spatiotemporalRegion != fiatLine).
+
+cnf(u3978,axiom,
+    fiatPoint != spatialRegion).
+
+cnf(u3982,axiom,
+    fiatPoint != threeDimensionalSpatialRegion).
+
+cnf(u3986,axiom,
+    fiatPoint != twoDimensionalSpatialRegion).
+
+cnf(u3990,axiom,
+    fiatPoint != oneDimensionalSpatialRegion).
+
+cnf(u3994,axiom,
+    fiatPoint != zeroDimensionalSpatialRegion).
+
+cnf(u3998,axiom,
+    fiatPoint != independentContinuant).
+
+cnf(u4002,axiom,
+    fiatPoint != genericallyDependentContinuant).
+
+cnf(u4006,axiom,
+    fiatPoint != specificallyDependentContinuant).
+
+cnf(u4010,axiom,
+    fiatPoint != quality).
+
+cnf(u4014,axiom,
+    fiatPoint != relationalQuality).
+
+cnf(u4018,axiom,
+    fiatPoint != function).
+
+cnf(u4022,axiom,
+    fiatPoint != disposition).
+
+cnf(u4026,axiom,
+    fiatPoint != realizableEntity).
+
+cnf(u4030,axiom,
+    role != fiatPoint).
+
+cnf(u4034,axiom,
+    fiatPoint != occurrent).
+
+cnf(u4038,axiom,
+    fiatPoint != process).
+
+cnf(u4042,axiom,
+    fiatPoint != processBoundary).
+
+cnf(u4046,axiom,
+    fiatPoint != temporalRegion).
+
+cnf(u4050,axiom,
+    fiatPoint != zeroDimensionalTemporalRegion).
+
+cnf(u4054,axiom,
+    fiatPoint != temporalInstant).
+
+cnf(u4058,axiom,
+    fiatPoint != oneDimensionalTemporalRegion).
+
+cnf(u4062,axiom,
+    fiatPoint != temporalInterval).
+
+cnf(u4066,axiom,
+    fiatPoint != history).
+
+cnf(u4070,axiom,
+    fiatPoint != spatiotemporalRegion).
+
+cnf(u4074,axiom,
+    spatialRegion != threeDimensionalSpatialRegion).
+
+cnf(u4078,axiom,
+    spatialRegion != twoDimensionalSpatialRegion).
+
+cnf(u4082,axiom,
+    spatialRegion != oneDimensionalSpatialRegion).
+
+cnf(u4086,axiom,
+    spatialRegion != zeroDimensionalSpatialRegion).
+
+cnf(u4090,axiom,
+    spatialRegion != independentContinuant).
+
+cnf(u4094,axiom,
+    spatialRegion != genericallyDependentContinuant).
+
+cnf(u4098,axiom,
+    spatialRegion != specificallyDependentContinuant).
+
+cnf(u4102,axiom,
+    spatialRegion != quality).
+
+cnf(u4106,axiom,
+    spatialRegion != relationalQuality).
+
+cnf(u4110,axiom,
+    spatialRegion != function).
+
+cnf(u4114,axiom,
+    disposition != spatialRegion).
+
+cnf(u4118,axiom,
+    spatialRegion != realizableEntity).
+
+cnf(u4122,axiom,
+    role != spatialRegion).
+
+cnf(u4126,axiom,
+    spatialRegion != occurrent).
+
+cnf(u4130,axiom,
+    spatialRegion != process).
+
+cnf(u4134,axiom,
+    spatialRegion != processBoundary).
+
+cnf(u4138,axiom,
+    spatialRegion != temporalRegion).
+
+cnf(u4142,axiom,
+    spatialRegion != zeroDimensionalTemporalRegion).
+
+cnf(u4146,axiom,
+    spatialRegion != temporalInstant).
+
+cnf(u4150,axiom,
+    spatialRegion != oneDimensionalTemporalRegion).
+
+cnf(u4154,axiom,
+    spatialRegion != temporalInterval).
+
+cnf(u4158,axiom,
+    spatialRegion != history).
+
+cnf(u4162,axiom,
+    spatialRegion != spatiotemporalRegion).
+
+cnf(u4166,axiom,
+    twoDimensionalSpatialRegion != threeDimensionalSpatialRegion).
+
+cnf(u4170,axiom,
+    oneDimensionalSpatialRegion != threeDimensionalSpatialRegion).
+
+cnf(u4174,axiom,
+    zeroDimensionalSpatialRegion != threeDimensionalSpatialRegion).
+
+cnf(u4178,axiom,
+    independentContinuant != threeDimensionalSpatialRegion).
+
+cnf(u4182,axiom,
+    genericallyDependentContinuant != threeDimensionalSpatialRegion).
+
+cnf(u4186,axiom,
+    threeDimensionalSpatialRegion != specificallyDependentContinuant).
+
+cnf(u4190,axiom,
+    threeDimensionalSpatialRegion != quality).
+
+cnf(u4194,axiom,
+    relationalQuality != threeDimensionalSpatialRegion).
+
+cnf(u4198,axiom,
+    threeDimensionalSpatialRegion != function).
+
+cnf(u4202,axiom,
+    disposition != threeDimensionalSpatialRegion).
+
+cnf(u4206,axiom,
+    realizableEntity != threeDimensionalSpatialRegion).
+
+cnf(u4210,axiom,
+    role != threeDimensionalSpatialRegion).
+
+cnf(u4214,axiom,
+    threeDimensionalSpatialRegion != occurrent).
+
+cnf(u4218,axiom,
+    threeDimensionalSpatialRegion != process).
+
+cnf(u4222,axiom,
+    processBoundary != threeDimensionalSpatialRegion).
+
+cnf(u4226,axiom,
+    temporalRegion != threeDimensionalSpatialRegion).
+
+cnf(u4230,axiom,
+    threeDimensionalSpatialRegion != zeroDimensionalTemporalRegion).
+
+cnf(u4234,axiom,
+    temporalInstant != threeDimensionalSpatialRegion).
+
+cnf(u4238,axiom,
+    oneDimensionalTemporalRegion != threeDimensionalSpatialRegion).
+
+cnf(u4242,axiom,
+    temporalInterval != threeDimensionalSpatialRegion).
+
+cnf(u4246,axiom,
+    threeDimensionalSpatialRegion != history).
+
+cnf(u4250,axiom,
+    spatiotemporalRegion != threeDimensionalSpatialRegion).
+
+cnf(u4254,axiom,
+    oneDimensionalSpatialRegion != twoDimensionalSpatialRegion).
+
+cnf(u4258,axiom,
+    twoDimensionalSpatialRegion != zeroDimensionalSpatialRegion).
+
+cnf(u4262,axiom,
+    independentContinuant != twoDimensionalSpatialRegion).
+
+cnf(u4266,axiom,
+    twoDimensionalSpatialRegion != genericallyDependentContinuant).
+
+cnf(u4270,axiom,
+    twoDimensionalSpatialRegion != specificallyDependentContinuant).
+
+cnf(u4274,axiom,
+    twoDimensionalSpatialRegion != quality).
+
+cnf(u4278,axiom,
+    relationalQuality != twoDimensionalSpatialRegion).
+
+cnf(u4282,axiom,
+    twoDimensionalSpatialRegion != function).
+
+cnf(u4286,axiom,
+    disposition != twoDimensionalSpatialRegion).
+
+cnf(u4290,axiom,
+    realizableEntity != twoDimensionalSpatialRegion).
+
+cnf(u4294,axiom,
+    role != twoDimensionalSpatialRegion).
+
+cnf(u4298,axiom,
+    twoDimensionalSpatialRegion != occurrent).
+
+cnf(u4302,axiom,
+    twoDimensionalSpatialRegion != process).
+
+cnf(u4306,axiom,
+    processBoundary != twoDimensionalSpatialRegion).
+
+cnf(u4310,axiom,
+    temporalRegion != twoDimensionalSpatialRegion).
+
+cnf(u4314,axiom,
+    twoDimensionalSpatialRegion != zeroDimensionalTemporalRegion).
+
+cnf(u4318,axiom,
+    temporalInstant != twoDimensionalSpatialRegion).
+
+cnf(u4322,axiom,
+    twoDimensionalSpatialRegion != oneDimensionalTemporalRegion).
+
+cnf(u4326,axiom,
+    temporalInterval != twoDimensionalSpatialRegion).
+
+cnf(u4330,axiom,
+    twoDimensionalSpatialRegion != history).
+
+cnf(u4334,axiom,
+    spatiotemporalRegion != twoDimensionalSpatialRegion).
+
+cnf(u4338,axiom,
+    oneDimensionalSpatialRegion != zeroDimensionalSpatialRegion).
+
+cnf(u4342,axiom,
+    independentContinuant != oneDimensionalSpatialRegion).
+
+cnf(u4346,axiom,
+    oneDimensionalSpatialRegion != genericallyDependentContinuant).
+
+cnf(u4350,axiom,
+    oneDimensionalSpatialRegion != specificallyDependentContinuant).
+
+cnf(u4354,axiom,
+    oneDimensionalSpatialRegion != quality).
+
+cnf(u4358,axiom,
+    relationalQuality != oneDimensionalSpatialRegion).
+
+cnf(u4362,axiom,
+    oneDimensionalSpatialRegion != function).
+
+cnf(u4366,axiom,
+    disposition != oneDimensionalSpatialRegion).
+
+cnf(u4370,axiom,
+    realizableEntity != oneDimensionalSpatialRegion).
+
+cnf(u4374,axiom,
+    role != oneDimensionalSpatialRegion).
+
+cnf(u4378,axiom,
+    oneDimensionalSpatialRegion != occurrent).
+
+cnf(u4382,axiom,
+    oneDimensionalSpatialRegion != process).
+
+cnf(u4386,axiom,
+    processBoundary != oneDimensionalSpatialRegion).
+
+cnf(u4390,axiom,
+    temporalRegion != oneDimensionalSpatialRegion).
+
+cnf(u4394,axiom,
+    oneDimensionalSpatialRegion != zeroDimensionalTemporalRegion).
+
+cnf(u4398,axiom,
+    temporalInstant != oneDimensionalSpatialRegion).
+
+cnf(u4402,axiom,
+    oneDimensionalSpatialRegion != oneDimensionalTemporalRegion).
+
+cnf(u4406,axiom,
+    temporalInterval != oneDimensionalSpatialRegion).
+
+cnf(u4410,axiom,
+    oneDimensionalSpatialRegion != history).
+
+cnf(u4414,axiom,
+    spatiotemporalRegion != oneDimensionalSpatialRegion).
+
+cnf(u4418,axiom,
+    independentContinuant != zeroDimensionalSpatialRegion).
+
+cnf(u4422,axiom,
+    zeroDimensionalSpatialRegion != genericallyDependentContinuant).
+
+cnf(u4426,axiom,
+    zeroDimensionalSpatialRegion != specificallyDependentContinuant).
+
+cnf(u4430,axiom,
+    zeroDimensionalSpatialRegion != quality).
+
+cnf(u4434,axiom,
+    relationalQuality != zeroDimensionalSpatialRegion).
+
+cnf(u4438,axiom,
+    zeroDimensionalSpatialRegion != function).
+
+cnf(u4442,axiom,
+    disposition != zeroDimensionalSpatialRegion).
+
+cnf(u4446,axiom,
+    realizableEntity != zeroDimensionalSpatialRegion).
+
+cnf(u4450,axiom,
+    role != zeroDimensionalSpatialRegion).
+
+cnf(u4454,axiom,
+    zeroDimensionalSpatialRegion != occurrent).
+
+cnf(u4458,axiom,
+    zeroDimensionalSpatialRegion != process).
+
+cnf(u4462,axiom,
+    processBoundary != zeroDimensionalSpatialRegion).
+
+cnf(u4466,axiom,
+    temporalRegion != zeroDimensionalSpatialRegion).
+
+cnf(u4470,axiom,
+    zeroDimensionalSpatialRegion != zeroDimensionalTemporalRegion).
+
+cnf(u4474,axiom,
+    temporalInstant != zeroDimensionalSpatialRegion).
+
+cnf(u4478,axiom,
+    oneDimensionalTemporalRegion != zeroDimensionalSpatialRegion).
+
+cnf(u4482,axiom,
+    temporalInterval != zeroDimensionalSpatialRegion).
+
+cnf(u4486,axiom,
+    zeroDimensionalSpatialRegion != history).
+
+cnf(u4490,axiom,
+    spatiotemporalRegion != zeroDimensionalSpatialRegion).
+
+cnf(u4494,axiom,
+    independentContinuant != genericallyDependentContinuant).
+
+cnf(u4498,axiom,
+    independentContinuant != specificallyDependentContinuant).
+
+cnf(u4502,axiom,
+    independentContinuant != quality).
+
+cnf(u4506,axiom,
+    relationalQuality != independentContinuant).
+
+cnf(u4510,axiom,
+    independentContinuant != function).
+
+cnf(u4514,axiom,
+    disposition != independentContinuant).
+
+cnf(u4518,axiom,
+    realizableEntity != independentContinuant).
+
+cnf(u4522,axiom,
+    role != independentContinuant).
+
+cnf(u4526,axiom,
+    independentContinuant != occurrent).
+
+cnf(u4530,axiom,
+    independentContinuant != process).
+
+cnf(u4534,axiom,
+    processBoundary != independentContinuant).
+
+cnf(u4538,axiom,
+    temporalRegion != independentContinuant).
+
+cnf(u4542,axiom,
+    independentContinuant != zeroDimensionalTemporalRegion).
+
+cnf(u4546,axiom,
+    temporalInstant != independentContinuant).
+
+cnf(u4550,axiom,
+    independentContinuant != oneDimensionalTemporalRegion).
+
+cnf(u4554,axiom,
+    temporalInterval != independentContinuant).
+
+cnf(u4558,axiom,
+    independentContinuant != history).
+
+cnf(u4562,axiom,
+    spatiotemporalRegion != independentContinuant).
+
+cnf(u4566,axiom,
+    genericallyDependentContinuant != specificallyDependentContinuant).
+
+cnf(u4570,axiom,
+    genericallyDependentContinuant != quality).
+
+cnf(u4574,axiom,
+    relationalQuality != genericallyDependentContinuant).
+
+cnf(u4578,axiom,
+    genericallyDependentContinuant != function).
+
+cnf(u4582,axiom,
+    disposition != genericallyDependentContinuant).
+
+cnf(u4586,axiom,
+    realizableEntity != genericallyDependentContinuant).
+
+cnf(u4590,axiom,
+    role != genericallyDependentContinuant).
+
+cnf(u4594,axiom,
+    genericallyDependentContinuant != occurrent).
+
+cnf(u4598,axiom,
+    genericallyDependentContinuant != process).
+
+cnf(u4602,axiom,
+    processBoundary != genericallyDependentContinuant).
+
+cnf(u4606,axiom,
+    temporalRegion != genericallyDependentContinuant).
+
+cnf(u4610,axiom,
+    genericallyDependentContinuant != zeroDimensionalTemporalRegion).
+
+cnf(u4614,axiom,
+    temporalInstant != genericallyDependentContinuant).
+
+cnf(u4618,axiom,
+    oneDimensionalTemporalRegion != genericallyDependentContinuant).
+
+cnf(u4622,axiom,
+    temporalInterval != genericallyDependentContinuant).
+
+cnf(u4626,axiom,
+    genericallyDependentContinuant != history).
+
+cnf(u4630,axiom,
+    spatiotemporalRegion != genericallyDependentContinuant).
+
+cnf(u4634,axiom,
+    specificallyDependentContinuant != quality).
+
+cnf(u4638,axiom,
+    relationalQuality != specificallyDependentContinuant).
+
+cnf(u4642,axiom,
+    specificallyDependentContinuant != function).
+
+cnf(u4646,axiom,
+    disposition != specificallyDependentContinuant).
+
+cnf(u4650,axiom,
+    realizableEntity != specificallyDependentContinuant).
+
+cnf(u4654,axiom,
+    role != specificallyDependentContinuant).
+
+cnf(u4658,axiom,
+    specificallyDependentContinuant != occurrent).
+
+cnf(u4662,axiom,
+    specificallyDependentContinuant != process).
+
+cnf(u4666,axiom,
+    processBoundary != specificallyDependentContinuant).
+
+cnf(u4670,axiom,
+    temporalRegion != specificallyDependentContinuant).
+
+cnf(u4674,axiom,
+    zeroDimensionalTemporalRegion != specificallyDependentContinuant).
+
+cnf(u4678,axiom,
+    temporalInstant != specificallyDependentContinuant).
+
+cnf(u4682,axiom,
+    oneDimensionalTemporalRegion != specificallyDependentContinuant).
+
+cnf(u4686,axiom,
+    temporalInterval != specificallyDependentContinuant).
+
+cnf(u4690,axiom,
+    specificallyDependentContinuant != history).
+
+cnf(u4694,axiom,
+    spatiotemporalRegion != specificallyDependentContinuant).
+
+cnf(u4698,axiom,
+    relationalQuality != quality).
+
+cnf(u4702,axiom,
+    quality != function).
+
+cnf(u4706,axiom,
+    disposition != quality).
+
+cnf(u4710,axiom,
+    realizableEntity != quality).
+
+cnf(u4714,axiom,
+    role != quality).
+
+cnf(u4718,axiom,
+    quality != occurrent).
+
+cnf(u4722,axiom,
+    process != quality).
+
+cnf(u4726,axiom,
+    processBoundary != quality).
+
+cnf(u4730,axiom,
+    temporalRegion != quality).
+
+cnf(u4734,axiom,
+    zeroDimensionalTemporalRegion != quality).
+
+cnf(u4738,axiom,
+    temporalInstant != quality).
+
+cnf(u4742,axiom,
+    oneDimensionalTemporalRegion != quality).
+
+cnf(u4746,axiom,
+    temporalInterval != quality).
+
+cnf(u4750,axiom,
+    history != quality).
+
+cnf(u4754,axiom,
+    spatiotemporalRegion != quality).
+
+cnf(u4758,axiom,
+    relationalQuality != function).
+
+cnf(u4762,axiom,
+    disposition != relationalQuality).
+
+cnf(u4766,axiom,
+    realizableEntity != relationalQuality).
+
+cnf(u4770,axiom,
+    role != relationalQuality).
+
+cnf(u4774,axiom,
+    relationalQuality != occurrent).
+
+cnf(u4778,axiom,
+    relationalQuality != process).
+
+cnf(u4782,axiom,
+    processBoundary != relationalQuality).
+
+cnf(u4786,axiom,
+    temporalRegion != relationalQuality).
+
+cnf(u4790,axiom,
+    relationalQuality != zeroDimensionalTemporalRegion).
+
+cnf(u4794,axiom,
+    temporalInstant != relationalQuality).
+
+cnf(u4798,axiom,
+    relationalQuality != oneDimensionalTemporalRegion).
+
+cnf(u4802,axiom,
+    temporalInterval != relationalQuality).
+
+cnf(u4806,axiom,
+    relationalQuality != history).
+
+cnf(u4810,axiom,
+    relationalQuality != spatiotemporalRegion).
+
+cnf(u4814,axiom,
+    disposition != function).
+
+cnf(u4818,axiom,
+    realizableEntity != function).
+
+cnf(u4822,axiom,
+    role != function).
+
+cnf(u4826,axiom,
+    function != occurrent).
+
+cnf(u4830,axiom,
+    process != function).
+
+cnf(u4834,axiom,
+    processBoundary != function).
+
+cnf(u4838,axiom,
+    temporalRegion != function).
+
+cnf(u4842,axiom,
+    zeroDimensionalTemporalRegion != function).
+
+cnf(u4846,axiom,
+    temporalInstant != function).
+
+cnf(u4850,axiom,
+    oneDimensionalTemporalRegion != function).
+
+cnf(u4854,axiom,
+    temporalInterval != function).
+
+cnf(u4858,axiom,
+    history != function).
+
+cnf(u4862,axiom,
+    spatiotemporalRegion != function).
+
+cnf(u4866,axiom,
+    disposition != realizableEntity).
+
+cnf(u4870,axiom,
+    role != disposition).
+
+cnf(u4874,axiom,
+    disposition != occurrent).
+
+cnf(u4878,axiom,
+    disposition != process).
+
+cnf(u4882,axiom,
+    disposition != processBoundary).
+
+cnf(u4886,axiom,
+    disposition != temporalRegion).
+
+cnf(u4890,axiom,
+    disposition != zeroDimensionalTemporalRegion).
+
+cnf(u4894,axiom,
+    disposition != temporalInstant).
+
+cnf(u4898,axiom,
+    disposition != oneDimensionalTemporalRegion).
+
+cnf(u4902,axiom,
+    disposition != temporalInterval).
+
+cnf(u4906,axiom,
+    disposition != history).
+
+cnf(u4910,axiom,
+    disposition != spatiotemporalRegion).
+
+cnf(u4914,axiom,
+    role != realizableEntity).
+
+cnf(u4918,axiom,
+    realizableEntity != occurrent).
+
+cnf(u4922,axiom,
+    realizableEntity != process).
+
+cnf(u4926,axiom,
+    processBoundary != realizableEntity).
+
+cnf(u4930,axiom,
+    temporalRegion != realizableEntity).
+
+cnf(u4934,axiom,
+    realizableEntity != zeroDimensionalTemporalRegion).
+
+cnf(u4938,axiom,
+    temporalInstant != realizableEntity).
+
+cnf(u4942,axiom,
+    realizableEntity != oneDimensionalTemporalRegion).
+
+cnf(u4946,axiom,
+    realizableEntity != temporalInterval).
+
+cnf(u4950,axiom,
+    realizableEntity != history).
+
+cnf(u4954,axiom,
+    realizableEntity != spatiotemporalRegion).
+
+cnf(u4958,axiom,
+    role != occurrent).
+
+cnf(u4962,axiom,
+    role != process).
+
+cnf(u4966,axiom,
+    role != processBoundary).
+
+cnf(u4970,axiom,
+    role != temporalRegion).
+
+cnf(u4974,axiom,
+    role != zeroDimensionalTemporalRegion).
+
+cnf(u4978,axiom,
+    role != temporalInstant).
+
+cnf(u4982,axiom,
+    role != oneDimensionalTemporalRegion).
+
+cnf(u4986,axiom,
+    role != temporalInterval).
+
+cnf(u4990,axiom,
+    role != history).
+
+cnf(u4994,axiom,
+    role != spatiotemporalRegion).
+
+cnf(u4998,axiom,
+    process != occurrent).
+
+cnf(u5002,axiom,
+    processBoundary != occurrent).
+
+cnf(u5006,axiom,
+    temporalRegion != occurrent).
+
+cnf(u5010,axiom,
+    zeroDimensionalTemporalRegion != occurrent).
+
+cnf(u5014,axiom,
+    temporalInstant != occurrent).
+
+cnf(u5018,axiom,
+    oneDimensionalTemporalRegion != occurrent).
+
+cnf(u5022,axiom,
+    temporalInterval != occurrent).
+
+cnf(u5026,axiom,
+    history != occurrent).
+
+cnf(u5030,axiom,
+    spatiotemporalRegion != occurrent).
+
+cnf(u5034,axiom,
+    processBoundary != process).
+
+cnf(u5038,axiom,
+    temporalRegion != process).
+
+cnf(u5042,axiom,
+    zeroDimensionalTemporalRegion != process).
+
+cnf(u5046,axiom,
+    temporalInstant != process).
+
+cnf(u5050,axiom,
+    oneDimensionalTemporalRegion != process).
+
+cnf(u5054,axiom,
+    temporalInterval != process).
+
+cnf(u5058,axiom,
+    history != process).
+
+cnf(u5062,axiom,
+    spatiotemporalRegion != process).
+
+cnf(u5066,axiom,
+    temporalRegion != processBoundary).
+
+cnf(u5070,axiom,
+    processBoundary != zeroDimensionalTemporalRegion).
+
+cnf(u5074,axiom,
+    processBoundary != temporalInstant).
+
+cnf(u5078,axiom,
+    processBoundary != oneDimensionalTemporalRegion).
+
+cnf(u5082,axiom,
+    processBoundary != temporalInterval).
+
+cnf(u5086,axiom,
+    processBoundary != history).
+
+cnf(u5090,axiom,
+    processBoundary != spatiotemporalRegion).
+
+cnf(u5094,axiom,
+    temporalRegion != zeroDimensionalTemporalRegion).
+
+cnf(u5098,axiom,
+    temporalRegion != temporalInstant).
+
+cnf(u5102,axiom,
+    temporalRegion != oneDimensionalTemporalRegion).
+
+cnf(u5106,axiom,
+    temporalRegion != temporalInterval).
+
+cnf(u5110,axiom,
+    temporalRegion != history).
+
+cnf(u5114,axiom,
+    temporalRegion != spatiotemporalRegion).
+
+cnf(u5118,axiom,
+    temporalInstant != zeroDimensionalTemporalRegion).
+
+cnf(u5122,axiom,
+    oneDimensionalTemporalRegion != zeroDimensionalTemporalRegion).
+
+cnf(u5126,axiom,
+    temporalInterval != zeroDimensionalTemporalRegion).
+
+cnf(u5130,axiom,
+    zeroDimensionalTemporalRegion != history).
+
+cnf(u5134,axiom,
+    spatiotemporalRegion != zeroDimensionalTemporalRegion).
+
+cnf(u5138,axiom,
+    temporalInstant != oneDimensionalTemporalRegion).
+
+cnf(u5142,axiom,
+    temporalInstant != temporalInterval).
+
+cnf(u5146,axiom,
+    temporalInstant != history).
+
+cnf(u5150,axiom,
+    temporalInstant != spatiotemporalRegion).
+
+cnf(u5154,axiom,
+    temporalInterval != oneDimensionalTemporalRegion).
+
+cnf(u5158,axiom,
+    oneDimensionalTemporalRegion != history).
+
+cnf(u5162,axiom,
+    spatiotemporalRegion != oneDimensionalTemporalRegion).
+
+cnf(u5166,axiom,
+    temporalInterval != history).
+
+cnf(u5170,axiom,
+    temporalInterval != spatiotemporalRegion).
+
+cnf(u5174,axiom,
+    spatiotemporalRegion != history).
+
+cnf(u5178,axiom,
+    ~properTemporalPartOf(X1,X1)).
+
+cnf(u5182,axiom,
+    ~particular(X0) | ~universal(X0)).
+
+cnf(u5186,axiom,
+    ~existsAt(X0,X1) | particular(X0)).
+
+cnf(u5190,axiom,
+    ~existsAt(X0,X1) | particular(X1)).
+
+cnf(u5194,axiom,
+    ~particular(X0) | existsAt(X0,sK0(X0))).
+
+cnf(u5198,axiom,
+    ~properTemporalPartOf(X1,X0) | ~properTemporalPartOf(X0,X1)).
+
+cnf(u5202,axiom,
+    ~occupiesTemporalRegion(X0,X1) | existsAt(X0,X1)).
+
+cnf(u5206,axiom,
+    ~precedes(X1,X0) | ~precedes(X0,X1)).
+
+cnf(u5210,axiom,
+    occurrentPartOf(X0,X1) | ~temporalPartOf(X0,X1)).
+
+cnf(u5214,axiom,
+    ~inheresIn(X0,X1) | specificallyDependsOn(X0,X1)).
+
+cnf(u5218,axiom,
+    ~properTemporalPartOf(X0,X1) | temporalPartOf(X0,X1)).
+
+cnf(u5222,axiom,
+    hasOccurrentPart(X1,X0) | ~occurrentPartOf(X0,X1)).
+
+cnf(u5226,axiom,
+    hasTemporalPart(X1,X0) | ~temporalPartOf(X0,X1)).
+
+cnf(u5230,axiom,
+    ~instanceOf(X0,X1,X2) | particular(X0)).
+
+cnf(u5234,axiom,
+    ~instanceOf(X0,X1,X2) | universal(X1)).
+
+cnf(u5238,axiom,
+    ~instanceOf(X0,temporalRegion,X0) | universal(sK3(X0))).
+
+cnf(u5242,axiom,
+    ~instanceOf(X0,temporalRegion,X0) | particular(sK4(X0))).
+
+cnf(u5246,axiom,
+    ~instanceOf(X0,occurrent,X1) | occurrentPartOf(X0,X0)).
+
+cnf(u5250,axiom,
+    ~instanceOf(X0,occurrent,X1) | temporalPartOf(X0,X0)).
+
+cnf(u5254,axiom,
+    ~instanceOf(X0,temporalRegion,X1) | temporalPartOf(X0,X0)).
+
+cnf(u5258,axiom,
+    ~instanceOf(X0,temporalInstant,X0) | hasFirstInstant(X0,X0)).
+
+cnf(u5262,axiom,
+    ~instanceOf(X0,temporalInstant,X0) | hasLastInstant(X0,X0)).
+
+cnf(u5266,axiom,
+    ~specificallyDependsOn(X0,X2) | ~instanceOf(X0,independentContinuant,X1)).
+
+cnf(u5270,axiom,
+    ~existsAt(X0,X1) | instanceOf(X1,temporalRegion,X1)).
+
+cnf(u5274,axiom,
+    ~instanceOf(X0,temporalRegion,X1) | temporalPartOf(X1,X0)).
+
+cnf(u5278,axiom,
+    universal(sK125(X0,X1)) | ~existsAt(X0,X1)).
+
+cnf(u5282,axiom,
+    ~instanceOf(X0,fiatLine,X1) | ~instanceOf(X0,fiatPoint,X1)).
+
+cnf(u5286,axiom,
+    ~instanceOf(X2,fiatSurface,X3) | ~instanceOf(X2,fiatPoint,X3)).
+
+cnf(u5290,axiom,
+    ~instanceOf(X4,fiatLine,X5) | ~instanceOf(X4,fiatSurface,X5)).
+
+cnf(u5294,axiom,
+    ~instanceOf(X0,threeDimensionalSpatialRegion,X1) | ~instanceOf(X0,twoDimensionalSpatialRegion,X1)).
+
+cnf(u5298,axiom,
+    ~instanceOf(X2,threeDimensionalSpatialRegion,X3) | ~instanceOf(X2,oneDimensionalSpatialRegion,X3)).
+
+cnf(u5302,axiom,
+    ~instanceOf(X4,twoDimensionalSpatialRegion,X5) | ~instanceOf(X4,oneDimensionalSpatialRegion,X5)).
+
+cnf(u5306,axiom,
+    ~instanceOf(X6,threeDimensionalSpatialRegion,X7) | ~instanceOf(X6,zeroDimensionalSpatialRegion,X7)).
+
+cnf(u5310,axiom,
+    ~instanceOf(X8,zeroDimensionalSpatialRegion,X9) | ~instanceOf(X8,twoDimensionalSpatialRegion,X9)).
+
+cnf(u5314,axiom,
+    ~instanceOf(X10,zeroDimensionalSpatialRegion,X11) | ~instanceOf(X10,oneDimensionalSpatialRegion,X11)).
+
+cnf(u5318,axiom,
+    ~instanceOf(X0,continuantFiatBoundary,X1) | ~instanceOf(X0,spatialRegion,X1)).
+
+cnf(u5322,axiom,
+    ~instanceOf(X2,continuantFiatBoundary,X3) | ~instanceOf(X2,site,X3)).
+
+cnf(u5326,axiom,
+    ~instanceOf(X4,site,X5) | ~instanceOf(X4,spatialRegion,X5)).
+
+cnf(u5330,axiom,
+    ~instanceOf(X0,genericallyDependentContinuant,X1) | ~instanceOf(X0,independentContinuant,X1)).
+
+cnf(u5334,axiom,
+    ~instanceOf(X2,specificallyDependentContinuant,X3) | ~instanceOf(X2,genericallyDependentContinuant,X3)).
+
+cnf(u5338,axiom,
+    ~instanceOf(X4,specificallyDependentContinuant,X5) | ~instanceOf(X4,independentContinuant,X5)).
+
+cnf(u5342,axiom,
+    ~instanceOf(X0,processBoundary,X1) | ~instanceOf(X0,temporalRegion,X1)).
+
+cnf(u5346,axiom,
+    ~instanceOf(X2,spatiotemporalRegion,X3) | ~instanceOf(X2,temporalRegion,X3)).
+
+cnf(u5350,axiom,
+    ~instanceOf(X4,spatiotemporalRegion,X5) | ~instanceOf(X4,processBoundary,X5)).
+
+cnf(u5354,axiom,
+    ~instanceOf(X6,process,X7) | ~instanceOf(X6,temporalRegion,X7)).
+
+cnf(u5358,axiom,
+    ~instanceOf(X8,process,X9) | ~instanceOf(X8,processBoundary,X9)).
+
+cnf(u5362,axiom,
+    ~instanceOf(X10,process,X11) | ~instanceOf(X10,spatiotemporalRegion,X11)).
+
+cnf(u5366,axiom,
+    ~instanceOf(X0,quality,X1) | ~instanceOf(X0,realizableEntity,X1)).
+
+cnf(u5370,axiom,
+    ~instanceOf(X0,disposition,X1) | ~instanceOf(X0,role,X1)).
+
+cnf(u5374,axiom,
+    ~instanceOf(X0,zeroDimensionalTemporalRegion,X1) | ~instanceOf(X0,oneDimensionalTemporalRegion,X1)).
+
+cnf(u5378,axiom,
+    ~instanceOf(X0,occurrent,X1) | ~instanceOf(X0,continuant,X1)).
+
+cnf(u5382,axiom,
+    ~instanceOf(X0,immaterialEntity,X1) | ~instanceOf(X0,materialEntity,X1)).
+
+cnf(u5386,axiom,
+    temporalPartOf(sK1(X0),X0) | ~instanceOf(X0,oneDimensionalTemporalRegion,X0)).
+
+cnf(u5390,axiom,
+    temporalPartOf(X0,sK2(X0)) | ~instanceOf(X0,temporalRegion,X0)).
+
+cnf(u5394,axiom,
+    sK4(X0) != X0 | ~instanceOf(X0,temporalRegion,X0)).
+
+cnf(u5398,axiom,
+    hasFirstInstant(X0,sK5(X0)) | ~instanceOf(X0,temporalRegion,X0)).
+
+cnf(u5402,axiom,
+    hasLastInstant(X0,sK6(X0)) | ~instanceOf(X0,temporalRegion,X0)).
+
+cnf(u5406,axiom,
+    ~instanceOf(X0,history,X1) | historyOf(X0,sK7(X0))).
+
+cnf(u5410,axiom,
+    ~instanceOf(X0,spatiotemporalRegion,X1) | temporallyProjectsOnto(X0,sK11(X0))).
+
+cnf(u5414,axiom,
+    ~instanceOf(X0,materialEntity,X1) | historyOf(sK12(X0),X0)).
+
+cnf(u5418,axiom,
+    ~instanceOf(X0,materialEntity,X1) | existsAt(X0,sK13(X0))).
+
+cnf(u5422,axiom,
+    ~instanceOf(X0,process,X1) | occurrentPartOf(sK14(X0),X0)).
+
+cnf(u5426,axiom,
+    ~instanceOf(X0,process,X1) | occupiesTemporalRegion(X0,sK18(X0))).
+
+cnf(u5430,axiom,
+    ~instanceOf(X0,process,X1) | occurrentPartOf(sK16(X0),X0)).
+
+cnf(u5434,axiom,
+    ~instanceOf(X0,temporalRegion,X1) | temporallyProjectsOnto(sK24(X0),X0)).
+
+cnf(u5438,axiom,
+    ~instanceOf(X0,process,X1) | occupiesSpatiotemporalRegion(X0,sK26(X0))).
+
+cnf(u5442,axiom,
+    ~instanceOf(X0,processBoundary,X1) | occupiesSpatiotemporalRegion(X0,sK26(X0))).
+
+cnf(u5446,axiom,
+    ~instanceOf(X0,relationalQuality,X1) | inheresIn(X0,sK28(X0))).
+
+cnf(u5450,axiom,
+    ~instanceOf(X0,relationalQuality,X1) | specificallyDependsOn(X0,sK29(X0))).
+
+cnf(u5454,axiom,
+    ~instanceOf(X0,specificallyDependentContinuant,X1) | specificallyDependsOn(X0,sK32(X0))).
+
+cnf(u5458,axiom,
+    ~instanceOf(X0,processBoundary,X1) | occupiesTemporalRegion(X0,sK36(X0))).
+
+cnf(u5462,axiom,
+    ~instanceOf(X0,processBoundary,X1) | temporalPartOf(X0,sK35(X0))).
+
+cnf(u5466,axiom,
+    ~instanceOf(X0,independentContinuant,X1) | ~genericallyDependsOn(X0,X2,X3)).
+
+cnf(u5470,axiom,
+    ~properOccurrentPartOf(X0,X1) | instanceOf(X0,occurrent,sK42(X0))).
+
+cnf(u5474,axiom,
+    ~properOccurrentPartOf(X0,X1) | instanceOf(X1,occurrent,sK43(X1))).
+
+cnf(u5478,axiom,
+    ~inheresIn(X0,X1) | instanceOf(X1,independentContinuant,sK49(X1))).
+
+cnf(u5482,axiom,
+    ~instanceOf(X1,spatialRegion,sK49(X1)) | ~inheresIn(X0,X1)).
+
+cnf(u5486,axiom,
+    ~inheresIn(X0,X1) | instanceOf(X0,specificallyDependentContinuant,sK48(X0))).
+
+cnf(u5490,axiom,
+    ~occupiesSpatiotemporalRegion(X0,X1) | instanceOf(X1,spatiotemporalRegion,sK51(X1))).
+
+cnf(u5494,axiom,
+    ~temporallyProjectsOnto(X0,X1) | instanceOf(X0,spatiotemporalRegion,sK52(X0))).
+
+cnf(u5498,axiom,
+    ~temporallyProjectsOnto(X0,X1) | instanceOf(X1,temporalRegion,sK53(X1))).
+
+cnf(u5502,axiom,
+    ~properTemporalPartOf(X0,X1) | instanceOf(X0,occurrent,sK54(X0))).
+
+cnf(u5506,axiom,
+    ~properTemporalPartOf(X0,X1) | instanceOf(X1,occurrent,sK55(X1))).
+
+cnf(u5510,axiom,
+    ~historyOf(X0,X1) | instanceOf(X0,history,sK56(X0))).
+
+cnf(u5514,axiom,
+    ~historyOf(X0,X1) | instanceOf(X1,materialEntity,sK57(X1))).
+
+cnf(u5518,axiom,
+    ~occupiesTemporalRegion(X0,X1) | instanceOf(X1,temporalRegion,sK61(X1))).
+
+cnf(u5522,axiom,
+    ~hasLastInstant(X0,X1) | instanceOf(X0,temporalRegion,sK62(X0))).
+
+cnf(u5526,axiom,
+    ~hasLastInstant(X0,X1) | instanceOf(X1,temporalInstant,sK63(X1))).
+
+cnf(u5530,axiom,
+    ~specificallyDependsOn(X0,X1) | instanceOf(X0,specificallyDependentContinuant,sK64(X0))).
+
+cnf(u5534,axiom,
+    ~specificallyDependsOn(X0,X1) | existsAt(X0,sK66(X0,X1))).
+
+cnf(u5538,axiom,
+    ~specificallyDependsOn(X0,X1) | existsAt(X1,sK66(X0,X1))).
+
+cnf(u5542,axiom,
+    ~hasFirstInstant(X0,X1) | instanceOf(X0,temporalRegion,sK67(X0))).
+
+cnf(u5546,axiom,
+    ~hasFirstInstant(X0,X1) | instanceOf(X1,temporalInstant,sK68(X1))).
+
+cnf(u5550,axiom,
+    ~occurrentPartOf(X0,X1) | instanceOf(X0,occurrent,sK69(X0))).
+
+cnf(u5554,axiom,
+    ~occurrentPartOf(X0,X1) | instanceOf(X1,occurrent,sK70(X1))).
+
+cnf(u5558,axiom,
+    ~precedes(X0,X1) | instanceOf(X0,occurrent,sK77(X0))).
+
+cnf(u5562,axiom,
+    ~precedes(X0,X1) | instanceOf(X1,occurrent,sK78(X1))).
+
+cnf(u5566,axiom,
+    ~temporalPartOf(X0,X1) | instanceOf(X0,occurrent,sK79(X0))).
+
+cnf(u5570,axiom,
+    ~temporalPartOf(X0,X1) | instanceOf(X1,occurrent,sK80(X1))).
+
+cnf(u5574,axiom,
+    ~instanceOf(X1,fiatObjectPart,X0) | instanceOf(X1,materialEntity,X0)).
+
+cnf(u5578,axiom,
+    ~instanceOf(X1,function,X0) | instanceOf(X1,disposition,X0)).
+
+cnf(u5582,axiom,
+    ~instanceOf(X1,relationalQuality,X0) | instanceOf(X1,quality,X0)).
+
+cnf(u5586,axiom,
+    ~instanceOf(X1,role,X0) | instanceOf(X1,realizableEntity,X0)).
+
+cnf(u5590,axiom,
+    ~instanceOf(X1,history,X0) | instanceOf(X1,process,X0)).
+
+cnf(u5594,axiom,
+    ~instanceOf(X1,fiatSurface,X0) | instanceOf(X1,continuantFiatBoundary,X0)).
+
+cnf(u5598,axiom,
+    ~instanceOf(X1,quality,X0) | instanceOf(X1,specificallyDependentContinuant,X0)).
+
+cnf(u5602,axiom,
+    ~instanceOf(X1,disposition,X0) | instanceOf(X1,realizableEntity,X0)).
+
+cnf(u5606,axiom,
+    ~instanceOf(X1,fiatLine,X0) | instanceOf(X1,continuantFiatBoundary,X0)).
+
+cnf(u5610,axiom,
+    ~instanceOf(X1,realizableEntity,X0) | instanceOf(X1,specificallyDependentContinuant,X0)).
+
+cnf(u5614,axiom,
+    ~instanceOf(X1,object,X0) | instanceOf(X1,materialEntity,X0)).
+
+cnf(u5618,axiom,
+    ~instanceOf(X1,zeroDimensionalTemporalRegion,X0) | instanceOf(X1,temporalRegion,X0)).
+
+cnf(u5622,axiom,
+    ~instanceOf(X1,fiatPoint,X0) | instanceOf(X1,continuantFiatBoundary,X0)).
+
+cnf(u5626,axiom,
+    ~instanceOf(X1,objectAggregate,X0) | instanceOf(X1,materialEntity,X0)).
+
+cnf(u5630,axiom,
+    ~instanceOf(X1,twoDimensionalSpatialRegion,X0) | instanceOf(X1,spatialRegion,X0)).
+
+cnf(u5634,axiom,
+    ~instanceOf(X1,threeDimensionalSpatialRegion,X0) | instanceOf(X1,spatialRegion,X0)).
+
+cnf(u5638,axiom,
+    ~instanceOf(X1,oneDimensionalSpatialRegion,X0) | instanceOf(X1,spatialRegion,X0)).
+
+cnf(u5642,axiom,
+    ~instanceOf(X1,oneDimensionalTemporalRegion,X0) | instanceOf(X1,temporalRegion,X0)).
+
+cnf(u5646,axiom,
+    ~instanceOf(X1,immaterialEntity,X0) | instanceOf(X1,independentContinuant,X0)).
+
+cnf(u5650,axiom,
+    ~instanceOf(X1,zeroDimensionalSpatialRegion,X0) | instanceOf(X1,spatialRegion,X0)).
+
+cnf(u5654,axiom,
+    ~instanceOf(X1,site,X0) | instanceOf(X1,immaterialEntity,X0)).
+
+cnf(u5658,axiom,
+    ~instanceOf(X1,genericallyDependentContinuant,X0) | instanceOf(X1,continuant,X0)).
+
+cnf(u5662,axiom,
+    ~instanceOf(X1,continuantFiatBoundary,X0) | instanceOf(X1,immaterialEntity,X0)).
+
+cnf(u5666,axiom,
+    ~instanceOf(X1,temporalInterval,X0) | instanceOf(X1,oneDimensionalTemporalRegion,X0)).
+
+cnf(u5670,axiom,
+    ~instanceOf(X1,spatiotemporalRegion,X0) | instanceOf(X1,occurrent,X0)).
+
+cnf(u5674,axiom,
+    ~instanceOf(X1,specificallyDependentContinuant,X0) | instanceOf(X1,continuant,X0)).
+
+cnf(u5678,axiom,
+    ~instanceOf(X1,processBoundary,X0) | instanceOf(X1,occurrent,X0)).
+
+cnf(u5682,axiom,
+    ~instanceOf(X1,materialEntity,X0) | instanceOf(X1,independentContinuant,X0)).
+
+cnf(u5686,axiom,
+    ~instanceOf(X1,independentContinuant,X0) | instanceOf(X1,continuant,X0)).
+
+cnf(u5690,axiom,
+    ~instanceOf(X0,independentContinuant,X1) | continuantPartOf(X0,X0,X1)).
+
+cnf(u5694,axiom,
+    ~instanceOf(X1,process,X0) | instanceOf(X1,occurrent,X0)).
+
+cnf(u5698,axiom,
+    ~instanceOf(X1,temporalInstant,X0) | instanceOf(X1,zeroDimensionalTemporalRegion,X0)).
+
+cnf(u5702,axiom,
+    ~instanceOf(X1,spatialRegion,X0) | instanceOf(X1,immaterialEntity,X0)).
+
+cnf(u5706,axiom,
+    ~instanceOf(X1,temporalRegion,X0) | instanceOf(X1,occurrent,X0)).
+
+cnf(u5710,axiom,
+    ~occupiesTemporalRegion(X0,X1) | occupiesSpatiotemporalRegion(X0,sK122(X0,X1))).
+
+cnf(u5714,axiom,
+    ~occupiesTemporalRegion(X0,X1) | temporallyProjectsOnto(sK122(X0,X1),X1)).
+
+cnf(u5718,axiom,
+    ~instanceOf(X0,immaterialEntity,X1) | ~instanceOf(X0,fiatObjectPart,X1)).
+
+cnf(u5722,axiom,
+    ~genericallyDependsOn(X0,X1,X2) | instanceOf(X0,genericallyDependentContinuant,X2)).
+
+cnf(u5726,axiom,
+    ~genericallyDependsOn(X0,X1,X2) | instanceOf(X1,independentContinuant,X2)).
+
+cnf(u5730,axiom,
+    ~instanceOf(X1,spatialRegion,X2) | ~genericallyDependsOn(X0,X1,X2)).
+
+cnf(u5734,axiom,
+    ~genericallyDependsOn(X0,X1,X2) | instanceOf(X2,temporalRegion,X2)).
+
+cnf(u5738,axiom,
+    ~properContinuantPartOf(X0,X1,X2) | instanceOf(X0,continuant,X2)).
+
+cnf(u5742,axiom,
+    ~properContinuantPartOf(X0,X1,X2) | instanceOf(X1,continuant,X2)).
+
+cnf(u5746,axiom,
+    ~properContinuantPartOf(X0,X1,X2) | instanceOf(X2,temporalRegion,X2)).
+
+cnf(u5750,axiom,
+    ~spatiallyProjectsOnto(X0,X1,X2) | instanceOf(X0,spatiotemporalRegion,X2)).
+
+cnf(u5754,axiom,
+    ~spatiallyProjectsOnto(X0,X1,X2) | instanceOf(X1,spatialRegion,X2)).
+
+cnf(u5758,axiom,
+    ~spatiallyProjectsOnto(X0,X1,X2) | instanceOf(X2,temporalRegion,X2)).
+
+cnf(u5762,axiom,
+    ~occupiesSpatialRegion(X0,X1,X2) | instanceOf(X0,independentContinuant,X2)).
+
+cnf(u5766,axiom,
+    ~instanceOf(X0,spatialRegion,X2) | ~occupiesSpatialRegion(X0,X1,X2)).
+
+cnf(u5770,axiom,
+    ~occupiesSpatialRegion(X0,X1,X2) | instanceOf(X1,spatialRegion,X2)).
+
+cnf(u5774,axiom,
+    ~occupiesSpatialRegion(X0,X1,X2) | instanceOf(X2,temporalRegion,X2)).
+
+cnf(u5778,axiom,
+    ~memberPartOf(X0,X1,X2) | instanceOf(X0,object,X2)).
+
+cnf(u5782,axiom,
+    ~memberPartOf(X0,X1,X2) | instanceOf(X1,objectAggregate,X2)).
+
+cnf(u5786,axiom,
+    ~memberPartOf(X0,X1,X2) | instanceOf(X2,temporalRegion,X2)).
+
+cnf(u5790,axiom,
+    ~concretizes(X0,X1,X2) | instanceOf(X1,genericallyDependentContinuant,X2)).
+
+cnf(u5794,axiom,
+    ~concretizes(X0,X1,X2) | instanceOf(X2,temporalRegion,X2)).
+
+cnf(u5798,axiom,
+    ~locatedIn(X0,X1,X2) | instanceOf(X0,independentContinuant,X2)).
+
+cnf(u5802,axiom,
+    ~instanceOf(X0,spatialRegion,X2) | ~locatedIn(X0,X1,X2)).
+
+cnf(u5806,axiom,
+    ~locatedIn(X0,X1,X2) | instanceOf(X1,independentContinuant,X2)).
+
+cnf(u5810,axiom,
+    ~instanceOf(X1,spatialRegion,X2) | ~locatedIn(X0,X1,X2)).
+
+cnf(u5814,axiom,
+    ~locatedIn(X0,X1,X2) | instanceOf(X2,temporalRegion,X2)).
+
+cnf(u5818,axiom,
+    ~participatesIn(X0,X1,X2) | instanceOf(X1,process,X2)).
+
+cnf(u5822,axiom,
+    ~participatesIn(X0,X1,X2) | instanceOf(X2,temporalRegion,X2)).
+
+cnf(u5826,axiom,
+    ~continuantPartOf(X0,X1,X2) | instanceOf(X0,continuant,X2)).
+
+cnf(u5830,axiom,
+    ~continuantPartOf(X0,X1,X2) | instanceOf(X1,continuant,X2)).
+
+cnf(u5834,axiom,
+    ~continuantPartOf(X0,X1,X2) | instanceOf(X2,temporalRegion,X2)).
+
+cnf(u5838,axiom,
+    ~instanceOf(X0,X1,X2) | instanceOf(X2,temporalRegion,X2)).
+
+cnf(u5842,axiom,
+    ~properContinuantPartOf(X0,X1,X2) | continuantPartOf(X0,X1,X2)).
+
+cnf(u5846,axiom,
+    ~properContinuantPartOf(X0,X1,X2) | ~continuantPartOf(X1,X0,X2)).
+
+cnf(u5850,axiom,
+    ~memberPartOf(X0,X1,X2) | properContinuantPartOf(X0,X1,X2)).
+
+cnf(u5854,axiom,
+    locationOf(X2,X1,X0) | ~locatedIn(X1,X2,X0)).
+
+cnf(u5858,axiom,
+    hasContinuantPart(X2,X1,X0) | ~continuantPartOf(X1,X2,X0)).
+
+cnf(u5862,axiom,
+    sK8(X0) != sK9(X0) | ~instanceOf(X0,objectAggregate,X1)).
+
+cnf(u5866,axiom,
+    ~instanceOf(X0,process,X1) | hasFirstInstant(sK18(X0),sK20(X0))).
+
+cnf(u5870,axiom,
+    ~instanceOf(X0,process,X1) | hasLastInstant(sK18(X0),sK19(X0))).
+
+cnf(u5874,axiom,
+    ~instanceOf(X0,process,X1) | occupiesTemporalRegion(sK16(X0),sK17(X0))).
+
+cnf(u5878,axiom,
+    sK28(X0) != sK29(X0) | ~instanceOf(X0,relationalQuality,X1)).
+
+cnf(u5882,axiom,
+    ~instanceOf(X0,relationalQuality,X1) | instanceOf(X0,quality,sK30(X0))).
+
+cnf(u5886,axiom,
+    ~instanceOf(X0,specificallyDependentContinuant,X1) | instanceOf(X0,continuant,sK33(X0))).
+
+cnf(u5890,axiom,
+    ~instanceOf(X0,independentContinuant,X1) | instanceOf(X0,continuant,sK39(X0))).
+
+cnf(u5894,axiom,
+    ~occursIn(X0,X1) | ~existsAt(X0,X2) | existsAt(X1,X2)).
+
+cnf(u5898,axiom,
+    ~existsAt(X0,X2) | ~specificallyDependsOn(X0,X1) | existsAt(X1,X2)).
+
+cnf(u5902,axiom,
+    ~existsAt(X0,X2) | ~occurrentPartOf(X0,X1) | existsAt(X1,X2)).
+
+cnf(u5906,axiom,
+    ~instanceOf(X1,genericallyDependentContinuant,X0) | temporalPartOf(sK86(X0,X1),X0)).
+
+cnf(u5910,axiom,
+    ~instanceOf(X0,spatiotemporalRegion,X1) | temporalPartOf(sK88(X0,X1),X1)).
+
+cnf(u5914,axiom,
+    ~occurrentPartOf(X1,X0) | ~occurrentPartOf(X0,X1) | X0 = X1).
+
+cnf(u5918,axiom,
+    ~temporalPartOf(X1,X0) | ~temporalPartOf(X0,X1) | X0 = X1).
+
+cnf(u5922,axiom,
+    ~precedes(X0,X1) | ~temporalPartOf(X2,X0) | ~temporalPartOf(X2,X1)).
+
+cnf(u5926,axiom,
+    ~occurrentPartOf(X0,X1) | X0 = X1 | properOccurrentPartOf(X0,X1)).
+
+cnf(u5930,axiom,
+    ~inheresIn(X0,X1) | instanceOf(X0,specificallyDependentContinuant,sK121(X0,X1))).
+
+cnf(u5934,axiom,
+    ~inheresIn(X0,X1) | instanceOf(X1,independentContinuant,sK121(X0,X1))).
+
+cnf(u5938,axiom,
+    ~instanceOf(X1,spatialRegion,sK121(X0,X1)) | ~inheresIn(X0,X1)).
+
+cnf(u5942,axiom,
+    ~temporalPartOf(X0,X1) | X0 = X1 | properTemporalPartOf(X0,X1)).
+
+cnf(u5946,axiom,
+    ~occupiesSpatiotemporalRegion(X0,X2) | ~temporallyProjectsOnto(X2,X1) | occupiesTemporalRegion(X0,X1)).
+
+cnf(u5950,axiom,
+    ~occupiesSpatiotemporalRegion(X0,X2) | ~occupiesSpatiotemporalRegion(X0,X1) | X1 = X2).
+
+cnf(u5954,axiom,
+    ~temporallyProjectsOnto(X0,X2) | ~temporallyProjectsOnto(X0,X1) | X1 = X2).
+
+cnf(u5958,axiom,
+    ~properTemporalPartOf(X1,X2) | ~properTemporalPartOf(X0,X1) | properTemporalPartOf(X0,X2)).
+
+cnf(u5962,axiom,
+    ~historyOf(X0,X2) | ~historyOf(X0,X1) | X1 = X2).
+
+cnf(u5966,axiom,
+    ~historyOf(X2,X1) | ~historyOf(X0,X1) | X0 = X2).
+
+cnf(u5970,axiom,
+    ~occursIn(X0,X1) | ~occurrentPartOf(X2,X0) | occursIn(X2,X1)).
+
+cnf(u5974,axiom,
+    ~occupiesTemporalRegion(X0,X2) | ~occupiesTemporalRegion(X0,X1) | X1 = X2).
+
+cnf(u5978,axiom,
+    ~hasLastInstant(X0,X2) | ~hasLastInstant(X0,X1) | X1 = X2).
+
+cnf(u5982,axiom,
+    ~hasFirstInstant(X0,X2) | ~hasFirstInstant(X0,X1) | X1 = X2).
+
+cnf(u5986,axiom,
+    ~occurrentPartOf(X1,X2) | ~occurrentPartOf(X0,X1) | occurrentPartOf(X0,X2)).
+
+cnf(u5990,axiom,
+    ~existsAt(X0,X1) | ~temporalPartOf(X0,X2) | existsAt(X2,X1)).
+
+cnf(u5994,axiom,
+    ~precedes(X1,X2) | ~precedes(X0,X1) | precedes(X0,X2)).
+
+cnf(u5998,axiom,
+    ~temporalPartOf(X1,X2) | ~temporalPartOf(X0,X1) | temporalPartOf(X0,X2)).
+
+cnf(u6002,axiom,
+    ~occupiesTemporalRegion(X0,X2) | precedes(X0,X3) | ~precedes(X2,X3)).
+
+cnf(u6006,axiom,
+    ~temporallyProjectsOnto(X0,X2) | precedes(X0,X3) | ~precedes(X2,X3)).
+
+cnf(u6010,axiom,
+    ~temporallyProjectsOnto(X1,X3) | precedes(X2,X1) | ~precedes(X2,X3)).
+
+cnf(u6014,axiom,
+    ~occupiesTemporalRegion(X1,X3) | precedes(X2,X1) | ~precedes(X2,X3)).
+
+cnf(u6018,axiom,
+    ~existsAt(X0,X1) | instanceOf(X0,sK125(X0,X1),X1)).
+
+cnf(u6032,axiom,
+    ~instanceOf(X0,oneDimensionalTemporalRegion,X0) | instanceOf(sK1(X0),temporalInterval,sK1(X0))).
+
+cnf(u6036,axiom,
+    ~instanceOf(X0,temporalRegion,X0) | instanceOf(sK2(X0),temporalInterval,sK2(X0))).
+
+cnf(u6040,axiom,
+    ~instanceOf(X0,temporalRegion,X0) | instanceOf(sK4(X0),sK3(X0),X0)).
+
+cnf(u6044,axiom,
+    ~instanceOf(X0,objectAggregate,X1) | instanceOf(sK8(X0),object,sK10(X0))).
+
+cnf(u6048,axiom,
+    ~instanceOf(X0,objectAggregate,X1) | memberPartOf(sK8(X0),X0,sK10(X0))).
+
+cnf(u6052,axiom,
+    ~instanceOf(X0,objectAggregate,X1) | instanceOf(sK9(X0),object,sK10(X0))).
+
+cnf(u6056,axiom,
+    ~instanceOf(X0,objectAggregate,X1) | memberPartOf(sK9(X0),X0,sK10(X0))).
+
+cnf(u6060,axiom,
+    ~instanceOf(X0,spatiotemporalRegion,X1) | instanceOf(sK11(X0),temporalRegion,sK11(X0))).
+
+cnf(u6064,axiom,
+    ~instanceOf(X0,materialEntity,X1) | instanceOf(sK13(X0),oneDimensionalTemporalRegion,sK13(X0))).
+
+cnf(u6068,axiom,
+    ~instanceOf(X0,process,X1) | instanceOf(sK14(X0),processBoundary,sK15(X0))).
+
+cnf(u6072,axiom,
+    ~instanceOf(X0,process,X1) | instanceOf(sK16(X0),processBoundary,sK17(X0))).
+
+cnf(u6076,axiom,
+    ~instanceOf(X0,spatialRegion,X1) | instanceOf(sK21(X0),spatiotemporalRegion,sK22(X0))).
+
+cnf(u6080,axiom,
+    ~instanceOf(X0,spatialRegion,X1) | spatiallyProjectsOnto(sK21(X0),X0,sK23(X0))).
+
+cnf(u6084,axiom,
+    ~instanceOf(X0,temporalRegion,X1) | instanceOf(sK24(X0),spatiotemporalRegion,sK25(X0))).
+
+cnf(u6088,axiom,
+    ~hasFirstInstant(X0,X0) | ~hasLastInstant(X0,X0) | instanceOf(X0,temporalInstant,X0)).
+
+cnf(u6092,axiom,
+    ~instanceOf(X0,specificallyDependentContinuant,X1) | instanceOf(sK32(X0),independentContinuant,sK33(X0))).
+
+cnf(u6096,axiom,
+    ~instanceOf(sK32(X0),spatialRegion,sK33(X0)) | ~instanceOf(X0,specificallyDependentContinuant,X1)).
+
+cnf(u6100,axiom,
+    ~instanceOf(X0,processBoundary,X1) | instanceOf(sK36(X0),temporalInstant,sK36(X0))).
+
+cnf(u6104,axiom,
+    ~instanceOf(X0,processBoundary,X1) | instanceOf(sK35(X0),process,sK37(X0))).
+
+cnf(u6108,axiom,
+    ~historyOf(X0,X1) | ~existsAt(X1,X2) | participatesIn(X1,X0,X2)).
+
+cnf(u6112,axiom,
+    ~instanceOf(X0,objectAggregate,X1) | instanceOf(sK84(X0,X1),object,X1)).
+
+cnf(u6116,axiom,
+    ~instanceOf(X0,objectAggregate,X1) | memberPartOf(sK84(X0,X1),X0,X1)).
+
+cnf(u6120,axiom,
+    ~instanceOf(X0,process,X1) | participatesIn(sK89(X0,X1),X0,X1)).
+
+cnf(u6124,axiom,
+    ~instanceOf(X0,spatialRegion,X1) | instanceOf(sK90(X0,X1),threeDimensionalSpatialRegion,X1)).
+
+cnf(u6128,axiom,
+    ~instanceOf(X0,spatialRegion,X1) | continuantPartOf(X0,sK90(X0,X1),X1)).
+
+cnf(u6132,axiom,
+    ~instanceOf(X0,temporalInstant,X2) | ~hasTemporalPart(X0,X1) | X0 = X1).
+
+cnf(u6136,axiom,
+    ~instanceOf(X0,fiatObjectPart,X1) | instanceOf(sK123(X0,X1),object,X1)).
+
+cnf(u6140,axiom,
+    ~instanceOf(X0,fiatObjectPart,X1) | properContinuantPartOf(X0,sK123(X0,X1),X1)).
+
+cnf(u6144,axiom,
+    ~precedes(X0,X1) | precedes(sK126(X0,X1),sK127(X0,X1))).
+
+cnf(u6148,axiom,
+    ~genericallyDependsOn(X0,X1,X2) | temporalPartOf(sK129(X0,X1,X2),X2)).
+
+cnf(u6152,axiom,
+    ~genericallyDependsOn(X0,X1,X2) | inheresIn(sK128(X0,X1,X2),X1)).
+
+cnf(u6156,axiom,
+    ~locatedIn(X0,X1,X2) | temporalPartOf(sK132(X0,X1,X2),X2)).
+
+cnf(u6160,axiom,
+    ~existsAt(X0,X1) | ~continuantPartOf(X2,X0,X1) | existsAt(X2,X1)).
+
+cnf(u6175,axiom,
+    ~temporalPartOf(X0,X1) | instanceOf(X0,occurrent,sK69(X0))).
+
+cnf(u6181,axiom,
+    ~existsAt(X0,X2) | ~instanceOf(X0,function,X1) | instanceOf(X0,function,X2)).
+
+cnf(u6185,axiom,
+    ~temporalPartOf(X1,X0) | instanceOf(X0,occurrent,sK70(X0))).
+
+cnf(u6191,axiom,
+    ~existsAt(X0,X2) | ~instanceOf(X0,relationalQuality,X1) | instanceOf(X0,relationalQuality,X2)).
+
+cnf(u6195,axiom,
+    ~existsAt(X0,X2) | ~instanceOf(X0,role,X1) | instanceOf(X0,role,X2)).
+
+cnf(u6199,axiom,
+    ~existsAt(X0,X2) | ~instanceOf(X0,fiatSurface,X1) | instanceOf(X0,fiatSurface,X2)).
+
+cnf(u6203,axiom,
+    ~existsAt(X0,X2) | ~instanceOf(X0,quality,X1) | instanceOf(X0,quality,X2)).
+
+cnf(u6207,axiom,
+    ~existsAt(X0,X2) | ~instanceOf(X0,disposition,X1) | instanceOf(X0,disposition,X2)).
+
+cnf(u6211,axiom,
+    ~existsAt(X0,X2) | ~instanceOf(X0,fiatLine,X1) | instanceOf(X0,fiatLine,X2)).
+
+cnf(u6215,axiom,
+    ~existsAt(X0,X2) | ~instanceOf(X0,realizableEntity,X1) | instanceOf(X0,realizableEntity,X2)).
+
+cnf(u6219,axiom,
+    ~existsAt(X0,X2) | ~instanceOf(X0,fiatPoint,X1) | instanceOf(X0,fiatPoint,X2)).
+
+cnf(u6223,axiom,
+    ~existsAt(X0,X2) | ~instanceOf(X0,twoDimensionalSpatialRegion,X1) | instanceOf(X0,twoDimensionalSpatialRegion,X2)).
+
+cnf(u6227,axiom,
+    ~existsAt(X0,X2) | ~instanceOf(X0,oneDimensionalSpatialRegion,X1) | instanceOf(X0,oneDimensionalSpatialRegion,X2)).
+
+cnf(u6231,axiom,
+    ~existsAt(X0,X2) | ~instanceOf(X0,threeDimensionalSpatialRegion,X1) | instanceOf(X0,threeDimensionalSpatialRegion,X2)).
+
+cnf(u6235,axiom,
+    ~existsAt(X0,X2) | ~instanceOf(X0,immaterialEntity,X1) | instanceOf(X0,immaterialEntity,X2)).
+
+cnf(u6239,axiom,
+    ~existsAt(X0,X2) | ~instanceOf(X0,zeroDimensionalSpatialRegion,X1) | instanceOf(X0,zeroDimensionalSpatialRegion,X2)).
+
+cnf(u6243,axiom,
+    ~existsAt(X0,X2) | ~instanceOf(X0,site,X1) | instanceOf(X0,site,X2)).
+
+cnf(u6247,axiom,
+    ~existsAt(X0,X2) | ~instanceOf(X0,genericallyDependentContinuant,X1) | instanceOf(X0,genericallyDependentContinuant,X2)).
+
+cnf(u6251,axiom,
+    ~existsAt(X0,X2) | ~instanceOf(X0,continuantFiatBoundary,X1) | instanceOf(X0,continuantFiatBoundary,X2)).
+
+cnf(u6255,axiom,
+    ~existsAt(X0,X2) | ~instanceOf(X0,specificallyDependentContinuant,X1) | instanceOf(X0,specificallyDependentContinuant,X2)).
+
+cnf(u6259,axiom,
+    ~existsAt(X0,X2) | ~instanceOf(X0,continuant,X1) | instanceOf(X0,continuant,X2)).
+
+cnf(u6263,axiom,
+    ~existsAt(X0,X2) | ~instanceOf(X0,materialEntity,X1) | instanceOf(X0,materialEntity,X2)).
+
+cnf(u6267,axiom,
+    ~existsAt(X0,X2) | ~instanceOf(X0,independentContinuant,X1) | instanceOf(X0,independentContinuant,X2)).
+
+cnf(u6271,axiom,
+    ~existsAt(X0,X2) | ~instanceOf(X0,spatialRegion,X1) | instanceOf(X0,spatialRegion,X2)).
+
+cnf(u6275,axiom,
+    ~historyOf(X1,X0) | ~instanceOf(X1,history,X2) | instanceOf(X0,materialEntity,X2)).
+
+cnf(u6279,axiom,
+    ~historyOf(X1,X0) | instanceOf(X1,history,X2) | ~instanceOf(X0,materialEntity,X2)).
+
+cnf(u6283,axiom,
+    ~specificallyDependsOn(X0,X1) | ~continuantPartOf(X2,X0,X3) | ~continuantPartOf(X2,X1,X3)).
+
+cnf(u6287,axiom,
+    ~occupiesTemporalRegion(X0,X1) | ~instanceOf(X0,processBoundary,X2) | instanceOf(X1,temporalInstant,X1)).
+
+cnf(u6291,axiom,
+    ~occupiesTemporalRegion(X0,X1) | ~instanceOf(X0,process,X2) | temporalPartOf(sK118(X1),X1)).
+
+cnf(u6295,axiom,
+    ~instanceOf(X0,fiatPoint,X1) | ~continuantPartOf(X2,X0,X1) | X0 = X2).
+
+cnf(u6299,axiom,
+    ~properContinuantPartOf(X0,X1,X2) | ~temporalPartOf(X3,X2) | properContinuantPartOf(X0,X1,X3)).
+
+cnf(u6303,axiom,
+    ~spatiallyProjectsOnto(X0,X1,X2) | ~temporalPartOf(X3,X2) | spatiallyProjectsOnto(X0,X1,X3)).
+
+cnf(u6307,axiom,
+    ~spatiallyProjectsOnto(X0,X3,X2) | ~spatiallyProjectsOnto(X0,X1,X2) | X1 = X3).
+
+cnf(u6311,axiom,
+    ~occupiesSpatialRegion(X0,X1,X2) | ~temporalPartOf(X3,X2) | occupiesSpatialRegion(X0,X1,X3)).
+
+cnf(u6315,axiom,
+    ~occupiesSpatialRegion(X0,X3,X2) | ~occupiesSpatialRegion(X0,X1,X2) | X1 = X3).
+
+cnf(u6319,axiom,
+    ~memberPartOf(X0,X1,X2) | ~temporalPartOf(X3,X2) | memberPartOf(X0,X1,X3)).
+
+cnf(u6323,axiom,
+    ~concretizes(X0,X1,X2) | ~temporalPartOf(X3,X2) | concretizes(X0,X1,X3)).
+
+cnf(u6327,axiom,
+    ~locatedIn(X0,X1,X2) | ~temporalPartOf(X3,X2) | locatedIn(X0,X1,X3)).
+
+cnf(u6331,axiom,
+    ~participatesIn(X0,X1,X2) | ~temporalPartOf(X3,X2) | participatesIn(X0,X1,X3)).
+
+cnf(u6335,axiom,
+    ~continuantPartOf(X0,X1,X2) | ~temporalPartOf(X3,X2) | continuantPartOf(X0,X1,X3)).
+
+cnf(u6339,axiom,
+    ~instanceOf(X0,X1,X2) | ~temporalPartOf(X3,X2) | instanceOf(X0,X1,X3)).
+
+cnf(u6343,axiom,
+    ~instanceOf(X0,temporalRegion,X0) | instanceOf(X0,temporalRegion,sK62(X0))).
+
+cnf(u6347,axiom,
+    ~instanceOf(X0,processBoundary,X2) | ~hasOccurrentPart(X0,X1) | instanceOf(X1,processBoundary,sK44(X1))).
+
+cnf(u6351,axiom,
+    ~instanceOf(X0,temporalRegion,X0) | instanceOf(X0,temporalRegion,sK67(X0))).
+
+cnf(u6355,axiom,
+    ~instanceOf(X1,temporalRegion,X1) | instanceOf(X1,occurrent,sK79(X1))).
+
+cnf(u6359,axiom,
+    ~instanceOf(X0,zeroDimensionalTemporalRegion,X2) | ~hasTemporalPart(X0,X1) | instanceOf(X1,zeroDimensionalTemporalRegion,sK46(X1))).
+
+cnf(u6363,axiom,
+    ~instanceOf(X0,oneDimensionalTemporalRegion,X0) | instanceOf(X0,occurrent,sK80(X0))).
+
+cnf(u6367,axiom,
+    ~instanceOf(X0,process,X2) | ~occurrentPartOf(X0,X1) | instanceOf(X1,process,sK72(X1))).
+
+cnf(u6371,axiom,
+    ~occurrentPartOf(X0,X1) | X0 = X1 | ~temporalPartOf(X1,X0)).
+
+cnf(u6376,axiom,
+    properOccurrentPartOf(X0,X1) | X0 = X1 | ~temporalPartOf(X0,X1)).
+
+cnf(u6380,axiom,
+    ~instanceOf(X1,spatiotemporalRegion,X3) | ~occurrentPartOf(X0,X1) | instanceOf(X0,spatiotemporalRegion,sK73(X0))).
+
+cnf(u6386,axiom,
+    ~occurrentPartOf(X0,X1) | occurrentPartOf(X0,X2) | ~temporalPartOf(X1,X2)).
+
+cnf(u6391,axiom,
+    ~instanceOf(X0,spatiotemporalRegion,X2) | instanceOf(X1,spatiotemporalRegion,sK74(X1)) | ~occurrentPartOf(X0,X1)).
+
+cnf(u6395,axiom,
+    ~instanceOf(X1,temporalRegion,X1) | instanceOf(X1,occurrent,sK69(X1))).
+
+cnf(u6399,axiom,
+    ~instanceOf(X0,oneDimensionalTemporalRegion,X0) | instanceOf(X0,occurrent,sK70(X0))).
+
+cnf(u6403,axiom,
+    ~instanceOf(X1,temporalRegion,X3) | ~occurrentPartOf(X0,X1) | instanceOf(X0,temporalRegion,sK75(X0))).
+
+cnf(u6407,axiom,
+    ~temporalPartOf(X0,X2) | ~temporalPartOf(X2,X1) | occurrentPartOf(X0,X1)).
+
+cnf(u6413,axiom,
+    ~instanceOf(X0,temporalRegion,X2) | instanceOf(X1,temporalRegion,sK76(X1)) | ~occurrentPartOf(X0,X1)).
+
+cnf(u6417,axiom,
+    ~instanceOf(X0,oneDimensionalTemporalRegion,X2) | ~temporalPartOf(X0,X1) | instanceOf(X1,oneDimensionalTemporalRegion,sK81(X1))).
+
+cnf(u6421,axiom,
+    ~instanceOf(X1,temporalRegion,X3) | ~temporalPartOf(X0,X1) | instanceOf(X0,temporalRegion,sK82(X0))).
+
+cnf(u6425,axiom,
+    ~instanceOf(X0,temporalRegion,X2) | instanceOf(X1,temporalRegion,sK83(X1)) | ~temporalPartOf(X0,X1)).
+
+cnf(u6429,axiom,
+    ~instanceOf(X1,genericallyDependentContinuant,X0) | concretizes(sK85(X0,X1),X1,sK86(X0,X1))).
+
+cnf(u6433,axiom,
+    ~instanceOf(X0,spatiotemporalRegion,X1) | instanceOf(sK87(X0,X1),spatialRegion,sK88(X0,X1))).
+
+cnf(u6437,axiom,
+    ~instanceOf(X0,spatiotemporalRegion,X1) | spatiallyProjectsOnto(X0,sK87(X0,X1),sK88(X0,X1))).
+
+cnf(u6441,axiom,
+    ~instanceOf(X0,temporalRegion,X1) | instanceOf(X0,zeroDimensionalTemporalRegion,X1) | instanceOf(X0,oneDimensionalTemporalRegion,X1)).
+
+cnf(u6445,axiom,
+    ~instanceOf(X0,temporalRegion,X2) | ~instanceOf(X0,X1,X2) | instanceOf(X0,X1,X0)).
+
+cnf(u6449,axiom,
+    ~instanceOf(X2,materialEntity,X1) | ~continuantPartOf(X2,X0,X1) | ~instanceOf(X0,immaterialEntity,X1)).
+
+cnf(u6453,axiom,
+    particular(X0) | ~universal(X2) | ~instanceOf(X0,X2,X1) | ~instanceOf(X1,temporalRegion,X1)).
+
+cnf(u6457,axiom,
+    ~temporallyProjectsOnto(X0,X2) | precedes(X0,X1) | ~occupiesTemporalRegion(X1,X3) | ~precedes(X2,X3)).
+
+cnf(u6461,axiom,
+    ~temporallyProjectsOnto(X1,X3) | ~temporallyProjectsOnto(X0,X2) | precedes(X0,X1) | ~precedes(X2,X3)).
+
+cnf(u6465,axiom,
+    ~occupiesTemporalRegion(X1,X3) | ~occupiesTemporalRegion(X0,X2) | precedes(X0,X1) | ~precedes(X2,X3)).
+
+cnf(u6469,axiom,
+    ~temporallyProjectsOnto(X1,X3) | ~occupiesTemporalRegion(X0,X2) | precedes(X0,X1) | ~precedes(X2,X3)).
+
+cnf(u6473,axiom,
+    ~concretizes(X0,X1,X2) | instanceOf(X0,specificallyDependentContinuant,X2) | instanceOf(X0,process,X2)).
+
+cnf(u6477,axiom,
+    ~instanceOf(X1,independentContinuant,X2) | ~continuantPartOf(X0,X1,X2) | instanceOf(X0,independentContinuant,X2)).
+
+cnf(u6481,axiom,
+    ~instanceOf(X0,independentContinuant,X2) | instanceOf(X1,independentContinuant,X2) | ~continuantPartOf(X0,X1,X2)).
+
+cnf(u6485,axiom,
+    ~instanceOf(X1,spatialRegion,X2) | ~continuantPartOf(X0,X1,X2) | instanceOf(X0,spatialRegion,X2)).
+
+cnf(u6489,axiom,
+    ~instanceOf(X0,spatialRegion,X2) | instanceOf(X1,spatialRegion,X2) | ~continuantPartOf(X0,X1,X2)).
+
+cnf(u6493,axiom,
+    ~specificallyDependsOn(X1,X2) | ~specificallyDependsOn(X0,X1) | X0 = X2 | specificallyDependsOn(X0,X2)).
+
+cnf(u6497,axiom,
+    ~instanceOf(X0,continuantFiatBoundary,X2) | ~locationOf(X0,X1,X2) | instanceOf(X1,continuantFiatBoundary,X2)).
+
+cnf(u6501,axiom,
+    ~instanceOf(X0,fiatSurface,X2) | ~hasContinuantPart(X0,X1,X2) | instanceOf(X1,continuantFiatBoundary,X2)).
+
+cnf(u6505,axiom,
+    ~instanceOf(X0,fiatPoint,X2) | ~hasContinuantPart(X0,X1,X2) | instanceOf(X1,fiatPoint,X2)).
+
+cnf(u6509,axiom,
+    ~instanceOf(X0,threeDimensionalSpatialRegion,X2) | ~hasContinuantPart(X0,X1,X2) | instanceOf(X1,spatialRegion,X2)).
+
+cnf(u6513,axiom,
+    ~instanceOf(X0,zeroDimensionalSpatialRegion,X2) | ~hasContinuantPart(X0,X1,X2) | instanceOf(X1,zeroDimensionalSpatialRegion,X2)).
+
+cnf(u6517,axiom,
+    ~instanceOf(X0,continuantFiatBoundary,X2) | ~hasContinuantPart(X0,X1,X2) | instanceOf(X1,continuantFiatBoundary,X2)).
+
+cnf(u6521,axiom,
+    ~instanceOf(X0,site,X2) | ~occupiesSpatialRegion(X0,X1,X2) | instanceOf(X1,threeDimensionalSpatialRegion,X2)).
+
+cnf(u6525,axiom,
+    ~instanceOf(X0,materialEntity,X2) | ~continuantPartOf(X0,X1,X2) | instanceOf(X1,materialEntity,X2)).
+
+cnf(u6529,axiom,
+    ~continuantPartOf(X0,X1,X2) | continuantPartOf(X1,X0,X2) | properContinuantPartOf(X0,X1,X2)).
+
+cnf(u6533,axiom,
+    ~precedes(X2,X3) | ~hasFirstInstant(X1,X3) | ~hasLastInstant(X0,X2) | precedes(X0,X1)).
+
+cnf(u6537,axiom,
+    ~precedes(X0,X1) | ~occurrentPartOf(X3,X1) | ~occurrentPartOf(X2,X0) | precedes(X2,X3)).
+
+cnf(u6541,axiom,
+    ~locatedIn(X0,X1,X2) | ~continuantPartOf(X1,X3,X2) | locatedIn(X0,X3,X2)).
+
+cnf(u6545,axiom,
+    ~locatedIn(X0,X1,X2) | ~continuantPartOf(X3,X0,X2) | locatedIn(X3,X1,X2)).
+
+cnf(u6549,axiom,
+    ~occupiesSpatiotemporalRegion(X0,X1) | instanceOf(X0,process,sK50(X0)) | instanceOf(X0,processBoundary,sK50(X0))).
+
+cnf(u6553,axiom,
+    ~occursIn(X0,X1) | instanceOf(X1,materialEntity,sK59(X1)) | instanceOf(X1,site,sK59(X1))).
+
+cnf(u6557,axiom,
+    ~occursIn(X0,X1) | instanceOf(X0,process,sK58(X0)) | instanceOf(X0,processBoundary,sK58(X0))).
+
+cnf(u6561,axiom,
+    ~occupiesTemporalRegion(X0,X1) | instanceOf(X0,process,sK60(X0)) | instanceOf(X0,processBoundary,sK60(X0))).
+
+cnf(u6565,axiom,
+    ~specificallyDependsOn(X0,X1) | instanceOf(X1,specificallyDependentContinuant,sK65(X1)) | instanceOf(X1,independentContinuant,sK65(X1))).
+
+cnf(u6569,axiom,
+    ~instanceOf(X1,spatialRegion,sK65(X1)) | instanceOf(X1,specificallyDependentContinuant,sK65(X1)) | ~specificallyDependsOn(X0,X1)).
+
+cnf(u6573,axiom,
+    ~occupiesTemporalRegion(X0,X1) | ~instanceOf(X0,process,X2) | instanceOf(sK118(X1),temporalInterval,sK118(X1))).
+
+cnf(u6577,axiom,
+    existsAt(X0,X1) | ~universal(X2) | ~instanceOf(X0,X2,X1) | ~instanceOf(X1,temporalRegion,X1)).
+
+cnf(u6585,axiom,
+    ~instanceOf(X0,X2,X1) | existsAt(X0,X1)).
+
+cnf(u6589,axiom,
+    ~hasFirstInstant(X0,X1) | instanceOf(X0,temporalInstant,X0) | ~hasLastInstant(X0,X2) | precedes(X1,X2)).
+
+cnf(u6593,axiom,
+    sK147(X0,X1,X2) != X2 | X1 = X2 | ~continuantPartOf(X1,X2,X0)).
+
+cnf(u6597,axiom,
+    ~instanceOf(X0,process,X1) | sK17(X0) = sK20(X0) | sK17(X0) = sK19(X0)).
+
+cnf(u6601,axiom,
+    ~instanceOf(X0,temporalRegion,X0) | instanceOf(sK6(X0),temporalInstant,sK63(sK6(X0)))).
+
+cnf(u6605,axiom,
+    ~instanceOf(X0,temporalRegion,X0) | instanceOf(sK5(X0),temporalInstant,sK68(sK5(X0)))).
+
+cnf(u6609,axiom,
+    ~instanceOf(X1,temporalRegion,X2) | ~instanceOf(X0,temporalRegion,X3) | ~occurrentPartOf(X0,X1) | temporalPartOf(X0,X1)).
+
+cnf(u6613,axiom,
+    ~instanceOf(X0,oneDimensionalTemporalRegion,X0) | instanceOf(sK1(X0),occurrent,sK79(sK1(X0)))).
+
+cnf(u6617,axiom,
+    ~instanceOf(X0,independentContinuant,X1) | instanceOf(sK124(X0,X1),materialEntity,X1) | instanceOf(X0,immaterialEntity,X1)).
+
+cnf(u6621,axiom,
+    ~instanceOf(X1,temporalRegion,X1) | instanceOf(sK2(X1),occurrent,sK80(sK2(X1)))).
+
+cnf(u6625,axiom,
+    ~instanceOf(X0,temporalRegion,X0) | sK6(X0) = X1 | ~hasLastInstant(X0,X1)).
+
+cnf(u6629,axiom,
+    ~instanceOf(X0,independentContinuant,X1) | continuantPartOf(sK124(X0,X1),X0,X1) | instanceOf(X0,immaterialEntity,X1)).
+
+cnf(u6633,axiom,
+    ~instanceOf(X0,temporalRegion,X0) | sK5(X0) = X1 | ~hasFirstInstant(X0,X1)).
+
+cnf(u6637,axiom,
+    ~genericallyDependsOn(X0,X1,X2) | concretizes(sK128(X0,X1,X2),X0,sK129(X0,X1,X2))).
+
+cnf(u6641,axiom,
+    ~instanceOf(X1,oneDimensionalTemporalRegion,X1) | temporalPartOf(X0,X1) | ~temporalPartOf(X0,sK1(X1))).
+
+cnf(u6645,axiom,
+    ~instanceOf(X3,temporalRegion,X3) | temporalPartOf(X2,sK2(X3)) | ~temporalPartOf(X2,X3)).
+
+cnf(u6649,axiom,
+    ~locatedIn(X0,X1,X2) | occupiesSpatialRegion(X0,sK130(X0,X1,X2),sK132(X0,X1,X2))).
+
+cnf(u6653,axiom,
+    ~instanceOf(X0,oneDimensionalTemporalRegion,X0) | instanceOf(sK1(X0),occurrent,sK69(sK1(X0)))).
+
+cnf(u6657,axiom,
+    ~locatedIn(X0,X1,X2) | occupiesSpatialRegion(X1,sK131(X0,X1,X2),sK132(X0,X1,X2))).
+
+cnf(u6661,axiom,
+    ~instanceOf(X1,temporalRegion,X1) | instanceOf(sK2(X1),occurrent,sK70(sK2(X1)))).
+
+cnf(u6665,axiom,
+    ~temporalPartOf(X0,X1) | X0 = X1 | instanceOf(X1,occurrent,sK43(X1))).
+
+cnf(u6669,axiom,
+    ~instanceOf(X0,genericallyDependentContinuant,X2) | ~participatesIn(X0,X1,X2) | temporalPartOf(sK135(X0,X1,X2),X2)).
+
+cnf(u6675,axiom,
+    ~temporalPartOf(X2,X3) | X2 = X3 | instanceOf(X2,occurrent,sK42(X2))).
+
+cnf(u6681,axiom,
+    ~instanceOf(X0,genericallyDependentContinuant,X2) | ~participatesIn(X0,X1,X2) | temporalPartOf(sK138(X0,X1,X2),X2)).
+
+cnf(u6685,axiom,
+    ~instanceOf(X0,oneDimensionalTemporalRegion,X0) | occurrentPartOf(sK1(X0),X1) | ~temporalPartOf(X0,X1)).
+
+cnf(u6689,axiom,
+    ~instanceOf(X2,temporalRegion,X2) | occurrentPartOf(X2,X3) | ~temporalPartOf(sK2(X2),X3)).
+
+cnf(u6693,axiom,
+    ~instanceOf(X0,specificallyDependentContinuant,X2) | ~participatesIn(X0,X1,X2) | temporalPartOf(sK143(X0,X1,X2),X2)).
+
+cnf(u6697,axiom,
+    ~instanceOf(X0,specificallyDependentContinuant,X2) | ~participatesIn(X0,X1,X2) | specificallyDependsOn(X0,sK144(X0,X1,X2))).
+
+cnf(u6701,axiom,
+    ~instanceOf(X0,specificallyDependentContinuant,X2) | ~participatesIn(X0,X1,X2) | temporalPartOf(sK145(X0,X1,X2),X2)).
+
+cnf(u6705,axiom,
+    ~instanceOf(X0,specificallyDependentContinuant,X2) | ~participatesIn(X0,X1,X2) | specificallyDependsOn(X0,sK146(X0,X1,X2))).
+
+cnf(u6709,axiom,
+    ~continuantPartOf(X1,X2,X0) | X1 = X2 | continuantPartOf(sK147(X0,X1,X2),X2,X0)).
+
+cnf(u6713,axiom,
+    ~continuantPartOf(X1,X2,X0) | X1 = X2 | instanceOf(sK147(X0,X1,X2),continuant,X0)).
+
+cnf(u6718,axiom,
+    ~instanceOf(X1,objectAggregate,X0) | ~properContinuantPartOf(X2,X1,X0) | continuantPartOf(sK154(X0,X1,X2),X2,X0)).
+
+cnf(u6722,axiom,
+    ~temporalPartOf(X0,sK1(X0)) | sK1(X0) = X0 | ~instanceOf(X0,oneDimensionalTemporalRegion,X0)).
+
+cnf(u6726,axiom,
+    ~temporalPartOf(sK2(X1),X1) | sK2(X1) = X1 | ~instanceOf(X1,temporalRegion,X1)).
+
+cnf(u6730,axiom,
+    ~instanceOf(X1,objectAggregate,X0) | ~properContinuantPartOf(X2,X1,X0) | memberPartOf(sK153(X0,X1,X2),X1,X0)).
+
+cnf(u6734,axiom,
+    ~instanceOf(X0,oneDimensionalTemporalRegion,X0) | properTemporalPartOf(sK1(X0),X0) | sK1(X0) = X0).
+
+cnf(u6738,axiom,
+    ~precedes(X0,X1) | ~hasLastInstant(X0,X2) | ~hasFirstInstant(X1,X3) | X2 = X3 | precedes(X2,X3)).
+
+cnf(u6742,axiom,
+    ~instanceOf(X1,temporalRegion,X1) | properTemporalPartOf(X1,sK2(X1)) | sK2(X1) = X1).
+
+cnf(u6746,axiom,
+    ~properContinuantPartOf(X1,X2,X4) | ~properContinuantPartOf(X0,X1,X3) | ~temporalPartOf(X3,X4) | properContinuantPartOf(X0,X2,X3)).
+
+cnf(u6750,axiom,
+    ~locatedIn(X1,X2,X4) | ~locatedIn(X0,X1,X3) | ~temporalPartOf(X3,X4) | locatedIn(X0,X2,X3)).
+
+cnf(u6754,axiom,
+    ~continuantPartOf(X1,X2,X4) | ~continuantPartOf(X0,X1,X3) | ~temporalPartOf(X3,X4) | continuantPartOf(X0,X2,X3)).
+
+cnf(u6758,axiom,
+    ~continuantPartOf(X3,X1,X2) | ~continuantPartOf(X3,X0,X2) | instanceOf(sK148(X0,X1,X2),continuant,X2)).
+
+cnf(u6762,axiom,
+    ~instanceOf(X0,oneDimensionalTemporalRegion,X0) | instanceOf(X0,occurrent,sK43(X0)) | sK1(X0) = X0).
+
+cnf(u6766,axiom,
+    ~instanceOf(X0,occurrent,X1) | ~instanceOf(X0,X2,X3) | ~instanceOf(X0,X2,X4) | instanceOf(X0,occurrent,X4)).
+
+cnf(u6770,axiom,
+    ~instanceOf(X1,temporalRegion,X1) | instanceOf(X1,occurrent,sK42(X1)) | sK2(X1) = X1).
+
+cnf(u6774,axiom,
+    ~instanceOf(X0,occurrent,X4) | ~instanceOf(X0,X2,X3) | instanceOf(X0,X2,X4) | ~instanceOf(X0,occurrent,X1)).
+
+cnf(u6778,axiom,
+    sK93(X0,X1) != X0 | ~continuantPartOf(X2,X0,X1) | X0 = X2 | ~instanceOf(X0,materialEntity,X1)).
+
+cnf(u6782,axiom,
+    sK94(X0,X1) != X0 | ~continuantPartOf(X2,X0,X1) | X0 = X2 | ~instanceOf(X0,materialEntity,X1)).
+
+cnf(u6786,axiom,
+    ~instanceOf(X1,temporalRegion,X1) | ~instanceOf(X0,temporalRegion,X0) | ~properTemporalPartOf(X0,X1) | properTemporalPartOf(sK97(X0,X1),X1)).
+
+cnf(u6790,axiom,
+    ~instanceOf(X1,process,X3) | ~instanceOf(X0,processBoundary,X4) | occupiesSpatiotemporalRegion(X0,sK102(X0,X1)) | ~occurrentPartOf(X0,X1)).
+
+cnf(u6794,axiom,
+    ~instanceOf(X1,process,X3) | ~instanceOf(X0,processBoundary,X4) | occupiesSpatiotemporalRegion(X1,sK103(X0,X1)) | ~occurrentPartOf(X0,X1)).
+
+cnf(u6798,axiom,
+    ~instanceOf(X1,processBoundary,X2) | ~instanceOf(X0,processBoundary,X4) | occupiesSpatiotemporalRegion(X0,sK102(X0,X1)) | ~occurrentPartOf(X0,X1)).
+
+cnf(u6802,axiom,
+    ~instanceOf(X1,processBoundary,X2) | ~instanceOf(X0,processBoundary,X4) | occupiesSpatiotemporalRegion(X1,sK103(X0,X1)) | ~occurrentPartOf(X0,X1)).
+
+cnf(u6806,axiom,
+    ~instanceOf(X1,process,X3) | ~instanceOf(X0,process,X5) | occupiesSpatiotemporalRegion(X0,sK102(X0,X1)) | ~occurrentPartOf(X0,X1)).
+
+cnf(u6810,axiom,
+    ~instanceOf(X1,process,X3) | ~instanceOf(X0,process,X5) | occupiesSpatiotemporalRegion(X1,sK103(X0,X1)) | ~occurrentPartOf(X0,X1)).
+
+cnf(u6814,axiom,
+    ~instanceOf(X1,processBoundary,X2) | ~instanceOf(X0,process,X5) | occupiesSpatiotemporalRegion(X0,sK102(X0,X1)) | ~occurrentPartOf(X0,X1)).
+
+cnf(u6818,axiom,
+    ~instanceOf(X1,processBoundary,X2) | ~instanceOf(X0,process,X5) | occupiesSpatiotemporalRegion(X1,sK103(X0,X1)) | ~occurrentPartOf(X0,X1)).
+
+cnf(u6822,axiom,
+    ~instanceOf(X1,spatiotemporalRegion,X2) | ~instanceOf(X0,spatiotemporalRegion,X3) | temporallyProjectsOnto(X0,sK107(X0,X1)) | ~occurrentPartOf(X0,X1)).
+
+cnf(u6826,axiom,
+    ~instanceOf(X1,spatiotemporalRegion,X2) | ~instanceOf(X0,spatiotemporalRegion,X3) | temporallyProjectsOnto(X1,sK108(X0,X1)) | ~occurrentPartOf(X0,X1)).
+
+cnf(u6830,axiom,
+    ~instanceOf(X1,spatiotemporalRegion,X2) | ~instanceOf(X0,spatiotemporalRegion,X3) | temporallyProjectsOnto(X0,sK113(X0,X1)) | ~temporalPartOf(X0,X1)).
+
+cnf(u6834,axiom,
+    ~instanceOf(X1,spatiotemporalRegion,X2) | ~instanceOf(X0,spatiotemporalRegion,X3) | temporallyProjectsOnto(X1,sK114(X0,X1)) | ~temporalPartOf(X0,X1)).
+
+cnf(u6838,axiom,
+    ~instanceOf(X0,spatialRegion,X2) | ~continuantPartOf(X1,X0,X2) | ~continuantPartOf(X4,X0,X3) | continuantPartOf(X1,X0,X3)).
+
+cnf(u6842,axiom,
+    ~instanceOf(X2,object,X1) | ~properContinuantPartOf(X0,X2,X1) | instanceOf(X0,immaterialEntity,X1) | instanceOf(X0,fiatObjectPart,X1)).
+
+cnf(u6846,axiom,
+    ~participatesIn(X0,X1,X2) | instanceOf(X0,independentContinuant,X2) | instanceOf(X0,specificallyDependentContinuant,X2) | instanceOf(X0,genericallyDependentContinuant,X2)).
+
+cnf(u6850,axiom,
+    ~instanceOf(X0,spatialRegion,X2) | ~participatesIn(X0,X1,X2) | instanceOf(X0,specificallyDependentContinuant,X2) | instanceOf(X0,genericallyDependentContinuant,X2)).
+
+cnf(u6854,axiom,
+    ~instanceOf(X0,fiatLine,X2) | ~hasContinuantPart(X0,X1,X2) | instanceOf(X1,fiatLine,X2) | instanceOf(X1,fiatPoint,X2)).
+
+cnf(u6858,axiom,
+    ~instanceOf(X0,oneDimensionalSpatialRegion,X2) | ~hasContinuantPart(X0,X1,X2) | instanceOf(X1,oneDimensionalSpatialRegion,X2) | instanceOf(X1,zeroDimensionalSpatialRegion,X2)).
+
+cnf(u6862,axiom,
+    ~instanceOf(X0,site,X2) | ~hasContinuantPart(X0,X1,X2) | instanceOf(X1,site,X2) | instanceOf(X1,continuantFiatBoundary,X2)).
+
+cnf(u6866,axiom,
+    ~instanceOf(X0,site,X2) | ~continuantPartOf(X0,X1,X2) | instanceOf(X1,site,X2) | instanceOf(X1,materialEntity,X2)).
+
+cnf(u6870,axiom,
+    ~instanceOf(X0,independentContinuant,X2) | ~continuantPartOf(X0,X1,X2) | instanceOf(X1,spatialRegion,X2) | locatedIn(X0,X1,X2)).
+
+cnf(u6874,axiom,
+    ~instanceOf(X0,process,X2) | ~hasOccurrentPart(X0,X1) | instanceOf(X1,process,sK45(X1)) | instanceOf(X1,processBoundary,sK45(X1))).
+
+cnf(u6878,axiom,
+    ~instanceOf(X0,oneDimensionalTemporalRegion,X2) | ~hasTemporalPart(X0,X1) | instanceOf(X1,oneDimensionalTemporalRegion,sK47(X1)) | instanceOf(X1,zeroDimensionalTemporalRegion,sK47(X1))).
+
+cnf(u6882,axiom,
+    ~instanceOf(X0,processBoundary,X2) | ~occurrentPartOf(X0,X1) | instanceOf(X1,process,sK71(X1)) | instanceOf(X1,processBoundary,sK71(X1))).
+
+cnf(u6886,axiom,
+    ~instanceOf(X0,materialEntity,X1) | ~continuantPartOf(X2,X0,X1) | X0 = X2 | continuantPartOf(sK93(X0,X1),X0,X1)).
+
+cnf(u6890,axiom,
+    ~instanceOf(sK93(X0,X1),immaterialEntity,X1) | ~continuantPartOf(X2,X0,X1) | X0 = X2 | ~instanceOf(X0,materialEntity,X1)).
+
+cnf(u6894,axiom,
+    ~instanceOf(X0,materialEntity,X1) | ~continuantPartOf(X2,X0,X1) | X0 = X2 | continuantPartOf(sK94(X0,X1),X0,X1)).
+
+cnf(u6898,axiom,
+    ~instanceOf(sK94(X0,X1),immaterialEntity,X1) | ~continuantPartOf(X2,X0,X1) | X0 = X2 | ~instanceOf(X0,materialEntity,X1)).
+
+cnf(u6902,axiom,
+    ~instanceOf(X1,temporalInstant,X1) | ~instanceOf(X0,temporalInstant,X0) | precedes(X0,X1) | precedes(X1,X0) | X0 = X1).
+
+cnf(u6906,axiom,
+    ~locatedIn(X0,X1,X2) | continuantPartOf(sK130(X0,X1,X2),sK131(X0,X1,X2),sK132(X0,X1,X2))).
+
+cnf(u6910,axiom,
+    ~hasFirstInstant(X1,X3) | instanceOf(X1,temporalInstant,X1) | ~hasLastInstant(X0,X3) | instanceOf(X0,temporalInstant,X0) | precedes(X0,X1)).
+
+cnf(u6914,axiom,
+    ~instanceOf(X0,temporalRegion,X0) | ~hasLastInstant(X0,X1) | precedes(sK5(X0),X1) | instanceOf(X0,temporalInstant,X0)).
+
+cnf(u6918,axiom,
+    ~inheresIn(X0,X3) | X3 = X4 | ~specificallyDependsOn(X0,X4) | ~instanceOf(X0,quality,X2) | instanceOf(X0,relationalQuality,sK27(X0))).
+
+cnf(u6922,axiom,
+    ~instanceOf(X1,temporalRegion,X1) | instanceOf(sK2(X1),occurrent,sK43(sK2(X1))) | sK2(X1) = X1).
+
+cnf(u6926,axiom,
+    ~instanceOf(X1,process,X3) | ~instanceOf(X0,processBoundary,X4) | occurrentPartOf(sK102(X0,X1),sK103(X0,X1)) | ~occurrentPartOf(X0,X1)).
+
+cnf(u6930,axiom,
+    ~instanceOf(X0,oneDimensionalTemporalRegion,X0) | instanceOf(sK1(X0),occurrent,sK42(sK1(X0))) | sK1(X0) = X0).
+
+cnf(u6934,axiom,
+    ~instanceOf(X1,processBoundary,X2) | ~instanceOf(X0,processBoundary,X4) | occurrentPartOf(sK102(X0,X1),sK103(X0,X1)) | ~occurrentPartOf(X0,X1)).
+
+cnf(u6938,axiom,
+    ~instanceOf(X1,process,X3) | ~instanceOf(X0,process,X5) | occurrentPartOf(sK102(X0,X1),sK103(X0,X1)) | ~occurrentPartOf(X0,X1)).
+
+cnf(u6942,axiom,
+    ~instanceOf(X1,processBoundary,X2) | ~instanceOf(X0,process,X5) | occurrentPartOf(sK102(X0,X1),sK103(X0,X1)) | ~occurrentPartOf(X0,X1)).
+
+cnf(u6946,axiom,
+    ~instanceOf(X1,spatiotemporalRegion,X2) | ~instanceOf(X0,spatiotemporalRegion,X3) | temporalPartOf(sK107(X0,X1),sK108(X0,X1)) | ~occurrentPartOf(X0,X1)).
+
+cnf(u6950,axiom,
+    ~instanceOf(X1,spatiotemporalRegion,X2) | ~instanceOf(X0,spatiotemporalRegion,X3) | occurrentPartOf(sK113(X0,X1),sK114(X0,X1)) | ~temporalPartOf(X0,X1)).
+
+cnf(u6954,axiom,
+    ~specificallyDependsOn(X0,X1) | ~instanceOf(X0,specificallyDependentContinuant,X2) | ~instanceOf(X1,independentContinuant,X2) | instanceOf(X1,spatialRegion,X2) | inheresIn(X0,X1)).
+
+cnf(u6958,axiom,
+    ~precedes(X0,X1) | occupiesTemporalRegion(X1,sK127(X0,X1)) | temporallyProjectsOnto(X1,sK127(X0,X1)) | sK127(X0,X1) = X1).
+
+cnf(u6962,axiom,
+    ~precedes(X0,X1) | occupiesTemporalRegion(X0,sK126(X0,X1)) | temporallyProjectsOnto(X0,sK126(X0,X1)) | sK126(X0,X1) = X0).
+
+cnf(u6966,axiom,
+    ~occursIn(X0,X1) | existsAt(X2,sK134(X0,X1,X2)) | existsAt(X0,sK134(X0,X1,X2)) | occursIn(X0,X2)).
+
+cnf(u6970,axiom,
+    ~instanceOf(X0,genericallyDependentContinuant,X2) | ~participatesIn(X0,X1,X2) | concretizes(sK136(X0,X1,X2),X0,sK135(X0,X1,X2))).
+
+cnf(u6974,axiom,
+    ~instanceOf(X0,genericallyDependentContinuant,X2) | ~participatesIn(X0,X1,X2) | concretizes(sK139(X0,X1,X2),X0,sK138(X0,X1,X2))).
+
+cnf(u6978,axiom,
+    ~instanceOf(X0,specificallyDependentContinuant,X2) | ~participatesIn(X0,X1,X2) | instanceOf(sK143(X0,X1,X2),temporalRegion,sK143(X0,X1,X2))).
+
+cnf(u6982,axiom,
+    ~instanceOf(X0,specificallyDependentContinuant,X2) | ~participatesIn(X0,X1,X2) | instanceOf(sK144(X0,X1,X2),independentContinuant,sK143(X0,X1,X2))).
+
+cnf(u6986,axiom,
+    ~instanceOf(sK144(X0,X1,X2),spatialRegion,sK143(X0,X1,X2)) | ~participatesIn(X0,X1,X2) | ~instanceOf(X0,specificallyDependentContinuant,X2)).
+
+cnf(u6990,axiom,
+    ~instanceOf(X0,specificallyDependentContinuant,X2) | ~participatesIn(X0,X1,X2) | participatesIn(sK144(X0,X1,X2),X1,sK143(X0,X1,X2))).
+
+cnf(u6994,axiom,
+    ~instanceOf(X0,specificallyDependentContinuant,X2) | ~participatesIn(X0,X1,X2) | instanceOf(sK145(X0,X1,X2),temporalRegion,sK145(X0,X1,X2))).
+
+cnf(u6998,axiom,
+    ~instanceOf(X0,specificallyDependentContinuant,X2) | ~participatesIn(X0,X1,X2) | instanceOf(sK146(X0,X1,X2),independentContinuant,sK145(X0,X1,X2))).
+
+cnf(u7002,axiom,
+    ~instanceOf(sK146(X0,X1,X2),spatialRegion,sK145(X0,X1,X2)) | ~participatesIn(X0,X1,X2) | ~instanceOf(X0,specificallyDependentContinuant,X2)).
+
+cnf(u7006,axiom,
+    ~instanceOf(X0,specificallyDependentContinuant,X2) | ~participatesIn(X0,X1,X2) | participatesIn(sK146(X0,X1,X2),X1,sK145(X0,X1,X2))).
+
+cnf(u7010,axiom,
+    ~instanceOf(X1,spatialRegion,X2) | instanceOf(X0,spatialRegion,X2) | ~instanceOf(X0,independentContinuant,X2) | temporalPartOf(sK149(X0,X1,X2),X2)).
+
+cnf(u7014,axiom,
+    ~instanceOf(X1,objectAggregate,X0) | ~properContinuantPartOf(X2,X1,X0) | continuantPartOf(sK154(X0,X1,X2),sK153(X0,X1,X2),X0)).
+
+cnf(u7018,axiom,
+    ~continuantPartOf(X4,sK147(X0,X1,X2),X0) | X1 = X2 | ~continuantPartOf(X4,X1,X0) | ~continuantPartOf(X1,X2,X0)).
+
+cnf(u7023,axiom,
+    ~instanceOf(X2,temporalInstant,X2) | ~instanceOf(X3,process,X4) | ~occupiesTemporalRegion(X0,X2) | ~temporalPartOf(X0,X3) | instanceOf(X0,processBoundary,sK34(X0))).
+
+cnf(u7027,axiom,
+    ~instanceOf(X0,continuant,X4) | specificallyDependsOn(X0,sK40(X0)) | genericallyDependsOn(X0,sK40(X0),sK41(X0)) | instanceOf(X0,independentContinuant,sK38(X0))).
+
+cnf(u7031,axiom,
+    ~instanceOf(X1,temporalInterval,X1) | ~instanceOf(X0,temporalInterval,X0) | temporalPartOf(sK91(X0,X1),X0) | precedes(X0,X1) | precedes(X1,X0)).
+
+cnf(u7035,axiom,
+    ~instanceOf(X1,temporalInterval,X1) | ~instanceOf(X0,temporalInterval,X0) | temporalPartOf(sK91(X0,X1),X1) | precedes(X0,X1) | precedes(X1,X0)).
+
+cnf(u7039,axiom,
+    ~instanceOf(X1,temporalInterval,X1) | ~instanceOf(X0,temporalInterval,X0) | temporalPartOf(sK92(X0,X1),X0) | precedes(X0,X1) | precedes(X1,X0)).
+
+cnf(u7043,axiom,
+    ~instanceOf(X1,temporalInterval,X1) | ~instanceOf(X0,temporalInterval,X0) | temporalPartOf(sK92(X0,X1),X1) | precedes(X0,X1) | precedes(X1,X0)).
+
+cnf(u7047,axiom,
+    ~occursIn(X0,X1) | locatedIn(X1,X2,sK133(X0,X1,X2)) | existsAt(X0,sK133(X0,X1,X2)) | occursIn(X0,X2)).
+
+cnf(u7051,axiom,
+    ~existsAt(X0,sK133(X0,X1,X2)) | ~locatedIn(X1,X2,sK133(X0,X1,X2)) | ~occursIn(X0,X1) | occursIn(X0,X2)).
+
+cnf(u7055,axiom,
+    ~occursIn(X0,X1) | continuantPartOf(X1,X2,sK134(X0,X1,X2)) | existsAt(X0,sK134(X0,X1,X2)) | occursIn(X0,X2)).
+
+cnf(u7059,axiom,
+    ~memberPartOf(X0,X1,X2) | X0 = X3 | ~continuantPartOf(X4,X0,X2) | ~continuantPartOf(X4,X3,X2) | ~memberPartOf(X3,X1,X2)).
+
+cnf(u7063,axiom,
+    ~continuantPartOf(X5,sK148(X0,X1,X2),X2) | ~continuantPartOf(X3,X1,X2) | continuantPartOf(X5,X1,X2) | ~continuantPartOf(X3,X0,X2)).
+
+cnf(u7067,axiom,
+    ~continuantPartOf(X5,sK148(X0,X1,X2),X2) | ~continuantPartOf(X3,X1,X2) | continuantPartOf(X5,X0,X2) | ~continuantPartOf(X3,X0,X2)).
+
+cnf(u7071,axiom,
+    ~specificallyDependsOn(X0,X2) | ~instanceOf(X2,independentContinuant,X3) | instanceOf(X2,spatialRegion,X3) | ~instanceOf(X0,continuant,X3) | instanceOf(X0,specificallyDependentContinuant,sK31(X0))).
+
+cnf(u7075,axiom,
+    ~instanceOf(X0,spatialRegion,X1) | instanceOf(X0,zeroDimensionalSpatialRegion,X1) | instanceOf(X0,oneDimensionalSpatialRegion,X1) | instanceOf(X0,twoDimensionalSpatialRegion,X1) | instanceOf(X0,threeDimensionalSpatialRegion,X1)).
+
+cnf(u7079,axiom,
+    ~instanceOf(X1,temporalRegion,X1) | ~instanceOf(X0,process,X3) | ~occurrentPartOf(X5,X0) | ~occupiesTemporalRegion(X5,X6) | occurrentPartOf(X6,X1) | ~occupiesTemporalRegion(X0,X1)).
+
+cnf(u7083,axiom,
+    ~instanceOf(X1,temporalRegion,X1) | ~instanceOf(X0,processBoundary,X2) | ~occurrentPartOf(X5,X0) | ~occupiesTemporalRegion(X5,X6) | occurrentPartOf(X6,X1) | ~occupiesTemporalRegion(X0,X1)).
+
+cnf(u7087,axiom,
+    ~instanceOf(X0,processBoundary,X2) | ~instanceOf(X1,temporalRegion,X1) | X1 = X4 | ~occurrentPartOf(X4,X1) | ~occupiesTemporalRegion(X0,X4) | ~occupiesTemporalRegion(X0,X1)).
+
+cnf(u7091,axiom,
+    ~instanceOf(X0,process,X3) | ~instanceOf(X1,temporalRegion,X1) | X1 = X4 | ~occurrentPartOf(X4,X1) | ~occupiesTemporalRegion(X0,X4) | ~occupiesTemporalRegion(X0,X1)).
+
+cnf(u7095,axiom,
+    ~occupiesSpatiotemporalRegion(X1,X7) | ~instanceOf(X1,process,X3) | ~occupiesSpatiotemporalRegion(X0,X6) | ~instanceOf(X0,processBoundary,X4) | ~occurrentPartOf(X6,X7) | occurrentPartOf(X0,X1)).
+
+cnf(u7099,axiom,
+    ~occupiesSpatiotemporalRegion(X1,X7) | ~instanceOf(X1,processBoundary,X2) | ~occupiesSpatiotemporalRegion(X0,X6) | ~instanceOf(X0,processBoundary,X4) | ~occurrentPartOf(X6,X7) | occurrentPartOf(X0,X1)).
+
+cnf(u7103,axiom,
+    ~occupiesSpatiotemporalRegion(X1,X7) | ~instanceOf(X1,process,X3) | ~occupiesSpatiotemporalRegion(X0,X6) | ~instanceOf(X0,process,X5) | ~occurrentPartOf(X6,X7) | occurrentPartOf(X0,X1)).
+
+cnf(u7107,axiom,
+    ~occupiesSpatiotemporalRegion(X1,X7) | ~instanceOf(X1,processBoundary,X2) | ~occupiesSpatiotemporalRegion(X0,X6) | ~instanceOf(X0,process,X5) | ~occurrentPartOf(X6,X7) | occurrentPartOf(X0,X1)).
+
+cnf(u7111,axiom,
+    ~occupiesSpatiotemporalRegion(X0,X1) | ~instanceOf(X1,spatiotemporalRegion,X2) | ~occurrentPartOf(X6,X0) | ~occupiesSpatiotemporalRegion(X6,X7) | occurrentPartOf(X7,X1) | ~instanceOf(X0,process,X4)).
+
+cnf(u7115,axiom,
+    ~occupiesSpatiotemporalRegion(X0,X1) | ~instanceOf(X1,spatiotemporalRegion,X2) | ~occurrentPartOf(X6,X0) | ~occupiesSpatiotemporalRegion(X6,X7) | occurrentPartOf(X7,X1) | ~instanceOf(X0,processBoundary,X3)).
+
+cnf(u7119,axiom,
+    ~instanceOf(X0,processBoundary,X3) | ~instanceOf(X1,spatiotemporalRegion,X2) | X1 = X5 | ~occurrentPartOf(X5,X1) | ~occupiesSpatiotemporalRegion(X0,X5) | ~occupiesSpatiotemporalRegion(X0,X1)).
+
+cnf(u7123,axiom,
+    ~instanceOf(X0,process,X4) | ~instanceOf(X1,spatiotemporalRegion,X2) | X1 = X5 | ~occurrentPartOf(X5,X1) | ~occupiesSpatiotemporalRegion(X0,X5) | ~occupiesSpatiotemporalRegion(X0,X1)).
+
+cnf(u7127,axiom,
+    ~existsAt(X0,X4) | ~instanceOf(X1,spatiotemporalRegion,X2) | ~instanceOf(X0,spatiotemporalRegion,X3) | temporalPartOf(sK112(X0,X1,X4),X4) | ~occurrentPartOf(X0,X1)).
+
+cnf(u7131,axiom,
+    ~instanceOf(X0,twoDimensionalSpatialRegion,X2) | ~hasContinuantPart(X0,X1,X2) | instanceOf(X1,twoDimensionalSpatialRegion,X2) | instanceOf(X1,oneDimensionalSpatialRegion,X2) | instanceOf(X1,zeroDimensionalSpatialRegion,X2)).
+
+cnf(u7135,axiom,
+    ~instanceOf(X0,materialEntity,X2) | ~hasContinuantPart(X0,X1,X2) | instanceOf(X1,site,X2) | instanceOf(X1,continuantFiatBoundary,X2) | instanceOf(X1,materialEntity,X2)).
+
+cnf(u7139,axiom,
+    ~occupiesTemporalRegion(X1,X3) | ~instanceOf(X1,process,X4) | ~occurrentPartOf(X0,X1) | ~occupiesTemporalRegion(X0,X2) | ~instanceOf(X0,process,X5) | temporalPartOf(X2,X3)).
+
+cnf(u7143,axiom,
+    ~occupiesTemporalRegion(X1,X3) | ~instanceOf(X1,process,X4) | ~occurrentPartOf(X0,X1) | ~occupiesTemporalRegion(X0,X2) | ~instanceOf(X0,processBoundary,X5) | temporalPartOf(X2,X3)).
+
+cnf(u7147,axiom,
+    ~occupiesSpatiotemporalRegion(X1,X3) | ~instanceOf(X1,process,X4) | ~occurrentPartOf(X0,X1) | ~occupiesSpatiotemporalRegion(X0,X2) | ~instanceOf(X0,processBoundary,X5) | occurrentPartOf(X2,X3)).
+
+cnf(u7151,axiom,
+    ~occupiesSpatiotemporalRegion(X1,X3) | ~instanceOf(X1,processBoundary,X4) | ~occurrentPartOf(X0,X1) | ~occupiesSpatiotemporalRegion(X0,X2) | ~instanceOf(X0,processBoundary,X5) | occurrentPartOf(X2,X3)).
+
+cnf(u7155,axiom,
+    ~occupiesSpatiotemporalRegion(X1,X3) | ~instanceOf(X1,process,X4) | ~occurrentPartOf(X0,X1) | ~occupiesSpatiotemporalRegion(X0,X2) | ~instanceOf(X0,process,X5) | occurrentPartOf(X2,X3)).
+
+cnf(u7159,axiom,
+    ~occupiesSpatiotemporalRegion(X1,X3) | ~instanceOf(X1,processBoundary,X4) | ~occurrentPartOf(X0,X1) | ~occupiesSpatiotemporalRegion(X0,X2) | ~instanceOf(X0,process,X5) | occurrentPartOf(X2,X3)).
+
+cnf(u7163,axiom,
+    ~instanceOf(X0,genericallyDependentContinuant,X2) | ~participatesIn(X0,X1,X2) | existsAt(sK136(X0,X1,X2),sK135(X0,X1,X2))).
+
+cnf(u7167,axiom,
+    ~instanceOf(X0,genericallyDependentContinuant,X2) | ~participatesIn(X0,X1,X2) | existsAt(sK139(X0,X1,X2),sK138(X0,X1,X2))).
+
+cnf(u7171,axiom,
+    ~instanceOf(X1,temporalRegion,X1) | ~instanceOf(X0,temporalInstant,X0) | instanceOf(X1,temporalInstant,X1) | ~hasLastInstant(X1,X0) | ~precedes(X1,X0) | ~temporalPartOf(X0,X1)).
+
+cnf(u7175,axiom,
+    ~instanceOf(X1,temporalRegion,X1) | ~instanceOf(X0,temporalInstant,X0) | instanceOf(X1,temporalInstant,X1) | ~hasLastInstant(X1,X0) | precedes(X1,X0) | temporalPartOf(X0,X1)).
+
+cnf(u7179,axiom,
+    ~instanceOf(X1,temporalRegion,X1) | ~instanceOf(X0,temporalInstant,X0) | instanceOf(X1,temporalInstant,X1) | ~hasFirstInstant(X1,X0) | ~precedes(X0,X1) | ~temporalPartOf(X0,X1)).
+
+cnf(u7183,axiom,
+    ~instanceOf(X1,temporalRegion,X1) | ~instanceOf(X0,temporalInstant,X0) | instanceOf(X1,temporalInstant,X1) | ~hasFirstInstant(X1,X0) | precedes(X0,X1) | temporalPartOf(X0,X1)).
+
+cnf(u7187,axiom,
+    ~instanceOf(X1,temporalRegion,X1) | ~instanceOf(X0,processBoundary,X2) | ~occurrentPartOf(sK101(X0,X1),X1) | occupiesTemporalRegion(X0,sK100(X0,X1)) | occupiesTemporalRegion(X0,X1)).
+
+cnf(u7191,axiom,
+    ~instanceOf(X1,temporalRegion,X1) | ~instanceOf(X0,processBoundary,X2) | ~occurrentPartOf(sK101(X0,X1),X1) | occurrentPartOf(sK100(X0,X1),X1) | occupiesTemporalRegion(X0,X1)).
+
+cnf(u7195,axiom,
+    sK100(X0,X1) != X1 | ~instanceOf(X1,temporalRegion,X1) | ~occurrentPartOf(sK101(X0,X1),X1) | ~instanceOf(X0,processBoundary,X2) | occupiesTemporalRegion(X0,X1)).
+
+cnf(u7199,axiom,
+    ~instanceOf(X1,temporalRegion,X1) | ~instanceOf(X0,process,X3) | ~occurrentPartOf(sK101(X0,X1),X1) | occupiesTemporalRegion(X0,sK100(X0,X1)) | occupiesTemporalRegion(X0,X1)).
+
+cnf(u7203,axiom,
+    ~instanceOf(X1,temporalRegion,X1) | ~instanceOf(X0,process,X3) | ~occurrentPartOf(sK101(X0,X1),X1) | occurrentPartOf(sK100(X0,X1),X1) | occupiesTemporalRegion(X0,X1)).
+
+cnf(u7207,axiom,
+    sK100(X0,X1) != X1 | ~instanceOf(X1,temporalRegion,X1) | ~occurrentPartOf(sK101(X0,X1),X1) | ~instanceOf(X0,process,X3) | occupiesTemporalRegion(X0,X1)).
+
+cnf(u7211,axiom,
+    sK100(X0,X1) != X1 | ~instanceOf(X1,temporalRegion,X1) | occurrentPartOf(sK99(X0,X1),X0) | ~instanceOf(X0,process,X3) | occupiesTemporalRegion(X0,X1)).
+
+cnf(u7215,axiom,
+    ~instanceOf(X1,temporalRegion,X1) | ~instanceOf(X0,process,X3) | occurrentPartOf(sK99(X0,X1),X0) | occurrentPartOf(sK100(X0,X1),X1) | occupiesTemporalRegion(X0,X1)).
+
+cnf(u7219,axiom,
+    ~instanceOf(X1,temporalRegion,X1) | ~instanceOf(X0,process,X3) | occurrentPartOf(sK99(X0,X1),X0) | occupiesTemporalRegion(X0,sK100(X0,X1)) | occupiesTemporalRegion(X0,X1)).
+
+cnf(u7223,axiom,
+    sK100(X0,X1) != X1 | ~instanceOf(X1,temporalRegion,X1) | occurrentPartOf(sK99(X0,X1),X0) | ~instanceOf(X0,processBoundary,X2) | occupiesTemporalRegion(X0,X1)).
+
+cnf(u7227,axiom,
+    ~instanceOf(X1,temporalRegion,X1) | ~instanceOf(X0,processBoundary,X2) | occurrentPartOf(sK99(X0,X1),X0) | occurrentPartOf(sK100(X0,X1),X1) | occupiesTemporalRegion(X0,X1)).
+
+cnf(u7231,axiom,
+    ~instanceOf(X1,temporalRegion,X1) | ~instanceOf(X0,processBoundary,X2) | occurrentPartOf(sK99(X0,X1),X0) | occupiesTemporalRegion(X0,sK100(X0,X1)) | occupiesTemporalRegion(X0,X1)).
+
+cnf(u7235,axiom,
+    ~instanceOf(X1,spatiotemporalRegion,X2) | ~instanceOf(X0,processBoundary,X3) | ~occurrentPartOf(sK106(X0,X1),X1) | occupiesSpatiotemporalRegion(X0,sK105(X0,X1)) | occupiesSpatiotemporalRegion(X0,X1)).
+
+cnf(u7239,axiom,
+    ~instanceOf(X1,spatiotemporalRegion,X2) | ~instanceOf(X0,processBoundary,X3) | ~occurrentPartOf(sK106(X0,X1),X1) | occurrentPartOf(sK105(X0,X1),X1) | occupiesSpatiotemporalRegion(X0,X1)).
+
+cnf(u7243,axiom,
+    sK105(X0,X1) != X1 | ~instanceOf(X1,spatiotemporalRegion,X2) | ~occurrentPartOf(sK106(X0,X1),X1) | ~instanceOf(X0,processBoundary,X3) | occupiesSpatiotemporalRegion(X0,X1)).
+
+cnf(u7247,axiom,
+    ~instanceOf(X1,spatiotemporalRegion,X2) | ~instanceOf(X0,process,X4) | ~occurrentPartOf(sK106(X0,X1),X1) | occupiesSpatiotemporalRegion(X0,sK105(X0,X1)) | occupiesSpatiotemporalRegion(X0,X1)).
+
+cnf(u7251,axiom,
+    ~instanceOf(X1,spatiotemporalRegion,X2) | ~instanceOf(X0,process,X4) | ~occurrentPartOf(sK106(X0,X1),X1) | occurrentPartOf(sK105(X0,X1),X1) | occupiesSpatiotemporalRegion(X0,X1)).
+
+cnf(u7255,axiom,
+    sK105(X0,X1) != X1 | ~instanceOf(X1,spatiotemporalRegion,X2) | ~occurrentPartOf(sK106(X0,X1),X1) | ~instanceOf(X0,process,X4) | occupiesSpatiotemporalRegion(X0,X1)).
+
+cnf(u7259,axiom,
+    sK105(X0,X1) != X1 | ~instanceOf(X1,spatiotemporalRegion,X2) | occurrentPartOf(sK104(X0,X1),X0) | ~instanceOf(X0,process,X4) | occupiesSpatiotemporalRegion(X0,X1)).
+
+cnf(u7263,axiom,
+    ~instanceOf(X1,spatiotemporalRegion,X2) | ~instanceOf(X0,process,X4) | occurrentPartOf(sK104(X0,X1),X0) | occurrentPartOf(sK105(X0,X1),X1) | occupiesSpatiotemporalRegion(X0,X1)).
+
+cnf(u7267,axiom,
+    ~instanceOf(X1,spatiotemporalRegion,X2) | ~instanceOf(X0,process,X4) | occurrentPartOf(sK104(X0,X1),X0) | occupiesSpatiotemporalRegion(X0,sK105(X0,X1)) | occupiesSpatiotemporalRegion(X0,X1)).
+
+cnf(u7271,axiom,
+    sK105(X0,X1) != X1 | ~instanceOf(X1,spatiotemporalRegion,X2) | occurrentPartOf(sK104(X0,X1),X0) | ~instanceOf(X0,processBoundary,X3) | occupiesSpatiotemporalRegion(X0,X1)).
+
+cnf(u7275,axiom,
+    ~instanceOf(X1,spatiotemporalRegion,X2) | ~instanceOf(X0,processBoundary,X3) | occurrentPartOf(sK104(X0,X1),X0) | occurrentPartOf(sK105(X0,X1),X1) | occupiesSpatiotemporalRegion(X0,X1)).
+
+cnf(u7279,axiom,
+    ~instanceOf(X1,spatiotemporalRegion,X2) | ~instanceOf(X0,processBoundary,X3) | occurrentPartOf(sK104(X0,X1),X0) | occupiesSpatiotemporalRegion(X0,sK105(X0,X1)) | occupiesSpatiotemporalRegion(X0,X1)).
+
+cnf(u7283,axiom,
+    ~hasLastInstant(X1,sK5(X0)) | instanceOf(X0,temporalInstant,X0) | instanceOf(X1,temporalInstant,X1) | precedes(X1,X0) | ~instanceOf(X0,temporalRegion,X0)).
+
+cnf(u7287,axiom,
+    ~instanceOf(X1,temporalInterval,X1) | ~instanceOf(X0,temporalInstant,X0) | hasFirstInstant(X1,X0) | hasLastInstant(X1,X0) | ~properTemporalPartOf(X0,X1) | hasFirstInstant(X1,sK95(X0,X1))).
+
+cnf(u7291,axiom,
+    ~instanceOf(X1,temporalInterval,X1) | ~instanceOf(X0,temporalInstant,X0) | hasFirstInstant(X1,X0) | hasLastInstant(X1,X0) | ~properTemporalPartOf(X0,X1) | hasLastInstant(X1,sK96(X0,X1))).
+
+cnf(u7295,axiom,
+    ~instanceOf(X1,temporalInterval,X1) | ~instanceOf(X0,temporalInstant,X0) | hasFirstInstant(X1,X0) | hasLastInstant(X1,X0) | ~properTemporalPartOf(X0,X1) | precedes(X0,sK96(X0,X1))).
+
+cnf(u7299,axiom,
+    ~instanceOf(X1,temporalInterval,X1) | ~instanceOf(X0,temporalInstant,X0) | hasFirstInstant(X1,X0) | hasLastInstant(X1,X0) | ~properTemporalPartOf(X0,X1) | precedes(sK95(X0,X1),X0)).
+
+cnf(u7303,axiom,
+    ~instanceOf(X0,temporalRegion,X0) | ~instanceOf(X1,temporalRegion,X1) | ~temporalPartOf(X2,X0) | ~temporalPartOf(X2,X1) | instanceOf(sK98(X0,X1),temporalRegion,sK98(X0,X1))).
+
+cnf(u7307,axiom,
+    sK155(X0,X1,X2) != X0 | ~instanceOf(X1,objectAggregate,X2) | ~properContinuantPartOf(X0,X1,X2) | ~instanceOf(X0,object,X2) | memberPartOf(X0,X1,X2)).
+
+cnf(u7311,axiom,
+    ~instanceOf(X3,temporalRegion,X3) | ~instanceOf(X1,temporalRegion,X1) | ~properTemporalPartOf(X0,X1) | ~instanceOf(X0,temporalRegion,X0) | ~temporalPartOf(X3,X0) | ~temporalPartOf(X3,sK97(X0,X1))).
+
+cnf(u7315,axiom,
+    ~instanceOf(X1,temporalRegion,X1) | ~instanceOf(X0,processBoundary,X2) | occupiesTemporalRegion(sK99(X0,X1),sK101(X0,X1)) | occupiesTemporalRegion(X0,sK100(X0,X1)) | occupiesTemporalRegion(X0,X1)).
+
+cnf(u7319,axiom,
+    ~instanceOf(X1,temporalRegion,X1) | ~instanceOf(X0,processBoundary,X2) | occupiesTemporalRegion(sK99(X0,X1),sK101(X0,X1)) | occurrentPartOf(sK100(X0,X1),X1) | occupiesTemporalRegion(X0,X1)).
+
+cnf(u7323,axiom,
+    sK100(X0,X1) != X1 | ~instanceOf(X1,temporalRegion,X1) | occupiesTemporalRegion(sK99(X0,X1),sK101(X0,X1)) | ~instanceOf(X0,processBoundary,X2) | occupiesTemporalRegion(X0,X1)).
+
+cnf(u7327,axiom,
+    ~instanceOf(X1,temporalRegion,X1) | ~instanceOf(X0,process,X3) | occupiesTemporalRegion(sK99(X0,X1),sK101(X0,X1)) | occupiesTemporalRegion(X0,sK100(X0,X1)) | occupiesTemporalRegion(X0,X1)).
+
+cnf(u7331,axiom,
+    ~instanceOf(X1,temporalRegion,X1) | ~instanceOf(X0,process,X3) | occupiesTemporalRegion(sK99(X0,X1),sK101(X0,X1)) | occurrentPartOf(sK100(X0,X1),X1) | occupiesTemporalRegion(X0,X1)).
+
+cnf(u7335,axiom,
+    sK100(X0,X1) != X1 | ~instanceOf(X1,temporalRegion,X1) | occupiesTemporalRegion(sK99(X0,X1),sK101(X0,X1)) | ~instanceOf(X0,process,X3) | occupiesTemporalRegion(X0,X1)).
+
+cnf(u7339,axiom,
+    ~instanceOf(X1,spatiotemporalRegion,X2) | ~instanceOf(X0,processBoundary,X3) | occupiesSpatiotemporalRegion(sK104(X0,X1),sK106(X0,X1)) | occupiesSpatiotemporalRegion(X0,sK105(X0,X1)) | occupiesSpatiotemporalRegion(X0,X1)).
+
+cnf(u7343,axiom,
+    ~instanceOf(X1,spatiotemporalRegion,X2) | ~instanceOf(X0,processBoundary,X3) | occupiesSpatiotemporalRegion(sK104(X0,X1),sK106(X0,X1)) | occurrentPartOf(sK105(X0,X1),X1) | occupiesSpatiotemporalRegion(X0,X1)).
+
+cnf(u7347,axiom,
+    sK105(X0,X1) != X1 | ~instanceOf(X1,spatiotemporalRegion,X2) | occupiesSpatiotemporalRegion(sK104(X0,X1),sK106(X0,X1)) | ~instanceOf(X0,processBoundary,X3) | occupiesSpatiotemporalRegion(X0,X1)).
+
+cnf(u7351,axiom,
+    ~instanceOf(X1,spatiotemporalRegion,X2) | ~instanceOf(X0,process,X4) | occupiesSpatiotemporalRegion(sK104(X0,X1),sK106(X0,X1)) | occupiesSpatiotemporalRegion(X0,sK105(X0,X1)) | occupiesSpatiotemporalRegion(X0,X1)).
+
+cnf(u7355,axiom,
+    ~instanceOf(X1,spatiotemporalRegion,X2) | ~instanceOf(X0,process,X4) | occupiesSpatiotemporalRegion(sK104(X0,X1),sK106(X0,X1)) | occurrentPartOf(sK105(X0,X1),X1) | occupiesSpatiotemporalRegion(X0,X1)).
+
+cnf(u7359,axiom,
+    sK105(X0,X1) != X1 | ~instanceOf(X1,spatiotemporalRegion,X2) | occupiesSpatiotemporalRegion(sK104(X0,X1),sK106(X0,X1)) | ~instanceOf(X0,process,X4) | occupiesSpatiotemporalRegion(X0,X1)).
+
+cnf(u7363,axiom,
+    ~instanceOf(X0,genericallyDependentContinuant,X2) | ~participatesIn(X0,X1,X2) | specificallyDependsOn(sK136(X0,X1,X2),sK137(X0,X1,X2)) | occurrentPartOf(sK136(X0,X1,X2),X1)).
+
+cnf(u7367,axiom,
+    ~instanceOf(X0,genericallyDependentContinuant,X2) | ~participatesIn(X0,X1,X2) | specificallyDependsOn(sK139(X0,X1,X2),sK140(X0,X1,X2)) | occurrentPartOf(sK139(X0,X1,X2),X1)).
+
+cnf(u7371,axiom,
+    ~inheresIn(X2,X1) | ~instanceOf(X2,specificallyDependentContinuant,X4) | ~instanceOf(X1,independentContinuant,X3) | ~concretizes(X2,X0,X6) | ~instanceOf(X0,genericallyDependentContinuant,X5) | genericallyDependsOn(X0,X1,X6)).
+
+cnf(u7375,axiom,
+    ~instanceOf(X1,objectAggregate,X2) | ~instanceOf(X0,object,X2) | ~properContinuantPartOf(X0,X1,X2) | continuantPartOf(sK156(X0,X1,X2),X0,X2) | memberPartOf(X0,X1,X2)).
+
+cnf(u7379,axiom,
+    ~instanceOf(X1,objectAggregate,X2) | ~instanceOf(X0,object,X2) | ~properContinuantPartOf(X0,X1,X2) | memberPartOf(sK155(X0,X1,X2),X1,X2) | memberPartOf(X0,X1,X2)).
+
+cnf(u7383,axiom,
+    ~instanceOf(X1,materialEntity,X3) | ~occupiesSpatialRegion(X0,X2,X3) | ~instanceOf(X0,materialEntity,X3) | ~occupiesSpatialRegion(X1,X2,X3) | continuantPartOf(X0,X1,X3) | X0 = X1).
+
+cnf(u7387,axiom,
+    ~continuantPartOf(X5,X1,X2) | ~continuantPartOf(X3,X1,X2) | ~continuantPartOf(X5,X0,X2) | ~continuantPartOf(X3,X0,X2) | continuantPartOf(X5,sK148(X0,X1,X2),X2)).
+
+cnf(u7391,axiom,
+    ~instanceOf(X1,temporalRegion,X1) | ~instanceOf(X0,temporalInstant,X0) | instanceOf(X1,temporalInstant,X1) | ~hasLastInstant(X1,X0) | ~temporalPartOf(X2,X1) | temporalPartOf(X0,X2) | precedes(X2,X0)).
+
+cnf(u7395,axiom,
+    ~instanceOf(X1,temporalRegion,X1) | ~instanceOf(X0,temporalInstant,X0) | instanceOf(X1,temporalInstant,X1) | ~hasFirstInstant(X1,X0) | ~temporalPartOf(X2,X1) | temporalPartOf(X0,X2) | precedes(X0,X2)).
+
+cnf(u7399,axiom,
+    ~existsAt(X0,X4) | ~instanceOf(X1,spatiotemporalRegion,X2) | ~instanceOf(X0,spatiotemporalRegion,X3) | spatiallyProjectsOnto(X0,sK110(X0,X1,X4),sK112(X0,X1,X4)) | ~occurrentPartOf(X0,X1)).
+
+cnf(u7403,axiom,
+    ~existsAt(X0,X4) | ~instanceOf(X1,spatiotemporalRegion,X2) | ~instanceOf(X0,spatiotemporalRegion,X3) | spatiallyProjectsOnto(X1,sK111(X0,X1,X4),sK112(X0,X1,X4)) | ~occurrentPartOf(X0,X1)).
+
+cnf(u7407,axiom,
+    ~instanceOf(X0,genericallyDependentContinuant,X2) | ~participatesIn(X0,X1,X2) | participatesIn(sK137(X0,X1,X2),X1,sK135(X0,X1,X2)) | occurrentPartOf(sK136(X0,X1,X2),X1)).
+
+cnf(u7411,axiom,
+    ~instanceOf(X0,genericallyDependentContinuant,X2) | ~participatesIn(X0,X1,X2) | instanceOf(sK136(X0,X1,X2),specificallyDependentContinuant,sK135(X0,X1,X2)) | occurrentPartOf(sK136(X0,X1,X2),X1)).
+
+cnf(u7415,axiom,
+    ~instanceOf(X0,genericallyDependentContinuant,X2) | ~participatesIn(X0,X1,X2) | participatesIn(sK140(X0,X1,X2),X1,sK138(X0,X1,X2)) | occurrentPartOf(sK139(X0,X1,X2),X1)).
+
+cnf(u7419,axiom,
+    ~instanceOf(X0,genericallyDependentContinuant,X2) | ~participatesIn(X0,X1,X2) | instanceOf(sK139(X0,X1,X2),specificallyDependentContinuant,sK138(X0,X1,X2)) | occurrentPartOf(sK139(X0,X1,X2),X1)).
+
+cnf(u7423,axiom,
+    ~temporallyProjectsOnto(X1,X9) | ~instanceOf(X1,spatiotemporalRegion,X2) | ~temporallyProjectsOnto(X0,X8) | ~instanceOf(X0,spatiotemporalRegion,X3) | ~temporalPartOf(X8,X9) | existsAt(X0,sK109(X0,X1)) | occurrentPartOf(X0,X1)).
+
+cnf(u7427,axiom,
+    ~existsAt(X2,sK134(X0,X1,X2)) | ~occursIn(X0,X1) | ~continuantPartOf(X1,X2,sK134(X0,X1,X2)) | ~existsAt(X0,sK134(X0,X1,X2)) | occursIn(X0,X2)).
+
+cnf(u7431,axiom,
+    ~instanceOf(X0,temporalInterval,X0) | ~hasFirstInstant(X0,X1) | ~hasLastInstant(X0,X2) | ~hasFirstInstant(X3,X4) | ~hasLastInstant(X3,X5) | ~precedes(X5,X2) | ~precedes(X1,X4) | temporalPartOf(X3,X0)).
+
+cnf(u7435,axiom,
+    ~instanceOf(X3,temporalInterval,X3) | ~occupiesTemporalRegion(X1,X3) | ~instanceOf(X2,temporalInterval,X2) | ~occupiesTemporalRegion(X0,X2) | temporalPartOf(sK157(X2,X3),X2) | precedes(X0,X1) | precedes(X1,X0)).
+
+cnf(u7439,axiom,
+    ~instanceOf(X3,temporalInterval,X3) | ~occupiesTemporalRegion(X1,X3) | ~instanceOf(X2,temporalInterval,X2) | ~occupiesTemporalRegion(X0,X2) | temporalPartOf(sK157(X2,X3),X3) | precedes(X0,X1) | precedes(X1,X0)).
+
+cnf(u7443,axiom,
+    ~temporallyProjectsOnto(X1,X5) | ~instanceOf(X1,spatiotemporalRegion,X2) | ~temporallyProjectsOnto(X0,X4) | ~instanceOf(X0,spatiotemporalRegion,X3) | ~occurrentPartOf(X4,X5) | occurrentPartOf(sK115(X0,X1,X4),X4) | temporalPartOf(X0,X1)).
+
+cnf(u7447,axiom,
+    ~instanceOf(X0,occurrent,X2) | ~instanceOf(X1,occurrent,X2) | ~instanceOf(X2,temporalRegion,X2) | ~occurrentPartOf(X3,X0) | ~occurrentPartOf(X3,X1) | occurrentPartOf(X5,X0) | ~occurrentPartOf(X5,sK120(X0,X1))).
+
+cnf(u7452,axiom,
+    ~instanceOf(X0,occurrent,X2) | ~instanceOf(X1,occurrent,X2) | ~occurrentPartOf(X3,X0) | ~occurrentPartOf(X3,X1) | occurrentPartOf(X5,X0) | ~occurrentPartOf(X5,sK120(X0,X1))).
+
+cnf(u7456,axiom,
+    ~instanceOf(X0,occurrent,X2) | ~instanceOf(X1,occurrent,X2) | ~instanceOf(X2,temporalRegion,X2) | ~occurrentPartOf(X3,X0) | ~occurrentPartOf(X3,X1) | occurrentPartOf(X5,X1) | ~occurrentPartOf(X5,sK120(X0,X1))).
+
+cnf(u7461,axiom,
+    ~instanceOf(X0,occurrent,X2) | ~instanceOf(X1,occurrent,X2) | ~occurrentPartOf(X3,X0) | ~occurrentPartOf(X3,X1) | occurrentPartOf(X5,X1) | ~occurrentPartOf(X5,sK120(X0,X1))).
+
+cnf(u7465,axiom,
+    ~instanceOf(X0,genericallyDependentContinuant,X2) | ~participatesIn(X0,X1,X2) | specificallyDependsOn(sK136(X0,X1,X2),sK137(X0,X1,X2)) | existsAt(sK136(X0,X1,X2),sK135(X0,X1,X2))).
+
+cnf(u7469,axiom,
+    ~instanceOf(X0,genericallyDependentContinuant,X2) | ~participatesIn(X0,X1,X2) | specificallyDependsOn(sK139(X0,X1,X2),sK140(X0,X1,X2)) | existsAt(sK139(X0,X1,X2),sK138(X0,X1,X2))).
+
+cnf(u7473,axiom,
+    ~instanceOf(X1,objectAggregate,X2) | ~instanceOf(X0,object,X2) | ~properContinuantPartOf(X0,X1,X2) | continuantPartOf(sK156(X0,X1,X2),sK155(X0,X1,X2),X2) | memberPartOf(X0,X1,X2)).
+
+cnf(u7477,axiom,
+    ~instanceOf(X4,temporalRegion,X4) | ~instanceOf(X1,temporalRegion,X1) | ~temporalPartOf(X2,X0) | ~temporalPartOf(X2,X1) | ~instanceOf(X0,temporalRegion,X0) | temporalPartOf(X4,X1) | ~temporalPartOf(X4,sK98(X0,X1))).
+
+cnf(u7481,axiom,
+    ~instanceOf(X4,temporalRegion,X4) | ~instanceOf(X1,temporalRegion,X1) | ~temporalPartOf(X2,X0) | ~temporalPartOf(X2,X1) | ~instanceOf(X0,temporalRegion,X0) | temporalPartOf(X4,X0) | ~temporalPartOf(X4,sK98(X0,X1))).
+
+cnf(u7485,axiom,
+    ~existsAt(X0,X4) | ~instanceOf(X1,spatiotemporalRegion,X2) | ~instanceOf(X0,spatiotemporalRegion,X3) | continuantPartOf(sK110(X0,X1,X4),sK111(X0,X1,X4),sK112(X0,X1,X4)) | ~occurrentPartOf(X0,X1)).
+
+cnf(u7489,axiom,
+    ~instanceOf(X1,spatiotemporalRegion,X2) | ~instanceOf(X0,spatiotemporalRegion,X3) | ~occurrentPartOf(X6,sK113(X0,X1)) | ~spatiallyProjectsOnto(X0,X7,X6) | spatiallyProjectsOnto(X0,sK117(X0,X1,X6),X6) | ~temporalPartOf(X0,X1)).
+
+cnf(u7493,axiom,
+    ~instanceOf(X1,spatiotemporalRegion,X2) | ~instanceOf(X0,spatiotemporalRegion,X3) | ~occurrentPartOf(X6,sK113(X0,X1)) | ~spatiallyProjectsOnto(X0,X7,X6) | spatiallyProjectsOnto(X1,sK117(X0,X1,X6),X6) | ~temporalPartOf(X0,X1)).
+
+cnf(u7497,axiom,
+    ~instanceOf(X0,objectAggregate,X3) | ~continuantPartOf(X0,X1,X3) | ~continuantPartOf(X1,X0,X3) | continuantPartOf(X1,X0,sK119(X0,X1)) | continuantPartOf(X0,X1,sK119(X0,X1)) | X0 = X1).
+
+cnf(u7501,axiom,
+    ~continuantPartOf(X1,X0,sK119(X0,X1)) | ~continuantPartOf(X0,X1,X3) | ~continuantPartOf(X1,X0,X3) | ~instanceOf(X0,objectAggregate,X3) | ~continuantPartOf(X0,X1,sK119(X0,X1)) | X0 = X1).
+
+cnf(u7505,axiom,
+    ~instanceOf(X0,independentContinuant,X2) | instanceOf(X0,objectAggregate,X2) | ~instanceOf(X1,independentContinuant,X2) | instanceOf(X1,objectAggregate,X2) | ~continuantPartOf(X0,X1,X2) | ~continuantPartOf(X1,X0,X2) | X0 = X1).
+
+cnf(u7510,axiom,
+    ~instanceOf(X1,independentContinuant,X2) | instanceOf(X0,objectAggregate,X2) | instanceOf(X1,objectAggregate,X2) | ~continuantPartOf(X0,X1,X2) | ~continuantPartOf(X1,X0,X2) | X0 = X1).
+
+cnf(u7514,axiom,
+    ~instanceOf(X0,genericallyDependentContinuant,X2) | ~participatesIn(X0,X1,X2) | participatesIn(sK137(X0,X1,X2),X1,sK135(X0,X1,X2)) | existsAt(sK136(X0,X1,X2),sK135(X0,X1,X2))).
+
+cnf(u7518,axiom,
+    ~instanceOf(X0,genericallyDependentContinuant,X2) | ~participatesIn(X0,X1,X2) | participatesIn(sK140(X0,X1,X2),X1,sK138(X0,X1,X2)) | existsAt(sK139(X0,X1,X2),sK138(X0,X1,X2))).
+
+cnf(u7522,axiom,
+    ~instanceOf(X1,temporalInterval,X1) | hasFirstInstant(X1,X0) | hasLastInstant(X1,X0) | properTemporalPartOf(X0,X1) | ~instanceOf(X0,temporalInstant,X0) | ~hasFirstInstant(X1,X2) | ~hasLastInstant(X1,X3) | ~precedes(X0,X3) | ~precedes(X2,X0)).
+
+cnf(u7526,axiom,
+    ~instanceOf(X0,occurrent,X2) | ~instanceOf(X1,occurrent,X2) | ~instanceOf(X2,temporalRegion,X2) | ~occurrentPartOf(X3,X0) | ~occurrentPartOf(X3,X1) | ~occurrentPartOf(X5,X0) | ~occurrentPartOf(X5,X1) | occurrentPartOf(X5,sK120(X0,X1))).
+
+cnf(u7531,axiom,
+    ~instanceOf(X0,occurrent,X2) | ~instanceOf(X1,occurrent,X2) | ~occurrentPartOf(X3,X0) | ~occurrentPartOf(X3,X1) | ~occurrentPartOf(X5,X0) | ~occurrentPartOf(X5,X1) | occurrentPartOf(X5,sK120(X0,X1))).
+
+cnf(u7535,axiom,
+    ~instanceOf(X0,temporalInterval,X0) | ~hasFirstInstant(X0,X1) | ~hasLastInstant(X0,X5) | instanceOf(X3,temporalInstant,X3) | ~hasFirstInstant(X3,X4) | ~hasLastInstant(X3,X5) | ~temporalPartOf(X5,X0) | ~precedes(X1,X4) | temporalPartOf(X3,X0)).
+
+cnf(u7539,axiom,
+    ~instanceOf(X0,temporalInterval,X0) | ~hasFirstInstant(X0,X4) | ~hasLastInstant(X0,X5) | instanceOf(X3,temporalInstant,X3) | ~hasFirstInstant(X3,X4) | ~hasLastInstant(X3,X5) | ~temporalPartOf(X5,X0) | ~temporalPartOf(X4,X0) | temporalPartOf(X3,X0)).
+
+cnf(u7543,axiom,
+    ~instanceOf(X0,temporalInterval,X0) | ~hasFirstInstant(X0,X4) | ~hasLastInstant(X0,X2) | instanceOf(X3,temporalInstant,X3) | ~hasFirstInstant(X3,X4) | ~hasLastInstant(X3,X5) | ~precedes(X5,X2) | ~temporalPartOf(X4,X0) | temporalPartOf(X3,X0)).
+
+cnf(u7547,axiom,
+    ~instanceOf(X1,temporalRegion,X1) | ~instanceOf(X0,temporalRegion,X0) | ~temporalPartOf(X2,X0) | ~temporalPartOf(X2,X1) | ~instanceOf(X4,temporalRegion,X4) | ~temporalPartOf(X4,X0) | ~temporalPartOf(X4,X1) | temporalPartOf(X4,sK98(X0,X1))).
+
+cnf(u7551,axiom,
+    ~temporallyProjectsOnto(X1,X5) | ~instanceOf(X1,spatiotemporalRegion,X2) | ~temporallyProjectsOnto(X0,X4) | ~instanceOf(X0,spatiotemporalRegion,X3) | ~occurrentPartOf(X4,X5) | spatiallyProjectsOnto(X0,sK116(X0,X1,X4),sK115(X0,X1,X4)) | temporalPartOf(X0,X1)).
+
+cnf(u7555,axiom,
+    ~temporallyProjectsOnto(X1,X5) | ~instanceOf(X1,spatiotemporalRegion,X2) | ~temporallyProjectsOnto(X0,X4) | ~instanceOf(X0,spatiotemporalRegion,X3) | ~occurrentPartOf(X4,X5) | ~spatiallyProjectsOnto(X0,X8,sK115(X0,X1,X4)) | ~spatiallyProjectsOnto(X1,X8,sK115(X0,X1,X4)) | temporalPartOf(X0,X1)).
+
+cnf(u7559,axiom,
+    ~instanceOf(X0,temporalInterval,X0) | ~instanceOf(X1,temporalInterval,X1) | ~hasFirstInstant(X0,X2) | ~hasFirstInstant(X1,X2) | ~hasLastInstant(X0,X3) | ~hasLastInstant(X1,X3) | ~temporalPartOf(X3,X1) | ~temporalPartOf(X3,X0) | temporalPartOf(X2,X1) | temporalPartOf(X2,X0) | X0 = X1).
+
+cnf(u7563,axiom,
+    ~instanceOf(X0,temporalInterval,X0) | ~instanceOf(X1,temporalInterval,X1) | ~hasFirstInstant(X0,X2) | ~hasFirstInstant(X1,X2) | ~hasLastInstant(X0,X3) | ~hasLastInstant(X1,X3) | ~temporalPartOf(X3,X1) | ~temporalPartOf(X3,X0) | ~temporalPartOf(X2,X1) | ~temporalPartOf(X2,X0) | X0 = X1).
+
+cnf(u7567,axiom,
+    ~instanceOf(X0,temporalInterval,X0) | ~instanceOf(X1,temporalInterval,X1) | ~hasFirstInstant(X0,X2) | ~hasFirstInstant(X1,X2) | ~hasLastInstant(X0,X3) | ~hasLastInstant(X1,X3) | temporalPartOf(X3,X1) | temporalPartOf(X3,X0) | temporalPartOf(X2,X1) | temporalPartOf(X2,X0) | X0 = X1).
+
+cnf(u7571,axiom,
+    ~instanceOf(X0,temporalInterval,X0) | ~instanceOf(X1,temporalInterval,X1) | ~hasFirstInstant(X0,X2) | ~hasFirstInstant(X1,X2) | ~hasLastInstant(X0,X3) | ~hasLastInstant(X1,X3) | temporalPartOf(X3,X1) | temporalPartOf(X3,X0) | ~temporalPartOf(X2,X1) | ~temporalPartOf(X2,X0) | X0 = X1).
+
+cnf(u7575,axiom,
+    ~continuantPartOf(sK152(X0,X1,X2),X1,sK149(X0,X1,X2)) | instanceOf(X0,spatialRegion,X2) | ~instanceOf(X1,spatialRegion,X2) | ~instanceOf(X0,independentContinuant,X2) | sK151(X0,X1,X2) != X1 | occupiesSpatialRegion(X0,X1,sK149(X0,X1,X2))).
+
+cnf(u7579,axiom,
+    sK151(X0,X1,X2) != X1 | instanceOf(X0,spatialRegion,X2) | ~instanceOf(X1,spatialRegion,X2) | continuantPartOf(sK150(X0,X1,X2),X0,sK149(X0,X1,X2)) | ~instanceOf(X0,independentContinuant,X2) | occupiesSpatialRegion(X0,X1,sK149(X0,X1,X2))).
+
+cnf(u7583,axiom,
+    ~instanceOf(X0,independentContinuant,X2) | instanceOf(X0,spatialRegion,X2) | ~instanceOf(X1,spatialRegion,X2) | X1 = X4 | ~continuantPartOf(X4,X1,sK149(X0,X1,X2)) | ~occupiesSpatialRegion(X0,X4,sK149(X0,X1,X2)) | ~occupiesSpatialRegion(X0,X1,sK149(X0,X1,X2))).
+
+cnf(u7587,axiom,
+    ~temporallyProjectsOnto(X1,X9) | ~instanceOf(X1,spatiotemporalRegion,X2) | ~temporallyProjectsOnto(X0,X8) | ~instanceOf(X0,spatiotemporalRegion,X3) | ~temporalPartOf(X8,X9) | ~temporalPartOf(X7,sK109(X0,X1)) | ~spatiallyProjectsOnto(X0,X5,X7) | ~spatiallyProjectsOnto(X1,X6,X7) | ~continuantPartOf(X5,X6,X7) | occurrentPartOf(X0,X1)).
+
+cnf(u7591,axiom,
+    ~instanceOf(X4,temporalInstant,X4) | ~hasFirstInstant(X0,X1) | ~hasLastInstant(X0,X2) | ~temporalPartOf(X3,X0) | ~temporalPartOf(X4,X0) | ~instanceOf(X3,temporalInstant,X3) | ~instanceOf(X0,temporalInterval,X0) | ~precedes(X3,X4) | precedes(sK141(X3,X4),X4) | hasFirstInstant(sK142(X0,X3,X4),X3)).
+
+cnf(u7595,axiom,
+    ~instanceOf(X4,temporalInstant,X4) | ~hasFirstInstant(X0,X1) | ~hasLastInstant(X0,X2) | ~temporalPartOf(X3,X0) | ~temporalPartOf(X4,X0) | ~instanceOf(X3,temporalInstant,X3) | ~instanceOf(X0,temporalInterval,X0) | ~precedes(X3,X4) | precedes(sK141(X3,X4),X4) | hasLastInstant(sK142(X0,X3,X4),X4)).
+
+cnf(u7599,axiom,
+    ~instanceOf(X4,temporalInstant,X4) | ~hasFirstInstant(X0,X1) | ~hasLastInstant(X0,X2) | ~temporalPartOf(X3,X0) | ~temporalPartOf(X4,X0) | ~instanceOf(X3,temporalInstant,X3) | ~instanceOf(X0,temporalInterval,X0) | ~precedes(X3,X4) | precedes(sK141(X3,X4),X4) | temporalPartOf(sK142(X0,X3,X4),X0)).
+
+cnf(u7603,axiom,
+    ~instanceOf(X4,temporalInstant,X4) | ~hasFirstInstant(X0,X1) | ~hasLastInstant(X0,X2) | ~temporalPartOf(X3,X0) | ~temporalPartOf(X4,X0) | ~instanceOf(X3,temporalInstant,X3) | ~instanceOf(X0,temporalInterval,X0) | ~precedes(X3,X4) | precedes(X3,sK141(X3,X4)) | hasFirstInstant(sK142(X0,X3,X4),X3)).
+
+cnf(u7607,axiom,
+    ~instanceOf(X4,temporalInstant,X4) | ~hasFirstInstant(X0,X1) | ~hasLastInstant(X0,X2) | ~temporalPartOf(X3,X0) | ~temporalPartOf(X4,X0) | ~instanceOf(X3,temporalInstant,X3) | ~instanceOf(X0,temporalInterval,X0) | ~precedes(X3,X4) | precedes(X3,sK141(X3,X4)) | hasLastInstant(sK142(X0,X3,X4),X4)).
+
+cnf(u7611,axiom,
+    ~instanceOf(X4,temporalInstant,X4) | ~hasFirstInstant(X0,X1) | ~hasLastInstant(X0,X2) | ~temporalPartOf(X3,X0) | ~temporalPartOf(X4,X0) | ~instanceOf(X3,temporalInstant,X3) | ~instanceOf(X0,temporalInterval,X0) | ~precedes(X3,X4) | precedes(X3,sK141(X3,X4)) | temporalPartOf(sK142(X0,X3,X4),X0)).
+
+cnf(u7615,axiom,
+    sK151(X0,X1,X2) != X1 | instanceOf(X0,spatialRegion,X2) | ~instanceOf(X1,spatialRegion,X2) | occupiesSpatialRegion(sK150(X0,X1,X2),sK152(X0,X1,X2),sK149(X0,X1,X2)) | ~instanceOf(X0,independentContinuant,X2) | occupiesSpatialRegion(X0,X1,sK149(X0,X1,X2))).
+
+cnf(u7619,axiom,
+    ~continuantPartOf(sK152(X0,X1,X2),X1,sK149(X0,X1,X2)) | instanceOf(X0,spatialRegion,X2) | ~instanceOf(X1,spatialRegion,X2) | ~instanceOf(X0,independentContinuant,X2) | occupiesSpatialRegion(X0,sK151(X0,X1,X2),sK149(X0,X1,X2)) | occupiesSpatialRegion(X0,X1,sK149(X0,X1,X2))).
+
+cnf(u7623,axiom,
+    ~continuantPartOf(sK152(X0,X1,X2),X1,sK149(X0,X1,X2)) | instanceOf(X0,spatialRegion,X2) | ~instanceOf(X1,spatialRegion,X2) | ~instanceOf(X0,independentContinuant,X2) | continuantPartOf(sK151(X0,X1,X2),X1,sK149(X0,X1,X2)) | occupiesSpatialRegion(X0,X1,sK149(X0,X1,X2))).
+
+cnf(u7627,axiom,
+    ~instanceOf(X1,spatialRegion,X2) | instanceOf(X0,spatialRegion,X2) | ~instanceOf(X0,independentContinuant,X2) | continuantPartOf(sK150(X0,X1,X2),X0,sK149(X0,X1,X2)) | continuantPartOf(sK151(X0,X1,X2),X1,sK149(X0,X1,X2)) | occupiesSpatialRegion(X0,X1,sK149(X0,X1,X2))).
+
+cnf(u7631,axiom,
+    ~instanceOf(X1,spatialRegion,X2) | instanceOf(X0,spatialRegion,X2) | ~instanceOf(X0,independentContinuant,X2) | continuantPartOf(sK150(X0,X1,X2),X0,sK149(X0,X1,X2)) | occupiesSpatialRegion(X0,sK151(X0,X1,X2),sK149(X0,X1,X2)) | occupiesSpatialRegion(X0,X1,sK149(X0,X1,X2))).
+
+cnf(u7635,axiom,
+    ~instanceOf(X1,spatialRegion,X2) | instanceOf(X0,spatialRegion,X2) | ~instanceOf(X0,independentContinuant,X2) | ~continuantPartOf(X5,X0,sK149(X0,X1,X2)) | ~occupiesSpatialRegion(X5,X6,sK149(X0,X1,X2)) | continuantPartOf(X6,X1,sK149(X0,X1,X2)) | ~occupiesSpatialRegion(X0,X1,sK149(X0,X1,X2))).
+
+cnf(u7639,axiom,
+    ~instanceOf(X4,temporalInstant,X4) | ~hasFirstInstant(X0,X1) | ~hasLastInstant(X0,X2) | ~temporalPartOf(X3,X0) | ~temporalPartOf(X4,X0) | ~instanceOf(X3,temporalInstant,X3) | ~instanceOf(X0,temporalInterval,X0) | ~precedes(X3,X4) | instanceOf(sK141(X3,X4),temporalInstant,sK141(X3,X4)) | hasFirstInstant(sK142(X0,X3,X4),X3)).
+
+cnf(u7643,axiom,
+    ~instanceOf(X4,temporalInstant,X4) | ~hasFirstInstant(X0,X1) | ~hasLastInstant(X0,X2) | ~temporalPartOf(X3,X0) | ~temporalPartOf(X4,X0) | ~instanceOf(X3,temporalInstant,X3) | ~instanceOf(X0,temporalInterval,X0) | ~precedes(X3,X4) | instanceOf(sK141(X3,X4),temporalInstant,sK141(X3,X4)) | hasLastInstant(sK142(X0,X3,X4),X4)).
+
+cnf(u7647,axiom,
+    ~instanceOf(X4,temporalInstant,X4) | ~hasFirstInstant(X0,X1) | ~hasLastInstant(X0,X2) | ~temporalPartOf(X3,X0) | ~temporalPartOf(X4,X0) | ~instanceOf(X3,temporalInstant,X3) | ~instanceOf(X0,temporalInterval,X0) | ~precedes(X3,X4) | instanceOf(sK141(X3,X4),temporalInstant,sK141(X3,X4)) | temporalPartOf(sK142(X0,X3,X4),X0)).
+
+cnf(u7651,axiom,
+    ~instanceOf(X4,temporalInstant,X4) | ~hasFirstInstant(X0,X1) | ~hasLastInstant(X0,X2) | ~temporalPartOf(X3,X0) | ~temporalPartOf(X4,X0) | ~instanceOf(X3,temporalInstant,X3) | ~instanceOf(X0,temporalInterval,X0) | ~precedes(X3,X4) | precedes(sK141(X3,X4),X4) | instanceOf(sK142(X0,X3,X4),temporalInterval,sK142(X0,X3,X4))).
+
+cnf(u7655,axiom,
+    ~instanceOf(X4,temporalInstant,X4) | ~hasFirstInstant(X0,X1) | ~hasLastInstant(X0,X2) | ~temporalPartOf(X3,X0) | ~temporalPartOf(X4,X0) | ~instanceOf(X3,temporalInstant,X3) | ~instanceOf(X0,temporalInterval,X0) | ~precedes(X3,X4) | precedes(X3,sK141(X3,X4)) | instanceOf(sK142(X0,X3,X4),temporalInterval,sK142(X0,X3,X4))).
+
+cnf(u7659,axiom,
+    ~instanceOf(X1,spatialRegion,X2) | instanceOf(X0,spatialRegion,X2) | ~instanceOf(X0,independentContinuant,X2) | occupiesSpatialRegion(sK150(X0,X1,X2),sK152(X0,X1,X2),sK149(X0,X1,X2)) | occupiesSpatialRegion(X0,sK151(X0,X1,X2),sK149(X0,X1,X2)) | occupiesSpatialRegion(X0,X1,sK149(X0,X1,X2))).
+
+cnf(u7663,axiom,
+    ~instanceOf(X1,spatialRegion,X2) | instanceOf(X0,spatialRegion,X2) | ~instanceOf(X0,independentContinuant,X2) | occupiesSpatialRegion(sK150(X0,X1,X2),sK152(X0,X1,X2),sK149(X0,X1,X2)) | continuantPartOf(sK151(X0,X1,X2),X1,sK149(X0,X1,X2)) | occupiesSpatialRegion(X0,X1,sK149(X0,X1,X2))).
+
+cnf(u7667,axiom,
+    ~instanceOf(X4,temporalInstant,X4) | ~hasFirstInstant(X0,X1) | ~hasLastInstant(X0,X2) | ~temporalPartOf(X3,X0) | ~temporalPartOf(X4,X0) | ~instanceOf(X3,temporalInstant,X3) | ~instanceOf(X0,temporalInterval,X0) | ~precedes(X3,X4) | instanceOf(sK141(X3,X4),temporalInstant,sK141(X3,X4)) | instanceOf(sK142(X0,X3,X4),temporalInterval,sK142(X0,X3,X4))).
+
+% # SZS output end Saturation.
+% ------------------------------
+% Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% Termination reason: Satisfiable
+
+% Memory used [KB]: 14583
+% Time elapsed: 0.100 s
+% ------------------------------
+% ------------------------------
+% Success in time 0.125 s
