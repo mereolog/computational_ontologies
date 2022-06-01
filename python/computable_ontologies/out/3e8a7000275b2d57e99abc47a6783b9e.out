@@ -6,7 +6,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 100168
+% Memory used [KB]: 100936
 % Time elapsed: 4.200 s
 % ------------------------------
 % ------------------------------
@@ -21,10 +21,9 @@ TRYING [35]
 % ------------------------------
 % Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
 % Termination reason: Time limit
-% Termination phase: Finite model building constraint generation
 
 % Memory used [KB]: 20648363
-% Time elapsed: 33.700 s
+% Time elapsed: 36.600 s
 % ------------------------------
 % ------------------------------
 % ott-4_4_awrs=decay:awrsf=64:add=off:afr=on:afp=40000:afq=1.0:amm=off:bs=on:gs=on:gsaa=from_current:gsem=on:irw=on:lma=on:nm=64:newcnf=on:nwc=1:sac=on:sp=frequency:updr=off_36 on 3e8a7000275b2d57e99abc47a6783b9e
@@ -34,7 +33,7 @@ TRYING [35]
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 68442
+% Memory used [KB]: 69082
 % Time elapsed: 4.800 s
 % ------------------------------
 % ------------------------------
@@ -45,9 +44,9 @@ TRYING [35]
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 543957
-% Time elapsed: 16.100 s
+% Memory used [KB]: 505578
+% Time elapsed: 13.500 s
 % ------------------------------
 % ------------------------------
-% Proof not found in time 60.025 s
+% Proof not found in time 60.11 s
 % SZS status Timeout for 3e8a7000275b2d57e99abc47a6783b9e

@@ -6,7 +6,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 108868
+% Memory used [KB]: 82002
 % Time elapsed: 4.200 s
 % ------------------------------
 % ------------------------------
@@ -16,14 +16,13 @@ WARNING Broken Constraint: if unit_resulting_resolution(on) has been set then sa
 WARNING Broken Constraint: if nongoal_weight_coefficient(3) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
 WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
 % fmb+10_1_av=off:fmbsr=1.6:lma=on:nm=64:nwc=3:sp=reverse_arity:urr=on_258 on 9ef7ad6126e40a9df923414971b5c1f4
-TRYING [35]
 % Time limit reached!
 % ------------------------------
 % Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
 % Termination reason: Time limit
 % Termination phase: Finite model building constraint generation
 
-% Memory used [KB]: 26322812
+% Memory used [KB]: 16135003
 % Time elapsed: 33.700 s
 % ------------------------------
 % ------------------------------
@@ -34,7 +33,7 @@ TRYING [35]
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 60382
+% Memory used [KB]: 56416
 % Time elapsed: 4.800 s
 % ------------------------------
 % ------------------------------
@@ -45,9 +44,9 @@ TRYING [35]
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 560971
-% Time elapsed: 16.400 s
+% Memory used [KB]: 487156
+% Time elapsed: 16.200 s
 % ------------------------------
 % ------------------------------
-% Proof not found in time 60.036 s
+% Proof not found in time 60.109 s
 % SZS status Timeout for 9ef7ad6126e40a9df923414971b5c1f4

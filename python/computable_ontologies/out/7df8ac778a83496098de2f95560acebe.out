@@ -6,7 +6,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 94156
+% Memory used [KB]: 103239
 % Time elapsed: 4.200 s
 % ------------------------------
 % ------------------------------
@@ -33,7 +33,7 @@ WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 58463
+% Memory used [KB]: 60510
 % Time elapsed: 4.800 s
 % ------------------------------
 % ------------------------------
@@ -44,9 +44,9 @@ WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 522464
-% Time elapsed: 15.800 s
+% Memory used [KB]: 545492
+% Time elapsed: 16.300 s
 % ------------------------------
 % ------------------------------
-% Proof not found in time 60.071 s
+% Proof not found in time 60.063 s
 % SZS status Timeout for 7df8ac778a83496098de2f95560acebe

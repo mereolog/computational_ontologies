@@ -6,7 +6,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 91085
+% Memory used [KB]: 91597
 % Time elapsed: 4.200 s
 % ------------------------------
 % ------------------------------
@@ -23,7 +23,7 @@ TRYING [35]
 % Termination reason: Time limit
 % Termination phase: Finite model building constraint generation
 
-% Memory used [KB]: 23650361
+% Memory used [KB]: 22591359
 % Time elapsed: 33.700 s
 % ------------------------------
 % ------------------------------
@@ -34,7 +34,7 @@ TRYING [35]
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 59359
+% Memory used [KB]: 58463
 % Time elapsed: 4.800 s
 % ------------------------------
 % ------------------------------
@@ -45,8 +45,8 @@ TRYING [35]
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 537048
-% Time elapsed: 16.500 s
+% Memory used [KB]: 547539
+% Time elapsed: 16.400 s
 % ------------------------------
 % ------------------------------
 % Proof not found in time 60.1 s

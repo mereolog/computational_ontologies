@@ -6,7 +6,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 90318
+% Memory used [KB]: 101959
 % Time elapsed: 4.200 s
 % ------------------------------
 % ------------------------------
@@ -22,7 +22,7 @@ WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm
 % Termination reason: Time limit
 % Termination phase: Finite model building constraint generation
 
-% Memory used [KB]: 23486995
+% Memory used [KB]: 23013911
 % Time elapsed: 33.700 s
 % ------------------------------
 % ------------------------------
@@ -33,7 +33,7 @@ WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 61150
+% Memory used [KB]: 61534
 % Time elapsed: 4.800 s
 % ------------------------------
 % ------------------------------
@@ -42,10 +42,11 @@ WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm
 % ------------------------------
 % Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
 % Termination reason: Time limit
+% Termination phase: Saturation
 
-% Memory used [KB]: 99145
-% Time elapsed: 3153.006 s
+% Memory used [KB]: 561099
+% Time elapsed: 16.200 s
 % ------------------------------
 % ------------------------------
-% Proof not found in time 3202.04 s
+% Proof not found in time 60.027 s
 % SZS status Timeout for 366850237530cc7483a0b2353bf88545

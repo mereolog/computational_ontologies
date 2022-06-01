@@ -6,7 +6,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 105925
+% Memory used [KB]: 93516
 % Time elapsed: 4.200 s
 % ------------------------------
 % ------------------------------
@@ -23,7 +23,7 @@ TRYING [35]
 % Termination reason: Time limit
 % Termination phase: Finite model building constraint generation
 
-% Memory used [KB]: 24046047
+% Memory used [KB]: 22659162
 % Time elapsed: 33.700 s
 % ------------------------------
 % ------------------------------
@@ -34,7 +34,7 @@ TRYING [35]
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 60126
+% Memory used [KB]: 61150
 % Time elapsed: 4.800 s
 % ------------------------------
 % ------------------------------
@@ -45,9 +45,9 @@ TRYING [35]
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 541782
-% Time elapsed: 16.500 s
+% Memory used [KB]: 531547
+% Time elapsed: 16.400 s
 % ------------------------------
 % ------------------------------
-% Proof not found in time 60.096 s
+% Proof not found in time 60.02 s
 % SZS status Timeout for b0851893a2847297b7683fe396145661

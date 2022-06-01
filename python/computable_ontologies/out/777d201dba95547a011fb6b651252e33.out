@@ -6,7 +6,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 97354
+% Memory used [KB]: 105797
 % Time elapsed: 4.200 s
 % ------------------------------
 % ------------------------------
@@ -16,13 +16,14 @@ WARNING Broken Constraint: if unit_resulting_resolution(on) has been set then sa
 WARNING Broken Constraint: if nongoal_weight_coefficient(3) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
 WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
 % fmb+10_1_av=off:fmbsr=1.6:lma=on:nm=64:nwc=3:sp=reverse_arity:urr=on_258 on 777d201dba95547a011fb6b651252e33
+TRYING [35]
 % Time limit reached!
 % ------------------------------
 % Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
 % Termination reason: Time limit
 % Termination phase: Finite model building constraint generation
 
-% Memory used [KB]: 23959951
+% Memory used [KB]: 25401462
 % Time elapsed: 33.700 s
 % ------------------------------
 % ------------------------------
@@ -33,7 +34,7 @@ WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 58719
+% Memory used [KB]: 61534
 % Time elapsed: 4.800 s
 % ------------------------------
 % ------------------------------
@@ -44,9 +45,9 @@ WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 531291
-% Time elapsed: 15.900 s
+% Memory used [KB]: 556750
+% Time elapsed: 16.400 s
 % ------------------------------
 % ------------------------------
-% Proof not found in time 60.031 s
+% Proof not found in time 60.037 s
 % SZS status Timeout for 777d201dba95547a011fb6b651252e33

@@ -6,7 +6,7 @@
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 70105
+% Memory used [KB]: 102855
 % Time elapsed: 4.200 s
 % ------------------------------
 % ------------------------------
@@ -29,7 +29,7 @@ TRYING [7]
 % Termination reason: Time limit
 % Termination phase: Finite model building SAT solving
 
-% Memory used [KB]: 966380
+% Memory used [KB]: 966764
 % Time elapsed: 33.700 s
 % ------------------------------
 % ------------------------------
@@ -40,7 +40,7 @@ TRYING [7]
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 56800
+% Memory used [KB]: 54242
 % Time elapsed: 4.800 s
 % ------------------------------
 % ------------------------------
@@ -51,9 +51,9 @@ TRYING [7]
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 555086
-% Time elapsed: 17.200 s
+% Memory used [KB]: 489970
+% Time elapsed: 17.300 s
 % ------------------------------
 % ------------------------------
-% Proof not found in time 60.051 s
+% Proof not found in time 60.141 s
 % SZS status Timeout for b66a6e5a48e9c9620d1f430b4a0fadd3

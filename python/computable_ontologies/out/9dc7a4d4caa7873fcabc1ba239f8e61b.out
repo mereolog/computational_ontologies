@@ -4,9 +4,10 @@
 % ------------------------------
 % Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
 % Termination reason: Time limit
+% Termination phase: Saturation
 
-% Memory used [KB]: 47461
-% Time elapsed: 4.308 s
+% Memory used [KB]: 107333
+% Time elapsed: 4.200 s
 % ------------------------------
 % ------------------------------
 WARNING Broken Constraint: if symbol_precedence(reverse_arity) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
@@ -21,7 +22,7 @@ WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm
 % Termination reason: Time limit
 % Termination phase: Finite model building constraint generation
 
-% Memory used [KB]: 16608215
+% Memory used [KB]: 20648363
 % Time elapsed: 33.700 s
 % ------------------------------
 % ------------------------------
@@ -32,7 +33,7 @@ WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 60126
+% Memory used [KB]: 61150
 % Time elapsed: 4.800 s
 % ------------------------------
 % ------------------------------
@@ -43,9 +44,9 @@ WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm
 % Termination reason: Time limit
 % Termination phase: Saturation
 
-% Memory used [KB]: 526174
-% Time elapsed: 14.900 s
+% Memory used [KB]: 558796
+% Time elapsed: 16.200 s
 % ------------------------------
 % ------------------------------
-% Proof not found in time 60.09 s
+% Proof not found in time 60.064 s
 % SZS status Timeout for 9dc7a4d4caa7873fcabc1ba239f8e61b
