@@ -1,6 +1,7 @@
 import hashlib
 import os
 import re
+import sys
 from itertools import combinations
 
 
@@ -50,14 +51,8 @@ def __check_subaxioms(axioms: list, depth: int):
       
             
 if __name__ == '__main__':
-    axioms_in_text_file = open('Resources/bfo.tptp')
-    axioms_text = axioms_in_text_file.read()
-    axioms_in_text = __get_all_axioms_from_text(text=axioms_text)
-    identified_axioms_in_text = __identify_axioms_by_first_variable_used(axioms=axioms_in_text)
-    identified_axioms_in_text.sort()
-    __check_subaxioms(axioms=identified_axioms_in_text, depth=1)
-else:
-    axioms_in_text_file = open('Resources/bfo.tptp')
+    tptp_file_path = sys.argv[1]
+    axioms_in_text_file = open(tptp_file_path)
     axioms_text = axioms_in_text_file.read()
     axioms_in_text = __get_all_axioms_from_text(text=axioms_text)
     identified_axioms_in_text = __identify_axioms_by_first_variable_used(axioms=axioms_in_text)
