@@ -1,0 +1,2717 @@
+% (26220)Running in auto input_syntax mode. Trying TPTP
+WARNING Broken Constraint: if symbol_precedence(reverse_arity) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if literal_maximality_aftercheck(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if unit_resulting_resolution(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if nongoal_weight_coefficient(3) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (26221)ott+11_3_aac=none:afr=on:afp=4000:afq=1.4:amm=off:anc=all:bs=unit_only:bsr=on:bce=on:fde=unused:irw=on:nm=64:newcnf=on:nwc=1:nicw=on:sac=on:sp=reverse_arity:uhcvi=on_31 on bfo
+% (26222)fmb+10_1_av=off:fmbsr=1.6:lma=on:nm=64:nwc=3:sp=reverse_arity:urr=on_258 on bfo
+% (26223)ott-4_4_awrs=decay:awrsf=64:add=off:afr=on:afp=40000:afq=1.0:amm=off:bs=on:gs=on:gsaa=from_current:gsem=on:irw=on:lma=on:nm=64:newcnf=on:nwc=1:sac=on:sp=frequency:updr=off_36 on bfo
+% (26224)ott+10_128_av=off:bs=on:gsp=on:irw=on:lcm=predicate:lma=on:nm=0:nwc=1:sp=occurrence:urr=on:updr=off:uhcvi=on_231 on bfo
+% (26221)Time limit reached!
+% (26221)------------------------------
+% (26221)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26221)Termination reason: Time limit
+% (26221)Termination phase: Saturation
+
+% (26221)Memory used [KB]: 79444
+% (26221)Time elapsed: 4.200 s
+% (26221)------------------------------
+% (26221)------------------------------
+% (26228)dis+11_1024_av=off:bd=off:bs=on:cond=on:gs=on:lma=on:nm=16:nwc=1:sp=occurrence:updr=off_169 on bfo
+% (26223)Time limit reached!
+% (26223)------------------------------
+% (26223)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26223)Termination reason: Time limit
+% (26223)Termination phase: Saturation
+
+% (26223)Memory used [KB]: 54370
+% (26223)Time elapsed: 4.800 s
+% (26223)------------------------------
+% (26223)------------------------------
+% (26229)WARNING: value z3 for option sas not known
+% (26229)ott-3_5_awrs=decay:awrsf=128:afr=on:afp=40000:afq=1.0:amm=off:anc=none:bce=on:cond=fast:lma=on:nm=64:newcnf=on:nwc=1.1:sas=z3:sp=frequency:updr=off_60 on bfo
+% (26229)Time limit reached!
+% (26229)------------------------------
+% (26229)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26229)Termination reason: Time limit
+% (26229)Termination phase: Saturation
+
+% (26229)Memory used [KB]: 36587
+% (26229)Time elapsed: 8.0000 s
+% (26231)ott+11_3:1_afp=4000:afq=2.0:amm=off:anc=none:fsr=off:gs=on:gsem=off:lma=on:nm=64:newcnf=on:nwc=1:updr=off_83 on bfo
+% (26231)Time limit reached!
+% (26231)------------------------------
+% (26231)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26231)Termination reason: Time limit
+% (26231)Termination phase: Saturation
+
+% (26231)Memory used [KB]: 183195
+% (26231)Time elapsed: 10.900 s
+% (26231)------------------------------
+% (26231)------------------------------
+% (26232)WARNING: value z3 for option sas not known
+% (26232)ott+10_3:1_afp=1000:afq=2.0:anc=none:fde=none:gs=on:gsaa=full_model:irw=on:nm=64:nwc=1:sas=z3:sac=on:updr=off_68 on bfo
+% (26228)Time limit reached!
+% (26228)------------------------------
+% (26228)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26228)Termination reason: Time limit
+% (26228)Termination phase: Saturation
+
+% (26228)Memory used [KB]: 728047
+% (26228)Time elapsed: 22.100 s
+% (26228)------------------------------
+% (26228)------------------------------
+% (26233)dis-3_5_awrs=decay:awrsf=2:add=off:afr=on:afp=100000:afq=2.0:amm=sco:anc=none:bs=unit_only:bce=on:fsr=off:fde=none:gs=on:gsem=on:irw=on:lma=on:nm=64:nwc=1:sp=frequency:updr=off:uhcvi=on_119 on bfo
+% (26224)Time limit reached!
+% (26224)------------------------------
+% (26224)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26224)Termination reason: Time limit
+% (26224)Termination phase: Saturation
+
+% (26224)Memory used [KB]: 691587
+% (26224)Time elapsed: 30.200 s
+% (26224)------------------------------
+% (26224)------------------------------
+% (26234)lrs-11_8_afr=on:afp=100000:afq=2.0:anc=none:bd=off:cond=on:gs=on:lma=on:nm=2:newcnf=on:nwc=3:stl=30:sac=on:sp=occurrence_109 on bfo
+% (26232)Time limit reached!
+% (26232)------------------------------
+% (26232)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26232)Termination reason: Time limit
+% (26232)Termination phase: Saturation
+
+% (26232)Memory used [KB]: 187544
+% (26232)Time elapsed: 9.0000 s
+% (26235)WARNING: value z3 for option sas not known
+% (26235)ott+4_5_add=large:afr=on:afp=40000:afq=1.1:amm=sco:bd=off:bs=unit_only:bsr=on:gs=on:lma=on:nm=64:nwc=1:sas=z3:sac=on:sp=reverse_arity_234 on bfo
+% (26222)Time limit reached!
+% (26222)------------------------------
+% (26222)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26222)Termination reason: Time limit
+% (26222)Termination phase: Finite model building constraint generation
+
+% (26222)Memory used [KB]: 15188452
+% (26222)Time elapsed: 33.700 s
+% (26222)------------------------------
+% (26222)------------------------------
+% (26233)Time limit reached!
+% (26233)------------------------------
+% (26233)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26233)Termination reason: Time limit
+% (26233)Termination phase: Saturation
+
+% (26233)Memory used [KB]: 438031
+% (26233)Time elapsed: 15.600 s
+% (26233)------------------------------
+% (26233)------------------------------
+% (26234)Time limit reached!
+% (26234)------------------------------
+% (26234)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26234)Termination reason: Time limit
+% (26234)Termination phase: Saturation
+
+% (26234)Memory used [KB]: 96075
+% (26234)Time elapsed: 14.300 s
+% (26234)------------------------------
+% (26234)------------------------------
+% (26235)Time limit reached!
+% (26235)------------------------------
+% (26235)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26235)Termination reason: Time limit
+% (26235)Termination phase: Saturation
+
+% (26235)Memory used [KB]: 442636
+% (26235)Time elapsed: 30.600 s
+% (26241)WARNING: value smt for option fmbes not known
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (26241)fmb+10_1_av=off:bce=on:fmbes=smt:fmbsr=1.4:fde=none:ile=on:updr=off_600 on bfo
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (26243)fmb+10_1_av=off:fmbsr=1.1:updr=off_300 on bfo
+% (26242)fmb+10_1_av=off:bce=on:fmbsr=1.3:nm=2:newcnf=on_1200 on bfo
+% (26244)fmb+10_1_av=off:fmbsr=1.6_1200 on bfo
+% (26243)Time limit reached!
+% (26243)------------------------------
+% (26243)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26243)Termination reason: Time limit
+% (26243)Termination phase: Finite model building constraint generation
+
+% (26243)Memory used [KB]: 6966283
+% (26243)Time elapsed: 39.200 s
+% (26243)------------------------------
+% (26243)------------------------------
+WARNING Broken Constraint: if inner_rewriting(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if symbol_precedence(reverse_arity) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if sos(all) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if literal_maximality_aftercheck(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if literal_comparison_mode(predicate) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if nongoal_weight_coefficient(1.7) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (26249)fmb+10_1_av=off:fde=unused:ile=on:irw=on:lcm=predicate:lma=on:nm=16:nwc=1.7:sos=all:sp=reverse_arity_300 on bfo
+% (26249)Time limit reached!
+% (26249)------------------------------
+% (26249)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26249)Termination reason: Time limit
+% (26249)Termination phase: Finite model building constraint generation
+
+% (26249)Memory used [KB]: 7176599
+% (26249)Time elapsed: 39.200 s
+% (26249)------------------------------
+% (26249)------------------------------
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (26250)fmb+10_1_av=off:fmbsr=1.5:updr=off_300 on bfo
+% (26241)Time limit reached!
+% (26241)------------------------------
+% (26241)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26241)Termination reason: Time limit
+% (26241)Termination phase: Finite model building constraint generation
+
+% (26241)Memory used [KB]: 13177781
+% (26241)Time elapsed: 78.200 s
+% (26251)WARNING: value z3 for option sas not known
+% (26251)lrs+11_6_aac=none:add=off:afp=100000:afq=1.1:amm=off:anc=none:bd=off:fsr=off:gs=on:gsem=off:nwc=1:sas=z3:sp=occurrence_300 on bfo
+% (26250)Time limit reached!
+% (26250)------------------------------
+% (26250)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26250)Termination reason: Time limit
+% (26250)Termination phase: Finite model building constraint generation
+
+% (26250)Memory used [KB]: 7527126
+% (26250)Time elapsed: 39.200 s
+% (26250)------------------------------
+% (26250)------------------------------
+% (26251)Time limit reached!
+% (26251)------------------------------
+% (26251)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26251)Termination reason: Time limit
+% (26251)Termination phase: Saturation
+
+% (26251)Memory used [KB]: 647835
+% (26251)Time elapsed: 39.200 s
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (26260)fmb+10_1_av=off:fmbsr=1.4_300 on bfo
+% (26261)dis+11_5_add=large:afr=on:afp=1000:afq=1.0:anc=none:bsr=on:fsr=off:nm=64:newcnf=on:nwc=1:updr=off_300 on bfo
+TRYING [35]
+TRYING [35]
+% (26244)Time limit reached!
+% (26244)------------------------------
+% (26244)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26244)Termination reason: Time limit
+% (26244)Termination phase: Finite model building constraint generation
+
+% (26244)Memory used [KB]: 25334043
+% (26244)Time elapsed: 156.200 s
+% (26244)------------------------------
+% (26244)------------------------------
+% (26242)Time limit reached!
+% (26242)------------------------------
+% (26242)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26242)Termination reason: Time limit
+% (26242)Termination phase: Finite model building constraint generation
+
+% (26242)Memory used [KB]: 24861471
+% (26242)Time elapsed: 156.200 s
+% (26242)------------------------------
+% (26242)------------------------------
+% (26267)ott+11_3:1_afp=4000:afq=2.0:amm=off:anc=none:fsr=off:gs=on:gsem=off:lma=on:nm=64:newcnf=on:nwc=1:updr=off_300 on bfo
+% (26268)WARNING: value z3 for option sas not known
+% (26268)dis+4_7_aac=none:afr=on:anc=none:bd=preordered:bce=on:cond=fast:fsr=off:fde=unused:gs=on:gsaa=full_model:gsem=off:irw=on:lma=on:nwc=1:nicw=on:sas=z3:sac=on:sp=reverse_arity:uhcvi=on_300 on bfo
+% (26261)Time limit reached!
+% (26261)------------------------------
+% (26261)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26261)Termination reason: Time limit
+% (26261)Termination phase: Saturation
+
+% (26261)Memory used [KB]: 155306
+% (26261)Time elapsed: 39.200 s
+% (26261)------------------------------
+% (26261)------------------------------
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (26269)fmb+10_1_av=off:fmbes=contour:fmbsr=1.6:ile=on:nm=64:updr=off_600 on bfo
+% (26260)Time limit reached!
+% (26260)------------------------------
+% (26260)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26260)Termination reason: Time limit
+% (26260)Termination phase: Finite model building constraint generation
+
+% (26260)Memory used [KB]: 9182537
+% (26260)Time elapsed: 39.200 s
+% (26260)------------------------------
+% (26260)------------------------------
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (26270)fmb+10_1_av=off:fmbsr=1.2:fde=unused:updr=off_1800 on bfo
+% (26267)Time limit reached!
+% (26267)------------------------------
+% (26267)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26267)Termination reason: Time limit
+% (26267)Termination phase: Saturation
+
+% (26267)Memory used [KB]: 407839
+% (26267)Time elapsed: 39.200 s
+% (26267)------------------------------
+% (26267)------------------------------
+% (26268)Time limit reached!
+% (26268)------------------------------
+% (26268)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26268)Termination reason: Time limit
+% (26268)Termination phase: Saturation
+
+% (26268)Memory used [KB]: 1019599
+% (26268)Time elapsed: 39.200 s
+% (26286)WARNING: value z3 for option sas not known
+% (26286)dis+11_1_afp=10000:afq=1.4:anc=none:er=filter:gs=on:gsem=off:irw=on:lma=on:nwc=1:sas=z3:sp=occurrence:updr=off_300 on bfo
+% (26287)ott+10_6_add=off:afr=on:afp=1000:afq=1.0:amm=off:bsr=on:cond=on:fsr=off:fde=none:gs=on:gsem=on:ile=on:nm=2:newcnf=on:nwc=1:sp=reverse_arity:updr=off_300 on bfo
+% (26286)Time limit reached!
+% (26286)------------------------------
+% (26286)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26286)Termination reason: Time limit
+% (26286)Termination phase: Saturation
+
+% (26286)Memory used [KB]: 223621
+% (26286)Time elapsed: 39.200 s
+% (26291)WARNING: value z3 for option sas not known
+% (26291)ott+2_4:1_aac=none:add=off:afp=10000:afq=1.1:amm=off:anc=none:bs=on:gs=on:gsem=off:ile=on:irw=on:nm=64:newcnf=on:nwc=1:sas=z3:sp=reverse_arity_300 on bfo
+% (26287)Time limit reached!
+% (26287)------------------------------
+% (26287)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26287)Termination reason: Time limit
+% (26287)Termination phase: Saturation
+
+% (26287)Memory used [KB]: 572101
+% (26287)Time elapsed: 39.200 s
+% (26287)------------------------------
+% (26287)------------------------------
+% (26292)ott+10_128_av=off:bs=on:gsp=on:irw=on:lcm=predicate:lma=on:nm=0:nwc=1:sp=occurrence:urr=on:updr=off:uhcvi=on_300 on bfo
+% (26269)Time limit reached!
+% (26269)------------------------------
+% (26269)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26269)Termination reason: Time limit
+% (26269)Termination phase: Finite model building constraint generation
+
+% (26269)Memory used [KB]: 19938993
+% (26269)Time elapsed: 78.200 s
+% (26269)------------------------------
+% (26269)------------------------------
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (26293)fmb+10_1_av=off:bce=on:nm=6_1500 on bfo
+TRYING [35]
+% (26291)Time limit reached!
+% (26291)------------------------------
+% (26291)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26291)Termination reason: Time limit
+% (26291)Termination phase: Saturation
+
+% (26291)Memory used [KB]: 273513
+% (26291)Time elapsed: 39.200 s
+% (26320)WARNING: value z3 for option sas not known
+% (26320)ott+1_8:1_add=large:afp=10000:afq=1.0:amm=sco:anc=none:bd=off:bsr=on:fsr=off:fde=unused:ile=on:irw=on:nm=0:newcnf=on:nwc=1:sas=z3:sp=occurrence:updr=off:uhcvi=on_300 on bfo
+% (26292)Time limit reached!
+% (26292)------------------------------
+% (26292)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26292)Termination reason: Time limit
+
+% (26292)Memory used [KB]: 552144
+% (26292)Time elapsed: 45.386 s
+% (26292)------------------------------
+% (26292)------------------------------
+WARNING Broken Constraint: if lrs_weight_limit_only(on) has been set then saturation_algorithm(otter) is equal to lrs
+% (26348)ott+11_3_afr=on:afp=10000:afq=1.4:amm=off:anc=none:bsr=on:cond=on:er=known:ile=on:irw=on:lwlo=on:nm=64:newcnf=on:nwc=1:sac=on_300 on bfo
+% (26320)Time limit reached!
+% (26320)------------------------------
+% (26320)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26320)Termination reason: Time limit
+% (26320)Termination phase: Saturation
+
+% (26320)Memory used [KB]: 261104
+% (26320)Time elapsed: 39.200 s
+% (26395)dis+10_3_add=large:afp=10000:afq=2.0:amm=sco:anc=none:cond=on:fsr=off:gsp=on:lma=on:nm=16:nwc=1:sac=on:updr=off_300 on bfo
+% (26348)Time limit reached!
+% (26348)------------------------------
+% (26348)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26348)Termination reason: Time limit
+% (26348)Termination phase: Saturation
+
+% (26348)Memory used [KB]: 194325
+% (26348)Time elapsed: 39.200 s
+% (26348)------------------------------
+% (26348)------------------------------
+% (26397)WARNING: value z3 for option sas not known
+% (26397)WARNING: option thi not known.
+% (26397)lrs+1011_64_add=off:afr=on:afp=1000:afq=1.2:amm=off:anc=all_dependent:bsr=on:bce=on:cond=on:fsr=off:gs=on:inw=on:ile=on:nm=2:newcnf=on:nwc=1.1:sas=z3:sac=on:sp=occurrence:tha=off:thi=overlap:updr=off:uhcvi=on_300 on bfo
+TRYING [35]
+% (26395)Time limit reached!
+% (26395)------------------------------
+% (26395)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26395)Termination reason: Time limit
+% (26395)Termination phase: Saturation
+
+% (26395)Memory used [KB]: 269931
+% (26395)Time elapsed: 39.200 s
+% (26395)------------------------------
+% (26395)------------------------------
+% (26404)WARNING: value z3 for option sas not known
+WARNING Broken Constraint: if lrs_weight_limit_only(on) has been set then saturation_algorithm(discount) is equal to lrs
+% (26404)dis+11_3_afr=on:afp=4000:afq=2.0:amm=sco:anc=none:bce=on:cond=on:fsr=off:ile=on:lwlo=on:nm=64:newcnf=on:nwc=1:sas=z3:tha=off:thf=on_300 on bfo
+% (26397)Time limit reached!
+% (26397)------------------------------
+% (26397)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26397)Termination reason: Time limit
+% (26397)Termination phase: Saturation
+
+% (26397)Memory used [KB]: 311892
+% (26397)Time elapsed: 39.200 s
+% (26407)dis+10_3_av=off:ins=3:nwc=1:sp=reverse_arity_300 on bfo
+% (26404)Time limit reached!
+% (26404)------------------------------
+% (26404)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26404)Termination reason: Time limit
+% (26404)Termination phase: Saturation
+
+% (26404)Memory used [KB]: 190871
+% (26404)Time elapsed: 39.200 s
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (26413)fmb+10_1_av=off:fmbas=predicate:fmbes=contour:fmbsr=1.4:fde=unused:nm=64:newcnf=on:updr=off_600 on bfo
+% (26407)Time limit reached!
+% (26407)------------------------------
+% (26407)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26407)Termination reason: Time limit
+% (26407)Termination phase: Saturation
+
+% (26407)Memory used [KB]: 333128
+% (26407)Time elapsed: 39.200 s
+% (26407)------------------------------
+% (26407)------------------------------
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (26415)fmb+10_1_av=off:fmbsr=2.0:fde=none:updr=off_1800 on bfo
+% (26270)Time limit reached!
+% (26270)------------------------------
+% (26270)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26270)Termination reason: Time limit
+% (26270)Termination phase: Finite model building constraint generation
+
+% (26270)Memory used [KB]: 46890708
+% (26270)Time elapsed: 234.200 s
+% (26270)------------------------------
+% (26270)------------------------------
+% (26417)dis+11_1024_av=off:bd=off:bs=on:cond=on:gs=on:lma=on:nm=16:nwc=1:sp=occurrence:updr=off_300 on bfo
+% (26293)Time limit reached!
+% (26293)------------------------------
+% (26293)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26293)Termination reason: Time limit
+% (26293)Termination phase: Finite model building constraint generation
+
+% (26293)Memory used [KB]: 42954823
+% (26293)Time elapsed: 195.101 s
+% (26293)------------------------------
+% (26293)------------------------------
+% (26428)dis-1_64_acc=on:add=large:afp=100000:afq=1.1:anc=none:bd=preordered:ccuc=small_ones:gs=on:nwc=1:sac=on:sp=reverse_arity:uhcvi=on_300 on bfo
+% (26417)Time limit reached!
+% (26417)------------------------------
+% (26417)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26417)Termination reason: Time limit
+% (26417)Termination phase: Saturation
+
+% (26417)Memory used [KB]: 726384
+% (26417)Time elapsed: 39.200 s
+% (26417)------------------------------
+% (26417)------------------------------
+% (26431)ott+10_3:1_afp=40000:afq=1.4:amm=off:anc=none:bs=on:irw=on:nm=64:nwc=1:sac=on:sp=reverse_arity_600 on bfo
+% (26413)Time limit reached!
+% (26413)------------------------------
+% (26413)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26413)Termination reason: Time limit
+% (26413)Termination phase: Finite model building constraint generation
+
+% (26413)Memory used [KB]: 19761554
+% (26413)Time elapsed: 78.200 s
+% (26413)------------------------------
+% (26413)------------------------------
+% (26432)ott+10_64_add=off:afr=on:afp=10000:afq=1.4:amm=sco:anc=none:bd=off:lcm=predicate:lma=on:nwc=1:sac=on:sp=reverse_arity:urr=on_300 on bfo
+% (26428)Time limit reached!
+% (26428)------------------------------
+% (26428)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26428)Termination reason: Time limit
+% (26428)Termination phase: Saturation
+
+% (26428)Memory used [KB]: 840114
+% (26428)Time elapsed: 39.200 s
+% (26428)------------------------------
+% (26428)------------------------------
+% (26433)WARNING: value z3 for option sas not known
+% (26433)dis+11_3_add=large:afp=1000:afq=1.4:amm=off:anc=none:gs=on:lma=on:nwc=1:sas=z3:sac=on:sp=occurrence:updr=off_300 on bfo
+TRYING [35]
+% (26432)Time limit reached!
+% (26432)------------------------------
+% (26432)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26432)Termination reason: Time limit
+% (26432)Termination phase: Saturation
+
+% (26432)Memory used [KB]: 750179
+% (26432)Time elapsed: 39.200 s
+% (26432)------------------------------
+% (26432)------------------------------
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (26436)fmb+10_1_av=off:bce=on:fmbsr=1.3:fde=none:nm=64:newcnf=on_900 on bfo
+% (26433)Time limit reached!
+% (26433)------------------------------
+% (26433)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26433)Termination reason: Time limit
+% (26433)Termination phase: Saturation
+
+% (26433)Memory used [KB]: 1198189
+% (26433)Time elapsed: 39.200 s
+% (26437)WARNING: value z3 for option sas not known
+WARNING Broken Constraint: if lrs_weight_limit_only(on) has been set then saturation_algorithm(discount) is equal to lrs
+% (26437)dis+11_5:4_add=large:afr=on:afp=1000:afq=2.0:amm=off:anc=none:lwlo=on:nwc=1:sas=z3:sac=on:sp=reverse_arity_300 on bfo
+% (26431)Time limit reached!
+% (26431)------------------------------
+% (26431)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26431)Termination reason: Time limit
+% (26431)Termination phase: Saturation
+
+% (26431)Memory used [KB]: 387115
+% (26431)Time elapsed: 78.200 s
+% (26431)------------------------------
+% (26431)------------------------------
+% (26438)WARNING: value z3 for option sas not known
+% (26438)ott+10_1_add=large:afp=1000:afq=1.2:amm=off:anc=none:bd=off:bs=on:fsr=off:gs=on:gsem=on:irw=on:lma=on:nwc=1:sas=z3:sp=occurrence:updr=off_300 on bfo
+% (26437)Time limit reached!
+% (26437)------------------------------
+% (26437)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26437)Termination reason: Time limit
+% (26437)Termination phase: Saturation
+
+% (26437)Memory used [KB]: 389290
+% (26437)Time elapsed: 39.200 s
+% (26440)ott+11_14_add=large:afp=1000:afq=1.4:amm=off:anc=none:fde=unused:gs=on:gsem=on:irw=on:nm=4:newcnf=on:nwc=1:sac=on:sp=occurrence_300 on bfo
+% (26438)Time limit reached!
+% (26438)------------------------------
+% (26438)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26438)Termination reason: Time limit
+% (26438)Termination phase: Saturation
+
+% (26438)Memory used [KB]: 855337
+% (26438)Time elapsed: 39.200 s
+% (26443)dis+4_16_acc=model:add=large:afr=on:afp=40000:afq=2.0:amm=off:anc=none:bs=on:ccuc=small_ones:fsr=off:ile=on:nm=4:newcnf=on:nwc=1:nicw=on:sp=reverse_arity_300 on bfo
+TRYING [35]
+% (26440)Time limit reached!
+% (26440)------------------------------
+% (26440)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26440)Termination reason: Time limit
+% (26440)Termination phase: Saturation
+
+% (26440)Memory used [KB]: 524511
+% (26440)Time elapsed: 39.200 s
+% (26440)------------------------------
+% (26440)------------------------------
+% (26453)ott+2_6_add=large:afr=on:afp=4000:afq=2.0:amm=sco:anc=all:bs=on:bce=on:cond=fast:fde=none:gs=on:gsem=off:ile=on:nm=64:newcnf=on:nwc=1:sac=on:urr=on:updr=off_300 on bfo
+% (26443)Time limit reached!
+% (26443)------------------------------
+% (26443)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26443)Termination reason: Time limit
+% (26443)Termination phase: Saturation
+
+% (26443)Memory used [KB]: 96970
+% (26443)Time elapsed: 39.200 s
+% (26443)------------------------------
+% (26443)------------------------------
+% (26457)dis+1_3_av=off:cond=on:nm=64:newcnf=on:nwc=1_300 on bfo
+% (26436)Time limit reached!
+% (26436)------------------------------
+% (26436)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26436)Termination reason: Time limit
+% (26436)Termination phase: Finite model building constraint generation
+
+% (26436)Memory used [KB]: 37948550
+% (26436)Time elapsed: 117.200 s
+% (26436)------------------------------
+% (26436)------------------------------
+% (26471)WARNING: value z3 for option sas not known
+% (26471)ott+1_3_add=large:afp=10000:afq=1.4:amm=off:bd=preordered:bs=on:bsr=on:bce=on:cond=fast:fsr=off:fde=unused:gs=on:irw=on:lma=on:nwc=1:sas=z3:sp=reverse_arity:updr=off:uhcvi=on_300 on bfo
+% (26415)Time limit reached!
+% (26415)------------------------------
+% (26415)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26415)Termination reason: Time limit
+% (26415)Termination phase: Finite model building constraint generation
+
+% (26415)Memory used [KB]: 53815541
+% (26415)Time elapsed: 234.200 s
+% (26415)------------------------------
+% (26415)------------------------------
+% (26453)Time limit reached!
+% (26453)------------------------------
+% (26453)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26453)Termination reason: Time limit
+% (26453)Termination phase: Saturation
+
+% (26453)Memory used [KB]: 781394
+% (26453)Time elapsed: 39.200 s
+% (26453)------------------------------
+% (26453)------------------------------
+% (26474)lrs-11_8_afr=on:afp=100000:afq=2.0:anc=none:bd=off:cond=on:gs=on:lma=on:nm=2:newcnf=on:nwc=3:sac=on:sp=occurrence_300 on bfo
+% (26475)WARNING: value z3 for option sas not known
+% (26475)ott+4_5_add=large:afr=on:afp=40000:afq=1.1:amm=sco:bd=off:bs=unit_only:bsr=on:gs=on:lma=on:nm=64:nwc=1:sas=z3:sac=on:sp=reverse_arity_300 on bfo
+% (26457)Time limit reached!
+% (26457)------------------------------
+% (26457)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26457)Termination reason: Time limit
+% (26457)Termination phase: Saturation
+
+% (26457)Memory used [KB]: 429587
+% (26457)Time elapsed: 39.200 s
+% (26457)------------------------------
+% (26457)------------------------------
+% (26478)ott+11_3_aac=none:afr=on:afp=4000:afq=1.4:amm=off:anc=all:bs=unit_only:bsr=on:bce=on:fde=unused:irw=on:nm=64:newcnf=on:nwc=1:nicw=on:sac=on:sp=reverse_arity:uhcvi=on_300 on bfo
+% (26471)Time limit reached!
+% (26471)------------------------------
+% (26471)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26471)Termination reason: Time limit
+% (26471)Termination phase: Saturation
+
+% (26471)Memory used [KB]: 886552
+% (26471)Time elapsed: 39.200 s
+% (26551)dis+11_50_aac=none:acc=model:add=large:afr=on:afp=4000:afq=2.0:anc=none:ccuc=first:er=known:fde=unused:gsp=on:gs=on:gsaa=full_model:ile=on:irw=on:nm=64:newcnf=on:nwc=4:sac=on:sp=occurrence:updr=off_300 on bfo
+% (26474)Time limit reached!
+% (26474)------------------------------
+% (26474)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26474)Termination reason: Time limit
+% (26474)Termination phase: Saturation
+
+% (26474)Memory used [KB]: 169250
+% (26474)Time elapsed: 39.200 s
+% (26474)------------------------------
+% (26474)------------------------------
+% (26552)WARNING: value z3 for option sas not known
+% (26552)ott+11_50_aac=none:add=off:afp=1000:afq=1.4:anc=none:bs=unit_only:fde=none:gs=on:gsem=off:lma=on:nwc=1:sas=z3:sac=on:uhcvi=on_200 on bfo
+% (26475)Time limit reached!
+% (26475)------------------------------
+% (26475)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26475)Termination reason: Time limit
+% (26475)Termination phase: Saturation
+
+% (26475)Memory used [KB]: 450824
+% (26475)Time elapsed: 39.200 s
+% (26553)ott+2_5_afp=4000:afq=2.0:anc=none:bce=on:fsr=off:gsp=on:lma=on:nm=32:nwc=1:sp=reverse_arity_600 on bfo
+% (26478)Time limit reached!
+% (26478)------------------------------
+% (26478)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26478)Termination reason: Time limit
+% (26478)Termination phase: Saturation
+
+% (26478)Memory used [KB]: 337862
+% (26478)Time elapsed: 39.200 s
+% (26478)------------------------------
+% (26478)------------------------------
+% (26555)dis-4_4_add=large:afr=on:afp=1000:afq=1.4:anc=all_dependent:bs=unit_only:fde=none:gs=on:gsaa=from_current:lma=on:nwc=1.2:sac=on:updr=off_600 on bfo
+% (26552)Time limit reached!
+% (26552)------------------------------
+% (26552)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26552)Termination reason: Time limit
+% (26552)Termination phase: Saturation
+
+% (26552)Memory used [KB]: 664850
+% (26552)Time elapsed: 26.200 s
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (26562)fmb+10_1_av=off:bce=on:fmbes=contour:fmbsr=2.0:ile=on:nm=2_600 on bfo
+% (26551)Time limit reached!
+% (26551)------------------------------
+% (26551)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26551)Termination reason: Time limit
+% (26551)Termination phase: Saturation
+
+% (26551)Memory used [KB]: 73431
+% (26551)Time elapsed: 39.200 s
+% (26551)------------------------------
+% (26551)------------------------------
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (26563)fmb+10_1_av=off:fmbsr=1.6:fde=none:updr=off_3000 on bfo
+% (26553)Time limit reached!
+% (26553)------------------------------
+% (26553)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26553)Termination reason: Time limit
+% (26553)Termination phase: Saturation
+
+% (26553)Memory used [KB]: 246776
+% (26553)Time elapsed: 78.201 s
+% (26553)------------------------------
+% (26553)------------------------------
+% (26567)WARNING: value smt for option fmbes not known
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (26567)fmb+10_1_av=off:bce=on:fmbes=smt:fmbsr=1.6:fde=none:ile=on:nm=64:updr=off_900 on bfo
+% (26555)Time limit reached!
+% (26555)------------------------------
+% (26555)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26555)Termination reason: Time limit
+% (26555)Termination phase: Saturation
+
+% (26555)Memory used [KB]: 1800610
+% (26555)Time elapsed: 78.200 s
+% (26555)------------------------------
+% (26555)------------------------------
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (26570)fmb+10_1_av=off:bce=on:fmbes=contour:fmbsr=1.4:fde=unused:updr=off_900 on bfo
+TRYING [35]
+% (26562)Time limit reached!
+% (26562)------------------------------
+% (26562)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26562)Termination reason: Time limit
+% (26562)Termination phase: Finite model building constraint generation
+
+% (26562)Memory used [KB]: 24905863
+% (26562)Time elapsed: 78.200 s
+% (26562)------------------------------
+% (26562)------------------------------
+TRYING [35]
+TRYING [35]
+% (26567)Time limit reached!
+% (26567)------------------------------
+% (26567)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26567)Termination reason: Time limit
+% (26567)Termination phase: Finite model building constraint generation
+
+% (26567)Memory used [KB]: 28904561
+% (26567)Time elapsed: 117.200 s
+% (26570)Time limit reached!
+% (26570)------------------------------
+% (26570)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26570)Termination reason: Time limit
+% (26570)Termination phase: Finite model building constraint generation
+
+% (26570)Memory used [KB]: 32376061
+% (26570)Time elapsed: 117.200 s
+% (26570)------------------------------
+% (26570)------------------------------
+Unsupported amount of allocated memory: 8590063000!
+% (26563)------------------------------
+% (26563)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26563)Termination reason: Unknown
+% (26563)Termination phase: Finite model building constraint generation
+
+% (26563)Memory used [KB]: 60002733
+% (26563)Time elapsed: 228.330 s
+% (26563)------------------------------
+% (26563)------------------------------
+% (26690)ott+11_3_aac=none:afr=on:afp=4000:afq=1.4:amm=off:anc=all:bs=unit_only:bsr=on:bce=on:fde=unused:irw=on:nm=64:newcnf=on:nwc=1:nicw=on:sac=on:sp=reverse_arity:uhcvi=on:to=lpo_31 on bfo
+% (26689)ott+11_3_aac=none:afr=on:afp=4000:afq=1.4:amm=off:anc=all:bs=unit_only:bsr=on:bce=on:fde=unused:irw=on:nm=64:newcnf=on:nwc=1:nicw=on:sac=on:sp=reverse_arity:uhcvi=on:slsq=on_31 on bfo
+% (26688)ott+11_3_aac=none:afr=on:afp=4000:afq=1.4:amm=off:anc=all:bs=unit_only:bsr=on:bce=on:fde=unused:irw=on:nm=64:newcnf=on:nwc=1:nicw=on:sac=on:sp=reverse_arity:uhcvi=on_93 on bfo
+% (26691)ott+11_3_aac=none:afr=on:afp=4000:afq=1.4:amm=off:anc=all:bs=unit_only:bsr=on:bce=on:fde=unused:irw=on:nm=64:newcnf=on:nwc=1:nicw=on:sac=on:sp=reverse_arity:uhcvi=on:bsd=on:fsd=on_31 on bfo
+% (26690)Time limit reached!
+% (26690)------------------------------
+% (26690)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26691)Time limit reached!
+% (26691)------------------------------
+% (26691)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26691)Termination reason: Time limit
+% (26691)Termination phase: Saturation
+
+% (26689)Time limit reached!
+% (26689)------------------------------
+% (26689)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26690)Termination reason: Time limit
+% (26690)Termination phase: Saturation
+
+% (26689)Termination reason: Time limit
+% (26691)Memory used [KB]: 75990
+% (26689)Termination phase: Saturation
+% (26691)Time elapsed: 4.200 s
+% (26690)Memory used [KB]: 70233
+% (26690)Time elapsed: 4.200 s
+% (26690)------------------------------
+% (26690)------------------------------
+% (26691)------------------------------
+% (26691)------------------------------
+
+% (26689)Memory used [KB]: 77909
+% (26689)Time elapsed: 4.200 s
+% (26689)------------------------------
+% (26689)------------------------------
+% (26695)ott+11_3_aac=none:afr=on:afp=4000:afq=1.4:amm=off:anc=all:bs=unit_only:bsr=on:bce=on:fde=unused:irw=on:nm=64:newcnf=on:nwc=1:nicw=on:sac=on:sp=reverse_arity:uhcvi=on:av=on:atotf=0.5_31 on bfo
+% (26696)ott+11_3_aac=none:afr=on:afp=4000:afq=1.4:amm=off:anc=all:bs=unit_only:bsr=on:bce=on:fde=unused:irw=on:nm=64:newcnf=on:nwc=1:nicw=on:sac=on:sp=reverse_arity:uhcvi=on:avsq=on:plsq=on_31 on bfo
+% (26697)ott+11_3_aac=none:afr=on:afp=4000:afq=1.4:amm=off:anc=all:bs=unit_only:bsr=on:bce=on:fde=unused:irw=on:nm=64:newcnf=on:nwc=1:nicw=on:sac=on:sp=reverse_arity:uhcvi=on:sp=frequency_31 on bfo
+% (26695)Time limit reached!
+% (26695)------------------------------
+% (26695)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26695)Termination reason: Time limit
+% (26695)Termination phase: Saturation
+
+% (26695)Memory used [KB]: 62173
+% (26695)Time elapsed: 4.200 s
+% (26695)------------------------------
+% (26695)------------------------------
+% (26696)Time limit reached!
+% (26696)------------------------------
+% (26696)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26696)Termination reason: Time limit
+% (26696)Termination phase: Saturation
+
+% (26696)Memory used [KB]: 59743
+% (26696)Time elapsed: 4.200 s
+% (26696)------------------------------
+% (26696)------------------------------
+% (26697)Time limit reached!
+% (26697)------------------------------
+% (26697)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26697)Termination reason: Time limit
+% (26697)Termination phase: Saturation
+
+% (26697)Memory used [KB]: 58975
+% (26697)Time elapsed: 4.200 s
+% (26697)------------------------------
+% (26697)------------------------------
+WARNING Broken Constraint: if symbol_precedence(reverse_arity) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if literal_maximality_aftercheck(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if unit_resulting_resolution(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if nongoal_weight_coefficient(3) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (26699)fmb+10_1_av=off:fmbsr=1.6:lma=on:nm=64:nwc=3:sp=reverse_arity:urr=on_774 on bfo
+WARNING Broken Constraint: if symbol_precedence(reverse_arity) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if literal_maximality_aftercheck(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if unit_resulting_resolution(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if nongoal_weight_coefficient(3) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if sine_level_split_queue(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (26700)fmb+10_1_av=off:fmbsr=1.6:lma=on:nm=64:nwc=3:sp=reverse_arity:urr=on:slsq=on_258 on bfo
+WARNING Broken Constraint: if term_ordering(lpo) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if symbol_precedence(reverse_arity) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if literal_maximality_aftercheck(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if unit_resulting_resolution(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if nongoal_weight_coefficient(3) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (26701)fmb+10_1_av=off:fmbsr=1.6:lma=on:nm=64:nwc=3:sp=reverse_arity:urr=on:to=lpo_258 on bfo
+% (26688)Time limit reached!
+% (26688)------------------------------
+% (26688)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26688)Termination reason: Time limit
+% (26688)Termination phase: Saturation
+
+% (26688)Memory used [KB]: 119998
+% (26688)Time elapsed: 12.200 s
+% (26688)------------------------------
+% (26688)------------------------------
+WARNING Broken Constraint: if backward_subsumption_demodulation(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if symbol_precedence(reverse_arity) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if literal_maximality_aftercheck(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if unit_resulting_resolution(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if nongoal_weight_coefficient(3) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if forward_subsumption_demodulation(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (26706)fmb+10_1_av=off:fmbsr=1.6:lma=on:nm=64:nwc=3:sp=reverse_arity:urr=on:bsd=on:fsd=on_258 on bfo
+% (26700)Time limit reached!
+% (26700)------------------------------
+% (26700)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26700)Termination reason: Time limit
+% (26700)Termination phase: Finite model building constraint generation
+
+% (26700)Memory used [KB]: 8788641
+% (26700)Time elapsed: 33.700 s
+% (26700)------------------------------
+% (26700)------------------------------
+% (26701)Time limit reached!
+% (26701)------------------------------
+% (26701)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26701)Termination reason: Time limit
+% (26701)Termination phase: Finite model building constraint generation
+
+% (26701)Memory used [KB]: 8788641
+% (26701)Time elapsed: 33.700 s
+% (26701)------------------------------
+% (26701)------------------------------
+WARNING Broken Constraint: if symbol_precedence(reverse_arity) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if literal_maximality_aftercheck(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if unit_resulting_resolution(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if nongoal_weight_coefficient(3) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if avatar(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (26713)fmb+10_1_av=off:fmbsr=1.6:lma=on:nm=64:nwc=3:sp=reverse_arity:urr=on:av=on:atotf=0.5_258 on bfo
+WARNING Broken Constraint: if positive_literal_split_queue(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+WARNING Broken Constraint: if symbol_precedence(reverse_arity) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if literal_maximality_aftercheck(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if unit_resulting_resolution(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if nongoal_weight_coefficient(3) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if avatar_split_queue(on) has been set then avatar(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (26714)fmb+10_1_av=off:fmbsr=1.6:lma=on:nm=64:nwc=3:sp=reverse_arity:urr=on:avsq=on:plsq=on_258 on bfo
+% (26706)Time limit reached!
+% (26706)------------------------------
+% (26706)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26706)Termination reason: Time limit
+% (26706)Termination phase: Finite model building constraint generation
+
+% (26706)Memory used [KB]: 10181667
+% (26706)Time elapsed: 33.700 s
+% (26706)------------------------------
+% (26706)------------------------------
+WARNING Broken Constraint: if symbol_precedence(frequency) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if literal_maximality_aftercheck(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if unit_resulting_resolution(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if nongoal_weight_coefficient(3) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (26720)fmb+10_1_av=off:fmbsr=1.6:lma=on:nm=64:nwc=3:sp=reverse_arity:urr=on:sp=frequency_258 on bfo
+% (26714)Time limit reached!
+% (26714)------------------------------
+% (26714)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26714)Termination reason: Time limit
+% (26714)Termination phase: Finite model building constraint generation
+
+% (26714)Memory used [KB]: 9603425
+% (26714)Time elapsed: 33.700 s
+% (26714)------------------------------
+% (26714)------------------------------
+% (26713)Time limit reached!
+% (26713)------------------------------
+% (26713)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26713)Termination reason: Time limit
+% (26713)Termination phase: Finite model building constraint generation
+
+% (26713)Memory used [KB]: 9603425
+% (26713)Time elapsed: 33.700 s
+% (26713)------------------------------
+% (26713)------------------------------
+% (26722)ott-4_4_awrs=decay:awrsf=64:add=off:afr=on:afp=40000:afq=1.0:amm=off:bs=on:gs=on:gsaa=from_current:gsem=on:irw=on:lma=on:nm=64:newcnf=on:nwc=1:sac=on:sp=frequency:updr=off_108 on bfo
+% (26723)ott-4_4_awrs=decay:awrsf=64:add=off:afr=on:afp=40000:afq=1.0:amm=off:bs=on:gs=on:gsaa=from_current:gsem=on:irw=on:lma=on:nm=64:newcnf=on:nwc=1:sac=on:sp=frequency:updr=off:slsq=on_36 on bfo
+% (26720)Time limit reached!
+% (26720)------------------------------
+% (26720)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26720)Termination reason: Time limit
+% (26720)Termination phase: Finite model building constraint generation
+
+% (26720)Memory used [KB]: 10760038
+% (26720)Time elapsed: 33.700 s
+% (26720)------------------------------
+% (26720)------------------------------
+% (26724)ott-4_4_awrs=decay:awrsf=64:add=off:afr=on:afp=40000:afq=1.0:amm=off:bs=on:gs=on:gsaa=from_current:gsem=on:irw=on:lma=on:nm=64:newcnf=on:nwc=1:sac=on:sp=frequency:updr=off:to=lpo_36 on bfo
+% (26723)Time limit reached!
+% (26723)------------------------------
+% (26723)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26723)Termination reason: Time limit
+% (26723)Termination phase: Saturation
+
+% (26723)Memory used [KB]: 56289
+% (26723)Time elapsed: 4.800 s
+% (26723)------------------------------
+% (26723)------------------------------
+% (26725)ott-4_4_awrs=decay:awrsf=64:add=off:afr=on:afp=40000:afq=1.0:amm=off:bs=on:gs=on:gsaa=from_current:gsem=on:irw=on:lma=on:nm=64:newcnf=on:nwc=1:sac=on:sp=frequency:updr=off:bsd=on:fsd=on_36 on bfo
+% (26724)Time limit reached!
+% (26724)------------------------------
+% (26724)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26724)Termination reason: Time limit
+% (26724)Termination phase: Saturation
+
+% (26724)Memory used [KB]: 67035
+% (26724)Time elapsed: 4.800 s
+% (26724)------------------------------
+% (26724)------------------------------
+% (26727)ott-4_4_awrs=decay:awrsf=64:add=off:afr=on:afp=40000:afq=1.0:amm=off:bs=on:gs=on:gsaa=from_current:gsem=on:irw=on:lma=on:nm=64:newcnf=on:nwc=1:sac=on:sp=frequency:updr=off:av=on:atotf=0.5_36 on bfo
+% (26725)Time limit reached!
+% (26725)------------------------------
+% (26725)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26725)Termination reason: Time limit
+% (26725)Termination phase: Saturation
+
+% (26725)Memory used [KB]: 51171
+% (26725)Time elapsed: 4.800 s
+% (26725)------------------------------
+% (26725)------------------------------
+% (26733)ott-4_4_awrs=decay:awrsf=64:add=off:afr=on:afp=40000:afq=1.0:amm=off:bs=on:gs=on:gsaa=from_current:gsem=on:irw=on:lma=on:nm=64:newcnf=on:nwc=1:sac=on:sp=frequency:updr=off:avsq=on:plsq=on_36 on bfo
+% (26727)Time limit reached!
+% (26727)------------------------------
+% (26727)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26727)Termination reason: Time limit
+% (26727)Termination phase: Saturation
+
+% (26727)Memory used [KB]: 51683
+% (26727)Time elapsed: 4.800 s
+% (26727)------------------------------
+% (26727)------------------------------
+% (26736)ott-4_4_awrs=decay:awrsf=64:add=off:afr=on:afp=40000:afq=1.0:amm=off:bs=on:gs=on:gsaa=from_current:gsem=on:irw=on:lma=on:nm=64:newcnf=on:nwc=1:sac=on:sp=frequency:updr=off:sp=frequency_36 on bfo
+% (26722)Time limit reached!
+% (26722)------------------------------
+% (26722)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26722)Termination reason: Time limit
+% (26722)Termination phase: Saturation
+
+% (26722)Memory used [KB]: 68314
+% (26722)Time elapsed: 14.200 s
+% (26722)------------------------------
+% (26722)------------------------------
+% (26737)ott+10_128_av=off:bs=on:gsp=on:irw=on:lcm=predicate:lma=on:nm=0:nwc=1:sp=occurrence:urr=on:updr=off:uhcvi=on_693 on bfo
+% (26733)Time limit reached!
+% (26733)------------------------------
+% (26733)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26733)Termination reason: Time limit
+% (26733)Termination phase: Saturation
+
+% (26733)Memory used [KB]: 50788
+% (26733)Time elapsed: 4.800 s
+% (26733)------------------------------
+% (26733)------------------------------
+% (26738)ott+10_128_av=off:bs=on:gsp=on:irw=on:lcm=predicate:lma=on:nm=0:nwc=1:sp=occurrence:urr=on:updr=off:uhcvi=on:slsq=on_231 on bfo
+% (26736)Time limit reached!
+% (26736)------------------------------
+% (26736)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26736)Termination reason: Time limit
+% (26736)Termination phase: Saturation
+
+% (26736)Memory used [KB]: 53474
+% (26736)Time elapsed: 4.800 s
+% (26736)------------------------------
+% (26736)------------------------------
+% (26739)ott+10_128_av=off:bs=on:gsp=on:irw=on:lcm=predicate:lma=on:nm=0:nwc=1:sp=occurrence:urr=on:updr=off:uhcvi=on:to=lpo_231 on bfo
+TRYING [35]
+% (26699)Time limit reached!
+% (26699)------------------------------
+% (26699)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26699)Termination reason: Time limit
+% (26699)Termination phase: Finite model building constraint generation
+
+% (26699)Memory used [KB]: 26314752
+% (26699)Time elapsed: 100.800 s
+% (26699)------------------------------
+% (26699)------------------------------
+% (26744)ott+10_128_av=off:bs=on:gsp=on:irw=on:lcm=predicate:lma=on:nm=0:nwc=1:sp=occurrence:urr=on:updr=off:uhcvi=on:bsd=on:fsd=on_231 on bfo
+% (26738)Time limit reached!
+% (26738)------------------------------
+% (26738)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26738)Termination reason: Time limit
+% (26738)Termination phase: Saturation
+
+% (26738)Memory used [KB]: 694914
+% (26738)Time elapsed: 30.200 s
+% (26738)------------------------------
+% (26738)------------------------------
+% (26751)ott+10_128_av=off:bs=on:gsp=on:irw=on:lcm=predicate:lma=on:nm=0:nwc=1:sp=occurrence:urr=on:updr=off:uhcvi=on:av=on:atotf=0.5_231 on bfo
+% (26739)Time limit reached!
+% (26739)------------------------------
+% (26739)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26739)Termination reason: Time limit
+% (26739)Termination phase: Saturation
+
+% (26739)Memory used [KB]: 697600
+% (26739)Time elapsed: 30.200 s
+% (26739)------------------------------
+% (26739)------------------------------
+WARNING Broken Constraint: if avatar_split_queue(on) has been set then avatar(off) is equal to on
+% (26752)ott+10_128_av=off:bs=on:gsp=on:irw=on:lcm=predicate:lma=on:nm=0:nwc=1:sp=occurrence:urr=on:updr=off:uhcvi=on:avsq=on:plsq=on_231 on bfo
+% (26744)Time limit reached!
+% (26744)------------------------------
+% (26744)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26744)Termination reason: Time limit
+% (26744)Termination phase: Saturation
+
+% (26744)Memory used [KB]: 726384
+% (26744)Time elapsed: 30.200 s
+% (26744)------------------------------
+% (26744)------------------------------
+% (26763)ott+10_128_av=off:bs=on:gsp=on:irw=on:lcm=predicate:lma=on:nm=0:nwc=1:sp=occurrence:urr=on:updr=off:uhcvi=on:sp=frequency_231 on bfo
+% (26751)Time limit reached!
+% (26751)------------------------------
+% (26751)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26751)Termination reason: Time limit
+% (26751)Termination phase: Saturation
+
+% (26751)Memory used [KB]: 913034
+% (26751)Time elapsed: 30.200 s
+% (26751)------------------------------
+% (26751)------------------------------
+% (26836)dis+11_1024_av=off:bd=off:bs=on:cond=on:gs=on:lma=on:nm=16:nwc=1:sp=occurrence:updr=off_507 on bfo
+% (26752)Time limit reached!
+% (26752)------------------------------
+% (26752)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26752)Termination reason: Time limit
+% (26752)Termination phase: Saturation
+
+% (26752)Memory used [KB]: 1218914
+% (26752)Time elapsed: 30.200 s
+% (26752)------------------------------
+% (26752)------------------------------
+% (26837)dis+11_1024_av=off:bd=off:bs=on:cond=on:gs=on:lma=on:nm=16:nwc=1:sp=occurrence:updr=off:slsq=on_169 on bfo
+% (26763)Time limit reached!
+% (26763)------------------------------
+% (26763)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26763)Termination reason: Time limit
+% (26763)Termination phase: Saturation
+
+% (26763)Memory used [KB]: 783569
+% (26763)Time elapsed: 30.200 s
+% (26763)------------------------------
+% (26763)------------------------------
+% (26840)dis+11_1024_av=off:bd=off:bs=on:cond=on:gs=on:lma=on:nm=16:nwc=1:sp=occurrence:updr=off:to=lpo_169 on bfo
+% (26837)Time limit reached!
+% (26837)------------------------------
+% (26837)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26837)Termination reason: Time limit
+% (26837)Termination phase: Saturation
+
+% (26837)Memory used [KB]: 837171
+% (26837)Time elapsed: 22.100 s
+% (26837)------------------------------
+% (26837)------------------------------
+% (26841)dis+11_1024_av=off:bd=off:bs=on:cond=on:gs=on:lma=on:nm=16:nwc=1:sp=occurrence:updr=off:bsd=on:fsd=on_169 on bfo
+% (26737)Time limit reached!
+% (26737)------------------------------
+% (26737)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26737)Termination reason: Time limit
+% (26737)Termination phase: Saturation
+
+% (26737)Memory used [KB]: 1755579
+% (26737)Time elapsed: 90.200 s
+% (26737)------------------------------
+% (26737)------------------------------
+% (26842)dis+11_1024_av=off:bd=off:bs=on:cond=on:gs=on:lma=on:nm=16:nwc=1:sp=occurrence:updr=off:av=on:atotf=0.5_169 on bfo
+% (26840)Time limit reached!
+% (26840)------------------------------
+% (26840)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26840)Termination reason: Time limit
+% (26840)Termination phase: Saturation
+
+% (26840)Memory used [KB]: 830775
+% (26840)Time elapsed: 22.100 s
+% (26840)------------------------------
+% (26840)------------------------------
+WARNING Broken Constraint: if avatar_split_queue(on) has been set then avatar(off) is equal to on
+% (26843)dis+11_1024_av=off:bd=off:bs=on:cond=on:gs=on:lma=on:nm=16:nwc=1:sp=occurrence:updr=off:avsq=on:plsq=on_169 on bfo
+% (26841)Time limit reached!
+% (26841)------------------------------
+% (26841)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26841)Termination reason: Time limit
+% (26841)Termination phase: Saturation
+
+% (26841)Memory used [KB]: 831670
+% (26841)Time elapsed: 22.100 s
+% (26841)------------------------------
+% (26841)------------------------------
+% (26844)dis+11_1024_av=off:bd=off:bs=on:cond=on:gs=on:lma=on:nm=16:nwc=1:sp=occurrence:updr=off:sp=frequency_169 on bfo
+% (26842)Time limit reached!
+% (26842)------------------------------
+% (26842)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26842)Termination reason: Time limit
+% (26842)Termination phase: Saturation
+
+% (26842)Memory used [KB]: 741864
+% (26842)Time elapsed: 22.100 s
+% (26842)------------------------------
+% (26842)------------------------------
+% (26845)WARNING: value z3 for option sas not known
+% (26845)ott-3_5_awrs=decay:awrsf=128:afr=on:afp=40000:afq=1.0:amm=off:anc=none:bce=on:cond=fast:lma=on:nm=64:newcnf=on:nwc=1.1:sas=z3:sp=frequency:updr=off_180 on bfo
+% (26843)Time limit reached!
+% (26843)------------------------------
+% (26843)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26843)Termination reason: Time limit
+% (26843)Termination phase: Saturation
+
+% (26843)Memory used [KB]: 749156
+% (26843)Time elapsed: 22.100 s
+% (26843)------------------------------
+% (26843)------------------------------
+% (26846)WARNING: value z3 for option sas not known
+% (26846)ott-3_5_awrs=decay:awrsf=128:afr=on:afp=40000:afq=1.0:amm=off:anc=none:bce=on:cond=fast:lma=on:nm=64:newcnf=on:nwc=1.1:sas=z3:sp=frequency:updr=off:slsq=on_60 on bfo
+% (26836)Time limit reached!
+% (26836)------------------------------
+% (26836)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26836)Termination reason: Time limit
+% (26836)Termination phase: Saturation
+
+% (26836)Memory used [KB]: 2216893
+% (26836)Time elapsed: 66.100 s
+% (26836)------------------------------
+% (26836)------------------------------
+% (26849)WARNING: value z3 for option sas not known
+% (26849)ott-3_5_awrs=decay:awrsf=128:afr=on:afp=40000:afq=1.0:amm=off:anc=none:bce=on:cond=fast:lma=on:nm=64:newcnf=on:nwc=1.1:sas=z3:sp=frequency:updr=off:to=lpo_60 on bfo
+% (26846)Time limit reached!
+% (26846)------------------------------
+% (26846)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26846)Termination reason: Time limit
+% (26846)Termination phase: Saturation
+
+% (26846)Memory used [KB]: 36332
+% (26846)Time elapsed: 8.0000 s
+% (26850)WARNING: value z3 for option sas not known
+% (26850)ott-3_5_awrs=decay:awrsf=128:afr=on:afp=40000:afq=1.0:amm=off:anc=none:bce=on:cond=fast:lma=on:nm=64:newcnf=on:nwc=1.1:sas=z3:sp=frequency:updr=off:bsd=on:fsd=on_60 on bfo
+% (26844)Time limit reached!
+% (26844)------------------------------
+% (26844)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26844)Termination reason: Time limit
+% (26844)Termination phase: Saturation
+
+% (26844)Memory used [KB]: 762333
+% (26844)Time elapsed: 22.100 s
+% (26844)------------------------------
+% (26844)------------------------------
+% (26851)WARNING: value z3 for option sas not known
+% (26851)ott-3_5_awrs=decay:awrsf=128:afr=on:afp=40000:afq=1.0:amm=off:anc=none:bce=on:cond=fast:lma=on:nm=64:newcnf=on:nwc=1.1:sas=z3:sp=frequency:updr=off:av=on:atotf=0.5_60 on bfo
+% (26849)Time limit reached!
+% (26849)------------------------------
+% (26849)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26849)Termination reason: Time limit
+% (26849)Termination phase: Saturation
+
+% (26849)Memory used [KB]: 63708
+% (26849)Time elapsed: 8.0000 s
+% (26854)WARNING: value z3 for option sas not known
+% (26854)ott-3_5_awrs=decay:awrsf=128:afr=on:afp=40000:afq=1.0:amm=off:anc=none:bce=on:cond=fast:lma=on:nm=64:newcnf=on:nwc=1.1:sas=z3:sp=frequency:updr=off:avsq=on:plsq=on_60 on bfo
+% (26845)Time limit reached!
+% (26845)------------------------------
+% (26845)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26845)Termination reason: Time limit
+% (26845)Termination phase: Saturation
+
+% (26845)Memory used [KB]: 47206
+% (26845)Time elapsed: 23.500 s
+% (26855)WARNING: value z3 for option sas not known
+% (26855)ott-3_5_awrs=decay:awrsf=128:afr=on:afp=40000:afq=1.0:amm=off:anc=none:bce=on:cond=fast:lma=on:nm=64:newcnf=on:nwc=1.1:sas=z3:sp=frequency:updr=off:sp=frequency_60 on bfo
+% (26850)Time limit reached!
+% (26850)------------------------------
+% (26850)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26850)Termination reason: Time limit
+% (26850)Termination phase: Saturation
+
+% (26850)Memory used [KB]: 41449
+% (26850)Time elapsed: 8.0000 s
+% (26856)ott+11_3:1_afp=4000:afq=2.0:amm=off:anc=none:fsr=off:gs=on:gsem=off:lma=on:nm=64:newcnf=on:nwc=1:updr=off_249 on bfo
+% (26851)Time limit reached!
+% (26851)------------------------------
+% (26851)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26851)Termination reason: Time limit
+% (26851)Termination phase: Saturation
+
+% (26851)Memory used [KB]: 36843
+% (26851)Time elapsed: 8.0000 s
+% (26857)ott+11_3:1_afp=4000:afq=2.0:amm=off:anc=none:fsr=off:gs=on:gsem=off:lma=on:nm=64:newcnf=on:nwc=1:updr=off:slsq=on_83 on bfo
+% (26854)Time limit reached!
+% (26854)------------------------------
+% (26854)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26854)Termination reason: Time limit
+% (26854)Termination phase: Saturation
+
+% (26854)Memory used [KB]: 46438
+% (26854)Time elapsed: 8.0000 s
+% (26858)ott+11_3:1_afp=4000:afq=2.0:amm=off:anc=none:fsr=off:gs=on:gsem=off:lma=on:nm=64:newcnf=on:nwc=1:updr=off:to=lpo_83 on bfo
+% (26855)Time limit reached!
+% (26855)------------------------------
+% (26855)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26855)Termination reason: Time limit
+% (26855)Termination phase: Saturation
+
+% (26855)Memory used [KB]: 36587
+% (26855)Time elapsed: 8.0000 s
+% (26859)ott+11_3:1_afp=4000:afq=2.0:amm=off:anc=none:fsr=off:gs=on:gsem=off:lma=on:nm=64:newcnf=on:nwc=1:updr=off:bsd=on:fsd=on_83 on bfo
+% (26857)Time limit reached!
+% (26857)------------------------------
+% (26857)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26857)Termination reason: Time limit
+% (26857)Termination phase: Saturation
+
+% (26857)Memory used [KB]: 180764
+% (26857)Time elapsed: 10.900 s
+% (26857)------------------------------
+% (26857)------------------------------
+% (26860)ott+11_3:1_afp=4000:afq=2.0:amm=off:anc=none:fsr=off:gs=on:gsem=off:lma=on:nm=64:newcnf=on:nwc=1:updr=off:av=on:atotf=0.5_83 on bfo
+% (26858)Time limit reached!
+% (26858)------------------------------
+% (26858)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26858)Termination reason: Time limit
+% (26858)Termination phase: Saturation
+
+% (26858)Memory used [KB]: 183962
+% (26858)Time elapsed: 10.900 s
+% (26858)------------------------------
+% (26858)------------------------------
+% (26861)ott+11_3:1_afp=4000:afq=2.0:amm=off:anc=none:fsr=off:gs=on:gsem=off:lma=on:nm=64:newcnf=on:nwc=1:updr=off:avsq=on:plsq=on_83 on bfo
+% (26859)Time limit reached!
+% (26859)------------------------------
+% (26859)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26859)Termination reason: Time limit
+% (26859)Termination phase: Saturation
+
+% (26859)Memory used [KB]: 163110
+% (26859)Time elapsed: 10.900 s
+% (26859)------------------------------
+% (26859)------------------------------
+% (26863)ott+11_3:1_afp=4000:afq=2.0:amm=off:anc=none:fsr=off:gs=on:gsem=off:lma=on:nm=64:newcnf=on:nwc=1:updr=off:sp=frequency_83 on bfo
+% (26860)Time limit reached!
+% (26860)------------------------------
+% (26860)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26860)Termination reason: Time limit
+% (26860)Termination phase: Saturation
+
+% (26860)Memory used [KB]: 182043
+% (26860)Time elapsed: 10.900 s
+% (26860)------------------------------
+% (26860)------------------------------
+% (26864)WARNING: value z3 for option sas not known
+% (26864)ott+10_3:1_afp=1000:afq=2.0:anc=none:fde=none:gs=on:gsaa=full_model:irw=on:nm=64:nwc=1:sas=z3:sac=on:updr=off_204 on bfo
+% (26861)Time limit reached!
+% (26861)------------------------------
+% (26861)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26861)Termination reason: Time limit
+% (26861)Termination phase: Saturation
+
+% (26861)Memory used [KB]: 225795
+% (26861)Time elapsed: 10.900 s
+% (26861)------------------------------
+% (26861)------------------------------
+% (26865)WARNING: value z3 for option sas not known
+% (26865)ott+10_3:1_afp=1000:afq=2.0:anc=none:fde=none:gs=on:gsaa=full_model:irw=on:nm=64:nwc=1:sas=z3:sac=on:updr=off:slsq=on_68 on bfo
+% (26863)Time limit reached!
+% (26863)------------------------------
+% (26863)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26863)Termination reason: Time limit
+% (26863)Termination phase: Saturation
+
+% (26863)Memory used [KB]: 195732
+% (26863)Time elapsed: 10.900 s
+% (26863)------------------------------
+% (26863)------------------------------
+% (26867)WARNING: value z3 for option sas not known
+% (26867)ott+10_3:1_afp=1000:afq=2.0:anc=none:fde=none:gs=on:gsaa=full_model:irw=on:nm=64:nwc=1:sas=z3:sac=on:updr=off:to=lpo_68 on bfo
+% (26856)Time limit reached!
+% (26856)------------------------------
+% (26856)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26856)Termination reason: Time limit
+% (26856)Termination phase: Saturation
+
+% (26856)Memory used [KB]: 434705
+% (26856)Time elapsed: 32.500 s
+% (26856)------------------------------
+% (26856)------------------------------
+% (26868)WARNING: value z3 for option sas not known
+% (26868)ott+10_3:1_afp=1000:afq=2.0:anc=none:fde=none:gs=on:gsaa=full_model:irw=on:nm=64:nwc=1:sas=z3:sac=on:updr=off:bsd=on:fsd=on_68 on bfo
+% (26865)Time limit reached!
+% (26865)------------------------------
+% (26865)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26865)Termination reason: Time limit
+% (26865)Termination phase: Saturation
+
+% (26865)Memory used [KB]: 170786
+% (26865)Time elapsed: 9.0000 s
+% (26869)WARNING: value z3 for option sas not known
+% (26869)ott+10_3:1_afp=1000:afq=2.0:anc=none:fde=none:gs=on:gsaa=full_model:irw=on:nm=64:nwc=1:sas=z3:sac=on:updr=off:av=on:atotf=0.5_68 on bfo
+% (26867)Time limit reached!
+% (26867)------------------------------
+% (26867)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26867)Termination reason: Time limit
+% (26867)Termination phase: Saturation
+
+% (26867)Memory used [KB]: 119742
+% (26867)Time elapsed: 9.0000 s
+% (26870)WARNING: value z3 for option sas not known
+% (26870)ott+10_3:1_afp=1000:afq=2.0:anc=none:fde=none:gs=on:gsaa=full_model:irw=on:nm=64:nwc=1:sas=z3:sac=on:updr=off:avsq=on:plsq=on_68 on bfo
+% (26868)Time limit reached!
+% (26868)------------------------------
+% (26868)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26868)Termination reason: Time limit
+% (26868)Termination phase: Saturation
+
+% (26868)Memory used [KB]: 158504
+% (26868)Time elapsed: 9.0000 s
+% (26871)WARNING: value z3 for option sas not known
+% (26871)ott+10_3:1_afp=1000:afq=2.0:anc=none:fde=none:gs=on:gsaa=full_model:irw=on:nm=64:nwc=1:sas=z3:sac=on:updr=off:sp=frequency_68 on bfo
+% (26869)Time limit reached!
+% (26869)------------------------------
+% (26869)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26869)Termination reason: Time limit
+% (26869)Termination phase: Saturation
+
+% (26869)Memory used [KB]: 167204
+% (26869)Time elapsed: 9.0000 s
+% (26872)dis-3_5_awrs=decay:awrsf=2:add=off:afr=on:afp=100000:afq=2.0:amm=sco:anc=none:bs=unit_only:bce=on:fsr=off:fde=none:gs=on:gsem=on:irw=on:lma=on:nm=64:nwc=1:sp=frequency:updr=off:uhcvi=on_357 on bfo
+% (26870)Time limit reached!
+% (26870)------------------------------
+% (26870)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26870)Termination reason: Time limit
+% (26870)Termination phase: Saturation
+
+% (26870)Memory used [KB]: 148782
+% (26870)Time elapsed: 9.0000 s
+% (26873)dis-3_5_awrs=decay:awrsf=2:add=off:afr=on:afp=100000:afq=2.0:amm=sco:anc=none:bs=unit_only:bce=on:fsr=off:fde=none:gs=on:gsem=on:irw=on:lma=on:nm=64:nwc=1:sp=frequency:updr=off:uhcvi=on:slsq=on_119 on bfo
+% (26864)Time limit reached!
+% (26864)------------------------------
+% (26864)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26864)Termination reason: Time limit
+% (26864)Termination phase: Saturation
+
+% (26864)Memory used [KB]: 469885
+% (26864)Time elapsed: 26.700 s
+% (26875)dis-3_5_awrs=decay:awrsf=2:add=off:afr=on:afp=100000:afq=2.0:amm=sco:anc=none:bs=unit_only:bce=on:fsr=off:fde=none:gs=on:gsem=on:irw=on:lma=on:nm=64:nwc=1:sp=frequency:updr=off:uhcvi=on:to=lpo_119 on bfo
+% (26871)Time limit reached!
+% (26871)------------------------------
+% (26871)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26871)Termination reason: Time limit
+% (26871)Termination phase: Saturation
+
+% (26871)Memory used [KB]: 151852
+% (26871)Time elapsed: 9.0000 s
+% (26877)dis-3_5_awrs=decay:awrsf=2:add=off:afr=on:afp=100000:afq=2.0:amm=sco:anc=none:bs=unit_only:bce=on:fsr=off:fde=none:gs=on:gsem=on:irw=on:lma=on:nm=64:nwc=1:sp=frequency:updr=off:uhcvi=on:bsd=on:fsd=on_119 on bfo
+% (26873)Time limit reached!
+% (26873)------------------------------
+% (26873)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26873)Termination reason: Time limit
+% (26873)Termination phase: Saturation
+
+% (26873)Memory used [KB]: 370484
+% (26873)Time elapsed: 15.600 s
+% (26873)------------------------------
+% (26873)------------------------------
+% (26878)dis-3_5_awrs=decay:awrsf=2:add=off:afr=on:afp=100000:afq=2.0:amm=sco:anc=none:bs=unit_only:bce=on:fsr=off:fde=none:gs=on:gsem=on:irw=on:lma=on:nm=64:nwc=1:sp=frequency:updr=off:uhcvi=on:av=on:atotf=0.5_119 on bfo
+% (26875)Time limit reached!
+% (26875)------------------------------
+% (26875)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26875)Termination reason: Time limit
+% (26875)Termination phase: Saturation
+
+% (26875)Memory used [KB]: 447881
+% (26875)Time elapsed: 15.600 s
+% (26875)------------------------------
+% (26875)------------------------------
+% (26879)dis-3_5_awrs=decay:awrsf=2:add=off:afr=on:afp=100000:afq=2.0:amm=sco:anc=none:bs=unit_only:bce=on:fsr=off:fde=none:gs=on:gsem=on:irw=on:lma=on:nm=64:nwc=1:sp=frequency:updr=off:uhcvi=on:avsq=on:plsq=on_119 on bfo
+% (26877)Time limit reached!
+% (26877)------------------------------
+% (26877)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26877)Termination reason: Time limit
+% (26877)Termination phase: Saturation
+
+% (26877)Memory used [KB]: 363959
+% (26877)Time elapsed: 15.600 s
+% (26877)------------------------------
+% (26877)------------------------------
+% (26880)dis-3_5_awrs=decay:awrsf=2:add=off:afr=on:afp=100000:afq=2.0:amm=sco:anc=none:bs=unit_only:bce=on:fsr=off:fde=none:gs=on:gsem=on:irw=on:lma=on:nm=64:nwc=1:sp=frequency:updr=off:uhcvi=on:sp=frequency_119 on bfo
+% (26878)Time limit reached!
+% (26878)------------------------------
+% (26878)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26878)Termination reason: Time limit
+% (26878)Termination phase: Saturation
+
+% (26878)Memory used [KB]: 389162
+% (26878)Time elapsed: 15.600 s
+% (26878)------------------------------
+% (26878)------------------------------
+% (26881)lrs-11_8_afr=on:afp=100000:afq=2.0:anc=none:bd=off:cond=on:gs=on:lma=on:nm=2:newcnf=on:nwc=3:stl=30:sac=on:sp=occurrence_327 on bfo
+% (26879)Time limit reached!
+% (26879)------------------------------
+% (26879)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26879)Termination reason: Time limit
+% (26879)Termination phase: Saturation
+
+% (26879)Memory used [KB]: 325197
+% (26879)Time elapsed: 15.600 s
+% (26879)------------------------------
+% (26879)------------------------------
+% (26883)lrs-11_8_afr=on:afp=100000:afq=2.0:anc=none:bd=off:cond=on:gs=on:lma=on:nm=2:newcnf=on:nwc=3:stl=30:sac=on:sp=occurrence:slsq=on_109 on bfo
+% (26880)Time limit reached!
+% (26880)------------------------------
+% (26880)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26880)Termination reason: Time limit
+% (26880)Termination phase: Saturation
+
+% (26880)Memory used [KB]: 387371
+% (26880)Time elapsed: 15.600 s
+% (26880)------------------------------
+% (26880)------------------------------
+% (26884)lrs-11_8_afr=on:afp=100000:afq=2.0:anc=none:bd=off:cond=on:gs=on:lma=on:nm=2:newcnf=on:nwc=3:stl=30:sac=on:sp=occurrence:to=lpo_109 on bfo
+% (26872)Time limit reached!
+% (26872)------------------------------
+% (26872)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26872)Termination reason: Time limit
+% (26872)Termination phase: Saturation
+
+% (26872)Memory used [KB]: 1088041
+% (26872)Time elapsed: 46.600 s
+% (26872)------------------------------
+% (26872)------------------------------
+% (26888)lrs-11_8_afr=on:afp=100000:afq=2.0:anc=none:bd=off:cond=on:gs=on:lma=on:nm=2:newcnf=on:nwc=3:stl=30:sac=on:sp=occurrence:bsd=on:fsd=on_109 on bfo
+% (26883)Time limit reached!
+% (26883)------------------------------
+% (26883)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26883)Termination reason: Time limit
+% (26883)Termination phase: Saturation
+
+% (26883)Memory used [KB]: 88655
+% (26883)Time elapsed: 14.300 s
+% (26883)------------------------------
+% (26883)------------------------------
+% (26900)lrs-11_8_afr=on:afp=100000:afq=2.0:anc=none:bd=off:cond=on:gs=on:lma=on:nm=2:newcnf=on:nwc=3:stl=30:sac=on:sp=occurrence:av=on:atotf=0.5_109 on bfo
+% (26884)Time limit reached!
+% (26884)------------------------------
+% (26884)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26884)Termination reason: Time limit
+% (26884)Termination phase: Saturation
+
+% (26884)Memory used [KB]: 193557
+% (26884)Time elapsed: 14.300 s
+% (26884)------------------------------
+% (26884)------------------------------
+% (26901)lrs-11_8_afr=on:afp=100000:afq=2.0:anc=none:bd=off:cond=on:gs=on:lma=on:nm=2:newcnf=on:nwc=3:stl=30:sac=on:sp=occurrence:avsq=on:plsq=on_109 on bfo
+% (26888)Time limit reached!
+% (26888)------------------------------
+% (26888)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26888)Termination reason: Time limit
+% (26888)Termination phase: Saturation
+
+% (26888)Memory used [KB]: 94156
+% (26888)Time elapsed: 14.300 s
+% (26888)------------------------------
+% (26888)------------------------------
+% (26902)lrs-11_8_afr=on:afp=100000:afq=2.0:anc=none:bd=off:cond=on:gs=on:lma=on:nm=2:newcnf=on:nwc=3:stl=30:sac=on:sp=occurrence:sp=frequency_109 on bfo
+% (26900)Time limit reached!
+% (26900)------------------------------
+% (26900)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26900)Termination reason: Time limit
+% (26900)Termination phase: Saturation
+
+% (26900)Memory used [KB]: 96203
+% (26900)Time elapsed: 14.300 s
+% (26900)------------------------------
+% (26900)------------------------------
+% (26903)WARNING: value z3 for option sas not known
+% (26903)ott+4_5_add=large:afr=on:afp=40000:afq=1.1:amm=sco:bd=off:bs=unit_only:bsr=on:gs=on:lma=on:nm=64:nwc=1:sas=z3:sac=on:sp=reverse_arity_702 on bfo
+% (26901)Time limit reached!
+% (26901)------------------------------
+% (26901)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26901)Termination reason: Time limit
+% (26901)Termination phase: Saturation
+
+% (26901)Memory used [KB]: 70361
+% (26901)Time elapsed: 14.300 s
+% (26901)------------------------------
+% (26901)------------------------------
+% (26905)WARNING: value z3 for option sas not known
+% (26905)ott+4_5_add=large:afr=on:afp=40000:afq=1.1:amm=sco:bd=off:bs=unit_only:bsr=on:gs=on:lma=on:nm=64:nwc=1:sas=z3:sac=on:sp=reverse_arity:slsq=on_234 on bfo
+% (26881)Refutation not found, non-redundant clauses discarded% (26881)------------------------------
+% (26881)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26881)Termination reason: Refutation not found, non-redundant clauses discarded
+
+% (26881)Memory used [KB]: 162342
+% (26881)Time elapsed: 39.016 s
+% (26881)------------------------------
+% (26881)------------------------------
+% (26909)WARNING: value z3 for option sas not known
+% (26909)ott+4_5_add=large:afr=on:afp=40000:afq=1.1:amm=sco:bd=off:bs=unit_only:bsr=on:gs=on:lma=on:nm=64:nwc=1:sas=z3:sac=on:sp=reverse_arity:to=lpo_234 on bfo
+% (26902)Time limit reached!
+% (26902)------------------------------
+% (26902)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26902)Termination reason: Time limit
+% (26902)Termination phase: Saturation
+
+% (26902)Memory used [KB]: 106309
+% (26902)Time elapsed: 14.300 s
+% (26902)------------------------------
+% (26902)------------------------------
+% (26910)WARNING: value z3 for option sas not known
+% (26910)ott+4_5_add=large:afr=on:afp=40000:afq=1.1:amm=sco:bd=off:bs=unit_only:bsr=on:gs=on:lma=on:nm=64:nwc=1:sas=z3:sac=on:sp=reverse_arity:bsd=on:fsd=on_234 on bfo
+% (26905)Time limit reached!
+% (26905)------------------------------
+% (26905)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26905)Termination reason: Time limit
+% (26905)Termination phase: Saturation
+
+% (26905)Memory used [KB]: 419865
+% (26905)Time elapsed: 30.600 s
+% (26913)WARNING: value z3 for option sas not known
+% (26913)ott+4_5_add=large:afr=on:afp=40000:afq=1.1:amm=sco:bd=off:bs=unit_only:bsr=on:gs=on:lma=on:nm=64:nwc=1:sas=z3:sac=on:sp=reverse_arity:av=on:atotf=0.5_234 on bfo
+% (26909)Time limit reached!
+% (26909)------------------------------
+% (26909)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26909)Termination reason: Time limit
+% (26909)Termination phase: Saturation
+
+% (26909)Memory used [KB]: 270443
+% (26909)Time elapsed: 30.600 s
+% (26914)WARNING: value z3 for option sas not known
+% (26914)ott+4_5_add=large:afr=on:afp=40000:afq=1.1:amm=sco:bd=off:bs=unit_only:bsr=on:gs=on:lma=on:nm=64:nwc=1:sas=z3:sac=on:sp=reverse_arity:avsq=on:plsq=on_234 on bfo
+% (26910)Time limit reached!
+% (26910)------------------------------
+% (26910)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26910)Termination reason: Time limit
+% (26910)Termination phase: Saturation
+
+% (26910)Memory used [KB]: 404641
+% (26910)Time elapsed: 30.600 s
+% (26916)WARNING: value z3 for option sas not known
+% (26916)ott+4_5_add=large:afr=on:afp=40000:afq=1.1:amm=sco:bd=off:bs=unit_only:bsr=on:gs=on:lma=on:nm=64:nwc=1:sas=z3:sac=on:sp=reverse_arity:sp=frequency_234 on bfo
+% (26913)Time limit reached!
+% (26913)------------------------------
+% (26913)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26913)Termination reason: Time limit
+% (26913)Termination phase: Saturation
+
+% (26913)Memory used [KB]: 421912
+% (26913)Time elapsed: 30.600 s
+% (26914)Time limit reached!
+% (26914)------------------------------
+% (26914)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26914)Termination reason: Time limit
+% (26914)Termination phase: Saturation
+
+% (26914)Memory used [KB]: 433681
+% (26914)Time elapsed: 30.600 s
+% (26916)Time limit reached!
+% (26916)------------------------------
+% (26916)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26916)Termination reason: Time limit
+% (26916)Termination phase: Saturation
+
+% (26916)Memory used [KB]: 482550
+% (26916)Time elapsed: 30.600 s
+% (26903)Time limit reached!
+% (26903)------------------------------
+% (26903)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26903)Termination reason: Time limit
+% (26903)Termination phase: Saturation
+
+% (26903)Memory used [KB]: 892949
+% (26903)Time elapsed: 91.400 s
+% (26920)WARNING: value smt for option fmbes not known
+% (26921)WARNING: value smt for option fmbes not known
+% (26922)WARNING: value smt for option fmbes not known
+% (26923)WARNING: value smt for option fmbes not known
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+WARNING Broken Constraint: if sine_level_split_queue(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+WARNING Broken Constraint: if term_ordering(lpo) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+% (26920)fmb+10_1_av=off:bce=on:fmbes=smt:fmbsr=1.4:fde=none:ile=on:updr=off_1800 on bfo
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (26921)fmb+10_1_av=off:bce=on:fmbes=smt:fmbsr=1.4:fde=none:ile=on:updr=off:slsq=on_600 on bfo
+WARNING Broken Constraint: if backward_subsumption_demodulation(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if forward_subsumption_demodulation(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (26922)fmb+10_1_av=off:bce=on:fmbes=smt:fmbsr=1.4:fde=none:ile=on:updr=off:to=lpo_600 on bfo
+% (26923)fmb+10_1_av=off:bce=on:fmbes=smt:fmbsr=1.4:fde=none:ile=on:updr=off:bsd=on:fsd=on_600 on bfo
+% (26921)Time limit reached!
+% (26921)------------------------------
+% (26921)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26921)Termination reason: Time limit
+% (26921)Termination phase: Finite model building constraint generation
+
+% (26921)Memory used [KB]: 19761426
+% (26921)Time elapsed: 78.200 s
+% (26922)Time limit reached!
+% (26922)------------------------------
+% (26922)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26922)Termination reason: Time limit
+% (26922)Termination phase: Finite model building constraint generation
+
+% (26922)Memory used [KB]: 19761426
+% (26922)Time elapsed: 78.200 s
+% (26923)Time limit reached!
+% (26923)------------------------------
+% (26923)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26923)Termination reason: Time limit
+% (26923)Termination phase: Finite model building constraint generation
+
+% (26923)Memory used [KB]: 19761426
+% (26923)Time elapsed: 78.200 s
+% (26933)WARNING: value smt for option fmbes not known
+WARNING Broken Constraint: if avatar(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (26933)fmb+10_1_av=off:bce=on:fmbes=smt:fmbsr=1.4:fde=none:ile=on:updr=off:av=on:atotf=0.5_600 on bfo
+% (26934)WARNING: value smt for option fmbes not known
+WARNING Broken Constraint: if positive_literal_split_queue(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+WARNING Broken Constraint: if avatar_split_queue(on) has been set then avatar(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (26934)fmb+10_1_av=off:bce=on:fmbes=smt:fmbsr=1.4:fde=none:ile=on:updr=off:avsq=on:plsq=on_600 on bfo
+% (26935)WARNING: value smt for option fmbes not known
+WARNING Broken Constraint: if symbol_precedence(frequency) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (26935)fmb+10_1_av=off:bce=on:fmbes=smt:fmbsr=1.4:fde=none:ile=on:updr=off:sp=frequency_600 on bfo
+TRYING [35]
+% (26933)Time limit reached!
+% (26933)------------------------------
+% (26933)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26933)Termination reason: Time limit
+% (26933)Termination phase: Finite model building constraint generation
+
+% (26933)Memory used [KB]: 19761426
+% (26933)Time elapsed: 78.200 s
+% (26935)Time limit reached!
+% (26935)------------------------------
+% (26935)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26935)Termination reason: Time limit
+% (26935)Termination phase: Finite model building constraint generation
+
+% (26935)Memory used [KB]: 19761426
+% (26935)Time elapsed: 78.200 s
+% (26934)Time limit reached!
+% (26934)------------------------------
+% (26934)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26934)Termination reason: Time limit
+% (26934)Termination phase: Finite model building constraint generation
+
+% (26934)Memory used [KB]: 19761426
+% (26934)Time elapsed: 78.200 s
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (26971)fmb+10_1_av=off:bce=on:fmbsr=1.3:nm=2:newcnf=on_3600 on bfo
+WARNING Broken Constraint: if sine_level_split_queue(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (26973)fmb+10_1_av=off:bce=on:fmbsr=1.3:nm=2:newcnf=on:slsq=on_1200 on bfo
+WARNING Broken Constraint: if term_ordering(lpo) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (26974)fmb+10_1_av=off:bce=on:fmbsr=1.3:nm=2:newcnf=on:to=lpo_1200 on bfo
+% (26920)Time limit reached!
+% (26920)------------------------------
+% (26920)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26920)Termination reason: Time limit
+% (26920)Termination phase: Finite model building constraint generation
+
+% (26920)Memory used [KB]: 48324799
+% (26920)Time elapsed: 234.200 s
+WARNING Broken Constraint: if backward_subsumption_demodulation(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if forward_subsumption_demodulation(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27026)fmb+10_1_av=off:bce=on:fmbsr=1.3:nm=2:newcnf=on:bsd=on:fsd=on_1200 on bfo
+TRYING [35]
+TRYING [35]
+TRYING [35]
+% (26973)Time limit reached!
+% (26973)------------------------------
+% (26973)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26973)Termination reason: Time limit
+% (26973)Termination phase: Finite model building constraint generation
+
+% (26973)Memory used [KB]: 32364675
+% (26973)Time elapsed: 156.200 s
+% (26973)------------------------------
+% (26973)------------------------------
+% (26974)Time limit reached!
+% (26974)------------------------------
+% (26974)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26974)Termination reason: Time limit
+% (26974)Termination phase: Finite model building constraint generation
+
+% (26974)Memory used [KB]: 32364675
+% (26974)Time elapsed: 156.200 s
+% (26974)------------------------------
+% (26974)------------------------------
+WARNING Broken Constraint: if avatar(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27129)fmb+10_1_av=off:bce=on:fmbsr=1.3:nm=2:newcnf=on:av=on:atotf=0.5_1200 on bfo
+WARNING Broken Constraint: if positive_literal_split_queue(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+WARNING Broken Constraint: if avatar_split_queue(on) has been set then avatar(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27130)fmb+10_1_av=off:bce=on:fmbsr=1.3:nm=2:newcnf=on:avsq=on:plsq=on_1200 on bfo
+TRYING [35]
+% (27026)Time limit reached!
+% (27026)------------------------------
+% (27026)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27026)Termination reason: Time limit
+% (27026)Termination phase: Finite model building constraint generation
+
+% (27026)Memory used [KB]: 32496315
+% (27026)Time elapsed: 156.200 s
+% (27026)------------------------------
+% (27026)------------------------------
+WARNING Broken Constraint: if symbol_precedence(frequency) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27170)fmb+10_1_av=off:bce=on:fmbsr=1.3:nm=2:newcnf=on:sp=frequency_1200 on bfo
+TRYING [35]
+TRYING [35]
+% (27129)Time limit reached!
+% (27129)------------------------------
+% (27129)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27129)Termination reason: Time limit
+% (27129)Termination phase: Finite model building constraint generation
+
+% (27129)Memory used [KB]: 29834866
+% (27129)Time elapsed: 156.200 s
+% (27129)------------------------------
+% (27129)------------------------------
+% (27130)Time limit reached!
+% (27130)------------------------------
+% (27130)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27130)Termination reason: Time limit
+% (27130)Termination phase: Finite model building constraint generation
+
+% (27130)Memory used [KB]: 29992987
+% (27130)Time elapsed: 156.200 s
+% (27130)------------------------------
+% (27130)------------------------------
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27222)fmb+10_1_av=off:fmbsr=1.1:updr=off_900 on bfo
+WARNING Broken Constraint: if sine_level_split_queue(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27224)fmb+10_1_av=off:fmbsr=1.1:updr=off:slsq=on_300 on bfo
+TRYING [35]
+% (27224)Time limit reached!
+% (27224)------------------------------
+% (27224)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27224)Termination reason: Time limit
+% (27224)Termination phase: Finite model building constraint generation
+
+% (27224)Memory used [KB]: 9182920
+% (27224)Time elapsed: 39.200 s
+% (27224)------------------------------
+% (27224)------------------------------
+WARNING Broken Constraint: if term_ordering(lpo) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27272)fmb+10_1_av=off:fmbsr=1.1:updr=off:to=lpo_300 on bfo
+% (27170)Time limit reached!
+% (27170)------------------------------
+% (27170)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27170)Termination reason: Time limit
+% (27170)Termination phase: Finite model building constraint generation
+
+% (27170)Memory used [KB]: 28112420
+% (27170)Time elapsed: 156.203 s
+% (27170)------------------------------
+% (27170)------------------------------
+WARNING Broken Constraint: if backward_subsumption_demodulation(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if forward_subsumption_demodulation(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27274)fmb+10_1_av=off:fmbsr=1.1:updr=off:bsd=on:fsd=on_300 on bfo
+Unsupported amount of allocated memory: 8590063000!
+% (26971)------------------------------
+% (26971)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (26971)Termination reason: Unknown
+% (26971)Termination phase: Finite model building constraint generation
+
+% (26971)Memory used [KB]: 60095610
+% (26971)Time elapsed: 360.114 s
+% (26971)------------------------------
+% (26971)------------------------------
+WARNING Broken Constraint: if avatar(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27279)fmb+10_1_av=off:fmbsr=1.1:updr=off:av=on:atotf=0.5_300 on bfo
+% (27272)Time limit reached!
+% (27272)------------------------------
+% (27272)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27272)Termination reason: Time limit
+% (27272)Termination phase: Finite model building constraint generation
+
+% (27272)Memory used [KB]: 11285829
+% (27272)Time elapsed: 39.200 s
+% (27272)------------------------------
+% (27272)------------------------------
+WARNING Broken Constraint: if positive_literal_split_queue(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+WARNING Broken Constraint: if avatar_split_queue(on) has been set then avatar(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27281)fmb+10_1_av=off:fmbsr=1.1:updr=off:avsq=on:plsq=on_300 on bfo
+TRYING [35]
+% (27274)Time limit reached!
+% (27274)------------------------------
+% (27274)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27274)Termination reason: Time limit
+% (27274)Termination phase: Finite model building constraint generation
+
+% (27274)Memory used [KB]: 10444563
+% (27274)Time elapsed: 39.200 s
+% (27274)------------------------------
+% (27274)------------------------------
+WARNING Broken Constraint: if symbol_precedence(frequency) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27299)fmb+10_1_av=off:fmbsr=1.1:updr=off:sp=frequency_300 on bfo
+% (27222)Time limit reached!
+% (27222)------------------------------
+% (27222)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27222)Termination reason: Time limit
+% (27222)Termination phase: Finite model building constraint generation
+
+% (27222)Memory used [KB]: 24178583
+% (27222)Time elapsed: 117.200 s
+% (27222)------------------------------
+% (27222)------------------------------
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27300)fmb+10_1_av=off:fmbsr=1.6_3600 on bfo
+% (27279)Time limit reached!
+% (27279)------------------------------
+% (27279)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27279)Termination reason: Time limit
+% (27279)Termination phase: Finite model building constraint generation
+
+% (27279)Memory used [KB]: 10760038
+% (27279)Time elapsed: 39.200 s
+% (27279)------------------------------
+% (27279)------------------------------
+WARNING Broken Constraint: if sine_level_split_queue(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27301)fmb+10_1_av=off:fmbsr=1.6:slsq=on_1200 on bfo
+% (27281)Time limit reached!
+% (27281)------------------------------
+% (27281)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27281)Termination reason: Time limit
+% (27281)Termination phase: Finite model building constraint generation
+
+% (27281)Memory used [KB]: 11285829
+% (27281)Time elapsed: 39.200 s
+% (27281)------------------------------
+% (27281)------------------------------
+WARNING Broken Constraint: if term_ordering(lpo) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27316)fmb+10_1_av=off:fmbsr=1.6:to=lpo_1200 on bfo
+% (27299)Time limit reached!
+% (27299)------------------------------
+% (27299)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27299)Termination reason: Time limit
+% (27299)Termination phase: Finite model building constraint generation
+
+% (27299)Memory used [KB]: 10707458
+% (27299)Time elapsed: 39.200 s
+% (27299)------------------------------
+% (27299)------------------------------
+WARNING Broken Constraint: if backward_subsumption_demodulation(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if forward_subsumption_demodulation(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27328)fmb+10_1_av=off:fmbsr=1.6:bsd=on:fsd=on_1200 on bfo
+TRYING [35]
+TRYING [35]
+TRYING [35]
+TRYING [35]
+% (27301)Time limit reached!
+% (27301)------------------------------
+% (27301)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27301)Termination reason: Time limit
+% (27301)Termination phase: Finite model building constraint generation
+
+% (27301)Memory used [KB]: 33406151
+% (27301)Time elapsed: 156.200 s
+% (27301)------------------------------
+% (27301)------------------------------
+WARNING Broken Constraint: if avatar(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27439)fmb+10_1_av=off:fmbsr=1.6:av=on:atotf=0.5_1200 on bfo
+% (27316)Time limit reached!
+% (27316)------------------------------
+% (27316)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27316)Termination reason: Time limit
+% (27316)Termination phase: Finite model building constraint generation
+
+% (27316)Memory used [KB]: 34215690
+% (27316)Time elapsed: 156.200 s
+% (27316)------------------------------
+% (27316)------------------------------
+WARNING Broken Constraint: if positive_literal_split_queue(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+WARNING Broken Constraint: if avatar_split_queue(on) has been set then avatar(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27446)fmb+10_1_av=off:fmbsr=1.6:avsq=on:plsq=on_1200 on bfo
+% (27328)Time limit reached!
+% (27328)------------------------------
+% (27328)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27328)Termination reason: Time limit
+% (27328)Termination phase: Finite model building constraint generation
+
+% (27328)Memory used [KB]: 38053581
+% (27328)Time elapsed: 156.200 s
+% (27328)------------------------------
+% (27328)------------------------------
+WARNING Broken Constraint: if symbol_precedence(frequency) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27462)fmb+10_1_av=off:fmbsr=1.6:sp=frequency_1200 on bfo
+TRYING [35]
+TRYING [35]
+TRYING [35]
+% (27439)Time limit reached!
+% (27439)------------------------------
+% (27439)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27439)Termination reason: Time limit
+% (27439)Termination phase: Finite model building constraint generation
+
+% (27439)Memory used [KB]: 36538765
+% (27439)Time elapsed: 156.207 s
+% (27439)------------------------------
+% (27439)------------------------------
+WARNING Broken Constraint: if inner_rewriting(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if symbol_precedence(reverse_arity) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if sos(all) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if literal_maximality_aftercheck(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if literal_comparison_mode(predicate) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if nongoal_weight_coefficient(1.7) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27632)fmb+10_1_av=off:fde=unused:ile=on:irw=on:lcm=predicate:lma=on:nm=16:nwc=1.7:sos=all:sp=reverse_arity_900 on bfo
+% (27446)Time limit reached!
+% (27446)------------------------------
+% (27446)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27446)Termination reason: Time limit
+% (27446)Termination phase: Finite model building constraint generation
+
+% (27446)Memory used [KB]: 36326658
+% (27446)Time elapsed: 156.200 s
+% (27446)------------------------------
+% (27446)------------------------------
+WARNING Broken Constraint: if inner_rewriting(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if symbol_precedence(reverse_arity) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if sos(all) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if literal_maximality_aftercheck(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if literal_comparison_mode(predicate) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if nongoal_weight_coefficient(1.7) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if sine_level_split_queue(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27637)fmb+10_1_av=off:fde=unused:ile=on:irw=on:lcm=predicate:lma=on:nm=16:nwc=1.7:sos=all:sp=reverse_arity:slsq=on_300 on bfo
+% (27462)Time limit reached!
+% (27462)------------------------------
+% (27462)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27462)Termination reason: Time limit
+% (27462)Termination phase: Finite model building constraint generation
+
+% (27462)Memory used [KB]: 38377882
+% (27462)Time elapsed: 156.202 s
+% (27462)------------------------------
+% (27462)------------------------------
+WARNING Broken Constraint: if term_ordering(lpo) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if inner_rewriting(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if symbol_precedence(reverse_arity) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if sos(all) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if literal_maximality_aftercheck(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if literal_comparison_mode(predicate) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if nongoal_weight_coefficient(1.7) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27642)fmb+10_1_av=off:fde=unused:ile=on:irw=on:lcm=predicate:lma=on:nm=16:nwc=1.7:sos=all:sp=reverse_arity:to=lpo_300 on bfo
+% (27637)Time limit reached!
+% (27637)------------------------------
+% (27637)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27637)Termination reason: Time limit
+% (27637)Termination phase: Finite model building constraint generation
+
+% (27637)Memory used [KB]: 11285829
+% (27637)Time elapsed: 39.200 s
+% (27637)------------------------------
+% (27637)------------------------------
+Unsupported amount of allocated memory: 8590063000!
+% (27300)------------------------------
+% (27300)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27300)Termination reason: Unknown
+% (27300)Termination phase: Finite model building constraint generation
+
+% (27300)Memory used [KB]: 60002477
+% (27300)Time elapsed: 316.511 s
+% (27300)------------------------------
+% (27300)------------------------------
+WARNING Broken Constraint: if inner_rewriting(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if backward_subsumption_demodulation(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if symbol_precedence(reverse_arity) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if sos(all) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if literal_maximality_aftercheck(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if literal_comparison_mode(predicate) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if nongoal_weight_coefficient(1.7) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if forward_subsumption_demodulation(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27649)fmb+10_1_av=off:fde=unused:ile=on:irw=on:lcm=predicate:lma=on:nm=16:nwc=1.7:sos=all:sp=reverse_arity:bsd=on:fsd=on_300 on bfo
+WARNING Broken Constraint: if inner_rewriting(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if symbol_precedence(reverse_arity) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if sos(all) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if literal_maximality_aftercheck(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if literal_comparison_mode(predicate) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if nongoal_weight_coefficient(1.7) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if avatar(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27650)fmb+10_1_av=off:fde=unused:ile=on:irw=on:lcm=predicate:lma=on:nm=16:nwc=1.7:sos=all:sp=reverse_arity:av=on:atotf=0.5_300 on bfo
+% (27642)Time limit reached!
+% (27642)------------------------------
+% (27642)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27642)Termination reason: Time limit
+% (27642)Termination phase: Finite model building constraint generation
+
+% (27642)Memory used [KB]: 13177781
+% (27642)Time elapsed: 39.200 s
+% (27642)------------------------------
+% (27642)------------------------------
+WARNING Broken Constraint: if inner_rewriting(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if positive_literal_split_queue(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+WARNING Broken Constraint: if symbol_precedence(reverse_arity) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if sos(all) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if literal_maximality_aftercheck(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if literal_comparison_mode(predicate) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if nongoal_weight_coefficient(1.7) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if avatar_split_queue(on) has been set then avatar(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27652)fmb+10_1_av=off:fde=unused:ile=on:irw=on:lcm=predicate:lma=on:nm=16:nwc=1.7:sos=all:sp=reverse_arity:avsq=on:plsq=on_300 on bfo
+% (27649)Time limit reached!
+% (27649)------------------------------
+% (27649)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27649)Termination reason: Time limit
+% (27649)Termination phase: Finite model building constraint generation
+
+% (27649)Memory used [KB]: 11285829
+% (27649)Time elapsed: 39.200 s
+% (27649)------------------------------
+% (27649)------------------------------
+WARNING Broken Constraint: if inner_rewriting(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if symbol_precedence(frequency) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if sos(all) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if literal_maximality_aftercheck(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if literal_comparison_mode(predicate) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if nongoal_weight_coefficient(1.7) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27683)fmb+10_1_av=off:fde=unused:ile=on:irw=on:lcm=predicate:lma=on:nm=16:nwc=1.7:sos=all:sp=reverse_arity:sp=frequency_300 on bfo
+% (27650)Time limit reached!
+% (27650)------------------------------
+% (27650)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27650)Termination reason: Time limit
+% (27650)Termination phase: Finite model building constraint generation
+
+% (27650)Memory used [KB]: 13177781
+% (27650)Time elapsed: 39.200 s
+% (27650)------------------------------
+% (27650)------------------------------
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27684)fmb+10_1_av=off:fmbsr=1.5:updr=off_900 on bfo
+% (27652)Time limit reached!
+% (27652)------------------------------
+% (27652)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27652)Termination reason: Time limit
+% (27652)Termination phase: Finite model building constraint generation
+
+% (27652)Memory used [KB]: 13177781
+% (27652)Time elapsed: 39.200 s
+% (27652)------------------------------
+% (27652)------------------------------
+WARNING Broken Constraint: if sine_level_split_queue(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27685)fmb+10_1_av=off:fmbsr=1.5:updr=off:slsq=on_300 on bfo
+TRYING [35]
+% (27632)Time limit reached!
+% (27632)------------------------------
+% (27632)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27632)Termination reason: Time limit
+% (27632)Termination phase: Finite model building constraint generation
+
+% (27632)Memory used [KB]: 26110449
+% (27632)Time elapsed: 117.200 s
+% (27632)------------------------------
+% (27632)------------------------------
+WARNING Broken Constraint: if term_ordering(lpo) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27693)fmb+10_1_av=off:fmbsr=1.5:updr=off:to=lpo_300 on bfo
+% (27683)Time limit reached!
+% (27683)------------------------------
+% (27683)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27683)Termination reason: Time limit
+% (27683)Termination phase: Finite model building constraint generation
+
+% (27683)Memory used [KB]: 11285829
+% (27683)Time elapsed: 39.200 s
+% (27683)------------------------------
+% (27683)------------------------------
+WARNING Broken Constraint: if backward_subsumption_demodulation(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if forward_subsumption_demodulation(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27700)fmb+10_1_av=off:fmbsr=1.5:updr=off:bsd=on:fsd=on_300 on bfo
+% (27685)Time limit reached!
+% (27685)------------------------------
+% (27685)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27685)Termination reason: Time limit
+% (27685)Termination phase: Finite model building constraint generation
+
+% (27685)Memory used [KB]: 13177781
+% (27685)Time elapsed: 39.200 s
+% (27685)------------------------------
+% (27685)------------------------------
+WARNING Broken Constraint: if avatar(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27716)fmb+10_1_av=off:fmbsr=1.5:updr=off:av=on:atotf=0.5_300 on bfo
+% (27693)Time limit reached!
+% (27693)------------------------------
+% (27693)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27693)Termination reason: Time limit
+% (27693)Termination phase: Finite model building constraint generation
+
+% (27693)Memory used [KB]: 11285829
+% (27693)Time elapsed: 39.200 s
+% (27693)------------------------------
+% (27693)------------------------------
+WARNING Broken Constraint: if positive_literal_split_queue(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+WARNING Broken Constraint: if avatar_split_queue(on) has been set then avatar(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27721)fmb+10_1_av=off:fmbsr=1.5:updr=off:avsq=on:plsq=on_300 on bfo
+% (27700)Time limit reached!
+% (27700)------------------------------
+% (27700)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27700)Termination reason: Time limit
+% (27700)Termination phase: Finite model building constraint generation
+
+% (27700)Memory used [KB]: 11285829
+% (27700)Time elapsed: 39.200 s
+% (27700)------------------------------
+% (27700)------------------------------
+WARNING Broken Constraint: if symbol_precedence(frequency) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27730)fmb+10_1_av=off:fmbsr=1.5:updr=off:sp=frequency_300 on bfo
+TRYING [35]
+% (27716)Time limit reached!
+% (27716)------------------------------
+% (27716)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27716)Termination reason: Time limit
+% (27716)Termination phase: Finite model building constraint generation
+
+% (27716)Memory used [KB]: 11285829
+% (27716)Time elapsed: 39.200 s
+% (27716)------------------------------
+% (27716)------------------------------
+% (27737)WARNING: value z3 for option sas not known
+% (27737)lrs+11_6_aac=none:add=off:afp=100000:afq=1.1:amm=off:anc=none:bd=off:fsr=off:gs=on:gsem=off:nwc=1:sas=z3:sp=occurrence_900 on bfo
+% (27721)Time limit reached!
+% (27721)------------------------------
+% (27721)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27721)Termination reason: Time limit
+% (27721)Termination phase: Finite model building constraint generation
+
+% (27721)Memory used [KB]: 13177781
+% (27721)Time elapsed: 39.200 s
+% (27721)------------------------------
+% (27721)------------------------------
+% (27774)WARNING: value z3 for option sas not known
+% (27774)lrs+11_6_aac=none:add=off:afp=100000:afq=1.1:amm=off:anc=none:bd=off:fsr=off:gs=on:gsem=off:nwc=1:sas=z3:sp=occurrence:slsq=on_300 on bfo
+% (27684)Time limit reached!
+% (27684)------------------------------
+% (27684)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27684)Termination reason: Time limit
+% (27684)Termination phase: Finite model building constraint generation
+
+% (27684)Memory used [KB]: 28933089
+% (27684)Time elapsed: 117.200 s
+% (27684)------------------------------
+% (27684)------------------------------
+% (27775)WARNING: value z3 for option sas not known
+% (27775)lrs+11_6_aac=none:add=off:afp=100000:afq=1.1:amm=off:anc=none:bd=off:fsr=off:gs=on:gsem=off:nwc=1:sas=z3:sp=occurrence:to=lpo_300 on bfo
+% (27730)Time limit reached!
+% (27730)------------------------------
+% (27730)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27730)Termination reason: Time limit
+% (27730)Termination phase: Finite model building constraint generation
+
+% (27730)Memory used [KB]: 14399893
+% (27730)Time elapsed: 39.200 s
+% (27730)------------------------------
+% (27730)------------------------------
+% (27777)WARNING: value z3 for option sas not known
+% (27777)lrs+11_6_aac=none:add=off:afp=100000:afq=1.1:amm=off:anc=none:bd=off:fsr=off:gs=on:gsem=off:nwc=1:sas=z3:sp=occurrence:bsd=on:fsd=on_300 on bfo
+% (27774)Time limit reached!
+% (27774)------------------------------
+% (27774)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27774)Termination reason: Time limit
+% (27774)Termination phase: Saturation
+
+% (27774)Memory used [KB]: 520545
+% (27774)Time elapsed: 39.200 s
+% (27792)WARNING: value z3 for option sas not known
+% (27792)lrs+11_6_aac=none:add=off:afp=100000:afq=1.1:amm=off:anc=none:bd=off:fsr=off:gs=on:gsem=off:nwc=1:sas=z3:sp=occurrence:av=on:atotf=0.5_300 on bfo
+% (27775)Time limit reached!
+% (27775)------------------------------
+% (27775)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27775)Termination reason: Time limit
+% (27775)Termination phase: Saturation
+
+% (27775)Memory used [KB]: 750179
+% (27775)Time elapsed: 39.200 s
+% (27796)WARNING: value z3 for option sas not known
+% (27796)lrs+11_6_aac=none:add=off:afp=100000:afq=1.1:amm=off:anc=none:bd=off:fsr=off:gs=on:gsem=off:nwc=1:sas=z3:sp=occurrence:avsq=on:plsq=on_300 on bfo
+% (27777)Time limit reached!
+% (27777)------------------------------
+% (27777)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27777)Termination reason: Time limit
+% (27777)Termination phase: Saturation
+
+% (27777)Memory used [KB]: 566856
+% (27777)Time elapsed: 39.200 s
+% (27797)WARNING: value z3 for option sas not known
+% (27797)lrs+11_6_aac=none:add=off:afp=100000:afq=1.1:amm=off:anc=none:bd=off:fsr=off:gs=on:gsem=off:nwc=1:sas=z3:sp=occurrence:sp=frequency_300 on bfo
+% (27792)Time limit reached!
+% (27792)------------------------------
+% (27792)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27792)Termination reason: Time limit
+% (27792)Termination phase: Saturation
+
+% (27792)Memory used [KB]: 589116
+% (27792)Time elapsed: 39.200 s
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27805)fmb+10_1_av=off:fmbsr=1.4_900 on bfo
+% (27796)Time limit reached!
+% (27796)------------------------------
+% (27796)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27796)Termination reason: Time limit
+% (27796)Termination phase: Saturation
+
+% (27796)Memory used [KB]: 609968
+% (27796)Time elapsed: 39.200 s
+WARNING Broken Constraint: if sine_level_split_queue(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27806)fmb+10_1_av=off:fmbsr=1.4:slsq=on_300 on bfo
+% (27797)Time limit reached!
+% (27797)------------------------------
+% (27797)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27797)Termination reason: Time limit
+% (27797)Termination phase: Saturation
+
+% (27797)Memory used [KB]: 753761
+% (27797)Time elapsed: 39.200 s
+WARNING Broken Constraint: if term_ordering(lpo) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27807)fmb+10_1_av=off:fmbsr=1.4:to=lpo_300 on bfo
+% (27737)Time limit reached!
+% (27737)------------------------------
+% (27737)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27737)Termination reason: Time limit
+% (27737)Termination phase: Saturation
+
+% (27737)Memory used [KB]: 1541552
+% (27737)Time elapsed: 117.200 s
+WARNING Broken Constraint: if backward_subsumption_demodulation(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if forward_subsumption_demodulation(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27811)fmb+10_1_av=off:fmbsr=1.4:bsd=on:fsd=on_300 on bfo
+% (27806)Time limit reached!
+% (27806)------------------------------
+% (27806)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27806)Termination reason: Time limit
+% (27806)Termination phase: Finite model building constraint generation
+
+% (27806)Memory used [KB]: 11285573
+% (27806)Time elapsed: 39.200 s
+% (27806)------------------------------
+% (27806)------------------------------
+WARNING Broken Constraint: if avatar(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27812)fmb+10_1_av=off:fmbsr=1.4:av=on:atotf=0.5_300 on bfo
+% (27807)Time limit reached!
+% (27807)------------------------------
+% (27807)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27807)Termination reason: Time limit
+% (27807)Termination phase: Finite model building constraint generation
+
+% (27807)Memory used [KB]: 13177525
+% (27807)Time elapsed: 39.200 s
+% (27807)------------------------------
+% (27807)------------------------------
+WARNING Broken Constraint: if positive_literal_split_queue(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+WARNING Broken Constraint: if avatar_split_queue(on) has been set then avatar(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27813)fmb+10_1_av=off:fmbsr=1.4:avsq=on:plsq=on_300 on bfo
+% (27811)Time limit reached!
+% (27811)------------------------------
+% (27811)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27811)Termination reason: Time limit
+% (27811)Termination phase: Finite model building constraint generation
+
+% (27811)Memory used [KB]: 13295860
+% (27811)Time elapsed: 39.200 s
+% (27811)------------------------------
+% (27811)------------------------------
+WARNING Broken Constraint: if symbol_precedence(frequency) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27814)fmb+10_1_av=off:fmbsr=1.4:sp=frequency_300 on bfo
+TRYING [35]
+% (27812)Time limit reached!
+% (27812)------------------------------
+% (27812)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27812)Termination reason: Time limit
+% (27812)Termination phase: Finite model building constraint generation
+
+% (27812)Memory used [KB]: 11285573
+% (27812)Time elapsed: 39.200 s
+% (27812)------------------------------
+% (27812)------------------------------
+% (27815)dis+11_5_add=large:afr=on:afp=1000:afq=1.0:anc=none:bsr=on:fsr=off:nm=64:newcnf=on:nwc=1:updr=off_900 on bfo
+% (27813)Time limit reached!
+% (27813)------------------------------
+% (27813)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27813)Termination reason: Time limit
+% (27813)Termination phase: Finite model building constraint generation
+
+% (27813)Memory used [KB]: 13177525
+% (27813)Time elapsed: 39.200 s
+% (27813)------------------------------
+% (27813)------------------------------
+% (27816)dis+11_5_add=large:afr=on:afp=1000:afq=1.0:anc=none:bsr=on:fsr=off:nm=64:newcnf=on:nwc=1:updr=off:slsq=on_300 on bfo
+% (27814)Time limit reached!
+% (27814)------------------------------
+% (27814)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27814)Termination reason: Time limit
+% (27814)Termination phase: Finite model building constraint generation
+
+% (27814)Memory used [KB]: 14399637
+% (27814)Time elapsed: 39.200 s
+% (27814)------------------------------
+% (27814)------------------------------
+% (27817)dis+11_5_add=large:afr=on:afp=1000:afq=1.0:anc=none:bsr=on:fsr=off:nm=64:newcnf=on:nwc=1:updr=off:to=lpo_300 on bfo
+% (27805)Time limit reached!
+% (27805)------------------------------
+% (27805)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27805)Termination reason: Time limit
+% (27805)Termination phase: Finite model building constraint generation
+
+% (27805)Memory used [KB]: 34817215
+% (27805)Time elapsed: 117.200 s
+% (27805)------------------------------
+% (27805)------------------------------
+% (27819)dis+11_5_add=large:afr=on:afp=1000:afq=1.0:anc=none:bsr=on:fsr=off:nm=64:newcnf=on:nwc=1:updr=off:bsd=on:fsd=on_300 on bfo
+% (27816)Time limit reached!
+% (27816)------------------------------
+% (27816)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27816)Termination reason: Time limit
+% (27816)Termination phase: Saturation
+
+% (27816)Memory used [KB]: 165924
+% (27816)Time elapsed: 39.200 s
+% (27816)------------------------------
+% (27816)------------------------------
+% (27823)dis+11_5_add=large:afr=on:afp=1000:afq=1.0:anc=none:bsr=on:fsr=off:nm=64:newcnf=on:nwc=1:updr=off:av=on:atotf=0.5_300 on bfo
+% (27817)Time limit reached!
+% (27817)------------------------------
+% (27817)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27817)Termination reason: Time limit
+% (27817)Termination phase: Saturation
+
+% (27817)Memory used [KB]: 198291
+% (27817)Time elapsed: 39.200 s
+% (27817)------------------------------
+% (27817)------------------------------
+% (27824)dis+11_5_add=large:afr=on:afp=1000:afq=1.0:anc=none:bsr=on:fsr=off:nm=64:newcnf=on:nwc=1:updr=off:avsq=on:plsq=on_300 on bfo
+% (27819)Time limit reached!
+% (27819)------------------------------
+% (27819)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27819)Termination reason: Time limit
+% (27819)Termination phase: Saturation
+
+% (27819)Memory used [KB]: 163622
+% (27819)Time elapsed: 39.200 s
+% (27819)------------------------------
+% (27819)------------------------------
+% (27895)dis+11_5_add=large:afr=on:afp=1000:afq=1.0:anc=none:bsr=on:fsr=off:nm=64:newcnf=on:nwc=1:updr=off:sp=frequency_300 on bfo
+% (27823)Time limit reached!
+% (27823)------------------------------
+% (27823)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27823)Termination reason: Time limit
+% (27823)Termination phase: Saturation
+
+% (27823)Memory used [KB]: 121149
+% (27823)Time elapsed: 39.200 s
+% (27823)------------------------------
+% (27823)------------------------------
+% (27897)ott+11_3:1_afp=4000:afq=2.0:amm=off:anc=none:fsr=off:gs=on:gsem=off:lma=on:nm=64:newcnf=on:nwc=1:updr=off_900 on bfo
+% (27824)Time limit reached!
+% (27824)------------------------------
+% (27824)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27824)Termination reason: Time limit
+% (27824)Termination phase: Saturation
+
+% (27824)Memory used [KB]: 242426
+% (27824)Time elapsed: 39.200 s
+% (27824)------------------------------
+% (27824)------------------------------
+% (27898)ott+11_3:1_afp=4000:afq=2.0:amm=off:anc=none:fsr=off:gs=on:gsem=off:lma=on:nm=64:newcnf=on:nwc=1:updr=off:slsq=on_300 on bfo
+% (27895)Time limit reached!
+% (27895)------------------------------
+% (27895)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27895)Termination reason: Time limit
+% (27895)Termination phase: Saturation
+
+% (27895)Memory used [KB]: 195604
+% (27895)Time elapsed: 39.200 s
+% (27895)------------------------------
+% (27895)------------------------------
+% (27900)ott+11_3:1_afp=4000:afq=2.0:amm=off:anc=none:fsr=off:gs=on:gsem=off:lma=on:nm=64:newcnf=on:nwc=1:updr=off:to=lpo_300 on bfo
+% (27815)Time limit reached!
+% (27815)------------------------------
+% (27815)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27815)Termination reason: Time limit
+% (27815)Termination phase: Saturation
+
+% (27815)Memory used [KB]: 337990
+% (27815)Time elapsed: 117.200 s
+% (27815)------------------------------
+% (27815)------------------------------
+% (27901)ott+11_3:1_afp=4000:afq=2.0:amm=off:anc=none:fsr=off:gs=on:gsem=off:lma=on:nm=64:newcnf=on:nwc=1:updr=off:bsd=on:fsd=on_300 on bfo
+% (27898)Time limit reached!
+% (27898)------------------------------
+% (27898)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27898)Termination reason: Time limit
+% (27898)Termination phase: Saturation
+
+% (27898)Memory used [KB]: 506729
+% (27898)Time elapsed: 39.200 s
+% (27898)------------------------------
+% (27898)------------------------------
+% (27906)ott+11_3:1_afp=4000:afq=2.0:amm=off:anc=none:fsr=off:gs=on:gsem=off:lma=on:nm=64:newcnf=on:nwc=1:updr=off:av=on:atotf=0.5_300 on bfo
+% (27900)Time limit reached!
+% (27900)------------------------------
+% (27900)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27900)Termination reason: Time limit
+% (27900)Termination phase: Saturation
+
+% (27900)Memory used [KB]: 522848
+% (27900)Time elapsed: 39.200 s
+% (27900)------------------------------
+% (27900)------------------------------
+% (27907)ott+11_3:1_afp=4000:afq=2.0:amm=off:anc=none:fsr=off:gs=on:gsem=off:lma=on:nm=64:newcnf=on:nwc=1:updr=off:avsq=on:plsq=on_300 on bfo
+% (27901)Time limit reached!
+% (27901)------------------------------
+% (27901)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27901)Termination reason: Time limit
+% (27901)Termination phase: Saturation
+
+% (27901)Memory used [KB]: 482422
+% (27901)Time elapsed: 39.200 s
+% (27901)------------------------------
+% (27901)------------------------------
+% (27908)ott+11_3:1_afp=4000:afq=2.0:amm=off:anc=none:fsr=off:gs=on:gsem=off:lma=on:nm=64:newcnf=on:nwc=1:updr=off:sp=frequency_300 on bfo
+% (27906)Time limit reached!
+% (27906)------------------------------
+% (27906)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27906)Termination reason: Time limit
+% (27906)Termination phase: Saturation
+
+% (27906)Memory used [KB]: 542293
+% (27906)Time elapsed: 39.200 s
+% (27906)------------------------------
+% (27906)------------------------------
+% (27910)WARNING: value z3 for option sas not known
+% (27910)dis+4_7_aac=none:afr=on:anc=none:bd=preordered:bce=on:cond=fast:fsr=off:fde=unused:gs=on:gsaa=full_model:gsem=off:irw=on:lma=on:nwc=1:nicw=on:sas=z3:sac=on:sp=reverse_arity:uhcvi=on_900 on bfo
+% (27907)Time limit reached!
+% (27907)------------------------------
+% (27907)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27907)Termination reason: Time limit
+% (27907)Termination phase: Saturation
+
+% (27907)Memory used [KB]: 565193
+% (27907)Time elapsed: 39.200 s
+% (27907)------------------------------
+% (27907)------------------------------
+% (27914)WARNING: value z3 for option sas not known
+% (27914)dis+4_7_aac=none:afr=on:anc=none:bd=preordered:bce=on:cond=fast:fsr=off:fde=unused:gs=on:gsaa=full_model:gsem=off:irw=on:lma=on:nwc=1:nicw=on:sas=z3:sac=on:sp=reverse_arity:uhcvi=on:slsq=on_300 on bfo
+% (27908)Time limit reached!
+% (27908)------------------------------
+% (27908)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27908)Termination reason: Time limit
+% (27908)Termination phase: Saturation
+
+% (27908)Memory used [KB]: 514789
+% (27908)Time elapsed: 39.200 s
+% (27908)------------------------------
+% (27908)------------------------------
+% (27915)WARNING: value z3 for option sas not known
+% (27915)dis+4_7_aac=none:afr=on:anc=none:bd=preordered:bce=on:cond=fast:fsr=off:fde=unused:gs=on:gsaa=full_model:gsem=off:irw=on:lma=on:nwc=1:nicw=on:sas=z3:sac=on:sp=reverse_arity:uhcvi=on:to=lpo_300 on bfo
+% (27897)Time limit reached!
+% (27897)------------------------------
+% (27897)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27897)Termination reason: Time limit
+% (27897)Termination phase: Saturation
+
+% (27897)Memory used [KB]: 1084971
+% (27897)Time elapsed: 117.200 s
+% (27897)------------------------------
+% (27897)------------------------------
+% (27916)WARNING: value z3 for option sas not known
+% (27916)dis+4_7_aac=none:afr=on:anc=none:bd=preordered:bce=on:cond=fast:fsr=off:fde=unused:gs=on:gsaa=full_model:gsem=off:irw=on:lma=on:nwc=1:nicw=on:sas=z3:sac=on:sp=reverse_arity:uhcvi=on:bsd=on:fsd=on_300 on bfo
+% (27914)Time limit reached!
+% (27914)------------------------------
+% (27914)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27914)Termination reason: Time limit
+% (27914)Termination phase: Saturation
+
+% (27914)Memory used [KB]: 1006934
+% (27914)Time elapsed: 39.200 s
+% (27919)WARNING: value z3 for option sas not known
+% (27919)dis+4_7_aac=none:afr=on:anc=none:bd=preordered:bce=on:cond=fast:fsr=off:fde=unused:gs=on:gsaa=full_model:gsem=off:irw=on:lma=on:nwc=1:nicw=on:sas=z3:sac=on:sp=reverse_arity:uhcvi=on:av=on:atotf=0.5_300 on bfo
+% (27915)Time limit reached!
+% (27915)------------------------------
+% (27915)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27915)Termination reason: Time limit
+% (27915)Termination phase: Saturation
+
+% (27915)Memory used [KB]: 993757
+% (27915)Time elapsed: 39.200 s
+% (27922)WARNING: value z3 for option sas not known
+% (27922)dis+4_7_aac=none:afr=on:anc=none:bd=preordered:bce=on:cond=fast:fsr=off:fde=unused:gs=on:gsaa=full_model:gsem=off:irw=on:lma=on:nwc=1:nicw=on:sas=z3:sac=on:sp=reverse_arity:uhcvi=on:avsq=on:plsq=on_300 on bfo
+% (27916)Time limit reached!
+% (27916)------------------------------
+% (27916)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27916)Termination reason: Time limit
+% (27916)Termination phase: Saturation
+
+% (27916)Memory used [KB]: 956146
+% (27916)Time elapsed: 39.200 s
+% (27923)WARNING: value z3 for option sas not known
+% (27923)dis+4_7_aac=none:afr=on:anc=none:bd=preordered:bce=on:cond=fast:fsr=off:fde=unused:gs=on:gsaa=full_model:gsem=off:irw=on:lma=on:nwc=1:nicw=on:sas=z3:sac=on:sp=reverse_arity:uhcvi=on:sp=frequency_300 on bfo
+% (27919)Time limit reached!
+% (27919)------------------------------
+% (27919)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27919)Termination reason: Time limit
+% (27919)Termination phase: Saturation
+
+% (27919)Memory used [KB]: 963566
+% (27919)Time elapsed: 39.202 s
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27924)fmb+10_1_av=off:fmbes=contour:fmbsr=1.6:ile=on:nm=64:updr=off_1800 on bfo
+% (27922)Time limit reached!
+% (27922)------------------------------
+% (27922)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27922)Termination reason: Time limit
+% (27922)Termination phase: Saturation
+
+% (27922)Memory used [KB]: 988384
+% (27922)Time elapsed: 39.200 s
+WARNING Broken Constraint: if sine_level_split_queue(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27925)fmb+10_1_av=off:fmbes=contour:fmbsr=1.6:ile=on:nm=64:updr=off:slsq=on_600 on bfo
+% (27923)Time limit reached!
+% (27923)------------------------------
+% (27923)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27923)Termination reason: Time limit
+% (27923)Termination phase: Saturation
+
+% (27923)Memory used [KB]: 982372
+% (27923)Time elapsed: 39.200 s
+WARNING Broken Constraint: if term_ordering(lpo) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27926)fmb+10_1_av=off:fmbes=contour:fmbsr=1.6:ile=on:nm=64:updr=off:to=lpo_600 on bfo
+% (27910)Time limit reached!
+% (27910)------------------------------
+% (27910)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27910)Termination reason: Time limit
+% (27910)Termination phase: Saturation
+
+% (27910)Memory used [KB]: 2820082
+% (27910)Time elapsed: 117.200 s
+WARNING Broken Constraint: if backward_subsumption_demodulation(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if forward_subsumption_demodulation(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27927)fmb+10_1_av=off:fmbes=contour:fmbsr=1.6:ile=on:nm=64:updr=off:bsd=on:fsd=on_600 on bfo
+% (27925)Time limit reached!
+% (27925)------------------------------
+% (27925)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27925)Termination reason: Time limit
+% (27925)Termination phase: Finite model building constraint generation
+
+% (27925)Memory used [KB]: 19761682
+% (27925)Time elapsed: 78.200 s
+% (27925)------------------------------
+% (27925)------------------------------
+WARNING Broken Constraint: if avatar(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27939)fmb+10_1_av=off:fmbes=contour:fmbsr=1.6:ile=on:nm=64:updr=off:av=on:atotf=0.5_600 on bfo
+% (27926)Time limit reached!
+% (27926)------------------------------
+% (27926)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27926)Termination reason: Time limit
+% (27926)Termination phase: Finite model building constraint generation
+
+% (27926)Memory used [KB]: 19761682
+% (27926)Time elapsed: 78.200 s
+% (27926)------------------------------
+% (27926)------------------------------
+WARNING Broken Constraint: if positive_literal_split_queue(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+WARNING Broken Constraint: if avatar_split_queue(on) has been set then avatar(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27940)fmb+10_1_av=off:fmbes=contour:fmbsr=1.6:ile=on:nm=64:updr=off:avsq=on:plsq=on_600 on bfo
+% (27927)Time limit reached!
+% (27927)------------------------------
+% (27927)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27927)Termination reason: Time limit
+% (27927)Termination phase: Finite model building constraint generation
+
+% (27927)Memory used [KB]: 20648747
+% (27927)Time elapsed: 78.200 s
+% (27927)------------------------------
+% (27927)------------------------------
+WARNING Broken Constraint: if symbol_precedence(frequency) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27942)fmb+10_1_av=off:fmbes=contour:fmbsr=1.6:ile=on:nm=64:updr=off:sp=frequency_600 on bfo
+TRYING [35]
+% (27939)Time limit reached!
+% (27939)------------------------------
+% (27939)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27939)Termination reason: Time limit
+% (27939)Termination phase: Finite model building constraint generation
+
+% (27939)Memory used [KB]: 16923818
+% (27939)Time elapsed: 78.200 s
+% (27939)------------------------------
+% (27939)------------------------------
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27975)fmb+10_1_av=off:fmbsr=1.2:fde=unused:updr=off_5400 on bfo
+% (27940)Time limit reached!
+% (27940)------------------------------
+% (27940)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27940)Termination reason: Time limit
+% (27940)Termination phase: Finite model building constraint generation
+
+% (27940)Memory used [KB]: 16608471
+% (27940)Time elapsed: 78.200 s
+% (27940)------------------------------
+% (27940)------------------------------
+WARNING Broken Constraint: if sine_level_split_queue(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27977)fmb+10_1_av=off:fmbsr=1.2:fde=unused:updr=off:slsq=on_1800 on bfo
+% (27942)Time limit reached!
+% (27942)------------------------------
+% (27942)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27942)Termination reason: Time limit
+% (27942)Termination phase: Finite model building constraint generation
+
+% (27942)Memory used [KB]: 16608471
+% (27942)Time elapsed: 78.200 s
+% (27942)------------------------------
+% (27942)------------------------------
+WARNING Broken Constraint: if term_ordering(lpo) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (27996)fmb+10_1_av=off:fmbsr=1.2:fde=unused:updr=off:to=lpo_1800 on bfo
+% (27924)Time limit reached!
+% (27924)------------------------------
+% (27924)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27924)Termination reason: Time limit
+% (27924)Termination phase: Finite model building constraint generation
+
+% (27924)Memory used [KB]: 51095117
+% (27924)Time elapsed: 234.200 s
+% (27924)------------------------------
+% (27924)------------------------------
+WARNING Broken Constraint: if backward_subsumption_demodulation(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if forward_subsumption_demodulation(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (28022)fmb+10_1_av=off:fmbsr=1.2:fde=unused:updr=off:bsd=on:fsd=on_1800 on bfo
+TRYING [35]
+TRYING [35]
+TRYING [35]
+TRYING [35]
+% (27977)Time limit reached!
+% (27977)------------------------------
+% (27977)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27977)Termination reason: Time limit
+% (27977)Termination phase: Finite model building constraint generation
+
+% (27977)Memory used [KB]: 44003590
+% (27977)Time elapsed: 234.200 s
+% (27977)------------------------------
+% (27977)------------------------------
+WARNING Broken Constraint: if avatar(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (28240)fmb+10_1_av=off:fmbsr=1.2:fde=unused:updr=off:av=on:atotf=0.5_1800 on bfo
+% (27996)Time limit reached!
+% (27996)------------------------------
+% (27996)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (27996)Termination reason: Time limit
+% (27996)Termination phase: Finite model building constraint generation
+
+% (27996)Memory used [KB]: 44459276
+% (27996)Time elapsed: 234.200 s
+% (27996)------------------------------
+% (27996)------------------------------
+WARNING Broken Constraint: if positive_literal_split_queue(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+WARNING Broken Constraint: if avatar_split_queue(on) has been set then avatar(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (28257)fmb+10_1_av=off:fmbsr=1.2:fde=unused:updr=off:avsq=on:plsq=on_1800 on bfo
+TRYING [35]
+% (28022)Time limit reached!
+% (28022)------------------------------
+% (28022)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (28022)Termination reason: Time limit
+% (28022)Termination phase: Finite model building constraint generation
+
+% (28022)Memory used [KB]: 48893831
+% (28022)Time elapsed: 234.205 s
+% (28022)------------------------------
+% (28022)------------------------------
+WARNING Broken Constraint: if symbol_precedence(frequency) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% (28259)fmb+10_1_av=off:fmbsr=1.2:fde=unused:updr=off:sp=frequency_1800 on bfo
+TRYING [35]
+% (28257)Time limit reached!
+% (28257)------------------------------
+% (28257)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (28257)Termination reason: Time limit
+% (28257)Termination phase: Finite model building constraint generation
+
+% (28257)Memory used [KB]: 28709212
+% (28257)Time elapsed: 92.300 s
+% (28257)------------------------------
+% (28257)------------------------------
+% (28240)Time limit reached!
+% (28240)------------------------------
+% (28240)Version: Vampire 4.6.1 (commit f9f55dfef on 2022-05-23 20:23:06 +0200)
+% (28240)Termination reason: Time limit
+% (28240)Termination phase: Finite model building constraint generation
+
+% (28240)Memory used [KB]: 35730122
+% (28240)Time elapsed: 109.300 s
+% (28240)------------------------------
+% (28240)------------------------------
+% (26220)Proof not found in time 3601.98 s
+% (26220)SZS status Timeout for bfo

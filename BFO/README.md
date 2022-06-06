@@ -1,2 +1,2 @@
 # BFO
-The results reported in this folder apply to the commit [8792dde](https://github.com/BFO-ontology/BFO-2020/commit/8792dde1f5702f291adc1c4c8ff83cff28d91be1) of BFO ontology as published in https://github.com/BFO-ontology/BFO-2020.
+The results reported in this folder apply to the commit [8792dde](https://github.com/BFO-ontology/BFO-2020/commit/8792dde1f5702f291adc1c4c8ff83cff28d91be1) of BFO ontology as published in https://github.com/BFO-ontology/BFO-2020 repository.
