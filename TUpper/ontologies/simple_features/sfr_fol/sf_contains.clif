@@ -1,0 +1,30 @@
+/*******************************************************************************
+ * Copyright (c) University of Maine and others. All rights reserved. 
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Shirly Stephen - initial implementation
+ *    Torsten Hahmann - initial implementation *******************************************************************************/
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/simple_features/sfr_fol/sf_contains.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/simple_features/sfc_core/sfc_core.clif)
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_codi/codi_basic.clif)
+
+(cl-comment 'SFR-M5')
+
+(forall (x y)
+	(iff	
+		(sf_contains x y)
+		(and
+			(sf_geometry x)
+			(sf_geometry y)
+			(Cont x y)
+		)
+	)
+)
+
+)

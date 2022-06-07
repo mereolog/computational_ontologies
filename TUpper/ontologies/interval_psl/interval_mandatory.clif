@@ -1,0 +1,19 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved. 
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger, Carmen Chui
+ *******************************************************************************/
+ 
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/interval_psl/interval_mandatory.clif
+(cl-comment 'Time interval version of mandatory.')
+
+(cl-comment 'Import the interval version of PSL-core.')
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/interval_psl/interval_psl_core.clif)
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_core/mandatory.clif)
+
+)

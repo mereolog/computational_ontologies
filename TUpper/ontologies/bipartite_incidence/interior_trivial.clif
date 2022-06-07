@@ -1,0 +1,29 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+*******************************************************************************/
+
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/interior_trivial.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/weak_bipartite.clif)
+
+(forall (x y l1)
+	(if	(and	(point x)
+			(point y)
+			(not (= x y))
+			(line l1)
+			(in x l1)
+			(in y l1))
+		(exists (l2)
+			(and	(line l2)
+				(not (= l1 l2))
+				(or	(in x l2)
+					(in y l2))))))
+
+)

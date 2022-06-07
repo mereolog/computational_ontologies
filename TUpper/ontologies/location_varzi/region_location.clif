@@ -1,0 +1,37 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+ 
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/location_varzi/region_location.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/location_varzi/L_location.clif)
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/location_varzi/definitions/location_def.clif)
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereology/definitions/mereology_def.clif)
+
+(forall (x y z)
+	(if	(and	(region x)
+			(region y)
+			(sum x y z))
+		(region z)))
+
+(forall (x)
+	(if	(region x)
+		(exists (y)
+			(and	(region y)
+				(ppart y x)))))
+
+(forall (x)
+	(if	(region x)
+		(exists (y)
+			(and	(region y)
+				(ppart x y)))))
+
+)

@@ -1,0 +1,29 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved. 
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Torsten Hahmann - initial implementation
+ *******************************************************************************/
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/lattices/definitions/joincomplement.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/lattices/bounded_lattice.clif)
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/lattices/definitions/one.clif)
+
+(cl-comment 'Complemented lattice axioms')
+
+
+(cl-comment 'D5: Definition of a join-complement')
+
+(forall (x y)
+	(iff 
+		(joincomplement x y)
+		(= (join x y) one)))
+
+
+
+)

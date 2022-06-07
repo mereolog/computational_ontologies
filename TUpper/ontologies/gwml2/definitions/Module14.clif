@@ -1,0 +1,42 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Torsten Hahmann - initial implementation
+ *******************************************************************************/
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/gwml2/definitions/module14.clif
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/gwml2/definitions/module13.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/gwml2/definitions/module11.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/gwml2/module9.clif)
+
+
+(cl-comment 'WWB-D')
+(forall (x)
+	(iff
+		(WWB x)
+		(and
+			(WB x)
+			(exists (y v)
+				(and
+					(W y)
+					(forall (z)
+						(if
+							(and
+								(intragranularconstituent z y)
+								(WM z)
+							)
+							(submaterial z x)
+						)
+					)
+					(HGV v)
+					(P (r x) (r v))
+				)
+			)
+		)
+	)
+)
+)

@@ -1,0 +1,56 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/boxworld/boxworld_edge.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/boxworld/boxworld_part.clif)
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cardworld/cardworld_edge.clif)
+
+(cl-comment 'An edge is part of at most two surfaces.')
+(forall (e s1 s2 s3)
+        (if     (and    (edge e) (surface s1) (surface s2) (surface s3)
+                        (part e s1) (part e s2) (part e s3))
+                (or     (= s1 s2) (= s2 s3) (= s1 s3))))
+
+(cl-comment 'A surface that is part of a box containing other surfaces also contains a ridge.')
+(forall (x s1 s2)
+        (if     (and    (box x) (surface s1) (surface s2) (not (= s1 s2))
+                        (part s1 x) (part s2 x))
+                (exists (e)
+                        (and    (ridge e) (part e s1)))))
+
+
+(cl-comment 'Every edge in a surface meets another distinct edge in that surface.')
+(forall (e1 s v)
+        (if     (and    (edge e1) (part e1 s) (surface s))
+                (exists (e2 p)
+                        (and    (part e2 s) (meet e1 e2 p)))))
+
+(cl-comment 'Every border edge meets two distinct border edges.')
+(forall (e1)
+        (if     (border e1)
+                (exists (e2 e3 v1 v2)
+                        (and    (border e2) (border e3) (not (= e2 e3))
+                                (meet e1 e2 v1) (meet e1 e3 v2)))))
+
+(cl-comment 'A ridge is an edge that is part of two surfaces.')
+(forall (e)
+        (iff    (ridge e)
+                (exists (s1 s2)
+                        (and    (edge e) (surface s1) (surface s2) (not (= s1 s2))
+                                (part e s1) (part e s2)))))
+
+(cl-comment 'A border is an edge that is part of a unique surface.')
+(forall (e)
+        (iff    (border e)
+                (and    (edge e) (not (ridge e)))))
+
+)

@@ -1,0 +1,52 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved. 
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Torsten Hahmann - initial implementation
+ *******************************************************************************/
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_dim/definitions/min_max_dim.clif
+
+(cl-comment 'definitional extensions to basic axioms of dimensionality')
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_dim/dim_prime_linear_unbounded.clif)
+
+(cl-comment 'The following two definitions are relative, they do not define a maximum and minimum, i.e. they do not define what the dimension of space is and what are atoms.')
+
+(cl-comment 'D-D4: Maximal dimension (Codim=0)')
+(forall (x)
+	(iff	
+		(MaxDim x)
+		(and
+			(not (ZEX x))
+			(forall (y) 
+				(<= y x)
+			)
+		)
+	)
+)
+
+(cl-comment 'D-D5: Minimal dimension (Dim=0)')
+(forall (x)
+	(iff	
+		(MinDim x)
+		(and
+			(not (ZEX x))
+			(forall (y)
+				(if
+					(not (ZEX y))
+					(<= x y)
+				)
+			)	
+		)
+	)
+)
+
+
+)
+
+
+

@@ -1,0 +1,46 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved. 
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger, Carmen Chui
+ *******************************************************************************/
+ 
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/dolce_dependence/TQ_PD_dependence.clif
+
+(cl-comment 'Source: WonderWeb Deliverable D18 Ontology Library final by: Claudio Masolo, Stefano Borgo, Aldo Gangemi, Nicola Guarino, and Alessandro Oltramari (2003).')
+(cl-comment 'Comment: DOLCE axioms from 4.3.7 Dependence and Spatial Dependence')
+
+(cl-comment 'Import the DOLCE present theory.')
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/dolce_present/dolce_present.clif)
+
+(cl-comment 'Taken directly from HETS axioms - going from sorted logic to unsorted logic.')
+(forall (x y)
+	(if (and (PD x)(TQ y))
+		(iff (SD x y)
+			(and (exists (t) (PRE x t))
+				(forall (t)
+					(if (PRE x t)
+						(PRE y t)))))))
+
+(forall (x)
+	(if (PD x)
+		(exists (y)
+			(and (TQ y)(SD x y)))))
+
+(forall (x y)
+	(if (and (TQ x)(PD y))
+		(iff (SD x y)
+			(and (exists (t) (PRE x t))
+				(forall (t)
+					(if (PRE x t)
+						(PRE y t)))))))
+
+(forall (x)
+	(if (TQ x)
+		(exists (y)
+			(and (PD y)(SD x y)))))
+
+)

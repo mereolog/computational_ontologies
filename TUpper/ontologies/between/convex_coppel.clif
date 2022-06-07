@@ -1,0 +1,32 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/convex_coppel.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/betweenness.clif)
+
+(cl-comment 'Axiom C')
+
+(forall (a b1 b2 c d)
+	(if	(and	(between a c b1)
+			(between c d b2))
+		(exists (b)
+			(and	(between b1 b b2)
+				(between a d b)))))
+
+(cl-comment 'Axiom L1')
+
+(forall (a b)
+	(if	(between a b a)
+		(= b a)))
+
+)
+

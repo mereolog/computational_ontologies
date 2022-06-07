@@ -1,0 +1,28 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+ 
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereological_geometry/ubmg.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereological_geometry/wmg.clif)
+
+(forall (x y l)
+	(if	(and	(point x)
+			(point y)
+			(line l)
+			(in x l)
+			(in y l))
+		(exists (z)
+			(and	(point z)
+				(in z l)
+				(part x z)
+				(part y z)))))
+
+)

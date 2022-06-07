@@ -1,0 +1,28 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+ 
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ordered_cayley/oa.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/discrete_forest.clif)
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cayley_graph/free_semigroup_cayley.clif)
+
+(forall (x y z w)
+	(if	(apply y z w)
+		(iff	(lt x w)
+			(leq x z))))
+
+(forall (x y)
+	(if	(lt x y)
+		(exists (z w)
+			(apply z w y))))
+
+)

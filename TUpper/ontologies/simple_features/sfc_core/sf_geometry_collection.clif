@@ -1,0 +1,45 @@
+/*******************************************************************************
+ * Copyright (c) University of Maine and others. All rights reserved. 
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Shirly Stephen - initial implementation
+ *******************************************************************************/
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/simple_features/sfc_core/sf_geometry_collection.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/simple_features/sfc_core/sf_curve.clif)
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/simple_features/sfc_core/sf_surface.clif)
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/simple_features/sfc_core/sf_point.clif)
+
+
+
+(cl-comment 'SFC-A6')
+(forall (x)
+	(if
+		(sf_geometry_collection x)
+		(and
+			(not (sf_point x))
+			(not (sf_curve x))
+			(not (sf_surface x))
+		)
+	)
+)
+
+(cl-comment 'SFC-A11')
+(forall (x)
+	(iff
+		(sf_geometry_collection x)
+		(or
+			(sf_multi_point x)
+			(sf_multi_curve x)
+			(sf_multi_surface x)
+		)
+	)
+)
+
+)

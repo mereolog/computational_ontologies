@@ -1,0 +1,27 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+ 
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/magma/group.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/magma/magma.clif)
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/magma/definitions/magma_defs.clif)
+
+(forall (x y z)
+	(= (op x (op y z)) (op (op x y) z)))
+
+(exists x
+	(identity x))
+
+(forall (x)
+	(exists (y)
+		(group_inverse x y)))
+
+)

@@ -1,0 +1,22 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger, Bahar Aameri - initial implementation
+ *******************************************************************************/
+ 
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/rcc_continuous_process/theorems/TPP_neighbors.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/rcc_continuous_process/rcc_continuous_process.clif)
+
+
+(forall (o x y)  
+		(if 	(changes o (TPPs x y)) 
+				(or		(changes o (POs x y))
+						(changes o (EQs x y))
+						(changes o (NTPPs x y)))))
+	 
+)

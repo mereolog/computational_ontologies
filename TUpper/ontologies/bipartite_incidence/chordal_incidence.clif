@@ -1,0 +1,37 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+*******************************************************************************/
+
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/chordal_incidence.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/helly.clif)
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/definitions/bipartite_def.clif)
+
+(forall (x y z w)
+	(if	(cycle x y z w ...)
+		(exists (u v)
+			(and	(path x ... u ... w)
+				(path x ... v ... w)
+				(intersects u v)))))
+
+(forall (x y z)
+	(iff	(path x ... y z)
+		(and	(path x ... y)
+			(intersects y z))))
+
+(forall (x y)
+	(iff	(cycle x ... y)
+		(and	(path x ... y)
+			(intersect x y))))
+
+
+
+)

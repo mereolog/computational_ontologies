@@ -1,0 +1,11 @@
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/owltime_instants/mappings/owltime_instants_reduction.clif
+
+(forall (x y)
+	(iff	(before x y)
+		(lt x y)))
+
+(forall (x)
+	(iff	(Instant x)
+		(x=x)))
+
+)

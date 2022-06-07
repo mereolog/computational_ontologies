@@ -1,0 +1,31 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/betweenness_bundle/b_bundle.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between_quaternary/btw_root.clif)
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/weak_bipartite.clif)
+
+(forall (l x y z)
+	(if	(Btw l x y z)
+		(and	(line l)
+			(point x)
+			(point y)
+			(point z))))
+
+(forall (l x y z)
+	(if	(Btw l x y z)
+		(and	(in x l)
+			(in y l)
+			(in z l))))
+
+)

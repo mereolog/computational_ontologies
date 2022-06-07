@@ -1,0 +1,22 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+*******************************************************************************/
+
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cardworld/cardworld_surface.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cardworld/cardworld_edge.clif)
+
+(cl-comment 'Each point and edge are part of a unique surface.')
+(forall (x s1 s2)
+        (if     (and    (surface s1) (surface s2) (part x s1) (part x s2)
+                        (or (point x) (edge x)))
+                (= s1 s2)))
+)
+

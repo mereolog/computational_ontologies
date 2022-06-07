@@ -1,0 +1,29 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+ 
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/periods/periods.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/periods/periods_root.clif)
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/periods/definitions/periods_def.clif)
+
+(cl-comment 'MON-2')
+(forall (x y z)
+(if     (and    (precedence x y)
+		(inclusion z y))
+        (precedence x z)))
+
+(cl-comment 'CONJ')
+(forall	(x y)
+(if	(overlaps x y)
+	(exists	(z)
+		(glb x y z))))
+
+)

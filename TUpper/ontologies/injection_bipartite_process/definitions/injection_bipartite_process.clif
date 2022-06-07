@@ -1,0 +1,29 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+ 
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/injection_bipartite_process/definitions/injection_bipartite_process.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/injection_bipartite_process/injection_bipartite_state.clif)
+ 
+     
+
+(forall (a) (iff    (change_line a) 
+                    (forall (o)
+                            (if (occurrence_of o a) 
+                                (exists (l) 
+                                        (changes o (line l)))))))
+                                
+(forall (a) (iff    (change_in a) 
+                    (forall (o)
+                            (if     (occurrence_of o a) 
+                                    (exists (x y) 
+                                            (changes o (in x y)))))))
+                                
+)

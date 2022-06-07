@@ -1,0 +1,29 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tripartite_incidence/coplanar_line_existence.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tripartite_incidence/weak_tripartite.clif)
+
+(forall (p1 p2 q)
+	(if	(and	(point p1)
+			(point p2)
+			(plane q)
+			(in p1 q)
+			(in p2 q)
+			(not (= p1 p2)))
+		(exists (l)
+			(and	(line l)
+				(in p1 l)
+				(in p2 l)
+				(in l q)))))
+
+
+)

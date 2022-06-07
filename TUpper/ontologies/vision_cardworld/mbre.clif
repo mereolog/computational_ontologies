@@ -1,0 +1,24 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved. 
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/vision_cardworld/mbre.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/vision_cardworld/kernel.clif)
+
+(forall (l r e s)
+	(if	(and	(part e s)
+			(depict l e)
+			(in l r)
+			(not (depicts r s)))
+		(exists (r1)
+			(and	(in l r1)
+				(not (= r r1))))))
+
+)

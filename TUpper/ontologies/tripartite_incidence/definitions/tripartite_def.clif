@@ -1,0 +1,96 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tripartite_incidence/definitions/tripartite_def.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tripartite_incidence/weak_tripartite.clif)
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/definitions/bipartite_def.clif)
+
+(forall (l q)
+	(iff	(hanging l q)
+		(and	(line l)
+			(plane q)
+			(exists (p1)
+				(and	(point p1)
+					(in p1 q)
+					(in p1 l)
+					(forall (p2)
+						(if	(and	(point p2)
+								(in p2 l)
+								(in p2 q))
+							(= p1 p2))))))))
+
+(forall (x q)
+	(iff	(planar_pendant x q)
+		(and	(point x)
+			(plane q)
+			(in x q)
+			(forall (y z)
+				(if	(and	(plane_collinear x y q)
+						(plane_collinear x z q))
+					(= y z))))))
+
+(forall (l)
+	(iff	(border_line l)
+		(exists (q)
+			(and	(line l)
+				(plane q)
+				(in l q)
+				(forall (q2)
+					(if	(and	(plane q2)
+							(in l q2))
+						(= q2 q)))))))
+
+(forall (p1 p2 q)
+	(iff	(plane_collinear p1 p2 q)
+		(and	(point p1)
+			(point p2)
+			(not (= p1 p2))
+			(plane q)
+			(in p1 q)
+			(in p2 q)
+			(exists (l)
+				(and	(line l)
+					(in l q)
+					(in p1 l)
+					(in p2 l))))))
+
+(forall (q)
+	(iff	(matching q)
+		(and	(plane q)
+			(forall (l1 l2)
+				(if	(and	(line l1)
+						(line l2)
+						(not (= l1 l2))
+						(in l1 q)
+						(in l2 q))
+					(parallel l1 l2))))))
+
+(forall (p q1 q2)
+	(iff	(junction p q1 q2)
+		(and	(point p)
+			(plane q1)
+			(plane q2)
+			(not (= q1 q2))
+			(exists (l l1 l2)
+				(and	(line l)
+					(line l1)
+					(line l2)
+					(in p l)
+					(in p l1)
+					(in p l2)
+					(in l q1)
+					(in l q2)
+					(in l1 q1)
+					(not (in l1 q2))
+					(not (in l2 q1))
+					(in l2 q2))))))
+)

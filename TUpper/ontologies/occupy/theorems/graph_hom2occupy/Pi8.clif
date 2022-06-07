@@ -1,0 +1,42 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/occupy/theorems/graph_hom2occupy/Pi8.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/subgraph/loop_graph_hom.clif)
+
+(forall (x)
+	(iff	(physical_body x)
+		(point x)))
+
+(forall (x)
+	(iff	(region x)
+		(line x)))
+
+(forall (x y)
+	(iff	(spatial_C x y)
+		(and (adj x y)
+		     (line x) 
+		     (line y))))
+
+(forall (x y)
+	(iff	(physical_C x y)
+		(and (adj x y)
+		     (point x)
+		     (point y))))
+
+(forall (x y)
+	(iff	(occupies x y)
+		(and	(in x y)
+			(point x)
+			(line y))))
+
+)

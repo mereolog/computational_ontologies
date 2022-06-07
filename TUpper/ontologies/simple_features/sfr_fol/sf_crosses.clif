@@ -1,0 +1,62 @@
+/*******************************************************************************
+ * Copyright (c) University of Maine and others. All rights reserved. 
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Shirly Stephen - initial implementation
+ *    Torsten Hahmann - initial implementation *******************************************************************************/
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper//simple_features/sfr_fol/sf_touches.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/simple_features/sfc_core/sfc_core.clif)
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_codib/codib.clif)
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_codi/definitions/inc.clif)
+
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_codi/definitions/curve.clif)
+
+
+
+(cl-comment 'SFR-M3')
+
+(forall (x y)
+	(iff	
+		(sf_crosses x y)
+		(and
+			(sf_geometry x)
+			(sf_geometry y)
+			(or
+				(and
+					(Inc x y)
+					(not (Cont x y))
+					(not (Cont y x))
+				)
+				(forall (z)
+					(if	
+						(and 
+							(Cont z x)
+							(Cont z y)
+						)
+						(and
+							(< z x)
+							(< z y)
+							(not (BCont z x))
+							(not (BCont z y))
+						)
+					)
+				)
+				(and	
+					(SC x y)
+					(Curve x)
+					(Curve y)
+				)
+			)		
+		)
+	)
+)
+
+)

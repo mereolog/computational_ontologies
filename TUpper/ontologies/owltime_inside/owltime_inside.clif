@@ -1,0 +1,35 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+ 
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/owltime_inside/owltime_inside.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/owltime_interval/owltime_interval.clif)
+
+(forall (t x)
+	(if	(inside t x)
+		(and	(Instant t)
+			(Interval x))))
+
+(forall (t x)
+	(iff	(beginsOrIn t x)
+		(or	(begins t x)
+			(inside t x))))
+
+(forall (t t1 t2 x)
+	(if	(and	(inside t x)
+			(begins t1 x)
+			(ends t2 x)
+			(ProperInterval x))
+		(and	(before t1 t)
+			(before t t2))))
+
+
+)

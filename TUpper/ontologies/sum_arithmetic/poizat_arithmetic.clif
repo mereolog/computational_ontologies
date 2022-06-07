@@ -1,0 +1,42 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/sum_arithmetic/poizat_arithmetic.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/sum_arithmetic/sum_def.clif)
+
+(forall (x y)
+	(= (sum x y) (sum y x)))
+
+(forall (x y z)
+	(= (sum (sum x y) z) (sum x (sum y z))))
+
+(forall (x)
+	(= x (sum x zero)))
+
+(forall (x)
+	(not (= (x (sum x one)))))
+
+(forall (x y)
+	(if	(= one (sum x y))
+		(or	(= x zero)
+			(= x one))))
+
+(forall (x y)
+	(exists (z)
+		(or	(= x (sum y z))
+			(= y (sum x z)))))
+
+(forall (x y u v)
+	(if	(and	(= x (sum y u))
+			(= y (sum x v)))
+		(= x y)))
+
+)

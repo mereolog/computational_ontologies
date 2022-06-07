@@ -1,0 +1,99 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+*******************************************************************************/
+ 
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/duration/timeduration.clif
+
+(cl-module field (cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ringoids/field.clif))
+
+(timeduration zero_duration)
+
+(forall (d1 d2)
+(if  (and	(timeduration d1)
+		(timeduration d2))
+	  (timeduration (add_duration d1 d2))))
+
+(forall (d1 d2 d3)
+(if  (and	(timeduration d1)
+		(timeduration d2)
+		(timeduration d3))
+          (= (add_duration (add_duration d1 d2) d3) (add_duration d1 (add_duration d2 d3)))))
+
+(forall (d)
+(if  (timeduration d)
+          (= (add_duration d zero_duration) d)))
+
+(forall (d1)
+(if  (timeduration d1)
+          (exists (d2)
+		(and 	(timeduration d2)
+                	(= (add_duration d1 d2) zero_duration)))))
+
+(forall (d1 d2)
+(if  (and	(timeduration d1)
+		(timeduration d2))
+          (= (add_duration d1 d2) (add_duration d2 d1))))
+
+(forall (d r)
+(if	(and	(timeduration d)
+		(field r))
+	(timeduration (mult_duration r d))))
+
+(forall (d1 d2 r)
+(if	(and	(timeduration d1)
+		(timeduration d2)
+		(field r))
+        (= (mult_duration r (add_duration d1 d2)) (add_duration (mult_duration r d1) (mult_duration r d2)))))
+
+(forall (d r s)
+(if	(and	(timeduration d)
+		(field r)
+		(field s))
+        (= (mult_duration (sum r s) d) (add_duration (mult_duration r d) (mult_duration s d)))))
+
+(forall (d r s)
+(if	(and	(timeduration d)
+		(field r)
+		(field s))
+        (= (mult_duration (prod r s) d) (mult_duration r (mult_duration s d)))))
+
+(forall (d)
+(if	(timeduration d)
+        (= d (mult_duration one d))))
+
+(forall (d1 d2 d3)
+	(if	(and	(timeduration d1)
+			(timeduration d2)
+			(timeduration d3))
+        	(if	(lesser_duration d1 d2)
+			(lesser_duration (add_duration d1 d3) (add_duration d2 d3)))))
+
+(forall (d1 d2 d3)
+	(if	(and	(timeduration d1)
+			(timeduration d2)
+			(timeduration d3))
+        	(if	(= d1 d2)
+			(= (add_duration d1 d3) (add_duration d2 d3)))))
+
+(forall (d1 d2 r)
+	(if	(and	(timeduration d1)
+			(timeduration d2)
+			(field r))
+        	(if	(lesser_duration d1 d2)
+			(lesser_duration (mult_duration r d1) (mult_duration r d2)))))
+
+(forall (d1 d2 r)
+	(if	(and	(timeduration d1)
+			(timeduration d2)
+			(field r))
+        	(if	(= d1 d2)
+			(= (mult_duration r d1) (mult_duration r d2)))))
+
+)
+

@@ -1,0 +1,44 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved. 
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Torsten Hahmann - initial implementation
+ *******************************************************************************/
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_codib/definitions/simple_loop_curve.clif
+
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_codib/codib.clif)
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_codi/definitions/curve.clif)
+
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_codi/definitions/point_region.clif)
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_codi/definitions/simple_s.clif)
+
+
+
+(cl-comment 'A simple curve segment is a curve that contains exactly two distinct endpoints and is simple, i.e., is not branched.')
+
+(forall (x)
+	(iff
+		(SimpleLoopCurve x)
+		(and
+			(Curve x)
+			(Simple_S x)
+			(forall (y)
+				(if
+					(PointRegion y)
+					(not (BCont y x))
+				)
+			)
+		)
+	)
+)
+
+
+)

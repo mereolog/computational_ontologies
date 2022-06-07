@@ -1,0 +1,48 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/size/area.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/codi_int.clif)
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/definitions/epp.clif)
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/definitions/areal_region.clif)
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/size/spatial_area.clif)
+
+(forall (x)
+	(if  	(ArealRegion x)
+		(spatial_area (area x))))
+
+(forall (x)
+        (if     (ArealRegion x)   
+                (lesser zero_area (area x))))
+
+(forall (x y)
+	(if	(PP x y)
+		(lesser (area x) (area y))))
+		
+(forall (x y z)
+	(if	(and	(diff x y z)
+			(ArealRegion x)
+			(ArealRegion y)
+			(ArealRegion z))
+		(= (area x) (add (area y) (area z)))))
+
+(forall (x y)
+	(if	(PP y x)
+		(exists (z)
+			(and	(PP z x)
+				(not (= y z))
+				(= (area y) (area z))))))
+
+)
+

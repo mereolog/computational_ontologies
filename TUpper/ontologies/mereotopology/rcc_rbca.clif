@@ -1,0 +1,41 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved. 
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Torsten Hahmann - initial implementation
+ *******************************************************************************/
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereotopology/rcc_rbca.clif
+
+(cl-comment 'Mapping axioms between the Region Connection Calculus and Region Boolean Connection Algebras')
+
+(cl-imports  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereotopology/rcc.clif)
+
+(cl-imports  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/contact_algebras/region_boolean_contact_algebra.clif)
+
+(forall (x y)
+	(iff 
+		(P x y)
+		(leq x y)
+)	)
+
+
+(forall (x y)
+	(iff
+		(not (c x y))
+		(and	(not (= x y))
+					(leq x y)
+)	)	)
+
+
+(forall (x y)
+	(iff
+		(O x y)
+		(not (= (meet x y) 0))
+)	)
+
+
+)

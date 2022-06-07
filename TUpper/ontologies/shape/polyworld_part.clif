@@ -1,0 +1,28 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/shape/polyworld_part.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/boxworld/boxworld_part.clif )
+
+
+(forall (x)
+(if	(or (point x) (edge x) (surface x) (box x))
+        (not (poly x))))
+
+        
+(forall (x y)
+(if	(and	(in x y)
+            (poly x)
+            (poly y))
+            (= x y)))
+        
+
+)

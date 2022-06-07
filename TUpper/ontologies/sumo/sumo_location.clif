@@ -1,0 +1,69 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/sumo/sumo_location.clif
+
+(forall (x)
+	(if	(Physical x)
+		(exists (y z)
+			(and	(located x y)
+				(time x z)))))
+
+(forall (x)
+	(if	(Region x)
+		(exists (y)
+			(located y x))))
+
+(forall (x y)
+	(if	(located x y)
+		(partlyLocated x y)))
+
+(forall (x y)
+	(if	(and	(located x y)
+			(located y x))
+		(= x y)))
+
+(forall (x y z)
+	(if	(and	(located x y)
+			(located y z))
+		(located x z)))
+
+(forall (s o1 o2)
+	(if	(and	(located o1 o2)
+			(part s o1)
+		(located s o2))))
+
+(forall (x y)
+	(if	(partlyLocated x y)
+		(and	(Physical x)
+			(Object y))))
+
+(forall (x y)
+	(if	(and	(Object x)
+			(partlyLocated x y))
+		(overlapsSpatially x y)))
+
+(forall (x y)
+	(if	(and	(Object x)
+			(partlyLocated x y))
+		(exists (s)
+			(and	(part s x)
+				(located s y)))))
+
+(forall (x y)
+	(if	(exactlyLocated x y)
+		(located x y)))
+
+(forall (x y)
+	(if	(and	(exactlyLocated x y)
+			(exactlyLocated y x))
+		(= x y)))
+
+)

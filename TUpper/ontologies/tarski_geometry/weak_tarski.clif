@@ -1,0 +1,26 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tarski_geometry/weak_tarski.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tarski_geometry/congruent_tarski.clif)
+
+(cl-comment 'Given any angle  and any point v in its interior, there exists a line segment including v, with an endpoint on each side of the angle.')
+(forall (x y z u v)
+	(if	(and	(between x u v)
+			(between y u z)
+			(not (= u v)))
+		(exists (a b)
+			(and	(between x y a)
+				(between x z b)
+				(between a v b)))))
+
+
+)

@@ -1,0 +1,69 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved. 
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Torsten Hahmann - initial implementation
+ *******************************************************************************/
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_physcont/theorems/osurroundsmat_theorems.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_physcont/definitions/osurroundsmat.clif)
+
+(cl-comment 'JEPD13')
+
+(forall (x y)
+	(if
+		(isurroundsmat y x)
+		(not (enclosesmat y x))
+	)
+)
+
+(cl-comment 'JEPD14a')
+
+(forall (x y)
+	(if
+		(surroundsmat y x)
+			(or
+				(osurroundsmat y x)
+				(enclosesmat y x)
+				(isurroundsmat y x)
+			)
+		)
+	)
+)
+
+
+(cl-comment 'JEPD14b')
+
+(forall (x y)
+	(if
+		(osurroundsmat y x)
+		(surroundsmat y x)
+	)
+)
+
+
+(cl-comment 'JEPD14c')
+
+(forall (x y)
+	(if
+		(enclosesmat y x)
+		(surroundsmat y x)
+	)
+)
+
+
+
+(cl-comment 'JEPD14d')
+
+(forall (x y)
+	(if
+		(isurroundsmat y x)
+		(surroundsmat y x)
+	)
+)
+
+)

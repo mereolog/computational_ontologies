@@ -1,0 +1,48 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+*******************************************************************************/
+
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cyclic_geometry/ccg.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cyclic_geometry/wcg.clif)
+
+(forall (x y z l)
+	(if	(and	(line l)
+			(in x l)
+			(in y l)
+			(in z l)
+			(C x y z))
+		(not (C z y x))))
+
+(forall (x y z w l)
+	(if	(and	(line l)
+			(in x l)
+			(in y l)
+			(in z l)
+			(in w l)
+			(C x y z)
+			(C x z w))
+		(C x y w)))
+
+(forall (x y z u v l)
+	(if	(and	(line l)
+			(in x l)
+			(in y l)
+			(in z l)
+			(in u l)
+			(in v l)
+			(C x y z)
+			(C x u v))
+		(or	(C x u y)
+			(C x y u)
+			(= y u))))
+			
+
+)

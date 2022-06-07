@@ -1,0 +1,36 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+ 
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/piece/piece_def.clif
+
+(cl-comment 'Proper Parthood')
+(forall (x y)
+        (iff    (properPieceOf x y)
+                (and    (pieceOf x y)
+                        (not (x=y)))
+                        
+)
+
+(cl-comment 'Overlaps')
+(forall (x y)
+        (if     (exists (z)
+                        (and
+                                (pieceOf z x)
+                                (pieceOf z y)))
+                (pieceOverlaps x y))
+                        
+)
+
+(cl-comment 'Disjointness')
+(forall (x y)
+        (iff    (pieceDisjoints x y)
+                (not (pieceOverlaps x y)))
+                        
+)

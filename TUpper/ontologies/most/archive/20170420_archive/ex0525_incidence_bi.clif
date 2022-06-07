@@ -1,0 +1,21 @@
+/*******************************************************************************
+* Copyright (c) University of Toronto and others. All rights reserved.
+* The content of this file is licensed under the Creative Commons Attribution-
+* ShareAlike 4.0 Unported license. The legal text of this license can be
+* found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+*
+* Contributors:
+* Carmen Chui, Michael Gruninger
+*******************************************************************************/
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/ex0525_incidence_bi.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/biclosure.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/incidence_bi_td.clif)
+
+(forall (x y)
+	(iff (in x y)
+		(or (inpl x y)(inpl y x)
+			(= x y))))
+		
+)

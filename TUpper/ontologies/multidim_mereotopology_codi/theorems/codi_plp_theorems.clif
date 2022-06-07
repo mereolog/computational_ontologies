@@ -1,0 +1,47 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved. 
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Torsten Hahmann - initial implementation
+ *******************************************************************************/
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/theorems/codi_plp_theorems.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/codi_plp.clif)
+
+
+(cl-comment 'PLP-T1')
+
+(forall (x y)
+	(if
+		(and
+			(Pl x)
+			(Pl y)
+		)
+		(EqDim x y)
+	)
+)
+
+(cl-comment 'PLP-T2a')
+
+(forall (x)
+	(or
+		(not (Pt x))
+		(not (Pl x))
+	)
+)
+
+(cl-comment 'PLP-T2b')
+
+(forall (x)
+	(or
+		(not (L x))
+		(not (Pl x))
+	)
+)
+
+
+)

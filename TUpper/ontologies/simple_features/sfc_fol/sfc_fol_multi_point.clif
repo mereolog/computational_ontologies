@@ -1,0 +1,38 @@
+/*******************************************************************************
+ * Copyright (c) University of Maine and others. All rights reserved. 
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Shirly Stephen - initial implementation
+ *    Torsten Hahmann - initial implementation
+ *******************************************************************************/
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/simple_features/sfc_fol/sfc_fol_multi_point.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/simple_features/sfc_core/sf_geometry_collection.clif)
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_codi/definitions/point_region.clif)
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_codi/definitions/point.clif)
+
+(cl-comment 'SFC-M14: Simple Feature Multipoint is a PointRegion that is not a point')
+
+
+(forall (x)
+	(iff	
+		(sf_multi_point x)
+		(and
+			(PointRegion x)
+			(not (Point x))
+		)
+	)
+)
+
+
+
+(cl-comment 'SFC-M14 (old): Simple Feature Multipoint and PointRegion are equivalent classes - this is inconsistent with the approach that a geometry collection, which includes multipoints, is necessarily a multipart or branched areal region') 
+
+
+)

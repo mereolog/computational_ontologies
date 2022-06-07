@@ -1,0 +1,32 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved. 
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Torsten Hahmann - initial implementation
+ *******************************************************************************/
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codib/definitions/bo.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codib/codib_down.clif)
+
+(cl-comment 'Defining boundary overlap')
+
+(cl-comment 'BO-D')
+
+(forall (x y)
+	(iff
+		(BO x y)
+		(exists (z)
+			(and
+				(BCont z x)
+				(BCont z y)
+			)
+		)
+	)
+)
+
+
+)

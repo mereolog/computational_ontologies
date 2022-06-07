@@ -1,0 +1,24 @@
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/hydrologicFlow/ground_surface.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/gwml2-v2/geo_geologicunit.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_ped/ped.clif)
+
+
+(cl-comment 'Z-A1: Ground surface is a relevant part feature hosted by a geologic unit')
+(forall (x)
+	(if
+		(GS x)
+		(and
+			(RPF x)
+			(exists (y)
+				(and
+					(GU y)
+					(hosts y x)
+				)
+			)
+		)
+	)
+)
+
+)
+

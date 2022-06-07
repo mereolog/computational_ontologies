@@ -1,0 +1,33 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/shepperd.clif
+
+(forall (x y z)
+	(if	(between x y z)
+		(between z y x)))
+
+(forall (x y z)
+	(or	(between x y z)
+		(between y z x)
+		(between z x y)))
+
+(forall (x y z)
+	(iff	(and	(between x y z)
+			(between x z y))
+		(= y z)))
+
+(forall (x y z w)
+	(if	(and	(between x y z)
+			(between x z w))
+		(between y z w)))
+
+)
+

@@ -1,0 +1,31 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved. 
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Torsten Hahmann - initial implementation
+ *******************************************************************************/
+
+ 
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_physcont/definitions/voidinside.clif
+
+(cl-comment 'detachable containment from 2013 COSIT paper')
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_physcont/definitions/inside.clif)
+
+(cl-comment 'VInside-D')
+
+(forall (x y)
+	(iff
+		(voidinside x y)
+		(and
+			(inside x y)
+			(V x)
+		)
+	)
+)
+
+
+)

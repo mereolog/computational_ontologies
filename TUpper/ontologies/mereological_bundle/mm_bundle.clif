@@ -1,0 +1,25 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+ 
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereological_bundle/mm_bundle.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereological_bundle/m_bundle.clif)
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereological_bundle/mereological_bundle_def.clif)
+
+(forall (x y p)
+        (if     (tppart x y p)
+                (exists  (z)
+                        (and    (tppart z y p)
+                                (tdisjoint z x p)))))
+
+
+)

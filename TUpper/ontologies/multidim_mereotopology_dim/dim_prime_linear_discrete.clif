@@ -1,0 +1,44 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved. 
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Torsten Hahmann - initial implementation
+ *******************************************************************************/
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_dim/dim_prime_linear_discrete.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_dim/dim_prime_linear.clif)
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_dim/definitions/covers.clif)
+
+
+(cl-comment 'D-A8: discrete set of dimensions: next highest dimension')
+
+(forall (x)
+	(if
+		(not (MaxDim x))
+		(exists (y)
+			(Covers y x)
+		)
+	)
+)
+
+
+(cl-comment 'D-A9: discrete set of dimensions: next lowest dimension')
+
+(forall (x)
+	(if
+		(and
+			(not (ZEX x))
+			(not (MinDim x))
+		)
+		(exists (y)
+			(Covers x y)
+		)
+	)
+)
+
+)

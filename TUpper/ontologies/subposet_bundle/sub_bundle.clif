@@ -1,0 +1,80 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/subposet_bundle/sub_bundle.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereological_bundle/m_bundle.clif)
+
+(forall (x y t)
+	(if	(tleq x y t)
+		(and	(line x)
+			(line y)
+			(poset_element x)
+			(poset_element y)
+			(point t))))
+
+(forall (x y t)
+	(if	(tleq x y t)
+		(and	(in t x)
+			(in t y))))
+
+(forall (x t)
+	(if	(and	(line x)
+			(poset_element x)
+			(point t)
+			(in t x))
+		(tleq x x t)))
+
+(forall (x y t)
+	(if	(and	(tleq x y t)
+			(tleq y x t))
+		(= x y)))
+
+(forall (x y z t)
+        (if     (and    (tleq x y t)
+                        (tleq y z t))
+                (tleq x z t)))
+
+(forall (x y t)
+	(if	(tpart x y t)
+		(and	(line x)
+			(line y)
+			(mereo_element x)
+			(mereo_element y)
+			(point t))))
+
+(forall (x y t)
+	(if	(tpart x y t)
+		(and	(in t x)
+			(in t y))))
+
+(forall (x t)
+	(if	(and	(line x)
+			(mereo_element x)
+			(point t)
+			(in t x))
+		(tpart x x t)))
+
+(forall (x y z t)
+        (if     (and    (tpart x y t)
+                        (tpart y z t))
+                (tpart x z t)))
+
+(forall (x y t)
+	(iff	(tlt x y t)
+		(and	(tleq x y t)
+			(not (= x y)))))
+
+(forall (x y t)
+	(iff	(tppart x y t)
+		(and	(tpart x y t)
+			(not (= x y)))))
+
+)

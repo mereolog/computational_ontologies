@@ -1,0 +1,31 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+ 
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereological_geometry/summg.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereological_geometry/wmg.clif)
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereological_geometry/mg_def.clif)
+
+(forall (x y l)
+        (if     (underlaps_line x y l)
+                (exists (z)
+			(and	(point z)
+				(in z l)
+                        	(forall (v)
+					(if	(and	(point v)
+							(in v l))
+                                		(iff    (overlaps_line v z l)
+                                        		(or     (overlaps_line v x l)
+                                                		(overlaps_line v y l)))))))))
+
+
+)

@@ -1,0 +1,33 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/occupy/theorems/occupy2graph_hom/Delta8.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/occupy/occupy_connection/occupy_connection.clif)
+
+(forall (x)
+	(iff	(point x)
+		(physical_object x)))
+
+(forall (x)
+	(iff	(line x)
+		(region x)))
+
+(forall (x y)
+	(iff	(adj x y)
+		(physical_C x y)))
+
+(forall (x y)
+	(iff	(in x y)
+		(or	(occupies x y)
+			(occupies y x)
+			(= x y))))
+
+)

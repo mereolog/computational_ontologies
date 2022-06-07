@@ -1,0 +1,49 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+*******************************************************************************/
+
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/interval_incidence.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/chordal_incidence.clif)
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/definitions/bipartite_def.clif)
+
+(forall (x y)
+	(if	(and	(complement_cycle x ... y)
+			(complement_odd x ... y))
+		(exists (z w u)
+			(and	(complement_cycle x ... z w u ... y)
+				(parallel z u)))))
+
+(forall (x y z)
+	(iff	(complement_path x ... y z)
+		(and	(complement_path x ... y)
+			(parallel y z))))
+
+(forall (x y)
+	(iff	(complement_cycle x ... y)
+		(and	(complement_path x ... y)
+			(parallel x y))))
+
+(forall (x y)
+	(iff	(complement_odd x ... y)
+		(or	(parallel x y)
+			(exists (z)
+				(and	(parallel x z)
+					(complement_even z ... y))))))
+
+(forall (x y)
+	(iff	(complement_even x ... y)
+		(or	(parallel x y)
+			(exists (z)
+				(and	(parallel x z)
+					(complement_odd z ... y))))))
+
+)

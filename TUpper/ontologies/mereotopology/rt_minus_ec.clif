@@ -1,0 +1,24 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved. 
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Torsten Hahmann - initial implementation
+ *******************************************************************************/
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereotopology/rt_minus_ec.clif
+
+(cl-comment 'axioms of the generalized mereotopology RT- with external connection')
+
+(cl-imports  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereotopology/rt_minus.clif)
+
+
+(cl-comment 'A11: Existence of external connection')
+
+(exists (x y)
+	(ec x y)
+)
+
+)

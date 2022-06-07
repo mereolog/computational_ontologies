@@ -1,0 +1,49 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+ 
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/periods/periods_root.clif
+
+(cl-comment 'Precedence TRANS')
+(forall	(x y z) 
+(if	(and	(precedence x y)
+		(precedence y z))
+	(precedence x z)))
+
+(cl-comment 'Precedence IREFF')
+(forall	(x)
+	(not	(precedence x x)))
+
+(cl-comment 'Inclusion TRANS')
+(forall	(x y z) 
+(if	(and	(inclusion x y)
+		(inclusion y z))
+	(inclusion x z)))
+
+(cl-comment 'Inclusion REF')
+(forall	(x)
+	(inclusion x x))
+
+(cl-comment 'Inclusion ANTIS')
+(forall	(x y)
+(if	(and	(inclusion x y)
+		(inclusion y x))
+	(= x y)))
+
+(cl-comment 'MON-1')
+(forall (x y z)
+(if	(and	(precedence x y)
+		(inclusion z x))
+	(precedence z y)))
+
+(forall (x y)
+	(if	(inclusion x y)
+		(not (precedence x y))))
+ 
+)

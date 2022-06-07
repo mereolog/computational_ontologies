@@ -1,0 +1,31 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Torsten Hahmann - initial implementation
+ *******************************************************************************/
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/gwml2/module31.clif
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/gwml2/module4.clif)
+
+
+(cl-comment 'GWMS-A1')
+(cl-comment 'Groundwater Monitoring Site is a Spatial Region and is located in a Hydro Rock Body')
+(forall (x)
+	(if
+		(GWMS x)
+		(and
+			(S x)
+			(exists (y)
+				(and
+					(HRB y)
+					(Cont x (r y))
+				)
+			)
+		)
+	)
+)
+)

@@ -1,0 +1,57 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Torsten Hahmann - initial implementation
+ *******************************************************************************/
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/gwml2/module6a.clif
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/gwml2/module6.clif)
+
+(cl-comment 'AU-9')
+(cl-comment 'An Unconfined Aquifer has contact with at least one Confining Bed')
+(forall (x)
+	(if
+		(UA x)
+		(and
+			(A x)
+			(exists (y)
+				(and
+					(CB y)
+					(SC (r x) (r y))
+				)
+			)
+		)
+	)
+)
+(cl-comment 'AU-10')
+(cl-comment 'A Confined Aquifer is spatially bound by at least two Confining Beds')
+(forall (x)
+	(if
+		(CA x)
+		(and
+			(A x)
+			(exists (y z)
+				(and
+					(CB y)
+					(CB z)
+					(not (= y z))
+					(SC (r x) (r y))
+					(SC (r x) (r z))
+				)
+			)
+		)
+	)
+)
+(cl-comment 'AU-A11')
+(cl-comment 'CA and UA are mutually disjoint classes')
+(forall (x)
+	(or
+		(not (A x))
+		(not (AU x))
+	)
+)
+)

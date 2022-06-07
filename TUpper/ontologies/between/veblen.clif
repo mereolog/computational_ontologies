@@ -1,0 +1,73 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/veblen.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/infinite_bet.clif)
+
+(cl-comment '(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/pasch.clif)')
+
+(exists (p1 p2)
+	(not	(= p1 p2)))
+	
+(forall (a b c)
+	(if	(between a b c)
+		(between c b a)))
+		
+(forall (a b c)
+	(if	(between a b c)
+		(not	(between b c a))))
+		
+(forall (a b c)
+	(if	(between a b c)
+		(not (= a c))))
+		
+(forall (a b)
+	(if	(not (= a b))
+		(exists (c)
+			(between a b c))))
+			
+(forall (a b c)
+	(iff	(collinear a b c)
+		(and	(not (= a b))
+			(not (= a c))
+			(not (= b c))
+			(or	(between a b c)
+				(between b c a)
+				(between c a b)))))
+						
+(forall (a b c d)
+	(if	(and	(collinear a b c)
+			(collinear a b d)
+			(not (= c d)))
+		(collinear a c d)))
+		
+(exists (a b c)
+	(and	(not (= a b))
+		(not (= a c))
+		(not (= b c))
+		(not	(or	(between a b c)
+				(between b c a)
+				(between c a b)))))
+						
+(forall (a b c d e)
+	(if	(and	(not (collinear a b c))
+			(between b c d)
+			(between c e a)
+			(not (= a b))
+			(not (= a c))
+			(not (= b c)))
+		(exists (f)
+			(and	(between a f b)
+				(collinear d e f)))))
+					
+)
+
+

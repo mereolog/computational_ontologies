@@ -1,0 +1,100 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved. 
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Torsten Hahmann - initial implementation
+ *******************************************************************************/
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/theorems/codi_down_theoremsEP-E2.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/theorems/codi_down_theoremsEP-E1.clif)
+
+
+(cl-comment 'EP-E2.Ix: strong supplementation - different from distinctions in manual proof')
+
+(forall (x y)
+	(if
+		(and
+			(not (ZEX x))
+			(not (ZEX y))
+			(not (P y x))
+			(EqDim x y)
+			(PO x y)
+			(not (PP y x))
+		)
+		(exists (z)
+			(and
+				(P z y)
+				(not (PO z x))
+			)
+		)
+	)
+)
+
+
+(cl-comment 'EP-E2.IIx: strong supplementation - different from distinctions in manual proof')
+
+(forall (x y)
+	(if
+		(and
+			(not (ZEX x))
+			(not (ZEX y))
+			(not (P y x))
+			(EqDim x y)
+			(not (PO x y))
+		)
+		(exists (z)
+			(and
+				(P z y)
+				(not (PO z x))
+			)
+		)
+	)
+)
+
+
+(cl-comment 'EP-E2.III: strong supplementation')
+
+(forall (x y)
+	(if
+		(and
+			(not (ZEX x))
+			(not (ZEX y))
+			(not (P y x))
+			(not (EqDim x y))
+		)
+		(exists (z)
+			(and
+				(P z y)
+				(not (PO z x))
+			)
+		)
+	)
+)
+
+
+
+(cl-comment 'EP-E2.IV: strong supplementation: separate subcase of III when x is the null region')
+
+(forall (x y)
+	(if
+		(and
+			(ZEX x)
+			(not (ZEX y))
+			(not (P y x))
+			(not (EqDim x y))
+		)
+		(exists (z)
+			(and
+				(P z y)
+				(not (PO z x))
+			)
+		)
+	)
+)
+
+
+)

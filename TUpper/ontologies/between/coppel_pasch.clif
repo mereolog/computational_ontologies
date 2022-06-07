@@ -1,0 +1,26 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/coppel_pasch.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/convex_coppel.clif)
+
+(cl-comment 'Axiom P')
+
+(forall (a b1 b2 c1 c2)
+	(if	(and	(between a c1 b1)
+			(between c c2 b2))
+		(exists (x)
+			(and	(between b1 x c2)
+				(between b2 x c1)))))
+
+)
+

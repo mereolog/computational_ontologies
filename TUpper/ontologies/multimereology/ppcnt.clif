@@ -1,0 +1,79 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Bahar Ameri, Michael Gruninger - initial implementation
+ *******************************************************************************/
+ 
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multimereology/ppcnt.clif
+
+(forall (x y)
+	(if	(pp x y)
+		(not (pp y x))))
+
+(forall (x y z)
+	(if	(and	(pp x y)
+			(pp y z))
+		(pp z x)))
+
+(forall (x y)
+	(if	(pp x y)
+		(exists (z)
+			(and	(pp z y)
+				(not (ppo z x))))))
+
+(forall (x y)
+	(if	(pp x y)
+		(exists (z)
+			(and	(pp x z)
+				(pp z y)))))
+
+(forall (x y)
+	(iff	(ppo x y)
+		(exists (z)
+			(and	(or	(pp z x) 
+					(= z x))
+				(or	(pp z y)
+					(= z y))))))
+
+(forall (x y)
+	(if	(cntIn x y)
+		(not (cntIn y x))))
+
+(forall (x y z)
+	(if	(and	(cntIn x y)
+			(cntIn y z))
+		(cntIn z x)))
+
+(forall (x y)
+	(if	(and	(cntIn x y)
+			(cntIni x y))
+		(and	(exists (z)
+				(and	(cntIni x z)
+					(cntIn z y)))
+			(exists (z)
+				(and	(cntIn x z)
+					(cntIni z y))))))
+
+(forall (x y)
+	(iff	(cntIni x y)
+		(and	(cntIn x y)
+			(not (exists (z)
+				(and	(cntIn x z)
+					(cntIn z y)))))))
+
+(forall (x y z)
+	(if	(and	(pp x y)
+			(cntIn y z))
+		(cntIn x z)))
+
+(forall (x y z)
+	(if	(and	(cntIn x y)
+			(pp y z))
+		(cntIn x z)))
+
+)

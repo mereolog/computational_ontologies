@@ -1,0 +1,36 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/approximate_point/ap_def.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/approximate_point/ap_root.clif)
+
+(forall (x y)
+(iff	(ncdf x y)
+	(exists (z)
+		(and	(finer z x)
+			(finer z y)))))
+
+(forall (x y)
+(iff    (meets x y)
+        (and    (precedes x y)
+                (not (exists (z)
+                        (and    (precedes x z)
+                                (precedes z y)))))))
+
+(forall (x)
+(iff    (moment x)
+        (not (exists (y)
+                (and    (finer y x)
+                        (not (=  x y)))))))
+
+
+)
+

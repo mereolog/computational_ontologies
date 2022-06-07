@@ -1,0 +1,174 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved. 
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Torsten Hahmann - initial implementation
+ *******************************************************************************/
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereotopology/rt_minus.clif
+
+(cl-comment 'axioms of the generalized mereotopology RT-')
+
+
+(cl-comment 'D1: Parthood')
+
+(forall (x y)
+	(iff 	(p x y)
+		(forall (z) 
+				(if 	
+					(c z x)
+					(c z y)
+				)
+		)
+)
+)
+
+(cl-comment 'D3: Overlap')
+
+(forall (x y)
+	(iff 	(o x y)
+		(exists (z)
+				(and 	(p z x)
+					(p z y) )))
+)
+
+
+(cl-comment 'D4: External connection')
+
+(forall (x y)
+	(iff 	(ec x y)
+		(and 	(c x y)
+			(not (o x y)) ))
+)
+
+
+(cl-comment 'D6: Non-tangential parthood')
+
+(forall (x y)
+	(iff 	(ntp x y)
+		(and 	(p x y)
+			(not (exists (z) 
+					(and 	(ec z x)
+						(ec z y))
+			)) ))
+)
+
+
+(cl-comment 'D7: Closure function closure(x) as -int(-x)')
+
+(forall (x)
+	(= (closure x) (neg (int (neg x))))
+)
+
+
+(cl-comment 'D8: Open')
+
+(forall (x)
+	(iff 	(op x)
+		(= x (int x)))
+)
+
+
+(cl-comment 'A1: C reflexive')
+
+(forall (x) 
+	(c x x)
+)
+
+
+(cl-comment 'A2: C symmetric')
+
+(forall (x y) 
+	(if (c x y) (c y x))
+)
+
+
+(cl-comment 'A3: C extensional')
+
+(forall (x y) 
+	(if 	(forall (z) (iff (c z x) (c z y)))
+		(= x y))
+)
+
+
+(cl-comment 'A4: Universally connected region one')
+
+(forall (y) 
+	(c one y)
+)
+
+
+(cl-comment 'A5: Unique sums')
+
+(forall (x y) 
+	(exists (z) 
+		(forall (u) 
+			(iff 	(c u z) 
+				(or (c u x) (c u y)))
+)))
+
+
+
+(cl-comment 'A6: Unique intersections (meet)')
+
+(forall (x y) 
+	(if 	(o x y)
+		(exists (z)
+			(and 	(= z (meet x y))
+				(forall (u) 
+					(iff 	(c u z)
+						(exists (v)
+							(and 	(p v x)
+								(p v y)
+								(c v u)
+)	)	)	)	)	)	)	)
+
+
+
+(cl-comment 'A7: Unique complements')
+
+(forall (x)
+	(if	(exists (y) (not (c y x)))
+		(exists (z) 
+			(and	(= (compl x) z)
+					(forall (u)
+						(iff 	(c u z)
+							(exists (v)
+								(and 	(not (c v x))
+									(c v u)
+)	)	)	)		)	)	)	)
+
+
+(cl-comment 'A8: Unique interiors')
+
+(forall (x)
+	(exists (z)
+		(and	(= (int x) z)
+				(forall (u)
+					(iff 	(c u z)
+						(exists (v)
+							(and 	(ntp v x)
+								(c v u)
+)	)	)		)	)	)	)
+
+
+(cl-comment 'A9: closure of the universal region')
+
+(= (cl universe) universe)
+
+
+(cl-comment 'A10: Open intersection of open elements')
+
+(forall (x y)
+	(if 
+		(and 	(op x)
+			(op y)
+			(o x y))
+		(op (meet x y))
+)	)
+
+
+)

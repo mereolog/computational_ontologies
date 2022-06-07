@@ -1,0 +1,26 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/semilinear_ordering.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/partial_ordering.clif)
+
+(forall (x y z)
+	(if	(and	(leq x y)
+			(leq z y))
+		(or	(leq x z)
+			(leq z x))))
+
+(forall (x y)
+	(exists (z)
+		(and	(leq z x)
+			(leq z y))))
+
+)

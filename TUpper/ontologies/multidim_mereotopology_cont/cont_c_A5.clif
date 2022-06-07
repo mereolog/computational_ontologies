@@ -1,0 +1,42 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved. 
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Torsten Hahmann - initial implementation
+ *******************************************************************************/
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_cont/cont_c_A5.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_cont/cont_basic.clif)
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_cont/definitions/c.clif)
+
+
+(cl-comment 'C-A5: C strictly monotone implies Cont')
+
+(forall (x y)
+	(if
+		(and
+			(not (ZEX x))
+			(forall (z)
+				(if
+					(C z x)
+					(C z y)
+				)
+			)
+			(exists (z)
+				(and
+					(C z y)
+					(not (C z x))
+				)
+			)
+		)
+		(Cont x y)
+	)
+)
+
+
+)

@@ -1,0 +1,59 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+ 
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/periods/finite_periods.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/periods/linear_periods.clif)
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/periods/directed_periods.clif)
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/periods/definitions/periods_def.clif)
+
+(cl-comment 'DISJ')
+(forall (x y)
+        (if     (underlaps x y)
+                (exists (z)
+                        (lub x y z))))
+
+(cl-comment 'FREE')
+(forall (x y)
+(if             (not    (inclusion x y))
+                (exists (z)
+                                (and    (inclusion z x)
+                                                (not    (overlaps z y))))))
+
+(cl-comment 'MOND-1')
+(forall (x y z)
+(if             (and    (precedence x y)
+                        (precedence z y))
+                (exists (w)
+                                (and    (lub x z w)
+                                        (precedence w y)))))
+
+(cl-comment 'MOND-2')
+(forall (x y z)
+(if             (and    (precedence y x)
+			(precedence y z))
+                (exists (w)
+                                (and    (lub x z w)
+                                        (precedence y w)))))
+
+(cl-comment 'CONV')
+(forall (x y z)
+(if             (and    (precedence x y)
+                                (precedence y z))
+                (forall (u)
+                                (if     (and    (inclusion x u)
+                                                        (inclusion z u))
+                                        (inclusion y u)))))
+
+
+)

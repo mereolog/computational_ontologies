@@ -1,0 +1,24 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+ 
+
+(cl-text  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereology/definitions/sum.clif
+
+(cl-imports  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereology/definitions/overlaps.clif)
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereology/m_mereology.clif)
+
+(forall (x y z)
+	(iff	(sum x y z)
+		(forall (w)
+			(iff	(overlaps w z)
+				(or	(overlaps w x)
+					(overlaps w y))))))
+)

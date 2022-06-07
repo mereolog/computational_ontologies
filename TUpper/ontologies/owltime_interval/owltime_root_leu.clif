@@ -1,0 +1,34 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+ 
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/owltime_interval/owltime_root_leu.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/owltime_interval/owltime_interval_root.clif)
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/owltime_instants/owltime_instant_l.clif)
+
+(forall (i)
+        (if     (Interval i)
+                (exists (t1 t2)
+                        (and    (begins t1 i)
+                                (ends t2 i)))))
+
+(forall (t1 t2 i1 i2)
+        (if     (and    (Interval i1)
+                        (Interval i2)
+                        (begins t1 i1)
+                        (begins t2 i1)
+                        (begins t1 i2)
+                        (begins t2 i2))
+                (= i1 i2)))
+
+
+)

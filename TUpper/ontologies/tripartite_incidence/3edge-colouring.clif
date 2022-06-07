@@ -1,0 +1,35 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tripartite_incidence/3edge_colouring.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tripartite_incidence/edge_colouring.clif)
+
+(exists (q1 q2 q3)
+	(and	(matching q1)
+		(matching q2)
+		(matching q3)
+		(not (= q1 q2))
+		(not (= q1 q3))
+		(not (= q2 q3))))
+
+(forall (q1 q2 q3 q4)
+	(if	(and	(matching q1)
+			(matching q2)
+			(matching q3)
+			(matching q4))
+		(or	(= q4 q1)
+			(= q4 q2)
+			(= q4 q3)
+			(= q3 q2)
+			(= q3 q1)
+			(= q1 q2))))
+
+)

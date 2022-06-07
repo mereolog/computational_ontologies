@@ -1,0 +1,128 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved. 
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Torsten Hahmann - initial implementation
+ *******************************************************************************/
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_voids/voids_extended.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_voids/voids_opening.clif)
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_space/space_dk1.clif)
+
+(cl-comment 'These include the old definitions of porespace and voidspace that use the DK1 relation')
+
+(cl-comment 'V-A19: porespace')
+
+(forall (v o)
+	(iff
+		(PO v (porespace o))
+		(exists (m)
+			(and
+				(DK1 m o)
+				(forall (u)
+					(if
+						(hostsv o u)
+						(not (PO v (r u)))
+					)
+				)
+				(exists (u)
+					(and
+						(hostsv m u)
+						(PO v (r u))
+					)
+				)
+			)
+		)
+	)
+)
+
+
+(cl-comment 'V-A20: voidspace')
+
+(forall (v o)
+	(iff
+		(PO v (voidspace o))
+		(or
+			(PO v (porespace o))
+			(exists (u)
+				(and
+					(hostsv o u)
+					(PO v (r u))
+				)
+			)
+		)
+	)
+)
+
+
+(cl-comment 'V-A21')
+
+(forall (o)
+	(if
+		(not (ZEX (porespace o)))
+		(exists (v m)
+			(and
+				(= (r v) (porespace o))
+				(hostsv m v)
+				(DK1 m o)
+			)
+		)
+	)
+)
+
+
+(cl-comment 'V-A22')
+
+(forall (o)
+	(if
+		(not (ZEX (voidspace o)))
+		(exists (v m)
+			(and
+				(= (r v) (voidspace o))
+				(hostsv m v)
+				(DK1 m o)
+			)
+		)
+	)
+)
+
+
+(cl-comment 'V-A23: connected voidspace')
+
+(forall (v o)
+	(iff
+		(PO v (convoidspace o))
+		(exists (u)
+			(and
+				(PO v u)
+				(ICon u)
+				(Cont u (voidspace o))
+				(StrongC u (difference CUni (sum (r o) (voidspace o))))
+			)
+		)
+	)
+)
+
+(cl-comment 'V-A24: connected porespace')
+
+
+(forall (v o)
+	(iff
+		(PO v (conporespace o))
+		(exists (u)
+			(and
+				(PO v u)
+				(ICon u)
+				(Cont u (porespace o))
+				(StrongC u (difference CUni (sum (r o) (porespace o))))
+			)
+		)
+	)
+)
+
+)

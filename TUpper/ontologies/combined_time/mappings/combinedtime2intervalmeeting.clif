@@ -1,0 +1,11 @@
+(cl-text combinedtime2intervalmeeting
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combined_time/sim_vc_end.clif)
+
+(forall (i j)
+        (iff    (meets i j)
+                (and    (timeinterval i)
+                        (timeinterval j)
+                        (= (endof i) (beginof j)))))
+
+)

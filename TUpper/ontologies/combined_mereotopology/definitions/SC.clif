@@ -1,0 +1,29 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+*******************************************************************************/
+
+
+(cl-text  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combined_mereotopology/definitions/SC.clif
+
+(cl-imports  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combined_mereotopology/mt.clif)
+
+(cl-imports  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereology/overlaps.clif)
+
+
+(forall (x)
+	(iff	(SC x)
+		(forall (y z)
+			(if	(forall (w)
+					(iff	(overlaps w x)
+						(or	(overlaps w y)
+							(overlaps w z))))
+				(C y z)))))
+
+
+)

@@ -1,0 +1,64 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+ 
+
+(cl-text  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/location_varzi/definitions/location_def.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/location_varzi/location_root.clif)
+
+(forall (x)
+	(iff	(region x)
+		(L x x)))
+
+(forall (x y)
+	(iff	(PL x y)
+		(exists (z)
+			(and	(part z x)
+				(L z y)))))
+
+(cl-comment 'equivalent to (EL x y)')
+
+(forall (x y)
+	(iff	(WL x y)
+		(exists (z)
+			(and	(part z y)
+				(L x z)))))
+
+(forall (x y)
+	(iff	(GL x y)
+		(exists (z w)
+			(and	(part z x)
+				(part w y)
+				(L z w)))))
+
+(forall (x y)
+	(iff	(UL x y)
+		(exists (z)
+			(and	(part y z)
+				(L x z)))))
+
+(forall (x y)
+	(iff	(proper_location x y)
+		(and	(L x y)
+			(not (L y x)))))
+
+(forall (x y)
+	(iff	(TPL x y)
+		(exists (z)
+			(and	(TP z x)
+				(L z y)))))
+
+(forall (x y)
+	(iff	(IPL x y)
+		(exists (z)
+			(and	(IP z x)
+				(L z y)))))
+
+)

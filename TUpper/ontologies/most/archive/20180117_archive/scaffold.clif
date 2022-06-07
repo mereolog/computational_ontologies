@@ -1,0 +1,21 @@
+/*******************************************************************************
+* Copyright (c) University of Toronto and others. All rights reserved.
+* The content of this file is licensed under the Creative Commons Attribution-
+* ShareAlike 4.0 Unported license. The legal text of this license can be
+* found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+*
+* Contributors:
+* Carmen Chui, Michael Gruninger
+*******************************************************************************/
+
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/scaffold.clif
+
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/most_skeleton.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/def_most_scaffold.clif)
+
+(cl-comment 'Skeletons are incident with each other')
+(forall (x y)
+	(if (and (mol x y)(skeleton x)(skeleton y))
+		(= x y)))
+
+)

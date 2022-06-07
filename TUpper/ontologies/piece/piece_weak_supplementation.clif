@@ -1,0 +1,22 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+ 
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/piece/piece_weak_supplementation.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/piece/piece_def.clif)
+
+(cl-text 'Weak Supplementation Principle')
+
+(forall (x y)
+        (if     (properPieceOf x y)
+                (exists (z)
+                        (and    (properPieceOf z y)
+                                (pieceDisjoints z x))))
+
+)
