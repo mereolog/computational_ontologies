@@ -1,0 +1,2 @@
+# BFO
+The results reported in this folder apply to the commit [bcb03f3](https://github.com/gruninger/colore/commit/bcb03f399685c618692ff1589cfb32cd8f03678d) of TUpper ontology as published inhttps://github.com/gruninger/colore repository.
