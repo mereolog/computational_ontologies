@@ -1,0 +1,38 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved. 
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Torsten Hahmann - initial implementation
+ *******************************************************************************/
+
+(cl-text http://colore.oor.net/mereotopology/rt.clif
+
+(cl-comment 'axioms of the mereotopology RT')
+
+(cl-imports  http://colore.oor.net/mereotopology/rt_minus.clif)
+
+(cl-comment 'D11: Weak contact')
+
+(forall (x y)
+	(iff	(wcont x y)
+		(and 	(not (c (cl x) (cl y)))
+			(forall (z)
+				(if 	
+					(and	
+						(p x z)
+						(op z)
+					)
+					(c (cl z) y)
+)	)	)	)	)
+
+
+(cl-comment 'A12: Existence of a weak contact')
+
+(exists (x y)
+	(wcont x y)
+)
+
+)

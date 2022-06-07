@@ -1,0 +1,8 @@
+formulas(sos).
+% cl-imports multidim_mereotopology_codi/codi_linear.clif
+% cl-imports multidim_mereotopology_zex/zex.clif
+( all x12 all x11 ( (- (c(x12, x11))) <-> (zex(intersection(x12, x11))) )) .
+( all x22 all x21 ( (- (zex(intersection(x22, x21)))) -> (cont(intersection(x22, x21), x22)) )) .
+( all x33 all x32 all x31 ( ((cont(x31, x33) & cont(x31, x32))) -> (leq(x31, intersection(x33, x32))) )) .
+( all x43 all x42 all x41 ( ((cont(x41, x43) & cont(x41, x42) & eqdim(x41, intersection(x43, x42)))) <-> (p(x41, intersection(x43, x42))) )) .
+end_of_list.

@@ -1,0 +1,25 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+*******************************************************************************/
+
+
+(cl-text http://colore.oor.net/cayley_graph/monogenic_cayley.clif
+
+(cl-imports http://colore.oor.net/cayley_graph/cayley_root.clif)
+
+(cl-imports http://colore.oor.net/cayley_graph/definitions/cayley_def.clif)
+
+(exists (x)
+	(and	(generator x)
+		(forall (y)
+			(if	(generator y)
+				(= y x)))))
+		
+
+)

@@ -1,0 +1,558 @@
+Hi Geoff, go and have some cold beer while I am trying to solve this very hard problem!
+% remaining time: 11999 next slice time: 3
+dis-4_5_bd=off:bs=off:ep=RST:fde=none:lcm=predicate:n=on:nicw=on:nwc=2:ptb=off:sio=off:spl=backtracking:ss=included:ssec=off:st=5:updr=off_3 on theorems\conversions\codi_down_theoremsT6-T10_goal05.all
+Time limit reached!
+------------------------------
+Version: Vampire 0.6 (revision 903)
+Termination reason: Time limit
+
+Active clauses: 1417
+Passive clauses: 8551
+Generated clauses: 15781
+Final active clauses: 1235
+Final passive clauses: 6104
+Input formulas: 61
+Initial clauses: 98
+
+Selected by SInE selection: 61
+SInE iterations: 1
+
+Duplicate literals: 109
+Fw subsumption resolutions: 506
+
+Simple tautologies: 64
+Forward subsumptions: 6261
+
+Binary resolution: 14423
+Factoring: 49
+
+Backtracking splits: 358
+Backtracking splits refuted: 72
+Backtracking splits refuted at zero level: 14
+
+Memory used: 3070KB
+Time elapsed: 0.401 s
+------------------------------
+% remaining time: 11995 next slice time: 13
+dis-1010_2_bs=off:ep=on:n=on:nwc=1.5:sgo=on:sp=occurrence:ss=included:sswn=on:sswsr=on:st=1.5_13 on theorems\conversions\codi_down_theoremsT6-T10_goal05.all
+Time limit reached!
+------------------------------
+Version: Vampire 0.6 (revision 903)
+Termination reason: Time limit
+
+Active clauses: 1857
+Passive clauses: 15244
+Generated clauses: 40760
+Final active clauses: 1857
+Final passive clauses: 12953
+Input formulas: 61
+Initial clauses: 97
+
+Selected by SInE selection: 61
+SInE iterations: 1
+
+Duplicate literals: 1446
+Fw subsumption resolutions: 2048
+
+Simple tautologies: 445
+Equational tautologies: 19
+Forward subsumptions: 21990
+
+Binary resolution: 27678
+Factoring: 133
+Forward superposition: 8946
+Backward superposition: 424
+
+Unique components: 8
+
+Memory used: 5373KB
+Time elapsed: 1.402 s
+------------------------------
+% remaining time: 11981 next slice time: 32
+lrs+11_14_bd=off:bs=off:bsr=on:cond=on:drc=off:fde=none:fsr=off:gsp=input_only:lcm=reverse:n=on:nwc=10:ptb=off:sfv=off:sgo=on:sio=off:sos=on:sp=reverse_arity:spl=backtracking:ssec=off:stl=81_32 on theorems\conversions\codi_down_theoremsT6-T10_goal05.all
+Time limit reached!
+------------------------------
+Version: Vampire 0.6 (revision 903)
+Termination reason: Time limit
+
+Active clauses: 4401
+Passive clauses: 11372
+Generated clauses: 97536
+Final active clauses: 3991
+Final passive clauses: 6429
+Input formulas: 61
+Initial clauses: 95
+
+Duplicate literals: 261
+Trivial inequalities: 200
+Bw subsumption resolutions: 235
+Fw demodulations: 17295
+Condensations: 163
+
+Simple tautologies: 631
+Equational tautologies: 680
+Forward subsumptions: 66319
+
+Binary resolution: 53365
+Factoring: 14
+Forward superposition: 12400
+Backward superposition: 12670
+Equality resolution: 30
+
+Backtracking splits: 367
+Backtracking splits refuted: 132
+Backtracking splits refuted at zero level: 13
+
+Memory used: 16630KB
+Time elapsed: 3.307 s
+------------------------------
+% remaining time: 11948 next slice time: 95
+dis+2_4_bs=off:ep=on:n=on:nicw=on:nwc=1.5:ptb=off:sac=on:sio=off:spl=backtracking:ssec=off_95 on theorems\conversions\codi_down_theoremsT6-T10_goal05.all
+Time limit reached!
+------------------------------
+Version: Vampire 0.6 (revision 903)
+Termination reason: Time limit
+
+Active clauses: 3844
+Passive clauses: 81297
+Generated clauses: 294747
+Final active clauses: 3641
+Final passive clauses: 75068
+Input formulas: 61
+Initial clauses: 97
+
+Duplicate literals: 2783
+Fw subsumption resolutions: 18319
+Fw demodulations: 11508
+Bw demodulations: 182
+
+Simple tautologies: 2092
+Equational tautologies: 327
+Forward subsumptions: 180034
+
+Binary resolution: 240664
+Factoring: 94
+Forward superposition: 15691
+Backward superposition: 5413
+Self superposition: 1
+
+Backtracking splits: 29
+Backtracking splits refuted: 14
+Backtracking splits refuted at zero level: 7
+
+Memory used: 44519KB
+Time elapsed: 9.613 s
+------------------------------
+% remaining time: 11851 next slice time: 4
+lrs-1003_12_bms=on:bs=unit_only:bsr=on:cond=fast:drc=off:ep=on:fde=none:lcm=predicate:n=on:nicw=on:nwc=10:sfv=off:sgo=on:sio=off:sp=occurrence:spo=on:ssec=off:stl=81:updr=off_4 on theorems\conversions\codi_down_theoremsT6-T10_goal05.all
+Time limit reached!
+------------------------------
+Version: Vampire 0.6 (revision 903)
+Termination reason: Time limit
+
+Active clauses: 1077
+Passive clauses: 3089
+Generated clauses: 9548
+Final active clauses: 1015
+Final passive clauses: 1790
+Input formulas: 61
+Initial clauses: 97
+Reactivated clauses: 7
+
+Duplicate literals: 17
+Fw subsumption resolutions: 608
+Bw subsumption resolutions: 10
+Fw demodulations: 573
+Bw demodulations: 119
+Condensations: 77
+
+Simple tautologies: 232
+Equational tautologies: 1
+Forward subsumptions: 4916
+Backward subsumptions: 189
+Subsumed by BDD marking: 156
+
+Binary resolution: 5462
+Factoring: 72
+Forward superposition: 1095
+Backward superposition: 1543
+
+Split clauses: 8
+Split components: 16
+Unique components: 2660
+Introduced splitting names: 5
+BDD propositional clauses: 4
+
+Memory used: 2430KB
+Time elapsed: 0.502 s
+------------------------------
+% remaining time: 11846 next slice time: 22
+lrs+1010_50_bs=off:drc=off:flr=on:lcm=predicate:n=on:nwc=1.2:sfv=off:sgo=on:stl=81_22 on theorems\conversions\codi_down_theoremsT6-T10_goal05.all
+Time limit reached!
+------------------------------
+Version: Vampire 0.6 (revision 903)
+Termination reason: Time limit
+
+Active clauses: 2838
+Passive clauses: 7341
+Generated clauses: 84382
+Final active clauses: 2806
+Final passive clauses: 4455
+Input formulas: 61
+Initial clauses: 95
+
+Duplicate literals: 1644
+Fw subsumption resolutions: 4128
+Fw demodulations: 133
+Bw demodulations: 76
+Fw literal rewrites: 8149
+
+Simple tautologies: 828
+Equational tautologies: 42
+Forward subsumptions: 62126
+Bw demodulations to eq. taut.: 4
+
+Binary resolution: 60825
+Factoring: 21
+Forward superposition: 4120
+Backward superposition: 5207
+Equality resolution: 2
+
+Unique components: 8
+
+Memory used: 6268KB
+Time elapsed: 2.305 s
+------------------------------
+% remaining time: 11823 next slice time: 41
+dis-1010_5_bd=off:bs=off:cond=fast:ep=on:fde=none:lcm=predicate:n=on:nicw=on:nwc=1.3:ptb=off:sac=on:sgo=on:sio=off:sos=on:spl=backtracking:ssec=off:updr=off_41 on theorems\conversions\codi_down_theoremsT6-T10_goal05.all
+Time limit reached!
+------------------------------
+Version: Vampire 0.6 (revision 903)
+Termination reason: Time limit
+
+Active clauses: 3377
+Passive clauses: 16428
+Generated clauses: 95233
+Final active clauses: 3321
+Final passive clauses: 11533
+Input formulas: 61
+Initial clauses: 97
+
+Duplicate literals: 1731
+Fw subsumption resolutions: 3509
+Fw demodulations: 19
+Condensations: 96
+
+Simple tautologies: 674
+Forward subsumptions: 73602
+
+Binary resolution: 87294
+Factoring: 705
+Forward superposition: 1718
+Backward superposition: 63
+
+Backtracking splits: 59
+Backtracking splits refuted: 30
+Backtracking splits refuted at zero level: 8
+
+Memory used: 17270KB
+Time elapsed: 4.202 s
+------------------------------
+% remaining time: 11780 next slice time: 237
+lrs+1_2:1_bs=off:ep=on:gsp=input_only:lcm=predicate:n=on:nicw=on:nwc=1.1:ptb=off:sac=on:sgo=on:sio=off:sos=on:sp=occurrence:spl=backtracking:spo=on:ssec=off:stl=81:updr=off_237 on theorems\conversions\codi_down_theoremsT6-T10_goal05.all
+Time limit reached!
+------------------------------
+Version: Vampire 0.6 (revision 903)
+Termination reason: Time limit
+
+Active clauses: 8105
+Passive clauses: 112621
+Generated clauses: 441738
+Final active clauses: 67
+Final passive clauses: 22701
+Input formulas: 61
+Initial clauses: 97
+Discarded non-redundant clauses: 325
+
+Duplicate literals: 2936
+Fw subsumption resolutions: 16700
+Fw demodulations: 56182
+Bw demodulations: 55510
+
+Simple tautologies: 3142
+Forward subsumptions: 243324
+Bw demodulations to eq. taut.: 28814
+
+Binary resolution: 202551
+Factoring: 32
+Forward superposition: 17361
+Backward superposition: 10166
+
+Backtracking splits: 193
+Backtracking splits refuted: 61
+Backtracking splits refuted at zero level: 56
+
+Memory used: 45415KB
+Time elapsed: 23.831 s
+------------------------------
+% remaining time: 11542 next slice time: 311
+lrs+11_40_bd=off:bs=unit_only:bsr=unit_only:drc=off:flr=on:lcm=predicate:n=on:ptb=off:sac=on:sfv=off:spl=backtracking:ssec=off:stl=81:updr=off_311 on theorems\conversions\codi_down_theoremsT6-T10_goal05.all
+Time limit reached!
+------------------------------
+Version: Vampire 0.6 (revision 903)
+Termination reason: Time limit
+
+Active clauses: 9065
+Passive clauses: 51193
+Generated clauses: 604904
+Final active clauses: 8129
+Final passive clauses: 20263
+Input formulas: 61
+Initial clauses: 95
+Discarded non-redundant clauses: 80345
+
+Duplicate literals: 1192
+Trivial inequalities: 2
+Fw subsumption resolutions: 17210
+Bw subsumption resolutions: 124
+Fw demodulations: 127581
+Fw literal rewrites: 18815
+
+Simple tautologies: 2273
+Equational tautologies: 2326
+Forward subsumptions: 380529
+Backward subsumptions: 3386
+
+Binary resolution: 327579
+Factoring: 28
+Forward superposition: 72328
+Backward superposition: 39942
+Self superposition: 9
+Equality factoring: 4
+Equality resolution: 1
+
+Memory used: 64220KB
+Time elapsed: 31.233 s
+------------------------------
+% remaining time: 11229 next slice time: 280
+lrs-1010_10_bd=off:bs=unit_only:cond=on:flr=on:gsp=input_only:n=on:nicw=on:ptb=off:sac=on:sfv=off:sio=off:sp=occurrence:spl=backtracking:spo=on:ssec=off:stl=81_280 on theorems\conversions\codi_down_theoremsT6-T10_goal05.all
+Time limit reached!
+------------------------------
+Version: Vampire 0.6 (revision 903)
+Termination reason: Time limit
+
+Active clauses: 6006
+Passive clauses: 54441
+Generated clauses: 411203
+Final active clauses: 3141
+Final passive clauses: 14876
+Input formulas: 61
+Initial clauses: 95
+Discarded non-redundant clauses: 53687
+
+Duplicate literals: 4579
+Fw subsumption resolutions: 17651
+Fw demodulations: 3348
+Fw literal rewrites: 14425
+Condensations: 18241
+
+Simple tautologies: 6560
+Equational tautologies: 68
+Forward subsumptions: 288577
+Backward subsumptions: 17265
+
+Binary resolution: 200742
+Factoring: 161
+Forward superposition: 84121
+Backward superposition: 52306
+Self superposition: 20
+Equality resolution: 2
+
+Backtracking splits: 3
+Backtracking splits refuted: 2
+Backtracking splits refuted at zero level: 2
+
+Memory used: 55137KB
+Time elapsed: 28.135 s
+------------------------------
+% remaining time: 10947 next slice time: 514
+lrs+10_8_bs=off:fde=none:lcm=predicate:n=on:nwc=1.7:ptb=off:sac=on:sgo=on:sio=off:sp=occurrence:spl=backtracking:ssec=off:stl=81_514 on theorems\conversions\codi_down_theoremsT6-T10_goal05.all
+Time limit reached!
+------------------------------
+Version: Vampire 0.6 (revision 903)
+Termination reason: Time limit
+
+Active clauses: 20391
+Passive clauses: 164135
+Generated clauses: 608215
+Final active clauses: 7734
+Final passive clauses: 21510
+Input formulas: 61
+Initial clauses: 95
+Discarded non-redundant clauses: 155680
+
+Duplicate literals: 4708
+Fw subsumption resolutions: 28871
+Fw demodulations: 44662
+Bw demodulations: 80239
+
+Simple tautologies: 2482
+Equational tautologies: 584
+Forward subsumptions: 341278
+Bw demodulations to eq. taut.: 214
+
+Binary resolution: 308309
+Factoring: 169
+Forward superposition: 42571
+Backward superposition: 20309
+Equality resolution: 4
+
+Backtracking splits: 59
+Backtracking splits refuted: 13
+Backtracking splits refuted at zero level: 6
+
+Memory used: 89166KB
+Time elapsed: 51.532 s
+------------------------------
+% remaining time: 10432 next slice time: 11
+lrs-1010_7_bms=on:bs=off:bsr=on:cond=on:drc=off:ecs=on:ep=on:fde=none:flr=on:fsr=off:lcm=predicate:n=on:nicw=on:nwc=1.3:sac=on:sgo=on:sio=off:ssec=off:stl=81_11 on theorems\conversions\codi_down_theoremsT6-T10_goal05.all
+Time limit reached!
+------------------------------
+Version: Vampire 0.6 (revision 903)
+Termination reason: Time limit
+
+Active clauses: 1577
+Passive clauses: 5845
+Generated clauses: 22285
+Final active clauses: 511
+Final passive clauses: 3026
+Input formulas: 61
+Initial clauses: 97
+Reactivated clauses: 65
+
+Duplicate literals: 593
+Bw subsumption resolutions: 3826
+Fw literal rewrites: 1496
+Condensations: 77
+
+Simple tautologies: 867
+Equational tautologies: 7
+Forward subsumptions: 12130
+Subsumed empty clauses: 1243
+Empty clause subsumptions: 1037
+Subsumed by BDD marking: 108
+
+Binary resolution: 15017
+Factoring: 46
+Forward superposition: 3800
+Backward superposition: 87
+
+Split clauses: 67
+Split components: 136
+Unique components: 191
+Introduced splitting names: 25
+BDD propositional clauses: 1263
+
+Memory used: 5117KB
+Time elapsed: 1.206 s
+------------------------------
+% remaining time: 10419 next slice time: 264
+dis+3_5:4_bd=off:bs=off:drc=off:ep=RST:lcm=predicate:n=on:nicw=on:nwc=3:ptb=off:sac=on:sfv=off:sgo=on:sio=off:sp=occurrence:spl=backtracking:ssec=off:sswn=on:updr=off_264 on theorems\conversions\codi_down_theoremsT6-T10_goal05.all
+Refutation found. Thanks to Tanya!
+121129. $false (5:0) [subsumption resolution 120643,25889]
+25889. p(sK1,difference(sK0,difference(sK0,sK1))) (4:7) [subsumption resolution 25888,206]
+206. p(sK1,sK0) (0:3) [cnf transformation 200]
+200. p(sK1,sK0) & p(sK2,sK1) & ~zex(sK0) & ~zex(sK1) & ~zex(sK2) & ~zex(difference(sK0,sK1)) & ~cont(sK0,sK1) & ~p(sK2,difference(sK0,difference(sK0,sK1)))[skolemisation 120]
+120. ? [X0,X1,X2] : (p(X1,X0) & p(X2,X1) & ~zex(X0) & ~zex(X1) & ~zex(X2) & ~zex(difference(X0,X1)) & ~cont(X0,X1) & ~p(X2,difference(X0,difference(X0,X1))))[flattening 119]
+119. ? [X0,X1,X2] : ((p(X1,X0) & p(X2,X1) & ~zex(X0) & ~zex(X1) & ~zex(X2) & ~zex(difference(X0,X1)) & ~cont(X0,X1)) & ~p(X2,difference(X0,difference(X0,X1))))[ennf transformation 62]
+62. ~! [X0,X1,X2] : (~(p(X1,X0) & p(X2,X1) & ~zex(X0) & ~zex(X1) & ~zex(X2) & ~zex(difference(X0,X1)) & ~cont(X0,X1)) | p(X2,difference(X0,difference(X0,X1))))[flattening 1]
+1. ~! [X0] : ! [X1] : ! [X2] : (~(p(X1,X0) & p(X2,X1) & ~zex(X0) & ~zex(X1) & ~zex(X2) & ~zex(difference(X0,X1)) & ~cont(X0,X1)) | p(X2,difference(X0,difference(X0,X1))))[negated conjecture]
+25888. p(sK1,difference(sK0,difference(sK0,sK1))) | ~p(sK1,sK0) (4:10) [duplicate literal removal 25887]
+25887. ~p(sK1,sK0) | p(sK1,difference(sK0,difference(sK0,sK1))) | p(sK1,difference(sK0,difference(sK0,sK1))) | ~p(sK1,sK0) (4:20) [resolution 2167,1807]
+1807. p(sK4(intersection(X14,difference(X14,X15)),X13),difference(X14,X15)) | p(X13,difference(X14,difference(X14,X15))) | ~p(X13,X14) (2:21) [resolution 561,286]
+286. ~p(X2,intersection(X0,difference(X0,X1))) | p(X2,difference(X0,X1)) (0:12) [cnf transformation 176]
+176. ! [X0,X1,X2] : (~p(X2,intersection(X0,difference(X0,X1))) | p(X2,difference(X0,X1)))[ennf transformation 107]
+107. ! [X0,X1,X2] : (~p(X2,intersection(X0,difference(X0,X1))) | p(X2,difference(X0,X1)))[flattening 6]
+6. ! [X0] : ! [X1] : ! [X2] : (~p(X2,intersection(X0,difference(X0,X1))) | p(X2,difference(X0,X1)))[input]
+561. p(sK4(intersection(X4,X5),X3),intersection(X4,X5)) | ~p(X3,X4) | p(X3,difference(X4,X5)) (1:17) [resolution 295,230]
+230. ~po(X0,X1) | p(sK4(X1,X0),X1) (0:8) [cnf transformation 202]
+202. ! [X0,X1] : ((~po(X0,X1) | (p(sK4(X1,X0),X0) & p(sK4(X1,X0),X1))) & (! [X3] : (~p(X3,X0) | ~p(X3,X1)) | po(X0,X1)))[skolemisation 128]
+128. ! [X0,X1] : ((~po(X0,X1) | ? [X2] : (p(X2,X0) & p(X2,X1))) & (! [X3] : (~p(X3,X0) | ~p(X3,X1)) | po(X0,X1)))[ennf transformation 69]
+69. ! [X0,X1] : ((~po(X0,X1) | ? [X2] : (p(X2,X0) & p(X2,X1))) & (~? [X3] : (p(X3,X0) & p(X3,X1)) | po(X0,X1)))[flattening 68]
+68. ! [X0] : ! [X1] : ((~po(X0,X1) | ? [X2] : (p(X2,X0) & p(X2,X1))) & (~? [X3] : (p(X3,X0) & p(X3,X1)) | po(X0,X1)))[rectify 29]
+29. ! [X0] : ! [X1] : ((~po(X0,X1) | ? [X2] : (p(X2,X0) & p(X2,X1))) & (~? [X2] : (p(X2,X0) & p(X2,X1)) | po(X0,X1)))[input]
+295. po(X2,intersection(X0,X1)) | p(X2,difference(X0,X1)) | ~p(X2,X0) (0:13) [cnf transformation 194]
+194. ! [X0,X1,X2] : (~p(X2,X0) | po(X2,intersection(X0,X1)) | p(X2,difference(X0,X1)))[flattening 193]
+193. ! [X0,X1,X2] : ((~p(X2,X0) | po(X2,intersection(X0,X1))) | p(X2,difference(X0,X1)))[ennf transformation 116]
+116. ! [X0,X1,X2] : (~(p(X2,X0) & ~po(X2,intersection(X0,X1))) | p(X2,difference(X0,X1)))[flattening 23]
+23. ! [X0] : ! [X1] : ! [X2] : (~(p(X2,X0) & ~po(X2,intersection(X0,X1))) | p(X2,difference(X0,X1)))[input]
+2167. ~p(sK4(intersection(X0,X1),sK1),difference(sK0,sK1)) | ~p(sK1,X0) | p(sK1,difference(X0,X1)) (3:17) [resolution 1568,562]
+562. p(sK4(intersection(X7,X8),X6),X6) | ~p(X6,X7) | p(X6,difference(X7,X8)) (1:15) [resolution 295,229]
+229. ~po(X0,X1) | p(sK4(X1,X0),X0) (0:8) [cnf transformation 202]
+1568. ~p(X0,sK1) | ~p(X0,difference(sK0,sK1)) (2:8) [subsumption resolution 1552,209]
+209. ~zex(sK1) (0:2) [cnf transformation 200]
+1552. zex(sK1) | ~p(X0,difference(sK0,sK1)) | ~p(X0,sK1) (2:10) [resolution 529,211]
+211. ~zex(difference(sK0,sK1)) (0:4) [cnf transformation 200]
+529. zex(difference(X0,X1)) | zex(X1) | ~p(X2,difference(X0,X1)) | ~p(X2,X1) (1:14) [resolution 270,231]
+231. po(X0,X1) | ~p(X3,X1) | ~p(X3,X0) (0:9) [cnf transformation 202]
+270. ~po(X1,difference(X0,X1)) | zex(difference(X0,X1)) | zex(X1) (0:11) [cnf transformation 165]
+165. ! [X0,X1] : (zex(X1) | zex(difference(X0,X1)) | ~po(X1,difference(X0,X1)))[flattening 164]
+164. ! [X0,X1] : ((zex(X1) | zex(difference(X0,X1))) | ~po(X1,difference(X0,X1)))[ennf transformation 97]
+97. ! [X0,X1] : (~(~zex(X1) & ~zex(difference(X0,X1))) | ~po(X1,difference(X0,X1)))[flattening 19]
+19. ! [X0] : ! [X1] : (~(~zex(X1) & ~zex(difference(X0,X1))) | ~po(X1,difference(X0,X1)))[input]
+120643. ~p(sK1,difference(sK0,difference(sK0,sK1))) (5:7) [resolution 119898,213]
+213. ~p(sK2,difference(sK0,difference(sK0,sK1))) (0:7) [cnf transformation 200]
+119898. p(sK2,X259) | ~p(sK1,X259) (4:6) [resolution 119727,207]
+207. p(sK2,sK1) (0:3) [cnf transformation 200]
+119727. ~p(X14,X12) | ~p(X12,X13) | p(X14,X13) (3:9) [subsumption resolution 5426,1111]
+1111. cont(X2,X3) | ~p(X4,X3) | ~p(X2,X4) (2:9) [resolution 509,241]
+241. cont(X0,X1) | ~p(X0,X1) (0:6) [cnf transformation 136]
+136. ! [X0,X1] : ((~p(X0,X1) | (cont(X0,X1) & eqdim(X0,X1))) & (~cont(X0,X1) | ~eqdim(X0,X1) | p(X0,X1)))[flattening 135]
+135. ! [X0,X1] : ((~p(X0,X1) | (cont(X0,X1) & eqdim(X0,X1))) & ((~cont(X0,X1) | ~eqdim(X0,X1)) | p(X0,X1)))[ennf transformation 73]
+73. ! [X0,X1] : ((~p(X0,X1) | (cont(X0,X1) & eqdim(X0,X1))) & (~(cont(X0,X1) & eqdim(X0,X1)) | p(X0,X1)))[flattening 50]
+50. ! [X0] : ! [X1] : ((~p(X0,X1) | (cont(X0,X1) & eqdim(X0,X1))) & (~(cont(X0,X1) & eqdim(X0,X1)) | p(X0,X1)))[input]
+509. ~cont(X2,X4) | cont(X2,X3) | ~p(X4,X3) (1:9) [resolution 293,241]
+293. ~cont(X1,X2) | cont(X0,X2) | ~cont(X0,X1) (0:9) [cnf transformation 190]
+190. ! [X0,X1,X2] : (~cont(X0,X1) | ~cont(X1,X2) | cont(X0,X2))[flattening 189]
+189. ! [X0,X1,X2] : ((~cont(X0,X1) | ~cont(X1,X2)) | cont(X0,X2))[ennf transformation 114]
+114. ! [X0,X1,X2] : (~(cont(X0,X1) & cont(X1,X2)) | cont(X0,X2))[flattening 45]
+45. ! [X0] : ! [X1] : ! [X2] : (~(cont(X0,X1) & cont(X1,X2)) | cont(X0,X2))[input]
+5426. ~p(X12,X13) | ~p(X14,X12) | p(X14,X13) | ~cont(X14,X13) (3:12) [resolution 948,243]
+243. ~eqdim(X0,X1) | p(X0,X1) | ~cont(X0,X1) (0:9) [cnf transformation 136]
+948. eqdim(X5,X6) | ~p(X7,X6) | ~p(X5,X7) (2:9) [resolution 490,242]
+242. eqdim(X0,X1) | ~p(X0,X1) (0:6) [cnf transformation 136]
+490. ~eqdim(X5,X7) | eqdim(X5,X6) | ~p(X7,X6) (1:9) [resolution 288,242]
+288. ~eqdim(X1,X2) | eqdim(X0,X2) | ~eqdim(X0,X1) (0:9) [cnf transformation 180]
+180. ! [X0,X1,X2] : (~eqdim(X0,X1) | ~eqdim(X1,X2) | eqdim(X0,X2))[flattening 179]
+179. ! [X0,X1,X2] : ((~eqdim(X0,X1) | ~eqdim(X1,X2)) | eqdim(X0,X2))[ennf transformation 109]
+109. ! [X0,X1,X2] : (~(eqdim(X0,X1) & eqdim(X1,X2)) | eqdim(X0,X2))[flattening 36]
+36. ! [X0] : ! [X1] : ! [X2] : (~(eqdim(X0,X1) & eqdim(X1,X2)) | eqdim(X0,X2))[input]
+------------------------------
+Version: Vampire 0.6 (revision 903)
+Termination reason: Refutation
+
+Active clauses: 3573
+Passive clauses: 76572
+Generated clauses: 120920
+Final active clauses: 3489
+Final passive clauses: 69856
+Input formulas: 61
+Initial clauses: 98
+
+Duplicate literals: 467
+Fw subsumption resolutions: 8234
+
+Simple tautologies: 296
+Forward subsumptions: 36830
+
+Binary resolution: 111991
+Factoring: 71
+
+Backtracking splits: 37
+Backtracking splits refuted: 26
+Backtracking splits refuted at zero level: 10
+
+Memory used: 24946KB
+Time elapsed: 8.594 s
+------------------------------
+% Success in time 166.678 s

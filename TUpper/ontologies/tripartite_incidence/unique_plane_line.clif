@@ -1,0 +1,27 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+
+(cl-text http://colore.oor.net/tripartite_incidence/unique_plane_line.clif
+
+(cl-imports http://colore.oor.net/tripartite_incidence/weak_tripartite.clif)
+
+(forall (q1 q2 l1 l2)
+	(if	(and	(plane q1)
+			(plane q2)
+			(line l1)
+			(line l2)
+			(in l1 q1)
+			(in l1 q2)
+			(in l2 q1)
+			(in l2 q2))
+		(or	(= l1 l2)
+			(= q1 q2))))
+
+)

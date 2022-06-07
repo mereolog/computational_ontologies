@@ -1,0 +1,41 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved. 
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *	Torsten Hahmann - initial implementation
+ *******************************************************************************/
+
+(cl-text http://colore.oor.net/contact_algebras/C5prime.clif
+
+(cl-comment 'C5prime')
+
+(forall (x z)
+	(if
+		(and
+			(not
+				(and
+					(= x zero)
+					(= z one)
+				)
+			)
+			(not
+				(and
+					(= z zero)
+					(= x one)
+				)
+			)
+		)
+		(iff
+			(C z x)
+			(or
+				(= z (oc x))
+				(not (= (meet z (oc x)) z))
+			)
+		)
+	)
+)
+
+)

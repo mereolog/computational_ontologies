@@ -1,0 +1,275 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved. 
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Torsten Hahmann - initial implementation
+ *******************************************************************************/
+
+(cl-text http://colore.oor.net/multidim_mereotopology_codi/theorems/codi_int_theorems.clif
+
+(cl-imports http://colore.oor.net/multidim_mereotopology_codi/codi_int.clif)
+
+(cl-imports http://colore.oor.net/multidim_mereotopology_codi/definitions/po.clif)
+
+(cl-imports http://colore.oor.net/multidim_mereotopology_codi/definitions/inc.clif)
+
+(cl-imports http://colore.oor.net/multidim_mereotopology_codi/definitions/sc.clif)
+
+
+(cl-comment '1: Int-T5: intersection commutative')
+
+(forall (x y)
+	(if
+		(and
+			(not (ZEX (intersection x y)))
+			(not (ZEX x))
+			(not (ZEX y))
+		)
+		(P (intersection x y) (intersection y x))
+	)
+)
+
+
+(forall (x y)
+	(if
+		(and
+			(not (ZEX (intersection x y)))
+			(not (ZEX (intersection y x)))
+			(not (ZEX x))
+			(not (ZEX y))
+		)
+		(P (intersection y x) (intersection x y))
+	)
+)
+
+
+(forall (x y)
+	(if
+		(ZEX (intersection y x))
+		(ZEX (intersection x y))
+	)
+)
+
+(forall (x y)
+	(if
+		(ZEX (intersection x y))
+		(ZEX (intersection y x))
+	)
+)
+
+
+
+(cl-comment '5: Int-T6: disconnected if empty intersections')
+
+(forall (x y z)
+	(if
+		(ZEX (intersection x y))
+		(not (C x y)) 
+	)
+)
+
+(forall (x y z)
+	(if
+		(not (C x y)) 
+		(ZEX (intersection x y))
+	)
+)
+
+
+(cl-comment '7: Helper theorem for the next theorem Int-T7')
+
+(forall (x y z)
+	(if
+		(and
+			(Cont z x)
+			(Cont z y)
+			(EqDim z x)
+			(EqDim z y)
+		)
+		(Cont z (intersection x y))
+	)
+)
+
+(cl-comment '8: Int-T7: PO - the max. intersection is of the same dimension as both intersecting entities')
+
+(forall (x y)
+	(if
+		(PO x y)
+		(EqDim (intersection x y) x)
+	)
+)
+
+
+(cl-comment '9: Int-T8a: Inc - the max. intersection is of the same dimension as one of the intersecting entities and of lower dimension than the other')
+
+(forall (x y)
+	(if
+		(and
+			(Inc x y)
+			(< x y)
+		)
+		(EqDim (intersection x y) x)
+	)
+)
+
+
+(cl-comment '10: Int-T8b: Inc - the max. intersection is of the same dimension as one of the intersecting entities and of lower dimension than the other')
+
+(forall (x y)
+	(if
+		(and
+			(Inc x y)
+			(< x y)
+		)
+		(< (intersection x y) y)
+	)
+)
+
+
+(cl-comment '11: Int-T9: SC - the max. intersection is of a lower dimension than both intersecting entities')
+
+(forall (x y)
+	(if
+		(SC x y)
+		(< (intersection x y) x)
+	)
+)
+
+
+(cl-comment '12: Int-E1')
+
+(forall (x y z)
+	(if
+		(and
+			(PO x y)
+			(P z x)
+			(P z y)
+		)
+		(P z (intersection x y))
+	)
+)
+
+
+(cl-comment '13: Int-T10: idempotent')
+
+(forall (x)
+	(if
+		(and
+			(not (ZEX x))
+			(not (ZEX (intersection x x)))
+		)
+		(P (intersection x x) x)
+	)
+)
+
+
+(forall (x)
+	(if
+		(and
+			(not (ZEX x))
+			(not (ZEX (intersection x x)))
+		)
+		(P x (intersection x x))
+	)
+)
+
+(forall (x)
+	(if
+		(ZEX x)
+		(ZEX (intersection x x))
+	)
+)
+
+
+(forall (x)
+	(if
+		(ZEX (intersection x x))
+		(ZEX x)
+	)
+)
+
+
+(cl-comment '17: Int-T11: left alternative')
+
+(forall (x y)
+	(if
+		(not (ZEX (intersection x y)))
+		(P (intersection x y) (intersection x (intersection x y)))
+	)
+)
+
+(forall (x y)
+	(if
+		(ZEX (intersection x y))
+		(ZEX (intersection (intersection x x) y))
+	)
+)
+
+(forall (x y)
+	(if
+		(ZEX (intersection x y))
+		(ZEX (intersection x (intersection x y)))
+	)
+)
+
+
+
+(cl-comment '20: Int-T12: right alternative')
+
+(forall (x y)
+	(if
+		(and
+			(not (ZEX (intersection x y)))
+			(not (ZEX (intersection x (intersection x y))))
+		)
+		(P (intersection x (intersection x y)) (intersection x y))
+	)
+)
+
+
+(forall (x y)
+	(if
+		(ZEX (intersection x y))
+		(ZEX (intersection y (intersection x x)))
+	)
+)
+
+(forall (x y)
+	(if
+		(ZEX (intersection x y))
+		(ZEX (intersection (intersection y x) x))
+	)
+)
+
+
+
+(forall (x y)
+	(if
+		(ZEX (intersection x (intersection x y)))
+		(ZEX (intersection y (intersection x x)))
+	)
+)
+
+(forall (x y)
+	(if
+		(ZEX (intersection x (intersection x y)))
+		(ZEX (intersection (intersection y x) x))
+	)
+)
+
+
+(cl-comment '25: Int-T13: ZEX is null element for intersection')
+
+(forall (x y)
+	(if
+		(ZEX y)
+		(ZEX(intersection x y))
+	)
+)
+
+
+
+)

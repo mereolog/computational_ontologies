@@ -1,0 +1,3 @@
+formulas(sos).
+(all x  (Curve(x) <-> (~ZEX(x) & ~MinDim(x) & \forall y\;[(MinDim(y) <-> Covers(x,y))]))).
+end_of_list.

@@ -1,0 +1,1 @@
+fof(axiom2420, axiom, (! [X] : ! [Y] :  ((PO(x,y) <-> \exists z\;[(P(z,x) & P(z,y))])))).

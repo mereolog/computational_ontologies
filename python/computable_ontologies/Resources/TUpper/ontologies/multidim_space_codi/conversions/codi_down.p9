@@ -1,0 +1,12 @@
+formulas(sos).
+(all x all y  ((S(x) & S(y) & ~C(x,y)) <-> ZEX(intersection(x,y)))).
+(all x all y  ((S(x) & S(y) & ~ZEX(intersection(x,y))) -> Cont(intersection(x,y),x))).
+(all x all y all z  ((Cont(z,x) & Cont(z,y)) -> leq(z,intersection(x,y)))).
+(all x all y all z  ((Cont(z,x) & Cont(z,y) & EqDim(z,intersection(x,y))) <-> P(z,intersection(x,y)))).
+(all x all y  ((S(x) & S(y) & ~ZEX(difference(x,y))) -> EqDim(x,difference(x,y)))).
+(all x all y  (lt(y,x) -> =(x,difference(x,y)))).
+(all x all y all z  ((leq(x,y) & Cont(z,x) & lt(intersection(z,y),z)) -> Cont(z,difference(x,y)))).
+(all x all y all z  ((leq(x,y) & Cont(z,difference(x,y))) -> Cont(z,x))).
+(all x all y all z  ((leq(x,y) & P(z,difference(x,y))) -> lt(intersection(z,y),z))).
+(all x all y  (ZEX(difference(x,y)) <-> (ZEX(x) | Cont(x,y)))).
+end_of_list.

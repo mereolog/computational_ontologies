@@ -1,0 +1,44 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+ 
+(cl-text http://colore.oor.net/multidim_occupy/box_occupy.clif
+
+(cl-imports http://colore.oor.net/multidim_mereotopology_codi/definitions/voluminal_region.clif)
+
+(cl-imports http://colore.oor.net/shape/shape.clif)
+
+
+(forall (x y) 
+    (if (box_occupies x y) 
+        (and (VoluminalRegion y)
+		     (box x))))
+
+(forall (x y z) 
+    (if (and	(box_occupies x y)
+				(box_occupies x z))
+        (= y z)))			 
+         
+(forall (x)   
+    (if (box x) 
+        (exists (y) (box_occupies x y))))
+
+(forall (x y r1 r2) 
+    (if (and	(box_part x y)
+				(box_occupies x r1)
+				(box_occupies y r2))
+        (P r1 r2)))			 
+
+(forall (x y r1 r2) 
+    (if (and	(box_C x y)
+				(box_occupies x r1)
+				(box_occupies y r2))
+        (C r1 r2)))			         
+        
+)

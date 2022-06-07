@@ -1,0 +1,39 @@
+============================== prooftrans ============================
+Prover9 (32) version Dec-2007, Dec 2007.
+Process 3521 was started by cchui on MacBook-Pro.local,
+Thu Nov  8 18:49:02 2018
+The command was "/Applications/Prover9-Mace4-v05B.app/Contents/Resources/bin-mac-intel/prover9".
+============================== end of head ===========================
+
+============================== end of input ==========================
+
+============================== PROOF =================================
+
+% -------- Comments from original proof --------
+% Proof 1 at 0.04 (+ 0.00) seconds.
+% Length of proof is 19.
+% Level of proof is 4.
+% Maximum clause weight is 4.
+% Given clauses 31.
+
+8 (all p (point(p) -> -line(p))) # label(non_clause).  [assumption].
+9 (all p (point(p) -> -plane(p))) # label(non_clause).  [assumption].
+19 (all x (atom(x) <-> point(x))) # label(non_clause).  [assumption].
+20 (all x (bond(x) <-> line(x))) # label(non_clause).  [assumption].
+21 (all x (group(x) <-> plane(x))) # label(non_clause).  [assumption].
+24 (all x (atom(x) -> -(bond(x) | group(x)))) # label(non_clause) # label(goal).  [goal].
+26 -atom(x) | point(x).  [clausify(19)].
+27 atom(c1).  [deny(24)].
+29 -bond(x) | line(x).  [clausify(20)].
+30 bond(c1) | group(c1).  [deny(24)].
+32 -group(x) | plane(x).  [clausify(21)].
+33 group(c1) | line(c1).  [resolve(30,a,29,a)].
+54 -point(x) | -line(x).  [clausify(8)].
+55 -point(x) | -plane(x).  [clausify(9)].
+68 point(c1).  [resolve(27,a,26,a)].
+69 line(c1) | plane(c1).  [resolve(33,a,32,a)].
+84 -plane(c1).  [ur(55,a,68,a)].
+85 -line(c1).  [ur(54,a,68,a)].
+86 $F.  [back_unit_del(69),unit_del(a,85),unit_del(b,84)].
+
+============================== end of proof ==========================

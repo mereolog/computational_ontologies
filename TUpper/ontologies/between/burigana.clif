@@ -1,0 +1,48 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+
+
+(cl-text http://colore.oor.net/between/burigana.clif
+
+(forall (u v w)
+	(if	(between u v w)
+		(between w v u)))
+
+(forall (u v w)
+	(if	(between u v w)
+		(not (between v u w))))
+
+(forall (u v w z)
+	(if	(and	(between u v w)
+			(between v w z))
+		(between u w z)))
+
+(forall (u v w z)
+	(if	(and	(between u v w)
+			(between u w z))
+		(between v w z)))
+
+(forall (u v w)
+	(if	(N u v w)
+		(exists (c)
+			(and	(between u c v)
+				(between u c w)
+				(between v c w)))))
+
+(forall (u v w)
+	(iff	(N u v w)
+		(and	(not (= u v))
+			(not (= u w))
+			(not (= v w))
+			(not (between u v w))
+			(not (between v w u))
+			(not (between  w u v)))))
+
+)

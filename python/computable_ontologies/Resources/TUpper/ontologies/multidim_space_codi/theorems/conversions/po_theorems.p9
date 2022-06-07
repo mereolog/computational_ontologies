@@ -1,0 +1,5 @@
+formulas(sos).
+(all x  ((S(x) & ~ZEX(x)) -> PO(x,x))).
+(all x all y  (PO(x,y) -> PO(y,x))).
+(all x all y  (PO(x,y) -> EqDim(x,y))).
+end_of_list.

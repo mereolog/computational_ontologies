@@ -1,0 +1,25 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+
+(cl-text http://colore.oor.net/subposet_foliation/upward_subposet_foliation.clif
+
+(cl-imports http://colore.oor.net/subposet_foliation/sub_foliation.clif)
+
+(forall (x y p1 p2)
+        (if     (and    (tleq x y p2)
+                        (part p2 p1))
+                (tleq x y p1)))
+
+(forall (x y p1 p2)
+        (if     (and    (tpart x y p2)
+                        (part p2 p1))
+                (tpart x y p1)))
+
+)

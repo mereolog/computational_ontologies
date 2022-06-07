@@ -1,0 +1,4 @@
+formulas(sos).
+(all x  (Max(x) <-> (S(x) & ~ZEX(x) & \forall y\;[~PP(x,y)]))).
+(all x  (Min(x) <-> (S(x) & ~ZEX(x) & \forall y\;[~PP(y,x)]))).
+end_of_list.

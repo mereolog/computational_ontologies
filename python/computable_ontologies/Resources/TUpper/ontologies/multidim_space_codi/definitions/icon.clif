@@ -1,0 +1,42 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved. 
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Torsten Hahmann - initial implementation
+ *******************************************************************************/
+
+(cl-text http://colore.oor.net/multidim_space_codi/definitions/icon.clif
+
+(cl-imports http://colore.oor.net/multidim_space_codi/codi_down.clif)
+
+(cl-imports http://colore.oor.net/multidim_space_codi/definitions/connected.clif)
+
+(cl-imports http://colore.oor.net/multidim_space_codi/definitions/epp.clif)
+
+(cl-imports http://colore.oor.net/multidim_space_dim/definitions/covers.clif)
+
+
+(cl-comment 'Defining when an entity is self-connected')
+
+(cl-comment 'ICon-D: interior connectedness')
+
+(forall (x)
+	(iff
+		(ICon x)
+		(and
+			(Con x)
+			(forall (y)
+				(if
+					(PP y x)
+					(Covers x (intersection y (difference x y)))
+				)
+			)
+		)
+	)
+)
+
+
+)

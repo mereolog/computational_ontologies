@@ -1,0 +1,9 @@
+formulas(sos).
+(all x all y  (SC(x,y) -> C(x,y))).
+(all x all y  (SC(x,y) -> ~\exists z\;[(Cont(z,x) & P(z,y))])).
+(all x all y  (SC(x,y) -> ~\exists z\;[(P(z,x) & Cont(z,y))])).
+(all x all y  ((C(x,y) & \forall z\;[(~Cont(z,x) | ~Cont(z,y) | (~P(z,x) & ~P(z,y)))]) -> SC(x,y))).
+(all x  -(SC(x,x))).
+(all x all y  (SC(x,y) -> SC(y,x))).
+(all x all y  (SC(x,y) -> \exists z\;[(lt(z,x) & lt(z,y) & Cont(z,x) & Cont(z,y))])).
+end_of_list.

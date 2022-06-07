@@ -1,0 +1,47 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+*******************************************************************************/
+
+
+(cl-text http://colore.oor.net/combinatorial_semigroup/concat_quine_fo.clif
+
+(cl-comment 'Axioms adapted from Ganea')
+
+(cl-imports http://colore.oor.net/magma/semigroup.clif)
+
+(cl-imports http://colore.oor.net/magma/cancellative.clif)
+
+(forall (z)
+	(iff	(generator z)
+		(not (exists (x y)
+			(= z (op x y))))))
+
+(forall (x y z w)
+	(if	(= (op x y) (op z w))
+		(or	(and	(= x z)
+				(= y w))
+			(exists (u)
+				(or	(and	(= z (op x u))
+						(= y (op u w)))
+					(and	(= x (op z u))
+						(= w (op u y))))))))
+
+(forall (x)
+	(or	(generator x)
+		(exists (y z)
+			(and	(generator y)
+				(= x (op y z))))))
+
+(forall (x)
+	(or	(generator x)
+		(exists (y z)
+			(and	(generator y)
+				(= x (op z y))))))
+
+)

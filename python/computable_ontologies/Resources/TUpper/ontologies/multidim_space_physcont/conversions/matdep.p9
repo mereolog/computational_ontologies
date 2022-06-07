@@ -1,0 +1,13 @@
+formulas(sos).
+% cl-imports multidim_space_physcont/dep.clif
+% cl-imports multidim_space_codi/definitions/strongc.clif
+( all x11 all x12 ( (matdep(x11, x12)) -> (dep(x11, x12)) )) .
+( all x21 all x22 ( (matdep(x21, x22)) -> ((mat(x21) | v(x21))) )) .
+( all x31 all x32 ( (matdep(x31, x32)) -> ((mat(x32) | v(x32))) )) .
+( all x41 all x43 ( ((matdep(x41, x43) & v(x41) & mat(x43))) -> ((po(r(x41), r(x43)) | ( exists x42 (hostsv(x43, x42) & po(r(x41), r(x42)))) )) )) .
+( all x51 all x52 ( ((matdep(x51, x52) & v(x51) & v(x52))) -> (po(r(x51), r(x52))) )) .
+( all x61 all x62 ( (matdep(x61, x62)) -> ((po(r(x61), r(x62)) | strongc(r(x61), r(x62)))) )) .
+( all x71 all x72 ( ((matdep(x71, x72) & mat(x71) & mat(x72))) -> (po(r(x71), r(x72))) )) .
+( all x82 all x84 ( ((mat(x82) & v(x84))) -> (( (matdep(x82, x84)) <-> (( exists x81 exists x83 (submat(x81, x82) & submat(x81, x83) & hostsv(x83, x84) & (strongc(r(x81), r(x84)) | po(r(x81), r(x84))))) ) )) )) .
+( all x92 all x95 ( ((v(x92) & v(x95))) -> (( (matdep(x92, x95)) <-> ((po(r(x92), r(x95)) & ( exists x94 exists x93 exists x91 (hostsv(x94, x92) & hostsv(x93, x95) & mat(x94) & mat(x93) & p(r(x94), r(x93)) & p(r(x93), r(x94)))) )) )) )) .
+end_of_list.

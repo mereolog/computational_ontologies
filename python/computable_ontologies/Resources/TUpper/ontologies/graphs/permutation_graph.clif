@@ -1,0 +1,24 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+ 
+
+(cl-text http://colore.oor.net/graphs/permutation_graph.clif
+
+(cl-imports http://colore.oor.net/graphs/comparability_graph.clif)
+
+(forall (x y ...)
+	(if	(and	(complement_cycle x ... y)
+			(complement_odd_cycle x ... y))
+		(exists (z w u)
+			(and	(complement_cycle x ... z w u ... y)
+				(not (adj z u))))))
+
+
+)

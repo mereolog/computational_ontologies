@@ -1,0 +1,38 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+*******************************************************************************/
+
+
+(cl-text http://colore.oor.net/combinatorial_semigroup/original_theoryF.clif
+
+(forall (x y z)
+        (= (op x (op y z)) (op (op x y) z)))
+
+(forall (x y z)
+	(if	(= (op x y) (op x z))
+		(= y z)))
+
+(forall (x y z)
+	(if	(= (op x z) (op y z))
+		(= x y)))
+
+(forall (x y)
+	(not (= (op x A) (op y B))))
+
+(forall (z)
+	(or	(= z A)
+		(= z B)
+		(exists (x)
+			(= z (op x A)))
+		(exists (x)
+			(= z (op x B))))
+
+(not (= A B))
+
+)

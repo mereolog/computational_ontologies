@@ -1,0 +1,3 @@
+formulas(sos).
+(all x  (Point(x) <-> (MinDim(x) & \forall y\;[(Cont(y,x) -> =(y,x))]))).
+end_of_list.

@@ -1,0 +1,30 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved. 
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Carmen Chui, Michael Gruninger
+ *******************************************************************************/
+ 
+(cl-text http://colore.oor.net/most/interprets/ex1002_skeleton_conn.clif
+
+(cl-imports http://colore.oor.net/most/definitions/most_skeleton.clif)
+
+(cl-imports http://colore.oor.net/most/definitions/most_connections.clif)
+
+(cl-comment 'Things to prove')
+
+(cl-comment 'for two groups in a skeleton, they are either spiroed, fused, or tethered together.')
+(forall (s g1 g2)
+	(if (and (skeleton s)(functional_group g1)(functional_group g2)
+			(containsGroup s g1)(containsGroup s g2))
+		(or (fusion g1 g2)
+			(forall (x y)
+			(and (inGroup x g1)(inGroup y g2)(not (= x y))
+				(or (spiro g1 g2 x)(spiro g1 g2 y)
+					(exists (b)
+						(and (inBond x b)(inBond y b)(tether g1 g2 b)))))))))
+
+)

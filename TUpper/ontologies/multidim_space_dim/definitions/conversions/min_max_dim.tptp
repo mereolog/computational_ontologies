@@ -1,0 +1,2 @@
+fof(axiom420, axiom, (! [X] :  ((MaxDim(x) <-> (S(x) & ~ZEX(x) & \forall y\;[(S(y) -> leq(y,x))]))))).
+fof(axiom430, axiom, (! [X] :  ((MinDim(x) <-> (S(x) & ~ZEX(x) & \forall y\;[((S(y) & ~ZEX(y)) -> leq(x,y))]))))).

@@ -1,0 +1,3 @@
+formulas(sos).
+(all x all y  (Inc(x,y) <-> (\exists z\;[(leq(z,x) & ~EqDim(z,x) & Cont(z,x) & P(z,y))] | \exists z\;[(leq(z,y) & ~EqDim(z,y) & Cont(z,y) & P(z,x))]))).
+end_of_list.

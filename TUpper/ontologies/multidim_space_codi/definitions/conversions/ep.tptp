@@ -1,0 +1,1 @@
+fof(axiom2330, axiom, (! [X] : ! [Y] :  ((P(x,y) <-> (Cont(x,y) & EqDim(x,y)))))).

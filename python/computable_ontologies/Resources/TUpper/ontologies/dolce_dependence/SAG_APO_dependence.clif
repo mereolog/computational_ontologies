@@ -1,0 +1,37 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved. 
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger, Carmen Chui
+ *******************************************************************************/
+ 
+(cl-text http://colore.oor.net/dolce_dependence/SAG_APO_dependence.clif
+
+(cl-comment 'Source: WonderWeb Deliverable D18 Ontology Library final by: Claudio Masolo, Stefano Borgo, Aldo Gangemi, Nicola Guarino, and Alessandro Oltramari (2003).')
+(cl-comment 'Comment: DOLCE axioms from 4.3.7 Dependence and Spatial Dependence')
+
+(cl-comment 'Import the DOLCE present theory.')
+(cl-imports http://colore.oor.net/dolce_present/dolce_present.clif)
+
+(cl-comment 'Taken directly from HETS axioms - going from sorted logic to unsorted logic.')
+(forall (y t)
+	(if (APO y)
+		(or (not (PRE y t))
+			(exists (x)
+				(and (SAG x)(PRE x t))))))
+
+(forall (x)
+	(if (SAG x)
+		(exists (t)
+			(PRE x t))))
+		
+(forall (x t)
+	(if (SAG x)
+		(if (and (At t)(PRE x t))
+			(exists (y)
+				(and (APO y)(PRE y t))))))
+
+)

@@ -1,0 +1,3 @@
+formulas(sos).
+(all x all y  (P(x,y) <-> (Cont(x,y) & EqDim(x,y)))).
+end_of_list.

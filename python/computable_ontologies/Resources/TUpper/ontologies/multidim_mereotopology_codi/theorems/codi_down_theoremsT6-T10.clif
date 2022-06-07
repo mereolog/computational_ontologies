@@ -1,0 +1,170 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved. 
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Torsten Hahmann - initial implementation
+ *******************************************************************************/
+
+(cl-text http://colore.oor.net/multidim_mereotopology_codi/theorems/codi_down_theoremsT6-T10.clif
+
+(cl-imports http://colore.oor.net/multidim_mereotopology_codi/codi_down_with_definitions.clif)
+
+(cl-imports http://colore.oor.net/multidim_mereotopology_codi/theorems/codi_down_theoremsT1-T2.clif)
+
+(cl-imports http://colore.oor.net/multidim_mereotopology_codi/theorems/codi_down_theoremsT3-T5.clif)
+
+
+(cl-comment 'Dif-T6: the difference x-y is the difference of x with the intersection xy: x-y = x-(xy)')
+
+
+(cl-comment '1a: Dif-T6a: the difference x-y is the difference of x with the intersection xy (proved) when the intersection is non-zero')
+
+(forall (x y z)
+	(if
+		(and 
+			(P z (difference x y))
+			(not (ZEX z))
+			(not (ZEX x))
+			(not (ZEX (intersection x y)))
+		)
+		(P z (difference x (intersection x y)))
+	)
+)
+
+
+
+(cl-comment '1b: Dif-T6a: the difference x-y is the difference of x with the intersection xy (proved) when the intersection is zero')
+
+(forall (x y z)
+	(if
+		(and 
+			(P z (difference x y))
+			(not (ZEX z))
+			(not (ZEX x))
+			(ZEX (intersection x y))
+		)
+		(P z (difference x (intersection x y)))
+	)
+)
+
+(cl-comment '2: Dif-T6b: the difference x-y is the difference of x with the intersection xy, (proved)')
+
+(forall (x y z)
+	(if
+		(P z (difference x (intersection x y)))
+		(P z (difference x y))
+	)
+)
+
+
+(cl-comment '3: Dif-T7: the difference x-y is the intersection of x with the difference x-y (proved)')
+
+(forall (x y z)
+	(if
+		(P z (difference x y))
+		(P z (intersection x (difference x y)))
+	)
+)
+
+(cl-comment '4: Dif-T7: the difference x-y is the intersection of x with the difference x-y (proved)')
+
+(forall (x y z)
+	(if
+		(P z (intersection x (difference x y)))
+		(P z (difference x y))
+	)
+)
+
+
+
+
+(cl-comment '5: Dif-T8: the difference is involutary (not proved)')
+
+
+(forall (x y z)
+	(if
+		(and
+			(P y x)
+			(P z y)
+			(not (ZEX x))
+			(not (ZEX y))
+			(not (ZEX z))
+			(not (ZEX (difference x y)))
+			(not (Cont x y))
+		)
+		(P z (difference x (difference x y)))		 
+	)
+)
+
+
+(cl-comment '6: Dif-T8: the difference is involutary (not proved)')
+
+(forall (x y z)
+	(if
+		(and
+			(P y x)
+			(not (ZEX x))
+			(not (ZEX y))
+			(not (ZEX z))
+			(not (ZEX (difference x y)))
+			(not (Cont x y))
+			(P z (difference x (difference x y)))
+		)
+		(P z y)		 
+	)
+)
+
+
+
+(cl-comment '7: Dif-T9a: the difference is anti-commutative')
+
+(forall (x y)
+	(if
+		(= x y)
+		(ZEX (difference x y))
+	)
+)
+
+(cl-comment '8: Dif-T9b: the difference is anti-commutative')
+
+(forall (x y)
+	(if
+		(and
+			(ZEX (difference x y))
+			(ZEX (difference y x))
+			(not (ZEX x))
+			(not (ZEX y))
+		)
+		(P x y)
+	)
+)
+
+
+(cl-comment '9: Dif-T9b: the difference is anti-commutative')
+
+(forall (x y)
+	(if
+		(and
+			(ZEX (difference x y))
+			(ZEX (difference y x))
+			(not (ZEX x))
+			(not (ZEX y))
+		)
+		(P y x)
+	)
+)
+
+(cl-comment '10: Dif-T10')
+
+(forall (x y)
+	(if
+		(SC x y)
+		(= x (difference x y))
+	)
+)
+
+
+)

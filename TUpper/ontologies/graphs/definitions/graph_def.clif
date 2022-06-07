@@ -1,0 +1,150 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+ 
+
+(cl-text http://colore.oor.net/graphs/definitions/graph_def.clif
+
+(cl-imports http://colore.oor.net/graphs/undirected_graph.clif)
+
+(forall (x y z ...)
+	(iff	(walk x ... y z)
+		(and	(walk x ... y)
+			(adj y z))))
+
+(forall (x y)
+	(iff	(walk x y)
+		(adj x y)))
+
+(forall (x y ...)
+	(iff	(cycle x ... y)
+		(and	(path x ... y)
+			(adj x y))))
+
+(forall (x y)
+	(iff	(cycle x y)
+		(exists (z)
+			(and	(adj x z)
+				(adj z y)))))
+
+(forall (x y z ...)
+	(iff	(path x ... y z)
+		(and	(path x ... y)
+			(not (= x y))
+			(adj y z))))
+
+(forall (x y)
+	(iff	(path x y)
+		(and	(adj x y)
+			(not (= x y)))))
+
+(forall (x y z ...)
+	(iff	(nontrivial_cycle x ... y z)
+		(and	(path x ... y)
+			(not (= x y))
+			(not (= x z))
+			(not (= z y))
+			(adj y z))))
+
+(forall (x y z)
+	(iff	(nontrivial_cycle x y z)
+		(and	(adj x y)
+			(adj y z)
+			(adj x z)
+			(not (= x y))
+			(not (= x z))
+			(not (= z y)))))
+
+(forall (x y ...)
+	(iff	(odd_cycle x ... y)
+		(and	(even_path x ... y)
+			(adj x y))))
+
+(forall (x y ...)
+	(iff	(even_cycle x ... y)
+		(and	(odd_path x ... y)
+			(adj x y))))
+
+(even_path )
+
+(not (odd_path ))
+
+(forall (x)
+	(not (even_path x)))
+
+(forall (x)
+	(odd_path x))
+
+(forall (x y ...)
+	(iff	(odd_path ... y x)
+		(and	(adj x y)
+			(even_path ... y))))
+
+(forall (x y ...)
+	(iff	(even_path ... y x)
+		(and	(adj x y)
+			(odd_path ... y))))
+
+(forall (x y z ...)
+	(iff	(complement_path x ... y z)
+		(and	(complement_path x ... y)
+			(not (adj y z)))))
+
+(forall (x y)
+	(iff	(complement_path x y)
+		(not (adj x y))))
+
+(forall (x y ...)
+	(iff	(complement_cycle x ... y)
+		(and	(complement_path x ... y)
+			(not (adj x y)))))
+
+(forall (x y z)
+	(iff	(complement_cycle x z)
+		(and	(not (adj x y))
+			(not (adj y z)))))
+
+(forall (x y ...)
+	(iff	(complement_odd_cycle x ... y)
+		(and	(complement_even_path x ... y)
+			(not (adj x y)))))
+
+(forall (x y ...)
+	(iff	(complement_even_cycle x ... y)
+		(and	(complement_odd_path x ... y)
+			(not (adj x y)))))
+
+(complement_even_path )
+
+(not (complement_odd_path ))
+
+(forall (x)
+	(not (complement_even_path x)))
+
+(forall (x)
+	(complement_odd_path x))
+
+(forall (x y ...)
+	(iff	(complement_odd_path ... y x)
+		(and	(not (adj x y))
+			(complement_even_path ... y))))
+
+(forall (x y ...)
+	(iff	(complement_even_path ... y x)
+		(and	(not (adj x y))
+			(complement_odd_path ... y))))
+
+(forall (x)
+	(iff	(leaf x)
+		(forall (y z)
+			(if	(and	(adj x y)
+					(adj x z))
+				(= y z)))))
+
+)

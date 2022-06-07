@@ -1,0 +1,27 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+
+(cl-text http://colore.oor.net/tripartite_incidence/triangle_exist.clif
+
+(cl-imports http://colore.oor.net/bipartite_incidence/definitions/bipartite_def.clif)
+
+(cl-imports http://colore.oor.net/tripartite_incidence/weak_tripartite.clif)
+
+(forall (l1 l2 l3)
+	(if	(and	(intersect l1 l2)
+			(intersect l1 l3)
+			(intersect l2 l3))
+		(exists (q)
+			(and	(plane q)
+				(in l1 q)
+				(in l2 q)
+				(in l3 q)))))
+
+)

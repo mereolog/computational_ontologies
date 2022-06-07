@@ -1,0 +1,1 @@
+fof(axiom410, axiom, (! [X] : ! [Y] :  ((EqDim(x,y) <-> (leq(x,y) & leq(y,x)))))).

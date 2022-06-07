@@ -1,0 +1,567 @@
+Hi Geoff, go and have some cold beer while I am trying to solve this very hard problem!
+% remaining time: 11999 next slice time: 3
+dis-4_5_bd=off:bs=off:ep=RST:fde=none:lcm=predicate:n=on:nicw=on:nwc=2:ptb=off:sio=off:spl=backtracking:ss=included:ssec=off:st=5:updr=off_3 on theorems\conversions\codi_down_sum_theorems_goal19.all
+Time limit reached!
+------------------------------
+Version: Vampire 0.6 (revision 903)
+Termination reason: Time limit
+
+Active clauses: 1291
+Passive clauses: 9697
+Generated clauses: 14994
+Final active clauses: 1291
+Final passive clauses: 8158
+Input formulas: 129
+Initial clauses: 190
+
+Selected by SInE selection: 129
+SInE iterations: 1
+
+Duplicate literals: 37
+Fw subsumption resolutions: 166
+
+Simple tautologies: 37
+Forward subsumptions: 3986
+
+Binary resolution: 13271
+Factoring: 4
+
+Backtracking splits: 1302
+Backtracking splits refuted: 12
+
+Memory used: 3326KB
+Time elapsed: 0.402 s
+------------------------------
+% remaining time: 11995 next slice time: 13
+dis-1010_2_bs=off:ep=on:n=on:nwc=1.5:sgo=on:sp=occurrence:ss=included:sswn=on:sswsr=on:st=1.5_13 on theorems\conversions\codi_down_sum_theorems_goal19.all
+Time limit reached!
+------------------------------
+Version: Vampire 0.6 (revision 903)
+Termination reason: Time limit
+
+Active clauses: 1851
+Passive clauses: 16387
+Generated clauses: 33711
+Final active clauses: 1845
+Final passive clauses: 14123
+Input formulas: 129
+Initial clauses: 189
+
+Selected by SInE selection: 129
+SInE iterations: 1
+
+Duplicate literals: 689
+Fw subsumption resolutions: 2190
+Fw demodulations: 92
+Bw demodulations: 6
+
+Simple tautologies: 565
+Equational tautologies: 11
+Forward subsumptions: 14205
+
+Binary resolution: 20824
+Factoring: 66
+Forward superposition: 8087
+Backward superposition: 1590
+Self superposition: 2
+
+Unique components: 10
+
+Memory used: 5117KB
+Time elapsed: 1.403 s
+------------------------------
+% remaining time: 11981 next slice time: 32
+lrs+11_14_bd=off:bs=off:bsr=on:cond=on:drc=off:fde=none:fsr=off:gsp=input_only:lcm=reverse:n=on:nwc=10:ptb=off:sfv=off:sgo=on:sio=off:sos=on:sp=reverse_arity:spl=backtracking:ssec=off:stl=81_32 on theorems\conversions\codi_down_sum_theorems_goal19.all
+Time limit reached!
+------------------------------
+Version: Vampire 0.6 (revision 903)
+Termination reason: Time limit
+
+Active clauses: 2727
+Passive clauses: 18740
+Generated clauses: 126482
+Final active clauses: 930
+Final passive clauses: 5339
+Input formulas: 129
+Initial clauses: 187
+
+Duplicate literals: 239
+Trivial inequalities: 887
+Bw subsumption resolutions: 3291
+Fw demodulations: 44556
+Condensations: 106
+
+Simple tautologies: 343
+Equational tautologies: 208
+Forward subsumptions: 53552
+
+Binary resolution: 37729
+Factoring: 2
+Forward superposition: 527
+Backward superposition: 3785
+Equality resolution: 5
+
+Backtracking splits: 3716
+Backtracking splits refuted: 1724
+Backtracking splits refuted at zero level: 28
+
+Memory used: 16119KB
+Time elapsed: 3.309 s
+------------------------------
+% remaining time: 11947 next slice time: 95
+dis+2_4_bs=off:ep=on:n=on:nicw=on:nwc=1.5:ptb=off:sac=on:sio=off:spl=backtracking:ssec=off_95 on theorems\conversions\codi_down_sum_theorems_goal19.all
+Time limit reached!
+------------------------------
+Version: Vampire 0.6 (revision 903)
+Termination reason: Time limit
+
+Active clauses: 4463
+Passive clauses: 100360
+Generated clauses: 241657
+Final active clauses: 4114
+Final passive clauses: 92016
+Input formulas: 129
+Initial clauses: 189
+
+Duplicate literals: 1606
+Fw subsumption resolutions: 16413
+Fw demodulations: 20006
+Bw demodulations: 278
+
+Simple tautologies: 3550
+Equational tautologies: 59
+Forward subsumptions: 102624
+
+Binary resolution: 167074
+Factoring: 20
+Forward superposition: 24765
+Backward superposition: 11192
+Self superposition: 1
+
+Backtracking splits: 57
+Backtracking splits refuted: 25
+Backtracking splits refuted at zero level: 8
+
+Memory used: 45159KB
+Time elapsed: 9.628 s
+------------------------------
+% remaining time: 11851 next slice time: 4
+lrs-1003_12_bms=on:bs=unit_only:bsr=on:cond=fast:drc=off:ep=on:fde=none:lcm=predicate:n=on:nicw=on:nwc=10:sfv=off:sgo=on:sio=off:sp=occurrence:spo=on:ssec=off:stl=81:updr=off_4 on theorems\conversions\codi_down_sum_theorems_goal19.all
+Time limit reached!
+------------------------------
+Version: Vampire 0.6 (revision 903)
+Termination reason: Time limit
+
+Active clauses: 805
+Passive clauses: 2565
+Generated clauses: 9881
+Final active clauses: 791
+Final passive clauses: 1753
+Input formulas: 129
+Initial clauses: 189
+
+Duplicate literals: 27
+Fw subsumption resolutions: 110
+Bw subsumption resolutions: 2
+Fw demodulations: 228
+Bw demodulations: 10
+Condensations: 25
+
+Simple tautologies: 98
+Equational tautologies: 9
+Forward subsumptions: 6775
+Backward subsumptions: 9
+
+Binary resolution: 8641
+Factoring: 25
+Forward superposition: 459
+Backward superposition: 165
+
+Unique components: 1628
+
+Memory used: 2302KB
+Time elapsed: 0.505 s
+------------------------------
+% remaining time: 11845 next slice time: 22
+lrs+1010_50_bs=off:drc=off:flr=on:lcm=predicate:n=on:nwc=1.2:sfv=off:sgo=on:stl=81_22 on theorems\conversions\codi_down_sum_theorems_goal19.all
+Time limit reached!
+------------------------------
+Version: Vampire 0.6 (revision 903)
+Termination reason: Time limit
+
+Active clauses: 2046
+Passive clauses: 6203
+Generated clauses: 50780
+Final active clauses: 2046
+Final passive clauses: 4155
+Input formulas: 129
+Initial clauses: 187
+
+Duplicate literals: 3238
+Fw subsumption resolutions: 2248
+Fw demodulations: 121
+Bw demodulations: 2
+Fw literal rewrites: 2637
+
+Simple tautologies: 2166
+Equational tautologies: 6
+Forward subsumptions: 34201
+
+Binary resolution: 36879
+Factoring: 19
+Forward superposition: 5358
+Backward superposition: 205
+Equality resolution: 2
+
+Unique components: 10
+
+Memory used: 4989KB
+Time elapsed: 2.307 s
+------------------------------
+% remaining time: 11822 next slice time: 41
+dis-1010_5_bd=off:bs=off:cond=fast:ep=on:fde=none:lcm=predicate:n=on:nicw=on:nwc=1.3:ptb=off:sac=on:sgo=on:sio=off:sos=on:spl=backtracking:ssec=off:updr=off_41 on theorems\conversions\codi_down_sum_theorems_goal19.all
+Time limit reached!
+------------------------------
+Version: Vampire 0.6 (revision 903)
+Termination reason: Time limit
+
+Active clauses: 4421
+Passive clauses: 32309
+Generated clauses: 112424
+Final active clauses: 4414
+Final passive clauses: 25826
+Input formulas: 129
+Initial clauses: 189
+
+Duplicate literals: 831
+Fw subsumption resolutions: 8582
+Fw demodulations: 140
+Condensations: 384
+
+Simple tautologies: 866
+Forward subsumptions: 71430
+
+Binary resolution: 96792
+Factoring: 519
+Forward superposition: 4888
+Backward superposition: 327
+
+Backtracking splits: 43
+Backtracking splits refuted: 4
+Backtracking splits refuted at zero level: 1
+
+Memory used: 19317KB
+Time elapsed: 4.208 s
+------------------------------
+% remaining time: 11780 next slice time: 237
+lrs+1_2:1_bs=off:ep=on:gsp=input_only:lcm=predicate:n=on:nicw=on:nwc=1.1:ptb=off:sac=on:sgo=on:sio=off:sos=on:sp=occurrence:spl=backtracking:spo=on:ssec=off:stl=81:updr=off_237 on theorems\conversions\codi_down_sum_theorems_goal19.all
+Time limit reached!
+------------------------------
+Version: Vampire 0.6 (revision 903)
+Termination reason: Time limit
+
+Active clauses: 5624
+Passive clauses: 72480
+Generated clauses: 199338
+Final active clauses: 4458
+Final passive clauses: 28615
+Input formulas: 129
+Initial clauses: 189
+Discarded non-redundant clauses: 33249
+
+Duplicate literals: 3847
+Fw subsumption resolutions: 25108
+Fw demodulations: 15130
+Bw demodulations: 9925
+
+Simple tautologies: 817
+Equational tautologies: 2
+Forward subsumptions: 80112
+Bw demodulations to eq. taut.: 1
+
+Binary resolution: 133532
+Factoring: 18
+Forward superposition: 7635
+Backward superposition: 1696
+
+Backtracking splits: 227
+Backtracking splits refuted: 76
+Backtracking splits refuted at zero level: 11
+
+Memory used: 60638KB
+Time elapsed: 24.148 s
+------------------------------
+% remaining time: 11538 next slice time: 311
+lrs+11_40_bd=off:bs=unit_only:bsr=unit_only:drc=off:flr=on:lcm=predicate:n=on:ptb=off:sac=on:sfv=off:spl=backtracking:ssec=off:stl=81:updr=off_311 on theorems\conversions\codi_down_sum_theorems_goal19.all
+Time limit reached!
+------------------------------
+Version: Vampire 0.6 (revision 903)
+Termination reason: Time limit
+
+Active clauses: 11711
+Passive clauses: 66943
+Generated clauses: 528267
+Final active clauses: 10700
+Final passive clauses: 19921
+Input formulas: 129
+Initial clauses: 187
+Discarded non-redundant clauses: 118636
+
+Duplicate literals: 2331
+Trivial inequalities: 697
+Fw subsumption resolutions: 32608
+Bw subsumption resolutions: 295
+Fw demodulations: 90954
+Fw literal rewrites: 50902
+
+Simple tautologies: 4070
+Equational tautologies: 10985
+Forward subsumptions: 265816
+Backward subsumptions: 2211
+Fw demodulations to eq. taut.: 17
+
+Binary resolution: 297713
+Factoring: 18
+Forward superposition: 32703
+Backward superposition: 19692
+Self superposition: 12
+Equality factoring: 4
+Equality resolution: 201
+
+Memory used: 62301KB
+Time elapsed: 31.242 s
+------------------------------
+% remaining time: 11225 next slice time: 280
+lrs-1010_10_bd=off:bs=unit_only:cond=on:flr=on:gsp=input_only:n=on:nicw=on:ptb=off:sac=on:sfv=off:sio=off:sp=occurrence:spl=backtracking:spo=on:ssec=off:stl=81_280 on theorems\conversions\codi_down_sum_theorems_goal19.all
+Time limit reached!
+------------------------------
+Version: Vampire 0.6 (revision 903)
+Termination reason: Time limit
+
+Active clauses: 6996
+Passive clauses: 42012
+Generated clauses: 479970
+Final active clauses: 4353
+Final passive clauses: 13655
+Input formulas: 129
+Initial clauses: 187
+Discarded non-redundant clauses: 15722
+
+Duplicate literals: 5823
+Fw subsumption resolutions: 21331
+Fw demodulations: 17037
+Fw literal rewrites: 33283
+Condensations: 26632
+
+Simple tautologies: 6586
+Equational tautologies: 342
+Forward subsumptions: 323146
+Backward subsumptions: 13806
+
+Binary resolution: 185807
+Factoring: 180
+Forward superposition: 71107
+Backward superposition: 105890
+Self superposition: 46
+Equality resolution: 2
+
+Backtracking splits: 10
+Backtracking splits refuted: 2
+Backtracking splits refuted at zero level: 2
+
+Memory used: 87120KB
+Time elapsed: 28.117 s
+------------------------------
+% remaining time: 10943 next slice time: 514
+lrs+10_8_bs=off:fde=none:lcm=predicate:n=on:nwc=1.7:ptb=off:sac=on:sgo=on:sio=off:sp=occurrence:spl=backtracking:ssec=off:stl=81_514 on theorems\conversions\codi_down_sum_theorems_goal19.all
+Time limit reached!
+------------------------------
+Version: Vampire 0.6 (revision 903)
+Termination reason: Time limit
+
+Active clauses: 19505
+Passive clauses: 159371
+Generated clauses: 793397
+Final active clauses: 10420
+Final passive clauses: 26919
+Input formulas: 129
+Initial clauses: 187
+Discarded non-redundant clauses: 184685
+
+Duplicate literals: 3281
+Fw subsumption resolutions: 43423
+Fw demodulations: 67698
+Bw demodulations: 70115
+
+Simple tautologies: 10255
+Equational tautologies: 1139
+Forward subsumptions: 482863
+Bw demodulations to eq. taut.: 1493
+
+Binary resolution: 387832
+Factoring: 45
+Forward superposition: 87238
+Backward superposition: 67962
+Self superposition: 3
+Equality factoring: 2
+Equality resolution: 5
+
+Backtracking splits: 90
+Backtracking splits refuted: 32
+
+Memory used: 152364KB
+Time elapsed: 51.542 s
+------------------------------
+% remaining time: 10428 next slice time: 11
+lrs-1010_7_bms=on:bs=off:bsr=on:cond=on:drc=off:ecs=on:ep=on:fde=none:flr=on:fsr=off:lcm=predicate:n=on:nicw=on:nwc=1.3:sac=on:sgo=on:sio=off:ssec=off:stl=81_11 on theorems\conversions\codi_down_sum_theorems_goal19.all
+Time limit reached!
+------------------------------
+Version: Vampire 0.6 (revision 903)
+Termination reason: Time limit
+
+Active clauses: 1884
+Passive clauses: 7139
+Generated clauses: 19118
+Final active clauses: 565
+Final passive clauses: 3854
+Input formulas: 129
+Initial clauses: 189
+Reactivated clauses: 30
+
+Duplicate literals: 243
+Bw subsumption resolutions: 7330
+Fw demodulations: 4
+Bw demodulations: 2
+Fw literal rewrites: 706
+Condensations: 747
+
+Simple tautologies: 1758
+Equational tautologies: 7
+Forward subsumptions: 6017
+Subsumed empty clauses: 2420
+Empty clause subsumptions: 1310
+Subsumed by BDD marking: 10
+
+Binary resolution: 10836
+Factoring: 32
+Forward superposition: 4769
+Backward superposition: 217
+
+Split clauses: 42
+Split components: 84
+Unique components: 119
+Introduced splitting names: 19
+BDD propositional clauses: 2434
+
+Memory used: 7547KB
+Time elapsed: 1.209 s
+------------------------------
+% remaining time: 10415 next slice time: 264
+dis+3_5:4_bd=off:bs=off:drc=off:ep=RST:lcm=predicate:n=on:nicw=on:nwc=3:ptb=off:sac=on:sfv=off:sgo=on:sio=off:sp=occurrence:spl=backtracking:ssec=off:sswn=on:updr=off_264 on theorems\conversions\codi_down_sum_theorems_goal19.all
+Time limit reached!
+------------------------------
+Version: Vampire 0.6 (revision 903)
+Termination reason: Time limit
+
+Active clauses: 4539
+Passive clauses: 261551
+Generated clauses: 366578
+Final active clauses: 4539
+Final passive clauses: 255770
+Input formulas: 129
+Initial clauses: 190
+
+Duplicate literals: 22230
+Fw subsumption resolutions: 38726
+
+Simple tautologies: 329
+Forward subsumptions: 45939
+
+Binary resolution: 306466
+Factoring: 45
+
+Backtracking splits: 15
+
+Memory used: 102855KB
+Time elapsed: 26.560 s
+------------------------------
+% remaining time: 10149 next slice time: 269
+lrs+1002_10_bd=off:bs=off:bsr=unit_only:ecs=on:gsp=input_only:lcm=reverse:n=on:nicw=on:nwc=1.2:sd=1:sfv=off:sio=off:sos=on:spl=off:ss=included:ssec=off:st=1.2:stl=40.5_269 on theorems\conversions\codi_down_sum_theorems_goal19.all
+Time limit reached!
+------------------------------
+Version: Vampire 0.6 (revision 903)
+Termination reason: Time limit
+
+Active clauses: 11635
+Passive clauses: 41050
+Generated clauses: 114447
+Final active clauses: 11635
+Final passive clauses: 9963
+Input formulas: 129
+Initial clauses: 187
+Discarded non-redundant clauses: 115852
+
+Selected by SInE selection: 129
+SInE iterations: 1
+
+Duplicate literals: 7111
+Trivial inequalities: 134
+Fw subsumption resolutions: 12249
+Fw demodulations: 4
+
+Simple tautologies: 1445
+Equational tautologies: 549
+Forward subsumptions: 51258
+
+Binary resolution: 73928
+Forward superposition: 21705
+Equality resolution: 63
+
+Memory used: 26481KB
+Time elapsed: 27.030 s
+------------------------------
+% remaining time: 9879 next slice time: 9879
+User error: Backtracking splitting cannot be used unless all BDD related options are disabled
+% remaining time: 9878 next slice time: 9878
+dis+4_8_n=on_9878 on theorems\conversions\codi_down_sum_theorems_goal19.all
+Memory limit exceeded!
+------------------------------
+Version: Vampire 0.6 (revision 903)
+Termination reason: Memory limit
+Termination phase: Saturation
+
+Active clauses: 42337
+Passive clauses: 4629298
+Generated clauses: 9074201
+Final active clauses: 35319
+Final passive clauses: 4536353
+Input formulas: 129
+Initial clauses: 187
+
+Duplicate literals: 228424
+Trivial inequalities: 3546
+Fw subsumption resolutions: 677131
+Fw demodulations: 994903
+Bw demodulations: 2647
+
+Simple tautologies: 8416
+Equational tautologies: 11665
+Forward subsumptions: 2600860
+Backward subsumptions: 4370
+Fw demodulations to eq. taut.: 48
+Bw demodulations to eq. taut.: 1
+
+Binary resolution: 6688737
+Factoring: 744
+Forward superposition: 302340
+Backward superposition: 205618
+Self superposition: 8
+Equality resolution: 355
+
+Unique components: 156
+
+Memory used: 2037791KB
+Time elapsed: 879.502 s
+------------------------------
+% Proof not found in time 1091.95 s
+% SZS status GaveUp for theorems\conversions\codi_down_sum_theorems_goal19.all

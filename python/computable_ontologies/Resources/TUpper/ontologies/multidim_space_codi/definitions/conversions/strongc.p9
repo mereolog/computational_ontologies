@@ -1,0 +1,3 @@
+formulas(sos).
+(all x all y  (StrongC(x,y) <-> (SC(x,y) & EqDim(x,y) & Covers(x,intersection(x,y))))).
+end_of_list.

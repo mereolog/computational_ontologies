@@ -1,0 +1,51 @@
+fof(axiom450, axiom, (! [X] : ! [Y] :  ((sc(X,Y) => c(X,Y))))).
+fof(axiom460, axiom, (! [X] : ! [Y] :  ((sc(X,Y) => ~(? [Z] :  ((cont(Z,X) & p(Z,Y)))))))).
+fof(axiom470, axiom, (! [X] : ! [Y] :  ((sc(X,Y) => ~(? [Z] :  ((p(Z,X) & cont(Z,Y)))))))).
+fof(axiom480, axiom, (! [X] : ! [Y] :  (((c(X,Y) & (! [Z] :  ((~(cont(Z,X)) | ~(cont(Z,Y)) | (~(p(Z,X)) & ~(p(Z,Y))))))) => sc(X,Y))))).
+fof(axiom490, axiom, (! [X] :  (~(sc(X,X))))).
+fof(axiom500, axiom, (! [X] : ! [Y] :  ((sc(X,Y) => sc(Y,X))))).
+fof(axiom510, axiom, (! [X] : ! [Y] :  ((sc(X,Y) => (? [Z] :  ((lt(Z,X) & lt(Z,Y) & cont(Z,X) & cont(Z,Y)))))))).
+fof(axiom290, axiom, (! [X] : ! [Y] :  ((sc(X,Y) <=> ((? [Z] :  ((cont(Z,X) & cont(Z,Y)))) & (! [Z] :  (((cont(Z,X) & cont(Z,Y)) => (leq(Z,X) & ~(eqdim(Z,X)) & leq(Z,Y) & ~(eqdim(Z,Y))))))))))).
+fof(axiom250, axiom, (! [X] : ! [Y] :  ((eqdim(X,Y) <=> (leq(X,Y) & leq(Y,X)))))).
+fof(axiom150, axiom, (! [X] : ! [Y] :  ((leq(X,Y) => s(X))))).
+fof(axiom160, axiom, (! [X] : ! [Y] :  ((leq(X,Y) => s(Y))))).
+fof(axiom170, axiom, (! [X] :  ((zex(X) => s(X))))).
+fof(axiom180, axiom, (! [X] :  ((s(X) => leq(X,X))))).
+fof(axiom190, axiom, (! [X] : ! [Y] : ! [Z] :  (((leq(X,Y) & leq(Y,Z)) => leq(X,Z))))).
+fof(axiom200, axiom, (! [X] : ! [Y] :  (((zex(X) & zex(Y)) => X=Y)))).
+fof(axiom210, axiom, (! [X] : ! [Y] :  (((zex(X) & s(Y)) => leq(X,Y))))).
+fof(axiom130, axiom, (! [X] : ! [Y] :  ((cont(X,Y) => leq(X,Y))))).
+fof(axiom140, axiom, (? [X] :  (mindim(X)))).
+fof(axiom220, axiom, (! [X] :  ((maxdim(X) <=> (s(X) & ~(zex(X)) & (! [Y] :  ((s(Y) => leq(Y,X))))))))).
+fof(axiom230, axiom, (! [X] :  ((mindim(X) <=> (s(X) & ~(zex(X)) & (! [Y] :  (((s(Y) & ~(zex(Y))) => leq(X,Y))))))))).
+fof(axiom80, axiom, (! [X] :  (((s(X) & ~(zex(X))) <=> cont(X,X))))).
+fof(axiom90, axiom, (! [X] : ! [Y] :  (((cont(X,Y) & cont(Y,X)) => X=Y)))).
+fof(axiom100, axiom, (! [X] : ! [Y] : ! [Z] :  (((cont(X,Y) & cont(Y,Z)) => cont(X,Z))))).
+fof(axiom110, axiom, (! [X] : ! [Y] :  ((zex(X) => (s(X) & ~(cont(Y,X)) & ~(cont(X,Y))))))).
+fof(axiom120, axiom, (! [X] : ! [Y] :  (((zex(X) & zex(Y)) => X=Y)))).
+fof(axiom240, axiom, (! [X] : ! [Y] :  ((p(X,Y) <=> (cont(X,Y) & eqdim(X,Y)))))).
+fof(axiom70, axiom, (! [X] : ! [Y] :  ((c(X,Y) <=> (? [Z] :  ((cont(Z,X) & cont(Z,Y)))))))).
+fof(axiom390, axiom, (! [X] :  (~(inc(X,X))))).
+fof(axiom400, axiom, (! [X] : ! [Y] :  ((inc(X,Y) => inc(Y,X))))).
+fof(axiom410, axiom, (! [X] : ! [Y] :  ((eqdim(X,Y) => ~(inc(X,Y)))))).
+fof(axiom420, axiom, (! [X] : ! [Y] :  ((inc(X,Y) => (lt(X,Y) | lt(Y,X)))))).
+fof(axiom430, axiom, (! [X] : ! [Y] :  (((cont(X,Y) & lt(X,Y)) => inc(X,Y))))).
+fof(axiom440, axiom, (! [X] : ! [Y] : ! [Z] :  (((inc(X,Y) & p(Y,Z)) => inc(X,Z))))).
+fof(axiom280, axiom, (! [X] : ! [Y] :  ((inc(X,Y) <=> ((? [Z] :  ((leq(Z,X) & ~(eqdim(Z,X)) & cont(Z,X) & p(Z,Y)))) | (? [Z] :  ((leq(Z,Y) & ~(eqdim(Z,Y)) & cont(Z,Y) & p(Z,X))))))))).
+fof(axiom360, axiom, (! [X] :  (((s(X) & ~(zex(X))) => po(X,X))))).
+fof(axiom370, axiom, (! [X] : ! [Y] :  ((po(X,Y) => po(Y,X))))).
+fof(axiom380, axiom, (! [X] : ! [Y] :  ((po(X,Y) => eqdim(X,Y))))).
+fof(axiom270, axiom, (! [X] : ! [Y] :  ((po(X,Y) <=> (? [Z] :  ((p(Z,X) & p(Z,Y)))))))).
+fof(axiom300, axiom, (! [X] :  ((max(X) <=> (s(X) & ~(zex(X)) & (! [Y] :  (~(pp(X,Y))))))))).
+fof(axiom310, axiom, (! [X] :  ((min(X) <=> (s(X) & ~(zex(X)) & (! [Y] :  (~(pp(Y,X))))))))).
+fof(axiom260, axiom, (! [X] : ! [Y] :  ((pp(X,Y) <=> (p(X,Y) & ~(X=Y)))))).
+fof(axiom20, axiom, (! [X] : ! [Y] :  ((bcont(X,Y) => (cont(X,Y) & ~(eqdim(X,Y))))))).
+fof(axiom30, axiom, (! [X] : ! [Y] : ! [V] : ! [Z] :  (((sc(X,Y) & min(X) & p(X,V) & cont(Y,V) & cont(Z,X) & cont(Z,Y)) => bcont(Z,X))))).
+fof(axiom40, axiom, (! [X] : ! [Y] : ! [Z] : ! [V] :  (((sc(X,Y) & p(X,V) & p(Y,V) & cont(Z,X) & cont(Z,Y) & covers(V,Z)) => ~(bcont(Z,V)))))).
+fof(axiom50, axiom, (! [X] : ! [Y] : ! [Z] :  (((bcont(X,Y) & p(Y,Z) & (! [V] : ! [W] :  (((p(V,Z) & ~(po(V,Y)) & p(W,X)) => ~(cont(W,V)))))) => bcont(X,Z))))).
+fof(axiom60, axiom, (! [X] : ! [Y] : ! [Z] :  (((bcont(X,Y) & cont(Z,X)) => bcont(Z,Y))))).
+fof(axiom320, axiom, (! [X] : ! [Y] :  ((covers(X,Y) <=> (lt(Y,X) & (! [Z] :  ((s(Z) => ~(lt(Y,Z) & lt(Z,X)))))))))).
+fof(axiom330, axiom, (! [X] : ! [Y] :  ((gt(X,Y) <=> lt(Y,X))))).
+fof(axiom340, axiom, (! [X] : ! [Y] :  ((geq(X,Y) <=> leq(Y,X))))).
+fof(axiom350, axiom, (! [X] : ! [Y] :  ((lt(X,Y) <=> (leq(X,Y) & ~(eqdim(X,Y))))))).
+fof(axiom10, axiom, (! [X] :  ((closed(X) <=> (! [Y] :  (~(bcont(Y,X)))))))).

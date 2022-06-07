@@ -1,0 +1,14 @@
+formulas(sos).
+( all x11 - (lt(x11, x11))) .
+( all x22 all x21 ( (lt(x22, x21)) -> (- (lt(x21, x22))) )) .
+( all x33 all x32 all x31 ( ((lt(x33, x32) & lt(x32, x31))) -> (lt(x33, x31)) )) .
+( all x41 eqdim(x41, x41)) .
+( all x52 all x51 ( (eqdim(x52, x51)) -> (eqdim(x51, x52)) )) .
+( all x63 all x62 all x61 ( ((eqdim(x63, x62) & eqdim(x62, x61))) -> (eqdim(x63, x61)) )) .
+( all x72 all x71 ( (lt(x72, x71)) -> (- (eqdim(x72, x71))) )) .
+( all x83 all x82 all x81 ( (eqdim(x83, x82)) -> (( (lt(x81, x83)) -> (lt(x81, x82)) )) )) .
+( all x93 all x92 all x91 ( (eqdim(x93, x92)) -> (( (lt(x93, x91)) -> (lt(x92, x91)) )) )) .
+( exists x102 (- (zex(x102)) & ( all x101 ( (lt(x101, x102)) -> (zex(x101)) )) )) .
+( all x112 all x111 ( ((zex(x112) & zex(x111))) -> ((x112=x111)) )) .
+( all x122 all x121 ( ((zex(x122) & - (zex(x121)))) -> (lt(x122, x121)) )) .
+end_of_list.

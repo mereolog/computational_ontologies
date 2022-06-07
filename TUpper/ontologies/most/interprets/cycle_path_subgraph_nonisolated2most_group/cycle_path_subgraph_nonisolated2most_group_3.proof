@@ -1,0 +1,35 @@
+============================== prooftrans ============================
+Prover9 (32) version Dec-2007, Dec 2007.
+Process 3536 was started by cchui on MacBook-Pro.local,
+Thu Nov  8 18:50:29 2018
+The command was "/Applications/Prover9-Mace4-v05B.app/Contents/Resources/bin-mac-intel/prover9".
+============================== end of head ===========================
+
+============================== end of input ==========================
+
+============================== PROOF =================================
+
+% -------- Comments from original proof --------
+% Proof 1 at 0.05 (+ 0.00) seconds.
+% Length of proof is 15.
+% Level of proof is 3.
+% Maximum clause weight is 10.
+% Given clauses 33.
+
+13 (all x all y (in(x,y) & plane(x) & plane(y) -> x = y)) # label(non_clause).  [assumption].
+21 (all x (group(x) <-> plane(x))) # label(non_clause).  [assumption].
+23 (all x all y (mol(x,y) <-> in(x,y))) # label(non_clause).  [assumption].
+24 (all x all y (mol(x,y) & group(x) & group(y) -> x = y)) # label(non_clause) # label(goal).  [goal].
+30 -group(x) | plane(x).  [clausify(21)].
+31 group(c1).  [deny(24)].
+32 group(c2).  [deny(24)].
+36 -mol(x,y) | in(x,y).  [clausify(23)].
+37 mol(c1,c2).  [deny(24)].
+59 -in(x,y) | -plane(x) | -plane(y) | y = x.  [clausify(13)].
+68 c2 != c1.  [deny(24)].
+69 plane(c1).  [resolve(31,a,30,a)].
+70 plane(c2).  [resolve(32,a,30,a)].
+71 in(c1,c2).  [resolve(37,a,36,a)].
+95 $F.  [ur(59,b,69,a,c,70,a,d,68,a),unit_del(a,71)].
+
+============================== end of proof ==========================

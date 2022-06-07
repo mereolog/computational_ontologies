@@ -1,0 +1,21 @@
+fof(axiom10, axiom, (! [X] : ! [Y] :  (((~(p(X,Y)) | (cont(X,Y) & eqdim(X,Y))) & (~(cont(X,Y) & eqdim(X,Y)) | p(X,Y)))))).
+fof(axiom20, axiom, (! [X] : ! [Y] :  ((~(cont(X,Y)) | lt(X,Y) | eqdim(X,Y))))).
+fof(axiom30, axiom, (! [X] :  (((zex(X) | cont(X,X)) & (~(cont(X,X)) | ~(zex(X))))))).
+fof(axiom40, axiom, (! [X] : ! [Y] :  ((~(cont(X,Y) & cont(Y,X)) | X=Y)))).
+fof(axiom50, axiom, (! [X] : ! [Y] : ! [Z] :  ((~(cont(X,Y) & cont(Y,Z)) | cont(X,Z))))).
+fof(axiom60, axiom, (! [X] : ! [Y] :  ((~(zex(X)) | (~(cont(Y,X)) & ~(cont(X,Y))))))).
+fof(axiom70, axiom, (! [X] : ! [Y] :  ((~(zex(X) & zex(Y)) | X=Y)))).
+fof(axiom80, axiom, (! [X] : ! [Y] :  (((~(c(X,Y)) | (? [Z] :  ((cont(Z,X) & cont(Z,Y))))) & (~(? [Z] :  ((cont(Z,X) & cont(Z,Y)))) | c(X,Y)))))).
+fof(axiom140, axiom, (? [X] :  (mindim(X)))).
+fof(axiom270, axiom, (! [X] :  (leq(X,X)))).
+fof(axiom280, axiom, (! [X] : ! [Y] :  ((leq(X,Y) | leq(Y,X))))).
+fof(axiom290, axiom, (! [X] : ! [Y] : ! [Z] :  ((~(leq(X,Y) & leq(Y,Z)) | leq(X,Z))))).
+fof(axiom300, axiom, (! [X] : ! [Y] :  ((~(zex(X) & zex(Y)) | X=Y)))).
+fof(axiom310, axiom, (! [X] : ! [Y] :  ((~(zex(X)) | leq(X,Y))))).
+fof(axiom320, axiom, (! [X] :  (((~(maxdim(X)) | (~(zex(X)) & (! [Y] :  (leq(Y,X))))) & (~(~(zex(X)) & (! [Y] :  (leq(Y,X)))) | maxdim(X)))))).
+fof(axiom330, axiom, (! [X] :  (((~(mindim(X)) | (~(zex(X)) & (! [Y] :  ((zex(Y) | leq(X,Y)))))) & (~(~(zex(X)) & (! [Y] :  ((zex(Y) | leq(X,Y))))) | mindim(X)))))).
+fof(axiom390, axiom, (! [X] : ! [Y] :  (((~(covers(X,Y)) | (lt(Y,X) & (! [Z] :  (~(lt(Y,Z) & lt(Z,X)))))) & (~(lt(Y,X) & (! [Z] :  (~(lt(Y,Z) & lt(Z,X))))) | covers(X,Y)))))).
+fof(axiom450, axiom, (! [X] : ! [Y] :  (((~(lt(X,Y)) | (leq(X,Y) & ~(leq(Y,X)))) & (~(leq(X,Y) & ~(leq(Y,X))) | lt(X,Y)))))).
+fof(axiom460, axiom, (! [X] : ! [Y] :  (((~(gt(X,Y)) | (leq(Y,X) & ~(leq(X,Y)))) & (~(leq(Y,X) & ~(leq(X,Y))) | gt(X,Y)))))).
+fof(axiom470, axiom, (! [X] : ! [Y] :  (((~(geq(X,Y)) | leq(Y,X)) & (~(leq(Y,X)) | geq(X,Y)))))).
+fof(axiom480, axiom, (! [X] : ! [Y] :  (((~(eqdim(X,Y)) | (leq(X,Y) & leq(Y,X))) & (~(leq(X,Y) & leq(Y,X)) | eqdim(X,Y)))))).

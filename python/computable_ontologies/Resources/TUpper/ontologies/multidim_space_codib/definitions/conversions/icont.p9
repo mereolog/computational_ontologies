@@ -1,0 +1,3 @@
+formulas(sos).
+(all x all y  (ICont(x,y) <-> (Cont(x,y) & \forall z\;[(Cont(z,x) -> ~BCont(z,y))]))).
+end_of_list.

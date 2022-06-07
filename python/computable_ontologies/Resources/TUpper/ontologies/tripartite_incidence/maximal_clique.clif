@@ -1,0 +1,26 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+
+(cl-text http://colore.oor.net/tripartite_incidence/maximal_clique.clif
+
+(cl-imports http://colore.oor.net/tripartite_incidence/weak_tripartite.clif)
+
+(cl-imports http://colore.oor.net/bipartite_incidence/definitions/bipartite_def.clif)
+
+(forall (p1 q)
+	(if	(and	(point p1)
+			(plane q)
+			(not (in p1 q)))
+		(exists (p2)
+			(and	(point p2)
+				(in p2 q)
+				(not (collinear p1 p2))))))
+
+)

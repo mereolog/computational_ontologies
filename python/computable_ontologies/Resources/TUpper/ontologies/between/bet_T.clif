@@ -1,0 +1,27 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+
+
+(cl-text http://colore.oor.net/between/bet_T.clif
+
+(cl-imports http://colore.oor.net/between/betweenness.clif)
+
+(forall (x y z w)
+        (if     (and    (between x y z)
+                        (between y z w))
+                (between x y w)))
+
+(forall (x y z w)
+        (if     (and    (between x y w)
+                        (between y z w))
+                (between x y z)))
+
+)
+

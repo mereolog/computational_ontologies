@@ -1,0 +1,28 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+
+(cl-text http://colore.oor.net/subposet/dominating.clif
+
+(cl-imports http://colore.oor.net/subposet/partial_subposet.clif)
+
+(forall (x)
+	(if	(poset_element x)
+		(exists (y)
+			(and	(mereo_element y)
+				(leq y x)))))
+
+(forall (x)
+	(if	(mereo_element x)
+		(exists (y)
+			(and	(poset_element y)
+				(part y x)))))
+
+
+)

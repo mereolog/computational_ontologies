@@ -1,0 +1,35 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+*******************************************************************************/
+
+
+(cl-text http://colore.oor.net/combinatorial_semigroup/original_TC.clif
+
+(forall (x y z)
+        (= (op x (op y z)) (op (op x y) z)))
+
+(forall (x y z w)
+	(if	(= (op x y) (op z w))
+		(or	(and	(= x z)
+				(= y w))
+			(exists (u)
+				(or	(and	(= z (op x u))
+						(= y (op u w)))
+					(and	(= x (op z u))
+						(= w (op u y))))))))
+
+(forall (x y)
+	(not (= A (op x y))))
+
+(forall (x y)
+	(not (= B (op x y))))
+
+(not (= A B))
+
+)

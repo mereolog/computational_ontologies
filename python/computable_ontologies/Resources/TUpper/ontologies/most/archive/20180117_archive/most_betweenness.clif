@@ -1,0 +1,51 @@
+/*******************************************************************************
+* Copyright (c) University of Toronto and others. All rights reserved.
+* The content of this file is licensed under the Creative Commons Attribution-
+* ShareAlike 4.0 Unported license. The legal text of this license can be
+* found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+*
+* Contributors:
+* Carmen Chui, Michael Gruninger
+*******************************************************************************/
+
+(cl-text http://colore.oor.net/most/most_betweenness.clif
+
+(cl-comment 'Atoms are between themselves.')
+(forall (x y z)
+	(if (between x y z)
+		(and (atom x)(atom y)(atom z))))
+
+(cl-comment 'Axioms from between/semilinear theory with sort constraints.')
+(forall (x y z s)
+	(if (and (skeleton s)
+			(atom x)(atom y)(atom z)
+			(inSkeleton x s)
+			(inSkeleton y s)
+			(inSkeleton z s)
+			(between x y z))
+		(between z y x)))
+
+(cl-comment 'Atoms in skeletons are between themselves.')
+(forall (x y z s)
+	(if (and (skeleton s)
+			(atom x)(atom y)(atom z)
+			(inSkeleton x s)
+			(inSkeleton y s)
+			(inSkeleton z s)
+			(between y x z)
+			(between x y z))
+		(= x y)))
+
+(cl-comment 'At most two atoms are between each other.')
+(forall (x y z w s)
+	(if	(and (skeleton s)
+			(atom x)(atom y)(atom z)
+			(inSkeleton x s)
+			(inSkeleton y s)
+			(inSkeleton z s)
+			(inSkeleton w s)
+			(between y x z))
+		(or	(between y x w)
+			(between z x w))))
+
+)

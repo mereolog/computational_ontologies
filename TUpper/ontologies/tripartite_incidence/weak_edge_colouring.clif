@@ -1,0 +1,37 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+
+(cl-text http://colore.oor.net/tripartite_incidence/weak_edge_colouring.clif
+
+(cl-imports http://colore.oor.net/tripartite_incidence/definitions/tripartite_def.clif)
+
+(cl-imports http://colore.oor.net/tripartite_incidence/edge_plane_subgraph.clif)
+
+(forall (l)
+	(if	(line l)
+		(exists (q)
+			(and	(matching q)
+				(in l q)))))
+
+(forall (p)
+	(if	(point p)
+		(exists (q)
+			(and	(matching q)
+				(in p q)))))
+
+(forall (q1 q2 l)
+	(if	(and	(matching q1)
+			(matching q2)
+			(line l)
+			(in l q1)
+			(in l q2))
+	(= q1 q2)))
+	
+)

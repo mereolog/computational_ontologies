@@ -1,0 +1,31 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+ 
+ (cl-text http://colore.oor.net/approximate_point/ordered_ap.clif
+
+(cl-imports http://colore.oor.net/approximate_point/approximate_point.clif)
+
+(cl-comment 'Glb')
+(forall (x y z)
+(iff	(glb x y z)
+	(and	(finer z x)
+		(finer z y)
+		(forall (u)
+			(if	(and	(finer u x)
+					(finer u y))
+				(finer u z))))))
+
+(cl-comment 'CONJ')
+(forall	(x y)
+(if	(ncdf x y)
+	(exists	(z)
+		(glb x y z))))
+
+)

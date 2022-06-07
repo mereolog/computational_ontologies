@@ -1,0 +1,44 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+
+(cl-text http://colore.oor.net/between/partial_fishburn.clif
+
+(cl-imports http://colore.oor.net/between/strict_between.clif)
+
+(forall (x y z a)
+	(if	(and	(between x y z)
+			(same_triple y a)
+			(not	(= a y)))
+		(iff	(between x y a)
+			(not	(between a y z)))))
+				
+(forall (x y z)
+	(if	(and	(same_triple x y)
+			(same_triple y z)
+			(same_triple x z)
+			(not	(= x y))
+			(not	(= y z))
+			(not 	(=x z)))
+		(or	(between x y z)
+			(between z x y)
+			(between y z x))))
+				
+(cl-comment 'Although this relation is not explicit in Fishburn, it captures the notion of two elements appearing in the same triple.')
+(forall (x y)
+	(iff	(same_triple x y)
+		(exists (z)
+			(or	(between x y z)
+				(between y z x)
+				(between z x y)
+				(between z y x)
+				(between y x z)
+				(between x z y)))))
+
+)

@@ -1,0 +1,48 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Torsten Hahmann - initial implementation
+ *******************************************************************************/
+
+(cl-text http://colore.oor.net/gwml2/definitions/module20.clif
+(cl-imports http://colore.oor.net/gwml2/definitions/module15.clif)
+(cl-imports http://colore.oor.net/gwml2/definitions/module19.clif)
+
+
+(cl-comment 'A-D')
+(forall (x)
+	(iff
+		(A x)
+		(and
+			(AU x)
+			(not (exists (y)
+				(and
+					(AU y)
+					(not (= x y))
+					(submaterial y x)
+				)
+			))
+			(exists (s a)
+				(and
+					(CSB s)
+					(submaterial s x)
+					(AWB a)
+					(submaterial a x)
+					(not (ZEX (convoidspace s)))
+					(forall (w)
+						(if 
+							(intragranularconstituent w a)
+							(P (r w) (convoidspace s))
+						)
+					)
+				)
+			)
+		)
+	)
+)
+
+)

@@ -1,0 +1,3 @@
+fof(axiom2610, axiom, (! [X] :  (((S(x) & ~ZEX(x)) -> PO(x,x))))).
+fof(axiom2620, axiom, (! [X] : ! [Y] :  ((PO(x,y) -> PO(y,x))))).
+fof(axiom2630, axiom, (! [X] : ! [Y] :  ((PO(x,y) -> EqDim(x,y))))).

@@ -1,0 +1,46 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+*******************************************************************************/
+
+
+(cl-text http://colore.oor.net/cyclic_ordering/huntington_cyclic.clif
+
+(forall (x y z)
+	(if	(C x y z)
+		(and	(not (= x y))
+			(not (= x z))
+			(not (= y z)))))
+
+(forall (x y z)
+	(if	(and	(not (= x y))
+			(not (= x z))
+			(not (= y z))
+			(C x y z))
+		(C y z x)))
+
+(forall (x y z)
+	(if	(and	(not (= x y))
+			(not (= x z))
+			(not (= y z))
+			(C x y z))
+		(not (C x z y))))
+
+(forall (x y z)
+	(if	(and	(not (= x y))
+			(not (= x z))
+			(not (= y z))
+			(C x y z))
+		(forall (w)
+			(or	(C x y w)
+				(C w y z)))))
+
+(exists (x y z)
+	(C x y z))
+
+)

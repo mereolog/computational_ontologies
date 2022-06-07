@@ -1,0 +1,7 @@
+formulas(sos).
+(all x all y  ((AtomicCurve(x) & ~AtomicLoopCurve(x) & Cont(y,x) & ~=(x,y)) -> (Point(y) & BCont(y,x)))).
+(all x all p1 all p2 all p3  ((AtomicCurve(x) & Point(p1) & Point(p2) & Point(p3) & Cont(p1,x) & Cont(p2,x) & Cont(p3,x)) -> (=(p1,p2) | =(p1,p3) | =(p2,p3)))).
+(all x all p1 all p2  ((AtomicCurve(x) & Point(p1) & Point(p2) & ~=(p1,p2) & Cont(p1,x) & Cont(p2,x)) -> ~Closed(x))).
+(all x  (Curve(x) -> \exists y\;[(P(y,x) & AtomicCurve(y))])).
+(all x all y  ((Point(x) & Curve(y) & ~AtomicCurveSegment(y)) -> (BCont(x,y) <-> \exists s1\;[(AtomicCurve(s1) & P(s1,y) & BCont(x,s1) & \forall s2\;[((P(s2,y) & AtomicCurve(s2) & BCont(x,s2)) -> =(s1,s2))])]))).
+end_of_list.

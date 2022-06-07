@@ -1,0 +1,22 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved.
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger - initial implementation
+ *******************************************************************************/
+
+(cl-text http://colore.oor.net/subposet/lower_reflect.clif
+
+(cl-imports http://colore.oor.net/subposet/subposet_root.clif)
+
+(forall (x y y1)
+	(if	(and	(lt x y)
+			(part y1 y))
+		(exists (x1)
+			(and	(part x1 x)
+				(lt x1 y1)))))
+
+)

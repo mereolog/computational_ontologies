@@ -1,0 +1,46 @@
+/*******************************************************************************
+ * Copyright (c) University of Toronto and others. All rights reserved. 
+ * The content of this file is licensed under the Creative Commons Attribution-
+ * ShareAlike 4.0 Unported license. The legal text of this license can be
+ * found at http://creativecommons.org/licenses/by-sa/4.0/legalcode.
+ *
+ * Contributors:
+ *    Michael Gruninger, Carmen Chui
+ *******************************************************************************/
+ 
+(cl-text http://colore.oor.net/dolce_dependence/PQ_PED_dependence.clif
+
+(cl-comment 'Source: WonderWeb Deliverable D18 Ontology Library final by: Claudio Masolo, Stefano Borgo, Aldo Gangemi, Nicola Guarino, and Alessandro Oltramari (2003).')
+(cl-comment 'Comment: DOLCE axioms from 4.3.7 Dependence and Spatial Dependence')
+
+(cl-comment 'Import the DOLCE present theory.')
+(cl-imports http://colore.oor.net/dolce_present/dolce_present.clif)
+
+(cl-comment 'Taken directly from HETS axioms - going from sorted logic to unsorted logic.')
+(forall (x y)
+	(if (and (PED x)(PQ y))
+		(iff (SD x y)
+			(and (exists (t) (PRE x t))
+				(forall (t)
+					(if (PRE x t)
+						(PRE y t)))))))
+
+(forall (x)
+	(if (PED x)
+		(exists (y)
+			(and (PQ y)(SD x y)))))
+
+(forall (x y)
+	(if (and (PQ x)(PED y))
+		(iff (SD x y)
+			(and (exists (t) (PRE x t))
+				(forall (t)
+					(if (PRE x t)
+						(PRE y t)))))))
+
+(forall (x)
+	(if (PQ x)
+		(exists (y)
+			(and (PED y)(SD x y)))))
+
+)
