@@ -1,3 +1,0 @@
-formulas(sos).
-(exists x  MinDim(x)).
-end_of_list.

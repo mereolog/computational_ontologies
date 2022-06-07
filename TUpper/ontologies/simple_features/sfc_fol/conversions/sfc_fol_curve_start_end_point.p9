@@ -1,4 +1,0 @@
-formulas(sos).
-(all x all y  (sf_start_point(x,y) -> BCont(x,y))).
-(all x all y  (sf_end_point(x,y) -> BCont(x,y))).
-end_of_list.

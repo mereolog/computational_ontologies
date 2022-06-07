@@ -1,3 +1,0 @@
-formulas(goals).
-( all x11 eqdim(x11, x11)) .
-end_of_list.

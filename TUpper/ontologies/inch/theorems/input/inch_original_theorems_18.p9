@@ -1,3 +1,0 @@
-formulas(goals).
-all x all y ((GED(x, y) & GED(y, x) & INCH(x, y) -> INCH(y, x))).
-end_of_list.

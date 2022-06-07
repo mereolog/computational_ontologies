@@ -1,3 +1,0 @@
-formulas(goals).
-( all x82 all x81 ( (po(x82, x81)) -> (eqdim(intersection(x82, x81), x82)) )) .
-end_of_list.

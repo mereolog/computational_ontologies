@@ -1,5 +1,0 @@
-  ( em("1") <=> $true
-  ( fm("1") <=> $true
-  ( m("1") <=> $true
-  ( ped("1") <=> $true
-  ( wm("1") <=> $true

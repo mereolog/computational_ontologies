@@ -1,3 +1,0 @@
-formulas(goals).
-all x all y ((Closed(x) & Cont(y, x) -> ICont(y, x))).
-end_of_list.

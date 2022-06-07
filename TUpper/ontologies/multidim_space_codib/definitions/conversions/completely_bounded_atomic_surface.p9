@@ -1,3 +1,0 @@
-formulas(sos).
-(all x  (CompletelyBoundedAtomicSurface(x) <-> (CompletelyBoundedSurface(x) & \forall y\;[(PP(y,x) -> ~CompletelyBoundedSurface(y))]))).
-end_of_list.

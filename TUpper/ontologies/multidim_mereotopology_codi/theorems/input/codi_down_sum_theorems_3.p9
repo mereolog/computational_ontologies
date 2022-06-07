@@ -1,3 +1,0 @@
-formulas(goals).
-all x ((-(ZEX(sum(x, x))) -> P(sum(x, x), x))).
-end_of_list.

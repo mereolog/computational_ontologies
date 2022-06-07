@@ -1,3 +1,0 @@
-formulas(sos).
-(all x  (Multipart_Curve(x) <-> (Curve(x) & Multipart_S(x)))).
-end_of_list.

@@ -1,3 +1,0 @@
-formulas(goals).
-all x all y all z ((P(y, x) & Min(z) & P(z, x) -> P(z, intersection(x, y)) | P(z, difference(x, y)))).
-end_of_list.

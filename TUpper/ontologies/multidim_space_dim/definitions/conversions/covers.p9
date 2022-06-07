@@ -1,3 +1,0 @@
-formulas(sos).
-(all x all y  (Covers(x,y) <-> (lt(y,x) & \forall z\;[(S(z) -> ~(lt(y,z) & lt(z,x)))]))).
-end_of_list.

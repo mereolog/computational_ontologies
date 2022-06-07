@@ -1,3 +1,0 @@
-formulas(sos).
-(all x  ((S(x) & ~ZEX(x)) -> \exists y\;[(P(y,x) & \forall z\;[~PP(z,y)])])).
-end_of_list.

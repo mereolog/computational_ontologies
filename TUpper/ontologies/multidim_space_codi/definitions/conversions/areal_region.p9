@@ -1,3 +1,0 @@
-formulas(sos).
-(all x  (ArealRegion(x) <-> \forall y\;[(Curve(y) -> Covers(x,y))])).
-end_of_list.

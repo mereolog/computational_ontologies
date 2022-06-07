@@ -1,3 +1,0 @@
-formulas(goals).
-all x ((-(AtomicLoopCurve(x)) | -(AtomicRayCurve(x)))).
-end_of_list.

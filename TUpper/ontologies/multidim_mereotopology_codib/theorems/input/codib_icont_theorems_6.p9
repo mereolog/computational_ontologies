@@ -1,3 +1,0 @@
-formulas(goals).
-all x all y all z ((Cont(x, y) & ICont(y, z) -> ICont(x, z))).
-end_of_list.

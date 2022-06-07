@@ -1,3 +1,0 @@
-formulas(goals).
-all x all y ((<(x, y) -> ZEX(difference(y, sum(x, y))))).
-end_of_list.

@@ -1,7 +1,0 @@
-formulas(sos).
-(all x all y  (BCont(x,y) -> (Cont(x,y) & ~EqDim(x,y)))).
-(all x all y all v all z  ((SC(x,y) & Min(x) & P(x,v) & Cont(y,v) & Cont(z,x) & Cont(z,y)) -> BCont(z,x))).
-(all x all y all z all v  ((SC(x,y) & P(x,v) & P(y,v) & Cont(z,x) & Cont(z,y) & Covers(v,z)) -> ~BCont(z,v))).
-(all x all y all z  ((BCont(x,y) & P(y,z) & \forall v,w\;[((P(v,z) & ~PO(v,y) & P(w,x)) -> ~Cont(w,v))]) -> BCont(x,z))).
-(all x all y all z  ((BCont(x,y) & Cont(z,x)) -> BCont(z,y))).
-end_of_list.

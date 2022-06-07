@@ -1,3 +1,0 @@
-formulas(sos).
-(all x  (CompletelyBoundedSurface(x) <-> (ArealRegion(x) & SimpleLoopCurve(boundary(x))))).
-end_of_list.

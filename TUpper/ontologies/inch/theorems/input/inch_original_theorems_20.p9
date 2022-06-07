@@ -1,3 +1,0 @@
-formulas(goals).
-all x all y (( all z ((CH(z, x) -> CS(z, y))) -> CS(x, y))).
-end_of_list.

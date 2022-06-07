@@ -1,3 +1,0 @@
-formulas(goals).
-all x all y ((Endpoint(x, y) -> BCont(x, y))).
-end_of_list.

@@ -1,3 +1,0 @@
-formulas(goals).
-all x all y ((PP(x, y) ->  exists z (P(z, y) & -(PO(z, x))))).
-end_of_list.

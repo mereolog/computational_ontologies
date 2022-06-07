@@ -1,3 +1,0 @@
-formulas(sos).
-(all x  (sf_geometry_collection(x) -> (Multipart_S(x) | Branched_S(x)))).
-end_of_list.

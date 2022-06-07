@@ -1,3 +1,0 @@
-formulas(goals).
-all x ((ICon(x) -> Con(x))).
-end_of_list.

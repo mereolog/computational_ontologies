@@ -1,3 +1,0 @@
-formulas(sos).
-(all x  (sf_point(x) <-> Point(x))).
-end_of_list.

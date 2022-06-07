@@ -1,1 +1,0 @@
-fof(axiom2460, axiom, (! [X] :  ((Simple_ArealRegion(x) <-> (ArealRegion(x) & Simple_S(x)))))).

@@ -1,1 +1,0 @@
-fof(axiom60, axiom, (! [X] : ! [Y] :  ((Cont(x,boundary(y)) <-> BCont(x,y))))).

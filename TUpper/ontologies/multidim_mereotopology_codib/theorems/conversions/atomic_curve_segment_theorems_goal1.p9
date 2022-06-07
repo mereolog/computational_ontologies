@@ -1,3 +1,0 @@
-formulas(goals).
-all x ((AtomicCurveSegment(x) -> -(Closed(x)))).
-end_of_list.

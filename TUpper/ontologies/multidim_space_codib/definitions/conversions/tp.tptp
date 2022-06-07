@@ -1,1 +1,0 @@
-fof(axiom750, axiom, (! [X] : ! [Y] :  ((TP(x,y) <-> (P(x,y) & TCont(x,y)))))).

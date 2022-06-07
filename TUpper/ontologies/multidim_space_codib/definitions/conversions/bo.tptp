@@ -1,1 +1,0 @@
-fof(axiom510, axiom, (! [X] : ! [Y] :  ((BO(x,y) <-> \exists z\;[(BCont(z,x) & BCont(z,y))])))).

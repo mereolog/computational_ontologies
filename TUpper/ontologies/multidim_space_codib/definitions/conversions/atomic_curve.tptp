@@ -1,1 +1,0 @@
-fof(axiom450, axiom, (! [X] :  ((AtomicCurve(x) <-> (AtomicCurveSegment(x) | AtomicLoopCurve(x) | AtomicRayCurve(x)))))).

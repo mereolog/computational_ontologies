@@ -1,3 +1,0 @@
-formulas(sos).
-(all x  ((Curve(x) & PointRegion(y)) -> Covers(x,y))).
-end_of_list.

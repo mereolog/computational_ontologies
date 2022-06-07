@@ -1,3 +1,0 @@
-formulas(sos).
-(all x  (VoluminousRegion(x) <-> \forall y\;[(ArealRegion(y) -> Covers(x,y))])).
-end_of_list.

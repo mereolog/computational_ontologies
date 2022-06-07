@@ -1,3 +1,0 @@
-formulas(sos).
-( exists x2 zex(x2)) .
-end_of_list.

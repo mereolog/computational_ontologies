@@ -1,3 +1,0 @@
-formulas(goals).
-all x all y ((-(C(x, y)) ->  all z (-(IntCont(z, x, y))))).
-end_of_list.

@@ -1,1 +1,0 @@
-fof(axiom780, axiom, (! [X] : ! [Y] :  ((BCont(x,y) -> Inc(x,y))))).

@@ -1,3 +1,0 @@
-formulas(goals).
-all x ((-(Closed(x)) -> TCont(x, x))).
-end_of_list.

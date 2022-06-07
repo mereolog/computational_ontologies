@@ -1,3 +1,0 @@
-formulas(sos).
-(all x  (sf_polyhedral_surface(x) -> sf_surface(x))).
-end_of_list.

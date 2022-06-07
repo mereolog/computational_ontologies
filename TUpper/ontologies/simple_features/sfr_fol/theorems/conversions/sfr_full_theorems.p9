@@ -1,4 +1,0 @@
-formulas(sos).
-(all x all y  (sf_relate(x,y) -> sf_geometry(x))).
-(all x all y  (sf_relate(x,y) -> sf_geometry(y))).
-end_of_list.

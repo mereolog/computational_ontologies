@@ -1,3 +1,0 @@
-formulas(sos).
-(all x all y  (SBPO(x,y) <-> (PO(x,y) & SBP(intersection(x,y),x) & SBP(intersection(x,y),y)))).
-end_of_list.

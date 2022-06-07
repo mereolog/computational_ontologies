@@ -1,3 +1,0 @@
-formulas(goals).
-all x all y ((MaxDim(x) & MaxDim(y) & -((U = sum(x, y))) & -(ZEX(intersection(difference(U, x), difference(U, y)))) -> Cont(intersection(difference(U, x), difference(U, y)), difference(U, sum(x, y))))).
-end_of_list.

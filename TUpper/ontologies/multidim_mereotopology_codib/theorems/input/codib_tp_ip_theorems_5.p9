@@ -1,3 +1,0 @@
-formulas(goals).
-all x all y (-(IP(x, y)) | -(TP(x, y))).
-end_of_list.

@@ -1,3 +1,0 @@
-fof(axiom380, axiom, (! [X] : ! [Y] :  ((gt(x,y) <-> lt(y,x))))).
-fof(axiom390, axiom, (! [X] : ! [Y] :  ((geq(x,y) <-> leq(y,x))))).
-fof(axiom400, axiom, (! [X] : ! [Y] :  ((lt(x,y) <-> (leq(x,y) & ~EqDim(x,y)))))).

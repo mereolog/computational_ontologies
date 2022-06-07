@@ -1,3 +1,0 @@
-formulas(goals).
-( all x62 all x61 (lt(x62, x61) | lt(x61, x62) | eqdim(x62, x61))) .
-end_of_list.

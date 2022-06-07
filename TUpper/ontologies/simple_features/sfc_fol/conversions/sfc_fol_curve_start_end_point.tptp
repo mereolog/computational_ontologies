@@ -1,2 +1,0 @@
-fof(axiom250, axiom, (! [X] : ! [Y] :  ((sf_start_point(x,y) -> BCont(x,y))))).
-fof(axiom260, axiom, (! [X] : ! [Y] :  ((sf_end_point(x,y) -> BCont(x,y))))).

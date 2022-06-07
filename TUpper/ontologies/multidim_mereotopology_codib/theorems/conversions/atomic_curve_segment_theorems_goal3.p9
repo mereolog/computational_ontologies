@@ -1,3 +1,0 @@
-formulas(goals).
-all x ((AtomicCurveSegment(x) -> ICon(x))).
-end_of_list.

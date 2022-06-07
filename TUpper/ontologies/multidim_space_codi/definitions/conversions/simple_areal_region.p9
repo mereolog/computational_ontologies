@@ -1,3 +1,0 @@
-formulas(sos).
-(all x  (Simple_ArealRegion(x) <-> (ArealRegion(x) & Simple_S(x)))).
-end_of_list.

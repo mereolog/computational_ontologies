@@ -1,6 +1,0 @@
-formulas(sos).
-(all x  (PointRegion(x) -> Point(x))).
-(all x  (Curve(x) -> \exists y\;[(PointRegion(y) & Cont(y,x))])).
-(all x  (ArealRegion(x) -> \exists y\;[(PointRegion(y) & Cont(y,x))])).
-(all x  (ArealRegion(x) -> \exists y\;[(EqDim(x,y) & (Cont(x,y) | Cont(y,x)))])).
-end_of_list.

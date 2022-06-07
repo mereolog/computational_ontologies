@@ -1,3 +1,0 @@
-formulas(goals).
-all x ((ZEX(x) -> UCon(x))).
-end_of_list.

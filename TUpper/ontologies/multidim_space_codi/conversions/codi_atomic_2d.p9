@@ -1,3 +1,0 @@
-formulas(sos).
-(all x  (S(x) -> (ZEX(x) | PointRegion(x) | Curve(x) | ArealRegion(x)))).
-end_of_list.

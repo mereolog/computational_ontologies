@@ -1,3 +1,0 @@
-formulas(sos).
-(all x  (sf_linear_ring(x) <-> SimpleLoopCurve(x))).
-end_of_list.

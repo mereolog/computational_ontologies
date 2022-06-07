@@ -1,3 +1,0 @@
-formulas(goals).
-all x all y ((ZEXI(x) & -(ZEXI(y)) -> -(CS(y, x)))).
-end_of_list.

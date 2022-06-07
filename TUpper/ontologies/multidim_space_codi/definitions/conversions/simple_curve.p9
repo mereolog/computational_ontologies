@@ -1,3 +1,0 @@
-formulas(sos).
-(all x  (SimpleCurve(x) <-> (Curve(x) & Simple_S(x)))).
-end_of_list.

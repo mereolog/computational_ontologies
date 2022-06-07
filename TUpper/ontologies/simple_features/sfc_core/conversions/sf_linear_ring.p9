@@ -1,3 +1,0 @@
-formulas(sos).
-(all x  (sf_linear_ring(x) -> sf_line_string(x))).
-end_of_list.

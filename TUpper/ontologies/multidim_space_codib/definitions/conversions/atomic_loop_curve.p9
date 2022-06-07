@@ -1,3 +1,0 @@
-formulas(sos).
-(all x  (AtomicLoopCurve(x) <-> (SimpleLoopCurve(x) & Atomic_S(x)))).
-end_of_list.

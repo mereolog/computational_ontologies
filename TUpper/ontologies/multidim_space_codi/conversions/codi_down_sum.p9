@@ -1,6 +1,0 @@
-formulas(sos).
-(all x all y  =(sum(x,y),sum(y,x))).
-(all x all y  (lt(x,y) -> =(y,sum(x,y)))).
-(all x all y all z  ((leq(x,y) & Cont(z,y)) -> Cont(z,sum(x,y)))).
-(all x all y all z  ((Cont(z,sum(x,y)) & ~Cont(z,x)) -> Cont(difference(z,x),y))).
-end_of_list.

@@ -1,3 +1,0 @@
-formulas(goals).
-all x all y all z ((Cont(z, x) & Cont(z, y) & EqDim(z, x) & EqDim(z, y) -> Cont(z, intersection(x, y)))).
-end_of_list.

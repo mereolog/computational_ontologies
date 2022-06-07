@@ -1,3 +1,0 @@
-formulas(sos).
-(all x  (sf_multi_line_string(x) -> sf_multi_curve(x))).
-end_of_list.

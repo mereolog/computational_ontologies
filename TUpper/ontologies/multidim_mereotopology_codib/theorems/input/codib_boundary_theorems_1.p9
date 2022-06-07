@@ -1,3 +1,0 @@
-formulas(goals).
-all x ((-(Closed(x)) -> BCont(boundary(x), x))).
-end_of_list.

@@ -1,3 +1,0 @@
-formulas(goals).
-all x ((-(ZEX(x)) & -(ZEX(intersection(x, x))) -> P(intersection(x, x), x))).
-end_of_list.

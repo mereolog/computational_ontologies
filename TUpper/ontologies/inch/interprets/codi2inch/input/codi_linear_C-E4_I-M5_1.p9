@@ -1,3 +1,0 @@
-formulas(goals).
-all x all y ((GD(x, y) -> <(y, x))).
-end_of_list.

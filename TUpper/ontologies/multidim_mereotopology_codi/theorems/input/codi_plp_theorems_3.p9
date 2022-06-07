@@ -1,3 +1,0 @@
-formulas(goals).
-all x (-(L(x)) | -(Pl(x))).
-end_of_list.

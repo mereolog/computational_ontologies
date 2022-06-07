@@ -1,5 +1,0 @@
-fof(axiom10, axiom, (! [X] :  (((S(x) & ~ZEX(x)) <-> Cont(x,x))))).
-fof(axiom20, axiom, (! [X] : ! [Y] :  (((Cont(x,y) & Cont(y,x)) -> =(x,y))))).
-fof(axiom30, axiom, (! [X] : ! [Y] : ! [Z] :  (((Cont(x,y) & Cont(y,z)) -> Cont(x,z))))).
-fof(axiom40, axiom, (! [X] : ! [Y] :  ((ZEX(x) -> (S(x) & ~Cont(y,x) & ~Cont(x,y)))))).
-fof(axiom50, axiom, (! [X] : ! [Y] :  (((ZEX(x) & ZEX(y)) -> =(x,y))))).

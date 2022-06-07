@@ -1,3 +1,0 @@
-formulas(sos).
-(all x  (PointRegion(x) <-> MinDim(x))).
-end_of_list.

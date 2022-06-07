@@ -1,1 +1,0 @@
-fof(axiom470, axiom, (! [X] :  ((AtomicLoopCurve(x) <-> (SimpleLoopCurve(x) & Atomic_S(x)))))).

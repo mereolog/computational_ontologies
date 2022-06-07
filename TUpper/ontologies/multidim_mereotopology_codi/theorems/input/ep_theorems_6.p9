@@ -1,3 +1,0 @@
-formulas(goals).
-all x all y all z ((P(x, y) & EqDim(z, x) -> EqDim(z, y))).
-end_of_list.

@@ -1,3 +1,0 @@
-formulas(sos).
-(all x  (Closed(x) <-> \forall y\;[~BCont(y,x)])).
-end_of_list.

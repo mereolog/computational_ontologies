@@ -1,3 +1,0 @@
-formulas(goals).
-all a all b all x all y ((B(x, a, b) & B(y, a, b) & -((x = y)) -> B(x, y, b) | B(y, x, b))).
-end_of_list.

@@ -1,3 +1,0 @@
-formulas(goals).
-( all x42 all x41 ( (zex(intersection(x42, x41))) -> (zex(intersection(x41, x42))) )) .
-end_of_list.

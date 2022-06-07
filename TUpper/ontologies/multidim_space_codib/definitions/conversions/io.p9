@@ -1,3 +1,0 @@
-formulas(sos).
-(all x all y  (IO(x,y) <-> \exists z\;[(ICont(z,x) & ICont(z,y))])).
-end_of_list.

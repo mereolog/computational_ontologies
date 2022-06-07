@@ -1,3 +1,0 @@
-formulas(goals).
-all x all y ((L(x) & L(y) -> EqDim(x, y))).
-end_of_list.

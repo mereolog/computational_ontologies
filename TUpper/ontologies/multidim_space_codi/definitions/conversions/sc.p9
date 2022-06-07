@@ -1,3 +1,0 @@
-formulas(sos).
-(all x all y  (SC(x,y) <-> (\exists z\;[(Cont(z,x) & Cont(z,y))] & \forall z\;[((Cont(z,x) & Cont(z,y)) -> (leq(z,x) & ~EqDim(z,x) & leq(z,y) & ~EqDim(z,y)))]))).
-end_of_list.

@@ -1,3 +1,0 @@
-formulas(goals).
-all x ((Pt(x) -> -(L(x)))).
-end_of_list.

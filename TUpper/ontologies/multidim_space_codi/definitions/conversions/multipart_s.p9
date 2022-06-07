@@ -1,3 +1,0 @@
-formulas(sos).
-(all x  (Multipart_S(x) <-> (S(x) & ~Connected_S(x)))).
-end_of_list.

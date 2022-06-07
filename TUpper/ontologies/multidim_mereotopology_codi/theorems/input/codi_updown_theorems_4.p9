@@ -1,3 +1,0 @@
-formulas(goals).
-all x ((-(ZEX(x)) -> ZEX(difference(x, U)))).
-end_of_list.

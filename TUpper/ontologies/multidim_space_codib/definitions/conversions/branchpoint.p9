@@ -1,3 +1,0 @@
-formulas(sos).
-(all x all y  (Branchpoint(x,y) <-> (Point(x) & Curve(y) & Cont(x,y) & (\exists s1,s2\;[(AtomicCurveSegment(s1) & AtomicLoopCurve(s2) & Cont(s1,y) & Cont(s2,y) & ~=(s1,s2) & Cont(x,s1) & Cont(x,s2))] | \exists s1,s2,s3\;[(AtomicCurveSegment(s1) & AtomicCurveSegment(s2) & AtomicCurveSegment(s3) & Cont(s1,y) & Cont(s2,y) & Cont(s3,y) & ~=(s1,s2) & ~=(s1,s3) & ~=(s2,s3) & Cont(x,s1) & Cont(x,s2) & Cont(x,s3))])))).
-end_of_list.

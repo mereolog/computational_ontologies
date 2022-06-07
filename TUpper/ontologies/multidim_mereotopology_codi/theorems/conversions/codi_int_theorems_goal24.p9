@@ -1,3 +1,0 @@
-formulas(goals).
-( all x241 ( (zex(intersection(x241, intersection(x241, y)))) -> (zex(intersection(intersection(y, x241), x241))) )) .
-end_of_list.

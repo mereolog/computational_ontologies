@@ -1,3 +1,0 @@
-formulas(sos).
-(all x  (sf_multi_surface(x) -> Multipart_ArealRegion(x))).
-end_of_list.

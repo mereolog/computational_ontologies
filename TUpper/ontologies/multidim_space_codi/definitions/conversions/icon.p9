@@ -1,3 +1,0 @@
-formulas(sos).
-(all x  (ICon(x) <-> (Con(x) & \forall y\;[(PP(y,x) -> Covers(x,intersection(y,difference(x,y))))]))).
-end_of_list.

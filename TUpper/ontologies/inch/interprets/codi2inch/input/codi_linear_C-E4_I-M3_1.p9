@@ -1,3 +1,0 @@
-formulas(goals).
-all x all y ((GED(y, x) -> <=(x, y))).
-end_of_list.

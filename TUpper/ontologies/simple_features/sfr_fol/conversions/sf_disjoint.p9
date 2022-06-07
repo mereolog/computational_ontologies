@@ -1,3 +1,0 @@
-formulas(sos).
-(all x all y  (sf_disjoint(y) -> (sf_geometry(x) & sf_geometry(y) & ~C(x,y)))).
-end_of_list.

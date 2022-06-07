@@ -1,3 +1,0 @@
-formulas(goals).
-all x all y ((INCH(x, y) ->  exists z (CS(z, x) & INCH(z, y) & INCH(y, z)))).
-end_of_list.

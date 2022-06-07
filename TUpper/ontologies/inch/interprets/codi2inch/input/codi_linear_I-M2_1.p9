@@ -1,3 +1,0 @@
-formulas(goals).
-all x ((ZEX(x) -> ZEXI(x))).
-end_of_list.
