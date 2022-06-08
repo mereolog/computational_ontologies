@@ -1,0 +1,518 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>System Results</title>
+<meta name="ROBOTS" content="INDEX,NOFOLLOW" />
+<script type="text/javascript">//<![CDATA[
+
+  var tstp_dump;
+  function openSoTSTP (dump) {   
+    var tstp_url = 'https://www.tptp.org/cgi-bin/SystemOnTSTP';
+    var tstp_browser = window.open(tstp_url, '_blank');
+    tstp_dump = dump;
+  }
+  function getTSTPDump () {
+    return tstp_dump;
+  }
+
+//]]></script>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body>
+
+% SZS start RequiredInformation<BR>
+% Congratulations - you have become a registered power user of SystemOnTPTP, at IP address 89.186.28.23.<BR>
+% Please consider donating to the TPTP project - see www.tptp.org for details.<BR>
+% When you donate this message will disappear.<BR>
+% If you do not donate a random delay might be added to your processing time.<BR>
+% SZS end RequiredInformation<BR>
+% Checking upload ...
+% Checker ran ...
+% No errors ...
+<PRE>
+% START OF SYSTEM OUTPUT
+ALL single core disproving mode
+% Running in auto input_syntax mode. Trying TPTP
+% ott+11_3_aac=none:afr=on:afp=4000:afq=1.4:amm=off:anc=all:bs=unit_only:bsr=on:bce=on:fde=unused:irw=on:nm=64:newcnf=on:nwc=1:nicw=on:sac=on:sp=reverse_arity:uhcvi=on_31 on SOT_BFMwOX
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit acfaa1f2c on 2022-05-08 17:32:57 +0200)
+% Linked with Z3 4.8.13.0 f03d756e086f81f2596157241e0decfb1c982299 z3-4.8.4-5390-gf03d756e0
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 69721
+% Time elapsed: 4.200 s
+% ------------------------------
+% ------------------------------
+WARNING Broken Constraint: if symbol_precedence(reverse_arity) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if literal_maximality_aftercheck(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if unit_resulting_resolution(on) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if nongoal_weight_coefficient(3) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount or saturation_algorithm(fmb) is equal to inst_gen and inst_gen_with_resolution(off) is equal to on
+WARNING Broken Constraint: if avatar(off) has been set then saturation_algorithm(fmb) is equal to lrs or saturation_algorithm(fmb) is equal to otter or saturation_algorithm(fmb) is equal to discount
+% fmb+10_1_av=off:fmbsr=1.6:lma=on:nm=64:nwc=3:sp=reverse_arity:urr=on_258 on SOT_BFMwOX
+TRYING [1]
+TRYING [2]
+TRYING [3]
+TRYING [4]
+TRYING [5]
+TRYING [6]
+TRYING [7]
+TRYING [8]
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit acfaa1f2c on 2022-05-08 17:32:57 +0200)
+% Linked with Z3 4.8.13.0 f03d756e086f81f2596157241e0decfb1c982299 z3-4.8.4-5390-gf03d756e0
+% Termination reason: Time limit
+% Termination phase: Finite model building SAT solving
+
+% Memory used [KB]: 1877240
+% Time elapsed: 33.700 s
+% ------------------------------
+% ------------------------------
+% ott-4_4_awrs=decay:awrsf=64:add=off:afr=on:afp=40000:afq=1.0:amm=off:bs=on:gs=on:gsaa=from_current:gsem=on:irw=on:lma=on:nm=64:newcnf=on:nwc=1:sac=on:sp=frequency:updr=off_36 on SOT_BFMwOX
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit acfaa1f2c on 2022-05-08 17:32:57 +0200)
+% Linked with Z3 4.8.13.0 f03d756e086f81f2596157241e0decfb1c982299 z3-4.8.4-5390-gf03d756e0
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 88783
+% Time elapsed: 4.800 s
+% ------------------------------
+% ------------------------------
+% ott+10_128_av=off:bs=on:gsp=on:irw=on:lcm=predicate:lma=on:nm=0:nwc=1:sp=occurrence:urr=on:updr=off:uhcvi=on_231 on SOT_BFMwOX
+% 60 wall clock seconds gone, waiting for system output
+% 70 wall clock seconds gone, waiting for system output
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit acfaa1f2c on 2022-05-08 17:32:57 +0200)
+% Linked with Z3 4.8.13.0 f03d756e086f81f2596157241e0decfb1c982299 z3-4.8.4-5390-gf03d756e0
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 1617287
+% Time elapsed: 30.200 s
+% ------------------------------
+% ------------------------------
+% dis+11_1024_av=off:bd=off:bs=on:cond=on:gs=on:lma=on:nm=16:nwc=1:sp=occurrence:updr=off_169 on SOT_BFMwOX
+% 90 wall clock seconds gone, waiting for system output
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit acfaa1f2c on 2022-05-08 17:32:57 +0200)
+% Linked with Z3 4.8.13.0 f03d756e086f81f2596157241e0decfb1c982299 z3-4.8.4-5390-gf03d756e0
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 238588
+% Time elapsed: 22.100 s
+% ------------------------------
+% ------------------------------
+% ott-3_5_awrs=decay:awrsf=128:afr=on:afp=40000:afq=1.0:amm=off:anc=none:bce=on:cond=fast:lma=on:nm=64:newcnf=on:nwc=1.1:sas=z3:sp=frequency:updr=off_60 on SOT_BFMwOX
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit acfaa1f2c on 2022-05-08 17:32:57 +0200)
+% Linked with Z3 4.8.13.0 f03d756e086f81f2596157241e0decfb1c982299 z3-4.8.4-5390-gf03d756e0
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 31214
+% Time elapsed: 8.0000 s
+% ------------------------------
+% ------------------------------
+% ott+11_3:1_afp=4000:afq=2.0:amm=off:anc=none:fsr=off:gs=on:gsem=off:lma=on:nm=64:newcnf=on:nwc=1:updr=off_83 on SOT_BFMwOX
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit acfaa1f2c on 2022-05-08 17:32:57 +0200)
+% Linked with Z3 4.8.13.0 f03d756e086f81f2596157241e0decfb1c982299 z3-4.8.4-5390-gf03d756e0
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 212363
+% Time elapsed: 10.900 s
+% ------------------------------
+% ------------------------------
+% ott+10_3:1_afp=1000:afq=2.0:anc=none:fde=none:gs=on:gsaa=full_model:irw=on:nm=64:nwc=1:sas=z3:sac=on:updr=off_68 on SOT_BFMwOX
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit acfaa1f2c on 2022-05-08 17:32:57 +0200)
+% Linked with Z3 4.8.13.0 f03d756e086f81f2596157241e0decfb1c982299 z3-4.8.4-5390-gf03d756e0
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 84177
+% Time elapsed: 9.0000 s
+% ------------------------------
+% ------------------------------
+% dis-3_5_awrs=decay:awrsf=2:add=off:afr=on:afp=100000:afq=2.0:amm=sco:anc=none:bs=unit_only:bce=on:fsr=off:fde=none:gs=on:gsem=on:irw=on:lma=on:nm=64:nwc=1:sp=frequency:updr=off:uhcvi=on_119 on SOT_BFMwOX
+% 140 wall clock seconds gone, waiting for system output
+% Time limit reached!
+% ------------------------------
+% Version: Vampire 4.6.1 (commit acfaa1f2c on 2022-05-08 17:32:57 +0200)
+% Linked with Z3 4.8.13.0 f03d756e086f81f2596157241e0decfb1c982299 z3-4.8.4-5390-gf03d756e0
+% Termination reason: Time limit
+% Termination phase: Saturation
+
+% Memory used [KB]: 378160
+% Time elapsed: 15.600 s
+% ------------------------------
+% ------------------------------
+% lrs-11_8_afr=on:afp=100000:afq=2.0:anc=none:bd=off:cond=on:gs=on:lma=on:nm=2:newcnf=on:nwc=3:stl=30:sac=on:sp=occurrence_109 on SOT_BFMwOX
+% Refutation found. Thanks to Tanya!
+% SZS status Unsatisfiable for SOT_BFMwOX
+% SZS output start Proof for SOT_BFMwOX
+fof(f39363,plain,(
+  $false),
+  inference(avatar_sat_refutation,[],[f2046,f2164,f2186,f2286,f39231,f39245,f39260,f39362])).
+fof(f39362,plain,(
+  ~spl145_3 | ~spl145_205),
+  inference(avatar_contradiction_clause,[],[f39361])).
+fof(f39361,plain,(
+  $false | (~spl145_3 | ~spl145_205)),
+  inference(subsumption_resolution,[],[f39354,f445])).
+fof(f445,plain,(
+  sort_individual(op_infMINUS)),
+  inference(cnf_transformation,[],[f18])).
+fof(f18,axiom,(
+  sort_individual(op_infMINUS)),
+  file('/tmp/vTPpNwTcQp/SOT_BFMwOX',sign_op_infMINUS)).
+fof(f39354,plain,(
+  ~sort_individual(op_infMINUS) | (~spl145_3 | ~spl145_205)),
+  inference(resolution,[],[f39352,f903])).
+fof(f903,plain,(
+  ( ! [X37] : (~pred_before(X37,X37) | ~sort_individual(X37)) )),
+  inference(cnf_transformation,[],[f307])).
+fof(f307,plain,(
+  ! [X0,X1] : ((pred_is_occurring_at(X0,X1) &lt;=&gt; (pred_betweenEq(op_beginof(X0),X1,op_endof(X0)) & pred_activity_occurrence(X0))) | ~sort_individual(X1) | ~sort_individual(X0)) & ! [X2,X3] : ((pred_exxists_at(X2,X3) &lt;=&gt; (pred_betweenEq(op_beginof(X2),X3,op_endof(X2)) & pred_object(X2))) | ~sort_individual(X3) | ~sort_individual(X2)) & ! [X4,X5,X6] : ((pred_betweenEq(X4,X5,X6) &lt;=&gt; (pred_beforeEq(X5,X6) & pred_beforeEq(X4,X5))) | ~sort_individual(X6) | ~sort_individual(X5) | ~sort_individual(X4)) & ! [X7,X8] : ((pred_beforeEq(X7,X8) &lt;=&gt; ((X7 = X8 | pred_before(X7,X8)) & pred_timepoint(X8) & pred_timepoint(X7))) | ~sort_individual(X8) | ~sort_individual(X7)) & ! [X9,X10,X11] : ((pred_between(X9,X10,X11) &lt;=&gt; (pred_before(X10,X11) & pred_before(X9,X10))) | ~sort_individual(X11) | ~sort_individual(X10) | ~sort_individual(X9)) & ! [X18] : (pred_beforeEq(op_beginof(X18),op_endof(X18)) | (~pred_object(X18) & ~pred_activity_occurrence(X18)) | ~sort_individual(X18)) & ! [X19,X20,X21] : (X20 = X21 | ~pred_occurrence_of(X19,X21) | ~pred_occurrence_of(X19,X20) | ~sort_individual(X21) | ~sort_individual(X20) | ~sort_individual(X19)) & ! [X22] : (? [X23] : (pred_occurrence_of(X22,X23) & pred_activity(X23) & sort_individual(X23)) | ~pred_activity_occurrence(X22) | ~sort_individual(X22)) & ! [X24,X25] : ((pred_activity_occurrence(X25) & pred_activity(X24)) | ~pred_occurrence_of(X25,X24) | ~sort_individual(X25) | ~sort_individual(X24)) & ! [X26] : (((~pred_timepoint(X26) | ~pred_object(X26)) & ((~pred_timepoint(X26) & ~pred_object(X26)) | ~pred_activity_occurrence(X26)) & ((~pred_timepoint(X26) & ~pred_object(X26) & ~pred_activity_occurrence(X26)) | ~pred_activity(X26))) | ~sort_individual(X26)) & ! [X27] : (pred_object(X27) | pred_timepoint(X27) | pred_activity_occurrence(X27) | pred_activity(X27) | ~sort_individual(X27)) & ! [X28] : (? [X29] : (pred_between(X28,X29,op_infPLUS) & sort_individual(X29)) | op_infPLUS = X28 | ~pred_timepoint(X28) | ~sort_individual(X28)) & ! [X30] : (? [X31] : (pred_between(op_infMINUS,X31,X30) & sort_individual(X31)) | op_infMINUS = X30 | ~pred_timepoint(X30) | ~sort_individual(X30)) & ! [X32] : (pred_before(X32,op_infPLUS) | op_infPLUS = X32 | ~pred_timepoint(X32) | ~sort_individual(X32)) & ! [X33] : (pred_before(op_infMINUS,X33) | op_infMINUS = X33 | ~pred_timepoint(X33) | ~sort_individual(X33)) & ! [X34,X35,X36] : (pred_before(X34,X36) | ~pred_before(X35,X36) | ~pred_before(X34,X35) | ~sort_individual(X36) | ~sort_individual(X35) | ~sort_individual(X34)) & ! [X37] : (~pred_before(X37,X37) | ~sort_individual(X37)) & ! [X38,X39] : (pred_before(X39,X38) | pred_before(X38,X39) | X38 = X39 | ~pred_timepoint(X39) | ~pred_timepoint(X38) | ~sort_individual(X39) | ~sort_individual(X38)) & ! [X40,X41] : ((pred_timepoint(X41) & pred_timepoint(X40)) | ~pred_before(X40,X41) | ~sort_individual(X41) | ~sort_individual(X40))),
+  inference(flattening,[],[f306])).
+fof(f306,plain,(
+  ! [X0,X1] : ((pred_is_occurring_at(X0,X1) &lt;=&gt; (pred_betweenEq(op_beginof(X0),X1,op_endof(X0)) & pred_activity_occurrence(X0))) | (~sort_individual(X1) | ~sort_individual(X0))) & ! [X2,X3] : ((pred_exxists_at(X2,X3) &lt;=&gt; (pred_betweenEq(op_beginof(X2),X3,op_endof(X2)) & pred_object(X2))) | (~sort_individual(X3) | ~sort_individual(X2))) & ! [X4,X5,X6] : ((pred_betweenEq(X4,X5,X6) &lt;=&gt; (pred_beforeEq(X5,X6) & pred_beforeEq(X4,X5))) | (~sort_individual(X6) | ~sort_individual(X5) | ~sort_individual(X4))) & ! [X7,X8] : ((pred_beforeEq(X7,X8) &lt;=&gt; ((X7 = X8 | pred_before(X7,X8)) & pred_timepoint(X8) & pred_timepoint(X7))) | (~sort_individual(X8) | ~sort_individual(X7))) & ! [X9,X10,X11] : ((pred_between(X9,X10,X11) &lt;=&gt; (pred_before(X10,X11) & pred_before(X9,X10))) | (~sort_individual(X11) | ~sort_individual(X10) | ~sort_individual(X9))) & ! [X18] : ((pred_beforeEq(op_beginof(X18),op_endof(X18)) | (~pred_object(X18) & ~pred_activity_occurrence(X18))) | ~sort_individual(X18)) & ! [X19,X20,X21] : ((X20 = X21 | (~pred_occurrence_of(X19,X21) | ~pred_occurrence_of(X19,X20))) | (~sort_individual(X21) | ~sort_individual(X20) | ~sort_individual(X19))) & ! [X22] : ((? [X23] : (pred_occurrence_of(X22,X23) & pred_activity(X23) & sort_individual(X23)) | ~pred_activity_occurrence(X22)) | ~sort_individual(X22)) & ! [X24,X25] : (((pred_activity_occurrence(X25) & pred_activity(X24)) | ~pred_occurrence_of(X25,X24)) | (~sort_individual(X25) | ~sort_individual(X24))) & ! [X26] : (((~pred_timepoint(X26) | ~pred_object(X26)) & ((~pred_timepoint(X26) & ~pred_object(X26)) | ~pred_activity_occurrence(X26)) & ((~pred_timepoint(X26) & ~pred_object(X26) & ~pred_activity_occurrence(X26)) | ~pred_activity(X26))) | ~sort_individual(X26)) & ! [X27] : ((pred_object(X27) | pred_timepoint(X27) | pred_activity_occurrence(X27) | pred_activity(X27)) | ~sort_individual(X27)) & ! [X28] : ((? [X29] : (pred_between(X28,X29,op_infPLUS) & sort_individual(X29)) | (op_infPLUS = X28 | ~pred_timepoint(X28))) | ~sort_individual(X28)) & ! [X30] : ((? [X31] : (pred_between(op_infMINUS,X31,X30) & sort_individual(X31)) | (op_infMINUS = X30 | ~pred_timepoint(X30))) | ~sort_individual(X30)) & ! [X32] : ((pred_before(X32,op_infPLUS) | (op_infPLUS = X32 | ~pred_timepoint(X32))) | ~sort_individual(X32)) & ! [X33] : ((pred_before(op_infMINUS,X33) | (op_infMINUS = X33 | ~pred_timepoint(X33))) | ~sort_individual(X33)) & ! [X34,X35,X36] : ((pred_before(X34,X36) | (~pred_before(X35,X36) | ~pred_before(X34,X35))) | (~sort_individual(X36) | ~sort_individual(X35) | ~sort_individual(X34))) & ! [X37] : (~pred_before(X37,X37) | ~sort_individual(X37)) & ! [X38,X39] : (((pred_before(X39,X38) | pred_before(X38,X39) | X38 = X39) | (~pred_timepoint(X39) | ~pred_timepoint(X38))) | (~sort_individual(X39) | ~sort_individual(X38))) & ! [X40,X41] : (((pred_timepoint(X41) & pred_timepoint(X40)) | ~pred_before(X40,X41)) | (~sort_individual(X41) | ~sort_individual(X40)))),
+  inference(ennf_transformation,[],[f244])).
+fof(f244,plain,(
+  ! [X0,X1] : ((sort_individual(X1) & sort_individual(X0)) =&gt; (pred_is_occurring_at(X0,X1) &lt;=&gt; (pred_betweenEq(op_beginof(X0),X1,op_endof(X0)) & pred_activity_occurrence(X0)))) & ! [X2,X3] : ((sort_individual(X3) & sort_individual(X2)) =&gt; (pred_exxists_at(X2,X3) &lt;=&gt; (pred_betweenEq(op_beginof(X2),X3,op_endof(X2)) & pred_object(X2)))) & ! [X4,X5,X6] : ((sort_individual(X6) & sort_individual(X5) & sort_individual(X4)) =&gt; (pred_betweenEq(X4,X5,X6) &lt;=&gt; (pred_beforeEq(X5,X6) & pred_beforeEq(X4,X5)))) & ! [X7,X8] : ((sort_individual(X8) & sort_individual(X7)) =&gt; (pred_beforeEq(X7,X8) &lt;=&gt; ((X7 = X8 | pred_before(X7,X8)) & pred_timepoint(X8) & pred_timepoint(X7)))) & ! [X9,X10,X11] : ((sort_individual(X11) & sort_individual(X10) & sort_individual(X9)) =&gt; (pred_between(X9,X10,X11) &lt;=&gt; (pred_before(X10,X11) & pred_before(X9,X10)))) & ! [X18] : (sort_individual(X18) =&gt; ((pred_object(X18) | pred_activity_occurrence(X18)) =&gt; pred_beforeEq(op_beginof(X18),op_endof(X18)))) & ! [X19,X20,X21] : ((sort_individual(X21) & sort_individual(X20) & sort_individual(X19)) =&gt; ((pred_occurrence_of(X19,X21) & pred_occurrence_of(X19,X20)) =&gt; X20 = X21)) & ! [X22] : (sort_individual(X22) =&gt; (pred_activity_occurrence(X22) =&gt; ? [X23] : (pred_occurrence_of(X22,X23) & pred_activity(X23) & sort_individual(X23)))) & ! [X24,X25] : ((sort_individual(X25) & sort_individual(X24)) =&gt; (pred_occurrence_of(X25,X24) =&gt; (pred_activity_occurrence(X25) & pred_activity(X24)))) & ! [X26] : (sort_individual(X26) =&gt; ((pred_object(X26) =&gt; ~pred_timepoint(X26)) & (pred_activity_occurrence(X26) =&gt; ~(pred_timepoint(X26) | pred_object(X26))) & (pred_activity(X26) =&gt; ~(pred_timepoint(X26) | pred_object(X26) | pred_activity_occurrence(X26))))) & ! [X27] : (sort_individual(X27) =&gt; (pred_object(X27) | pred_timepoint(X27) | pred_activity_occurrence(X27) | pred_activity(X27))) & ! [X28] : (sort_individual(X28) =&gt; ((op_infPLUS != X28 & pred_timepoint(X28)) =&gt; ? [X29] : (pred_between(X28,X29,op_infPLUS) & sort_individual(X29)))) & ! [X30] : (sort_individual(X30) =&gt; ((op_infMINUS != X30 & pred_timepoint(X30)) =&gt; ? [X31] : (pred_between(op_infMINUS,X31,X30) & sort_individual(X31)))) & ! [X32] : (sort_individual(X32) =&gt; ((op_infPLUS != X32 & pred_timepoint(X32)) =&gt; pred_before(X32,op_infPLUS))) & ! [X33] : (sort_individual(X33) =&gt; ((op_infMINUS != X33 & pred_timepoint(X33)) =&gt; pred_before(op_infMINUS,X33))) & ! [X34,X35,X36] : ((sort_individual(X36) & sort_individual(X35) & sort_individual(X34)) =&gt; ((pred_before(X35,X36) & pred_before(X34,X35)) =&gt; pred_before(X34,X36))) & ! [X37] : (sort_individual(X37) =&gt; ~pred_before(X37,X37)) & ! [X38,X39] : ((sort_individual(X39) & sort_individual(X38)) =&gt; ((pred_timepoint(X39) & pred_timepoint(X38)) =&gt; (pred_before(X39,X38) | pred_before(X38,X39) | X38 = X39))) & ! [X40,X41] : ((sort_individual(X41) & sort_individual(X40)) =&gt; (pred_before(X40,X41) =&gt; (pred_timepoint(X41) & pred_timepoint(X40))))),
+  inference(pure_predicate_removal,[],[f159])).
+fof(f159,plain,(
+  ! [X0,X1] : ((sort_individual(X1) & sort_individual(X0)) =&gt; (pred_is_occurring_at(X0,X1) &lt;=&gt; (pred_betweenEq(op_beginof(X0),X1,op_endof(X0)) & pred_activity_occurrence(X0)))) & ! [X2,X3] : ((sort_individual(X3) & sort_individual(X2)) =&gt; (pred_exxists_at(X2,X3) &lt;=&gt; (pred_betweenEq(op_beginof(X2),X3,op_endof(X2)) & pred_object(X2)))) & ! [X4,X5,X6] : ((sort_individual(X6) & sort_individual(X5) & sort_individual(X4)) =&gt; (pred_betweenEq(X4,X5,X6) &lt;=&gt; (pred_beforeEq(X5,X6) & pred_beforeEq(X4,X5)))) & ! [X7,X8] : ((sort_individual(X8) & sort_individual(X7)) =&gt; (pred_beforeEq(X7,X8) &lt;=&gt; ((X7 = X8 | pred_before(X7,X8)) & pred_timepoint(X8) & pred_timepoint(X7)))) & ! [X9,X10,X11] : ((sort_individual(X11) & sort_individual(X10) & sort_individual(X9)) =&gt; (pred_between(X9,X10,X11) &lt;=&gt; (pred_before(X10,X11) & pred_before(X9,X10)))) & ! [X12,X13,X14] : ((sort_individual(X14) & sort_individual(X13) & sort_individual(X12)) =&gt; (pred_participates_in(X12,X13,X14) =&gt; (pred_is_occurring_at(X13,X14) & pred_exxists_at(X12,X14)))) & ! [X15,X16,X17] : ((sort_individual(X17) & sort_individual(X16) & sort_individual(X15)) =&gt; (pred_participates_in(X15,X16,X17) =&gt; (pred_timepoint(X17) & pred_activity_occurrence(X16) & pred_object(X15)))) & ! [X18] : (sort_individual(X18) =&gt; ((pred_object(X18) | pred_activity_occurrence(X18)) =&gt; pred_beforeEq(op_beginof(X18),op_endof(X18)))) & ! [X19,X20,X21] : ((sort_individual(X21) & sort_individual(X20) & sort_individual(X19)) =&gt; ((pred_occurrence_of(X19,X21) & pred_occurrence_of(X19,X20)) =&gt; X20 = X21)) & ! [X22] : (sort_individual(X22) =&gt; (pred_activity_occurrence(X22) =&gt; ? [X23] : (pred_occurrence_of(X22,X23) & pred_activity(X23) & sort_individual(X23)))) & ! [X24,X25] : ((sort_individual(X25) & sort_individual(X24)) =&gt; (pred_occurrence_of(X25,X24) =&gt; (pred_activity_occurrence(X25) & pred_activity(X24)))) & ! [X26] : (sort_individual(X26) =&gt; ((pred_object(X26) =&gt; ~pred_timepoint(X26)) & (pred_activity_occurrence(X26) =&gt; ~(pred_timepoint(X26) | pred_object(X26))) & (pred_activity(X26) =&gt; ~(pred_timepoint(X26) | pred_object(X26) | pred_activity_occurrence(X26))))) & ! [X27] : (sort_individual(X27) =&gt; (pred_object(X27) | pred_timepoint(X27) | pred_activity_occurrence(X27) | pred_activity(X27))) & ! [X28] : (sort_individual(X28) =&gt; ((op_infPLUS != X28 & pred_timepoint(X28)) =&gt; ? [X29] : (pred_between(X28,X29,op_infPLUS) & sort_individual(X29)))) & ! [X30] : (sort_individual(X30) =&gt; ((op_infMINUS != X30 & pred_timepoint(X30)) =&gt; ? [X31] : (pred_between(op_infMINUS,X31,X30) & sort_individual(X31)))) & ! [X32] : (sort_individual(X32) =&gt; ((op_infPLUS != X32 & pred_timepoint(X32)) =&gt; pred_before(X32,op_infPLUS))) & ! [X33] : (sort_individual(X33) =&gt; ((op_infMINUS != X33 & pred_timepoint(X33)) =&gt; pred_before(op_infMINUS,X33))) & ! [X34,X35,X36] : ((sort_individual(X36) & sort_individual(X35) & sort_individual(X34)) =&gt; ((pred_before(X35,X36) & pred_before(X34,X35)) =&gt; pred_before(X34,X36))) & ! [X37] : (sort_individual(X37) =&gt; ~pred_before(X37,X37)) & ! [X38,X39] : ((sort_individual(X39) & sort_individual(X38)) =&gt; ((pred_timepoint(X39) & pred_timepoint(X38)) =&gt; (pred_before(X39,X38) | pred_before(X38,X39) | X38 = X39))) & ! [X40,X41] : ((sort_individual(X41) & sort_individual(X40)) =&gt; (pred_before(X40,X41) =&gt; (pred_timepoint(X41) & pred_timepoint(X40))))),
+  inference(rectify,[],[f49])).
+fof(f49,axiom,(
+  ! [X4,X18] : ((sort_individual(X18) & sort_individual(X4)) =&gt; (pred_is_occurring_at(X4,X18) &lt;=&gt; (pred_betweenEq(op_beginof(X4),X18,op_endof(X4)) & pred_activity_occurrence(X4)))) & ! [X20,X18] : ((sort_individual(X18) & sort_individual(X20)) =&gt; (pred_exxists_at(X20,X18) &lt;=&gt; (pred_betweenEq(op_beginof(X20),X18,op_endof(X20)) & pred_object(X20)))) & ! [X15,X16,X17] : ((sort_individual(X17) & sort_individual(X16) & sort_individual(X15)) =&gt; (pred_betweenEq(X15,X16,X17) &lt;=&gt; (pred_beforeEq(X16,X17) & pred_beforeEq(X15,X16)))) & ! [X15,X16] : ((sort_individual(X16) & sort_individual(X15)) =&gt; (pred_beforeEq(X15,X16) &lt;=&gt; ((X15 = X16 | pred_before(X15,X16)) & pred_timepoint(X16) & pred_timepoint(X15)))) & ! [X15,X16,X17] : ((sort_individual(X17) & sort_individual(X16) & sort_individual(X15)) =&gt; (pred_between(X15,X16,X17) &lt;=&gt; (pred_before(X16,X17) & pred_before(X15,X16)))) & ! [X20,X4,X18] : ((sort_individual(X18) & sort_individual(X4) & sort_individual(X20)) =&gt; (pred_participates_in(X20,X4,X18) =&gt; (pred_is_occurring_at(X4,X18) & pred_exxists_at(X20,X18)))) & ! [X20,X4,X18] : ((sort_individual(X18) & sort_individual(X4) & sort_individual(X20)) =&gt; (pred_participates_in(X20,X4,X18) =&gt; (pred_timepoint(X18) & pred_activity_occurrence(X4) & pred_object(X20)))) & ! [X20] : (sort_individual(X20) =&gt; ((pred_object(X20) | pred_activity_occurrence(X20)) =&gt; pred_beforeEq(op_beginof(X20),op_endof(X20)))) & ! [X4,X21,X22] : ((sort_individual(X22) & sort_individual(X21) & sort_individual(X4)) =&gt; ((pred_occurrence_of(X4,X22) & pred_occurrence_of(X4,X21)) =&gt; X21 = X22)) & ! [X4] : (sort_individual(X4) =&gt; (pred_activity_occurrence(X4) =&gt; ? [X7] : (pred_occurrence_of(X4,X7) & pred_activity(X7) & sort_individual(X7)))) & ! [X7,X4] : ((sort_individual(X4) & sort_individual(X7)) =&gt; (pred_occurrence_of(X4,X7) =&gt; (pred_activity_occurrence(X4) & pred_activity(X7)))) & ! [X20] : (sort_individual(X20) =&gt; ((pred_object(X20) =&gt; ~pred_timepoint(X20)) & (pred_activity_occurrence(X20) =&gt; ~(pred_timepoint(X20) | pred_object(X20))) & (pred_activity(X20) =&gt; ~(pred_timepoint(X20) | pred_object(X20) | pred_activity_occurrence(X20))))) & ! [X20] : (sort_individual(X20) =&gt; (pred_object(X20) | pred_timepoint(X20) | pred_activity_occurrence(X20) | pred_activity(X20))) & ! [X18] : (sort_individual(X18) =&gt; ((op_infPLUS != X18 & pred_timepoint(X18)) =&gt; ? [X19] : (pred_between(X18,X19,op_infPLUS) & sort_individual(X19)))) & ! [X18] : (sort_individual(X18) =&gt; ((op_infMINUS != X18 & pred_timepoint(X18)) =&gt; ? [X19] : (pred_between(op_infMINUS,X19,X18) & sort_individual(X19)))) & ! [X18] : (sort_individual(X18) =&gt; ((op_infPLUS != X18 & pred_timepoint(X18)) =&gt; pred_before(X18,op_infPLUS))) & ! [X18] : (sort_individual(X18) =&gt; ((op_infMINUS != X18 & pred_timepoint(X18)) =&gt; pred_before(op_infMINUS,X18))) & ! [X15,X16,X17] : ((sort_individual(X17) & sort_individual(X16) & sort_individual(X15)) =&gt; ((pred_before(X16,X17) & pred_before(X15,X16)) =&gt; pred_before(X15,X17))) & ! [X15] : (sort_individual(X15) =&gt; ~pred_before(X15,X15)) & ! [X15,X16] : ((sort_individual(X16) & sort_individual(X15)) =&gt; ((pred_timepoint(X16) & pred_timepoint(X15)) =&gt; (pred_before(X16,X15) | pred_before(X15,X16) | X15 = X16))) & ! [X15,X16] : ((sort_individual(X16) & sort_individual(X15)) =&gt; (pred_before(X15,X16) =&gt; (pred_timepoint(X16) & pred_timepoint(X15))))),
+  file('/tmp/vTPpNwTcQp/SOT_BFMwOX',ax_httpsU3aSLASHSLASHrawU2egithubusercontentU2ecomSLASHmereologSLASHcomputational_ontologiesSLASHmainSLASHtupperSLASHpsl_coreSLASHpsl_coreU2eclif)).
+fof(f39352,plain,(
+  pred_before(op_infMINUS,op_infMINUS) | (~spl145_3 | ~spl145_205)),
+  inference(subsumption_resolution,[],[f39351,f445])).
+fof(f39351,plain,(
+  pred_before(op_infMINUS,op_infMINUS) | ~sort_individual(op_infMINUS) | (~spl145_3 | ~spl145_205)),
+  inference(subsumption_resolution,[],[f39342,f2182])).
+fof(f2182,plain,(
+  pred_timepoint(op_infMINUS) | ~spl145_3),
+  inference(avatar_component_clause,[],[f2180])).
+fof(f2180,plain,(
+  spl145_3 &lt;=&gt; pred_timepoint(op_infMINUS)),
+  introduced(avatar_definition,[new_symbols(naming,[spl145_3])])).
+fof(f39342,plain,(
+  pred_before(op_infMINUS,op_infMINUS) | ~pred_timepoint(op_infMINUS) | ~sort_individual(op_infMINUS) | ~spl145_205),
+  inference(superposition,[],[f1248,f39222])).
+fof(f39222,plain,(
+  op_infMINUS = sK127(op_infMINUS) | ~spl145_205),
+  inference(avatar_component_clause,[],[f39220])).
+fof(f39220,plain,(
+  spl145_205 &lt;=&gt; op_infMINUS = sK127(op_infMINUS)),
+  introduced(avatar_definition,[new_symbols(naming,[spl145_205])])).
+fof(f1248,plain,(
+  ( ! [X0] : (pred_before(sK127(X0),X0) | ~pred_timepoint(X0) | ~sort_individual(X0)) )),
+  inference(cnf_transformation,[],[f353])).
+fof(f353,plain,(
+  ! [X0] : (? [X1] : (pred_before(X1,X0) & pred_timepoint(X1) & sort_individual(X1)) | ~pred_timepoint(X0) | ~sort_individual(X0))),
+  inference(flattening,[],[f352])).
+fof(f352,plain,(
+  ! [X0] : ((? [X1] : (pred_before(X1,X0) & pred_timepoint(X1) & sort_individual(X1)) | ~pred_timepoint(X0)) | ~sort_individual(X0))),
+  inference(ennf_transformation,[],[f186])).
+fof(f186,plain,(
+  ! [X0] : (sort_individual(X0) =&gt; (pred_timepoint(X0) =&gt; ? [X1] : (pred_before(X1,X0) & pred_timepoint(X1) & sort_individual(X1))))),
+  inference(rectify,[],[f117])).
+fof(f117,axiom,(
+  ! [X20] : (sort_individual(X20) =&gt; (pred_timepoint(X20) =&gt; ? [X32] : (pred_before(X32,X20) & pred_timepoint(X32) & sort_individual(X32))))),
+  file('/tmp/vTPpNwTcQp/SOT_BFMwOX',ax_httpsU3aSLASHSLASHrawU2egithubusercontentU2ecomSLASHmereologSLASHcomputational_ontologiesSLASHmainSLASHtupperSLASHtimepointsSLASHlp_infinite_pastU2eclif)).
+fof(f39260,plain,(
+  ~spl145_3 | spl145_207),
+  inference(avatar_contradiction_clause,[],[f39259])).
+fof(f39259,plain,(
+  $false | (~spl145_3 | spl145_207)),
+  inference(subsumption_resolution,[],[f39258,f445])).
+fof(f39258,plain,(
+  ~sort_individual(op_infMINUS) | (~spl145_3 | spl145_207)),
+  inference(subsumption_resolution,[],[f39255,f2182])).
+fof(f39255,plain,(
+  ~pred_timepoint(op_infMINUS) | ~sort_individual(op_infMINUS) | spl145_207),
+  inference(resolution,[],[f39230,f1246])).
+fof(f1246,plain,(
+  ( ! [X0] : (sort_individual(sK127(X0)) | ~pred_timepoint(X0) | ~sort_individual(X0)) )),
+  inference(cnf_transformation,[],[f353])).
+fof(f39230,plain,(
+  ~sort_individual(sK127(op_infMINUS)) | spl145_207),
+  inference(avatar_component_clause,[],[f39228])).
+fof(f39228,plain,(
+  spl145_207 &lt;=&gt; sort_individual(sK127(op_infMINUS))),
+  introduced(avatar_definition,[new_symbols(naming,[spl145_207])])).
+fof(f39245,plain,(
+  ~spl145_3 | spl145_206),
+  inference(avatar_contradiction_clause,[],[f39244])).
+fof(f39244,plain,(
+  $false | (~spl145_3 | spl145_206)),
+  inference(subsumption_resolution,[],[f39243,f445])).
+fof(f39243,plain,(
+  ~sort_individual(op_infMINUS) | (~spl145_3 | spl145_206)),
+  inference(subsumption_resolution,[],[f39242,f2182])).
+fof(f39242,plain,(
+  ~pred_timepoint(op_infMINUS) | ~sort_individual(op_infMINUS) | spl145_206),
+  inference(resolution,[],[f39226,f1247])).
+fof(f1247,plain,(
+  ( ! [X0] : (pred_timepoint(sK127(X0)) | ~pred_timepoint(X0) | ~sort_individual(X0)) )),
+  inference(cnf_transformation,[],[f353])).
+fof(f39226,plain,(
+  ~pred_timepoint(sK127(op_infMINUS)) | spl145_206),
+  inference(avatar_component_clause,[],[f39224])).
+fof(f39224,plain,(
+  spl145_206 &lt;=&gt; pred_timepoint(sK127(op_infMINUS))),
+  introduced(avatar_definition,[new_symbols(naming,[spl145_206])])).
+fof(f39231,plain,(
+  spl145_205 | ~spl145_206 | ~spl145_207),
+  inference(avatar_split_clause,[],[f22906,f39228,f39224,f39220])).
+fof(f22906,plain,(
+  ~sort_individual(sK127(op_infMINUS)) | ~pred_timepoint(sK127(op_infMINUS)) | op_infMINUS = sK127(op_infMINUS)),
+  inference(subsumption_resolution,[],[f22899,f445])).
+fof(f22899,plain,(
+  ~sort_individual(op_infMINUS) | ~sort_individual(sK127(op_infMINUS)) | ~pred_timepoint(sK127(op_infMINUS)) | op_infMINUS = sK127(op_infMINUS)),
+  inference(duplicate_literal_removal,[],[f22898])).
+fof(f22898,plain,(
+  ~sort_individual(op_infMINUS) | ~sort_individual(sK127(op_infMINUS)) | ~pred_timepoint(sK127(op_infMINUS)) | op_infMINUS = sK127(op_infMINUS) | ~sort_individual(sK127(op_infMINUS))),
+  inference(resolution,[],[f22893,f901])).
+fof(f901,plain,(
+  ( ! [X33] : (pred_before(op_infMINUS,X33) | ~pred_timepoint(X33) | op_infMINUS = X33 | ~sort_individual(X33)) )),
+  inference(cnf_transformation,[],[f307])).
+fof(f22893,plain,(
+  ( ! [X14] : (~pred_before(X14,sK127(X14)) | ~sort_individual(X14) | ~sort_individual(sK127(X14))) )),
+  inference(subsumption_resolution,[],[f22880,f896])).
+fof(f896,plain,(
+  ( ! [X40,X41] : (~pred_before(X40,X41) | ~sort_individual(X41) | ~sort_individual(X40) | pred_timepoint(X40)) )),
+  inference(cnf_transformation,[],[f307])).
+fof(f22880,plain,(
+  ( ! [X14] : (~pred_before(X14,sK127(X14)) | ~sort_individual(X14) | ~sort_individual(sK127(X14)) | ~pred_timepoint(X14)) )),
+  inference(duplicate_literal_removal,[],[f22861])).
+fof(f22861,plain,(
+  ( ! [X14] : (~pred_before(X14,sK127(X14)) | ~sort_individual(X14) | ~sort_individual(sK127(X14)) | ~pred_timepoint(X14) | ~sort_individual(X14)) )),
+  inference(resolution,[],[f14453,f1248])).
+fof(f14453,plain,(
+  ( ! [X0,X1] : (~pred_before(X1,X0) | ~pred_before(X0,X1) | ~sort_individual(X0) | ~sort_individual(X1)) )),
+  inference(duplicate_literal_removal,[],[f14448])).
+fof(f14448,plain,(
+  ( ! [X0,X1] : (~sort_individual(X0) | ~sort_individual(X1) | ~pred_before(X1,X0) | ~pred_before(X0,X1) | ~sort_individual(X1) | ~sort_individual(X1)) )),
+  inference(resolution,[],[f902,f903])).
+fof(f902,plain,(
+  ( ! [X36,X34,X35] : (pred_before(X34,X36) | ~sort_individual(X35) | ~sort_individual(X36) | ~pred_before(X34,X35) | ~pred_before(X35,X36) | ~sort_individual(X34)) )),
+  inference(cnf_transformation,[],[f307])).
+fof(f2286,plain,(
+  ~spl145_1 | ~spl145_4),
+  inference(avatar_contradiction_clause,[],[f2285])).
+fof(f2285,plain,(
+  $false | (~spl145_1 | ~spl145_4)),
+  inference(subsumption_resolution,[],[f2280,f444])).
+fof(f444,plain,(
+  sort_individual(op_infPLUS)),
+  inference(cnf_transformation,[],[f17])).
+fof(f17,axiom,(
+  sort_individual(op_infPLUS)),
+  file('/tmp/vTPpNwTcQp/SOT_BFMwOX',sign_op_infPLUS)).
+fof(f2280,plain,(
+  ~sort_individual(op_infPLUS) | (~spl145_1 | ~spl145_4)),
+  inference(resolution,[],[f2279,f903])).
+fof(f2279,plain,(
+  pred_before(op_infPLUS,op_infPLUS) | (~spl145_1 | ~spl145_4)),
+  inference(subsumption_resolution,[],[f2278,f444])).
+fof(f2278,plain,(
+  pred_before(op_infPLUS,op_infPLUS) | ~sort_individual(op_infPLUS) | (~spl145_1 | ~spl145_4)),
+  inference(subsumption_resolution,[],[f2272,f2042])).
+fof(f2042,plain,(
+  pred_timepoint(op_infPLUS) | ~spl145_1),
+  inference(avatar_component_clause,[],[f2040])).
+fof(f2040,plain,(
+  spl145_1 &lt;=&gt; pred_timepoint(op_infPLUS)),
+  introduced(avatar_definition,[new_symbols(naming,[spl145_1])])).
+fof(f2272,plain,(
+  pred_before(op_infPLUS,op_infPLUS) | ~pred_timepoint(op_infPLUS) | ~sort_individual(op_infPLUS) | (~spl145_1 | ~spl145_4)),
+  inference(superposition,[],[f1248,f2265])).
+fof(f2265,plain,(
+  op_infPLUS = sK127(op_infPLUS) | (~spl145_1 | ~spl145_4)),
+  inference(subsumption_resolution,[],[f2256,f444])).
+fof(f2256,plain,(
+  op_infPLUS = sK127(op_infPLUS) | ~sort_individual(op_infPLUS) | (~spl145_1 | ~spl145_4)),
+  inference(resolution,[],[f2206,f2042])).
+fof(f2206,plain,(
+  ( ! [X6] : (~pred_timepoint(X6) | op_infPLUS = sK127(X6) | ~sort_individual(X6)) ) | (~spl145_1 | ~spl145_4)),
+  inference(forward_demodulation,[],[f2205,f2200])).
+fof(f2200,plain,(
+  op_infPLUS = op_infMINUS | (~spl145_1 | ~spl145_4)),
+  inference(subsumption_resolution,[],[f2191,f444])).
+fof(f2191,plain,(
+  ~sort_individual(op_infPLUS) | op_infPLUS = op_infMINUS | (~spl145_1 | ~spl145_4)),
+  inference(resolution,[],[f2185,f2042])).
+fof(f2185,plain,(
+  ( ! [X1] : (~pred_timepoint(X1) | ~sort_individual(X1) | op_infMINUS = X1) ) | ~spl145_4),
+  inference(avatar_component_clause,[],[f2184])).
+fof(f2184,plain,(
+  spl145_4 &lt;=&gt; ! [X1] : (~pred_timepoint(X1) | ~sort_individual(X1) | op_infMINUS = X1)),
+  introduced(avatar_definition,[new_symbols(naming,[spl145_4])])).
+fof(f2205,plain,(
+  ( ! [X6] : (op_infMINUS = sK127(X6) | ~pred_timepoint(X6) | ~sort_individual(X6)) ) | ~spl145_4),
+  inference(subsumption_resolution,[],[f2194,f1246])).
+fof(f2194,plain,(
+  ( ! [X6] : (~sort_individual(sK127(X6)) | op_infMINUS = sK127(X6) | ~pred_timepoint(X6) | ~sort_individual(X6)) ) | ~spl145_4),
+  inference(resolution,[],[f2185,f1247])).
+fof(f2186,plain,(
+  spl145_3 | spl145_4),
+  inference(avatar_split_clause,[],[f2081,f2184,f2180])).
+fof(f2081,plain,(
+  ( ! [X1] : (~pred_timepoint(X1) | op_infMINUS = X1 | ~sort_individual(X1) | pred_timepoint(op_infMINUS)) )),
+  inference(subsumption_resolution,[],[f2078,f445])).
+fof(f2078,plain,(
+  ( ! [X1] : (~pred_timepoint(X1) | op_infMINUS = X1 | ~sort_individual(X1) | ~sort_individual(op_infMINUS) | pred_timepoint(op_infMINUS)) )),
+  inference(duplicate_literal_removal,[],[f2077])).
+fof(f2077,plain,(
+  ( ! [X1] : (~pred_timepoint(X1) | op_infMINUS = X1 | ~sort_individual(X1) | ~sort_individual(X1) | ~sort_individual(op_infMINUS) | pred_timepoint(op_infMINUS)) )),
+  inference(resolution,[],[f901,f896])).
+fof(f2164,plain,(
+  ~spl145_2),
+  inference(avatar_contradiction_clause,[],[f2163])).
+fof(f2163,plain,(
+  $false | ~spl145_2),
+  inference(subsumption_resolution,[],[f2158,f444])).
+fof(f2158,plain,(
+  ~sort_individual(op_infPLUS) | ~spl145_2),
+  inference(resolution,[],[f2157,f903])).
+fof(f2157,plain,(
+  pred_before(op_infPLUS,op_infPLUS) | ~spl145_2),
+  inference(subsumption_resolution,[],[f2156,f444])).
+fof(f2156,plain,(
+  pred_before(op_infPLUS,op_infPLUS) | ~sort_individual(op_infPLUS) | ~spl145_2),
+  inference(subsumption_resolution,[],[f2150,f2094])).
+fof(f2094,plain,(
+  pred_timepoint(op_infPLUS) | ~spl145_2),
+  inference(subsumption_resolution,[],[f2093,f443])).
+fof(f443,plain,(
+  sort_individual(op_zero_duration)),
+  inference(cnf_transformation,[],[f42])).
+fof(f42,axiom,(
+  sort_individual(op_zero_duration)),
+  file('/tmp/vTPpNwTcQp/SOT_BFMwOX',sign_op_zero_duration)).
+fof(f2093,plain,(
+  pred_timepoint(op_infPLUS) | ~sort_individual(op_zero_duration) | ~spl145_2),
+  inference(subsumption_resolution,[],[f2087,f1194])).
+fof(f1194,plain,(
+  pred_timeduration(op_zero_duration)),
+  inference(cnf_transformation,[],[f339])).
+fof(f339,plain,(
+  ! [X0,X1,X2] : (op_mult_duration(X2,X0) = op_mult_duration(X2,X1) | X0 != X1 | ~pred_field(X2) | ~pred_timeduration(X1) | ~pred_timeduration(X0) | ~sort_individual(X2) | ~sort_individual(X1) | ~sort_individual(X0)) & ! [X3,X4,X5] : (pred_lesser_duration(op_mult_duration(X5,X3),op_mult_duration(X5,X4)) | ~pred_lesser_duration(X3,X4) | ~pred_field(X5) | ~pred_timeduration(X4) | ~pred_timeduration(X3) | ~sort_individual(X5) | ~sort_individual(X4) | ~sort_individual(X3)) & ! [X6,X7,X8] : (op_add_duration(X7,X8) = op_add_duration(X6,X8) | X6 != X7 | ~pred_timeduration(X8) | ~pred_timeduration(X7) | ~pred_timeduration(X6) | ~sort_individual(X8) | ~sort_individual(X7) | ~sort_individual(X6)) & ! [X9,X10,X11] : (pred_lesser_duration(op_add_duration(X9,X11),op_add_duration(X10,X11)) | ~pred_lesser_duration(X9,X10) | ~pred_timeduration(X11) | ~pred_timeduration(X10) | ~pred_timeduration(X9) | ~sort_individual(X11) | ~sort_individual(X10) | ~sort_individual(X9)) & ! [X12] : (op_mult_duration(op_one,X12) = X12 | ~pred_timeduration(X12) | ~sort_individual(X12)) & ! [X13,X14,X15] : (op_mult_duration(op_prod(X14,X15),X13) = op_mult_duration(X14,op_mult_duration(X15,X13)) | ~pred_field(X15) | ~pred_field(X14) | ~pred_timeduration(X13) | ~sort_individual(X15) | ~sort_individual(X14) | ~sort_individual(X13)) & ! [X16,X17,X18] : (op_mult_duration(op_sum(X17,X18),X16) = op_add_duration(op_mult_duration(X17,X16),op_mult_duration(X18,X16)) | ~pred_field(X18) | ~pred_field(X17) | ~pred_timeduration(X16) | ~sort_individual(X18) | ~sort_individual(X17) | ~sort_individual(X16)) & ! [X19,X20,X21] : (op_mult_duration(X21,op_add_duration(X19,X20)) = op_add_duration(op_mult_duration(X21,X19),op_mult_duration(X21,X20)) | ~pred_field(X21) | ~pred_timeduration(X20) | ~pred_timeduration(X19) | ~sort_individual(X21) | ~sort_individual(X20) | ~sort_individual(X19)) & ! [X22,X23] : (pred_timeduration(op_mult_duration(X23,X22)) | ~pred_field(X23) | ~pred_timeduration(X22) | ~sort_individual(X23) | ~sort_individual(X22)) & ! [X24,X25] : (op_add_duration(X24,X25) = op_add_duration(X25,X24) | ~pred_timeduration(X25) | ~pred_timeduration(X24) | ~sort_individual(X25) | ~sort_individual(X24)) & ! [X26] : (? [X27] : (op_zero_duration = op_add_duration(X26,X27) & pred_timeduration(X27) & sort_individual(X27)) | ~pred_timeduration(X26) | ~sort_individual(X26)) & ! [X28] : (op_add_duration(X28,op_zero_duration) = X28 | ~pred_timeduration(X28) | ~sort_individual(X28)) & ! [X29,X30,X31] : (op_add_duration(op_add_duration(X29,X30),X31) = op_add_duration(X29,op_add_duration(X30,X31)) | ~pred_timeduration(X31) | ~pred_timeduration(X30) | ~pred_timeduration(X29) | ~sort_individual(X31) | ~sort_individual(X30) | ~sort_individual(X29)) & ! [X32,X33] : (pred_timeduration(op_add_duration(X32,X33)) | ~pred_timeduration(X33) | ~pred_timeduration(X32) | ~sort_individual(X33) | ~sort_individual(X32)) & pred_timeduration(op_zero_duration) & ? [X34] : (pred_field(X34) & sort_individual(X34)) & $true),
+  inference(flattening,[],[f338])).
+fof(f338,plain,(
+  ! [X0,X1,X2] : (((op_mult_duration(X2,X0) = op_mult_duration(X2,X1) | X0 != X1) | (~pred_field(X2) | ~pred_timeduration(X1) | ~pred_timeduration(X0))) | (~sort_individual(X2) | ~sort_individual(X1) | ~sort_individual(X0))) & ! [X3,X4,X5] : (((pred_lesser_duration(op_mult_duration(X5,X3),op_mult_duration(X5,X4)) | ~pred_lesser_duration(X3,X4)) | (~pred_field(X5) | ~pred_timeduration(X4) | ~pred_timeduration(X3))) | (~sort_individual(X5) | ~sort_individual(X4) | ~sort_individual(X3))) & ! [X6,X7,X8] : (((op_add_duration(X7,X8) = op_add_duration(X6,X8) | X6 != X7) | (~pred_timeduration(X8) | ~pred_timeduration(X7) | ~pred_timeduration(X6))) | (~sort_individual(X8) | ~sort_individual(X7) | ~sort_individual(X6))) & ! [X9,X10,X11] : (((pred_lesser_duration(op_add_duration(X9,X11),op_add_duration(X10,X11)) | ~pred_lesser_duration(X9,X10)) | (~pred_timeduration(X11) | ~pred_timeduration(X10) | ~pred_timeduration(X9))) | (~sort_individual(X11) | ~sort_individual(X10) | ~sort_individual(X9))) & ! [X12] : ((op_mult_duration(op_one,X12) = X12 | ~pred_timeduration(X12)) | ~sort_individual(X12)) & ! [X13,X14,X15] : ((op_mult_duration(op_prod(X14,X15),X13) = op_mult_duration(X14,op_mult_duration(X15,X13)) | (~pred_field(X15) | ~pred_field(X14) | ~pred_timeduration(X13))) | (~sort_individual(X15) | ~sort_individual(X14) | ~sort_individual(X13))) & ! [X16,X17,X18] : ((op_mult_duration(op_sum(X17,X18),X16) = op_add_duration(op_mult_duration(X17,X16),op_mult_duration(X18,X16)) | (~pred_field(X18) | ~pred_field(X17) | ~pred_timeduration(X16))) | (~sort_individual(X18) | ~sort_individual(X17) | ~sort_individual(X16))) & ! [X19,X20,X21] : ((op_mult_duration(X21,op_add_duration(X19,X20)) = op_add_duration(op_mult_duration(X21,X19),op_mult_duration(X21,X20)) | (~pred_field(X21) | ~pred_timeduration(X20) | ~pred_timeduration(X19))) | (~sort_individual(X21) | ~sort_individual(X20) | ~sort_individual(X19))) & ! [X22,X23] : ((pred_timeduration(op_mult_duration(X23,X22)) | (~pred_field(X23) | ~pred_timeduration(X22))) | (~sort_individual(X23) | ~sort_individual(X22))) & ! [X24,X25] : ((op_add_duration(X24,X25) = op_add_duration(X25,X24) | (~pred_timeduration(X25) | ~pred_timeduration(X24))) | (~sort_individual(X25) | ~sort_individual(X24))) & ! [X26] : ((? [X27] : (op_zero_duration = op_add_duration(X26,X27) & pred_timeduration(X27) & sort_individual(X27)) | ~pred_timeduration(X26)) | ~sort_individual(X26)) & ! [X28] : ((op_add_duration(X28,op_zero_duration) = X28 | ~pred_timeduration(X28)) | ~sort_individual(X28)) & ! [X29,X30,X31] : ((op_add_duration(op_add_duration(X29,X30),X31) = op_add_duration(X29,op_add_duration(X30,X31)) | (~pred_timeduration(X31) | ~pred_timeduration(X30) | ~pred_timeduration(X29))) | (~sort_individual(X31) | ~sort_individual(X30) | ~sort_individual(X29))) & ! [X32,X33] : ((pred_timeduration(op_add_duration(X32,X33)) | (~pred_timeduration(X33) | ~pred_timeduration(X32))) | (~sort_individual(X33) | ~sort_individual(X32))) & pred_timeduration(op_zero_duration) & ? [X34] : (pred_field(X34) & sort_individual(X34)) & $true),
+  inference(ennf_transformation,[],[f175])).
+fof(f175,plain,(
+  ! [X0,X1,X2] : ((sort_individual(X2) & sort_individual(X1) & sort_individual(X0)) =&gt; ((pred_field(X2) & pred_timeduration(X1) & pred_timeduration(X0)) =&gt; (X0 = X1 =&gt; op_mult_duration(X2,X0) = op_mult_duration(X2,X1)))) & ! [X3,X4,X5] : ((sort_individual(X5) & sort_individual(X4) & sort_individual(X3)) =&gt; ((pred_field(X5) & pred_timeduration(X4) & pred_timeduration(X3)) =&gt; (pred_lesser_duration(X3,X4) =&gt; pred_lesser_duration(op_mult_duration(X5,X3),op_mult_duration(X5,X4))))) & ! [X6,X7,X8] : ((sort_individual(X8) & sort_individual(X7) & sort_individual(X6)) =&gt; ((pred_timeduration(X8) & pred_timeduration(X7) & pred_timeduration(X6)) =&gt; (X6 = X7 =&gt; op_add_duration(X7,X8) = op_add_duration(X6,X8)))) & ! [X9,X10,X11] : ((sort_individual(X11) & sort_individual(X10) & sort_individual(X9)) =&gt; ((pred_timeduration(X11) & pred_timeduration(X10) & pred_timeduration(X9)) =&gt; (pred_lesser_duration(X9,X10) =&gt; pred_lesser_duration(op_add_duration(X9,X11),op_add_duration(X10,X11))))) & ! [X12] : (sort_individual(X12) =&gt; (pred_timeduration(X12) =&gt; op_mult_duration(op_one,X12) = X12)) & ! [X13,X14,X15] : ((sort_individual(X15) & sort_individual(X14) & sort_individual(X13)) =&gt; ((pred_field(X15) & pred_field(X14) & pred_timeduration(X13)) =&gt; op_mult_duration(op_prod(X14,X15),X13) = op_mult_duration(X14,op_mult_duration(X15,X13)))) & ! [X16,X17,X18] : ((sort_individual(X18) & sort_individual(X17) & sort_individual(X16)) =&gt; ((pred_field(X18) & pred_field(X17) & pred_timeduration(X16)) =&gt; op_mult_duration(op_sum(X17,X18),X16) = op_add_duration(op_mult_duration(X17,X16),op_mult_duration(X18,X16)))) & ! [X19,X20,X21] : ((sort_individual(X21) & sort_individual(X20) & sort_individual(X19)) =&gt; ((pred_field(X21) & pred_timeduration(X20) & pred_timeduration(X19)) =&gt; op_mult_duration(X21,op_add_duration(X19,X20)) = op_add_duration(op_mult_duration(X21,X19),op_mult_duration(X21,X20)))) & ! [X22,X23] : ((sort_individual(X23) & sort_individual(X22)) =&gt; ((pred_field(X23) & pred_timeduration(X22)) =&gt; pred_timeduration(op_mult_duration(X23,X22)))) & ! [X24,X25] : ((sort_individual(X25) & sort_individual(X24)) =&gt; ((pred_timeduration(X25) & pred_timeduration(X24)) =&gt; op_add_duration(X24,X25) = op_add_duration(X25,X24))) & ! [X26] : (sort_individual(X26) =&gt; (pred_timeduration(X26) =&gt; ? [X27] : (op_zero_duration = op_add_duration(X26,X27) & pred_timeduration(X27) & sort_individual(X27)))) & ! [X28] : (sort_individual(X28) =&gt; (pred_timeduration(X28) =&gt; op_add_duration(X28,op_zero_duration) = X28)) & ! [X29,X30,X31] : ((sort_individual(X31) & sort_individual(X30) & sort_individual(X29)) =&gt; ((pred_timeduration(X31) & pred_timeduration(X30) & pred_timeduration(X29)) =&gt; op_add_duration(op_add_duration(X29,X30),X31) = op_add_duration(X29,op_add_duration(X30,X31)))) & ! [X32,X33] : ((sort_individual(X33) & sort_individual(X32)) =&gt; ((pred_timeduration(X33) & pred_timeduration(X32)) =&gt; pred_timeduration(op_add_duration(X32,X33)))) & pred_timeduration(op_zero_duration) & ? [X34] : (pred_field(X34) & sort_individual(X34)) & $true),
+  inference(rectify,[],[f120])).
+fof(f120,axiom,(
+  ! [X60,X61,X39] : ((sort_individual(X39) & sort_individual(X61) & sort_individual(X60)) =&gt; ((pred_field(X39) & pred_timeduration(X61) & pred_timeduration(X60)) =&gt; (X60 = X61 =&gt; op_mult_duration(X39,X60) = op_mult_duration(X39,X61)))) & ! [X60,X61,X39] : ((sort_individual(X39) & sort_individual(X61) & sort_individual(X60)) =&gt; ((pred_field(X39) & pred_timeduration(X61) & pred_timeduration(X60)) =&gt; (pred_lesser_duration(X60,X61) =&gt; pred_lesser_duration(op_mult_duration(X39,X60),op_mult_duration(X39,X61))))) & ! [X60,X61,X62] : ((sort_individual(X62) & sort_individual(X61) & sort_individual(X60)) =&gt; ((pred_timeduration(X62) & pred_timeduration(X61) & pred_timeduration(X60)) =&gt; (X60 = X61 =&gt; op_add_duration(X61,X62) = op_add_duration(X60,X62)))) & ! [X60,X61,X62] : ((sort_individual(X62) & sort_individual(X61) & sort_individual(X60)) =&gt; ((pred_timeduration(X62) & pred_timeduration(X61) & pred_timeduration(X60)) =&gt; (pred_lesser_duration(X60,X61) =&gt; pred_lesser_duration(op_add_duration(X60,X62),op_add_duration(X61,X62))))) & ! [X58] : (sort_individual(X58) =&gt; (pred_timeduration(X58) =&gt; op_mult_duration(op_one,X58) = X58)) & ! [X58,X39,X12] : ((sort_individual(X12) & sort_individual(X39) & sort_individual(X58)) =&gt; ((pred_field(X12) & pred_field(X39) & pred_timeduration(X58)) =&gt; op_mult_duration(op_prod(X39,X12),X58) = op_mult_duration(X39,op_mult_duration(X12,X58)))) & ! [X58,X39,X12] : ((sort_individual(X12) & sort_individual(X39) & sort_individual(X58)) =&gt; ((pred_field(X12) & pred_field(X39) & pred_timeduration(X58)) =&gt; op_mult_duration(op_sum(X39,X12),X58) = op_add_duration(op_mult_duration(X39,X58),op_mult_duration(X12,X58)))) & ! [X60,X61,X39] : ((sort_individual(X39) & sort_individual(X61) & sort_individual(X60)) =&gt; ((pred_field(X39) & pred_timeduration(X61) & pred_timeduration(X60)) =&gt; op_mult_duration(X39,op_add_duration(X60,X61)) = op_add_duration(op_mult_duration(X39,X60),op_mult_duration(X39,X61)))) & ! [X58,X39] : ((sort_individual(X39) & sort_individual(X58)) =&gt; ((pred_field(X39) & pred_timeduration(X58)) =&gt; pred_timeduration(op_mult_duration(X39,X58)))) & ! [X60,X61] : ((sort_individual(X61) & sort_individual(X60)) =&gt; ((pred_timeduration(X61) & pred_timeduration(X60)) =&gt; op_add_duration(X60,X61) = op_add_duration(X61,X60))) & ! [X60] : (sort_individual(X60) =&gt; (pred_timeduration(X60) =&gt; ? [X61] : (op_zero_duration = op_add_duration(X60,X61) & pred_timeduration(X61) & sort_individual(X61)))) & ! [X58] : (sort_individual(X58) =&gt; (pred_timeduration(X58) =&gt; op_add_duration(X58,op_zero_duration) = X58)) & ! [X60,X61,X62] : ((sort_individual(X62) & sort_individual(X61) & sort_individual(X60)) =&gt; ((pred_timeduration(X62) & pred_timeduration(X61) & pred_timeduration(X60)) =&gt; op_add_duration(op_add_duration(X60,X61),X62) = op_add_duration(X60,op_add_duration(X61,X62)))) & ! [X60,X61] : ((sort_individual(X61) & sort_individual(X60)) =&gt; ((pred_timeduration(X61) & pred_timeduration(X60)) =&gt; pred_timeduration(op_add_duration(X60,X61)))) & pred_timeduration(op_zero_duration) & ? [X31] : (pred_field(X31) & sort_individual(X31)) & $true),
+  file('/tmp/vTPpNwTcQp/SOT_BFMwOX',ax_httpsU3aSLASHSLASHrawU2egithubusercontentU2ecomSLASHmereologSLASHcomputational_ontologiesSLASHmainSLASHtupperSLASHdurationSLASHtimedurationU2eclif)).
+fof(f2087,plain,(
+  pred_timepoint(op_infPLUS) | ~pred_timeduration(op_zero_duration) | ~sort_individual(op_zero_duration) | ~spl145_2),
+  inference(superposition,[],[f671,f2084])).
+fof(f2084,plain,(
+  op_infPLUS = sK35(op_zero_duration) | ~spl145_2),
+  inference(subsumption_resolution,[],[f2082,f443])).
+fof(f2082,plain,(
+  op_infPLUS = sK35(op_zero_duration) | ~sort_individual(op_zero_duration) | ~spl145_2),
+  inference(resolution,[],[f2059,f1194])).
+fof(f2059,plain,(
+  ( ! [X4] : (~pred_timeduration(X4) | op_infPLUS = sK35(X4) | ~sort_individual(X4)) ) | ~spl145_2),
+  inference(subsumption_resolution,[],[f2051,f669])).
+fof(f669,plain,(
+  ( ! [X13] : (sort_individual(sK35(X13)) | ~pred_timeduration(X13) | ~sort_individual(X13)) )),
+  inference(cnf_transformation,[],[f280])).
+fof(f280,plain,(
+  ! [X0,X1,X2] : (? [X3] : (op_duration(X0,X1) = op_duration(X2,X3) & pred_timepoint(X3) & sort_individual(X3)) | ~pred_timepoint(X2) | ~pred_timepoint(X1) | ~pred_timepoint(X0) | ~sort_individual(X2) | ~sort_individual(X1) | ~sort_individual(X0)) & ! [X4,X5] : ((pred_lesser(op_zero,op_duration(X4,X5)) &lt;=&gt; pred_before(X4,X5)) | ~pred_timepoint(X5) | ~pred_timepoint(X4) | ~sort_individual(X5) | ~sort_individual(X4)) & ! [X6,X7,X8] : (op_add(op_duration(X6,X7),op_duration(X7,X8)) = op_duration(X6,X8) | ~pred_timepoint(X8) | ~pred_timepoint(X7) | ~pred_timepoint(X6) | ~sort_individual(X8) | ~sort_individual(X7) | ~sort_individual(X6)) & ! [X9,X10] : (op_zero = op_add(op_duration(X9,X10),op_duration(X10,X9)) | ~pred_timepoint(X10) | ~pred_timepoint(X9) | ~sort_individual(X10) | ~sort_individual(X9)) & ! [X11,X12] : ((op_zero = op_duration(X11,X12) &lt;=&gt; X11 = X12) | ~pred_timepoint(X12) | ~pred_timepoint(X11) | ~sort_individual(X12) | ~sort_individual(X11)) & ! [X13] : (? [X14,X15] : (op_duration(X14,X15) = X13 & pred_timepoint(X15) & pred_timepoint(X14) & sort_individual(X15) & sort_individual(X14)) | ~pred_timeduration(X13) | ~sort_individual(X13)) & ! [X16,X17] : (pred_timeduration(op_duration(X16,X17)) | ~pred_timepoint(X17) | ~pred_timepoint(X16) | ~sort_individual(X17) | ~sort_individual(X16)) & ! [X18] : (~pred_timeduration(X18) | ~pred_timepoint(X18) | ~sort_individual(X18))),
+  inference(flattening,[],[f279])).
+fof(f279,plain,(
+  ! [X0,X1,X2] : ((? [X3] : (op_duration(X0,X1) = op_duration(X2,X3) & pred_timepoint(X3) & sort_individual(X3)) | (~pred_timepoint(X2) | ~pred_timepoint(X1) | ~pred_timepoint(X0))) | (~sort_individual(X2) | ~sort_individual(X1) | ~sort_individual(X0))) & ! [X4,X5] : (((pred_lesser(op_zero,op_duration(X4,X5)) &lt;=&gt; pred_before(X4,X5)) | (~pred_timepoint(X5) | ~pred_timepoint(X4))) | (~sort_individual(X5) | ~sort_individual(X4))) & ! [X6,X7,X8] : ((op_add(op_duration(X6,X7),op_duration(X7,X8)) = op_duration(X6,X8) | (~pred_timepoint(X8) | ~pred_timepoint(X7) | ~pred_timepoint(X6))) | (~sort_individual(X8) | ~sort_individual(X7) | ~sort_individual(X6))) & ! [X9,X10] : ((op_zero = op_add(op_duration(X9,X10),op_duration(X10,X9)) | (~pred_timepoint(X10) | ~pred_timepoint(X9))) | (~sort_individual(X10) | ~sort_individual(X9))) & ! [X11,X12] : (((op_zero = op_duration(X11,X12) &lt;=&gt; X11 = X12) | (~pred_timepoint(X12) | ~pred_timepoint(X11))) | (~sort_individual(X12) | ~sort_individual(X11))) & ! [X13] : ((? [X14,X15] : (op_duration(X14,X15) = X13 & pred_timepoint(X15) & pred_timepoint(X14) & sort_individual(X15) & sort_individual(X14)) | ~pred_timeduration(X13)) | ~sort_individual(X13)) & ! [X16,X17] : ((pred_timeduration(op_duration(X16,X17)) | (~pred_timepoint(X17) | ~pred_timepoint(X16))) | (~sort_individual(X17) | ~sort_individual(X16))) & ! [X18] : ((~pred_timeduration(X18) | ~pred_timepoint(X18)) | ~sort_individual(X18))),
+  inference(ennf_transformation,[],[f145])).
+fof(f145,plain,(
+  ! [X0,X1,X2] : ((sort_individual(X2) & sort_individual(X1) & sort_individual(X0)) =&gt; ((pred_timepoint(X2) & pred_timepoint(X1) & pred_timepoint(X0)) =&gt; ? [X3] : (op_duration(X0,X1) = op_duration(X2,X3) & pred_timepoint(X3) & sort_individual(X3)))) & ! [X4,X5] : ((sort_individual(X5) & sort_individual(X4)) =&gt; ((pred_timepoint(X5) & pred_timepoint(X4)) =&gt; (pred_lesser(op_zero,op_duration(X4,X5)) &lt;=&gt; pred_before(X4,X5)))) & ! [X6,X7,X8] : ((sort_individual(X8) & sort_individual(X7) & sort_individual(X6)) =&gt; ((pred_timepoint(X8) & pred_timepoint(X7) & pred_timepoint(X6)) =&gt; op_add(op_duration(X6,X7),op_duration(X7,X8)) = op_duration(X6,X8))) & ! [X9,X10] : ((sort_individual(X10) & sort_individual(X9)) =&gt; ((pred_timepoint(X10) & pred_timepoint(X9)) =&gt; op_zero = op_add(op_duration(X9,X10),op_duration(X10,X9)))) & ! [X11,X12] : ((sort_individual(X12) & sort_individual(X11)) =&gt; ((pred_timepoint(X12) & pred_timepoint(X11)) =&gt; (op_zero = op_duration(X11,X12) &lt;=&gt; X11 = X12))) & ! [X13] : (sort_individual(X13) =&gt; (pred_timeduration(X13) =&gt; ? [X14,X15] : (op_duration(X14,X15) = X13 & pred_timepoint(X15) & pred_timepoint(X14) & sort_individual(X15) & sort_individual(X14)))) & ! [X16,X17] : ((sort_individual(X17) & sort_individual(X16)) =&gt; ((pred_timepoint(X17) & pred_timepoint(X16)) =&gt; pred_timeduration(op_duration(X16,X17)))) & ! [X18] : (sort_individual(X18) =&gt; (pred_timepoint(X18) =&gt; ~pred_timeduration(X18)))),
+  inference(rectify,[],[f115])).
+fof(f115,axiom,(
+  ! [X15,X16,X17] : ((sort_individual(X17) & sort_individual(X16) & sort_individual(X15)) =&gt; ((pred_timepoint(X17) & pred_timepoint(X16) & pred_timepoint(X15)) =&gt; ? [X59] : (op_duration(X15,X16) = op_duration(X17,X59) & pred_timepoint(X59) & sort_individual(X59)))) & ! [X15,X16] : ((sort_individual(X16) & sort_individual(X15)) =&gt; ((pred_timepoint(X16) & pred_timepoint(X15)) =&gt; (pred_lesser(op_zero,op_duration(X15,X16)) &lt;=&gt; pred_before(X15,X16)))) & ! [X15,X16,X17] : ((sort_individual(X17) & sort_individual(X16) & sort_individual(X15)) =&gt; ((pred_timepoint(X17) & pred_timepoint(X16) & pred_timepoint(X15)) =&gt; op_add(op_duration(X15,X16),op_duration(X16,X17)) = op_duration(X15,X17))) & ! [X15,X16] : ((sort_individual(X16) & sort_individual(X15)) =&gt; ((pred_timepoint(X16) & pred_timepoint(X15)) =&gt; op_zero = op_add(op_duration(X15,X16),op_duration(X16,X15)))) & ! [X15,X16] : ((sort_individual(X16) & sort_individual(X15)) =&gt; ((pred_timepoint(X16) & pred_timepoint(X15)) =&gt; (op_zero = op_duration(X15,X16) &lt;=&gt; X15 = X16))) & ! [X58] : (sort_individual(X58) =&gt; (pred_timeduration(X58) =&gt; ? [X15,X16] : (op_duration(X15,X16) = X58 & pred_timepoint(X16) & pred_timepoint(X15) & sort_individual(X16) & sort_individual(X15)))) & ! [X15,X16] : ((sort_individual(X16) & sort_individual(X15)) =&gt; ((pred_timepoint(X16) & pred_timepoint(X15)) =&gt; pred_timeduration(op_duration(X15,X16)))) & ! [X20] : (sort_individual(X20) =&gt; (pred_timepoint(X20) =&gt; ~pred_timeduration(X20)))),
+  file('/tmp/vTPpNwTcQp/SOT_BFMwOX',ax_httpsU3aSLASHSLASHrawU2egithubusercontentU2ecomSLASHmereologSLASHcomputational_ontologiesSLASHmainSLASHtupperSLASHdurationSLASHpoint_durationU2eclif)).
+fof(f2051,plain,(
+  ( ! [X4] : (~sort_individual(sK35(X4)) | op_infPLUS = sK35(X4) | ~pred_timeduration(X4) | ~sort_individual(X4)) ) | ~spl145_2),
+  inference(resolution,[],[f2045,f671])).
+fof(f2045,plain,(
+  ( ! [X0] : (~pred_timepoint(X0) | ~sort_individual(X0) | op_infPLUS = X0) ) | ~spl145_2),
+  inference(avatar_component_clause,[],[f2044])).
+fof(f2044,plain,(
+  spl145_2 &lt;=&gt; ! [X0] : (~pred_timepoint(X0) | ~sort_individual(X0) | op_infPLUS = X0)),
+  introduced(avatar_definition,[new_symbols(naming,[spl145_2])])).
+fof(f671,plain,(
+  ( ! [X13] : (pred_timepoint(sK35(X13)) | ~pred_timeduration(X13) | ~sort_individual(X13)) )),
+  inference(cnf_transformation,[],[f280])).
+fof(f2150,plain,(
+  pred_before(op_infPLUS,op_infPLUS) | ~pred_timepoint(op_infPLUS) | ~sort_individual(op_infPLUS) | ~spl145_2),
+  inference(superposition,[],[f1248,f2143])).
+fof(f2143,plain,(
+  op_infPLUS = sK127(op_infPLUS) | ~spl145_2),
+  inference(subsumption_resolution,[],[f2134,f444])).
+fof(f2134,plain,(
+  op_infPLUS = sK127(op_infPLUS) | ~sort_individual(op_infPLUS) | ~spl145_2),
+  inference(resolution,[],[f2061,f2094])).
+fof(f2061,plain,(
+  ( ! [X6] : (~pred_timepoint(X6) | op_infPLUS = sK127(X6) | ~sort_individual(X6)) ) | ~spl145_2),
+  inference(subsumption_resolution,[],[f2053,f1246])).
+fof(f2053,plain,(
+  ( ! [X6] : (~sort_individual(sK127(X6)) | op_infPLUS = sK127(X6) | ~pred_timepoint(X6) | ~sort_individual(X6)) ) | ~spl145_2),
+  inference(resolution,[],[f2045,f1247])).
+fof(f2046,plain,(
+  spl145_1 | spl145_2),
+  inference(avatar_split_clause,[],[f2038,f2044,f2040])).
+fof(f2038,plain,(
+  ( ! [X0] : (~pred_timepoint(X0) | op_infPLUS = X0 | ~sort_individual(X0) | pred_timepoint(op_infPLUS)) )),
+  inference(subsumption_resolution,[],[f2036,f444])).
+fof(f2036,plain,(
+  ( ! [X0] : (~pred_timepoint(X0) | op_infPLUS = X0 | ~sort_individual(X0) | ~sort_individual(op_infPLUS) | pred_timepoint(op_infPLUS)) )),
+  inference(duplicate_literal_removal,[],[f2033])).
+fof(f2033,plain,(
+  ( ! [X0] : (~pred_timepoint(X0) | op_infPLUS = X0 | ~sort_individual(X0) | ~sort_individual(op_infPLUS) | ~sort_individual(X0) | pred_timepoint(op_infPLUS)) )),
+  inference(resolution,[],[f900,f897])).
+fof(f897,plain,(
+  ( ! [X40,X41] : (~pred_before(X40,X41) | ~sort_individual(X41) | ~sort_individual(X40) | pred_timepoint(X41)) )),
+  inference(cnf_transformation,[],[f307])).
+fof(f900,plain,(
+  ( ! [X32] : (pred_before(X32,op_infPLUS) | ~pred_timepoint(X32) | op_infPLUS = X32 | ~sort_individual(X32)) )),
+  inference(cnf_transformation,[],[f307])).
+% SZS output end Proof for SOT_BFMwOX
+% ------------------------------
+% Version: Vampire 4.6.1 (commit acfaa1f2c on 2022-05-08 17:32:57 +0200)
+% Linked with Z3 4.8.13.0 f03d756e086f81f2596157241e0decfb1c982299 z3-4.8.4-5390-gf03d756e0
+% Termination reason: Refutation
+
+% Memory used [KB]: 40425
+% Time elapsed: 1.164 s
+% ------------------------------
+% ------------------------------
+% Success in time 141.343 s
+
+% END OF SYSTEM OUTPUT
+% RESULT: SOT_BFMwOX - Vampire-SAT---4.6.1 says Unsatisfiable - CPU = 144.87 WC = 141.34 
+% OUTPUT: SOT_BFMwOX - Vampire-SAT---4.6.1 says Refutation - CPU = 144.87 WC = 141.36 
+</PRE>
+
+</body>
+</html>
