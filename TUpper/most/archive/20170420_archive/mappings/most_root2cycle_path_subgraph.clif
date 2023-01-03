@@ -8,7 +8,7 @@
  *    Michael Gruninger, Carmen Chui
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/molst/mappings/most_root2cycle_path_subgraph.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/molst/mappings/most_root2cycle_path_subgraph.clif
 
 (cl-comment 'Translation definition for most_root and cycle_path_subgraph.')
 

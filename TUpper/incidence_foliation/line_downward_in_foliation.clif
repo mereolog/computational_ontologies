@@ -9,10 +9,10 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/incidence_foliation/line_downward_in_foliation.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/incidence_foliation/line_downward_in_foliation.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/incidence_foliation/downward_in_foliation.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/incidence_foliation/downward_in_foliation.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/incidence_bundle/line_flag_bundle.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/incidence_bundle/line_flag_bundle.clif)
 
 )

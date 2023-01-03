@@ -9,7 +9,7 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/subposet_geometry/wsg.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/subposet_geometry/wsg.clif
 
 (forall (x y)
         (if     (in x y)

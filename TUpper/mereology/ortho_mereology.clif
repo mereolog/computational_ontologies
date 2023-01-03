@@ -9,11 +9,11 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mereology/ortho_mereology.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereology/ortho_mereology.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mereology/comp_mereology.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereology/comp_mereology.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mereology/definitions/mereology_def.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereology/definitions/mereology_def.clif)
 
 (forall (x y)
 	(if	(comp x y)

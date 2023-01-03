@@ -8,9 +8,9 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/inch/consistency/inch_original_notI-PA7.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/consistency/inch_original_notI-PA7.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/inch/inch_original.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/inch_original.clif)
 
 (cl-comment 'NOT A THEOREM: I-PA7*: INCH(x,y) requires a chunk of x to overlap with y')
 

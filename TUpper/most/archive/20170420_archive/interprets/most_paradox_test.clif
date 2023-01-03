@@ -1,7 +1,7 @@
 (cl-text test_model_paradox
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/most/definitions/most_shape.clif)
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/most/definitions/most_connections.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/definitions/most_shape.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/definitions/most_connections.clif)
 
 (exists (x y)
 	(and (functional_group x)(functional_group y)))

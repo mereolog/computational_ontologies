@@ -1,6 +1,6 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/inch/definitions/inch_cs.clif
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/definitions/inch_cs.clif
 % 'I-D1: constituent (Cont)'
  all x all y ((CS(x, y) <->  all z ((INCH(x, z) -> INCH(y, z))))).
 

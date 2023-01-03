@@ -8,9 +8,9 @@
  *    Carmen Chui, Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/most/definitions/most_skeleton_definitions.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/definitions/most_skeleton_definitions.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/most/most_skeleton.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/most_skeleton.clif)
 
 
 (cl-comment 'Axiom: MSD-1')

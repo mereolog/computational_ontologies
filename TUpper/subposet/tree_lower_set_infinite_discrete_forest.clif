@@ -8,12 +8,12 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/subposet/tree_lower_set_infinite_discrete_forest.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/subposet/tree_lower_set_infinite_discrete_forest.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mereology/tree_mereology.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereology/tree_mereology.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/subposet/lower_set.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/subposet/lower_set.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/orderings/infinite_discrete_forest.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/infinite_discrete_forest.clif)
 
 )

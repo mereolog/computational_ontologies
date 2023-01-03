@@ -9,13 +9,13 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/ordered_arithmetic/linear_successor.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ordered_arithmetic/linear_successor.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/successor/successor.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/successor/successor.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/orderings/linear_ordering.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/linear_ordering.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/orderings/orderings_def.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/orderings_def.clif)
 
 (forall (y)
 	(if	(not (minimal y))

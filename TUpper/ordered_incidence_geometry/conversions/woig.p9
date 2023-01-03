@@ -1,8 +1,8 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/ordered_incidence_geometry/woig_3d.clif
-%imports(https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/ordered_incidence_geometry/b_3d").
-%imports(https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/incidence_geometry/ig").
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ordered_incidence_geometry/woig_3d.clif
+%imports(https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ordered_incidence_geometry/b_3d").
+%imports(https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/incidence_geometry/ig").
 % '3D weak ordered incidence geometry'
 % 'only points in betweenness: Provable'
  all a all b all c ((B(a, b, c) -> Pt(a))).

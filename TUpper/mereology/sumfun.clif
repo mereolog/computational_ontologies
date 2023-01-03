@@ -9,9 +9,9 @@
  *******************************************************************************/
  
 
-(cl-text  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mereology/sumfun.clif
+(cl-text  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereology/sumfun.clif
 
-(cl-imports  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mereology/definitions/sum.clif)
+(cl-imports  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereology/definitions/sum.clif)
 
 (forall (x y z u)
 	(if (and (sum x y z)(sum x y u))

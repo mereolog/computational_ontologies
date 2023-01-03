@@ -8,10 +8,10 @@
 * Carmen Chui, Michael Gruninger
 *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/most/ex0525_incidence_tri.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/ex0525_incidence_tri.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/tripartite_incidence/triclosure.clif)
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/most/incidence_tri_td.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tripartite_incidence/triclosure.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/incidence_tri_td.clif)
 
 (forall (x y)
 	(iff (in x y)

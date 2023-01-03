@@ -8,11 +8,11 @@
 * Carmen Chui, Michael Gruninger
 *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/most/definitions/most_shape.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/definitions/most_shape.clif
 
 (cl-comment 'Theory containing definitions for the types of shapes for the molecules.')
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/most/most_root.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/most_root.clif)
 
 (cl-comment 'Axiom ID: MS-ax-1')
 (cl-comment 'A saturated functional group is one that has at least one single bond.')

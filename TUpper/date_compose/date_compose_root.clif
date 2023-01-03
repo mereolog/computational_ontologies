@@ -9,11 +9,11 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/duration/date_compose.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/duration/date_compose.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/duration/date_periodic.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/duration/date_periodic.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_actocc/actocc.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_actocc/actocc.clif)
 
 (forall (a1 a2)
 	(if	(and	(date a1)

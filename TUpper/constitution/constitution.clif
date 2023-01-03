@@ -9,9 +9,9 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/constitution/constitution.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/constitution/constitution.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/matter/matter.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/matter/matter.clif)
 
 (forall (x y)
         (if     (constitutes x y)

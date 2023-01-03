@@ -8,8 +8,8 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/gwml2/module32.clif
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/gwml2/module1.clif)
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/gwml2/module32.clif
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/gwml2/module1.clif)
 
 
 (cl-comment 'MX-A1')

@@ -9,9 +9,9 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mereology/atomic_mereology.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereology/atomic_mereology.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mereology/m_mereology.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereology/m_mereology.clif)
 
 (forall (x)
 	(exists (y)

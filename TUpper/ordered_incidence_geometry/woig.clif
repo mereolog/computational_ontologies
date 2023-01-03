@@ -8,11 +8,11 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/ordered_incidence_geometry/woig_3d
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ordered_incidence_geometry/woig_3d
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/ordered_incidence_geometry/b_3d)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ordered_incidence_geometry/b_3d)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/incidence_geometry/ig)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/incidence_geometry/ig)
 
 (cl-comment '3D weak ordered incidence geometry')
 

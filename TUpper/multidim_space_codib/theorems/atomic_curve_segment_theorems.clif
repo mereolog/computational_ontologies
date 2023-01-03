@@ -8,12 +8,12 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_space_codib/theorems/atomic_curve_segment_theorems.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_codib/theorems/atomic_curve_segment_theorems.clif
 
 (cl-imports
-https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_space_codib/definitions/atomic_curve_segment.clif)
+https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_codib/definitions/atomic_curve_segment.clif)
  
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_space_codib/definitions/endpoint.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_codib/definitions/endpoint.clif)
 
 
 (cl-comment 'An atomic curve segment is a curve without proper parts that has exactly two distinct endpoints and no other points.')

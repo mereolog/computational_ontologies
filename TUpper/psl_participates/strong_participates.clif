@@ -8,10 +8,10 @@
  *    Michael Gruninger, Carmen Chui
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_participates/strong_participates.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_participates/strong_participates.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_participates/strong_actocc_exist.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_participates/strong_actocc_exist.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_participates/object_exist.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_participates/object_exist.clif)
 
 )

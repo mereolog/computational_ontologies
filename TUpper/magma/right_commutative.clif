@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/magma/right_commutative.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/magma/right_commutative.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/magma/semigroup.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/magma/semigroup.clif)
 
 (forall (x a b)
 	(= (op (op x a) b) (op (op x b) a)))

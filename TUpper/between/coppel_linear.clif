@@ -9,9 +9,9 @@
  *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/between/coppel_linear.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/coppel_linear.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/between/coppel_pasch.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/coppel_pasch.clif)
 (cl-comment ‘Foundations of Convex Geometry, page 39’)
 
 (cl-comment 'Axiom L2')

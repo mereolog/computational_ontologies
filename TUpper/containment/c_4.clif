@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
 *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/containment/c_4.clif)
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/containment/c_4.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/containment/containment_def.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/containment/containment_def.clif)
 
 (cl-comment 'Transitivity')
 

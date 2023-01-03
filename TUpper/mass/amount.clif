@@ -9,9 +9,9 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mass/amount.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mass/amount.clif
 
-(cl-module field (cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/ringoids/field.clif))
+(cl-module field (cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ringoids/field.clif))
 
 (amount zero_mass)
 

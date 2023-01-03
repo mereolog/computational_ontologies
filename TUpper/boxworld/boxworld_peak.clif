@@ -9,9 +9,9 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/boxworld/boxworld_peak.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/boxworld/boxworld_peak.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/boxworld/boxworld_edge.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/boxworld/boxworld_edge.clif)
 
 (forall (e1 e2 e3)
         (if     (rbetween e1 e2 e3) (rbetween e2 e3 e1)))

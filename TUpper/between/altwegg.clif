@@ -9,12 +9,12 @@
  *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/between/altwegg.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/altwegg.clif
 
 (cl-comment ‘Martin Altwegg. Zur Axiomatik der teilweise geordneten Mengen.’)
 (cl-comment ‘Z1 - Z6: Z1-Z4 can be translated into FOL’) 
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/between/reflexive_bet.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/reflexive_bet.clif)
 
 
 (cl-comment ‘Z3’) 

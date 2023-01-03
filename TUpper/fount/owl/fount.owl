@@ -1,11 +1,11 @@
 <?xml version="1.0" ?>
-<Ontology ontologyIRI="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/fount/owl/fount.owl" 
-versionIRI="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/fount/owl/fount.owl" 
-xml:base="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/fount/owl/fount.owl#" 
+<Ontology ontologyIRI="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/fount/owl/fount.owl" 
+versionIRI="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/fount/owl/fount.owl" 
+xml:base="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/fount/owl/fount.owl#" 
 xmlns="http://www.w3.org/2002/07/owl#">
         
             
-        <Prefix IRI="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/fount/owl/fount.owl#" name=""/>
+        <Prefix IRI="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/fount/owl/fount.owl#" name=""/>
         
             
         <Prefix IRI="http://www.w3.org/2002/07/owl#" name="owl"/>

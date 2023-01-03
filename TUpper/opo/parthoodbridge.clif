@@ -8,11 +8,11 @@
  *    Yi Ru, Michael Gruninger - initial implementation
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/opo/parthoodbridge.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/opo/parthoodbridge.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/component/component_def.clif)
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/piece/piece_def.clif)
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/portion/portion_def.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/component/component_def.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/piece/piece_def.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/portion/portion_def.clif)
 
 (forall (x y z)
         (if     (and    (componentOf x y)

@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
 *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/duration/timeduration.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/duration/timeduration.clif
 
-(cl-module field (cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/ringoids/field.clif))
+(cl-module field (cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ringoids/field.clif))
 
 (timeduration zero_duration)
 

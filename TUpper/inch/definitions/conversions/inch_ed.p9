@@ -1,7 +1,7 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/inch/definitions/inch_ed.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/inch/definitions/inch_ged.clif").
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/definitions/inch_ed.clif
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/definitions/inch_ged.clif").
 % 'I-D8: equal dimension'
  all x all y ((ED(x, y) <-> GED(x, y) & GED(y, x))).
 

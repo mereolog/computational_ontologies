@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
-(cl-text  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mereology/definitions/atomic_part.clif
+(cl-text  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereology/definitions/atomic_part.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mereology/m_mereology.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereology/m_mereology.clif)
 
 (forall (x)
 (iff	(atomic_part x)

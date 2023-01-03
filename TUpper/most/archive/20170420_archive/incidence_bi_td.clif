@@ -8,7 +8,7 @@
 * Carmen Chui, Michael Gruninger
 *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/most/incidence_bi_td.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/incidence_bi_td.clif
 
 (forall (x y)
 	(iff (inpl x y)

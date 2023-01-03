@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/ringoids/field.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ringoids/field.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/ringoids/commutative_ring.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ringoids/commutative_ring.clif)
 
 (forall (x)
 	(exists (y)

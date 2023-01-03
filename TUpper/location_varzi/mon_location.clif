@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/location_varzi/mon_location.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/location_varzi/mon_location.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/location_varzi/location_root.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/location_varzi/location_root.clif)
 
 (forall (x y z w)
 	(if	(and	(part x y)

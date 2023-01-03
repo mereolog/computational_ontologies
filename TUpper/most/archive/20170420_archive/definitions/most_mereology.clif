@@ -8,12 +8,12 @@
 * Carmen Chui, Michael Gruninger
 *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/most/definitions/most_mereology.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/definitions/most_mereology.clif
 
 (cl-comment 'Theory containing definitions for the mereology relations for most.')
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/most/most_root.clif)
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/most/definitions/most_skeleton.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/most_root.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/definitions/most_skeleton.clif)
 
 (forall (x y)
 	(iff (part x y)

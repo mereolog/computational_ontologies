@@ -9,9 +9,9 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/boxworld/boxworld_surface.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/boxworld/boxworld_surface.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/boxworld/boxworld_edge.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/boxworld/boxworld_edge.clif)
 
 (cl-comment 'Each point, edge, and surface is part of a unique box.')
 (forall (x1 x2 y)

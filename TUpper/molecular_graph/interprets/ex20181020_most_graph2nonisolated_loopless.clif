@@ -1,18 +1,18 @@
 (cl-text most_graph2nonisolated_loopless_experiments
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/molecular_graph/most_graph.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/molecular_graph/most_graph.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/molecular_graph/mappings/most_graph2nonisolated_loopless.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/molecular_graph/mappings/most_graph2nonisolated_loopless.clif)
 
 (cl-comment 'Things to prove from nonisolated_loopless')
 
-(cl-comment 'https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/bipartite_incidence/nonisolated_loopless_expanded.clif')
+(cl-comment 'https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/nonisolated_loopless_expanded.clif')
 
-(cl-comment 'https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/bipartite_incidence/weak_loopless.clif')
+(cl-comment 'https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/weak_loopless.clif')
 
-(cl-comment 'https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/bipartite_incidence/graphical_incidence.clif')
+(cl-comment 'https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/graphical_incidence.clif')
 
-(cl-comment 'https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/bipartite_incidence/partial_bipartite.clif')
+(cl-comment 'https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/partial_bipartite.clif')
 
 (forall (l)
 	(if	(line l)
@@ -20,7 +20,7 @@
 			(and	(point x)
 				(in x l)))))
 
-(cl-comment 'https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/bipartite_incidence/double_points.clif')
+(cl-comment 'https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/double_points.clif')
 
 (forall (x y z l)
 	(if	(and	(point x)
@@ -34,7 +34,7 @@
 			(= z y)
 			(= x y))))
 
-(cl-comment 'https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/bipartite_incidence/nontrivial_lines.clif')
+(cl-comment 'https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/nontrivial_lines.clif')
 
 (forall (l)
 	(if	(line l)
@@ -45,9 +45,9 @@
 				(in x l)
 				(in y l)))))
 
-(cl-comment 'https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/bipartite_incidence/point_bipartite.clif')
+(cl-comment 'https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/point_bipartite.clif')
 
-(cl-comment 'https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/bipartite_incidence/weak_bipartite.clif')
+(cl-comment 'https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/weak_bipartite.clif')
 
 (forall (x y)
 	(if	(in x y)

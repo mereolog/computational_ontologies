@@ -9,11 +9,11 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/graphs/double_leaf.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/graphs/double_leaf.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/graphs/undirected_graph.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/graphs/undirected_graph.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/graphs/definitions/pendant.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/graphs/definitions/pendant.clif)
 
 (forall (x y z)
 	(if	(and	(pendant x)

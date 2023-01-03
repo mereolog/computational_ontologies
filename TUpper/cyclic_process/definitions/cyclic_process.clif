@@ -9,9 +9,9 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/cyclic_process/definitions/cyclic_process.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cyclic_process/definitions/cyclic_process.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/cyclic_process/cyclic_state.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cyclic_process/cyclic_state.clif)
      
 (forall (a) (iff    (change_point a) 
                     (forall (o)

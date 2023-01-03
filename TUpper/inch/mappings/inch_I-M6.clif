@@ -8,7 +8,7 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/inch/mappings/inch_I-M6.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/mappings/inch_I-M6.clif
 
 (cl-comment 'I-D2 together with I-M6: mapping between PO and OV')
 

@@ -1,7 +1,7 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/ordered_incidence_geometry/woig_theorems.clif
-%imports(https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/ordered_incidence_geometry/woig").
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ordered_incidence_geometry/woig_theorems.clif
+%imports(https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ordered_incidence_geometry/woig").
 % 'O.7: outer transitivity'
  all a all b all x all y all l ((L(l) & on(a, l) & on(b, l) & on(x, l) & on(y, l) & B(x, a, b) & B(a, b, y) -> B(x, a, y))).
 % 'O.8: inner transitivity'

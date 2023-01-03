@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/lattices/definitions/leq.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/lattices/definitions/leq.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/lattices/lattice.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/lattices/lattice.clif)
 
 (forall (x y)
 	(iff	(leq x y)

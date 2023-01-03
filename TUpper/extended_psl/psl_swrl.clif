@@ -9,9 +9,9 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/extended_psl/psl_swrl.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/extended_psl/psl_swrl.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/extended_psl/psl_dl.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/extended_psl/psl_dl.clif)
 
 (forall (s o)
 	(if	(and	(Legal s)

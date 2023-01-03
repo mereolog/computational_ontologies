@@ -8,8 +8,8 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/gwml2/module30.clif
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/gwml2/definitions/module16.clif)
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/gwml2/module30.clif
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/gwml2/definitions/module16.clif)
 
 (cl-comment 'GWMA-A1')
 (cl-comment 'Groundwater Management Area is a specialization of Geologic Unit')

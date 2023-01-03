@@ -8,7 +8,7 @@
 * Carmen Chui, Michael Gruninger
 *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/most/def_most_attachment.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/def_most_attachment.clif
 
 (cl-comment 'A scaffold consists of at least one ring and chains that are attached to each other in some way.')
 (forall (x)

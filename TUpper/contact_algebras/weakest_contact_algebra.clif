@@ -8,9 +8,9 @@
  *	Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/contact_algebras/weakest_contact_algebra.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/contact_algebras/weakest_contact_algebra.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/lattices/bounded_lattice_meet_join.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/lattices/bounded_lattice_meet_join.clif)
 
 (cl-comment 'C0: Disconnected null region')
 

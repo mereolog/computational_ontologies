@@ -9,7 +9,7 @@
  *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/between/defays.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/defays.clif
 (cl-comment ‘Tree Representations of Ternary Relations’)
 
 (cl-comment ‘Definition 1.1’)

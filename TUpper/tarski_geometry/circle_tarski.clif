@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/tarski_geometry/circle_tarski.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tarski_geometry/circle_tarski.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/tarski_geometry/weak_tarski.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tarski_geometry/weak_tarski.clif)
 
 (cl-comment 'A segment which joins two points, one inside and one outside
 the given circle, always intersects the circle.')

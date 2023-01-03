@@ -9,13 +9,13 @@
  *******************************************************************************/
 
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_space_physcont/definitions/osurrounds.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_physcont/definitions/osurrounds.clif
 
 (cl-comment 'detachable containment from 2013 COSIT paper')
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_space_physcont/definitions/osurroundsmat.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_physcont/definitions/osurroundsmat.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_space_physcont/definitions/osurroundsvoid.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_physcont/definitions/osurroundsvoid.clif)
 
 (cl-comment 'OSur-D')
 

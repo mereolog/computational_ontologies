@@ -8,7 +8,7 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/sumo/sumo_time.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/sumo/sumo_time.clif
 
 (forall (x y)
 	(if	(beforeOrEqual x y)

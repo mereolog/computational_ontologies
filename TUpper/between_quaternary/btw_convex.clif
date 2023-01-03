@@ -9,9 +9,9 @@
  *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/between_quaternary/btw_convex.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between_quaternary/btw_convex.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/between_quaternary/btw_root.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between_quaternary/btw_root.clif)
 
 (forall (l x y z w v)
 	(if 	(and 	(Btw l x y z)

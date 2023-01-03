@@ -3,8 +3,8 @@
 
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/ordered_incidence_geometry/b_2d_theorems.clif
-%imports(https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/ordered_incidence_geometry/b_2d").
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ordered_incidence_geometry/b_2d_theorems.clif
+%imports(https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ordered_incidence_geometry/b_2d").
 % 'separation property'
  all a all b all c all x ((B(a, x, b) & B(a, x, c) -> -(B(b, x, c)))).
 % 'no more than one of three distinct elements is in the middle position'

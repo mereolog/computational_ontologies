@@ -8,7 +8,7 @@
  *    Michael Gruninger, Carmen Chui
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/dolce_present/dolce_present_star.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/dolce_present/dolce_present_star.clif
 
 (cl-comment 'This is a weaker theory than dolce_present.clif - it does not contain any reference to qualities Q(x).')
 	
@@ -16,7 +16,7 @@
 (cl-comment 'Comment: DOLCE axioms from 4.3.8 Being Present')
 
 (cl-comment 'Import the DOLCE time mereology theory.')
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/dolce_time_mereology/dolce_time_mereology.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/dolce_time_mereology/dolce_time_mereology.clif)
 
 (cl-comment 'Td15 to Td18')
  

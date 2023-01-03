@@ -8,11 +8,11 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_occtree/succ_geometry.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_occtree/succ_geometry.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_occtree/genocc.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_occtree/genocc.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_occtree/succ_structure.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_occtree/succ_structure.clif)
 
 (forall (o1 o2 o3)
 	(if	(succ o1 o2 o3)

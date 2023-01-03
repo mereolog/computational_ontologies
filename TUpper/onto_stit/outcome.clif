@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/onto_stit/outcome.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/onto_stit/outcome.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/onto_stit/history.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/onto_stit/history.clif)
 
 (exists (x)
 	(ag x))

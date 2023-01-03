@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/occupy/region_mereology/region_mereology.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/occupy/region_mereology/region_mereology.clif
 
-(cl-domain region (cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mereology/m_mereology.clif))
+(cl-domain region (cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereology/m_mereology.clif))
 
 (forall (x y)
 	(if	(spatial_part x y)

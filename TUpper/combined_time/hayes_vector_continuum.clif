@@ -9,9 +9,9 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/combined_time/hayes_vector_continuum.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combined_time/hayes_vector_continuum.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/timepoints/linear_point.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/timepoints/linear_point.clif)
 
 (forall (i)
 	(if	(timeinterval i) 

@@ -8,12 +8,12 @@
  *	Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/contact_algebras/weak_contact_algebra.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/contact_algebras/weak_contact_algebra.clif
 
 (cl-comment 'Weak Contact Algebra (WCA, according to Duentsch and Winter 2006: Topological representations of contact lattices)')
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/contact_algebras/weakest_contact_algebra.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/contact_algebras/weakest_contact_algebra.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/lattices/bounded_distributive_lattice.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/lattices/bounded_distributive_lattice.clif)
 
 )

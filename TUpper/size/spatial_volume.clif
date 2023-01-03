@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/size/spatial_volume.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/size/spatial_volume.clif
 
-(cl-module field (cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/ringoids/field.clif))
+(cl-module field (cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ringoids/field.clif))
 
 (spatial_volume zero_volume)
 

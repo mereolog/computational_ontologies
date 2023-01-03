@@ -9,7 +9,7 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/dtv_mereology/dtv_mereology.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/dtv_mereology/dtv_mereology.clif
 
 (forall ((part 'time interval')) 
 	('time interval1 is part of time interval2' part part))

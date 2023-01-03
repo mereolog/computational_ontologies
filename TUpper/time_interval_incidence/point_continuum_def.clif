@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/time_interval_incidence/point_continuum_def.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/time_interval_incidence/point_continuum_def.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/time_interval_incidence/point_continuum.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/time_interval_incidence/point_continuum.clif)
 
 (forall (i j)
 	(iff	(acoao i j)

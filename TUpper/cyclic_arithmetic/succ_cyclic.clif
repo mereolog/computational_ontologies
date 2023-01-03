@@ -9,11 +9,11 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/cyclic_arithmetic/succ_cyclic.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cyclic_arithmetic/succ_cyclic.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/cyclic_ordering/megiddo_cyclic.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cyclic_ordering/megiddo_cyclic.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/successor/c_arithmetic.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/successor/c_arithmetic.clif)
 
 (forall (x y z w)
 	(if	(and	(C x y z)

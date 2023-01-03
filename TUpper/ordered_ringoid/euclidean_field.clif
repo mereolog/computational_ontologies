@@ -9,9 +9,9 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/ordered_ringoid/euclidean_field.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ordered_ringoid/euclidean_field.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/ordered_ringoid/ordered_field.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ordered_ringoid/ordered_field.clif)
 
 (forall (x)
 	(if	(leq zero x)

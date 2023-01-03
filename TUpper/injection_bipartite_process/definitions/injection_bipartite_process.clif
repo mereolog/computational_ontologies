@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/injection_bipartite_process/definitions/injection_bipartite_process.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/injection_bipartite_process/definitions/injection_bipartite_process.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/injection_bipartite_process/injection_bipartite_state.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/injection_bipartite_process/injection_bipartite_state.clif)
  
      
 

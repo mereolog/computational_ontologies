@@ -1,6 +1,6 @@
 (cl-text to_prove_functional_groups
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/most/definitions/most_shape.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/definitions/most_shape.clif)
 
 (cl-comment 'An axiom to prove')
 (forall (x)

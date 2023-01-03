@@ -8,9 +8,9 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_omt/consistency/omt_down_plp_lin_nontrivial_btw.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_omt/consistency/omt_down_plp_lin_nontrivial_btw.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_omt/omt_down_plp_lin.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_omt/omt_down_plp_lin.clif)
 
 (exists (p1 p2 p3 p4 l1 l2 l3 l4 a1 z)
 	(and

@@ -8,11 +8,11 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mereotopology/rt.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereotopology/rt.clif
 
 (cl-comment 'axioms of the mereotopology RT')
 
-(cl-imports  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mereotopology/rt_minus.clif)
+(cl-imports  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereotopology/rt_minus.clif)
 
 (cl-comment 'D11: Weak contact')
 

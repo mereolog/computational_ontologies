@@ -10,9 +10,9 @@
  * note: letter cases preserved in accordance with OWL version
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_subactivity/binary_subactivity.clif 
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_subactivity/binary_subactivity.clif 
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_core/binary_psl_core.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_core/binary_psl_core.clif)
 
 	(cl-comment 'Thing and Nothing axioms removed')
 

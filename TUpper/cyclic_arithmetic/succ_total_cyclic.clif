@@ -9,9 +9,9 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/cyclic_arithmetic/succ_total_cyclic.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cyclic_arithmetic/succ_total_cyclic.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/cyclic_arithmetic/succ_cyclic.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cyclic_arithmetic/succ_cyclic.clif)
 
 (forall (x y z)
 	(if	(and	(not (= x y))

@@ -1,6 +1,6 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/inch/definitions/inch_gd.clif
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/definitions/inch_gd.clif
 % 'I-D2: overlap (PO)'
  all x all y ((OV(x, y) <-> INCH(x, y) & INCH(y, x))).
 

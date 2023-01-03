@@ -8,7 +8,7 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/between/shepperd.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/shepperd.clif
 
 (cl-comment ‘Shepperd, Transitivities of betweenness and Separation and the Definition of betweenness and Separation Groups.’)
 

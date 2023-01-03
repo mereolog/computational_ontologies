@@ -8,7 +8,7 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/lattices/lattice.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/lattices/lattice.clif
 
 						
 (cl-comment 'L1: Idempotency')

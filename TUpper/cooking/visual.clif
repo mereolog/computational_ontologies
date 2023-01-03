@@ -8,9 +8,9 @@
  *    Alison Chow, Michael Gruninger - initial implementation
 *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/cooking/visual.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cooking/visual.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_core/psl_core.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_core/psl_core.clif)
 
 (forall (o)
 	(if (occurrence_of o Recipe1)

@@ -1,9 +1,9 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codib/consistency/codib_updown_nontrivial_simple.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codib/codib_updown.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/defs/epp.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/defs/connected.clif").
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codib/consistency/codib_updown_nontrivial_simple.clif
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codib/codib_updown.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/defs/epp.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/defs/connected.clif").
  exists x exists y exists z exists r exists s exists t exists v (BCont(x, y) & Cont(x, z) & -(BCont(x, z)) & SC(y, z) & -(Con(r)) & PP(t, r) & PP(s, r) & (difference(r, t) = s) & BCont(v, t) & BCont(v, x) & Inc(t, x) & <(t, x)).
 
 end_of_list.

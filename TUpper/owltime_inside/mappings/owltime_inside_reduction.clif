@@ -1,5 +1,5 @@
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/owltime_inside/mappings/owltime_interval_reduction.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/owltime_inside/mappings/owltime_interval_reduction.clif
 
 (forall (x y)
 	(iff	(before x y)

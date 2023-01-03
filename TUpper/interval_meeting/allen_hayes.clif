@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/interval_meeting/allen_hayes.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/interval_meeting/allen_hayes.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/interval_meeting/interval_meeting.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/interval_meeting/interval_meeting.clif)
 
 (forall (p q r s)
 (if	(and	(meets p q)

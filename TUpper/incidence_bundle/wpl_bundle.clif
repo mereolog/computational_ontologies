@@ -9,9 +9,9 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/incidence_bundle/wpl_bundle.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/incidence_bundle/wpl_bundle.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/incidence_bundle/in_bundle.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/incidence_bundle/in_bundle.clif)
 
 (forall (x p)
 	(if	(and	(plane x)

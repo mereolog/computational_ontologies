@@ -8,7 +8,7 @@
  *    Bahar Ameri, Michael Gruninger - initial implementation
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multimereology/dl_pcc.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multimereology/dl_pcc.clif
 
 (forall (x y)
 	(if	(ppi x y)

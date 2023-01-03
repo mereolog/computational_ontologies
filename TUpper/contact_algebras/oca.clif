@@ -9,12 +9,12 @@
  *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/contact_algebras/oca.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/contact_algebras/oca.clif
 
 (cl-comment 'equational axiomatization of orthocomplemented contact algebra (as defined in Hahmann and Gruninger, Notre Dame J. Formal Logic 2013)')
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/contact_algebras/weakest_contact_algebra.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/contact_algebras/weakest_contact_algebra.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/lattices/ortho_complemented_lattice_meet_join.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/lattices/ortho_complemented_lattice_meet_join.clif)
 
 )

@@ -9,9 +9,9 @@
  *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/between/fishburn.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/fishburn.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/between/partial_fishburn.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/partial_fishburn.clif)
 (cl-comment ‘from Interval Orders and Graphs, page 57-60’)
 
 (cl-comment ‘Although this relation is not explicit in Fishburn, it captures the notion of two elements appearing in the same triple.’)

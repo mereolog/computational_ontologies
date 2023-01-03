@@ -8,7 +8,7 @@
  *    Carmen Chui, Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/most/most_polycyclic.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/most_polycyclic.clif
 
 (cl-comment 'Extension: most_polycyclic')
 (forall (x)

@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/lattices/dual_stone_lattice.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/lattices/dual_stone_lattice.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/lattices/quasi_complemented_distributive_lattice.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/lattices/quasi_complemented_distributive_lattice.clif)
 
 (cl-comment 'Defining the dual Stone lattices as quasicomplemented (dual pseudocomplemented) distributive lattices satisfying the Stone identity')
 

@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<Ontology ontologyIRI="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/lattices/definitions/joincomplement.owl" versionIRI="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/lattices/definitions/joincomplement.owl" xml:base="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/lattices/definitions/joincomplement.owl#" xmlns="http://www.w3.org/2002/07/owl#">
+<Ontology ontologyIRI="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/lattices/definitions/joincomplement.owl" versionIRI="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/lattices/definitions/joincomplement.owl" xml:base="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/lattices/definitions/joincomplement.owl#" xmlns="http://www.w3.org/2002/07/owl#">
 	
             
-	<Prefix IRI="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/lattices/definitions/joincomplement.owl#" name=""/>
+	<Prefix IRI="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/lattices/definitions/joincomplement.owl#" name=""/>
 	
             
 	<Prefix IRI="http://www.w3.org/2002/07/owl#" name="owl"/>

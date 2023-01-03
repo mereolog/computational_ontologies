@@ -1,6 +1,6 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/inch/definitions/inch_zex.clif
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/definitions/inch_zex.clif
 % 'I-D6: zero region'
  all x all y ((ZEXI(x) <-> -(INCH(x, x)))).
 

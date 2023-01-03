@@ -8,10 +8,10 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/quadripartite_incidence/space_partitioning.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/quadripartite_incidence/space_partitioning.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/quadripartite_incidence/graded_poset4.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/quadripartite_incidence/graded_poset4.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/quadripartite_incidence/unique_space.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/quadripartite_incidence/unique_space.clif)
 
 )

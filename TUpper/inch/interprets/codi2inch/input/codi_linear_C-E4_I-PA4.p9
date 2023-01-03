@@ -1,13 +1,13 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/inch/codi_linear_unbounded_C-E4_I-PA4.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/codi_linear.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/C-E4.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_zex/zex.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/inch/definitions/inch_ged.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/inch/mappings/codi2inch.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/inch/definitions/inch_I-M2.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/inch/definitions/inch_I-M3.clif").
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/codi_linear_unbounded_C-E4_I-PA4.clif
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/codi_linear.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/C-E4.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_zex/zex.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/definitions/inch_ged.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/mappings/codi2inch.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/definitions/inch_I-M2.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/definitions/inch_I-M3.clif").
 % 'I-PA4: extents are dimensionally comparable - similar to using linear dimension'
  all x all y (GED(x, y) | GED(y, x)).
 

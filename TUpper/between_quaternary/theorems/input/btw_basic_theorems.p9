@@ -1,7 +1,7 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/between_quaternary/btw_basic_theorems.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/between_quaternary/btw_basic.clif").
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between_quaternary/btw_basic_theorems.clif
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between_quaternary/btw_basic.clif").
 % 'B-T1: '
  all r all a all b all c ((Btw(r, a, b, c) -> -(Btw(r, b, a, c)))).
 % 'B-T2: Huntington postulate 3'

@@ -8,11 +8,11 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/occupy/occupy_connection/occupy_connection.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/occupy/occupy_connection/occupy_connection.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/occupy/region_connection/region_connection.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/occupy/region_connection/region_connection.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/occupy/physical_connection/physical_connection.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/occupy/physical_connection/physical_connection.clif)
 
 (forall (x)
 	(if	(region x)

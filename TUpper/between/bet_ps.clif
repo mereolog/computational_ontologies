@@ -9,7 +9,7 @@
  *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/between/bet_ps.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/bet_ps.clif
 
 (cl-comment ‘Transitivities of Betweenness’)
 (cl-comment ‘Lattice Betweenness section’) 

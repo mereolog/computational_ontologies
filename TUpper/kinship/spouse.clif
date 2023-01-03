@@ -8,7 +8,7 @@
  *    Carmen Chui, Michael Gruninger, Janette Wong - initial implementation
 *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/kinship/spouse.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/kinship/spouse.clif
 
 (cl-comment 'Axiom: S-1')
 (cl-comment 'A spouse is a person.')

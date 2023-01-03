@@ -8,7 +8,7 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mereotopology/rcc_basic.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereotopology/rcc_basic.clif
 
 (cl-comment 'Basic axioms of the Region Connection Calculus that allows finite models (RCC-4b and RCC8 removed)')
 

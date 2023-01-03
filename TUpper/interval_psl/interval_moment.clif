@@ -8,13 +8,13 @@
  *    Michael Gruninger, Carmen Chui
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/interval_psl/interval_moment.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/interval_psl/interval_moment.clif
 (cl-comment 'Time interval version of psl-core with moments.')
 
 (cl-comment 'Import the interval version of PSL-core.')
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/interval_psl/interval_psl_core.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/interval_psl/interval_psl_core.clif)
 
 (cl-comment 'Import the endpoints version of moments.')
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/combined_time/moment_with_endpoints.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combined_time/moment_with_endpoints.clif)
 
 )

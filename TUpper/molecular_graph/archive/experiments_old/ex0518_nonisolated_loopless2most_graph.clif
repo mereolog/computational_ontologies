@@ -8,11 +8,11 @@
  *    Carmen Chui, Michael Gruninger
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/molecular_graph/interprets/ex0511_nonisolated_loopless2most_graph.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/molecular_graph/interprets/ex0511_nonisolated_loopless2most_graph.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/bipartite_incidence/nonisolated_loopless.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/nonisolated_loopless.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/molecular_graph/mappings/most_graph_reduction.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/molecular_graph/mappings/most_graph_reduction.clif)
 
 (cl-comment 'Things to prove from most_root_bipartite')
 (cl-comment '---------------------Partitioned according to BOND/BIPARTITE---------------------')

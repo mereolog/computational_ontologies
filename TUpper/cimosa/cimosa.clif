@@ -8,16 +8,16 @@
  *   Carmen Chui, Michael Gruninger
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/cimosa/cimosa.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cimosa/cimosa.clif
 
 (cl-comment 'Sources: ISO 19439:2006, ISO 19440:2007, Vernadat1998.')
 (cl-comment 'Comment: The following ontology is created to describe the behavioural rule set found in CIMOSA.')
 
 (cl-comment 'Import the PSL Core ontology since the CIMOSA ontology uses PSL constructs.')
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_core/psl_core.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_core/psl_core.clif)
 
 (cl-comment 'Import the complex subtheory of the PSL ontology since the CIMOSA ontology uses PSL constructs.')
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_complex/complex.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_complex/complex.clif)
 
 (cl-comment '---------------------------------------------------Mappings---------------------------------------------------')
 (cl-comment 'Map between CIMOSA and PSL constructs.')

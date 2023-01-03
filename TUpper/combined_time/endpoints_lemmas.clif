@@ -9,9 +9,9 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/combined_time/endpoints_lemmas.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combined_time/endpoints_lemmas.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/combined_time/endpoints.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combined_time/endpoints.clif)
 
 (cl-comment 'colore/verification/combined_time/entailment/endpoints_lemmas/ex213-1')
 (forall (l)

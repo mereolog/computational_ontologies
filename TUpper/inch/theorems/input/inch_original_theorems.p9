@@ -1,7 +1,7 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/inch/theorems/inch_original_theorems.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/inch/inch_original.clif").
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/theorems/inch_original_theorems.clif
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/inch_original.clif").
 % 'I-T1'
  all x all y ((INCH(x, y) -> GED(x, y))).
 % 'I-T2 (2 parts; already follow from I-T1)'

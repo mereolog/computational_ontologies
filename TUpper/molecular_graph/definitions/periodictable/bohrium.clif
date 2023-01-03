@@ -6,7 +6,7 @@
 *
 *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/molecular_graph/definitions/periodictablebohrium.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/molecular_graph/definitions/periodictablebohrium.clif
 
 (cl-comment 'Element name: bohrium')
 

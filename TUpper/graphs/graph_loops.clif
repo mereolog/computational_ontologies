@@ -9,9 +9,9 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/graphs/graph_loops.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/graphs/graph_loops.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/graphs/undirected_graph.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/graphs/undirected_graph.clif)
 
 (forall (x)
 	(adj x x))

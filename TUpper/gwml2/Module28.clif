@@ -8,8 +8,8 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/gwml2/module28.clif
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/gwml2/definitions/module27.clif)
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/gwml2/module28.clif
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/gwml2/definitions/module27.clif)
 
 (cl-comment 'Const-A2')
 (cl-comment 'The three kinds of Const are mutually disjoint')

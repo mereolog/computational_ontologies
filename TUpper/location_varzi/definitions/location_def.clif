@@ -9,9 +9,9 @@
  *******************************************************************************/
  
 
-(cl-text  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/location_varzi/definitions/location_def.clif
+(cl-text  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/location_varzi/definitions/location_def.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/location_varzi/location_root.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/location_varzi/location_root.clif)
 
 (forall (x)
 	(iff	(region x)

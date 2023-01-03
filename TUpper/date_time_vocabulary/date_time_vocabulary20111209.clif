@@ -9,7 +9,7 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/date_time_vocabulary/date_time_vocabulary20111209.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/date_time_vocabulary/date_time_vocabulary20111209.clif
 
 (forall ((t1 'time interval') (t2 'time interval'))
 	(if 	('time interval1 overlaps time interval2' t1 t2)

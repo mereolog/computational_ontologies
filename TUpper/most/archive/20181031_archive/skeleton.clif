@@ -1,4 +1,4 @@
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/most/skeleton.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/skeleton.clif
 
 (cl-comment 'Skeleton-related axioms found in MoSt')
 

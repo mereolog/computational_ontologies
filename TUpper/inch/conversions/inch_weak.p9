@@ -1,6 +1,6 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/inch/inch_weak.clif
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/inch_weak.clif
 % 'weak INCH Calculus with only the essential definitions'
 % 'I-D1: constituent (Cont)'
  all x all y ((CS(x, y) <->  all z ((INCH(x, z) -> INCH(y, z))))).

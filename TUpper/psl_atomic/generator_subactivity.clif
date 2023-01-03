@@ -8,7 +8,7 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_atomic/generator_subactivity.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_atomic/generator_subactivity.clif
 
 (cl-comment 'generator_subactivity is a relation over generator activities.')
 

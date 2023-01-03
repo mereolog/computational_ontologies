@@ -1,8 +1,8 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/inch/consistency/inch_calculus_notC-A5.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/inch/inch_calculus.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/inch/mappings/inch2codi.clif").
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/consistency/inch_calculus_notC-A5.clif
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/inch_calculus.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/mappings/inch2codi.clif").
 % 'C-D: definition of contact in terms of containment'
  all x all y ((C(x, y) <->  exists z (Cont(z, x) & Cont(z, y)))).
 % 'NOT A THEOREM: negation of C-A5 is consistent'

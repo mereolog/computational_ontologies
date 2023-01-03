@@ -3,8 +3,8 @@
 
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/ordered_incidence_geometry/woig_2d_theorems.clif
-%imports(https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/ordered_incidence_geometry/woig_2d").
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ordered_incidence_geometry/woig_2d_theorems.clif
+%imports(https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ordered_incidence_geometry/woig_2d").
  all a all b all c ((B(a, b, c) -> Pt(a))).
  all a all b all c ((B(a, b, c) -> Pt(b))).
  all a all b all c ((B(a, b, c) -> Pt(c))).

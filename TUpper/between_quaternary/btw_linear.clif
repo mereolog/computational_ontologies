@@ -8,12 +8,12 @@
  *    Michael Gruninger, Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/between_quaternary/btw_linear.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between_quaternary/btw_linear.clif
 
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/between_quaternary/btw_root.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between_quaternary/btw_root.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/between_quaternary/definitions/incidence.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between_quaternary/definitions/incidence.clif)
 
 (forall (l x y z w)
 	(if	

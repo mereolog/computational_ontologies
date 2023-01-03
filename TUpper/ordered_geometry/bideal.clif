@@ -9,9 +9,9 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/ordered_geometry/bideal.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ordered_geometry/bideal.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/ordered_geometry/wog.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ordered_geometry/wog.clif)
 
 (forall (x y z l)
 	(if	(and	(between x y z)

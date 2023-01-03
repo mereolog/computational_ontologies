@@ -8,11 +8,11 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mereotopology/rt_0.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereotopology/rt_0.clif
 
 (cl-comment 'axioms of the mereotopology rt_0')
 
-(cl-imports  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mereotopology/rt.clif)
+(cl-imports  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereotopology/rt.clif)
 
 (cl-comment 'A13: Existence of a smallest open neighborhood n(x) for every x')
 

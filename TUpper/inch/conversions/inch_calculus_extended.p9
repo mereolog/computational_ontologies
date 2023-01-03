@@ -1,7 +1,7 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/inch/inch_calculus_extended.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/inch/inch_calculus.clif").
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/inch_calculus_extended.clif
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/inch_calculus.clif").
 % 'corrected INCH Calculus with I-E1 to I-E2'
 % 'I-E1: an entity of maximal dimension exists'
  exists x (-(ZEXI(x)) &  all y ((-(ZEXI(y)) -> GED(y, x)))).

@@ -8,13 +8,13 @@
  *    Michael Gruninger, Carmen Chui
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/dolce_participation/dolce_participation.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/dolce_participation/dolce_participation.clif
 
 (cl-comment 'Source: WonderWeb Deliverable D18 Ontology Library final by: Claudio Masolo, Stefano Borgo, Aldo Gangemi, Nicola Guarino, and Alessandro Oltramari (2003).')
 (cl-comment 'Comment: DOLCE axioms from 4.3.4 Participation')
 
 (cl-comment 'Import the DOLCE present theory.')
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/dolce_present/dolce_present.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/dolce_present/dolce_present.clif)
 
 (cl-comment 'A33 to Ad37')
 (cl-comment 'Td6 to Td7')

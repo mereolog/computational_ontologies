@@ -10,7 +10,7 @@
  * note: letter cases preserved in accordance with OWL version
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/simple_event_model/sem_x.clif 
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/simple_event_model/sem_x.clif 
 
 	(cl-comment 'Thing and Nothing axioms removed 1-19')
 

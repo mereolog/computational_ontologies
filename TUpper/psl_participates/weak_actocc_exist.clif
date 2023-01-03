@@ -8,9 +8,9 @@
  *    Michael Gruninger, Carmen Chui
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_participates/weak_actocc_exist.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_participates/weak_actocc_exist.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_participates/psl_participates.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_participates/psl_participates.clif)
 
 (forall (o t)
 	(if	(and	(activity_occurrence o)

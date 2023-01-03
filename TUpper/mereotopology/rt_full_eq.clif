@@ -18,11 +18,11 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mereotopology/rt_full_eq.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereotopology/rt_full_eq.clif
 
 (cl-comment 'Complete set of axioms of the mereotopology RT0 based on the equational axiomatization of RT-')
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mereotopology/rt_minus_eq.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereotopology/rt_minus_eq.clif)
 
 (cl-comment 'Contact')
 

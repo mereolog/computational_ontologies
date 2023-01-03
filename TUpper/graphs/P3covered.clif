@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/graphs/P3covered.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/graphs/P3covered.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/graphs/graph_loops.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/graphs/graph_loops.clif)
 
 (forall (x y)
 	(if 	(forall (z)

@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/sum_arithmetic/definitions/sum_def.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/sum_arithmetic/definitions/sum_def.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/sum_arithmetic/sum_root.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/sum_arithmetic/sum_root.clif)
 
 (forall (x)
 	(iff	(= x zero)

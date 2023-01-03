@@ -8,9 +8,9 @@
  *    Riley Moher - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/ciro/ciro-status.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ciro/ciro-status.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/ciro/ciro-core.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ciro/ciro-core.clif)
 
 (cl-comment 'A Compliance issue or action plan has status Draft at a point in time if and only if there has been:
 no effective challenge occurrences applying to that issue/plan')

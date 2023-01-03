@@ -8,9 +8,9 @@
  *    Michael Gruninger, Bahar Ameri - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/rcc_continuous_process/definitions/rcc_process.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/rcc_continuous_process/definitions/rcc_process.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/rcc_continuous_process/rcc_state.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/rcc_continuous_process/rcc_state.clif)
 
 
 (forall (o)  

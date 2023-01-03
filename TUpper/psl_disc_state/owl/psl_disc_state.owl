@@ -1,11 +1,11 @@
 <?xml version="1.0" ?>
-<Ontology ontologyIRI="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_disc_state/owl/psl_disc_state.owl" 
-versionIRI="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_disc_state/owl/psl_disc_state.owl" 
-xml:base="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_disc_state/owl/psl_disc_state.owl#" 
+<Ontology ontologyIRI="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_disc_state/owl/psl_disc_state.owl" 
+versionIRI="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_disc_state/owl/psl_disc_state.owl" 
+xml:base="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_disc_state/owl/psl_disc_state.owl#" 
 xmlns="http://www.w3.org/2002/07/owl#">
         
             
-        <Prefix IRI="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_disc_state/owl/psl_disc_state.owl#" name=""/>
+        <Prefix IRI="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_disc_state/owl/psl_disc_state.owl#" name=""/>
         
             
         <Prefix IRI="http://www.w3.org/2002/07/owl#" name="owl"/>
@@ -22,8 +22,8 @@ xmlns="http://www.w3.org/2002/07/owl#">
             
         <Prefix IRI="http://www.w3.org/2000/01/rdf-schema#" name="rdfs"/>
         
-<Prefix name="occtree" IRI="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_occtree/owl/"/>
-<Import>https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/occtree/owl/psl_occtree.owl</Import>      
+<Prefix name="occtree" IRI="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_occtree/owl/"/>
+<Import>https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/occtree/owl/psl_occtree.owl</Import>      
 
 <ObjectPropertyDomain>
 <ObjectProperty IRI="prior"/>

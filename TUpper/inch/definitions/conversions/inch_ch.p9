@@ -1,7 +1,7 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/inch/definitions/inch_ch.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/inch/definitions/inch_ov.clif").
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/definitions/inch_ch.clif
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/definitions/inch_ov.clif").
 % 'I-D4: chunk (equidmensional part)'
  all x all y ((CH(x, y) <-> INCH(x, y) &  all z ((OV(x, z) -> OV(y, z))))).
 

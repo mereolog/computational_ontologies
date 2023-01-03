@@ -9,9 +9,9 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/matter/definitions/chunk_underlaps.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/matter/definitions/chunk_underlaps.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/matter/matter.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/matter/matter.clif)
 
 (cl-comment 'Underlaps for matter')
 (forall (x y)

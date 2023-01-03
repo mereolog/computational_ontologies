@@ -8,11 +8,11 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/between/veblen.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/veblen.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/between/infinite_bet.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/infinite_bet.clif)
 
-(cl-comment '(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/between/pasch.clif)')
+(cl-comment '(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/pasch.clif)')
 (cl-comment ‘A system of axioms for geometry’)
 
 (cl-comment ‘Axiom I’)

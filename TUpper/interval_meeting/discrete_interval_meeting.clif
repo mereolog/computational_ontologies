@@ -9,11 +9,11 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/interval_meeting/discrete_interval_meeting.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/interval_meeting/discrete_interval_meeting.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/interval_meeting/interval_meeting.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/interval_meeting/interval_meeting.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/interval_meeting/definitions/im_def.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/interval_meeting/definitions/im_def.clif)
 
 (forall (i)
 	(exists (j)

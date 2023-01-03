@@ -8,10 +8,10 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/shape/weak_box_edge.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/shape/weak_box_edge.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/shape/weak_card_edge.clif )
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/boxworld/boxworld_part.clif )
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/shape/weak_card_edge.clif )
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/boxworld/boxworld_part.clif )
         
 (forall (x s1 s2)
 (if	(and (box x) 

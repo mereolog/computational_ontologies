@@ -8,10 +8,10 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/onto_stit/agency.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/onto_stit/agency.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/onto_stit/action.clif)
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/onto_stit/outcome.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/onto_stit/action.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/onto_stit/outcome.clif)
 
 (forall (x y)
 (if	(ago x y)

@@ -8,12 +8,12 @@
  *    Torsten Hahmann - initial implementation
  * 
  * The original proof used the following as imports:
- * (cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/theorems/codi_down_theoremsEP-E3.clif)
- * (cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/theorems/codi_down_theoremsT11.clif)
+ * (cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/theorems/codi_down_theoremsEP-E3.clif)
+ * (cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/theorems/codi_down_theoremsT11.clif)
  *
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_space_codi/theorems/codi_down_theoremsPO-E1.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_codi/theorems/codi_down_theoremsPO-E1.clif
 
 
 (cl-comment 'parthood defined by PO')
