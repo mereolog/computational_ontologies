@@ -9,9 +9,9 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/graphs/weak_pseudocyclic_graph.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/graphs/weak_pseudocyclic_graph.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/graphs/undirected_graph.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/graphs/undirected_graph.clif)
 
 (forall (p1 p2 p4)
 	(if	(and	(adj p1 p2)

@@ -8,12 +8,12 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/discrete_chains_nofinal.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/orderings/discrete_chains_nofinal.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/minexists.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/orderings/minexists.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/nofinal.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/orderings/nofinal.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/discrete_chains.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/orderings/discrete_chains.clif)
 
 )

@@ -9,9 +9,9 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereology/comp_cmG_mereology.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mereology/comp_cmG_mereology.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereology/comp_cm_mereology.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mereology/comp_cm_mereology.clif)
 
 (cl-comment 'Existence of top element')
 (exists (x)

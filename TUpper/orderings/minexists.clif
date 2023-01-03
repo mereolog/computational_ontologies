@@ -8,11 +8,11 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/minexists.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/orderings/minexists.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/quasiorder.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/orderings/quasiorder.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/definitions/minimal.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/orderings/definitions/minimal.clif)
 
 (forall (x)
 	(exists (y)

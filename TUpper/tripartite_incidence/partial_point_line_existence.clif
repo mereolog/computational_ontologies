@@ -8,11 +8,11 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tripartite_incidence/partial_point_line_existence.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/tripartite_incidence/partial_point_line_existence.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tripartite_incidence/partial_tripartite.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/tripartite_incidence/partial_tripartite.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tripartite_incidence/weak_line_plane_existence.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/tripartite_incidence/weak_line_plane_existence.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tripartite_incidence/point_plane_existence.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/tripartite_incidence/point_plane_existence.clif)
 )

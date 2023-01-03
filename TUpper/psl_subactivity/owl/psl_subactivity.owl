@@ -1,11 +1,11 @@
 <?xml version="1.0" ?>
-<Ontology ontologyIRI="http://colore.oor.net/psl_subactivity/owl/psl_subactivity.owl" 
-versionIRI="http://colore.oor.net/psl_subactivity/owl/psl_subactivity.owl" 
-xml:base="http://colore.oor.net/psl_subactivity/owl/psl_subactivity.owl#" 
+<Ontology ontologyIRI="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_subactivity/owl/psl_subactivity.owl" 
+versionIRI="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_subactivity/owl/psl_subactivity.owl" 
+xml:base="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_subactivity/owl/psl_subactivity.owl#" 
 xmlns="http://www.w3.org/2002/07/owl#">
         
             
-        <Prefix IRI="http://colore.oor.net/psl_subactivity/owl/psl_subactivity.owl#" name=""/>
+        <Prefix IRI="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_subactivity/owl/psl_subactivity.owl#" name=""/>
         
             
         <Prefix IRI="http://www.w3.org/2002/07/owl#" name="owl"/>
@@ -22,8 +22,8 @@ xmlns="http://www.w3.org/2002/07/owl#">
             
         <Prefix IRI="http://www.w3.org/2000/01/rdf-schema#" name="rdfs"/>
         
-<Prefix name="pslcore" IRI="http://colore.oor.net/psl_core/owl/"/>
-<Import>http://colore.oor.net/psl_core/owl/psl_core.owl</Import>
+<Prefix name="pslcore" IRI="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_core/owl/"/>
+<Import>https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_core/owl/psl_core.owl</Import>
 
 
 <TransitiveObjectProperty>

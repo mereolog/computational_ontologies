@@ -9,10 +9,10 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combined_time/finite_mo_endpoints.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/combined_time/finite_mo_endpoints.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combined_time/finite_no_backwards.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/combined_time/finite_no_backwards.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combined_time/finite_moment.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/combined_time/finite_moment.clif)
 
 )

@@ -9,11 +9,11 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combinatorial_semigroup/sim_TCF.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/combinatorial_semigroup/sim_TCF.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combinatorial_semigroup/semigroup_gen.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/combinatorial_semigroup/semigroup_gen.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/magma/definitions/magma_defs.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/magma/definitions/magma_defs.clif)
 
 (forall (y z)
 	(not (generator (op y z))))

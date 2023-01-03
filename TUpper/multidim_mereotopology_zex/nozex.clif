@@ -8,7 +8,7 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_zex/nozex.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_zex/nozex.clif
 
 (cl-comment 'prohibits a special null region (zex)')
 

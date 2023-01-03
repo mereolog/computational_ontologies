@@ -8,9 +8,9 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/consistency/con_ucon_noticon.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/consistency/con_ucon_noticon.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/definitions/connected.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/definitions/connected.clif)
 
 
 

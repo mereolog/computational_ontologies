@@ -8,12 +8,12 @@
  *    Michael Gruninger, Carmen Chui
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/interval_psl/interval_mandatory.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/interval_psl/interval_mandatory.clif
 (cl-comment 'Time interval version of mandatory.')
 
 (cl-comment 'Import the interval version of PSL-core.')
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/interval_psl/interval_psl_core.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/interval_psl/interval_psl_core.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_core/mandatory.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_core/mandatory.clif)
 
 )

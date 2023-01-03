@@ -9,11 +9,11 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/planar_mereology/ideal_pm.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/planar_mereology/ideal_pm.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/planar_mereology/lower_pm.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/planar_mereology/lower_pm.clif)
 
-(cl-module point (cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereology/mereology_def.clif))
+(cl-module point (cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mereology/mereology_def.clif))
 
 (forall (x y z l)
         (if     (and    (point x)

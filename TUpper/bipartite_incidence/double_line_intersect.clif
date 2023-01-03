@@ -9,9 +9,9 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/double_line_intersect.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/bipartite_incidence/double_line_intersect.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/weak_bipartite.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/bipartite_incidence/weak_bipartite.clif)
 
 (forall (l1 l2 l3 p1 p2 p3 p4 p5 p6 p7)
 	(if	(and	(line l1)

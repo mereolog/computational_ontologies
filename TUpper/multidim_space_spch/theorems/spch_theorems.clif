@@ -8,9 +8,9 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_spch/theorems/spch_theorems.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_space_spch/theorems/spch_theorems.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_space/spch.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_space_space/spch.clif)
 
 
 (cl-comment 'CH-T1')

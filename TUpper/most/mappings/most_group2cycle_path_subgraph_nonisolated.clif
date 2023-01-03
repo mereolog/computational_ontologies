@@ -8,7 +8,7 @@
  *    Michael Gruninger, Carmen Chui
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/mappings/most_group2cycle_path_subgraph_nonisolated.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/most/mappings/most_group2cycle_path_subgraph_nonisolated.clif
 
 (cl-comment 'Translation definitions for most_group into cycle_path_subgraph_nonisolated.')
 

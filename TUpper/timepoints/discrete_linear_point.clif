@@ -8,11 +8,11 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/timepoints/discrete_linear_point.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/timepoints/discrete_linear_point.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/timepoints/linear_point.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/timepoints/linear_point.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/timepoints/lp_discrete.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/timepoints/lp_discrete.clif)
 
 )
 

@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/occupy/theorems/occupy2mapping_preserve/Delta7.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/occupy/theorems/occupy2mapping_preserve/Delta7.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/occupy/occupy_mereology/occupy_mereology.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/occupy/occupy_mereology/occupy_mereology.clif)
 
 (forall (x)
 	(iff	(point x)

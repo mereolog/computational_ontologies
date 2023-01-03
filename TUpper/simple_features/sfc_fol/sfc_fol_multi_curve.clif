@@ -9,11 +9,11 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/simple_features/sfc_fol/sfc_fol_multi_curve.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/simple_features/sfc_fol/sfc_fol_multi_curve.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/simple_features/sfc_core/sf_geometry_collection.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/simple_features/sfc_core/sf_geometry_collection.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_codi/definitions/multipart_curve.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_space_codi/definitions/multipart_curve.clif)
 
 (cl-comment 'SFC-M15')
 (forall (x)

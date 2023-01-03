@@ -8,13 +8,13 @@
  *    Carmen Chui, Michael Gruninger
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/interprets/ex0524_cycle_path_subgraph2most_root.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/most/interprets/ex0524_cycle_path_subgraph2most_root.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tripartite_incidence/cycle_path_subgraph.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/tripartite_incidence/cycle_path_subgraph.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/mappings/most_root_reduction.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/most/mappings/most_root_reduction.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/incidence_tri_td.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/most/incidence_tri_td.clif)
 
 (cl-comment 'Things to prove from most_root.')
 

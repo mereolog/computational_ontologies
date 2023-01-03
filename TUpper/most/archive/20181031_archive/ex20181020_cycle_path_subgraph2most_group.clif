@@ -1,8 +1,8 @@
 (cl-text ex20181017_reduction
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/experiments/cycle_path_subgraph_expanded_with_def.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/most/experiments/cycle_path_subgraph_expanded_with_def.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/mappings/cycle_path_subgraph2most_group.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/most/mappings/cycle_path_subgraph2most_group.clif)
 
 (cl-comment 'Things to prove from most_group')
 

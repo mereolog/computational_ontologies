@@ -9,9 +9,9 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereology/strong_company.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mereology/strong_company.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereology/definitions/ppart.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mereology/definitions/ppart.clif)
 
 (forall (x y)
 	(if	(ppart x y)

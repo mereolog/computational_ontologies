@@ -8,10 +8,10 @@
 * Carmen Chui, Michael Gruninger
 *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/definitions/2_2_dimethylebutane.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/most/definitions/2_2_dimethylebutane.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/definitions/most_shape.clif)
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/definitions/most_connections.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/most/definitions/most_shape.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/most/definitions/most_connections.clif)
 
 (cl-comment 'Chemical Name: 2_2_dimethylebutane')
 

@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/periods/periods_over_rationals.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/periods/periods_over_rationals.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/periods/mixed_periods.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/periods/mixed_periods.clif)
 
 (cl-comment 'DENS*')
 (forall	(x)

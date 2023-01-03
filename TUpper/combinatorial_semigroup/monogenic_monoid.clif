@@ -9,9 +9,9 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combinatorial_semigroup/monogenic_monoid.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/combinatorial_semigroup/monogenic_monoid.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combinatorial_semigroup/concat_quine_monoid.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/combinatorial_semigroup/concat_quine_monoid.clif)
 
 (forall (x y)
 	(if	(and	(generator x)

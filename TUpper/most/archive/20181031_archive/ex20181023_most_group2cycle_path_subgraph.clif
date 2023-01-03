@@ -6,7 +6,7 @@
 
 (cl-comment 'axioms to prove')
 
-(cl-comment 'https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tripartite_incidence/weak_tripartite.clif ')
+(cl-comment 'https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/tripartite_incidence/weak_tripartite.clif ')
 
 (forall (x y)
 	(if	(in x y)
@@ -50,13 +50,13 @@
 
 
 
-(cl-comment 'https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/graphical_incidence.clif ')
+(cl-comment 'https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/bipartite_incidence/graphical_incidence.clif ')
 
-(cl-comment 'https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/partial_bipartite.clif ')
+(cl-comment 'https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/bipartite_incidence/partial_bipartite.clif ')
 
-(cl-comment 'https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/double_points.clif ')
+(cl-comment 'https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/bipartite_incidence/double_points.clif ')
 
-(cl-comment 'https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/weak_bipartite.clif ')
+(cl-comment 'https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/bipartite_incidence/weak_bipartite.clif ')
 
 
 
@@ -89,9 +89,9 @@
 
 
 
-(cl-comment 'https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/partial_bipartite.clif ')
+(cl-comment 'https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/bipartite_incidence/partial_bipartite.clif ')
 
-(cl-comment 'https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/weak_bipartite.clif ')
+(cl-comment 'https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/bipartite_incidence/weak_bipartite.clif ')
 
 
 
@@ -103,9 +103,9 @@
 
 
 
-(cl-comment 'https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/double_points.clif ')
+(cl-comment 'https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/bipartite_incidence/double_points.clif ')
 
-(cl-comment ' https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/weak_bipartite.clif ')
+(cl-comment ' https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/bipartite_incidence/weak_bipartite.clif ')
 
 
 
@@ -123,19 +123,19 @@
 
 
 
-(cl-comment 'https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tripartite_incidence/weak_plane_subgraph.clif ')
+(cl-comment 'https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/tripartite_incidence/weak_plane_subgraph.clif ')
 
-(cl-comment ' https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/graphical_incidence.clif ')
+(cl-comment ' https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/bipartite_incidence/graphical_incidence.clif ')
 
-(cl-comment ' https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tripartite_incidence/transitive_tripartite.clif ')
+(cl-comment ' https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/tripartite_incidence/transitive_tripartite.clif ')
 
-(cl-comment ' https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tripartite_incidence/point_plane_existence.clif ')
+(cl-comment ' https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/tripartite_incidence/point_plane_existence.clif ')
 
 
 
-(cl-comment 'https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tripartite_incidence/transitive_tripartite.clif ')
+(cl-comment 'https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/tripartite_incidence/transitive_tripartite.clif ')
 
-(cl-comment ' https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tripartite_incidence/weak_tripartite.clif ')
+(cl-comment ' https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/tripartite_incidence/weak_tripartite.clif ')
 
 (forall (x y z)
 	(if	(and	(plane x)
@@ -147,9 +147,9 @@
 
 
 
-(cl-comment 'https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tripartite_incidence/point_plane_existence.clif ')
+(cl-comment 'https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/tripartite_incidence/point_plane_existence.clif ')
 
-(cl-comment ' https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tripartite_incidence/weak_tripartite.clif ')
+(cl-comment ' https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/tripartite_incidence/weak_tripartite.clif ')
 
 (forall (q)
 	(if	(plane q)

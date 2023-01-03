@@ -9,11 +9,11 @@
  *******************************************************************************/
  
 
-(cl-text  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/location_donnelly/definitions/donnelly_def.clif
+(cl-text  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/location_donnelly/definitions/donnelly_def.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/location_donnelly/donnelly_root.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/location_donnelly/donnelly_root.clif)
 
-(cl-text  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereology/definitions/mereology_def.clif
+(cl-text  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mereology/definitions/mereology_def.clif
 
 (forall (x y)
 	(iff	(Loc_In x y)

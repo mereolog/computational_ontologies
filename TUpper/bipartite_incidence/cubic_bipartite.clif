@@ -9,10 +9,10 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/cubic_bipartite.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/bipartite_incidence/cubic_bipartite.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/thick_points.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/bipartite_incidence/thick_points.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/triple_lines.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/bipartite_incidence/triple_lines.clif)
 
 )

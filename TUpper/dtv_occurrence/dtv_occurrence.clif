@@ -9,9 +9,9 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/dtv_occurrence/dtv_occurrence.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/dtv_occurrence/dtv_occurrence.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/dtv_dur_interval/dtv_dur_interval.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/dtv_dur_interval/dtv_dur_interval.clif)
 
 (forall ((o occurrence) (t 'time interval'))
 	(iff 	('occurrence occurs within time interval' o t)

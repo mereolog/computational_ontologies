@@ -1,8 +1,8 @@
 /** AUTOMATICALLY CREATED BY MACLEOD ON Tue Oct 01 15:36:45 2013**/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codib/consistency/closed_areal_region_all_nontrivial.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codib/consistency/closed_areal_region_all_nontrivial.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codib/definitions/closed_areal_region.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codib/definitions/closed_areal_region.clif)
 
 (exists (X0 X1)
   (and

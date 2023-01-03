@@ -8,9 +8,9 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/inch_calculus_extended_full.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/inch/inch_calculus_extended_full.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/inch_calculus_extended.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/inch/inch_calculus_extended.clif)
 
 (cl-comment 'I-E3')
 

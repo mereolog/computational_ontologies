@@ -8,10 +8,10 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
- (cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/approximate_point/ap_integer.clif
+ (cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/approximate_point/ap_integer.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/approximate_point/approximate_discrete_point.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/approximate_point/approximate_discrete_point.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/approximate_point/ap_interval.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/approximate_point/ap_interval.clif)
 
 )

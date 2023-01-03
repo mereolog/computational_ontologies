@@ -8,13 +8,13 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_actocc/multig_complex.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_actocc/multig_complex.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_actocc/mereo_subocc.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_actocc/mereo_subocc.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_subactivity/atomic_sub.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_subactivity/atomic_sub.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_core/occ_actocc.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_core/occ_actocc.clif)
 
 (forall (s o)
 	(if	(and	(subactivity_occurrence s o)

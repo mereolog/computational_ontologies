@@ -9,10 +9,10 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multigeometry/residuated_mapping.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multigeometry/residuated_mapping.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multigeometry/residuated.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multigeometry/residuated.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multigeometry/mapping_preserve.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multigeometry/mapping_preserve.clif)
 
 )

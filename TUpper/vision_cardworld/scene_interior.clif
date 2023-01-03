@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/vision_cardworld/scene_interior.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/vision_cardworld/scene_interior.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/vision_cardworld/fg.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/vision_cardworld/fg.clif)
 
 (cl-comment 'An edge is a boundary edge for a position iff the position lies on the figure side of the edge and there exists a point in the edge that is noncrossing with respect to the position.')
 (forall (e t) 

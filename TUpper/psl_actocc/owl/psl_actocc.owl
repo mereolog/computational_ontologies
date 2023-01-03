@@ -1,11 +1,11 @@
 <?xml version="1.0" ?>
-<Ontology ontologyIRI="http://colore.oor.net/psl_actocc/owl/psl_actocc.owl" 
-versionIRI="http://colore.oor.net/psl_actocc/owl/psl_actocc.owl" 
-xml:base="http://colore.oor.net/psl_actocc/owl/psl_actocc.owl#" 
+<Ontology ontologyIRI="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_actocc/owl/psl_actocc.owl" 
+versionIRI="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_actocc/owl/psl_actocc.owl" 
+xml:base="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_actocc/owl/psl_actocc.owl#" 
 xmlns="http://www.w3.org/2002/07/owl#">
         
             
-        <Prefix IRI="http://colore.oor.net/psl_actocc/owl/psl_actocc.owl#" name=""/>
+        <Prefix IRI="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_actocc/owl/psl_actocc.owl#" name=""/>
         
             
         <Prefix IRI="http://www.w3.org/2002/07/owl#" name="owl"/>
@@ -23,14 +23,14 @@ xmlns="http://www.w3.org/2002/07/owl#">
         <Prefix IRI="http://www.w3.org/2000/01/rdf-schema#" name="rdfs"/>
         
 
-<Prefix name="pslcore" IRI="http://colore.oor.net/psl_core/owl/"/>
-<Import>http://colore.oor.net/psl_core/owl/psl_core.owl</Import>
+<Prefix name="pslcore" IRI="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_core/owl/"/>
+<Import>https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_core/owl/psl_core.owl</Import>
 
-<Prefix name="subactivity" IRI="http://colore.oor.net/psl_subactivity/owl/"/>
-<Import>http://colore.oor.net/psl_subactivity/subactivity.owl</Import>
+<Prefix name="subactivity" IRI="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_subactivity/owl/"/>
+<Import>https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_subactivity/subactivity.owl</Import>
 
-<Prefix name="occtree" IRI="http://colore.oor.net/psl_occtree/owl/"/>
-<Import>http://colore.oor.net/occtree/owl/psl_occtree.owl</Import>
+<Prefix name="occtree" IRI="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_occtree/owl/"/>
+<Import>https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/occtree/owl/psl_occtree.owl</Import>
 
 
 <TransitiveObjectProperty>

@@ -8,9 +8,9 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between_quaternary/btw_orderable_theorems.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/between_quaternary/btw_orderable_theorems.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between_quaternary/btw_orderable.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/between_quaternary/btw_orderable.clif)
 
 
 (cl-comment 'separation property')

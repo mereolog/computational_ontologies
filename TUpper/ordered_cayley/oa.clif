@@ -9,11 +9,11 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ordered_cayley/oa.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/ordered_cayley/oa.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/discrete_forest.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/orderings/discrete_forest.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cayley_graph/free_semigroup_cayley.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/cayley_graph/free_semigroup_cayley.clif)
 
 (forall (x y z w)
 	(if	(apply y z w)

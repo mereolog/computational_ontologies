@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cardworld/cardworld_edge.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/cardworld/cardworld_edge.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cardworld/cardworld_part.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/cardworld/cardworld_part.clif)
 
 (cl-comment 'Each point is part of some edge.')
 (forall (p)

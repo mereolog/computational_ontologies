@@ -9,9 +9,9 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/definitions/incomparable.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/orderings/definitions/incomparable.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/quasiorder.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/orderings/quasiorder.clif)
 
 
 (forall (x y)

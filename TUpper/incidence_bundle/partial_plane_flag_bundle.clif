@@ -9,11 +9,11 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/incidence_bundle/partial_plane_flag_bundle.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/incidence_bundle/partial_plane_flag_bundle.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/incidence_bundle/partial_in_bundle.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/incidence_bundle/partial_in_bundle.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/incidence_bundle/plane_flag_bundle.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/incidence_bundle/plane_flag_bundle.clif)
 
 
 

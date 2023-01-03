@@ -6,10 +6,10 @@
  *
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_locations/psl_locations
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_locations/psl_locations
 
-(cl-imports  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/codi/codi_unbounded)
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_actocc/psl_actocc.clif)
+(cl-imports  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/codi/codi_unbounded)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_actocc/actocc.clif)
 
 (cl-comment 'ax1: sort axioms for location relations from codi')
 (cl-comment '< region ordering relation sort')

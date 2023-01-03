@@ -9,9 +9,9 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multigeometry/multi_reflect.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multigeometry/multi_reflect.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multigeometry/multi_g.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multigeometry/multi_g.clif)
 
 (forall (x y l1 l2)
 	(if	(and	(leq l1 l2)

@@ -8,13 +8,13 @@
  *	Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/contact_algebras/weak_boolean_contact_algebra.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/contact_algebras/weak_boolean_contact_algebra.clif
 
 (cl-comment 'Weak Boolean Contact algebra axioms')
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/contact_algebras/weak_contact_algebra.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/contact_algebras/weak_contact_algebra.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/contact_algebras/boolean_contact_algebra.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/contact_algebras/boolean_contact_algebra.clif)
 
 
 )

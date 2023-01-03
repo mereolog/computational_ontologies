@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
 *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/isolated_bipartite.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/bipartite_incidence/isolated_bipartite.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/weak_bipartite.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/bipartite_incidence/weak_bipartite.clif)
 
 (forall (x y)
   (if (and  (point x)

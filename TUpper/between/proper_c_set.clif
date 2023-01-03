@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/propert_c_set.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/between/propert_c_set.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/c_set_between.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/between/c_set_between.clif)
 
 (forall (b c)
 	(exists (a)

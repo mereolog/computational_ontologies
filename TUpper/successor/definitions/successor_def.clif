@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/successor/definitions/successor_def.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/successor/definitions/successor_def.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/successor/successor.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/successor/successor.clif)
 
 (forall (x)
 	(iff	(zero x)

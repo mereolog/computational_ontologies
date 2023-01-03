@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/time_interval_incidence/hayes_point_continuum.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/time_interval_incidence/hayes_point_continuum.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/timepoints/linear_point.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/timepoints/linear_point.clif)
 
 (forall (x y)
 	(if	(in x y) 

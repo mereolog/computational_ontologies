@@ -9,7 +9,7 @@
  *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/finite_pambuccian.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/between/finite_pambuccian.clif
 
 (forall (a b c)
 	(if	(between a b c)

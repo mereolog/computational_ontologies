@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
- (cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/approximate_point/finite_ap.clif
+ (cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/approximate_point/finite_ap.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/approximate_point/ap_def.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/approximate_point/ap_def.clif)
 
 (forall (x y z)
 (if	(and	(precedes x y)

@@ -3,8 +3,8 @@
 
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module http://colore.oor.net/multidim_mereotopology_codi/theorems/codi_pl_theorems.clif
-%imports("http://colore.oor.net/multidim_mereotopology_codi/codi_pl.clif").
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/theorems/codi_pl_theorems.clif
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/codi_pl.clif").
 % 'PL-T1'
  all x all y ((Pt(x) & Pt(y) -> EqDim(x, y))).
 % 'PL-T2'

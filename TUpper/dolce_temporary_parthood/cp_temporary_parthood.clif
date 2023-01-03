@@ -8,13 +8,13 @@
  *    Michael Gruninger, Carmen Chui
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/dolce_temporary_parthood/dolce_core_temporary_parthood.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/dolce_temporary_parthood/dolce_core_temporary_parthood.clif
 
 (cl-comment 'Import the DOLCE present theory.')
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/dolce_mereology/dolce_mereology.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/dolce_mereology/dolce_mereology.clif)
 
 (cl-comment 'Import the DOLCE temporary parthood theory.')
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/dolce_temporary_parthood/dolce_temporary_parthood.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/dolce_temporary_parthood/dolce_temporary_parthood.clif)
 
 (cl-comment 'This is a non-conservative extension of dolce_temporary_parthood. It imports dolce_mereology because of the P relation (part).')
 

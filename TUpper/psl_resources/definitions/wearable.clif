@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_resources/definitions/wearable.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_resources/definitions/wearable.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_resources/requires.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_resources/requires.clif)
 
 (cl-comment 'A resource r is wearable with respect to an activity a1 iff after the occurrence of a1 there is always a situation in every possible future where any other activity that requires r is no longer possible.')
 

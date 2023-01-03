@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/subgraph/collinear_incomparable.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/subgraph/collinear_incomparable.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/subgraph/subgraph_root.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/subgraph/subgraph_root.clif)
 
 (forall (l p1 p2)
 	(if	(and	(line 1)

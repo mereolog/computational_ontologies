@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/occupy/theorems/occupy2graph_hom/Delta8.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/occupy/theorems/occupy2graph_hom/Delta8.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/occupy/occupy_connection/occupy_connection.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/occupy/occupy_connection/occupy_connection.clif)
 
 (forall (x)
 	(iff	(point x)

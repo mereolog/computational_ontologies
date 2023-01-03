@@ -8,9 +8,9 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ordered_incidence_geometry/consistency/woig_nontrivial
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/ordered_incidence_geometry/consistency/woig_nontrivial
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ordered_incidence_geometry/woig)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/ordered_incidence_geometry/woig)
 
 (exists (x y z l p)
 	(and

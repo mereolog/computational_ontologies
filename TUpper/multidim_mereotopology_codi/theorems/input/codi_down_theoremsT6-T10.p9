@@ -1,7 +1,7 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module http://colore.oor.net/multidim_mereotopology_codi/theorems/codi_down_theoremsT11-T10.clif
-%imports("http://colore.oor.net/multidim_mereotopology_codi/theorems/codi_down_theoremsT11-10.clif").
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/theorems/codi_down_theoremsT11-T10.clif
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/theorems/codi_down_theoremsT11-10.clif").
 % 'Dif-T6: the difference x-y is the difference of x with the intersection xy: x-y = x-(xy)'
 % 'Dif-T6a: the difference x-y is the difference of x with the intersection xy, not automatically provable'
  all x all y all z ((P(z, difference(x, y)) -> P(z, difference(x, intersection(x, y))))).

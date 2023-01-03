@@ -9,9 +9,9 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/magma/definitions/magma_def.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/magma/definitions/magma_def.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/magma/quasigroup.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/magma/quasigroup.clif)
 
 (forall (x)
 	(iff	(identity x)

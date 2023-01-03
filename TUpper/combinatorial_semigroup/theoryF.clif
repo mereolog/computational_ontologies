@@ -9,9 +9,9 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combinatorial_semigroup/theoryF.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/combinatorial_semigroup/theoryF.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/magma/semigroup.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/magma/semigroup.clif)
 
 (forall (x y z)
 	(if	(= (op x y) (op x z))

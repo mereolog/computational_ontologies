@@ -1,10 +1,10 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module http://colore.oor.net/multidim_mereotopology_dim/defs/dim_defs.clif
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_dim/defs/dim_defs.clif
 % 'definitional extensions to basic axioms of dimensionality'
-%imports("http://colore.oor.net/multidim_mereotopology_dim/dim_basic.clif").
-%imports("http://colore.oor.net/multidim_mereotopology_dim/defs/min_max_dim.clif").
-%imports("http://colore.oor.net/multidim_mereotopology_dim/defs/dim_covers.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_dim/dim_basic.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_dim/defs/min_max_dim.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_dim/defs/dim_covers.clif").
 % 'D-D1: >'
  all x all y ((>(x, y) <-> <(y, x))).
 % 'D-D2: >='

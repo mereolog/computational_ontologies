@@ -8,9 +8,9 @@
  *    Michael Gruninger, Carmen Chui - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/nebesky_ternary/definitions/edge.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/nebesky_ternary/definitions/edge.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/nebesky_ternary/root.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/nebesky_ternary/root.clif)
 
 (cl-comment 'Edge definition')
 (forall (x y)

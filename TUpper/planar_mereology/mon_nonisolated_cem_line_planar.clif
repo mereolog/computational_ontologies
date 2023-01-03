@@ -9,10 +9,10 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/planar_mereology/mon_nonisolated_cem_line_planar.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/planar_mereology/mon_nonisolated_cem_line_planar.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/planar_mereology/nonisolated_cem_line_planar.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/planar_mereology/nonisolated_cem_line_planar.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/planar_mereology/mon_planar_mereology.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/planar_mereology/mon_planar_mereology.clif)
 
 )

@@ -9,9 +9,9 @@
  *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/weak_bipartite_process/definitions/weak_bipartite_process.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/weak_bipartite_process/definitions/weak_bipartite_process.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/weak_bipartite_process/weak_bipartite_state.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/weak_bipartite_process/weak_bipartite_state.clif)
  
 
 (forall (a) (iff    (change_point a) 

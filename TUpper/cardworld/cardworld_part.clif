@@ -9,7 +9,7 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cardworld/cardworld_part.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/cardworld/cardworld_part.clif
 
 (forall (x)
         (if     (point x)

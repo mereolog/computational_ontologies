@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/quivers/directed_multigraph.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/quivers/directed_multigraph.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/quivers/quiver.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/quivers/quiver.clif)
 
 (forall (e x)
 	(if	(edge e)

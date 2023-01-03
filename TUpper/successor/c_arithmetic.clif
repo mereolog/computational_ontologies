@@ -7,10 +7,10 @@
  * Contributors:
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/successor/c_arithmetic.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/successor/c_arithmetic.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/successor/no_min_succ.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/successor/no_min_succ.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/successor/no_max_succ.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/successor/no_max_succ.clif)
 
 )

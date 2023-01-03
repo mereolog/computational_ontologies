@@ -9,9 +9,9 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multigraphs/strong_edge_existence.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multigraphs/strong_edge_existence.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multigraphs/pseudograph.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multigraphs/pseudograph.clif)
 
 (forall (x)
 	(if	(vertex x)

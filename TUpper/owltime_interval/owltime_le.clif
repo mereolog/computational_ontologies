@@ -9,10 +9,10 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/owltime_interval/owltime_le.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/owltime_interval/owltime_le.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/owltime_interval/owltime_linear.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/owltime_interval/owltime_linear.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/owltime_interval/owltime_e.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/owltime_interval/owltime_e.clif)
 
 )

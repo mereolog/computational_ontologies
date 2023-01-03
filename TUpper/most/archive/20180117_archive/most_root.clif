@@ -8,9 +8,9 @@
 * Carmen Chui, Michael Gruninger
 *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/most_root.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/most/most_root.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/molecular_graph/definitions/most_graph.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/molecular_graph/definitions/most_graph.clif)
 
 (cl-comment 'If two groups are related by the mol relation, they are both the same group.')
 (forall (x y)

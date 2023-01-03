@@ -8,7 +8,7 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_occurrence/psl_occurrence.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_occurrence/psl_occurrence.clif
 
 (forall (x)
 (and (if (activity x)

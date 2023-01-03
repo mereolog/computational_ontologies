@@ -9,11 +9,11 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cayley_graph/monogenic_cayley.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/cayley_graph/monogenic_cayley.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cayley_graph/cayley_root.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/cayley_graph/cayley_root.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cayley_graph/definitions/cayley_def.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/cayley_graph/definitions/cayley_def.clif)
 
 (exists (x)
 	(and	(generator x)

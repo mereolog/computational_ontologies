@@ -9,12 +9,12 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereological_foliation/cem_downward_cem_foliation.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mereological_foliation/cem_downward_cem_foliation.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereological_foliation/cem_foliation.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mereological_foliation/cem_foliation.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereological_foliation/downward_m_foliation.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mereological_foliation/downward_m_foliation.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereological_geometry/cem_wmg.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mereological_geometry/cem_wmg.clif)
 
 )

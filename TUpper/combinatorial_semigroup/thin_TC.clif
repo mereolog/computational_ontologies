@@ -9,11 +9,11 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combinatorial_semigroup/thin_TC.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/combinatorial_semigroup/thin_TC.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combinatorial_semigroup/TC.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/combinatorial_semigroup/TC.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combinatorial_semigroup/definitions/words_def.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/combinatorial_semigroup/definitions/words_def.clif)
 
 (forall (x)
 	(thin_word x))

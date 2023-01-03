@@ -1,6 +1,6 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module http://colore.oor.net/between_quaternary/btw_basic.clif
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/between_quaternary/btw_basic.clif
 % 'basic axioms of quaternary betweenness'
 % 'B-A1: strong = irreflexive'
  all r all a all b all c ((Btw(r, a, b, c) -> -((a = b)) & -((a = c)) & -((b = c)))).

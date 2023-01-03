@@ -9,7 +9,7 @@
  *    Torsten Hahmann - revised modularization
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/simple_features/sfc_fol/sfc_simple_features.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/simple_features/sfc_fol/sfc_simple_features.clif
 
 
 (cl-comment 'This file imports all the simple features and their mappings to CODIB defined in SFC-FOL. The secondary features are left out, they are imported in the logical extension .... of this ontology.')
@@ -25,55 +25,55 @@
 )
 (cl-comment 'SFC-M2')
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/simple_features/sfc_fol/sfc_fol_point.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/simple_features/sfc_fol/sfc_fol_point.clif)
 
 (cl-comment 'SFC-M3 to SFC-M5')
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/simple_features/sfc_fol/sfc_fol_curve.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/simple_features/sfc_fol/sfc_fol_curve.clif)
 
 (cl-comment 'SFC-T1 and SFT-T2')
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/simple_features/sfc_fol/theorems/sf_curve_fol_theorems.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/simple_features/sfc_fol/theorems/sf_curve_fol_theorems.clif)
 
 
 (cl-comment 'SFC-M6')
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/simple_features/sfc_fol/sfc_fol_surface.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/simple_features/sfc_fol/sfc_fol_surface.clif)
 
 
 (cl-comment 'SFC-T3')
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/simple_features/sfc_fol/theorems/sf_line_string_fol_theorems.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/simple_features/sfc_fol/theorems/sf_line_string_fol_theorems.clif)
 
 
 (cl-comment 'SFC-M7')
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/simple_features/sfc_fol/sfc_fol_line.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/simple_features/sfc_fol/sfc_fol_line.clif)
 
 
 (cl-comment 'SFC-M8')
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/simple_features/sfc_fol/sfc_fol_linear_ring.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/simple_features/sfc_fol/sfc_fol_linear_ring.clif)
 
 
 (cl-comment 'SFC-M9')
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/simple_features/sfc_fol/sfc_fol_polygon.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/simple_features/sfc_fol/sfc_fol_polygon.clif)
 
 
 (cl-comment 'SFC-M10')
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/simple_features/sfc_fol/sfc_fol_polyhedral_surface.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/simple_features/sfc_fol/sfc_fol_polyhedral_surface.clif)
 
 
 (cl-comment 'SFC-M11')
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/simple_features/sfc_fol/sfc_fol_triangle.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/simple_features/sfc_fol/sfc_fol_triangle.clif)
 
 
 (cl-comment 'SFC-M12')
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/simple_features/sfc_fol/sfc_fol_tin.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/simple_features/sfc_fol/sfc_fol_tin.clif)
 
 
 

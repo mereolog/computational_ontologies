@@ -8,11 +8,11 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/consistency/inch_calculus_extended_notI-E3.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/inch/consistency/inch_calculus_extended_notI-E3.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/inch_calculus_extended.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/inch/inch_calculus_extended.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/mappings/inch2codi.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/inch/mappings/inch2codi.clif)
 
 
 (not (exists (y)

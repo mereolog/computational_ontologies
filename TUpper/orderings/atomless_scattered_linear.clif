@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/atomless_scattered_linear.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/orderings/atomless_scattered_linear.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/bounded_linear_order.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/orderings/bounded_linear_order.clif)
 
 (forall (x y)
 	(if	(and	(lt x y)

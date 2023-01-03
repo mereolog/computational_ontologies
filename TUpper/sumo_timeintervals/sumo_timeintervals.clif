@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/sumo_timeintervals/sumo_timeintervals.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/sumo_timeintervals/sumo_timeintervals.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/sumo_timepoints/sumo_ordered_timepoints.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/sumo_timepoints/sumo_ordered_timepoints.clif)
 
 (forall (x)
 	(if	(TimeInterval x)

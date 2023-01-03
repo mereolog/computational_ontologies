@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/shape/polyworld_order.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/shape/polyworld_order.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/shape/polyworld_part.clif )
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/shape/polyworld_part.clif )
 
 (forall (b1 b2 b3)
 (if     (xbetween b1 b2 b3)

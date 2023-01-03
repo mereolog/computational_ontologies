@@ -8,10 +8,10 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/gwml2/definitions/module14.clif
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/gwml2/definitions/module13.clif)
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/gwml2/definitions/module11.clif)
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/gwml2/module9.clif)
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/gwml2/definitions/module14.clif
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/gwml2/definitions/module13.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/gwml2/definitions/module11.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/gwml2/module9.clif)
 
 
 (cl-comment 'WWB-D')

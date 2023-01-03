@@ -8,7 +8,7 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/sumo/sumo_temporalPart
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/sumo/sumo_temporalPart
 
 (forall (x y)
 	(if	(overlapsTemporally x y)

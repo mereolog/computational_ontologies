@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/vision_cardworld/fg.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/vision_cardworld/fg.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/vision_cardworld/scene.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/vision_cardworld/scene.clif)
 
 (forall (e t v) 
 	(iff 	(meet e t v) 

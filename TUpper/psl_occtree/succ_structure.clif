@@ -8,7 +8,7 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_occtree/succ_structure.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_occtree/succ_structure.clif
 
 
 (forall (s1 s2 s3)

@@ -8,13 +8,13 @@
  *	Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/contact_algebras/contact_algebra.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/contact_algebras/contact_algebra.clif
 
 (cl-comment 'axioms of a (pseudocomplemented) contact algebra')
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/contact_algebras/distributive_contact_algebra.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/contact_algebras/distributive_contact_algebra.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/lattices/pseudo_complemented_lattice.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/lattices/pseudo_complemented_lattice.clif)
 
 
 )

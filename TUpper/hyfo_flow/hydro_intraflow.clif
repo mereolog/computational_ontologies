@@ -1,8 +1,8 @@
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/hydrologicFlow/hydro_intraflow.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/hydrologicFlow/hydro_intraflow.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/hydrologicFlow/hydro_flow.clif)
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/hydrologicFlow/hydro_flow_participation.clif)
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/hydrologicFlow/subsurface_zones.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/hydrologicFlow/hydro_flow.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/hydrologicFlow/hydro_flow_participation.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/hydrologicFlow/subsurface_zones.clif)
 
 
 (cl-comment 'HF-A2: The source and goal participants are identical in intraflow')

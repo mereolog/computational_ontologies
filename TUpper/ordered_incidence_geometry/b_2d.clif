@@ -8,7 +8,7 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ordered_incidence_geometry/b_2d
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/ordered_incidence_geometry/b_2d
 
 (cl-comment 'basic axioms of betweenness in 2D incidence geometry')
 

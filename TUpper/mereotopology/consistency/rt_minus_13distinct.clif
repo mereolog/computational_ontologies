@@ -18,11 +18,11 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereotopology/consistency/rt_minus_13distinct
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mereotopology/consistency/rt_minus_13distinct
 
 (cl-comment 'restricting the RTminus theory to exactly 13 distinct elements')
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereotopology/rt_minus)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mereotopology/rt_minus)
 
 (forall (x)
 	(or

@@ -9,11 +9,11 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/owltime_interval/vila.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/owltime_interval/vila.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/owltime_instants/owltime_instant_l.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/owltime_instants/owltime_instant_l.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/owltime_instants/owltime_instants_infinite.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/owltime_instants/owltime_instants_infinite.clif)
 
 (forall (i p)
 	(if	(begins i p)

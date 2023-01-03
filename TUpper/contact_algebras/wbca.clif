@@ -8,12 +8,12 @@
  *	Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/contact_algebras/wbca.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/contact_algebras/wbca.clif
 
 (cl-comment 'Weak Boolean Contact algebra axioms (as defined in Hahmann and Gruninger, Notre Dame J. Formal Logic 2013)')
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/contact_algebras/spoca.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/contact_algebras/spoca.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/lattices/Uni.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/lattices/Uni.clif)
 
 )

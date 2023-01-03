@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/vision_cardworld/wdtr.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/vision_cardworld/wdtr.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/vision_cardworld/occludes.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/vision_cardworld/occludes.clif)
 
 (forall (r s l e)
 	(if	(and	(depict r s)

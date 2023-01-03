@@ -9,11 +9,11 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combinatorial_semigroup/definitions/words_def.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/combinatorial_semigroup/definitions/words_def.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combinatorial_magma/semigroup_gen.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/combinatorial_magma/semigroup_gen.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/magma/definitions/magma_defs.clif
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/magma/definitions/magma_defs.clif
 
 (forall (x y)
 	(iff	(subword x y)

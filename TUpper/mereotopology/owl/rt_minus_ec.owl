@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<Ontology ontologyIRI="http://colore.oor.net/mereotopology/rt_minus_ec.owl" versionIRI="http://colore.oor.net/mereotopology/rt_minus_ec.owl" xml:base="http://colore.oor.net/mereotopology/rt_minus_ec.owl#" xmlns="http://www.w3.org/2002/07/owl#">
+<Ontology ontologyIRI="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mereotopology/rt_minus_ec.owl" versionIRI="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mereotopology/rt_minus_ec.owl" xml:base="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mereotopology/rt_minus_ec.owl#" xmlns="http://www.w3.org/2002/07/owl#">
 	
             
-	<Prefix IRI="http://colore.oor.net/mereotopology/rt_minus_ec.owl#" name=""/>
+	<Prefix IRI="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mereotopology/rt_minus_ec.owl#" name=""/>
 	
             
 	<Prefix IRI="http://www.w3.org/2002/07/owl#" name="owl"/>

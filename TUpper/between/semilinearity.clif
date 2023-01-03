@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/semilinearity.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/between/semilinearity.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/weak_between.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/between/weak_between.clif)
 
 (forall (x y z w)
         (if     (between y x z)

@@ -1,7 +1,7 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module http://colore.oor.net/multidim_mereotopology_dim/theorems/dim_eqdimpossible_theorems.clif
-%imports("http://colore.oor.net/multidim_mereotopology_dim/defs/dim_defs.clif").
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_dim/theorems/dim_eqdimpossible_theorems.clif
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_dim/defs/dim_defs.clif").
 % 'D-T1: EqDimPossible reflexive'
  all x (EqDimPossible(x, x)).
 % 'D-T2: EqDimPossible symmetric'

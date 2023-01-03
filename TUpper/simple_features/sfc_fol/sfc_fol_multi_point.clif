@@ -9,13 +9,13 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/simple_features/sfc_fol/sfc_fol_multi_point.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/simple_features/sfc_fol/sfc_fol_multi_point.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/simple_features/sfc_core/sf_geometry_collection.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/simple_features/sfc_core/sf_geometry_collection.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_codi/definitions/point_region.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_space_codi/definitions/point_region.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_codi/definitions/point.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_space_codi/definitions/point.clif)
 
 (cl-comment 'SFC-M14: Simple Feature Multipoint is a PointRegion that is not a point')
 

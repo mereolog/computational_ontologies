@@ -9,9 +9,9 @@
  *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/occupy/region_connection/region_connection.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/occupy/region_connection/region_connection.clif
 
-(cl-domain region (cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereotopology/connection.clif))
+(cl-domain region (cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mereotopology/connection.clif))
 
 (forall (x y)
 	(if	(spatial_C x y)

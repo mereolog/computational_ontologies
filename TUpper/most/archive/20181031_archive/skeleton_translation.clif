@@ -1,4 +1,4 @@
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/skeleton_translation.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/most/skeleton_translation.clif
 
 (cl-comment 'Translation of skeleton-related axioms found in MoSt into quad-incidence terminology.')
 (cl-comment 'Axiom numbers and comments refer to the original identifiers and comments in MoSt.')

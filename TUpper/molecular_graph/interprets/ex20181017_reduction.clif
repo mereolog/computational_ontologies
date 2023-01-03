@@ -1,8 +1,8 @@
 (cl-text ex20181017_reduction
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/molecular_graph/experiments/nonisolated_loopless_expanded.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/molecular_graph/experiments/nonisolated_loopless_expanded.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/molecular_graph/mappings/nonisolated_loopless2most_graph.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/molecular_graph/mappings/nonisolated_loopless2most_graph.clif)
 
 (cl-comment 'Things to prove from most_graph')
 

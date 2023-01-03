@@ -8,12 +8,12 @@
  *    Michael Gruninger, Carmen Chui
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combined_time/moment_with_endpoints.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/combined_time/moment_with_endpoints.clif
 
 (cl-comment 'Imports the interval with endpoints theory.')
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combined_time/interval_with_endpoints.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/combined_time/interval_with_endpoints.clif)
 
 (cl-comment 'Imports the moment theory.')
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combined_time/finite_moment.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/combined_time/finite_moment.clif)
 
 )

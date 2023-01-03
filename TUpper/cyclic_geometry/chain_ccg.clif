@@ -9,10 +9,10 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cyclic_geometry/chain_ccg.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/cyclic_geometry/chain_ccg.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cyclic_ordering/cyclic_chains.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/cyclic_ordering/cyclic_chains.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cyclic_geometry/ccg.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/cyclic_geometry/ccg.clif)
 
 )

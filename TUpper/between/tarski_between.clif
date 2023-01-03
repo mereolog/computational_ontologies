@@ -8,7 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/tarski_between.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/between/tarski_between.clif
+
+(cl-comment 'tarski’s system of geometry’)
 
 (cl-comment 'Givant:Ax6, Tarski59:A1')
 (forall (x y)

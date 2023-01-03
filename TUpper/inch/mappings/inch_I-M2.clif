@@ -8,7 +8,7 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/mappings/inch_I-M2.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/inch/mappings/inch_I-M2.clif
 
 (cl-comment 'I-M2: mapping of ZEXI to ZEX')
 

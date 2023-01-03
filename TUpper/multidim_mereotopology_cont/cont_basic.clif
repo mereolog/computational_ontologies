@@ -8,7 +8,7 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_cont/cont_basic.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_cont/cont_basic.clif
 
 (cl-comment 'basic axioms of containment (parthood irrespective of dimension) which is a non-strict partial order')
 

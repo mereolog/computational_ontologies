@@ -9,11 +9,11 @@
 *******************************************************************************/
 
 
-(cl-text  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combined_mereotopology/definitions/EC.clif
+(cl-text  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/combined_mereotopology/definitions/EC.clif
 
-(cl-imports  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combined_mereotopology/mt.clif)
+(cl-imports  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/combined_mereotopology/mt.clif)
 
-(cl-imports  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereology/definitions/overlaps.clif)
+(cl-imports  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mereology/definitions/overlaps.clif)
 
 %External Connection
 (forall (x y)

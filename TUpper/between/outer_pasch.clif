@@ -9,7 +9,7 @@
  *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/outer_pasch.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/between/outer_pasch.clif
 
 (cl-comment 'A1')
 (forall (a b c)

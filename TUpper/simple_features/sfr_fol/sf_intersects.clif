@@ -8,11 +8,11 @@
  *    Shirly Stephen - initial implementation
  *    Torsten Hahmann - initial implementation *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/simple_features/sfr_fol/sf_intersects.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/simple_features/sfr_fol/sf_intersects.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/simple_features/sfc_core/definitions/sf_geometry.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/simple_features/sfc_core/definitions/sf_geometry.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/simple_features/sfr_fol/sf_disjoint.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/simple_features/sfr_fol/sf_disjoint.clif)
 
 
 (cl-comment 'SFR-M8: note that this is changed from the axiom presented in the paper because we still need to ensure that the relation is only applied to entities of type sf_geometry')

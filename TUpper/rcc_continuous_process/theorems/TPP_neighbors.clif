@@ -8,9 +8,9 @@
  *    Michael Gruninger, Bahar Aameri - initial implementation
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/rcc_continuous_process/theorems/TPP_neighbors.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/rcc_continuous_process/theorems/TPP_neighbors.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/rcc_continuous_process/rcc_continuous_process.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/rcc_continuous_process/rcc_continuous_process.clif)
 
 
 (forall (o x y)  

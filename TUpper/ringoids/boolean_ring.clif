@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ringoids/boolean_ring.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/ringoids/boolean_ring.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ringoids/ring.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/ringoids/ring.clif)
 
 (forall (x)
 	(= (prod x x) x))

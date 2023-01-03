@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/occupy/theorems/mereograph2physical/Pi6.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/occupy/theorems/mereograph2physical/Pi6.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereograph/mereograph.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mereograph/mereograph.clif)
 
 (forall (x)
 	(iff	(physical_object x)

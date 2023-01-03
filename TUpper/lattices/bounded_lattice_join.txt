@@ -8,13 +8,13 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text http://colore.oor.net/lattices/bounded_lattice_join
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/lattices/bounded_lattice_join
 
-(cl-imports http://colore.oor.net/lattices/lattice)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/lattices/lattice)
 
-(cl-imports http://colore.oor.net/lattices/definitions/zero.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/lattices/definitions/zero.clif)
 
-(cl-imports http://colore.oor.net/lattices/definitions/one.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/lattices/definitions/one.clif)
 
 
 (cl-comment "Bounded lattice axioms expressed in terms of join")

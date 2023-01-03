@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/occupy/theorems/physical2partial_ordering/Delta4.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/occupy/theorems/physical2partial_ordering/Delta4.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/occupy/physical_mereology/physical_mereology.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/occupy/physical_mereology/physical_mereology.clif)
 
 (forall (x)
 	(iff	(= x x)

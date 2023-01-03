@@ -9,9 +9,9 @@
  *******************************************************************************/
  
 
-(cl-text  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/owltime_eventuality/eventuality.clif
+(cl-text  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/owltime_eventuality/eventuality.clif
 
-(cl-imports  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/owltime_inside/owltime_inside.clif)
+(cl-imports  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/owltime_inside/owltime_inside.clif)
 
 (forall (e t)
 	(if	(atTime e t)

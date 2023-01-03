@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/magma/commutative_magma.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/magma/commutative_magma.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/magma/magma.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/magma/magma.clif)
 
 (forall (x y)
 	(= (op x y) (op y x)))

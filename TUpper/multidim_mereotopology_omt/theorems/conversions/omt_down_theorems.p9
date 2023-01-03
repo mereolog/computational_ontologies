@@ -1,7 +1,7 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% 'http://colore.oor.net/multidim_mereotopology_omt/omt_down_theorems.clif'
-% imports("http://colore.oor.net/multidim_mereotopology_omt/omt_down.clif").
+% 'https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_omt/omt_down_theorems.clif'
+% imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_omt/omt_down.clif").
  all r all x all y all z ((Btw(r, x, y, z) -> -(ZEX(r)))).
  all r all x all y all z ((Btw(r, x, y, z) -> -(ZEX(x)))).
  all r all x all y all z ((Btw(r, x, y, z) -> -(ZEX(y)))).

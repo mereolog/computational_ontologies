@@ -9,9 +9,9 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/quivers/simple_digraph.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/quivers/simple_digraph.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/quivers/simple_quiver.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/quivers/simple_quiver.clif)
 
 (forall (e x y)
 	(if	(arc e x y)

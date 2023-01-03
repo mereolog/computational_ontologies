@@ -8,8 +8,8 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/gwml2/module4.clif
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/gwml2/module3.clif)
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/gwml2/module4.clif
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/gwml2/module3.clif)
 
 (cl-comment 'HRB-A1')
 (cl-comment 'Hydro Rock Body specializes Geologic Unit')

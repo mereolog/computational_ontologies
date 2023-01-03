@@ -8,10 +8,12 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/weak_fishburn.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/between/weak_fishburn.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/semi_fishburn.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/between/semi_fishburn.clif)
+(cl-comment ‘from Interval Orders and Graphs, page 57-60’)
 
+(cl-comment ‘A6’)
 (forall (x y z a)
 	(if	(and	(between x y z)
 			(not	(between a y z)))

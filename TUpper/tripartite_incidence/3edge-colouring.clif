@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tripartite_incidence/3edge_colouring.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/tripartite_incidence/3edge_colouring.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tripartite_incidence/edge_colouring.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/tripartite_incidence/edge_colouring.clif)
 
 (exists (q1 q2 q3)
 	(and	(matching q1)

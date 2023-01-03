@@ -9,12 +9,18 @@
  *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/bet_ps.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/between/bet_ps.clif
 
+(cl-comment ‘Transitivities of Betweenness’)
+(cl-comment ‘Lattice Betweenness section’) 
+
+(cl-comment ‘if L is a lattice then its betweenness relation satisfies 𝛼 and 𝛽, and transitivity T6’)
+(cl-comment ‘𝛼’)
 (forall (x y z)
 	(if	(between x y z)
 		(between z y x)))
 
+(cl-comment ‘𝛽’)
 (forall (x y z)
 	(iff	(and	(between x y z)
 			(between x z y))

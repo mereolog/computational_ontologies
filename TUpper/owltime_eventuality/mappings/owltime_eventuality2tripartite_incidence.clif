@@ -1,5 +1,5 @@
 
-(cl-text  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/owltime_eventuality/mappings/owltime_eventuality2planar_geometry.clif
+(cl-text  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/owltime_eventuality/mappings/owltime_eventuality2planar_geometry.clif
 
 (forall (x)
         (iff    (point x)

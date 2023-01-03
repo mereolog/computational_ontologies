@@ -8,12 +8,12 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_codib/theorems/simple_curve_segment_theorems.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_space_codib/theorems/simple_curve_segment_theorems.clif
 
 (cl-imports
-https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_codib/definitions/simple_curve_segment.clif)
+https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_space_codib/definitions/simple_curve_segment.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_codib/definitions/branchpoint.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_space_codib/definitions/branchpoint.clif)
 
 
 (cl-comment 'Because a simple curve segment is simple, i.e., not branched, it cannot contain branch points.')

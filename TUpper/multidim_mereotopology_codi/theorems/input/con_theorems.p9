@@ -1,12 +1,12 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module http://colore.oor.net/multidim_mereotopology_codi/theorems/con_theorems.clif
-%imports("http://colore.oor.net/multidim_mereotopology_codi/codi_down.clif").
-%imports("http://colore.oor.net/multidim_mereotopology_codi/defs/connected.clif").
-%imports("http://colore.oor.net/multidim_mereotopology_codi/defs/po.clif").
-%imports("http://colore.oor.net/multidim_mereotopology_codi/defs/inc.clif").
-%imports("http://colore.oor.net/multidim_mereotopology_codi/defs/sc.clif").
-%imports("http://colore.oor.net/multidim_mereotopology_codi/defs/min_max_in_dim.clif").
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/theorems/con_theorems.clif
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/codi_down.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/defs/connected.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/defs/po.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/defs/inc.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/defs/sc.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/defs/min_max_in_dim.clif").
 % 'Defining when an entity is self-connected'
 % 'Con-T1: all minimal entities are connected'
  all x ((Min(x) -> Con(x))).

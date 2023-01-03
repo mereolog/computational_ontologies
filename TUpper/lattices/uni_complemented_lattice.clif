@@ -8,9 +8,9 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/lattices/uni_complemented_lattice.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/lattices/uni_complemented_lattice.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/lattices/complemented_lattice.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/lattices/complemented_lattice.clif)
 
 (cl-comment 'Uniquely complemented lattice axioms')
 

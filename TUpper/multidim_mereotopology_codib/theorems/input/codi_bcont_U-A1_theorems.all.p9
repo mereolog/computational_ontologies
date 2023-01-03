@@ -3,8 +3,8 @@
 
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module http://colore.oor.net/multidim_mereotopology_codib/codi_bcont_U-A1_theorems.clif
-%imports("http://colore.oor.net/multidim_mereotopology_codib/codi_bcont_U-A1.clif").
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codib/codi_bcont_U-A1_theorems.clif
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codib/codi_bcont_U-A1.clif").
 % 'BC-T4'
  all x all y all z ((SC(x, y) & Min(x) & MaxDim(x) & Cont(z, x) & Cont(z, y) -> BCont(z, x))).
 

@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
- (cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/approximate_point/ordered_ap.clif
+ (cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/approximate_point/ordered_ap.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/approximate_point/approximate_point.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/approximate_point/approximate_point.clif)
 
 (cl-comment 'Glb')
 (forall (x y z)

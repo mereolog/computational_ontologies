@@ -11,13 +11,13 @@
  * 
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/transportation/transportation_network.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/transportation/transportation_network.clif
 
 (cl-comment 'The epp.clif theory is a definitional extension of codi_linear that defines parthood, P, and proper parthood, PP, as equidimensional containment')
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/definitions/epp.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/definitions/epp.clif)
 
 (cl-comment 'The curve.clif theory defines 1d and 0d elements in CODI')
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/definitions/curve.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/definitions/curve.clif)
 (cl-comment 'network structure axioms: reused and renamed from directed_multigraph.clif')
 (forall (e x)
 	(if	(edge e)

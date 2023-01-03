@@ -8,11 +8,11 @@
  *    Michael Gruninger - initial implementation
 *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/density/density.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/density/density.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mass/amount.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mass/amount.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/size/spatial_volume.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/size/spatial_volume.clif)
 
 (forall (v m)
 	(iff	(density (dmv v m))

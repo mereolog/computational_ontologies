@@ -8,7 +8,7 @@
  *	Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/contact_algebras/M-C.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/contact_algebras/M-C.clif
 
 (forall (x z)
 	(iff

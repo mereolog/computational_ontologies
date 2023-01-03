@@ -8,11 +8,11 @@
  *    Michael Gruninger - initial implementation
 *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/duration/point_duration.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/duration/point_duration.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/timepoints/linear_point.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/timepoints/linear_point.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/duration/timeduration.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/duration/timeduration.clif)
 
 (forall (x)
 	(if	(timepoint x)

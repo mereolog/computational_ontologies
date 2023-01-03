@@ -8,6 +8,6 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/iof/test.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/iof/test.clif
 
 )

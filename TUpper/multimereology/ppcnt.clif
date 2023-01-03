@@ -9,7 +9,7 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multimereology/ppcnt.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multimereology/ppcnt.clif
 
 (forall (x y)
 	(if	(pp x y)

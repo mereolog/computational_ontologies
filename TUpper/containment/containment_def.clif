@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
 *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/containment/containment_def.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/containment/containment_def.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/occupy/occupy_root.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/occupy/occupy_root.clif)
 
 (forall (x y)
         (iff	(containedIn x y)

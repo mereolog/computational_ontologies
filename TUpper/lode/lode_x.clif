@@ -10,7 +10,7 @@
  * note: letter cases preserved in accordance with OWL version
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/lode/lode_x.clif 
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/lode/lode_x.clif 
 	(cl-comment 'Thing and Nothing axioms removed 1-14')
 
 	(cl-comment 'datatype property axioms removed 15-64')             

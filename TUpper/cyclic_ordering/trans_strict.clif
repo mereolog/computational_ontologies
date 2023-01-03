@@ -9,10 +9,10 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cyclic_ordering/trans_strict.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/cyclic_ordering/trans_strict.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cyclic_ordering/transitive_cyclic.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/cyclic_ordering/transitive_cyclic.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cyclic_ordering/strict_cyclic.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/cyclic_ordering/strict_cyclic.clif)
 
 )

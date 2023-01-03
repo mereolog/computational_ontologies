@@ -3,10 +3,10 @@
 
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module http://colore.oor.net/multidim_mereotopology_codib/consistency/codib_down_nontrivial_icon.clif
-%imports("http://colore.oor.net/multidim_mereotopology_codib/codib_down.clif").
-%imports("http://colore.oor.net/multidim_mereotopology_codi/defs/epp.clif").
-%imports("http://colore.oor.net/multidim_mereotopology_codi/defs/icon.clif").
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codib/consistency/codib_down_nontrivial_icon.clif
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codib/codib_down.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/defs/epp.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/defs/icon.clif").
  exists x (ICon(x) & -(Min(x)) & MaxDim(x)).
 
 
@@ -14,12 +14,12 @@ formulas(sos).
 %----------------------------------
 
 % Automatically generated from CL/KIF
-% Module http://colore.oor.net/multidim_mereotopology_codib/codib_down.clif
-%imports("http://colore.oor.net/multidim_mereotopology_codib/codib.clif").
-%imports("http://colore.oor.net/multidim_mereotopology_codi/codi_down.clif").
-%imports("http://colore.oor.net/multidim_mereotopology_codi/codi_basic_atomic.clif").
-%imports("http://colore.oor.net/multidim_mereotopology_codib/defs/icont.clif").
-%imports("http://colore.oor.net/multidim_mereotopology_codib/defs/tcont.clif").
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codib/codib_down.clif
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codib/codib.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/codi_down.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/codi_basic_atomic.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codib/defs/icont.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codib/defs/tcont.clif").
 % 'BC-A6'
  all x all y ((BCont(x, y) <-> -(ZEX(x)) &  all z ((P(z, x) & Min(z) -> BCont(z, y))))).
 
@@ -28,8 +28,8 @@ formulas(sos).
 %----------------------------------
 
 % Automatically generated from CL/KIF
-% Module http://colore.oor.net/multidim_mereotopology_codi/defs/epp.clif
-%imports("http://colore.oor.net/multidim_mereotopology_codi/defs/ep.clif").
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/defs/epp.clif
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/defs/ep.clif").
 % 'EPP-D: definition of proper parthood'
  all x all y ((PP(x, y) <-> P(x, y) & -((x = y)))).
 
@@ -38,9 +38,9 @@ formulas(sos).
 %----------------------------------
 
 % Automatically generated from CL/KIF
-% Module http://colore.oor.net/multidim_mereotopology_codi/defs/icon.clif
-%imports("http://colore.oor.net/multidim_mereotopology_codi/codi_down.clif").
-%imports("http://colore.oor.net/multidim_mereotopology_codi/defs/connected.clif").
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/defs/icon.clif
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/codi_down.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/defs/connected.clif").
 % 'Defining when an entity is self-connected'
 % 'ICon-D: interior connectedness'
  all x ((ICon(x) <-> Con(x) &  all y ((PP(y, x) -> Covers(x, intersection(y, difference(x, y))))))).
@@ -54,17 +54,17 @@ formulas(sos).
 %----------------------------------
 
 % Automatically generated from CL/KIF
-% Module http://colore.oor.net/multidim_mereotopology_codib/codib.clif
-%imports("http://colore.oor.net/multidim_mereotopology_codib/defs/closed.clif").
-%imports("http://colore.oor.net/multidim_mereotopology_codib/codi_bcont.clif").
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codib/codib.clif
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codib/defs/closed.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codib/codi_bcont.clif").
 
 
 %axioms from module codi/p9/codi_down.p9
 %----------------------------------
 
 % Automatically generated from CL/KIF
-% Module http://colore.oor.net/multidim_mereotopology_codi/codi_down.clif
-%imports("http://colore.oor.net/multidim_mereotopology_codi/codi_int.clif").
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/codi_down.clif
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/codi_int.clif").
 % 'Closure under differences'
 % 'Dif-A1: difference is of same dimension'
  all x all y ((-(ZEX(difference(x, y))) -> EqDim(x, difference(x, y)))).
@@ -84,10 +84,10 @@ formulas(sos).
 %----------------------------------
 
 % Automatically generated from CL/KIF
-% Module http://colore.oor.net/multidim_mereotopology_codi/codi_basic_atomic.clif
-%imports("http://colore.oor.net/multidim_mereotopology_codi/codi_basic.clif").
-%imports("http://colore.oor.net/multidim_mereotopology_codi/defs/ep.clif").
-%imports("http://colore.oor.net/multidim_mereotopology_codi/defs/min_max_in_dim.clif").
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/codi_basic_atomic.clif
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/codi_basic.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/defs/ep.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/defs/min_max_in_dim.clif").
 % 'ME-E1: atomic'
  all x ((-(ZEX(x)) ->  exists y (P(y, x) & Min(y)))).
 
@@ -96,7 +96,7 @@ formulas(sos).
 %----------------------------------
 
 % Automatically generated from CL/KIF
-% Module http://colore.oor.net/multidim_mereotopology_codib/defs/icont.clif
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codib/defs/icont.clif
 % 'Defining interior containment'
 % 'IC-D'
  all x all y ((ICont(x, y) <-> Cont(x, y) &  all z ((Cont(z, x) -> -(BCont(z, y)))))).
@@ -106,7 +106,7 @@ formulas(sos).
 %----------------------------------
 
 % Automatically generated from CL/KIF
-% Module http://colore.oor.net/multidim_mereotopology_codib/defs/tcont.clif
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codib/defs/tcont.clif
 % 'Defining tangential containment'
 % 'TC-D'
  all x all y ((TCont(x, y) <-> Cont(x, y) &  exists z (Cont(z, x) & BCont(z, y)))).
@@ -116,7 +116,7 @@ formulas(sos).
 %----------------------------------
 
 % Automatically generated from CL/KIF
-% Module http://colore.oor.net/multidim_mereotopology_codi/defs/ep.clif
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/defs/ep.clif
 % 'basic axioms of traditional parthood (parthood of equidimensional entities) which is a non-strict partial order'
 % 'parthood holds between two entities of the same spatial dimension'
 % 'EP-D: definition of parthood'
@@ -127,9 +127,9 @@ formulas(sos).
 %----------------------------------
 
 % Automatically generated from CL/KIF
-% Module http://colore.oor.net/multidim_mereotopology_codi/defs/con.clif
-%imports("http://colore.oor.net/multidim_mereotopology_codi/codi_down.clif").
-%imports("http://colore.oor.net/multidim_mereotopology_codi/defs/epp.clif").
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/defs/con.clif
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/codi_down.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/defs/epp.clif").
 % 'Defining when an entity is self-connected'
 % 'Con-D: definition of connectedness'
  all x ((Con(x) <->  all y ((PP(y, x) -> SC(y, difference(x, y)))))).
@@ -139,7 +139,7 @@ formulas(sos).
 %----------------------------------
 
 % Automatically generated from CL/KIF
-% Module http://colore.oor.net/multidim_mereotopology_codib/defs/closed.clif
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codib/defs/closed.clif
 % 'Defining when an entity is closed (closed manifold)'
 % 'CL-D: closed'
  all x ((Closed(x) <->  all y (-(BCont(y, x))))).
@@ -149,15 +149,15 @@ formulas(sos).
 %----------------------------------
 
 % Automatically generated from CL/KIF
-% Module http://colore.oor.net/multidim_mereotopology_codib/codi_bcont.clif
-%imports("http://colore.oor.net/multidim_mereotopology_codi/codi.clif").
-%imports("http://colore.oor.net/multidim_mereotopology_codi/defs/min_max_in_dim.clif").
-%imports("http://colore.oor.net/multidim_mereotopology_codi/defs/po.clif").
-%imports("http://colore.oor.net/multidim_mereotopology_codi/defs/inc.clif").
-%imports("http://colore.oor.net/multidim_mereotopology_codi/defs/sc.clif").
-%imports("http://colore.oor.net/multidim_mereotopology_codi/theorems/po_theorems.clif").
-%imports("http://colore.oor.net/multidim_mereotopology_codi/theorems/inc_theorems.clif").
-%imports("http://colore.oor.net/multidim_mereotopology_codi/theorems/sc_theorems.clif").
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codib/codi_bcont.clif
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/codi.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/defs/min_max_in_dim.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/defs/po.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/defs/inc.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/defs/sc.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/theorems/po_theorems.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/theorems/inc_theorems.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/theorems/sc_theorems.clif").
 % 'BC-A1: entities in the boundary are at least of a dimension lower than the bounded entity'
  all x all y ((BCont(x, y) -> Cont(x, y) & Inc(x, y))).
 % 'BC-A2: if z is contained in two superficially connected entities x and y embedded in an entity v of the dimension of x, that is x has locally a codimension of zero, then z is contained in the boundary of x'
@@ -174,9 +174,9 @@ formulas(sos).
 %----------------------------------
 
 % Automatically generated from CL/KIF
-% Module http://colore.oor.net/multidim_mereotopology_codi/codi_int.clif
-%imports("http://colore.oor.net/multidim_mereotopology_codi/codi_linear.clif").
-%imports("http://colore.oor.net/multidim_mereotopology_zex/zex.clif").
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/codi_int.clif
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/codi_linear.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_zex/zex.clif").
 % 'Int-A1: disconnected entities have empty intersection'
  all x all y ((-(C(x, y)) <-> ZEX(intersection(x, y)))).
 % 'Int-A2: the intersection is contained in the intersecting entities (also ensures the intersection is of no greater dimension than necessary)'
@@ -191,9 +191,9 @@ formulas(sos).
 %----------------------------------
 
 % Automatically generated from CL/KIF
-% Module http://colore.oor.net/multidim_mereotopology_codi/codi_basic.clif
-%imports("http://colore.oor.net/multidim_mereotopology_dim/dim_basic.clif").
-%imports("http://colore.oor.net/multidim_mereotopology_cont/cont_ext.clif").
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/codi_basic.clif
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_dim/dim_basic.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_cont/cont_ext.clif").
 % 'relationship between dimension and containment'
 % 'CD-A1: containment requires that the contained entity has a dimension that is lower or equal to the entity containing it'
  all x all y ((Cont(x, y) -> LESS(x, y) | EqDim(x, y))).
@@ -203,8 +203,8 @@ formulas(sos).
 %----------------------------------
 
 % Automatically generated from CL/KIF
-% Module http://colore.oor.net/multidim_mereotopology_codi/defs/min_max_in_dim.clif
-%imports("http://colore.oor.net/multidim_mereotopology_codi/defs/epp.clif").
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/defs/min_max_in_dim.clif
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/defs/epp.clif").
 % 'definitional extension'
 % 'ME-D1: defining maximal entities of a dimension'
  all x ((Max(x) <-> -(ZEX(x)) &  all y (-(PP(x, y))))).
@@ -216,23 +216,23 @@ formulas(sos).
 %----------------------------------
 
 % Automatically generated from CL/KIF
-% Module http://colore.oor.net/multidim_mereotopology_codi/codi.clif
-%imports("http://colore.oor.net/multidim_mereotopology_codi/codi_linear.clif").
-%imports("http://colore.oor.net/multidim_mereotopology_cont/cont_c.clif").
-%imports("http://colore.oor.net/multidim_mereotopology_codi/defs/ep.clif").
-%imports("http://colore.oor.net/multidim_mereotopology_codi/defs/epp.clif").
-%imports("http://colore.oor.net/multidim_mereotopology_codi/defs/po.clif").
-%imports("http://colore.oor.net/multidim_mereotopology_codi/defs/inc.clif").
-%imports("http://colore.oor.net/multidim_mereotopology_codi/defs/sc.clif").
-%imports("http://colore.oor.net/multidim_mereotopology_codi/defs/min_max_in_dim.clif").
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/codi.clif
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/codi_linear.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_cont/cont_c.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/defs/ep.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/defs/epp.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/defs/po.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/defs/inc.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/defs/sc.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/defs/min_max_in_dim.clif").
 
 
 %axioms from module codi//defs/p9/po.p9
 %----------------------------------
 
 % Automatically generated from CL/KIF
-% Module http://colore.oor.net/multidim_mereotopology_codi/defs/po.clif
-%imports("http://colore.oor.net/multidim_mereotopology_codi/defs/ep.clif").
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/defs/po.clif
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/defs/ep.clif").
 % 'PO-D: partial overlap (strong contact)'
  all x all y ((PO(x, y) <->  exists z (P(z, x) & P(z, y)))).
 
@@ -241,9 +241,9 @@ formulas(sos).
 %----------------------------------
 
 % Automatically generated from CL/KIF
-% Module http://colore.oor.net/multidim_mereotopology_codi/defs/inc.clif
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/defs/inc.clif
 % 'basic axioms of incidence (two entities occupy some same space. It is reserved for entities of differing dimensions. It is a variant of contact.'
-%imports("http://colore.oor.net/multidim_mereotopology_codi/defs/ep.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/defs/ep.clif").
 % 'Inc-D: incidence holds if and only if some entity of the dimension as the lower of the two incident entities is shared'
  all x all y ((Inc(x, y) <->  exists z (LESS(z, x) & Cont(z, x) & P(z, y)) |  exists z (LESS(z, y) & Cont(z, y) & P(z, x)))).
 
@@ -252,7 +252,7 @@ formulas(sos).
 %----------------------------------
 
 % Automatically generated from CL/KIF
-% Module http://colore.oor.net/multidim_mereotopology_codi/defs/sc.clif
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/defs/sc.clif
 % 'SC-D: superficial (weak) contact (contact is of a lesser dimension than either involved entity) - prover9 file needs extra parentheses'
  all x all y ((SC(x, y) <->  exists z (Cont(z, x) & Cont(z, y)) &  all z ((Cont(z, x) & Cont(z, y) -> LESS(z, x) & LESS(z, y))))).
 
@@ -261,10 +261,10 @@ formulas(sos).
 %----------------------------------
 
 % Automatically generated from CL/KIF
-% Module http://colore.oor.net/multidim_mereotopology_codi/po_theorems.clif
-%imports("http://colore.oor.net/multidim_mereotopology_codi/codi_basic.clif").
-%imports("http://colore.oor.net/multidim_mereotopology_codi/defs/ep.clif").
-%imports("http://colore.oor.net/multidim_mereotopology_codi/defs/po.clif").
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/po_theorems.clif
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/codi_basic.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/defs/ep.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/defs/po.clif").
 % 'PO-T1: partial overlap reflexive'
  all x ((-(ZEX(x)) -> PO(x, x))).
 % 'PO-T2: partial overlap symmetric'
@@ -277,10 +277,10 @@ formulas(sos).
 %----------------------------------
 
 % Automatically generated from CL/KIF
-% Module http://colore.oor.net/multidim_mereotopology_codi/inc_theorems.clif
-%imports("http://colore.oor.net/multidim_mereotopology_codi/codi_basic.clif").
-%imports("http://colore.oor.net/multidim_mereotopology_codi/defs/ep.clif").
-%imports("http://colore.oor.net/multidim_mereotopology_codi/defs/inc.clif").
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/inc_theorems.clif
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/codi_basic.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/defs/ep.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/defs/inc.clif").
 % 'Inc-T1: incidence irreflexive'
  all x (-(Inc(x, x))).
 % 'Inc-T2: incidence symmetric'
@@ -299,10 +299,10 @@ formulas(sos).
 %----------------------------------
 
 % Automatically generated from CL/KIF
-% Module http://colore.oor.net/multidim_mereotopology_codi/sc_theorems.clif
-%imports("http://colore.oor.net/multidim_mereotopology_codi/codi_basic.clif").
-%imports("http://colore.oor.net/multidim_mereotopology_codi/defs/ep.clif").
-%imports("http://colore.oor.net/multidim_mereotopology_codi/defs/sc.clif").
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/sc_theorems.clif
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/codi_basic.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/defs/ep.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/defs/sc.clif").
 % 'SC-T1a: alternative definition of superficial contact'
  all x all y ((SC(x, y) -> C(x, y))).
 % 'SC-T1b: alternative definition of superficial contact'
@@ -323,9 +323,9 @@ formulas(sos).
 %----------------------------------
 
 % Automatically generated from CL/KIF
-% Module http://colore.oor.net/multidim_mereotopology_codi/codi_linear.clif
-%imports("http://colore.oor.net/multidim_mereotopology_dim/dim_prime_linear.clif").
-%imports("http://colore.oor.net/multidim_mereotopology_cont/cont_c.clif").
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/codi_linear.clif
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_dim/dim_prime_linear.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_cont/cont_c.clif").
 % 'relationship between dimension and containment'
 % 'CD-A1: containment requires that the contained entity has a dimension that is lower or equal to the entity containing it'
  all x all y ((Cont(x, y) -> LESS(x, y) | EqDim(x, y))).
@@ -335,7 +335,7 @@ formulas(sos).
 %----------------------------------
 
 % Automatically generated from CL/KIF
-% Module http://colore.oor.net/multidim_mereotopology_dim/zex.clif
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_dim/zex.clif
 % 'forces a special null region (zex)'
 % 'Z-A1: there exists a zex'
  exists x (ZEX(x)).
@@ -345,7 +345,7 @@ formulas(sos).
 %----------------------------------
 
 % Automatically generated from CL/KIF
-% Module http://colore.oor.net/multidim_mereotopology_dim/dim_basic.clif
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_dim/dim_basic.clif
 % 'basic axioms of dimensionality'
 % 'This set of axioms is rewritten from the original definition to reflect the fact that any spatial entity might have more than a unique dimension.'
 % 'We further try to:'
@@ -384,8 +384,8 @@ formulas(sos).
 %----------------------------------
 
 % Automatically generated from CL/KIF
-% Module http://colore.oor.net/multidim_mereotopology_cont/cont_ext.clif
-%imports("http://colore.oor.net/multidim_mereotopology_cont/cont_basic.clif").
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_cont/cont_ext.clif
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_cont/cont_basic.clif").
 % 'C-T1: Cont is extensional'
  all x all y (( all z ((Cont(z, x) <-> Cont(z, y))) -> (x = y))).
 
@@ -394,8 +394,8 @@ formulas(sos).
 %----------------------------------
 
 % Automatically generated from CL/KIF
-% Module http://colore.oor.net/multidim_mereotopology_cont/cont_c.clif
-%imports("http://colore.oor.net/multidim_mereotopology_cont/cont_basic.clif").
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_cont/cont_c.clif
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_cont/cont_basic.clif").
 % 'C-D: definition of contact in terms of containment'
  all x all y ((C(x, y) <->  exists z (Cont(z, x) & Cont(z, y)))).
 
@@ -404,9 +404,9 @@ formulas(sos).
 %----------------------------------
 
 % Automatically generated from CL/KIF
-% Module http://colore.oor.net/multidim_mereotopology_dim/dim_prime_linear.clif
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_dim/dim_prime_linear.clif
 % 'compact axioms for linear relative dimension with a lowest non-zero dimension'
-%imports("http://colore.oor.net/multidim_mereotopology_dim/dim_prime_linear_unbounded.clif").
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_dim/dim_prime_linear_unbounded.clif").
 % 'D-A6: a lowest dimension must exist'
  exists x (MinDim(x)).
 
@@ -415,7 +415,7 @@ formulas(sos).
 %----------------------------------
 
 % Automatically generated from CL/KIF
-% Module http://colore.oor.net/multidim_mereotopology_cont/cont_basic.clif
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_cont/cont_basic.clif
 % 'basic axioms of containment (parthood irrespective of dimension) which is a non-strict partial order'
 % 'a possibly existing zero extent ZEX is included'
 % 'C-A1: reflexive (the direction <- is provable from C-A4'
@@ -435,7 +435,7 @@ formulas(sos).
 %----------------------------------
 
 % Automatically generated from CL/KIF
-% Module http://colore.oor.net/multidim_mereotopology_dim/dim_prime_linear_unbounded.clif
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_dim/dim_prime_linear_unbounded.clif
 % 'compact axioms for linear relative dimension'
 % 'D-A1: irreflexive'
  all x (-(LESS(x, x))).

@@ -9,7 +9,7 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cyclic_ordering/megiddo_cyclic.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/cyclic_ordering/megiddo_cyclic.clif
 
 (forall (x y z)
 	(if	(C x y z)

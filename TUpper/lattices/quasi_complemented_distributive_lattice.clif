@@ -8,11 +8,11 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/lattices/quasi_complemented_distributive_lattice.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/lattices/quasi_complemented_distributive_lattice.clif
 
-(cl-imports  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/lattices/distributive_lattice.clif)
+(cl-imports  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/lattices/distributive_lattice.clif)
 
-(cl-imports  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/lattices/quasi_complemented_lattice.clif)
+(cl-imports  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/lattices/quasi_complemented_lattice.clif)
 
 (cl-comment 'Quasicomplemented (dual seudocomplemented) distributive lattices')
 

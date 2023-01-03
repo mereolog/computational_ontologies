@@ -8,11 +8,11 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/incidence_geometry/ig_2d_slin.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/incidence_geometry/ig_2d_slin.clif
 
 (cl-comment 'semi-linear line spaces')
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/incidence_geometry/ig_2d.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/incidence_geometry/ig_2d.clif)
 
 (cl-comment 'I.2a')
 

@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ringoids/idempotent_semiring.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/ringoids/idempotent_semiring.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ringoids/semiring.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/ringoids/semiring.clif)
 
 (forall (x)
 	(= x (sum x x)))

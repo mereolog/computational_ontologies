@@ -8,7 +8,7 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
- (cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/approximate_point/ap_root.clif
+ (cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/approximate_point/ap_root.clif
 
 (forall (x y z)
 (if	(and	(precedes x y)

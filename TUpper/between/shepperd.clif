@@ -8,8 +8,11 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/shepperd.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/between/shepperd.clif
 
+(cl-comment ‘Shepperd, Transitivities of betweenness and Separation and the Definition of betweenness and Separation Groups.’)
+
+(cl-comment ‘betweenness set -> a set between whose elements there exists a ternary relation’)
 (forall (x y z)
 	(if	(between x y z)
 		(between z y x)))

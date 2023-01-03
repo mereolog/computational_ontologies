@@ -1,7 +1,7 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module http://colore.oor.net/multidim_mereotopology_codi/theorems/codi_down_sum_theoremsT11-T14.clif
-%imports("http://colore.oor.net/multidim_mereotopology_codi/codi_down_sum.clif").
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/theorems/codi_down_sum_theoremsT11-T14.clif
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_codi/codi_down_sum.clif").
 % 'Sum-T11a: for equidimensional y,z, intersection distributives over sums'
  all x all y all z all w ((EqDim(y, z) & -(ZEX(w)) & -(ZEX(x)) & -(ZEX(intersection(x, sum(y, z)))) & P(w, intersection(x, sum(y, z))) -> P(w, sum(intersection(x, y), intersection(x, z))))).
 % 'Sum-T11b: for equidimensional y,z, intersection distributives over sums'

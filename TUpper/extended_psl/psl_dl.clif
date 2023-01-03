@@ -7,12 +7,12 @@
  * Contributors:
  *    Michael Gruninger, Megan Katsumi - initial implementation
  *******************************************************************************/
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/extended_psl/psl_dl.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/extended_psl/psl_dl.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_actocc/complex_actocc_dl.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_actocc/complex_actocc_dl.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_actors/psl_actors_dl.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_actors/psl_actors_dl.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_locations/psl_locations_dl.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_locations/psl_locations_dl.clif)
 
 )

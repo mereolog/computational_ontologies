@@ -9,7 +9,7 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/interval_meeting/directed_im.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/interval_meeting/directed_im.clif
 
 (forall (i j)
 (if	(meets i j)

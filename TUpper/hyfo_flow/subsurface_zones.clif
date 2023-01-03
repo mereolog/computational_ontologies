@@ -1,6 +1,6 @@
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/hydrologicFlow/subsurface_zones.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/hydrologicFlow/subsurface_zones.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/hydrologicFlow/ground_surface.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/hydrologicFlow/ground_surface.clif)
 
 
 

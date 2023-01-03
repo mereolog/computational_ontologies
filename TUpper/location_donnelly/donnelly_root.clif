@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/location_donnelly/donnelly_root.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/location_donnelly/donnelly_root.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereology/cem_mereology.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mereology/cem_mereology.clif)
 
 (forall (x y)
 	(if	(part x y)

@@ -1,7 +1,7 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module http://colore.oor.net/multidim_mereotopology_cont/cont_c_theorems.clif
-%imports("http://colore.oor.net/multidim_mereotopology_cont/cont_c.clif").
+% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_cont/cont_c_theorems.clif
+%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/multidim_mereotopology_cont/cont_c.clif").
 % 'Have to remove C-E1 from cont_c to reflect the statement in the thesis'
 % 'C-T2: C reflexive'
  all x ((-(ZEX(x)) -> C(x, x))).

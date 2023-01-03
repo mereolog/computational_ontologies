@@ -9,9 +9,9 @@
  *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/weak_bipartite_process/weak_bipartite_state.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/weak_bipartite_process/weak_bipartite_state.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_disc_state/disc_state.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/psl_disc_state/disc_state.clif)
 
 
 (forall (o x y) 

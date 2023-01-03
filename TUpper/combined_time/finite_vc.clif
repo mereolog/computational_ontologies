@@ -9,9 +9,9 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combined_time/finite_vc.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/combined_time/finite_vc.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/timepoints/lp_ordering.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/timepoints/lp_ordering.clif)
 
 (forall (x)
 	(iff	(timepoint x)

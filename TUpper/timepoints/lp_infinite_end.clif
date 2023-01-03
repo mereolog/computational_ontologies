@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/timepoints/lp_infinite_end.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/timepoints/lp_infinite_end.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/timepoints/lp_ordering.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/timepoints/lp_ordering.clif)
 
 (exists (t1)
 	(and	(timepoint t1)

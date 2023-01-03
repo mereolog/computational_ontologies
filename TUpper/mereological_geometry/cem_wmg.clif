@@ -9,10 +9,10 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereological_geometry/cem_wmg.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mereological_geometry/cem_wmg.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereological_geometry/wmg.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mereological_geometry/wmg.clif)
 
-(cl-module point (cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereology/cem_mereology.clif))
+(cl-module point (cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/mereology/cem_mereology.clif))
 
 )

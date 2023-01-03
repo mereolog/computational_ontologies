@@ -6,7 +6,7 @@
 *
 *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/molecular_graph/definitions/periodictablerhodium.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/molecular_graph/definitions/periodictablerhodium.clif
 
 (cl-comment 'Element name: rhodium')
 

@@ -1,4 +1,4 @@
-/*******************************************************************************
+`	/*******************************************************************************
  * Copyright (c) University of Toronto and others. All rights reserved.
  * The content of this file is licensed under the Creative Commons Attribution-
  * ShareAlike 4.0 Unported license. The legal text of this license can be
@@ -9,7 +9,7 @@
  *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/c_set_between.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/between/c_set_between.clif
 
 (forall (a b c)
 	(if	(between b a c)

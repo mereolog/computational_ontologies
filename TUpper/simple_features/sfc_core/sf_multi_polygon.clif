@@ -8,10 +8,10 @@
  *    Shirly Stephen - initial implementation
  *    Torsten Hahmann - initial implementation  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/simple_features/sfc_core/sf_multi_polygon.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/simple_features/sfc_core/sf_multi_polygon.clif
 
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/simple_features/sfc_core/sf_geometry_collection.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/simple_features/sfc_core/sf_geometry_collection.clif)
 
 
 (cl-comment 'SFC-A13: note that sf_multi_surface is defined as one of the exhaustive subclasses of so_geometry_collection')

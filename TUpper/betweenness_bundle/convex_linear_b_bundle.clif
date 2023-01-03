@@ -9,10 +9,10 @@
  *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/betweenness_bundle/convex_linear_b_bundle.clif
+(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/betweenness_bundle/convex_linear_b_bundle.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/betweenness_bundle/convex_b_bundle.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/betweenness_bundle/convex_b_bundle.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/betweenness_bundle/linear_b_bundle.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/tupper/betweenness_bundle/linear_b_bundle.clif)
 
 )
