@@ -11,7 +11,7 @@
  *******************************************************************************/
 
 (cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_actors/psl_actors
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_actocc/actocc.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_actocc/psl_actocc.clif)
 
 (cl-comment 'ax1: an actor is a type of object')
 (forall (x)

@@ -10,7 +10,7 @@
  
 (cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_soo/soo.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_actocc/actocc.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_actocc/psl_actocc.clif)
 
 (cl-comment 'x.th:def-same_grove (added 5-Jun-2009)')
 (forall (o1 o2)

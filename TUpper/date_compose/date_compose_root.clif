@@ -13,7 +13,7 @@
 
 (cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/duration/date_periodic.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_actocc/actocc.clif)
+(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_actocc/psl_actocc.clif)
 
 (forall (a1 a2)
 	(if	(and	(date a1)
