@@ -8,11 +8,11 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/subposet/comparable_reverse.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/subposet/comparable_reverse.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/subposet/partial_subposet.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/subposet/partial_subposet.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/definitions/comparable.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/orderings/definitions/comparable.clif)
 
 (forall (x y z)
 	(if	(and	(part z x)

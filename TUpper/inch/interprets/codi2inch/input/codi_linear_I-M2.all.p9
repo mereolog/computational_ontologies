@@ -3,11 +3,11 @@
 
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/codi_linear_I-M2.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/codi_linear.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_zex/zex.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/mappings/codi2inch.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/definitions/inch_zex.clif").
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/codi_linear_I-M2.clif
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/codi_linear.clif").
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_zex/zex.clif").
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/mappings/codi2inch.clif").
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/definitions/inch_zex.clif").
 % 'I-M2: mapping of ZEXI to ZEX'
  all x ((ZEX(x) -> ZEXI(x))).
  all x ((ZEXI(x) -> ZEX(x))).

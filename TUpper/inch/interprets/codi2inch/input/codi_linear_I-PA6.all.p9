@@ -3,10 +3,10 @@
 
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/codi_linear_I-PA6.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/codi_linear.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_zex/zex.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/mappings/codi2inch.clif").
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/codi_linear_I-PA6.clif
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/codi_linear.clif").
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_zex/zex.clif").
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/mappings/codi2inch.clif").
 % 'I-PA6: INCH transitive'
  all x all y all z ((INCH(x, y) & INCH(y, z) & INCH(z, x) -> INCH(y, x))).
 

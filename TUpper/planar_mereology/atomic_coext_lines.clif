@@ -9,9 +9,9 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/planar_mereology/atomic_coext_lines.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/planar_mereology/atomic_coext_lines.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/planar_mereology/weak_planar_mereology.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/planar_mereology/weak_planar_mereology.clif)
 
 (forall (q l p)
 	(if	(and	(plane q)

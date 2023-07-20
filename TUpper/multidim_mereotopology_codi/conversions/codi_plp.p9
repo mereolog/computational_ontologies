@@ -1,7 +1,7 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/codi_plp.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/codi_pl.clif").
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/codi_plp.clif
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/codi_pl.clif").
 % 'PLP-D1: planes are maximal in their dimension'
  all x ((Pl(x) -> Max(x) &  exists y exists z (Covers(x, y) & Covers(y, z) & Pt(z)))).
 

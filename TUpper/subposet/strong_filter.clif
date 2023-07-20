@@ -8,10 +8,10 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/subposet/strong_filter.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/subposet/strong_filter.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/subposet/filter.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/subposet/filter.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/subposet/strong_subposet.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/subposet/strong_subposet.clif)
 
 )

@@ -8,10 +8,10 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/subposet_foliation/lower_reflect_foliation.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/subposet_foliation/lower_reflect_foliation.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/subposet_foliation/sub_foliation.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/subposet_foliation/sub_foliation.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/subposet_bundle/lower_reflect_bundle.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/subposet_bundle/lower_reflect_bundle.clif)
 
 )

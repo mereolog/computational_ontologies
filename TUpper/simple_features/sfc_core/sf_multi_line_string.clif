@@ -8,10 +8,10 @@
  *    Shirly Stephen - initial implementation
  *    Torsten Hahmann - initial implementation  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/simple_features/sfc_core/sf_multi_line_string.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/simple_features/sfc_core/sf_multi_line_string.clif
 
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/simple_features/sfc_core/sf_geometry_collection.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/simple_features/sfc_core/sf_geometry_collection.clif)
 
 
 (cl-comment 'SFC-A12')

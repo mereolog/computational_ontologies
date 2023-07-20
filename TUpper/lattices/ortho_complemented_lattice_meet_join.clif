@@ -8,9 +8,9 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/lattices/ortho_complemented_lattice_meet_join
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/lattices/ortho_complemented_lattice_meet_join
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/lattices/bounded_lattice_meet_join)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/lattices/bounded_lattice_meet_join)
 
 (cl-comment 'Orthocomplemented lattice axioms')
 

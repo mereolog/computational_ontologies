@@ -9,7 +9,7 @@
  *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/huntington.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/between/huntington.clif
 
 (cl-comment ‘Sets of independent postulates for betweenness’)
 

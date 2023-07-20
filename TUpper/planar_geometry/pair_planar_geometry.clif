@@ -9,10 +9,10 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/pair_planar_geometry.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/pair_planar_geometry.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/weak_planar_geometry.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/weak_planar_geometry.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tripartite_incidence/subpair.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/tripartite_incidence/subpair.clif)
 
 )

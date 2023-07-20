@@ -9,9 +9,9 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/graphs/star_union.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/graphs/star_union.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/graphs/simple_graph.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/graphs/simple_graph.clif)
 
 (forall (x y z)
 	(if	(and	(adj x z)

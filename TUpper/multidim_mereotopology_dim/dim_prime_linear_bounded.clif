@@ -8,9 +8,9 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_dim/dim_prime_linear_bounded.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_dim/dim_prime_linear_bounded.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_dim/dim_prime_linear.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_dim/dim_prime_linear.clif)
 
 
 (cl-comment 'D-A7: There exists a unique maximum dimension')

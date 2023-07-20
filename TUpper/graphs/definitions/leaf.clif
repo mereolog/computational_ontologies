@@ -9,9 +9,9 @@
  *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/graphs/definitions/leaf.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/graphs/definitions/leaf.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/graphs/undirected_graph.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/graphs/undirected_graph.clif)
 
 (forall (x)
         (iff    (leaf x)

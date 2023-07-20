@@ -8,10 +8,10 @@
 * Carmen Chui, Michael Gruninger
 *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/scaffold.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/most/scaffold.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/most_skeleton.clif)
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/def_most_scaffold.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/most/most_skeleton.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/most/def_most_scaffold.clif)
 
 (cl-comment 'Skeletons are incident with each other')
 (forall (x y)

@@ -8,10 +8,10 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/subgraph/partial_mirror_hom.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/subgraph/partial_mirror_hom.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/subgraph/functional_graph.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/subgraph/functional_graph.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/subgraph/mirror_graph.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/subgraph/mirror_graph.clif)
 
 )

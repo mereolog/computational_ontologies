@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/graphs/scattered_edge.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/graphs/scattered_edge.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/graphs/simple_graph.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/graphs/simple_graph.clif)
 
 (forall (x y z)
 	(if	(and	(adj x y)

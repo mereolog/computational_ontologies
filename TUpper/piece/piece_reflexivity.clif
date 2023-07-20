@@ -8,8 +8,8 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/piece/piece_reflexivity.clif)
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/piece/piece_def.clif)
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/piece/piece_reflexivity.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/piece/piece_def.clif)
 
 (cl-text 'Reflexivity')
 

@@ -9,7 +9,7 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/dtv_duration/dtv_duration.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/dtv_duration/dtv_duration.clif
 
 (forall ((d1 duration))
 	(leq d1 d1))

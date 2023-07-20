@@ -8,11 +8,11 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereotopology/rt_minus_ec.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/mereotopology/rt_minus_ec.clif
 
 (cl-comment 'axioms of the generalized mereotopology RT- with external connection')
 
-(cl-imports  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereotopology/rt_minus.clif)
+(cl-imports  https://raw.githubusercontent.com/gruninger/colore/master/ontologies/mereotopology/rt_minus.clif)
 
 
 (cl-comment 'A11: Existence of external connection')

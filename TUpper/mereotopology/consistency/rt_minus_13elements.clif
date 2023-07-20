@@ -18,11 +18,11 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereotopology/consistency/rt_minus_13elements
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/mereotopology/consistency/rt_minus_13elements
 
 (cl-comment '13-element model of the full mereotopology RT')
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereotopology/consistency/rt_minus_13distinct)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/mereotopology/consistency/rt_minus_13distinct)
 
 (cl-comment 'D2: Proper Parthood')
 

@@ -9,10 +9,10 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/planar_mereology/cem_pm.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/planar_mereology/cem_pm.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/planar_mereology/wpm.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/planar_mereology/wpm.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereology/cem_mereology.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/mereology/cem_mereology.clif)
 
 )

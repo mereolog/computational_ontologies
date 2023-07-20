@@ -9,7 +9,7 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cyclic_ordering/nonreflexive_cyclic.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/cyclic_ordering/nonreflexive_cyclic.clif
 
 (forall (x)
 	(not (C x x x)))

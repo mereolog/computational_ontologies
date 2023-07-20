@@ -8,10 +8,10 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/subposet/uplr.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/subposet/uplr.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/subposet/upper_preserve.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/subposet/upper_preserve.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/subposet/lower_reverse.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/subposet/lower_reverse.clif)
 
 )

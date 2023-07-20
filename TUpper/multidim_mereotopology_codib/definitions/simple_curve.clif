@@ -8,15 +8,15 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codib/definitions/simple_curve.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codib/definitions/simple_curve.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codib/definitions/simple_curve_segment.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codib/definitions/simple_curve_segment.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codib/definitions/simple_loop_curve.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codib/definitions/simple_loop_curve.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codib/definitions/simple_ray_curve.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codib/definitions/simple_ray_curve.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codib/definitions/simple_infinite_curve.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codib/definitions/simple_infinite_curve.clif)
 
 
 

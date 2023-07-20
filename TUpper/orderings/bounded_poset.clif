@@ -8,12 +8,12 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/bounded_poset.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/orderings/bounded_poset.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/partial_ordering.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/orderings/partial_ordering.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/topexists.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/orderings/topexists.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/bottomexists.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/orderings/bottomexists.clif)
 
 )

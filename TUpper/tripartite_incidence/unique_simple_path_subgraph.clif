@@ -8,10 +8,10 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tripartite_incidence/unique_simple_path_subgraph.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/tripartite_incidence/unique_simple_path_subgraph.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tripartite_incidence/simple_path_subgraph.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/tripartite_incidence/simple_path_subgraph.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tripartite_incidence/nocoext_point_plane.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/tripartite_incidence/nocoext_point_plane.clif)
 
 )

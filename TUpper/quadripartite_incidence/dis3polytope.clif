@@ -8,10 +8,10 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/quadripartite_incidence/dis3polytope.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/quadripartite_incidence/dis3polytope.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/quadripartite_incidence/graded_poset4.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/quadripartite_incidence/graded_poset4.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/quadripartite_incidence/diamond_quadripartite.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/quadripartite_incidence/diamond_quadripartite.clif)
 
 )

@@ -8,10 +8,10 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/subgraph/simple_hom.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/subgraph/simple_hom.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/subgraph/graph_hom.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/subgraph/graph_hom.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/subgraph/partial_simple_hom.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/subgraph/partial_simple_hom.clif)
 
 )

@@ -8,10 +8,10 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/consistency/codi_linear_nozex_nontrivial.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/consistency/codi_linear_nozex_nontrivial.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/consistency/codi_linear_nontrivial.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/consistency/codi_linear_nontrivial.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_zex/nozex.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_zex/nozex.clif)
 
 )

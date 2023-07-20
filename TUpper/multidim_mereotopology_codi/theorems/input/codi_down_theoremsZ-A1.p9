@@ -1,7 +1,7 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/theorems/codi_down_theoremsZ-A1.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/codi_down.clif").
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/theorems/codi_down_theoremsZ-A1.clif
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/codi_down.clif").
 % 'Z-A1: there exists a zex'
  exists x (ZEX(x)).
 

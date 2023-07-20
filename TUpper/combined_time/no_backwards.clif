@@ -9,9 +9,9 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combined_time/no_backwards.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/combined_time/no_backwards.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combined_time/sim_vc_end.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/combined_time/sim_vc_end.clif)
 
 (forall (i1)
 	(if	(timeinterval i1)

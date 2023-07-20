@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/magma/abelian_group.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/magma/abelian_group.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/magma/group.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/magma/group.clif)
 
 (forall (x y)
 	(= (op x y) (op y x)))

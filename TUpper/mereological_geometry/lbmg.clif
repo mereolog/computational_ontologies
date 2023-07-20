@@ -9,9 +9,9 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereological_geometry/lbmg.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/mereological_geometry/lbmg.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereological_geometry/wmg.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/mereological_geometry/wmg.clif)
 
 (forall (x y l)
 	(if	(and	(point x)

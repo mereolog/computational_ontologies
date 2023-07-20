@@ -8,9 +8,9 @@
 * Carmen Chui, Michael Gruninger
 *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/definitions/most_connections.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/most/definitions/most_connections.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/most_root.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/most/most_root.clif)
 
 (cl-comment 'This CLIF file contains information on the various connections between atoms, bonds, and molecules.')
 

@@ -8,7 +8,7 @@
  *	Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/contact_algebras/Conn.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/contact_algebras/Conn.clif
 
 (cl-comment 'Con: Connection axiom (connection of an entity with its complement)')
 

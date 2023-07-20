@@ -1,8 +1,8 @@
 /** AUTOMATICALLY CREATED BY MACLEOD ON Tue Oct 08 16:56:05 2013**/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/consistency/point_region_all_nontrivial.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/consistency/point_region_all_nontrivial.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/definitions/point_region.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/definitions/point_region.clif)
 
 (exists (X0 X1)
   (and

@@ -9,9 +9,9 @@
  *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/betweenness_bundle/trivial_b_bundle.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/betweenness_bundle/trivial_b_bundle.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/betweenness_bundle/b_bundle.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/betweenness_bundle/b_bundle.clif)
 
 (forall (l1 x y z)
 	(if	(Btw l1 x y z)

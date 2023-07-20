@@ -9,9 +9,9 @@
  *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ringoids/division_ring.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/ringoids/division_ring.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ringoids/ring.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/ringoids/ring.clif)
 
 (not (= zero one))
 

@@ -8,13 +8,13 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_occtree/occtree_time.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/psl_occtree/occtree_time.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_occtree/earlier_occtree.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/psl_occtree/earlier_occtree.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_core/occ_time.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/psl_core/occ_time.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_core/psl_before.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/psl_core/psl_before.clif)
 
 (cl-comment 'The endof an activity occurrence is before to the beginof
 the successor of the activity occurrence.')

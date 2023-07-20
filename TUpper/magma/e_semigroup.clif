@@ -8,11 +8,11 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/magma/e_semigroup.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/magma/e_semigroup.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/magma/semigroup.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/magma/semigroup.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/magma/definitions/magma_defs.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/magma/definitions/magma_defs.clif)
 
 (forall (x y z)
 	(iff	(weak_inverse (op x y) z)

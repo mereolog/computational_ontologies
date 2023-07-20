@@ -9,11 +9,11 @@
  *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_codi/definitions/curve_theorems.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_space_codi/definitions/curve_theorems.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_codi/definitions/point_region.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_space_codi/definitions/point_region.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_codi/definitions/curve.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_space_codi/definitions/curve.clif)
 
 (cl-comment 'Definition of a curve as something that is of exactly one dimension greater than a point (which is of lowest dimension)')
 

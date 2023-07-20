@@ -9,12 +9,12 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/affine_plane.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/bipartite_incidence/affine_plane.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/linear_space.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/bipartite_incidence/linear_space.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/parallel_existence.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/bipartite_incidence/parallel_existence.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/unique_parallel.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/bipartite_incidence/unique_parallel.clif)
 
 )

@@ -9,9 +9,9 @@
  *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/bet_T.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/between/bet_T.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/betweenness.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/between/betweenness.clif)
 
 (forall (x y z w)
         (if     (and    (between x y z)

@@ -9,9 +9,9 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereology/atomless_mereology.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/mereology/atomless_mereology.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereology/definitions/ppart.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/mereology/definitions/ppart.clif)
 
 (forall (x)
 	(exists (y)

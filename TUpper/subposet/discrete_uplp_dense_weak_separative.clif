@@ -8,12 +8,12 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/subposet/discrete_uplr_dense_weak_separative.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/subposet/discrete_uplr_dense_weak_separative.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereology/discrete_mereology.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/mereology/discrete_mereology.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/subposet/uplr.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/subposet/uplr.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/dense_weak_separative.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/orderings/dense_weak_separative.clif)
 
 )

@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/matter/definitions/chunk_disjoint.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/matter/definitions/chunk_disjoint.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/matter/matter.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/matter/matter.clif)
 
 (cl-comment 'Disjointness for matter')
 (forall (x y)

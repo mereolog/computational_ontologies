@@ -8,11 +8,11 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/vision_cardworld/kernel.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/vision_cardworld/kernel.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/vision_cardworld/scene.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/vision_cardworld/scene.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/vision_cardworld/image.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/vision_cardworld/image.clif)
 
 (cl-comment 'All elements are either scene objects or image objects.')
 (forall (x) 

@@ -8,7 +8,7 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/onto_stit/moment.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/onto_stit/moment.clif
 
 (forall (x y)
 	(if	(pre x y)

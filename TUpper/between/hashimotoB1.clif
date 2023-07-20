@@ -9,7 +9,7 @@
  *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/hashimotoB1.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/between/hashimotoB1.clif
 (cl-comment ‘Betweenness Geometry, page 5’)
 
 (cl-comment ‘B1-B8’)

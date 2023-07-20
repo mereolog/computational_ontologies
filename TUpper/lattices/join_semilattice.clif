@@ -8,7 +8,7 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/lattices/join_semilattice.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/lattices/join_semilattice.clif
 
 						
 (cl-comment 'L1: Idempotency')

@@ -8,7 +8,7 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/mappings/inch_I-M3.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/mappings/inch_I-M3.clif
 
 (cl-comment 'I-M3: mapping of GED to >=')
 

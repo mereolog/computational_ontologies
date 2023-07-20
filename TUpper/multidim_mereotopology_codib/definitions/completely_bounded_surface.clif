@@ -8,13 +8,13 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codib/definitions/completely_bounded_surface.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codib/definitions/completely_bounded_surface.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/definitions/areal_region.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/definitions/areal_region.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codib/definitions/simple_loop_curve.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codib/definitions/simple_loop_curve.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codib/codib_boundary.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codib/codib_boundary.clif)
 
 (cl-comment 'A completely bounded surface x has a simple curve loop as its boundary.  Notice that every maximal curve loop defines many completely bounded surfaces, on the inside and on the outside.  We cannot distinguish them using the boundary alone. Further note that every completely bounded surface by the nature of having a simple curve loop as its boundary is an internally connected areal region - a nontrivial conclusion. We can further define composite completely bounded surfaces as sets of disconnected completely bounded surfaces.')
 

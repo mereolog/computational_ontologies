@@ -8,13 +8,13 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_physcont/inside_full.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_space_physcont/inside_full.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_physcont/definitions/matsplitinside.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_space_physcont/definitions/matsplitinside.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_physcont/definitions/matfillsinside.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_space_physcont/definitions/matfillsinside.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_physcont/definitions/voidinside.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_space_physcont/definitions/voidinside.clif)
 
 
 )

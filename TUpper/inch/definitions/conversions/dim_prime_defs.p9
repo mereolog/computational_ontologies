@@ -1,6 +1,6 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/definitions/dim_prime_defs.clif
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/definitions/dim_prime_defs.clif
 % 'compact axioms for linear relative dimension'
 % 'D-D2: define EqDim in terms of <'
  all x all y ((EqDim(x, y) <-> -(<(x, y)) & -(<(y, x)))).

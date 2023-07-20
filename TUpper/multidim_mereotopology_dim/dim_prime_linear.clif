@@ -8,13 +8,13 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_dim/dim_prime_linear.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_dim/dim_prime_linear.clif
 
 (cl-comment 'compact axioms for linear relative dimension with a lowest non-zero dimension')
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_dim/dim_prime_linear_unbounded.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_dim/dim_prime_linear_unbounded.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_dim/definitions/min_max_dim.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_dim/definitions/min_max_dim.clif)
 
 (cl-comment 'D-A6: a lowest dimension must exist')
 

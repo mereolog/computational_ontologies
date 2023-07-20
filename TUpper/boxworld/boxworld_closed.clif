@@ -9,11 +9,11 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/boxworld/boxworld_closed.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/boxworld/boxworld_closed.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/boxworld/boxworld_border.clif)
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/boxworld/boxworld_peak.clif)
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/boxworld/boxworld_surface.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/boxworld/boxworld_border.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/boxworld/boxworld_peak.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/boxworld/boxworld_surface.clif)
 
 (forall (x)
         (or     (point x) (edge x) (surface x) (box x)))

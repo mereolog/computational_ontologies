@@ -8,11 +8,11 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/magma/divisible_magma.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/magma/divisible_magma.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/magma/magma.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/magma/magma.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/magma/definitions/magma_defs.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/magma/definitions/magma_defs.clif)
 
 (forall (a b)
 	(exists (x)

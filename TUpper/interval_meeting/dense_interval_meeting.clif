@@ -9,11 +9,11 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/interval_meeting/dense_interval_meeting.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/interval_meeting/dense_interval_meeting.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/interval_meeting/interval_meeting.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/interval_meeting/interval_meeting.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/interval_meeting/definitions/im_def.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/interval_meeting/definitions/im_def.clif)
 
 (forall (i)
 	(not (moment i)))

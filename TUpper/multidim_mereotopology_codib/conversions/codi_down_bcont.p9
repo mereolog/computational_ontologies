@@ -1,12 +1,12 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codib/codi_down_bcont.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/codi_down.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/defs/min_max_in_dim.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/defs/inc.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/theorems/inc_theorems.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/defs/sc.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/theorems/sc_theorems.clif").
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codib/codi_down_bcont.clif
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/codi_down.clif").
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/defs/min_max_in_dim.clif").
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/defs/inc.clif").
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/theorems/inc_theorems.clif").
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/defs/sc.clif").
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/theorems/sc_theorems.clif").
 % 'BC-A1: entities in the boundary are at least of a dimension lower than the bounded entity'
  all x all y ((BCont(x, y) -> Cont(x, y) & Inc(x, y))).
 % 'BC-A2: if z is contained in two superficially connected entities x and y embedded in an entity v of the dimension of x, that is x has locally a codimension of zero, then z is contained in the boundary of x'

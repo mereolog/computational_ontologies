@@ -8,10 +8,10 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tripartite_incidence/scatter_graph_partitioning.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/tripartite_incidence/scatter_graph_partitioning.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tripartite_incidence/quasi_partitioning.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/tripartite_incidence/quasi_partitioning.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/graphical_incidence.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/bipartite_incidence/graphical_incidence.clif)
 
 )

@@ -9,9 +9,9 @@
  *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/general_semilinear.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/between/general_semilinear.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/semilinear.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/between/semilinear.clif)
 
 (forall (a b c)
 	(if	(not (between b a c))

@@ -9,10 +9,10 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/min_discrete.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/orderings/min_discrete.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/minexists.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/orderings/minexists.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/discreteness.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/orderings/discreteness.clif)
 
 )

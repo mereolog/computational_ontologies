@@ -1,8 +1,8 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/consistency/inch_calculus_extended_notI-E3.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/inch_calculus_extended.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/mappings/inch2codi.clif").
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/consistency/inch_calculus_extended_notI-E3.clif
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/inch_calculus_extended.clif").
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/mappings/inch2codi.clif").
 -( exists y ( all x ((-(ZEX(x)) -> Cont(x, y))))).
 
 end_of_list.

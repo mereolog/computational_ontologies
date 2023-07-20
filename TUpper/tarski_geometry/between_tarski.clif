@@ -8,7 +8,7 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tarski_geometry/between_tarski.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/tarski_geometry/between_tarski.clif
 
 (forall (x y z u)
 	(if	(and	(between x y u)

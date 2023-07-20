@@ -8,11 +8,11 @@
  *    Riley Moher - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ciro/ciro.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/ciro/ciro.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_subactivity/subactivity.clif)
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_complex/complex.clif)
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_actocc/psl_actocc.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/psl_subactivity/subactivity.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/psl_complex/complex.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/psl_actocc/actocc.clif)
 
 (cl-comment '--------Structural Definition Axioms--------')
 

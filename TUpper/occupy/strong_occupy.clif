@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/occupy/strong_occupy.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/occupy/strong_occupy.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/occupy/mon_occupy.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/occupy/mon_occupy.clif)
 
 (forall (x y r1 r2)
 	(if	(and	(part r1 r2)

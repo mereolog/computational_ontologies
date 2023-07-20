@@ -8,10 +8,10 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tripartite_incidence/strong_point_near_linear_flag.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/tripartite_incidence/strong_point_near_linear_flag.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tripartite_incidence/plane_near_linear_flag.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/tripartite_incidence/plane_near_linear_flag.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tripartite_incidence/weak_line_plane_existence.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/tripartite_incidence/weak_line_plane_existence.clif)
 
 )

@@ -8,10 +8,10 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/meet_quasicomplemented.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/orderings/meet_quasicomplemented.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/complemented_meet_quasilattice.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/orderings/complemented_meet_quasilattice.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/topless.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/orderings/topless.clif)
 
 )

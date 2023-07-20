@@ -3,9 +3,9 @@
 
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/inch_cont_basic.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/mappings/inch2codi.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/inch_weak.clif").
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/inch_cont_basic.clif
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/mappings/inch2codi.clif").
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/inch_weak.clif").
 % 'basic axioms of containment (parthood irrespective of dimension) which is a non-strict partial order'
 % 'C-A1: reflexive'
  all x ((-(ZEX(x)) <-> Cont(x, x))).

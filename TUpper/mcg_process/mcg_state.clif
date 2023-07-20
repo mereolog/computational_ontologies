@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mcg_process/mcg_state.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/mcg_process/mcg_state.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_disc_state/disc_state.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/psl_disc_state/disc_state.clif)
 
 (forall (o x y z) 
         (if     (prior (C x y) o)

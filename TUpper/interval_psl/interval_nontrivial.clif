@@ -9,9 +9,9 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/interval_psl/interval_nontrivial.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/interval_psl/interval_nontrivial.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/interval_psl/interval_psl_core.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/interval_psl/interval_psl_core.clif)
 
 (forall (x)
 	(if	(or	(object x)

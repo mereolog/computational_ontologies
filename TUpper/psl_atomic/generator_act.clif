@@ -8,11 +8,11 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_atomic/generator_act.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/psl_atomic/generator_act.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_subactivity/subactivity.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/psl_subactivity/subactivity.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_atomic/generator_subactivity.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/psl_atomic/generator_subactivity.clif)
 
 (forall (a)
 	(if	(generator a)

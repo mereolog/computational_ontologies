@@ -8,14 +8,14 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_codib/definitions/simple_curve_segment.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_space_codib/definitions/simple_curve_segment.clif
 
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_codib/codib.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_space_codib/codib.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_codi/definitions/curve.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_space_codi/definitions/curve.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_codi/definitions/simple_s.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_space_codi/definitions/simple_s.clif)
 
 
 (cl-comment 'A simple curve segment is a curve that contains exactly two distinct endpoints and is simple, i.e., is not branched.')

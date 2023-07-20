@@ -9,7 +9,7 @@
  *******************************************************************************/
  
 
-(cl-text  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/owltime/owltime_hp.clif
+(cl-text  https://raw.githubusercontent.com/gruninger/colore/master/ontologies/owltime/owltime_hp.clif
 
 (forall (t1 t2)
 	(if	(before t1 t2)

@@ -8,12 +8,12 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/subgraph/loop_graph_hom.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/subgraph/loop_graph_hom.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/graphs/graph_loops.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/graphs/graph_loops.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/subgraph/preserve_graph.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/subgraph/preserve_graph.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/subgraph/mapping_graph.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/subgraph/mapping_graph.clif)
 
 )

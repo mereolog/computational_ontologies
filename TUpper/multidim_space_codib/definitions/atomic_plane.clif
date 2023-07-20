@@ -8,15 +8,15 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_codib/definitions/atomic_plane.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_space_codib/definitions/atomic_plane.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_codi/definitions/areal_region.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_space_codi/definitions/areal_region.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_codib/definitions/closed.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_space_codib/definitions/closed.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_codi/definitions/min_max_in_dim.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_space_codi/definitions/min_max_in_dim.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_codi/definitions/icon.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_space_codi/definitions/icon.clif)
 
 
 (cl-comment 'An atomic plane is a closed and internally connected atomic areal region, i.e., it has no proper part and no boundary. Any sphere is an atomic plane.')

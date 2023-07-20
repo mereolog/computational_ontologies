@@ -9,9 +9,9 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multigeometry/multi_g.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multigeometry/multi_g.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/weak_bipartite.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/bipartite_incidence/weak_bipartite.clif)
 
 (forall (x y)
 	(if	(in x y)
@@ -19,14 +19,14 @@
                         (or (line y) (point y)))))
 
 
-(cl-module point (cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereology/m_mereology.clif))
+(cl-module point (cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/mereology/m_mereology.clif))
 
 (forall (x y)
 	(if	(part x y)
 		(and	(point x)
 			(point y))))
 
-(cl-module line (cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/partial_ordering.clif))
+(cl-module line (cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/orderings/partial_ordering.clif))
 
 (forall (x y)
 	(if	(leq x y)

@@ -8,12 +8,12 @@
  *    Torsten Hahmann - initial implementation *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/simple_features/sfr_fol/theorms/sfr_full_theorems.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/simple_features/sfr_fol/theorms/sfr_full_theorems.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/simple_features/sfr_fol/sfr_full.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/simple_features/sfr_fol/sfr_full.clif)
 
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/simple_features/sfr_fol/theorems/sf_intersects_theorems.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/simple_features/sfr_fol/theorems/sf_intersects_theorems.clif)
 
 
 

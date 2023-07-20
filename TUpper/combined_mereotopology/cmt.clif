@@ -8,15 +8,15 @@
  *    Michael Gruninger - initial implementation
 *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combined_mereotopology/cmt.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/combined_mereotopology/cmt.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combined_mereotopology/mt.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/combined_mereotopology/mt.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combined_mereotopology/definitions/mt_def.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/combined_mereotopology/definitions/mt_def.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereology/definitions/mereology_def.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/mereology/definitions/mereology_def.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereology/cm_mereology.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/mereology/cm_mereology.clif)
 
 (forall (x y)
 	(if	(C x y)

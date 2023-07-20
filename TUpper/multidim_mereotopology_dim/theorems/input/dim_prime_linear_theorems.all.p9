@@ -3,8 +3,8 @@
 
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_dim/theorems/dim_prime_linear_theorems.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_dim/dim_prime_linear.clif").
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_dim/theorems/dim_prime_linear_theorems.clif
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_dim/dim_prime_linear.clif").
 % 'D-T1: EqDim reflexive'
  all x (EqDim(x, x)).
 % 'D-T2: EqDim symmetric'

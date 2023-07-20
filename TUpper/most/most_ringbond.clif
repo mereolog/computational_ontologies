@@ -8,13 +8,13 @@
  *    Carmen Chui, Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/most_ringbond.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/most/most_ringbond.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/definitions/most_group_definitions.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/most/definitions/most_group_definitions.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/most_betweenness.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/most/most_betweenness.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/definitions/most_ringbond_definitions.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/most/definitions/most_ringbond_definitions.clif)
 
 
 (cl-comment 'Axiom: MRB-1')

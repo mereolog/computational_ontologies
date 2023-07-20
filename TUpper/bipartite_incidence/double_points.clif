@@ -9,9 +9,9 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/double_points.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/bipartite_incidence/double_points.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/weak_bipartite.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/bipartite_incidence/weak_bipartite.clif)
 
 (cl-comment 'A geometry in which at most two points can be incident with a line')
 

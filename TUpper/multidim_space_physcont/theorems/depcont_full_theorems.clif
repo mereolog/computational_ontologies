@@ -8,9 +8,9 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_physcont/theorems/depcont_full_theorems.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_space_physcont/theorems/depcont_full_theorems.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_physcont/depcont_full.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_space_physcont/depcont_full.clif)
 
 (cl-comment 'JEPD Theorems from Section 6.5 of the COSIT containment paper')
 

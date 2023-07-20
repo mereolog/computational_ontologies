@@ -8,10 +8,10 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multigraphs/weak_endloop_pseudograph.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multigraphs/weak_endloop_pseudograph.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multigraphs/simple_double_edge.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multigraphs/simple_double_edge.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multigraphs/weak_edge_intersect.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multigraphs/weak_edge_intersect.clif)
 
 )

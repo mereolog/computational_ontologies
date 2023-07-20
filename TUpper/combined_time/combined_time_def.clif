@@ -9,9 +9,9 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combined_time/combined_time_def.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/combined_time/combined_time_def.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combined_time/sim_vc_end.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/combined_time/sim_vc_end.clif)
 
 (forall (i j k)
         (iff    (plus i j k)

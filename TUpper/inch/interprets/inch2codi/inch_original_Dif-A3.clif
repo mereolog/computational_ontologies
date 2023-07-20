@@ -8,9 +8,9 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/theorems/inch_original_Dif-A3.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/theorems/inch_original_Dif-A3.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/inch_calculus.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/inch_calculus.clif)
 		
 (cl-comment 'Dif-A4 - part a from splitting OV(x,v)')
 (forall (x y z v)

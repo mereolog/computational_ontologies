@@ -8,9 +8,9 @@
  *    Carmen Chui, Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/most_bridges_definitions.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/most/most_bridges_definitions.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/molecular_graph/most_graph.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/molecular_graph/most_graph.clif)
 
 (cl-comment 'Axiom: MBRD-1')
 (cl-comment 'Definition: multiply_fused is a relation that indicates that two groups are multiply fused together if and only if there are two or more bonds that are in both groups.')

@@ -3,9 +3,9 @@
 
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codib/codib_updown_theorems.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codib/codib_updown.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/defs/sc.clif").
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codib/codib_updown_theorems.clif
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codib/codib_updown.clif").
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/defs/sc.clif").
 % 'Sum-T1prime'
  all x all y all z all v ((TSum(x, y, v) & EqDim(x, y) & SC(x, y) & Cont(z, x) & Cont(z, y) -> BCont(z, x))).
 

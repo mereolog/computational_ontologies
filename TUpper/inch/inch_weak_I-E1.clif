@@ -8,9 +8,9 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/inch_weak_I-E1.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/inch_weak_I-E1.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/inch_weak.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/inch_weak.clif)
 
 (cl-comment 'weak INCH Calculus with lowest non-zero dimension')
 

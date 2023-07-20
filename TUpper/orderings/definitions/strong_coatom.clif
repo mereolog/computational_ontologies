@@ -9,11 +9,11 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/definitions/strong_coatom.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/orderings/definitions/strong_coatom.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/definitions/top.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/orderings/definitions/top.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/definitions/covers.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/orderings/definitions/covers.clif)
 
 (forall (x)
 	(iff	(strong_coatom x)

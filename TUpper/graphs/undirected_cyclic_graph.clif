@@ -9,11 +9,11 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/graphs/undirected_cyclic_graph.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/graphs/undirected_cyclic_graph.clif
 
 (cl-comment 'This theory is an undirected version of a cyclic graph. In such a graph, adj is a symmetric relation, so each vertex is adjacent with exactly two other vertex. Therefore, the smallest undirected cyclic graph has three vertices.')
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/graphs/undirected_graph.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/graphs/undirected_graph.clif)
 
 (forall (v y z)
 	(if	

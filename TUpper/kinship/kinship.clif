@@ -8,12 +8,12 @@
  *    Carmen Chui, Michael Gruninger, Janette Wong - initial implementation
 *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/kinship/kinship.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/kinship/kinship.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/kinship/ancestor.clif)
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/kinship/spouse.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/kinship/ancestor.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/kinship/spouse.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/kinship/definitions/hasChild.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/kinship/definitions/hasChild.clif)
 
 (cl-comment 'These are residue axioms.')
 

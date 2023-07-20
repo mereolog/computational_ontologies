@@ -1,7 +1,7 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/theorems/codi_down_sum_theorems.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/codi_down_sum.clif").
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/theorems/codi_down_sum_theorems.clif
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/codi_down_sum.clif").
 % 'Sum-T1'
  all x all y all z ((Cont(z, sum(x, y)) ->  exists v (P(v, z) & Cont(v, x) | P(v, z) & Cont(v, y)))).
 % 'Sum-T2a'

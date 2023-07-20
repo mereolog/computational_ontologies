@@ -8,9 +8,9 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/gwml2/module8.clif
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/gwml2/module6.clif)
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/gwml2/module7.clif)
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/gwml2/module8.clif
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/gwml2/module6.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/gwml2/module7.clif)
 
 
 (cl-comment 'HGU-A2')

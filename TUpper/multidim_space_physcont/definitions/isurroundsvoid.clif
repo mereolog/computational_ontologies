@@ -9,13 +9,13 @@
  *******************************************************************************/
 
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_physcont/definitions/isurroundsvoid.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_space_physcont/definitions/isurroundsvoid.clif
 
 (cl-comment 'detachable containment from 2013 COSIT paper')
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_physcont/definitions/surroundsvoid.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_space_physcont/definitions/surroundsvoid.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_voids/voids_extended_multigran.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_space_voids/voids_extended_multigran.clif)
 
 (cl-comment 'IVSur-D')
 

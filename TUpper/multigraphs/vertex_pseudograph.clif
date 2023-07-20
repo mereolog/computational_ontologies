@@ -9,10 +9,10 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multigraphs/vertex_pseudograph.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multigraphs/vertex_pseudograph.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multigraphs/double_vertex.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multigraphs/double_vertex.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multigraphs/vertex_intersect.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multigraphs/vertex_intersect.clif)
 
 )

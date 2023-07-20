@@ -8,10 +8,10 @@
  *	Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/lattices/boolean_lattice.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/lattices/boolean_lattice.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/lattices/bounded_distributive_lattice.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/lattices/bounded_distributive_lattice.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/lattices/complemented_lattice.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/lattices/complemented_lattice.clif)
 
 )

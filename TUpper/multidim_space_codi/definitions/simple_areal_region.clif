@@ -7,13 +7,13 @@
  * Contributors:
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_codi/definitions/simple_areal_region.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_space_codi/definitions/simple_areal_region.clif
 
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_codi/definitions/areal_region.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_space_codi/definitions/areal_region.clif)
 
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_codi/definitions/simple_s.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_space_codi/definitions/simple_s.clif)
 
 
 (cl-comment 'A simple areal region is an areal region that is non-branching and thus planar and also connected.')

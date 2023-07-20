@@ -1,12 +1,12 @@
 
 <?xml version="1.0" ?>
-<Ontology ontologyIRI="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tupper/owl/tupper.owl" 
-versionIRI="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tupper/owl/tupper.owl" 
-xml:base="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tupper/owl/tupper.owl#" 
+<Ontology ontologyIRI="https://raw.githubusercontent.com/gruninger/colore/master/ontologies/tupper/owl/tupper.owl" 
+versionIRI="https://raw.githubusercontent.com/gruninger/colore/master/ontologies/tupper/owl/tupper.owl" 
+xml:base="https://raw.githubusercontent.com/gruninger/colore/master/ontologies/tupper/owl/tupper.owl#" 
 xmlns="http://www.w3.org/2002/07/owl#">
         
             
-        <Prefix IRI="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tupper/owl/tupper.owl#" name=""/>
+        <Prefix IRI="https://raw.githubusercontent.com/gruninger/colore/master/ontologies/tupper/owl/tupper.owl#" name=""/>
         
             
         <Prefix IRI="http://www.w3.org/2002/07/owl#" name="owl"/>
@@ -23,16 +23,16 @@ xmlns="http://www.w3.org/2002/07/owl#">
             
         <Prefix IRI="http://www.w3.org/2000/01/rdf-schema#" name="rdfs"/>
 
-<Prefix name="actocc" IRI="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_actocc/owl/"/>
-<Import>https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_actocc/owl/actocc.owl</Import>
+<Prefix name="actocc" IRI="https://raw.githubusercontent.com/gruninger/colore/master/ontologies/psl_actocc/owl/"/>
+<Import>https://raw.githubusercontent.com/gruninger/colore/master/ontologies/psl_actocc/owl/actocc.owl</Import>
 
-<Prefix name="disc_state" IRI="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_disc_state/owl/"/>
-<Import>https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_disc_state/owl/disc_state.owl</Import>
+<Prefix name="disc_state" IRI="https://raw.githubusercontent.com/gruninger/colore/master/ontologies/psl_disc_state/owl/"/>
+<Import>https://raw.githubusercontent.com/gruninger/colore/master/ontologies/psl_disc_state/owl/disc_state.owl</Import>
 
-<Prefix name="occupy" IRI="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/occupy/owl/"/>
-<Import>https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/occupy/owl/occupies.owl</Import>
+<Prefix name="occupy" IRI="https://raw.githubusercontent.com/gruninger/colore/master/ontologies/occupy/owl/"/>
+<Import>https://raw.githubusercontent.com/gruninger/colore/master/ontologies/occupy/owl/occupies.owl</Import>
 
-<Prefix name="fount" IRI="https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/fount/owl/"/>
-<Import>https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/fount/owl/fount.owl</Import>
+<Prefix name="fount" IRI="https://raw.githubusercontent.com/gruninger/colore/master/ontologies/fount/owl/"/>
+<Import>https://raw.githubusercontent.com/gruninger/colore/master/ontologies/fount/owl/fount.owl</Import>
 
 </Ontology>

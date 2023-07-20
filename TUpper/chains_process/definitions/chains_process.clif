@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
 *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/chains_process/definitions/chains_process.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/chains_process/definitions/chains_process.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/chains_process/chains_state.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/chains_process/chains_state.clif)
      
 
 (forall (a) (iff    (change_point a) 

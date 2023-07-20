@@ -9,14 +9,14 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multigraphs/simple_cycle_path_multigraph.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multigraphs/simple_cycle_path_multigraph.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multigraphs/multigraph.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multigraphs/multigraph.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multigraphs/double_edge.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multigraphs/double_edge.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multigraphs/double_endpoints.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multigraphs/double_endpoints.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multigraphs/simple_pseudograph.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multigraphs/simple_pseudograph.clif)
 
 )

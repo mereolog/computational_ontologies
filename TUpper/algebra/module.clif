@@ -8,11 +8,11 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
- (cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/algebra/module.clif
+ (cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/algebra/module.clif
 
-(cl-module ring (cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ringoids/ring.clif))
+(cl-module ring (cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/ringoids/ring.clif))
 
-(cl-module magma (cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/magma/abelian_group.clif))
+(cl-module magma (cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/magma/abelian_group.clif))
 
 (forall (x)
         (if     (magma x)

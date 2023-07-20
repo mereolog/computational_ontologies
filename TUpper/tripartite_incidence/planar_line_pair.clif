@@ -8,11 +8,11 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tripartite_incidence/planar_line_pair.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/tripartite_incidence/planar_line_pair.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tripartite_incidence/weak_tripartite.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/tripartite_incidence/weak_tripartite.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/definitions/bipartite_def.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/bipartite_incidence/definitions/bipartite_def.clif)
 
 (forall (l1 q)
 	(if	(and	(plane q)

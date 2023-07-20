@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/size/spatial_length.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/size/spatial_length.clif
 
-(cl-module field (cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ringoids/field.clif))
+(cl-module field (cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/ringoids/field.clif))
 
 (spatial_length zero_length)
 

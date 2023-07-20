@@ -9,9 +9,9 @@
 *******************************************************************************/
 
 
-(cl-text  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combined_mereotopology/definitions/DC.clif
+(cl-text  https://raw.githubusercontent.com/gruninger/colore/master/ontologies/combined_mereotopology/definitions/DC.clif
 
-(cl-imports  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combined_mereotopology/mt.clif)
+(cl-imports  https://raw.githubusercontent.com/gruninger/colore/master/ontologies/combined_mereotopology/mt.clif)
 
 %Disconnected
 (forall (x y)

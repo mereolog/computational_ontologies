@@ -9,13 +9,13 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combinatorial_semigroup/free_semigroup_fo.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/combinatorial_semigroup/free_semigroup_fo.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combinatorial_semigroup/tame_theoryF.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/combinatorial_semigroup/tame_theoryF.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combinatorial_semigroup/thin_TC.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/combinatorial_semigroup/thin_TC.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combinatorial_semigroup/definitions/words_def.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/combinatorial_semigroup/definitions/words_def.clif)
 
 (forall (x y)
 	(if	(subword x y)

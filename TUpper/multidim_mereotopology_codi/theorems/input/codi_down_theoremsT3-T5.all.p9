@@ -3,9 +3,9 @@
 
 % automatically generated from cl/kif
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/theorems/codi_down_theoremst3-t5.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/codi_down.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/theorems/codi_down_theoremst1-t2.clif").
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/theorems/codi_down_theoremst3-t5.clif
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/codi_down.clif").
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/theorems/codi_down_theoremst1-t2.clif").
 % 'dif-t3'
  all x all y ((-(zex(y)) & -(zex(difference(x, y))) -> -(po(y, difference(x, y))))).
 % 'dif-t4'
@@ -24,8 +24,8 @@ end_of_list.
 
 % automatically generated from cl/kif
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/codi_down.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/codi_int.clif").
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/codi_down.clif
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/codi_int.clif").
 % 'closure under differences'
 % 'dif-a1: difference is of same dimension'
  all x all y ((-(zex(difference(x, y))) -> eqdim(x, difference(x, y)))).
@@ -47,8 +47,8 @@ end_of_list.
 
 % automatically generated from cl/kif
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/theorems/codi_down_theoremst1-t2.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/codi_down.clif").
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/theorems/codi_down_theoremst1-t2.clif
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/codi_down.clif").
 % 'dif-t1'
  all x all y ((-(zex(difference(x, y))) -> p(difference(x, y), x))).
 % 'dif-t2 - easier'
@@ -63,9 +63,9 @@ end_of_list.
 
 % automatically generated from cl/kif
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/codi_int.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/codi_linear.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_zex/zex.clif").
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/codi_int.clif
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/codi_linear.clif").
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_zex/zex.clif").
 % 'int-a1: disconnected entities have empty intersection'
  all x all y ((-(c(x, y)) -> zex(intersection(x, y)))).
 % 'int-a2: the intersection is contained in the intersecting entities (also ensures the intersection is of no greater dimension than necessary)'
@@ -82,15 +82,15 @@ end_of_list.
 
 % automatically generated from cl/kif
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/codi.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_dim/dim_prime_linear.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_cont/cont_c_ext.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/defs/ep.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/defs/epp.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/defs/po.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/defs/inc.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/defs/sc.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/defs/min_max_in_dim.clif").
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/codi.clif
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_dim/dim_prime_linear.clif").
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_cont/cont_c_ext.clif").
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/defs/ep.clif").
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/defs/epp.clif").
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/defs/po.clif").
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/defs/inc.clif").
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/defs/sc.clif").
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/defs/min_max_in_dim.clif").
 % 'cd-a1: containment requires that the contained entity has a dimension that is lower or equal to the entity containing it'
  all x all y ((cont(x, y) -> leq(x, y))).
 
@@ -101,7 +101,7 @@ end_of_list.
 
 % automatically generated from cl/kif
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_dim/zex.clif
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_dim/zex.clif
 % 'forces a special null region (zex)'
 % 'z-a1: there exists a zex'
  exists x (zex(x)).
@@ -113,7 +113,7 @@ end_of_list.
 
 % automatically generated from cl/kif
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_dim/dim_prime_linear.clif
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_dim/dim_prime_linear.clif
 % 'compact axioms for linear relative dimension'
 % 'd-a1: irreflexive'
  all x (-(less(x, x))).
@@ -145,9 +145,9 @@ end_of_list.
 
 % automatically generated from cl/kif
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_cont/cont_c-ext.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_cont/cont_c.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_cont/cont_ext.clif").
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_cont/cont_c-ext.clif
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_cont/cont_c.clif").
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_cont/cont_ext.clif").
 
 end_of_list.
 
@@ -156,7 +156,7 @@ end_of_list.
 
 % automatically generated from cl/kif
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/defs/ep.clif
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/defs/ep.clif
 % 'basic axioms of traditional parthood (parthood of equidimensional entities) which is a non-strict partial order'
 % 'parthood holds between two entities of the same spatial dimension'
 % 'ep-d: definition of parthood'
@@ -169,8 +169,8 @@ end_of_list.
 
 % automatically generated from cl/kif
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/defs/epp.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/defs/ep.clif").
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/defs/epp.clif
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/defs/ep.clif").
 % 'epp-d: definition of proper parthood'
  all x all y ((pp(x, y) <-> p(x, y) & -((x = y)))).
 
@@ -181,8 +181,8 @@ end_of_list.
 
 % automatically generated from cl/kif
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/defs/po.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/defs/ep.clif").
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/defs/po.clif
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/defs/ep.clif").
 % 'po-d: partial overlap (strong contact)'
  all x all y ((po(x, y) <->  exists z (p(z, x) & p(z, y)))).
 
@@ -193,9 +193,9 @@ end_of_list.
 
 % automatically generated from cl/kif
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/defs/inc.clif
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/defs/inc.clif
 % 'basic axioms of incidence (two entities occupy some same space. it is reserved for entities of differing dimensions. it is a variant of contact.'
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/defs/ep.clif").
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/defs/ep.clif").
 % 'inc-d: incidence holds if and only if some entity of the dimension as the lower of the two incident entities is shared'
  all x all y ((inc(x, y) <->  exists z (less(z, x) & cont(z, x) & p(z, y)) |  exists z (less(z, y) & cont(z, y) & p(z, x)))).
 
@@ -206,7 +206,7 @@ end_of_list.
 
 % automatically generated from cl/kif
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/defs/sc.clif
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/defs/sc.clif
 % 'sc-d: superficial (weak) contact (contact is of a lesser dimension than either involved entity) - prover9 file needs extra parentheses'
  all x all y ((sc(x, y) <->  exists z (cont(z, x) & cont(z, y)) &  all z ((cont(z, x) & cont(z, y) -> less(z, x) & less(z, y))))).
 
@@ -217,8 +217,8 @@ end_of_list.
 
 % automatically generated from cl/kif
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/defs/min_max_in_dim.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/defs/epp.clif").
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/defs/min_max_in_dim.clif
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/defs/epp.clif").
 % 'definitional extension'
 % 'me-d1: defining maximal entities of a dimension'
  all x ((max(x) <-> -(zex(x)) &  all y (-(pp(x, y))))).
@@ -232,8 +232,8 @@ end_of_list.
 
 % automatically generated from cl/kif
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_cont/cont_c.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_cont/cont_basic.clif").
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_cont/cont_c.clif
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_cont/cont_basic.clif").
 % 'c-d: definition of contact in terms of containment'
  all x all y ((c(x, y) <->  exists z (cont(z, x) & cont(z, y)))).
 
@@ -245,8 +245,8 @@ end_of_list.
 
 % automatically generated from cl/kif
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_cont/cont_ext.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_cont/cont_basic.clif").
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_cont/cont_ext.clif
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_cont/cont_basic.clif").
 % 'c-e1: cont is extensional'
  all x all y (( all z ((cont(z, x) <-> cont(z, y))) -> (x = y))).
 
@@ -257,7 +257,7 @@ end_of_list.
 
 % automatically generated from cl/kif
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_cont/cont_basic.clif
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_cont/cont_basic.clif
 % 'basic axioms of containment (parthood irrespective of dimension) which is a non-strict partial order'
 % 'a possibly existing zero extent zex is included'
 % 'c-a1: reflexive'

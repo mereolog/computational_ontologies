@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/subposet/lower_reflect.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/subposet/lower_reflect.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/subposet/subposet_root.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/subposet/subposet_root.clif)
 
 (forall (x y y1)
 	(if	(and	(lt x y)

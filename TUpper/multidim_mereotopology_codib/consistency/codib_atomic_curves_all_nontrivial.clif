@@ -1,8 +1,8 @@
 /** AUTOMATICALLY CREATED BY MACLEOD ON Tue Oct 08 19:49:43 2013**/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codib/consistency/codib_atomic_curves_all_nontrivial.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codib/consistency/codib_atomic_curves_all_nontrivial.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codib/atomic_curve.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codib/atomic_curve.clif)
 
 (exists (X0 X1)
   (and

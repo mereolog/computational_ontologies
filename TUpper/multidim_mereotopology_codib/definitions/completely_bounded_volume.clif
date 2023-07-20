@@ -9,13 +9,13 @@
  *******************************************************************************/
 
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codib/definitions/completely_bounded_volume.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codib/definitions/completely_bounded_volume.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/definitions/voluminal_region.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/definitions/voluminal_region.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codib/definitions/closed_areal_region.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codib/definitions/closed_areal_region.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codib/codib_boundary.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codib/codib_boundary.clif)
 
 (cl-comment 'A completely bounded volume x is an internally connected volume that has a closed areal region (surface) as its boundary.  Notice that every closed areal region defines many completely bounded volumes. In a 3D space, there are two possible volumes, e.g. the sphere and its complement, while in higher-dimensional spaces many more volumes may exist.')
 

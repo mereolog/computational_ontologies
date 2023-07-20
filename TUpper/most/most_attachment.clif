@@ -8,11 +8,11 @@
  *    Carmen Chui, Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/most_attachment.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/most/most_attachment.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/most_group.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/most/most_group.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/definitions/most_attachment_definitions.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/most/definitions/most_attachment_definitions.clif)
 
 (cl-comment 'Axiom: MA-1')
 (cl-comment 'For a bond found in two groups connected via spiro, it must mean the two groups are spiroed at an atom common between them.')

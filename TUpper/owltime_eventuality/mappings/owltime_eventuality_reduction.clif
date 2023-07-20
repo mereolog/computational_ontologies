@@ -1,5 +1,5 @@
 
-(cl-text  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/owltime_eventuality/mappings/owltime_eventuality_reduction.clif
+(cl-text  https://raw.githubusercontent.com/gruninger/colore/master/ontologies/owltime_eventuality/mappings/owltime_eventuality_reduction.clif
 
 (forall (x y)
 	(iff	(before x y)

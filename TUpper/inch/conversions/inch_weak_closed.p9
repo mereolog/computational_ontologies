@@ -1,7 +1,7 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/inch_weak_closed.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/inch_weak.clif").
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/inch_weak_closed.clif
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/inch_weak.clif").
 % 'weak INCH Calculus extended by closure under differences and sums'
 % 'I-PA9: sum'
  all x all y ((GED(x, y) & GED(y, x) ->  exists z ( all w ((INCH(z, w) <-> INCH(x, w) | INCH(y, w)))))).

@@ -9,9 +9,9 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/periods/directed_periods.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/periods/directed_periods.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/periods/periods.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/periods/periods.clif)
 
 (cl-comment 'DIR')
 (forall (x y)

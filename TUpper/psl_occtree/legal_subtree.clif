@@ -8,11 +8,11 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_occtree/legal_subtree.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/psl_occtree/legal_subtree.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_occtree/earlier_occtree.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/psl_occtree/earlier_occtree.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_occtree/legal.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/psl_occtree/legal.clif)
 
 (cl-comment 'The legal relation restricts arboreal activity occurrences.')
 

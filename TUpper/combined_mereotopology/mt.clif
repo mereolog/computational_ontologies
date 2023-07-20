@@ -8,11 +8,11 @@
  *    Michael Gruninger - initial implementation
 *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combined_mereotopology/mt.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/combined_mereotopology/mt.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereotopology/connection.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/mereotopology/connection.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereology/m_mereology.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/mereology/m_mereology.clif)
 
 (forall (x y)
 	(if	(part x y)

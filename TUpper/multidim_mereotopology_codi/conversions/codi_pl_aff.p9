@@ -1,7 +1,7 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/codi_pl_aff.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/codi_pl_lin.clif").
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/codi_pl_aff.clif
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/codi_pl_lin.clif").
 % 'PL-A4: Line Dimension Axiom: there exist three distinct, non-collinear points'
  exists p exists q exists r (Pt(p) & Pt(q) & Pt(r) & -((p = q)) & -((p = r)) & -((q = r)) &  all l ((L(l) -> -(Cont(p, l)) | -(Cont(q, l)) | -(Cont(r, l))))).
 % 'PL-A5: Parallel Axiom'

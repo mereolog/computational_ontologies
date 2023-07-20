@@ -9,11 +9,11 @@
 *******************************************************************************/
 
 
-(cl-text  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combined_mereotopology/definitions/NTPP.clif
+(cl-text  https://raw.githubusercontent.com/gruninger/colore/master/ontologies/combined_mereotopology/definitions/NTPP.clif
 
-(cl-imports  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combined_mereotopology/mt.clif)
+(cl-imports  https://raw.githubusercontent.com/gruninger/colore/master/ontologies/combined_mereotopology/mt.clif)
 
-(cl-imports  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combined_mereotopology/definitions/EC.clif)
+(cl-imports  https://raw.githubusercontent.com/gruninger/colore/master/ontologies/combined_mereotopology/definitions/EC.clif)
 
 %Tangential Proper Part
 (forall (x y)

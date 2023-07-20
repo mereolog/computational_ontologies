@@ -8,9 +8,9 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/inch_original.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/inch_original.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/inch_weak_closed.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/inch_weak_closed.clif)
 
 (cl-comment 'original INCH Calculus with only the essential definitions')
 

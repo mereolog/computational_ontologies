@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
 *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/thick_points.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/bipartite_incidence/thick_points.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/weak_bipartite.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/bipartite_incidence/weak_bipartite.clif)
 
 (forall (p)
         (if     (point p)

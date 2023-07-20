@@ -9,11 +9,11 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/matter/definitions/portionOf.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/matter/definitions/portionOf.clif
   
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/matter/matter.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/matter/matter.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/constitution/constitution.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/constitution/constitution.clif)
 
 (forall (x y)
         (iff    (portionOf x y)

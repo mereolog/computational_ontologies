@@ -10,7 +10,7 @@
  * note: letter cases preserved in accordance with OWL version
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_core/binary_psl_core.clif 
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/psl_core/binary_psl_core.clif 
 
 	(cl-comment 'Thing and Nothing axioms removed')
 

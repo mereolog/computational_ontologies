@@ -8,10 +8,10 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/subgraph/bijection_graph.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/subgraph/bijection_graph.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/subgraph/subgraph_root.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/subgraph/subgraph_root.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/bijection_bipartite.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/bipartite_incidence/bijection_bipartite.clif)
 
 )

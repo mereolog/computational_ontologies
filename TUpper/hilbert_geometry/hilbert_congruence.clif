@@ -9,11 +9,11 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/hilbert_geometry/hilbert_congruence.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/hilbert_geometry/hilbert_congruence.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidencde/hilbert_incidence.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/bipartite_incidencde/hilbert_incidence.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ordered_geometry/plane_order.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/ordered_geometry/plane_order.clif)
 
 
 )

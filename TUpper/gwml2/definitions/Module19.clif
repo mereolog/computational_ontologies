@@ -8,8 +8,8 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/gwml2/definitions/module19.clif
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/gwml2/definitions/module10.clif)
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/gwml2/definitions/module19.clif
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/gwml2/definitions/module10.clif)
 
 (cl-comment 'CSB-D')
 (forall (x)

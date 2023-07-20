@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/vision_cardworld/obscures.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/vision_cardworld/obscures.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/vision_cardworld/scene_interior.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/vision_cardworld/scene_interior.clif)
 
 (cl-comment 'If a position is interior to two different surfaces, then either one of the surfaces obscures the other at that position, or the surfaces are abutting each other at that position.')
 

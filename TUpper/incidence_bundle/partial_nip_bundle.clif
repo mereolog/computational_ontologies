@@ -9,11 +9,11 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/incidence_bundle/partial_nip_bundle.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/incidence_bundle/partial_nip_bundle.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/incidence_bundle/nip_bundle.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/incidence_bundle/nip_bundle.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tripartite_incidence/partial_tripartite.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/tripartite_incidence/partial_tripartite.clif)
 
 
 )

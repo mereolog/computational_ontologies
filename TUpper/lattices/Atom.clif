@@ -11,7 +11,7 @@
 
 (cl-comment ' Contributors: Torsten Hahmann - initial implementation')
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/lattices/Atom.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/lattices/Atom.clif
 
 (exists (x)
 	(and

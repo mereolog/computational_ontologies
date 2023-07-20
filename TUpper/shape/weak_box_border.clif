@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/shape/weak_box_border.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/shape/weak_box_border.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/boxworld/boxworld_border.clif )
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/shape/weak_box_edge.clif )
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/boxworld/boxworld_border.clif )
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/shape/weak_box_edge.clif )
 
 )

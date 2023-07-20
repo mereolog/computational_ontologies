@@ -9,10 +9,10 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multigraphs/simple_all_loop.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multigraphs/simple_all_loop.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multigraphs/all_loop.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multigraphs/all_loop.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multigraphs/simple_pseudograph.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multigraphs/simple_pseudograph.clif)
 
 )

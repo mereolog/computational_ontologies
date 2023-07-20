@@ -9,16 +9,16 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/owltime/owltime_modular.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/owltime/owltime_modular.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/owltime_instants/owltime_instants.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/owltime_instants/owltime_instants.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/owltime_interval/owltime_interval.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/owltime_interval/owltime_interval.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/owltime_inside/owltime_inside.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/owltime_inside/owltime_inside.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/owltime_eventuality/eventuality_a.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/owltime_eventuality/eventuality_a.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/owltime_timespan/timespan.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/owltime_timespan/timespan.clif)
 
 )

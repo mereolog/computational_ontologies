@@ -8,11 +8,11 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/occupy/occupy_mereology/occupy_mereology.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/occupy/occupy_mereology/occupy_mereology.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/occupy/region_mereology/region_mereology.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/occupy/region_mereology/region_mereology.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/occupy/physical_mereology/physical_mereology.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/occupy/physical_mereology/physical_mereology.clif)
 
 (forall (x)
 	(if	(region x)

@@ -9,9 +9,9 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/boxworld/boxworld_part.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/boxworld/boxworld_part.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cardworld/cardworld_part.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/cardworld/cardworld_part.clif)
 
 (forall (x)
         (if     (or (point x) (edge x) (surface x))

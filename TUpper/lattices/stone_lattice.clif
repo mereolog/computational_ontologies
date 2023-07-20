@@ -8,9 +8,9 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/lattices/stone_lattice.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/lattices/stone_lattice.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/lattices/pseudo_complemented_distributive_lattice.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/lattices/pseudo_complemented_distributive_lattice.clif)
 
 (cl-comment 'Defining the Stone lattices as pseudocomplemented distributive lattices satisfying the Stone identity')
 

@@ -8,9 +8,9 @@
 * Carmen Chui, Michael Gruninger
 *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/def_most_root.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/most/def_most_root.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/most_root.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/most/most_root.clif)
 
 (cl-comment 'Definition for chain. A chain is a group that contains an end and no forks.')
 (forall (x)

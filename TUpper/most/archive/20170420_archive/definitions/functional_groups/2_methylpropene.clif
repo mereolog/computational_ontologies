@@ -8,10 +8,10 @@
 * Carmen Chui, Michael Gruninger
 *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/definitions/2_methylpropene.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/most/definitions/2_methylpropene.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/definitions/most_shape.clif)
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/definitions/most_connections.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/most/definitions/most_shape.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/most/definitions/most_connections.clif)
 
 (cl-comment 'Category: alkenyl')
 

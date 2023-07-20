@@ -9,12 +9,12 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/periods/ordered_periods
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/periods/ordered_periods
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/periods/linear_periods.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/periods/linear_periods.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/periods/infinite_periods.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/periods/infinite_periods.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/periods/directed_periods.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/periods/directed_periods.clif)
 
 )

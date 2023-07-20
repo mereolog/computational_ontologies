@@ -1,7 +1,7 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/definitions/inch_gd.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/definitions/inch_ged.clif").
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/definitions/inch_gd.clif
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/definitions/inch_ged.clif").
 % 'I-D9: greater dimension'
  all x all y ((GD(x, y) <-> GED(x, y) & -(GED(y, x)))).
 

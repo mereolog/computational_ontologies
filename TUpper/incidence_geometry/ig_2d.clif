@@ -8,7 +8,7 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/incidence_geometry/ig_2d.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/incidence_geometry/ig_2d.clif
 
 (cl-comment 'axioms of line spaces')
 

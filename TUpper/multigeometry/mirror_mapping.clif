@@ -9,12 +9,12 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multigeometry/mirror_mapping.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multigeometry/mirror_mapping.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multigeometry/mapping_g.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multigeometry/mapping_g.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multigeometry/mapping_preserve.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multigeometry/mapping_preserve.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multigeometry/mirror_preserve.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multigeometry/mirror_preserve.clif)
 
 )

@@ -8,10 +8,10 @@
 * Carmen Chui, Michael Gruninger
 *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/ex0525_incidence_quad.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/most/ex0525_incidence_quad.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/quadripartite_incidence/quadriclosure.clif)
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/incidence_quad_td.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/quadripartite_incidence/quadriclosure.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/most/incidence_quad_td.clif)
 
 (forall (x y)
 	(iff (in x y)

@@ -9,15 +9,15 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combinatorial_semigroup/concat_tarski.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/combinatorial_semigroup/concat_tarski.clif
 
 (cl-comment 'Axioms adapted from String Theory, Corcoran et al and Ganea')
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/magma/monoid.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/magma/monoid.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/magma/cancellative.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/magma/cancellative.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/magma/definitions/magma_def.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/magma/definitions/magma_def.clif)
 
 (exists (x)
 	(generator x))

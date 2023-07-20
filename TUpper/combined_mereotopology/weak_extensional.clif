@@ -8,10 +8,10 @@
  *    Michael Gruninger - initial implementation
 *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combined_mereotopology/weak_extensional.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/combined_mereotopology/weak_extensional.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combined_mereotopology/ext_mt.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/combined_mereotopology/ext_mt.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combined_mereotopology/weak_interaction.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/combined_mereotopology/weak_interaction.clif)
 
 )

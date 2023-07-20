@@ -9,12 +9,12 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ordered_geometry/semilinear_graphical_log.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/ordered_geometry/semilinear_graphical_log.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/graphical_incidence.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/bipartite_incidence/graphical_incidence.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ordered_geometry/log.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/ordered_geometry/log.clif)
 
-(cl-module point (cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/semilinear.clif))
+(cl-module point (cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/between/semilinear.clif))
 
 )

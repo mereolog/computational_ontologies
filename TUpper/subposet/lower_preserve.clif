@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/subposet/lower_preserve.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/subposet/lower_preserve.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/subposet/partial_subposet.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/subposet/partial_subposet.clif)
 
 (forall (x y z)
 	(if	(and	(part y z)

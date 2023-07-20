@@ -1,15 +1,15 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/codi_linear_C-E4_I-M3.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/codi_linear_nodefs.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/C-E4.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/defs/po.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_zex/zex.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/mappings/codi2inch.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/definitions/inch_ov.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/definitions/inch_ged.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/definitions/inch_I-M2.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/definitions/inch_I-M3.clif").
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/codi_linear_C-E4_I-M3.clif
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/codi_linear_nodefs.clif").
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/C-E4.clif").
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/defs/po.clif").
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_zex/zex.clif").
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/mappings/codi2inch.clif").
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/definitions/inch_ov.clif").
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/definitions/inch_ged.clif").
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/definitions/inch_I-M2.clif").
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/definitions/inch_I-M3.clif").
 % 'I-M5: mapping of OV'
  all x all y ((OV(x, y) -> PO(x, y))).
  all x all y ((PO(x, y) -> OV(x, y))).

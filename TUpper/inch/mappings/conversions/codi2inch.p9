@@ -1,6 +1,6 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/inch_mapping.clif
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/inch_mapping.clif
 % 'I-M1: mapping of INCH in terms of relations from CODI'
  all x all y ((INCH(x, y) <->  exists z (Cont(z, x) & Cont(z, y) & EqDim(z, y)))).
 

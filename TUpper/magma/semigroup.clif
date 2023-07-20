@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/magma/semigroup.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/magma/semigroup.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/magma/magma.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/magma/magma.clif)
 
 (forall (x y z)
 	(= (op x (op y z)) (op (op x y) z)))

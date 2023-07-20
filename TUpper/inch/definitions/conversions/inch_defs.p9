@@ -1,6 +1,6 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/definitions/inch_defs.clif
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/definitions/inch_defs.clif
 % 'I-D1: constituent (Cont)'
  all x all y ((CS(x, y) <->  all z ((INCH(x, z) -> INCH(y, z))))).
 % 'I-D4: chunk (equidmensional part)'

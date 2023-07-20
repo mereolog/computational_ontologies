@@ -1,7 +1,7 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between_quaternary/btw_orderable_theorems.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between_quaternary/btw_orderable.clif").
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/between_quaternary/btw_orderable_theorems.clif
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/between_quaternary/btw_orderable.clif").
 % 'separation property'
  all r all a all b all c all x ((Btw(r, a, x, b) & Btw(r, a, x, c) -> -(Btw(r, b, x, c)))).
 % 'no more than one of three distinct elements is in the middle position'

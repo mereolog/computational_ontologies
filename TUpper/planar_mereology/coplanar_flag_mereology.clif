@@ -9,10 +9,10 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/planar_mereology/coplanar_flag_mereology.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/planar_mereology/coplanar_flag_mereology.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/planar_mereology/coplanar_mereology.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/planar_mereology/coplanar_mereology.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tripartite_incidence/weak_flag_existence.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/tripartite_incidence/weak_flag_existence.clif)
 
 )

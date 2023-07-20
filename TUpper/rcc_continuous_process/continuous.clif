@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/rcc_continuous_process/continuous.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/rcc_continuous_process/continuous.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/rcc_continuous_process/rcc_state.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/rcc_continuous_process/rcc_state.clif)
 
 
 (cl-comment 'continuous.th:ax1')

@@ -8,10 +8,10 @@
 * Carmen Chui, Michael Gruninger
 *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/most_root.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/most/most_root.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/molecular_graph/definitions/most_elements.clif)
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/molecular_graph/definitions/most_bonds.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/molecular_graph/definitions/most_elements.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/molecular_graph/definitions/most_bonds.clif)
 
 (cl-comment 'Axiom ID: MR-ax-1')
 (cl-comment 'An atom x is in a functional group y.')

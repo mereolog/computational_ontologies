@@ -1,6 +1,6 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ordered_incidence_geometry/b_3d.clif
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/ordered_incidence_geometry/b_3d.clif
 % 'basic axioms of betweenness in 3D incidence geometry'
 % 'sets of points, lines, and planes'
 % 'I.0b'

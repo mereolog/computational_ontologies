@@ -1,10 +1,10 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/theorems/inch_calculus_C-E4.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/inch_calculus.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/mappings/inch2codi.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/definitions/dim_prime_defs.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codi/defs/ep.clif").
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/theorems/inch_calculus_C-E4.clif
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/inch_calculus.clif").
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/mappings/inch2codi.clif").
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/definitions/dim_prime_defs.clif").
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codi/defs/ep.clif").
  all x all y ((-(ZEX(x)) & <(x, y) ->  exists z exists v exists w (P(v, x) & Cont(v, z) & P(w, z) & Cont(w, y)))).
  all x all y ((-(ZEX(x)) & EqDim(x, y) ->  exists z exists v exists w (P(v, x) & Cont(v, z) & P(w, z) & Cont(w, y)))).
 

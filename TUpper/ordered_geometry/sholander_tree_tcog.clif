@@ -9,9 +9,9 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ordered_geometry/sholander_tree_tcog.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/ordered_geometry/sholander_tree_tcog.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ordered_geometry/tcog.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/ordered_geometry/tcog.clif)
 
 (forall (a b)
         (if     (and    (point a)

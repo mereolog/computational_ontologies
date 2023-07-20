@@ -9,9 +9,9 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/definitions/nunderlaps.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/orderings/definitions/nunderlaps.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/definitions/top.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/orderings/definitions/top.clif)
 
 (forall (x y)
 	(iff	(nunderlaps x y)

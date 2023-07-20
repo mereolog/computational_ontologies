@@ -8,10 +8,10 @@
  *    Carmen Chui, Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/most_bridges.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/most/most_bridges.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/definitions/most_bridges_definitions.clif)
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/most_attachment.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/most/definitions/most_bridges_definitions.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/most/most_attachment.clif)
 
 
 (cl-comment 'Axiom: MBR-1')

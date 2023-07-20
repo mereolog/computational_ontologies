@@ -3,10 +3,10 @@
 
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/inch_weak_closed_Z-A1.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/mappings/inch2codi.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/inch_weak_closed.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/definitions/dim_prime_defs.clif").
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/inch_weak_closed_Z-A1.clif
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/mappings/inch2codi.clif").
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/inch_weak_closed.clif").
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/definitions/dim_prime_defs.clif").
 % 'Z-A1: some zero region exists'
  exists x (ZEX(x)).
 

@@ -8,7 +8,7 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_actocc/mereo_subocc.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/psl_actocc/mereo_subocc.clif
 
 (forall (o1 o2)
 	(if	(subactivity_occurrence o1 o2)

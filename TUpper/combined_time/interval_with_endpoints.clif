@@ -8,11 +8,11 @@
  *    Michael Gruninger, Carmen Chui
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combined_time/interval_with_endpoints.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/combined_time/interval_with_endpoints.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combined_time/finite_sim_vc_end.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/combined_time/finite_sim_vc_end.clif)
 
 (cl-comment 'Imports the lp_infinite_end theory.')
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/timepoints/lp_infinite_end.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/timepoints/lp_infinite_end.clif)
 
 )

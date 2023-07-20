@@ -9,11 +9,11 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cardworld/cardworld_closed.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/cardworld/cardworld_closed.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cardworld/cardworld_outer.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/cardworld/cardworld_outer.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cardworld/cardworld_surface.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/cardworld/cardworld_surface.clif)
 
 (forall (x)
         (or     (point x) (edge x) (surface x)))

@@ -8,9 +8,9 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/gwml2/module17.clif
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/gwml2/definitions/module16.clif)
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/gwml2/module8.clif)
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/gwml2/module17.clif
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/gwml2/definitions/module16.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/gwml2/module8.clif)
 
 (cl-comment 'HGU-A4')
 (cl-comment 'A HydroRock Body that has a Subsurface Water Body that is not a Well Water Body as submaterial is a Hydrogeo Unit')

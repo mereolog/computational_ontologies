@@ -9,13 +9,13 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ordered_algebra/ordered_vectorspace.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/ordered_algebra/ordered_vectorspace.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/algebra/vectorspace.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/algebra/vectorspace.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/partial_ordering.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/orderings/partial_ordering.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/definitions/lt.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/orderings/definitions/lt.clif)
 
 (forall (x y z)
 	(if	(lt x y)

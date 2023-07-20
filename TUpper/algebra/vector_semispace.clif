@@ -8,11 +8,11 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
- (cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/algebra/vector_semispace.clif
+ (cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/algebra/vector_semispace.clif
 
-(cl-module field (cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ringoids/field.clif))
+(cl-module field (cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/ringoids/field.clif))
 
-(cl-module magma (cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/magma/commutative_monoid.clif))
+(cl-module magma (cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/magma/commutative_monoid.clif))
 
 (forall (x)
         (if     (magma x)

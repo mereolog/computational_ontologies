@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/sholander_tree.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/between/sholander_tree.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/sholander.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/between/sholander.clif)
 
 (cl-comment 'Relations related to betweenness: their structure and automorphisms ')
 (cl-comment 'In this paper, they define B(xyz) as x is between y and z')

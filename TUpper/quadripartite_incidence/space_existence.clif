@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/quadripartite_incidence/space_existence.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/quadripartite_incidence/space_existence.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/quadripartite_incidence/weak_quadripartite.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/quadripartite_incidence/weak_quadripartite.clif)
 
 (forall (x)
 	(if	(plane x)

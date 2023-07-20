@@ -9,9 +9,9 @@
  *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/coppel_prop2.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/between/coppel_prop2.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/weak_between.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/between/weak_between.clif)
 
 (forall (a b1 b2 c1 c2 c)
 	(if	(and	(between a c1 b1)

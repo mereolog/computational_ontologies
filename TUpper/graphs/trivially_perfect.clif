@@ -9,9 +9,9 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/graphs/trivially_perfect.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/graphs/trivially_perfect.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/graphs/cograph.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/graphs/cograph.clif)
 
 (forall (x y z w)
 	(if	(and	(adj x y)

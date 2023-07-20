@@ -9,11 +9,11 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereological_geometry/prodmg.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/mereological_geometry/prodmg.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereological_geometry/wmg.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/mereological_geometry/wmg.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereological_geometry/mg_def.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/mereological_geometry/mg_def.clif)
 
 (forall (x y l)
         (if     (overlaps_line x y l)

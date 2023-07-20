@@ -8,16 +8,16 @@
  *    Yi Ru, Michael Gruninger - initial implementation
  *******************************************************************************/
  
- (cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/opo/opo.clif
+ (cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/opo/opo.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combined_mereotopology/mt.clif)
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/boxworld/boxworld.clif)
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/constitution/constitution.clif)
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/matter/matter.clif)
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/occupy/occupy_root.clif)
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/component/component_def.clif)
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/piece/piece_def.clif)
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/containment/containment_def.clif)
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/opo/parthoodbridge.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/combined_mereotopology/mt.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/boxworld/boxworld.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/constitution/constitution.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/matter/matter.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/occupy/occupy_root.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/component/component_def.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/piece/piece_def.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/containment/containment_def.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/opo/parthoodbridge.clif)
 
 )

@@ -9,11 +9,11 @@
 *******************************************************************************/
 
 
-(cl-text  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combined_mereotopology/definitions/PO.clif
+(cl-text  https://raw.githubusercontent.com/gruninger/colore/master/ontologies/combined_mereotopology/definitions/PO.clif
 
-(cl-imports  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combined_mereotopology/mt.clif)
+(cl-imports  https://raw.githubusercontent.com/gruninger/colore/master/ontologies/combined_mereotopology/mt.clif)
 
-(cl-imports  https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereology/definitions/overlaps.clif)
+(cl-imports  https://raw.githubusercontent.com/gruninger/colore/master/ontologies/mereology/definitions/overlaps.clif)
 
 %Proper Overlap
 (forall (x y)

@@ -8,7 +8,7 @@
  *    Carmen Chui, Michael Gruninger - initial implementation
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/dolce/dolce_hets_tptp.clif)
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/dolce/dolce_hets_tptp.clif)
 
 (cl-comment 'Source: Oliver Kutz, Till Mossakowski: A Modular Consistency Proof for DOLCE. AAAI 2011.')
 (cl-comment 'Taxonomy according to subsort declarations')

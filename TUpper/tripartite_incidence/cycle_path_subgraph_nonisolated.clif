@@ -8,10 +8,10 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
- (cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tripartite_incidence/cycle_path_subgraph_nonisolated.clif
+ (cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/tripartite_incidence/cycle_path_subgraph_nonisolated.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tripartite_incidence/cycle_path_subgraph.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/tripartite_incidence/cycle_path_subgraph.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/nonisolated_loopless.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/bipartite_incidence/nonisolated_loopless.clif)
 
 )

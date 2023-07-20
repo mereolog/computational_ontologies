@@ -8,8 +8,8 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/gwml2/module6.clif
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/gwml2/module5.clif)
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/gwml2/module6.clif
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/gwml2/module5.clif)
 
 (cl-comment 'AU-A1')
 (cl-comment 'Aquifer Unit specializes HGU')

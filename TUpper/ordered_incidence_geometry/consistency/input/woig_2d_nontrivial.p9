@@ -1,7 +1,7 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ordered_incidence_geometry/consistency/woig_2d_nontrivial.clif
-%imports(https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ordered_incidence_geometry/woig_2d").
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/ordered_incidence_geometry/consistency/woig_2d_nontrivial.clif
+%imports(https://raw.githubusercontent.com/gruninger/colore/master/ontologies/ordered_incidence_geometry/woig_2d").
  exists x exists y exists z exists l (B(x, y, z) & -((x = y)) & -((x = z)) & -((y = z)) & on(x, l) & on(y, l) & on(z, l)).
 
 end_of_list.

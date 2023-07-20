@@ -8,12 +8,12 @@
  *	Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/contact_algebras/region_boolean_contact_algebra.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/contact_algebras/region_boolean_contact_algebra.clif
 
 (cl-comment 'Region Boolean Contact algebra (RBCA) axioms')
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/contact_algebras/boolean_contact_algebra.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/contact_algebras/boolean_contact_algebra.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/contact_algebras/Conn.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/contact_algebras/Conn.clif)
 
 )

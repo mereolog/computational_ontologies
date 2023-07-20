@@ -8,7 +8,7 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
- (cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/arithmetic/robinson_arithmetic.clif
+ (cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/arithmetic/robinson_arithmetic.clif
 
 (forall (x)
 	(not (= (S x) zero)))

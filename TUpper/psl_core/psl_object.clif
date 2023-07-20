@@ -8,7 +8,7 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_core/psl_object.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/psl_core/psl_object.clif
 
 (forall (x)
 	(if	(object x)

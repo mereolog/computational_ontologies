@@ -9,9 +9,9 @@
  *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/semi_fishburn.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/between/semi_fishburn.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/fishburn.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/between/fishburn.clif)
 (cl-comment ‘from Interval Orders and Graphs, page 57-60’)
 
 (cl-comment ‘A4’)

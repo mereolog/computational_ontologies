@@ -8,7 +8,7 @@
 * Carmen Chui, Michael Gruninger
 *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/most_betweenness.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/most/most_betweenness.clif
 
 (cl-comment 'Atoms are between themselves.')
 (forall (x y z)

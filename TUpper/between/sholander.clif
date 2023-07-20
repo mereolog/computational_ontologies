@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/sholander.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/between/sholander.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/betweenness.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/between/betweenness.clif)
 (cl-comment ‘Trees, Lattices, Order and Betweenness’)
 
 (cl-comment ‘Betweenness 4.B’)

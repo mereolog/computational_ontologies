@@ -8,7 +8,7 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/inch_weak.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/inch_weak.clif
 
 (cl-comment 'weak INCH Calculus with only the essential definitions')
 

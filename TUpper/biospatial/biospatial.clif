@@ -8,13 +8,13 @@
  *    Carmen Chui, Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/biospatial/biospatial.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/biospatial/biospatial.clif
 
 (cl-comment 'Author: Anthony G. Cohn')
 (cl-comment 'Paper: Formalising Bio-Spatial Knowledge')
 
 (cl-comment 'This ontology imports RCC')
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/rcc_continuous_process/rcc_state.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/rcc_continuous_process/rcc_state.clif)
 
 (cl-comment 'Axiom numbering corresponds to numbering found in the paper.')
 

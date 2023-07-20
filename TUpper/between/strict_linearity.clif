@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/strict_linearity.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/between/strict_linearity.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/weak_between.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/between/weak_between.clif)
 
 (forall (x y z)
         (if     (and    (not (= x y))

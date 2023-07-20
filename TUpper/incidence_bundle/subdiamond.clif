@@ -9,9 +9,9 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/incidence_bundle/subdiamond.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/incidence_bundle/subdiamond.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/incidence_bundle/in_bundle.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/incidence_bundle/in_bundle.clif)
 
 (forall (x y p1 p2)
 	(if	(and	(tin x y p1)

@@ -8,7 +8,7 @@
  *    Michael Gruninger, Carmen Chui
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/molecular_graph/mappings/most_graph_reduction.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/molecular_graph/mappings/most_graph_reduction.clif
 
 (cl-comment 'Translation definition for nonisolated_loopless into most_graph.')
 

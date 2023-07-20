@@ -9,9 +9,9 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereological_bundle/m_bundle.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/mereological_bundle/m_bundle.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/weak_bipartite.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/bipartite_incidence/weak_bipartite.clif)
 
 (forall (x y p)
 	(if	(tpart x y p)

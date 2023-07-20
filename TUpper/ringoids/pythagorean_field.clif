@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ringoids/pythagorean_field.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/ringoids/pythagorean_field.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ringoids/field.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/ringoids/field.clif)
 
 (forall (x y)
 	(exists (z)

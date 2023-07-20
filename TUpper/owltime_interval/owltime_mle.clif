@@ -9,9 +9,9 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/owltime_interval/owltime_mle.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/owltime_interval/owltime_mle.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/owltime_interval/owltime_le.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/owltime_interval/owltime_le.clif)
 
 (forall (t)
 	(if	(Instant t)

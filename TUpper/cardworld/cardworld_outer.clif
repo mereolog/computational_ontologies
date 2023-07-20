@@ -9,9 +9,9 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cardworld/cardworld_outer.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/cardworld/cardworld_outer.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cardworld/cardworld_edge.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/cardworld/cardworld_edge.clif)
 
 (forall (e)
         (if     (outer e) (edge e)))

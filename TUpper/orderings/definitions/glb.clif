@@ -9,9 +9,9 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/definitions/glb.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/orderings/definitions/glb.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/quasiorder.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/orderings/quasiorder.clif)
 
 (forall (x y s) 
 	(iff	(glb x y s)

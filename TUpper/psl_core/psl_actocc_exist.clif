@@ -8,9 +8,9 @@
  *    Michael Gruninger, Carmen Chui
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_core/psl_actocc_exist.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/psl_core/psl_actocc_exist.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_core/psl_core_root.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/psl_core/psl_core_root.clif)
 
 (forall (o)
 	(if	(activity_occurrence o)

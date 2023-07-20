@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/shape/shape.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/shape/shape.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/boxworld/boxworld.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/boxworld/boxworld.clif)
 
 (forall (x)
 	(iff	(ShapeFeature x)

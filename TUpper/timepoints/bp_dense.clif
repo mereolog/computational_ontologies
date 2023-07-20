@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/timepoints/bp_dense.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/timepoints/bp_dense.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/timepoints/bp_ordering.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/timepoints/bp_ordering.clif)
 
 (forall (x y)
 	(if	(and	(timepoint x) 

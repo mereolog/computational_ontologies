@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/occupy/occupy_root.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/occupy/occupy_root.clif
 
-(cl-module region (cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combined_mereotopology/mt.clif))
+(cl-module region (cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/combined_mereotopology/mt.clif))
 
 (forall (x y)
 	(if	(spatial_part x y)

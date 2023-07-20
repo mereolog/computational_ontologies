@@ -1,7 +1,7 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/inch_weak_I-E1.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/inch_weak.clif").
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/inch_weak_I-E1.clif
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/inch_weak.clif").
 % 'weak INCH Calculus with lowest non-zero dimension'
 % 'I-E1: there exists a non-zero entity of minimal dimension'
  exists x (-(ZEX(x)) &  all y ((-(ZEX(y)) -> GED(y, x)))).

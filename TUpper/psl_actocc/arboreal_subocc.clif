@@ -8,11 +8,11 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_actocc/arboreal_subocc.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/psl_actocc/arboreal_subocc.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_actocc/mereo_subocc.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/psl_actocc/mereo_subocc.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_actocc/arboreal_antichain.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/psl_actocc/arboreal_antichain.clif)
 
 (forall (o)
 	(if	(arboreal o)

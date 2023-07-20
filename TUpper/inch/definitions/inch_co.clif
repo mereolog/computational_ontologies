@@ -8,10 +8,10 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/definitions/inch_co.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/definitions/inch_co.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/definitions/inch_cs.clif)
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/definitions/inch_zex.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/definitions/inch_cs.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/definitions/inch_zex.clif)
 
 (cl-comment 'I-D3: contact (C)')
 

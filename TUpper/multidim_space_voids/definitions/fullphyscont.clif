@@ -8,9 +8,9 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_voids/definitions/fullphyscont.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_space_voids/definitions/fullphyscont.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_voids/voids_extended.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_space_voids/voids_extended.clif)
 
 (cl-comment 'FPCont-D: for x to be generically fully physically contained in y, both x and y must be physical endurants and the region of x must be within the convex hull of y and, if y is immaterial, within the region of y')
 

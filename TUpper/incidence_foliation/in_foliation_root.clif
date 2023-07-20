@@ -9,10 +9,10 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/incidence_foliation/in_foliation_root.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/incidence_foliation/in_foliation_root.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereological_geometry/wmg.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/mereological_geometry/wmg.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/incidence_bundle/in_bundle.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/incidence_bundle/in_bundle.clif)
 
 )

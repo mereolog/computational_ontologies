@@ -3,8 +3,8 @@
 
 % automatically generated from cl/kif
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_dim/dim_prime_linear_bounded_discrete.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_dim/dim_prime_linear_bounded.clif").
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_dim/dim_prime_linear_bounded_discrete.clif
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_dim/dim_prime_linear_bounded.clif").
 % 'd-a8: discrete set of dimensions: next highest dimension'
  all x ((-(maxdim(x)) ->  exists y (covers(y, x)))).
 % 'd-a9: discrete set of dimensions: next lowest dimension'
@@ -17,8 +17,8 @@ end_of_list.
 
 % automatically generated from cl/kif
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_dim/dim_prime_linear_bounded.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_dim/dim_prime_linear.clif").
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_dim/dim_prime_linear_bounded.clif
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_dim/dim_prime_linear.clif").
 % 'd-a7: there exists a unique maximum dimension'
  exists x (maxdim(x)).
 
@@ -29,7 +29,7 @@ end_of_list.
 
 % automatically generated from cl/kif
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_dim/dim_prime_linear.clif
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_dim/dim_prime_linear.clif
 % 'compact axioms for linear relative dimension'
 % 'd-a1: irreflexive'
  all x (-(<(x, x))).

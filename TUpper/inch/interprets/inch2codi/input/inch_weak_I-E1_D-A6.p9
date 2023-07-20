@@ -1,9 +1,9 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/inch_weak_I-E1_D-A6.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/mappings/inch2codi.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/inch_weak_I-E1.clif").
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/definitions/dim_prime_defs.clif").
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/inch_weak_I-E1_D-A6.clif
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/mappings/inch2codi.clif").
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/inch_weak_I-E1.clif").
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/definitions/dim_prime_defs.clif").
 % 'D-A6: a minimal dimension exists'
 % 'D-A6: a lowest dimension must exist'
  exists x (MinDim(x)).

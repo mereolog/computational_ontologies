@@ -8,13 +8,13 @@
  *    Michael Gruninger, Carmen Chui
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/dolce_dependence/PQ_PED_dependence.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/dolce_dependence/PQ_PED_dependence.clif
 
 (cl-comment 'Source: WonderWeb Deliverable D18 Ontology Library final by: Claudio Masolo, Stefano Borgo, Aldo Gangemi, Nicola Guarino, and Alessandro Oltramari (2003).')
 (cl-comment 'Comment: DOLCE axioms from 4.3.7 Dependence and Spatial Dependence')
 
 (cl-comment 'Import the DOLCE present theory.')
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/dolce_present/dolce_present.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/dolce_present/dolce_present.clif)
 
 (cl-comment 'Taken directly from HETS axioms - going from sorted logic to unsorted logic.')
 (forall (x y)

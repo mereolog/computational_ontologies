@@ -1,5 +1,5 @@
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/interval_meeting/mappings/im2ap.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/interval_meeting/mappings/im2ap.clif
 
 (forall (x y) 
 	(iff	(precedes x y)

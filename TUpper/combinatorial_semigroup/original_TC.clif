@@ -9,7 +9,7 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combinatorial_semigroup/original_TC.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/combinatorial_semigroup/original_TC.clif
 
 (forall (x y z)
         (= (op x (op y z)) (op (op x y) z)))

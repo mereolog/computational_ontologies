@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/nofinal.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/orderings/nofinal.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/quasiorder.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/orderings/quasiorder.clif)
 
 (forall (x)
 	(exists (y)

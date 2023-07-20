@@ -9,9 +9,9 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/definitions/disjoint.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/orderings/definitions/disjoint.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/quasiorder.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/orderings/quasiorder.clif)
 
 
 (forall (x y)

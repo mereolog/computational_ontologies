@@ -8,11 +8,11 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/lattices/definitions/covers.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/lattices/definitions/covers.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/lattices/lattice.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/lattices/lattice.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/lattices/definitions/leq.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/lattices/definitions/leq.clif)
 
 (forall (x y)
 	(iff

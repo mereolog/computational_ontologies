@@ -9,11 +9,11 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/periods/linear_periods.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/periods/linear_periods.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/periods/periods.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/periods/periods.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/periods/definitions/periods_def.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/periods/definitions/periods_def.clif)
 
 (cl-comment 'LIN*')
 (forall (x y)

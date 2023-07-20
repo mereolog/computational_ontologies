@@ -8,9 +8,9 @@
  *    Carmen Chui, Michael Gruninger
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/interprets/ex1002_skeletalBond.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/most/interprets/ex1002_skeletalBond.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/definitions/most_skeleton.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/most/definitions/most_skeleton.clif)
 
 (cl-comment 'Things to prove')
 

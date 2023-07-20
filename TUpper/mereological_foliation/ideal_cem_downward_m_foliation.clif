@@ -8,10 +8,10 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereological_foliation/ideal_cem_downward_m_foliation.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/mereological_foliation/ideal_cem_downward_m_foliation.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereological_foliation/downward_m_foliation.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/mereological_foliation/downward_m_foliation.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mereological_geometry/ideal_cem_wmg.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/mereological_geometry/ideal_cem_wmg.clif)
 
 )

@@ -9,11 +9,11 @@
  *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/contact_algebras/spoca.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/contact_algebras/spoca.clif
 
 (cl-comment 'Stonian p-ortocomplemented contact algebra (as defined in Hahmann and Gruninger, Notre Dame J. Formal Logic 2013)')
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/contact_algebras/oca.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/contact_algebras/oca.clif)
 
 (cl-comment 'PC1')
 

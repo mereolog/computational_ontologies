@@ -8,9 +8,9 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/mappings/inch_I-M7.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/mappings/inch_I-M7.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/definitions/inch_cs.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/definitions/inch_cs.clif)
 
 (cl-comment 'I-M7')
 

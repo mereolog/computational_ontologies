@@ -8,7 +8,7 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_core/occ_actocc.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/psl_core/occ_actocc.clif
 
 (cl-comment 'Activities and activity occurrences are distinct kinds of things.')
 

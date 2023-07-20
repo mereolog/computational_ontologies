@@ -9,11 +9,11 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/magma/regular_idem_semilattice.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/magma/regular_idem_semilattice.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/magma/regular_semigroup.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/magma/regular_semigroup.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/magma/idempotent_commute.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/magma/idempotent_commute.clif)
 
 )
 

@@ -9,11 +9,11 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/periods/cem_periods.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/periods/cem_periods.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/periods/periods_root.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/periods/periods_root.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/periods/definitions/periods_def.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/periods/definitions/periods_def.clif)
 
 (cl-comment 'DISJ')
 (forall (x y)

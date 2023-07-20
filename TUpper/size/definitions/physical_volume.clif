@@ -8,13 +8,13 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/size/definitions/physical_volume.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/size/definitions/physical_volume.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/size/volume.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/size/volume.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_occupy/box_occupy.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_occupy/box_occupy.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/space/bounds.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/space/bounds.clif)
 
 (forall (x r)
 	(iff	(physical_length x (volume r))

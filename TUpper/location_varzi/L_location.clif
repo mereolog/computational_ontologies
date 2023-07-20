@@ -8,11 +8,11 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/location_varzi/L_location.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/location_varzi/L_location.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/location_varzi/mt_location.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/location_varzi/mt_location.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/location_varzi/definitions/location_def.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/location_varzi/definitions/location_def.clif)
 
 (forall (x y z)
 	(if	(and	(part x y)

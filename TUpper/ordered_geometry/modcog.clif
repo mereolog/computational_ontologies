@@ -9,10 +9,10 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ordered_geometry/modcog.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/ordered_geometry/modcog.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ordered_geometry/modog.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/ordered_geometry/modog.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ordered_geometry/cog.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/ordered_geometry/cog.clif)
 
 )

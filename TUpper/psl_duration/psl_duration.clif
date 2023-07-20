@@ -9,11 +9,11 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_duration/psl_duration.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/psl_duration/psl_duration.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_core/psl_core.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/psl_core/psl_core.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/duration/infinite_point_duration.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/duration/infinite_point_duration.clif)
 
 (forall (x)
 	(= (dur x) (duration (beginof x) (endof x))))

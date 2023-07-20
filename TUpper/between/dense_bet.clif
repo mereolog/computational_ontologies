@@ -9,9 +9,9 @@
  *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/dense_bet.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/between/dense_bet.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/bet.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/between/bet.clif)
 
 (forall (x y)
 	(exists (z)

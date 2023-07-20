@@ -9,7 +9,7 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cyclic_ordering/order-variety.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/cyclic_ordering/order-variety.clif
 
 (forall (x y z)
 	(if	(C x y z)

@@ -8,11 +8,11 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
- (cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/approximate_point/m_exist.clif
+ (cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/approximate_point/m_exist.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/approximate_point/approximate_point.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/approximate_point/approximate_point.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/approximate_point/ap_def.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/approximate_point/ap_def.clif)
 
 (forall (i j)
 (if	(not	(meets i j))

@@ -8,13 +8,13 @@
  *	Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/contact_algebras/atomless_boolean_contact_algebra.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/contact_algebras/atomless_boolean_contact_algebra.clif
 
 (cl-comment 'atomless Boolean Contact algebra axioms')
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/contact_algebras/boolean_contact_algebra.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/contact_algebras/boolean_contact_algebra.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/lattices/atomless_boolean_lattice.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/lattices/atomless_boolean_lattice.clif)
 
 
 )

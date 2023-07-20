@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_resources/definitions/possibly_consumable.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/psl_resources/definitions/possibly_consumable.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_resources/requires.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/psl_resources/requires.clif)
 
 (cl-comment 'A resource r is possibly consumable with respect to an activity a1 iff after the occurrence of a1, there exists a future situation in which any activity that requires r is no longer possible.')
 

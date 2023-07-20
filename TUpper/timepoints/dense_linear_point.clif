@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/timepoints/dense_linear_point.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/timepoints/dense_linear_point.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/timepoints/linear_point.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/timepoints/linear_point.clif)
 
 (cl-imports lp_dense.clif)
 

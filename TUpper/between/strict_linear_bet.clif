@@ -8,10 +8,10 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/strict_linear_bet.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/between/strict_linear_bet.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/bet.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/between/bet.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/strict_linearity.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/between/strict_linearity.clif)
 
 )

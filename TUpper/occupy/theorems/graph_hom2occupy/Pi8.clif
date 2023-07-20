@@ -9,9 +9,9 @@
  *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/occupy/theorems/graph_hom2occupy/Pi8.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/occupy/theorems/graph_hom2occupy/Pi8.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/subgraph/loop_graph_hom.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/subgraph/loop_graph_hom.clif)
 
 (forall (x)
 	(iff	(physical_body x)

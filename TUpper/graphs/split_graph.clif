@@ -9,9 +9,9 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/graphs/split_graph.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/graphs/split_graph.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/graphs/chordal_graph.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/graphs/chordal_graph.clif)
 
 (forall (x y z w)
 	(if	(complement_cycle x y z w ...)

@@ -8,12 +8,12 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/shape/polyshape.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/shape/polyshape.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/shape/weak_card_outer.clif)
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/shape/weak_box_border.clif)
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/shape/polyworld_surface.clif)
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/shape/polyworld_order.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/shape/weak_card_outer.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/shape/weak_box_border.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/shape/polyworld_surface.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/shape/polyworld_order.clif)
 
 
 (forall (x1 x2 y)

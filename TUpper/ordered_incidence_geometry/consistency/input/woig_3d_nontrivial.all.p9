@@ -3,8 +3,8 @@
 
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ordered_incidence_geometry/consistency/woig_3d_nontrivial.clif
-%imports(https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ordered_incidence_geometry/woig_3d").
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/ordered_incidence_geometry/consistency/woig_3d_nontrivial.clif
+%imports(https://raw.githubusercontent.com/gruninger/colore/master/ontologies/ordered_incidence_geometry/woig_3d").
  exists x exists y exists z exists l exists p (B(x, y, z) & -((x = y)) & -((x = z)) & -((y = z)) & on(x, l) & on(y, l) & on(z, l) & Pl(p) & L(l)).
 
 
@@ -12,8 +12,8 @@ formulas(sos).
 %----------------------------------
 
 % Automatically generated from CL/KIF
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ordered_incidence_geometry/woig_3d.clif
-%imports(https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ordered_incidence_geometry/b_3d").
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/ordered_incidence_geometry/woig_3d.clif
+%imports(https://raw.githubusercontent.com/gruninger/colore/master/ontologies/ordered_incidence_geometry/b_3d").
 % '3D weak ordered incidence geometry'
 % 'incidence axioms'
 % 'I.1'
@@ -40,7 +40,7 @@ formulas(sos).
 %----------------------------------
 
 % Automatically generated from CL/KIF
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/ordered_incidence_geometry/b_3d.clif
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/ordered_incidence_geometry/b_3d.clif
 % 'basic axioms of betweenness in 3D incidence geometry'
 % 'sets of points, lines, and planes'
 % 'I.0a'

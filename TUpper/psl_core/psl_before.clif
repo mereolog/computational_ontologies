@@ -8,7 +8,7 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_core/psl_before.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/psl_core/psl_before.clif
 
 (cl-comment 'The before relation only holds between timepoints.')
 
@@ -38,36 +38,19 @@
 			(before t2 t3))
 		(before t1 t3)))
 
-(cl-comment 'The timepoint inf- is before all other timepoints.')
+(cl-comment 'Given any timepoint t, there is a timepoint after t.')
 
 (forall (t)
-        (if	(and 	(timepoint t) 
-			(not (= t inf-)))
-		(before inf- t)))
-
-(cl-comment 'Every other timepoint is before inf+.')
-
-(forall (t)
-        (if	(and 	(timepoint t) 
-			(not (= t inf+)))
-		(before t inf+)))
-
-(cl-comment 'Given any timepoint t other than inf-, there is a timepoint between inf- and t.')
-
-(forall (t)
-	(if	(and 	(timepoint t) 
-			(not (= t inf-)))
+	(if	(timepoint t) 
 		(exists (u) 
-			(between inf- u t))))
+			(before u t))))
 
-(cl-comment 'Given any timepoint t other than inf+, there is a timepoint between
-t and inf+.')
+(cl-comment 'Given any timepoint t, there is a timepoint before t')
 
 (forall (t)
-	(if	(and 	(timepoint t) 
-			(not (= t inf+)))
+	(if	(timepoint t) 
 		(exists (u) 
-			(between t u inf+))))
+			(before t u))))
 
 
 (cl-comment 'Timepoint t2 is between timepoints t1 and t3 if and only if t1 is before 

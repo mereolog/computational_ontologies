@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/velocity/velocity_vector.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/velocity/velocity_vector.clif
 
-(cl-module vector (cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/algebra/vectorspace.clif))
+(cl-module vector (cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/algebra/vectorspace.clif))
 
 
 (forall (x y)

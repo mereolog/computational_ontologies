@@ -8,11 +8,11 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/periods/periods.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/periods/periods.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/periods/periods_root.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/periods/periods_root.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/periods/definitions/periods_def.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/periods/definitions/periods_def.clif)
 
 (cl-comment 'MON-2')
 (forall (x y z)

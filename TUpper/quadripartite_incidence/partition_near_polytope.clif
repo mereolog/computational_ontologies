@@ -8,10 +8,10 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/quadripartite_incidence/partition_near_polytope.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/quadripartite_incidence/partition_near_polytope.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/quadripartite_incidence/near_polytope.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/quadripartite_incidence/near_polytope.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/quadripartite_incidence/cospatial_partitioning.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/quadripartite_incidence/cospatial_partitioning.clif)
 
 )

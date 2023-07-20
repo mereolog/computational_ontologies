@@ -1,7 +1,7 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/theorems/inch_calculus_theorems.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/inch_calculus.clif").
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/theorems/inch_calculus_theorems.clif
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/inch_calculus.clif").
 % 'I-T13: OV(x,y) -> exists z [CH(z,x) & CH(z,y)]'
  all x all y ((INCH(x, y) & INCH(y, x) ->  exists z (CH(z, x) & CH(z, y)))).
 % 'I-T14: forall z [CH(z,x) -> INCH(z,y)] -> CS(x,y)'

@@ -9,11 +9,11 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/periods/bounded_linear_cem.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/periods/bounded_linear_cem.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/periods/linear_periods.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/periods/linear_periods.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/periods/cem_periods.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/periods/cem_periods.clif)
 
 (exists (x)
 	(forall (y)

@@ -9,9 +9,9 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cardworld/cardworld_surface.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/cardworld/cardworld_surface.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cardworld/cardworld_edge.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/cardworld/cardworld_edge.clif)
 
 (cl-comment 'Each point and edge are part of a unique surface.')
 (forall (x s1 s2)

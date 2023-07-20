@@ -8,7 +8,7 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/periods/periods_root.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/periods/periods_root.clif
 
 (cl-comment 'Precedence TRANS')
 (forall	(x y z) 

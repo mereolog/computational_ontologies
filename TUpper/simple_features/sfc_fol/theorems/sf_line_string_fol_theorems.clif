@@ -9,15 +9,15 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/simple_features/sfc_fol/sf_line_string_fol_theorems.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/simple_features/sfc_fol/sf_line_string_fol_theorems.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/simple_features/sfc_core/sf_line_string.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/simple_features/sfc_core/sf_line_string.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_codi/definitions/simple_curve.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_space_codi/definitions/simple_curve.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_codib/definitions/simple_curve_segment.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_space_codib/definitions/simple_curve_segment.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_space_codib/definitions/simple_loop_curve.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_space_codib/definitions/simple_loop_curve.clif)
 
 
 (cl-comment 'Simple Feature Line String is a subclass of CODI Simple Curve')

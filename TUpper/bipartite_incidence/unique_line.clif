@@ -9,9 +9,9 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/unique_line.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/bipartite_incidence/unique_line.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/bipartite_incidence/weak_bipartite.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/bipartite_incidence/weak_bipartite.clif)
 
 (forall (p1 p2 l1 l2)
 	(if	(and	(point p1)

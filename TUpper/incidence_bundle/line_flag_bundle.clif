@@ -9,10 +9,10 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/incidence_bundle/line_flag_bundle.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/incidence_bundle/line_flag_bundle.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/incidence_bundle/wpl_bundle.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/incidence_bundle/wpl_bundle.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/incidence_bundle/lp_bundle.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/incidence_bundle/lp_bundle.clif)
 
 )

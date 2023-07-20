@@ -9,7 +9,7 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/gangemi-participation/gangemi.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/gangemi-participation/gangemi.clif
 
 (forall (x)
 	(if	(Event x)

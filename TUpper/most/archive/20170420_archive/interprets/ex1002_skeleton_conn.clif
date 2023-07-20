@@ -8,11 +8,11 @@
  *    Carmen Chui, Michael Gruninger
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/interprets/ex1002_skeleton_conn.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/most/interprets/ex1002_skeleton_conn.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/definitions/most_skeleton.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/most/definitions/most_skeleton.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/definitions/most_connections.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/most/definitions/most_connections.clif)
 
 (cl-comment 'Things to prove')
 

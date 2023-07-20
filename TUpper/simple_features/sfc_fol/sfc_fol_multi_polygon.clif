@@ -7,11 +7,11 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/simple_features/sfc_fol/sfc_fol_multi_polygon.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/simple_features/sfc_fol/sfc_fol_multi_polygon.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/simple_features/sfc_fol/sfc_fol_multi_surface.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/simple_features/sfc_fol/sfc_fol_multi_surface.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/simple_features/sfc_fol/sfc_fol_polygon.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/simple_features/sfc_fol/sfc_fol_polygon.clif)
 
 
 (cl-comment 'SFC-M18')

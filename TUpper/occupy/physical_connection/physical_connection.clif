@@ -8,7 +8,7 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/occupy/physical_connection/physical_connection.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/occupy/physical_connection/physical_connection.clif
 
 (forall (x y)
 	(if	(physical_C x y)

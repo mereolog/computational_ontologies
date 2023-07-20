@@ -6,7 +6,7 @@
  *
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/lattices/meet_semilattice.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/lattices/meet_semilattice.clif
 
 						
 (cl-comment 'L1: Idempotency')

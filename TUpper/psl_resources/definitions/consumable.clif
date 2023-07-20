@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_resources/definitions/consumable.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/psl_resources/definitions/consumable.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_resources/requires.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/psl_resources/requires.clif)
 
 (cl-comment 'A resource r is consumable by an activity a if any other activity that also requires r is not possible to perform after a completes its occurrence.')
 

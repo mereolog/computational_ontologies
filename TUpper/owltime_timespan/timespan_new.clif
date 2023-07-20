@@ -9,9 +9,9 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/owltime_timespan/timespan_new.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/owltime_timespan/timespan_new.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/owltime_eventuality/eventuality_a.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/owltime_eventuality/eventuality_a.clif)
 
 (forall (t e)
 	(if	(and	(timeSpan t e)

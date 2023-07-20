@@ -1,6 +1,6 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/definitions/inch_I-M6.clif
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/definitions/inch_I-M6.clif
 % 'I-D2 together with I-M6: mapping between PO and OV'
  all x all y ((PO(x, y) <-> OV(x, y))).
 % 'I-D2 together with I-M6: mapping between PO and OV'

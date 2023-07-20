@@ -9,9 +9,9 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cayley_graph/definitions/cayley_def.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/cayley_graph/definitions/cayley_def.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cayley_graph/cayley_root.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/cayley_graph/cayley_root.clif)
 
 (forall (x y)
 	(iff	(word_edge x y)

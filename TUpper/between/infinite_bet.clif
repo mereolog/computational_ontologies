@@ -8,11 +8,11 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/infinite_bet.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/between/infinite_bet.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/strict_between.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/between/strict_between.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/strong_between.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/between/strong_between.clif)
 
 (forall (x y)
 	(exists (z)

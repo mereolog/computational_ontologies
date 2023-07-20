@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/strict_chvatal_tree.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/between/strict_chvatal_tree.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/chvatal_tree.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/between/chvatal_tree.clif)
 
 (cl-comment ‘Finite Sholander trees, trees, and their betweenness’)
 

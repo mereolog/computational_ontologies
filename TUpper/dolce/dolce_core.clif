@@ -8,13 +8,13 @@
  *    Carmen Chui, Michael Gruninger - initial implementation
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/dolce_core/dolce_core.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/dolce_core/dolce_core.clif
 
 (cl-comment 'Import the DOLCE taxonomy.')
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/dolce_taxonomy/dolce_taxonomy.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/dolce_taxonomy/dolce_taxonomy.clif)
 
 (cl-comment 'Import the DOLCE present theory.')
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/dolce_present/dolce_present.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/dolce_present/dolce_present.clif)
 
 (cl-comment '------------------------DOLCE_CORE_MEREOLOGY------------------------')
 

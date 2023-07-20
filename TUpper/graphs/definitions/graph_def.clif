@@ -9,9 +9,9 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/graphs/definitions/graph_def.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/graphs/definitions/graph_def.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/graphs/undirected_graph.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/graphs/undirected_graph.clif)
 
 (forall (x y z ...)
 	(iff	(walk x ... y z)

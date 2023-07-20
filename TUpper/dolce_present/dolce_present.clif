@@ -8,13 +8,13 @@
  *    Michael Gruninger, Carmen Chui
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/dolce_present/dolce_present.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/dolce_present/dolce_present.clif
 
 (cl-comment 'Source: WonderWeb Deliverable D18 Ontology Library final by: Claudio Masolo, Stefano Borgo, Aldo Gangemi, Nicola Guarino, and Alessandro Oltramari (2003).')
 (cl-comment 'Comment: DOLCE axioms from 4.3.8 Being Present')
 
 (cl-comment 'Import the DOLCE time mereology theory.')
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/dolce_time_mereology/dolce_time_mereology.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/dolce_time_mereology/dolce_time_mereology.clif)
 
 (cl-comment 'Td15 to Td18')
  

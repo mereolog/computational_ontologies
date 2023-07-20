@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/coatomic_ordering.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/orderings/coatomic_ordering.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/orderings/definitions/coatom.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/orderings/definitions/coatom.clif)
 
 (forall (x)
 	(if	(not (bottom x))

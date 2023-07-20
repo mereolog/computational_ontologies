@@ -8,8 +8,8 @@
  *    Torsten Hahmann - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/gwml2/module6a.clif
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/gwml2/module6.clif)
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/gwml2/module6a.clif
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/gwml2/module6.clif)
 
 (cl-comment 'AU-9')
 (cl-comment 'An Unconfined Aquifer has contact with at least one Confining Bed')

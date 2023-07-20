@@ -1,6 +1,6 @@
 (cl-text to_prove
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/definitions/most_connections.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/most/definitions/most_connections.clif)
 
 (cl-comment 'An axiom to prove')
 (forall (b x y g1 g2)

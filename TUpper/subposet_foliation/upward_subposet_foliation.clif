@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/subposet_foliation/upward_subposet_foliation.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/subposet_foliation/upward_subposet_foliation.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/subposet_foliation/sub_foliation.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/subposet_foliation/sub_foliation.clif)
 
 (forall (x y p1 p2)
         (if     (and    (tleq x y p2)

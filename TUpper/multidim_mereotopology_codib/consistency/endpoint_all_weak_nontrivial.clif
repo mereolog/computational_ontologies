@@ -1,8 +1,8 @@
 /** AUTOMATICALLY CREATED BY MACLEOD ON Wed Aug 07 14:30:38 2013**/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codib/consistency/endpoint_all_weak_nontrivial.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codib/consistency/endpoint_all_weak_nontrivial.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/multidim_mereotopology_codib/definitions/endpoint.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/multidim_mereotopology_codib/definitions/endpoint.clif)
 
 (exists (X0 X1)
   (and

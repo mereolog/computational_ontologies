@@ -1,7 +1,7 @@
 % Automatically generated from CL/KIF
 formulas(sos).
-% Module https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/consistency/inch_original_notI-PA7.clif
-%imports("https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/inch/inch_original.clif").
+% Module https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/consistency/inch_original_notI-PA7.clif
+%imports("https://raw.githubusercontent.com/gruninger/colore/master/ontologies/inch/inch_original.clif").
 % 'NOT A THEOREM: I-PA7*: INCH(x,y) requires a chunk of x to overlap with y'
  exists x exists y (INCH(x, y) & -( exists z (CS(z, x) & CH(z, y)))).
 

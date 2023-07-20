@@ -9,9 +9,9 @@
  *******************************************************************************/
  
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/graphs/permutation_graph.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/graphs/permutation_graph.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/graphs/comparability_graph.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/graphs/comparability_graph.clif)
 
 (forall (x y ...)
 	(if	(and	(complement_cycle x ... y)

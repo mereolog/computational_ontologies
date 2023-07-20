@@ -8,9 +8,9 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/subgraph/half_strong.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/subgraph/half_strong.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/subgraph/graph_hom.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/subgraph/graph_hom.clif)
 
 (forall (p1 p2 l1 l2)
 	(if	(and	(point p1)

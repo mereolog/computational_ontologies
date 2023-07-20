@@ -9,15 +9,15 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/density/definitions/physical_density.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/density/definitions/physical_density.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/density/density.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/density/density.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/mass/mass.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/mass/mass.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/size/volume.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/size/volume.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/occupy/occupy_root.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/occupy/occupy_root.clif)
 
 (forall (x m r)
 	(iff	(physical_density x (dmv (mass m) (volume r)))

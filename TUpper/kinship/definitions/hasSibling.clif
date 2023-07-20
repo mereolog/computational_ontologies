@@ -8,9 +8,9 @@
  *    Carmen Chui, Michael Gruninger, Janette Wong - initial implementation
 *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/kinship/definitions/hasSibling.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/kinship/definitions/hasSibling.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/kinship/kinship.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/kinship/kinship.clif)
 
 (cl-comment 'Conservative Definitional Extension')
 

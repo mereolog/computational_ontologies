@@ -9,9 +9,9 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cyclic_ordering/total_cyclic.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/cyclic_ordering/total_cyclic.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cyclic_ordering/cyclic.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/cyclic_ordering/cyclic.clif)
 
 (forall (x y z)
 	(if	(and	(not (= x y))

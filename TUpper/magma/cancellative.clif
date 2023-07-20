@@ -8,10 +8,10 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
  
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/magma/cancellative.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/magma/cancellative.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/magma/left_cancellative.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/magma/left_cancellative.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/magma/right_cancellative.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/magma/right_cancellative.clif)
 
 )

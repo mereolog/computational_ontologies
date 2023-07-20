@@ -8,10 +8,10 @@
 * Carmen Chui, Michael Gruninger
 *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/most/most.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/most/most.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/molecular_graph/definitions/most_elements.clif)
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/molecular_graph/definitions/most_bonds.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/molecular_graph/definitions/most_elements.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/molecular_graph/definitions/most_bonds.clif)
 
 (cl-comment 'CLIF file containing all of the MoSt ontology axioms.  We will modularize this later.')
 

@@ -8,14 +8,14 @@
  *    Michael Gruninger - initial implementation
  *******************************************************************************/
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/tupper/tupper.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/tupper/tupper.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_disc_state/disc_state.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/psl_disc_state/disc_state.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/psl_actocc/psl_actocc.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/psl_actocc/actocc.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/occupy/occupy_root.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/occupy/occupy_root.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/fount/fount.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/fount/fount.clif)
 
 )

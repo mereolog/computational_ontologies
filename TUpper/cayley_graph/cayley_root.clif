@@ -9,7 +9,7 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/cayley_graph/cayley_root.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/cayley_graph/cayley_root.clif
 
 (forall (x y z)
 	(if	(apply x y z)

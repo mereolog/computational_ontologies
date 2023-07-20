@@ -9,10 +9,10 @@
 *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combined_time/mo_continuum.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/combined_time/mo_continuum.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combined_time/no_moment.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/combined_time/no_moment.clif)
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/combined_time/backwards.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/combined_time/backwards.clif)
 
 )

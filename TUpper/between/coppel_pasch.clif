@@ -9,9 +9,9 @@
  *******************************************************************************/
 
 
-(cl-text https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/coppel_pasch.clif
+(cl-text https://raw.githubusercontent.com/gruninger/colore/master/ontologies/between/coppel_pasch.clif
 
-(cl-imports https://raw.githubusercontent.com/mereolog/computational_ontologies/main/TUpper/between/convex_coppel.clif)
+(cl-imports https://raw.githubusercontent.com/gruninger/colore/master/ontologies/between/convex_coppel.clif)
 
 (cl-comment ‘Foundations of Convex Geometry, page 39’)
 
